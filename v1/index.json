@@ -1,0 +1,28 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/manifest.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "dateWindow": {
+    "oldest": "2026-06-25T15:45:00Z",
+    "newest": "2026-10-20T21:55:00Z",
+    "maxDaysAgo": 120
+  },
+  "baseUrl": "https://craft-birdeye.github.io/birdeye-business-context",
+  "files": {
+    "accountsIndex": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts-index.json",
+    "accounts": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts.json",
+    "branding": "https://craft-birdeye.github.io/birdeye-business-context/v1/branding.json",
+    "locations": "https://craft-birdeye.github.io/birdeye-business-context/v1/locations.json",
+    "contacts": "https://craft-birdeye.github.io/birdeye-business-context/v1/contacts.json",
+    "reviews": "https://craft-birdeye.github.io/birdeye-business-context/v1/reviews.json",
+    "accountBundle": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/{accountId}.json",
+    "logo": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/{accountId}.svg",
+    "schemas": "https://craft-birdeye.github.io/birdeye-business-context/schemas/"
+  },
+  "counts": {
+    "accounts": 40,
+    "locations": 224,
+    "contacts": 330,
+    "reviews": 338
+  }
+}
