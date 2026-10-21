@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Birdeye business context</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314213D'/%3E%3Ctext x='32' y='42' font-family='system-ui,sans-serif' font-size='28' font-weight='700' fill='%23FCA311' text-anchor='middle'%3EBC%3C/text%3E%3C/svg%3E" />
+  <style>
+    :root { --brand-primary:#14213D; --brand-secondary:#E9EEF6; --brand-accent:#FCA311; --brand-on-primary:#fff; }
+    body { font: 15px/1.5 system-ui, -apple-system, Segoe UI, sans-serif; margin: 0; color: #1d1d1f; background: var(--brand-secondary); }
+    header { background: var(--brand-primary); color: var(--brand-on-primary); padding: 20px 28px; display: flex; gap: 16px; align-items: center; }
+    header img { width: 48px; height: 48px; border-radius: 12px; }
+    main { max-width: 980px; margin: 0 auto; padding: 24px 28px 64px; }
+    select { font: inherit; padding: 6px 10px; }
+    .card { background: #fff; border-radius: 12px; padding: 16px 20px; margin: 16px 0; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+    .bar { border-left: 4px solid var(--brand-accent); padding-left: 12px; }
+    code { background: #f2f2f5; padding: 1px 5px; border-radius: 4px; }
+    table { border-collapse: collapse; width: 100%; } td, th { text-align: left; padding: 4px 8px; border-bottom: 1px solid #eee; vertical-align: top; }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 8px; }
+    .filters input { font: inherit; padding: 6px 10px; flex: 1 1 200px; min-width: 0; }
+    #count { color: #666; font-size: 13px; margin: 0 0 8px; }
+    select { max-width: 100%; }
+    @media (max-width: 600px) {
+      header { padding: 16px; } main { padding: 16px 12px 48px; } .card { padding: 12px 14px; }
+      #locs thead { display: none; }
+      #locs tr { display: block; padding: 8px 0; border-bottom: 1px solid #eee; }
+      #locs td { display: grid; grid-template-columns: 72px 1fr; gap: 8px; border: 0; padding: 2px 0; overflow-wrap: anywhere; }
+      #locs td::before { content: attr(data-label); color: #666; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <header><img id="logo" alt="" /><div><div id="brand" style="font-weight:700;font-size:20px">Birdeye business context</div><div id="tagline">Shared synthetic demo data</div></div></header>
+  <main>
+    <div class="card">
+      <p>Invented demo businesses for Birdeye prototypes and agents. Read the
+        <a href="https://github.com/craft-birdeye/birdeye-business-context#readme">README</a> for the consumer contract.
+        Manifest: <a href="v1/index.json"><code>v1/index.json</code></a> · Switcher index: <a href="v1/accounts-index.json"><code>v1/accounts-index.json</code></a> · Schemas: <a href="schemas/accounts.schema.json"><code>schemas/</code></a></p>
+      <label>Account switcher demo: <select id="switcher"></select></label>
+    </div>
+    <div class="card bar" id="summary"></div>
+    <div class="card"><h3>Locations</h3>
+      <div class="filters">
+        <input id="q" type="search" placeholder="Filter by name, city, state, or ZIP" aria-label="Filter locations" />
+        <select id="status" aria-label="Filter by status"><option value="">All statuses</option></select>
+      </div>
+      <p id="count"></p>
+      <table id="locs"></table></div>
+    <div class="card"><h3>Latest reviews</h3><div id="reviews"></div></div>
+  </main>
+  <script type="module">
+    const base = "v1";
+    const index = await (await fetch(`${base}/accounts-index.json`)).json();
+    const sel = document.getElementById("switcher");
+    for (const id of index.order) {
+      const a = index.accounts[id];
+      sel.add(new Option(`${a.name} · ${a.segmentLabel} · ${a.industryLabel} · ${a.purchasedLocations} loc`, id));
+    }
+    const fromHash = location.hash.slice(1);
+    sel.value = index.accounts[fromHash] ? fromHash : index.defaultAccountId;
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    const q = document.getElementById("q"), statusSel = document.getElementById("status");
+    let current = [];
+    function renderLocs() {
+      const term = q.value.trim().toLowerCase(), st = statusSel.value;
+      const rows = current.filter((l) => (!st || l.status === st) &&
+        (!term || [l.name, l.address.street1, l.address.city, l.address.state, l.address.zip].join(" ").toLowerCase().includes(term)));
+      document.getElementById("count").textContent = `${rows.length} of ${current.length} locations`;
+      document.getElementById("locs").innerHTML = "<thead><tr><th>Name</th><th>Address</th><th>Phone</th><th>Status</th></tr></thead><tbody>" + rows.map((l) =>
+        `<tr><td data-label="Name">${esc(l.name)}</td><td data-label="Address">${esc(l.address.street1)}${l.address.street2 ? ", " + esc(l.address.street2) : ""}, ${esc(l.address.city)}, ${esc(l.address.state)} ${esc(l.address.zip)}</td><td data-label="Phone">${esc(l.phone)}</td><td data-label="Status">${esc(l.status)}</td></tr>`).join("") + "</tbody>";
+    }
+    q.oninput = renderLocs; statusSel.onchange = renderLocs;
+    async function show(id) {
+      if (location.hash.slice(1) !== id) location.hash = id; // adds a history entry; hashchange ignores it (same id)
+      const { account, locations, reviews } = await (await fetch(`${base}/accounts/${id}.json`)).json();
+      if (sel.value !== id) return; // a newer selection arrived while this one was loading
+      const c = account.branding.colors, root = document.documentElement.style;
+      root.setProperty("--brand-primary", c.primary); root.setProperty("--brand-secondary", c.secondary);
+      root.setProperty("--brand-accent", c.accent); root.setProperty("--brand-on-primary", c.onPrimary);
+      document.getElementById("logo").src = account.branding.logo.path;
+      document.getElementById("brand").textContent = account.branding.brandName;
+      document.getElementById("tagline").textContent = account.branding.tagline;
+      document.getElementById("summary").innerHTML = `<b>${esc(account.name)}</b> <code>${esc(account.id)}</code><br>${esc(account.llmContext)}<br><i>Voice:</i> ${esc(account.tone.voice)}`;
+      current = locations; q.value = "";
+      statusSel.innerHTML = '<option value="">All statuses</option>' + [...new Set(locations.map((l) => l.status))].map((x) => `<option>${esc(x)}</option>`).join("");
+      renderLocs();
+      document.getElementById("reviews").innerHTML = [...reviews].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5).map((r) =>
+        `<p><b>${"★".repeat(r.rating)}${"☆".repeat(5 - r.rating)}</b> ${esc(r.reviewer)} · ${esc(r.site)} · ${new Date(r.date).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}<br>${esc(r.text).replace(/\n/g, "<br>")}</p>`).join("");
+    }
+    sel.onchange = () => show(sel.value);
+    // back/forward and pasted links: #<accountId> switches the account
+    window.addEventListener("hashchange", () => {
+      const id = location.hash.slice(1);
+      if (index.accounts[id] && id !== sel.value) { sel.value = id; show(id); }
+    });
+    show(sel.value);
+  </script>
+</body>
+</html>
