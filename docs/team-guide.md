@@ -63,6 +63,7 @@ applyBranding(account.branding);
 | Contacts | `contacts` | `location` holds the primary location label. `locationIds`/`locationCount` cover multi-location contacts. `createdOn` and `lastActivity` are ISO dates. |
 | Reviews | `reviews` | `site`, `rating`, `reviewer`, `date`, `text`, `location`, `employeesMentioned`. When `replyStatus` is `"edit"`, a `reply` already exists. |
 | Business info | `locations` + `account.profile` | The row count always equals `purchasedLocations`. Single-location accounts go straight to the profile editor. |
+| Listings (1.1.0) | `locations[].listings`, `reviewSummary`, `account.listingSummary` | Per-site rating, public review count, `ratingDistribution`, claimed/verified, and an `*.example.com` URL. Also `coordinates`, `categories`, `businessStatusLabel`, `specialHours` (can be future-dated), `attributes`, `photoCount`. See `docs/distributions.md`. |
 | Dashboard appearance / branding | `account.branding`, `account.tone` | Logo, brand name, colors (`primary`, `secondary`, `accent`, `onPrimary`), voice, and reply sign-off. |
 | Agent prompts | `account.llmContext` | A one-line brief: name · segment · industry · HQ · locations · CRM · blurb. |
 
@@ -157,6 +158,10 @@ What the validator enforces:
   To add a name, ask a maintainer: the plain-text list is kept outside the repo. `crm` must also be a
   product listed in `KNOWN_CRM_PRODUCTS` (`scripts/lib/denylist.mjs`).
 - Every address is complete, with city, state, ZIP, timezone, and area code agreeing.
+- Listing fields (1.1.0): coordinates within 25 km of the city center; each listing's `ratingDistribution`
+  sums to `reviewCount`, has at least as many reviews at each star as the sample, and its mean gives `rating`;
+  rollups add up; special-hours dates are the real holiday dates inside their window; categories,
+  attributes, and status come from `source/distributions.json`.
 
 ## 6. Privacy
 
