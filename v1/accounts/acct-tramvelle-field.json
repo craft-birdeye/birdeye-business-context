@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-tramvelle-field",
@@ -74,7 +74,17 @@
       "field team training",
       "local sponsorships"
     ],
-    "llmContext": "Tramvelle Field Marketing · Channel · Advertising and agency · HQ Miami, Florida, United States · 5 purchased locations · CRM HubSpot · Field marketing partner for Southeast multi-location retail and services brands."
+    "llmContext": "Tramvelle Field Marketing · Channel · Advertising and agency · HQ Miami, Florida, United States · 5 purchased locations · CRM HubSpot · Field marketing partner for Southeast multi-location retail and services brands.",
+    "listingSummary": {
+      "locations": 5,
+      "openLocations": 5,
+      "listings": 15,
+      "claimedListings": 11,
+      "verifiedListings": 9,
+      "totalReviews": 332,
+      "averageRating": 4.9,
+      "photoCount": 72
+    }
   },
   "locations": [
     {
@@ -110,7 +120,124 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-10-17T17:45:00Z"
+      "createdOn": "2026-10-17T17:45:00Z",
+      "coordinates": {
+        "lat": 25.68775,
+        "lng": -80.18728
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency",
+          "Advertising agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tramvelle-field-hq",
+          "claimed": true,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 34,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 33
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tramvelle-field-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tramvelle-field-hq",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 39,
+        "averageRating": 5,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tramvelle-field-loc-2",
@@ -145,7 +272,113 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-10-03T20:10:00Z"
+      "createdOn": "2026-10-03T20:10:00Z",
+      "coordinates": {
+        "lat": 28.60408,
+        "lng": -81.36689
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 11,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tramvelle-field-orlando-hub",
+          "claimed": true,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 51,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 49
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tramvelle-field-orlando-hub",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tramvelle-field-orlando-hub",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 64,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tramvelle-field-loc-3",
@@ -180,7 +413,117 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-09-19T15:35:00Z"
+      "createdOn": "2026-09-19T15:35:00Z",
+      "coordinates": {
+        "lat": 28.00769,
+        "lng": -82.36363
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 48,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tramvelle-field-tampa-hub",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 59,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 6,
+            "5": 49
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tramvelle-field-tampa-hub",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 12
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tramvelle-field-tampa-hub",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 78,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tramvelle-field-loc-4",
@@ -215,7 +558,119 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-09-05T18:00:00Z"
+      "createdOn": "2026-09-05T18:00:00Z",
+      "coordinates": {
+        "lat": 30.2821,
+        "lng": -81.59948
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 10,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tramvelle-field-jacksonville-hub",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 114,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 5,
+            "5": 109
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tramvelle-field-jacksonville-hub",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 11
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tramvelle-field-jacksonville-hub",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 138,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tramvelle-field-loc-5",
@@ -250,7 +705,117 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-08-22T21:25:00Z"
+      "createdOn": "2026-08-22T21:25:00Z",
+      "coordinates": {
+        "lat": 33.83971,
+        "lng": -84.3781
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tramvelle-field-atlanta-hub",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tramvelle-field-atlanta-hub",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 1
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tramvelle-field-atlanta-hub",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 13,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -521,7 +1086,7 @@
       "reviewer": "Yusuf Tavares",
       "date": "2026-09-09T18:55:00Z",
       "text": "We run more than 20 retail locations and Tramvelle Field is the first partner that made grand opening events feel manageable. Yesenia Cruz knows our markets by name.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
@@ -532,7 +1097,7 @@
       "reply": {
         "text": "Thanks so much, Yusuf! We'll pass this along to the whole Tramvelle Field team. See you next time.\n\nTramvelle Field Marketing",
         "author": "Tramvelle Field Marketing",
-        "date": "2026-09-10T20:35:00Z"
+        "date": "2026-09-09T21:55:00Z"
       }
     },
     {
@@ -542,21 +1107,18 @@
       "locationId": "acct-tramvelle-field-loc-2",
       "location": "Tramvelle Field - Orlando hub (Orlando, FL)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Zara Brannigan",
       "date": "2026-08-26T19:10:00Z",
-      "text": "Good strategy on in-store review drives, but the monthly invoice from Tramvelle Field has vague line items. Our finance team needs clearer activity summaries.",
-      "photoCount": 1,
+      "text": "Tramvelle Field handled local sponsorships for us and the results were obvious within a month. Yesenia Cruz keeps the updates short and useful.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Zara, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Tramvelle Field. A manager will reach out this week to make it right.\n\nTramvelle Field Marketing",
-        "author": "Tramvelle Field Marketing",
-        "date": "2026-08-28T21:05:00Z"
-      }
+      "employeesMentioned": [
+        "Yesenia Cruz"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-tramvelle-field-rev-3",
@@ -589,7 +1151,7 @@
       "reviewer": "Bianca Ridley",
       "date": "2026-07-29T17:35:00Z",
       "text": "Our account lead at Tramvelle Field left and we went a month without anyone owning local sponsorships. They've since assigned someone new, but the gap hurt.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -598,7 +1160,7 @@
       "reply": {
         "text": "Bianca, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Tramvelle Field. A manager will reach out this week to make it right.\n\nTramvelle Field Marketing",
         "author": "Tramvelle Field Marketing",
-        "date": "2026-07-31T19:05:00Z"
+        "date": "2026-07-30T14:50:00Z"
       }
     },
     {
@@ -612,7 +1174,7 @@
       "reviewer": "Cyrus Blackwood",
       "date": "2026-07-15T14:10:00Z",
       "text": "Darnell Hughes ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -632,12 +1194,17 @@
       "reviewer": "Delia Ingram",
       "date": "2026-07-01T15:30:00Z",
       "text": "Tramvelle Field cleaned up duplicate listings across our retail locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Delia, this made our day. Thanks for trusting us, and see you next time!\n\nTramvelle Field Marketing",
+        "author": "Tramvelle Field Marketing",
+        "date": "2026-07-02T03:40:00Z"
+      }
     },
     {
       "id": "acct-tramvelle-field-rev-7",
@@ -646,21 +1213,18 @@
       "locationId": "acct-tramvelle-field-loc-2",
       "location": "Tramvelle Field - Orlando hub (Orlando, FL)",
       "site": "google",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Emmett Pembrook",
       "date": "2026-10-10T20:00:00Z",
-      "text": "Tool access for field team training took weeks to sort out on the Tramvelle Field side. Once connected it worked, but setup was rough.",
-      "photoCount": 0,
+      "text": "Kat Romero answered every question about grand opening events the same day. Easy partner to work with.",
+      "photoCount": 2,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Emmett, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Tramvelle Field. A manager will reach out this week to make it right.\n\nTramvelle Field Marketing",
-        "author": "Tramvelle Field Marketing",
-        "date": "2026-10-11T14:00:00Z"
-      }
+      "employeesMentioned": [
+        "Kat Romero"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-tramvelle-field-rev-8",
@@ -673,14 +1237,19 @@
       "reviewer": "Flora Wexford",
       "date": "2026-09-26T21:50:00Z",
       "text": "Tramvelle Field took over local sponsorships for our team and the difference showed within a month. Darnell Hughes sends a short weekly update with exactly what changed and what to do next.",
-      "photoCount": 3,
+      "photoCount": 2,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Darnell Hughes"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Flora! Happy we could help, and we'll pass this along to the team.\n\nTramvelle Field Marketing",
+        "author": "Tramvelle Field Marketing",
+        "date": "2026-09-30T04:15:00Z"
+      }
     }
   ]
 }

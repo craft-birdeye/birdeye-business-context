@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-patchwhit-handyman",
@@ -73,7 +73,17 @@
       "a storm door install",
       "deck board replacement"
     ],
-    "llmContext": "Patchwhit Handyman Co · SMB · Home services and contractors · HQ Columbus, Ohio, United States · 1 purchased location · CRM Jobber · Neighborhood handyman and punch-list crew for Columbus homeowners."
+    "llmContext": "Patchwhit Handyman Co · SMB · Home services and contractors · HQ Columbus, Ohio, United States · 1 purchased location · CRM Jobber · Neighborhood handyman and punch-list crew for Columbus homeowners.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 3,
+      "verifiedListings": 3,
+      "totalReviews": 29,
+      "averageRating": 4.7,
+      "photoCount": 4
+    }
   },
   "locations": [
     {
@@ -119,7 +129,131 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-08-10T21:55:00Z"
+      "createdOn": "2026-08-10T21:55:00Z",
+      "coordinates": {
+        "lat": 39.9724,
+        "lng": -83.10127
+      },
+      "categories": {
+        "primary": "Handyman",
+        "secondary": [
+          "Carpenter"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/patchwhit-handyman-co",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 24,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 2,
+            "5": 20
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/patchwhit-handyman-co",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/patchwhit-handyman-co",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 29,
+        "averageRating": 4.7,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -390,7 +524,7 @@
       "reviewer": "Ivy Osgood",
       "date": "2026-08-15T14:55:00Z",
       "text": "Pete was friendly, but the crew left debris in the driveway after a punch list before listing our house and I had to call Patchwhit Handyman to get it picked up.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -401,7 +535,7 @@
       "reply": {
         "text": "Ivy, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Patchwhit Handyman. A manager will reach out this week to make it right.\n\nPete and the Patchwhit crew",
         "author": "Pete and the Patchwhit crew",
-        "date": "2026-08-16T16:50:00Z"
+        "date": "2026-08-15T18:15:00Z"
       }
     },
     {
@@ -435,14 +569,19 @@
       "reviewer": "Kira Galbraith",
       "date": "2026-07-18T20:45:00Z",
       "text": "Pete did a storm door install for us at Patchwhit Handyman. Solid work and a fair price. It took about a week to get on the schedule, which is the only reason it's not five stars.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Pete"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Kira, this made our day. Thanks for trusting us, and see you next time!\n\nPete and the Patchwhit crew",
+        "author": "Pete and the Patchwhit crew",
+        "date": "2026-07-19T07:35:00Z"
+      }
     },
     {
       "id": "acct-patchwhit-handyman-rev-4",
@@ -451,21 +590,18 @@
       "locationId": "acct-patchwhit-handyman-loc-1",
       "location": "Patchwhit Handyman Co (Columbus, OH)",
       "site": "google",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Leon Northcott",
       "date": "2026-07-04T21:00:00Z",
-      "text": "The handyman from Patchwhit Handyman showed up two hours late without a call. The work itself was done properly, but I lost half a workday waiting.",
-      "photoCount": 2,
+      "text": "Honest crew. We called about deck board replacement, and Pete found the real problem in ten minutes without upselling us on anything we didn't need. The invoice matched the estimate to the dollar, which is rare.",
+      "photoCount": 0,
       "featured": false,
       "archived": true,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Leon, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Patchwhit Handyman. A manager will reach out this week to make it right.\n\nPete and the Patchwhit crew",
-        "author": "Pete and the Patchwhit crew",
-        "date": "2026-07-06T15:40:00Z"
-      }
+      "employeesMentioned": [
+        "Pete"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-patchwhit-handyman-rev-5",
@@ -478,7 +614,7 @@
       "reviewer": "Marisa Underhill",
       "date": "2026-10-13T18:35:00Z",
       "text": "Second time using Patchwhit Handyman. Pete remembered our setup from last spring and finished a punch list before listing our house faster than quoted. The invoice matched the estimate exactly.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -494,10 +630,10 @@
       "locationId": "acct-patchwhit-handyman-loc-1",
       "location": "Patchwhit Handyman Co (Columbus, OH)",
       "site": "yelp",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Nico Castaneda",
       "date": "2026-09-29T19:55:00Z",
-      "text": "Patchwhit Handyman quoted one price on the phone for drywall patching and a much higher one once the handyman was here. I declined and got a second opinion. Not the experience I expected.",
+      "text": "Called Patchwhit Handyman about deck board replacement and got a real person right away. Showed up in the window they promised.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
@@ -505,9 +641,9 @@
       "employees": 0,
       "replyStatus": "edit",
       "reply": {
-        "text": "Nico, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Patchwhit Handyman. A manager will reach out this week to make it right.\n\nPete and the Patchwhit crew",
+        "text": "Thanks so much, Nico! Happy we could help, and we'll pass this along to the team.\n\nPete and the Patchwhit crew",
         "author": "Pete and the Patchwhit crew",
-        "date": "2026-10-01T21:10:00Z"
+        "date": "2026-10-02T11:55:00Z"
       }
     },
     {
@@ -521,7 +657,7 @@
       "reviewer": "Odette Jaramillo",
       "date": "2026-09-15T16:30:00Z",
       "text": "Pete took the time to show me what was wrong before recommending anything, and said plainly that a punch list before listing our house wasn't needed yet. That honesty earned Patchwhit Handyman a customer for life.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -532,7 +668,7 @@
       "reply": {
         "text": "Thanks so much, Odette! We'll pass this along to the whole Patchwhit Handyman team. See you next time.\n\nPete and the Patchwhit crew",
         "author": "Pete and the Patchwhit crew",
-        "date": "2026-09-16T18:55:00Z"
+        "date": "2026-09-16T14:05:00Z"
       }
     },
     {
@@ -542,21 +678,16 @@
       "locationId": "acct-patchwhit-handyman-loc-1",
       "location": "Patchwhit Handyman Co (Columbus, OH)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Pierce Rasmussen",
       "date": "2026-09-01T17:45:00Z",
-      "text": "Work quality on deck board replacement was good, but scheduling with Patchwhit Handyman took three phone calls and the confirmation email had the wrong date. The office side needs tightening.",
-      "photoCount": 2,
+      "text": "Great experience with a storm door install. On time, fair, and friendly.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Pierce, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Patchwhit Handyman. A manager will reach out this week to make it right.\n\nPete and the Patchwhit crew",
-        "author": "Pete and the Patchwhit crew",
-        "date": "2026-09-03T19:55:00Z"
-      }
+      "replyStatus": "post"
     }
   ]
 }

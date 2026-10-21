@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-panelbrook-collision",
@@ -74,7 +74,17 @@
       "a frame straightening",
       "a paint match"
     ],
-    "llmContext": "Panelbrook Collision Center · SMB · Automotive · HQ Milwaukee, Wisconsin, United States · 1 purchased location · CRM CCC ONE · Family-owned collision center with insurer DRP relationships in Milwaukee."
+    "llmContext": "Panelbrook Collision Center · SMB · Automotive · HQ Milwaukee, Wisconsin, United States · 1 purchased location · CRM CCC ONE · Family-owned collision center with insurer DRP relationships in Milwaukee.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 2,
+      "totalReviews": 63,
+      "averageRating": 4.7,
+      "photoCount": 10
+    }
   },
   "locations": [
     {
@@ -115,7 +125,125 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-07-08T18:15:00Z"
+      "createdOn": "2026-07-08T18:15:00Z",
+      "coordinates": {
+        "lat": 42.99698,
+        "lng": -87.81772
+      },
+      "categories": {
+        "primary": "Auto body shop",
+        "secondary": [
+          "Auto glass shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 10,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/panelbrook-collision-center",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 51,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 7,
+            "5": 42
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/panelbrook-collision-center",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 6
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/panelbrook-collision-center",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 4
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 63,
+        "averageRating": 4.7,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -386,7 +514,7 @@
       "reviewer": "Fenwick Mabry",
       "date": "2026-08-05T21:35:00Z",
       "text": "Picked up my car from Panelbrook Collision after a bumper repair and there was a new rattle that wasn't there before. Had to bring it back twice. They fixed it eventually, but it cost me two days.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -395,7 +523,7 @@
       "reply": {
         "text": "Fenwick, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Panelbrook Collision. A manager will reach out this week to make it right.\n\nThe Kowalbrook family, Panelbrook Collision Center",
         "author": "The Kowalbrook family, Panelbrook Collision Center",
-        "date": "2026-08-06T15:50:00Z"
+        "date": "2026-08-08T13:15:00Z"
       }
     },
     {
@@ -409,7 +537,7 @@
       "reviewer": "Gemma Vance-Ortiz",
       "date": "2026-07-22T16:40:00Z",
       "text": "Third visit to Panelbrook Collision and it's consistently good. My hail repair was finished early, and Becky reset my tire pressure light without being asked.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -425,20 +553,22 @@
       "locationId": "acct-panelbrook-collision-loc-1",
       "location": "Panelbrook Collision Center (Milwaukee, WI)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Hugo Ellery",
       "date": "2026-07-08T19:05:00Z",
-      "text": "Good work on a frame straightening, but the final bill from Panelbrook Collision was higher than the estimate because of shop fees nobody mentioned up front.",
+      "text": "Dropped the car at Panelbrook Collision for a bumper repair on my way to work. Tyrell called with a clear quote mid-morning, explained what could wait until next time, and it was ready before five. No pressure, no surprises.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Tyrell"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Hugo, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Panelbrook Collision. A manager will reach out this week to make it right.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "text": "We appreciate you taking the time to share this, Hugo. It means a lot to our team.\n\nThe Kowalbrook family, Panelbrook Collision Center",
         "author": "The Kowalbrook family, Panelbrook Collision Center",
-        "date": "2026-07-09T21:40:00Z"
+        "date": "2026-07-08T21:10:00Z"
       }
     },
     {
@@ -452,19 +582,14 @@
       "reviewer": "Ines Lockhart",
       "date": "2026-10-17T14:25:00Z",
       "text": "Stan Kowalbrook explained the inspection results in plain language and sorted out what could wait. Turnaround on a paint match ran a little longer than quoted.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Stan Kowalbrook"
       ],
       "employees": 1,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Thanks so much, Ines! We'll pass this along to the whole Panelbrook Collision team. See you next time.\n\nThe Kowalbrook family, Panelbrook Collision Center",
-        "author": "The Kowalbrook family, Panelbrook Collision Center",
-        "date": "2026-10-19T16:05:00Z"
-      }
+      "replyStatus": "post"
     },
     {
       "id": "acct-panelbrook-collision-rev-5",
@@ -477,14 +602,19 @@
       "reviewer": "Jonah Sandoval",
       "date": "2026-10-03T17:50:00Z",
       "text": "Fleet manager here. Panelbrook Collision keeps our vans on the road with one invoice a month and almost no downtime. Becky is our go-to contact.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Becky"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Jonah. It means a lot to our team.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "author": "The Kowalbrook family, Panelbrook Collision Center",
+        "date": "2026-10-09T00:00:00Z"
+      }
     },
     {
       "id": "acct-panelbrook-collision-rev-6",
@@ -493,20 +623,22 @@
       "locationId": "acct-panelbrook-collision-loc-1",
       "location": "Panelbrook Collision Center (Milwaukee, WI)",
       "site": "facebook",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Kaia Achebe",
       "date": "2026-09-19T20:15:00Z",
-      "text": "Booked a hail repair online with Panelbrook Collision, arrived on time, and still waited 50 minutes to be checked in.",
-      "photoCount": 1,
+      "text": "Becky had a frame straightening done by the time promised and texted photos before doing anything extra.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Becky"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Kaia, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Panelbrook Collision. A manager will reach out this week to make it right.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "text": "We appreciate you taking the time to share this, Kaia. It means a lot to our team.\n\nThe Kowalbrook family, Panelbrook Collision Center",
         "author": "The Kowalbrook family, Panelbrook Collision Center",
-        "date": "2026-09-21T14:15:00Z"
+        "date": "2026-09-21T06:50:00Z"
       }
     },
     {
@@ -520,7 +652,7 @@
       "reviewer": "Lionel Halvorsen",
       "date": "2026-09-05T15:45:00Z",
       "text": "Brought my car in for a frame straightening at Panelbrook Collision. Stan Kowalbrook texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
-      "photoCount": 0,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -531,7 +663,7 @@
       "reply": {
         "text": "Thanks so much, Lionel! We'll pass this along to the whole Panelbrook Collision team. See you next time.\n\nThe Kowalbrook family, Panelbrook Collision Center",
         "author": "The Kowalbrook family, Panelbrook Collision Center",
-        "date": "2026-09-06T17:15:00Z"
+        "date": "2026-09-15T20:55:00Z"
       }
     },
     {
@@ -545,14 +677,19 @@
       "reviewer": "Mila Okonjo",
       "date": "2026-08-22T18:40:00Z",
       "text": "My paint match was done right and priced fairly. The waiting area at Panelbrook Collision was busy and the Wi-Fi kept dropping, but Becky kept me updated.",
-      "photoCount": 3,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Becky"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Mila. It means a lot to our team.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "author": "The Kowalbrook family, Panelbrook Collision Center",
+        "date": "2026-08-23T13:00:00Z"
+      }
     }
   ]
 }

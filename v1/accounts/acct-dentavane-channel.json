@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-dentavane-channel",
@@ -74,7 +74,17 @@
       "a new-patient review campaign",
       "monthly reputation reporting"
     ],
-    "llmContext": "Dentavane Dental Marketing · Channel · Dental and healthcare · HQ Atlanta, Georgia, United States · 4 purchased locations · CRM HubSpot · Channel partner that runs listings and review programs for independent dental groups."
+    "llmContext": "Dentavane Dental Marketing · Channel · Dental and healthcare · HQ Atlanta, Georgia, United States · 4 purchased locations · CRM HubSpot · Channel partner that runs listings and review programs for independent dental groups.",
+    "listingSummary": {
+      "locations": 4,
+      "openLocations": 4,
+      "listings": 10,
+      "claimedListings": 7,
+      "verifiedListings": 5,
+      "totalReviews": 115,
+      "averageRating": 4.9,
+      "photoCount": 26
+    }
   },
   "locations": [
     {
@@ -110,7 +120,120 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-07-07T14:15:00Z"
+      "createdOn": "2026-07-07T14:15:00Z",
+      "coordinates": {
+        "lat": 33.79695,
+        "lng": -84.46943
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Advertising agency",
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 9,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/dentavane-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/dentavane-hq",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 1
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/dentavane-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 13,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-dentavane-channel-loc-2",
@@ -145,7 +268,84 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-10-19T15:35:00Z"
+      "createdOn": "2026-10-19T15:35:00Z",
+      "coordinates": {
+        "lat": 35.25877,
+        "lng": -80.81396
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency",
+          "Advertising agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 13,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/dentavane-client-hub-charlotte",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 2,
+            "5": 17
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 20,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 1
+      }
     },
     {
       "id": "acct-dentavane-channel-loc-3",
@@ -180,7 +380,113 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-10-05T20:05:00Z"
+      "createdOn": "2026-10-05T20:05:00Z",
+      "coordinates": {
+        "lat": 27.97399,
+        "lng": -82.50439
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/dentavane-client-hub-tampa",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 17,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 15
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/dentavane-client-hub-tampa",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/dentavane-client-hub-tampa",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 20,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-dentavane-channel-loc-4",
@@ -215,7 +521,113 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-09-21T21:25:00Z"
+      "createdOn": "2026-09-21T21:25:00Z",
+      "coordinates": {
+        "lat": 32.67511,
+        "lng": -96.77986
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 3,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/dentavane-client-hub-dallas",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 54,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 49
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/dentavane-client-hub-dallas",
+          "claimed": true,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 5
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/dentavane-client-hub-dallas",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 62,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -501,7 +913,7 @@
       "reply": {
         "text": "Thanks so much, Ivy! We'll pass this along to the whole Dentavane team. See you next time.\n\nThe Dentavane partner team",
         "author": "The Dentavane partner team",
-        "date": "2026-09-15T19:50:00Z"
+        "date": "2026-09-16T08:20:00Z"
       }
     },
     {
@@ -515,7 +927,7 @@
       "reviewer": "Jasper Tolliver",
       "date": "2026-08-31T20:05:00Z",
       "text": "Our kickoff with Dentavane for listings cleanup for our practices was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -524,7 +936,7 @@
       "reply": {
         "text": "Jasper, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Dentavane. A manager will reach out this week to make it right.\n\nThe Dentavane partner team",
         "author": "The Dentavane partner team",
-        "date": "2026-09-02T14:25:00Z"
+        "date": "2026-09-02T19:35:00Z"
       }
     },
     {
@@ -538,7 +950,7 @@
       "reviewer": "Kira Dunleavy",
       "date": "2026-08-17T15:35:00Z",
       "text": "We run more than 20 dental locations and Dentavane is the first partner that made a new-patient review campaign feel manageable. Hollis Grant knows our markets by name.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -554,20 +966,22 @@
       "locationId": "acct-dentavane-channel-loc-4",
       "location": "Dentavane - Client hub - Dallas (Dallas, TX)",
       "site": "yelp",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Leon Kingsley",
       "date": "2026-08-03T18:00:00Z",
-      "text": "Good strategy on monthly reputation reporting, but the monthly invoice from Dentavane has vague line items. Our finance team needs clearer activity summaries.",
-      "photoCount": 1,
+      "text": "Onboarding with Dentavane was smooth and fast. Hollis Grant learned our locations by name in the first week, flagged two quick wins for monthly reputation reporting, and the dashboard they set up is something our regional managers actually open.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Hollis Grant"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Leon, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Dentavane. A manager will reach out this week to make it right.\n\nThe Dentavane partner team",
+        "text": "We appreciate you taking the time to share this, Leon. It means a lot to our team.\n\nThe Dentavane partner team",
         "author": "The Dentavane partner team",
-        "date": "2026-08-05T20:40:00Z"
+        "date": "2026-08-03T21:40:00Z"
       }
     },
     {
@@ -588,7 +1002,12 @@
         "Felipe Arroyo"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for the kind words, Marisa. We're glad everything went smoothly and look forward to seeing you again.\n\nThe Dentavane partner team",
+        "author": "The Dentavane partner team",
+        "date": "2026-07-21T21:05:00Z"
+      }
     },
     {
       "id": "acct-dentavane-channel-rev-6",
@@ -597,20 +1016,22 @@
       "locationId": "acct-dentavane-channel-loc-2",
       "location": "Dentavane - Client hub - Charlotte (Charlotte, NC)",
       "site": "google",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Nico Zamora",
       "date": "2026-07-06T16:50:00Z",
-      "text": "Our account lead at Dentavane left and we went a month without anyone owning listings cleanup for our practices. They've since assigned someone new, but the gap hurt.",
-      "photoCount": 3,
+      "text": "Dentavane took a new-patient review campaign off our plate completely. Monthly check-ins with Hollis Grant are the most useful meeting on our calendar.",
+      "photoCount": 0,
       "featured": false,
       "archived": true,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Hollis Grant"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Nico, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Dentavane. A manager will reach out this week to make it right.\n\nThe Dentavane partner team",
+        "text": "We appreciate you taking the time to share this, Nico. It means a lot to our team.\n\nThe Dentavane partner team",
         "author": "The Dentavane partner team",
-        "date": "2026-07-08T18:15:00Z"
+        "date": "2026-07-08T12:25:00Z"
       }
     },
     {
@@ -624,7 +1045,7 @@
       "reviewer": "Odette Guerrero",
       "date": "2026-10-15T19:15:00Z",
       "text": "Dana Cruzalva ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -635,7 +1056,7 @@
       "reply": {
         "text": "Thanks so much, Odette! We'll pass this along to the whole Dentavane team. See you next time.\n\nThe Dentavane partner team",
         "author": "The Dentavane partner team",
-        "date": "2026-10-16T21:30:00Z"
+        "date": "2026-10-15T20:10:00Z"
       }
     },
     {
@@ -649,7 +1070,7 @@
       "reviewer": "Pierce Nakashima",
       "date": "2026-10-01T14:50:00Z",
       "text": "Dentavane cleaned up duplicate listings across our dental locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],

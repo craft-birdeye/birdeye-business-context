@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-quarrytide-electric",
@@ -75,7 +75,17 @@
       "recessed lighting",
       "a whole-home surge protector"
     ],
-    "llmContext": "Quarrytide Electric · Enterprise · Home services and contractors · HQ San Diego, California, United States · 6 purchased locations · CRM Housecall Pro · Residential and light-commercial electrical contractor across San Diego County."
+    "llmContext": "Quarrytide Electric · Enterprise · Home services and contractors · HQ San Diego, California, United States · 6 purchased locations · CRM Housecall Pro · Residential and light-commercial electrical contractor across San Diego County.",
+    "listingSummary": {
+      "locations": 6,
+      "openLocations": 5,
+      "listings": 15,
+      "claimedListings": 11,
+      "verifiedListings": 11,
+      "totalReviews": 275,
+      "averageRating": 4.8,
+      "photoCount": 425
+    }
   },
   "locations": [
     {
@@ -121,7 +131,132 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-07T16:00:00Z"
+      "createdOn": "2026-07-07T16:00:00Z",
+      "coordinates": {
+        "lat": 32.68086,
+        "lng": -117.14296
+      },
+      "categories": {
+        "primary": "Electrician",
+        "secondary": [
+          "Electric vehicle charging station contractor",
+          "Generator shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 329,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/quarrytide-electric-san-diego-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 101,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 97
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/quarrytide-electric-san-diego-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 8,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/quarrytide-electric-san-diego-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 14
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 129,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-quarrytide-electric-loc-2",
@@ -166,7 +301,131 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-19T21:30:00Z"
+      "createdOn": "2026-10-19T21:30:00Z",
+      "coordinates": {
+        "lat": 32.54199,
+        "lng": -117.08014
+      },
+      "categories": {
+        "primary": "Electrician",
+        "secondary": [
+          "Electric vehicle charging station contractor"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 7,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/quarrytide-electric-chula-vista",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 41,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 38
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/quarrytide-electric-chula-vista",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/quarrytide-electric-chula-vista",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 4
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 52,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-quarrytide-electric-loc-3",
@@ -211,7 +470,111 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-10-05T18:05:00Z"
+      "createdOn": "2026-10-05T18:05:00Z",
+      "coordinates": {
+        "lat": 33.18726,
+        "lng": -117.2377
+      },
+      "categories": {
+        "primary": "Electrician",
+        "secondary": [
+          "Lighting contractor"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/quarrytide-electric-carlsbad",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/quarrytide-electric-carlsbad",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 16,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-quarrytide-electric-loc-4",
@@ -256,7 +619,108 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-09-21T15:40:00Z"
+      "createdOn": "2026-09-21T15:40:00Z",
+      "coordinates": {
+        "lat": 33.05348,
+        "lng": -117.00975
+      },
+      "categories": {
+        "primary": "Electrician",
+        "secondary": [
+          "Electric vehicle charging station contractor",
+          "Lighting contractor"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 20,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/quarrytide-electric-escondido",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 19,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 15
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/quarrytide-electric-escondido",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 21,
+        "averageRating": 4.6,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-quarrytide-electric-loc-5",
@@ -301,7 +765,123 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-07T20:15:00Z"
+      "createdOn": "2026-09-07T20:15:00Z",
+      "coordinates": {
+        "lat": 33.23278,
+        "lng": -117.3025
+      },
+      "categories": {
+        "primary": "Electrician",
+        "secondary": [
+          "Generator shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/quarrytide-electric-oceanside",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 26,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 23
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/quarrytide-electric-oceanside",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/quarrytide-electric-oceanside",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 4
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 33,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-quarrytide-electric-loc-6",
@@ -346,7 +926,119 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-24T17:50:00Z"
+      "createdOn": "2026-08-24T17:50:00Z",
+      "coordinates": {
+        "lat": 32.72747,
+        "lng": -116.96604
+      },
+      "categories": {
+        "primary": "Electrician",
+        "secondary": [
+          "Lighting contractor"
+        ]
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 51,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/quarrytide-electric-el-cajon",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 22,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 21
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/quarrytide-electric-el-cajon",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 24,
+        "averageRating": 5,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     }
   ],
   "contacts": [
@@ -621,7 +1313,7 @@
       "reviewer": "Orion Dunleavy",
       "date": "2026-08-30T19:55:00Z",
       "text": "Needed an EV charger install and Quarrytide Electric gave me a two-hour arrival window. Nate showed up early in it, explained the options with prices, and cleaned up before leaving.",
-      "photoCount": 0,
+      "photoCount": 1,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
@@ -632,7 +1324,7 @@
       "reply": {
         "text": "Thanks so much, Orion! We'll pass this along to the whole Quarrytide Electric team. See you next time.\n\nQuarrytide Electric",
         "author": "Quarrytide Electric",
-        "date": "2026-08-31T21:10:00Z"
+        "date": "2026-09-12T09:00:00Z"
       }
     },
     {
@@ -646,7 +1338,7 @@
       "reviewer": "Paloma Kingsley",
       "date": "2026-08-16T18:40:00Z",
       "text": "Dolores did a panel upgrade for us at the Chula Vista location. Solid work and a fair price. It took about a week to get on the schedule, which is the only reason it's not five stars.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -666,7 +1358,7 @@
       "reviewer": "Reuben Rourke",
       "date": "2026-08-02T21:05:00Z",
       "text": "The electrician from Quarrytide Electric showed up two hours late without a call. The work itself was done properly, but I lost half a workday waiting.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -675,7 +1367,7 @@
       "reply": {
         "text": "Reuben, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Quarrytide Electric. A manager will reach out this week to make it right.\n\nQuarrytide Electric",
         "author": "Quarrytide Electric",
-        "date": "2026-08-03T15:40:00Z"
+        "date": "2026-08-04T15:10:00Z"
       }
     },
     {
@@ -689,7 +1381,7 @@
       "reviewer": "Sabine Zamora",
       "date": "2026-07-19T20:45:00Z",
       "text": "Second time using Quarrytide Electric. Austin remembered our setup from last spring and finished a whole-home surge protector faster than quoted. The invoice matched the estimate exactly.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -700,7 +1392,7 @@
       "reply": {
         "text": "Thanks so much, Sabine! We'll pass this along to the whole Quarrytide Electric team. See you next time.\n\nQuarrytide Electric",
         "author": "Quarrytide Electric",
-        "date": "2026-07-21T14:05:00Z"
+        "date": "2026-07-20T07:05:00Z"
       }
     },
     {
@@ -710,20 +1402,22 @@
       "locationId": "acct-quarrytide-electric-loc-5",
       "location": "Quarrytide Electric - Oceanside (Oceanside, CA)",
       "site": "yelp",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Tobias Guerrero",
       "date": "2026-07-05T15:15:00Z",
-      "text": "Quarrytide Electric quoted one price on the phone for an EV charger install and a much higher one once the electrician was here. I declined and got a second opinion. Not the experience I expected.",
+      "text": "We had a tight timeline before guests arrived, and Quarrytide Electric still fit a whole-home surge protector in that week. Nate texted twenty minutes out, walked us through the work at the end, and left the place cleaner than it was.",
       "photoCount": 0,
       "featured": false,
       "archived": true,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Nate"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Tobias, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Quarrytide Electric. A manager will reach out this week to make it right.\n\nQuarrytide Electric",
+        "text": "We appreciate you taking the time to share this, Tobias. It means a lot to our team.\n\nQuarrytide Electric",
         "author": "Quarrytide Electric",
-        "date": "2026-07-06T17:25:00Z"
+        "date": "2026-07-08T01:25:00Z"
       }
     },
     {
@@ -737,14 +1431,19 @@
       "reviewer": "Uma Nakashima",
       "date": "2026-10-14T14:55:00Z",
       "text": "Dolores took the time to show me what was wrong before recommending anything, and said plainly that a whole-home surge protector wasn't needed yet. That honesty earned Quarrytide Electric a customer for life.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Dolores"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Uma. We're glad we could help and have shared your note with the team.\n\nQuarrytide Electric",
+        "author": "Quarrytide Electric",
+        "date": "2026-10-17T09:10:00Z"
+      }
     },
     {
       "id": "acct-quarrytide-electric-rev-7",
@@ -753,20 +1452,20 @@
       "locationId": "acct-quarrytide-electric-loc-1",
       "location": "Quarrytide Electric - San Diego HQ (San Diego, CA)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Vaughn Vasquez-Lane",
       "date": "2026-09-30T17:20:00Z",
-      "text": "Work quality on recessed lighting was good, but scheduling with Quarrytide Electric took three phone calls and the confirmation email had the wrong date. The office side needs tightening.",
-      "photoCount": 2,
+      "text": "Called Quarrytide Electric about a panel upgrade and got a real person right away. Showed up in the window they promised.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
       "replyStatus": "edit",
       "reply": {
-        "text": "Vaughn, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Quarrytide Electric. A manager will reach out this week to make it right.\n\nQuarrytide Electric",
+        "text": "Thank you for the kind words, Vaughn. We're glad everything went smoothly and look forward to seeing you again.\n\nQuarrytide Electric",
         "author": "Quarrytide Electric",
-        "date": "2026-10-01T19:30:00Z"
+        "date": "2026-10-04T20:20:00Z"
       }
     },
     {
@@ -780,7 +1479,7 @@
       "reviewer": "Willa Dempsey",
       "date": "2026-09-16T16:05:00Z",
       "text": "Property manager here. Quarrytide Electric handled a whole-home surge protector across two of our buildings and sent photos and invoices the same day. Tenant notices could be a bit more proactive.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],

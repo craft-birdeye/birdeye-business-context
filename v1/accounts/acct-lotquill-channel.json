@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-lotquill-channel",
@@ -74,7 +74,17 @@
       "service-lane review requests",
       "dealer group reporting"
     ],
-    "llmContext": "Lotquill Dealer Marketing · Channel · Automotive · HQ Detroit, Michigan, United States · 5 purchased locations · CRM HubSpot · Channel partner that standardizes review and listing programs for regional dealer groups."
+    "llmContext": "Lotquill Dealer Marketing · Channel · Automotive · HQ Detroit, Michigan, United States · 5 purchased locations · CRM HubSpot · Channel partner that standardizes review and listing programs for regional dealer groups.",
+    "listingSummary": {
+      "locations": 5,
+      "openLocations": 5,
+      "listings": 13,
+      "claimedListings": 11,
+      "verifiedListings": 11,
+      "totalReviews": 266,
+      "averageRating": 4.8,
+      "photoCount": 43
+    }
   },
   "locations": [
     {
@@ -110,7 +120,109 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-07-24T16:50:00Z"
+      "createdOn": "2026-07-24T16:50:00Z",
+      "coordinates": {
+        "lat": 42.27967,
+        "lng": -83.16249
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lotquill-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 46,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 44
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lotquill-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/lotquill-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 8,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 6
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 58,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-lotquill-channel-loc-2",
@@ -145,7 +257,115 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-07-10T21:20:00Z"
+      "createdOn": "2026-07-10T21:20:00Z",
+      "coordinates": {
+        "lat": 41.85475,
+        "lng": -87.54413
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Website designer"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lotquill-dealer-hub-chicago",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 12
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lotquill-dealer-hub-chicago",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/lotquill-dealer-hub-chicago",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 17,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-lotquill-channel-loc-3",
@@ -180,7 +400,99 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-06-26T18:55:00Z"
+      "createdOn": "2026-06-26T18:55:00Z",
+      "coordinates": {
+        "lat": 41.50304,
+        "lng": -81.7528
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Advertising agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lotquill-dealer-hub-cleveland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 113,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 2,
+            "3": 1,
+            "4": 8,
+            "5": 101
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/lotquill-dealer-hub-cleveland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 26,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 3,
+            "5": 18
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 139,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-lotquill-channel-loc-4",
@@ -215,7 +527,115 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-10-08T15:30:00Z"
+      "createdOn": "2026-10-08T15:30:00Z",
+      "coordinates": {
+        "lat": 39.8502,
+        "lng": -86.07869
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Website designer"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lotquill-dealer-hub-indianapolis",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lotquill-dealer-hub-indianapolis",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/lotquill-dealer-hub-indianapolis",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 9,
+        "averageRating": 5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-lotquill-channel-loc-5",
@@ -250,7 +670,99 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-09-24T20:05:00Z"
+      "createdOn": "2026-09-24T20:05:00Z",
+      "coordinates": {
+        "lat": 40.02513,
+        "lng": -83.0603
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Internet marketing service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        }
+      ],
+      "photoCount": 33,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lotquill-dealer-hub-columbus",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 39,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 36
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lotquill-dealer-hub-columbus",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 43,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     }
   ],
   "contacts": [
@@ -532,7 +1044,7 @@
       "reply": {
         "text": "Thanks so much, Yvette! We'll pass this along to the whole Lotquill team. See you next time.\n\nLotquill Dealer Marketing",
         "author": "Lotquill Dealer Marketing",
-        "date": "2026-08-01T21:00:00Z"
+        "date": "2026-07-31T20:10:00Z"
       }
     },
     {
@@ -546,12 +1058,17 @@
       "reviewer": "Zion Okonjo",
       "date": "2026-07-17T18:30:00Z",
       "text": "Lotquill cleaned up duplicate listings across our dealership locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
-      "photoCount": 3,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Zion. It means a lot to our team.\n\nLotquill Dealer Marketing",
+        "author": "Lotquill Dealer Marketing",
+        "date": "2026-07-17T19:25:00Z"
+      }
     },
     {
       "id": "acct-lotquill-channel-rev-3",
@@ -564,7 +1081,7 @@
       "reviewer": "Arlo Whitmore",
       "date": "2026-07-03T21:55:00Z",
       "text": "Tool access for service-lane review requests took weeks to sort out on the Lotquill side. Once connected it worked, but setup was rough.",
-      "photoCount": 2,
+      "photoCount": 1,
       "featured": false,
       "archived": true,
       "employeesMentioned": [],
@@ -573,7 +1090,7 @@
       "reply": {
         "text": "Arlo, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Lotquill. A manager will reach out this week to make it right.\n\nLotquill Dealer Marketing",
         "author": "Lotquill Dealer Marketing",
-        "date": "2026-07-04T15:10:00Z"
+        "date": "2026-07-04T15:05:00Z"
       }
     },
     {
@@ -587,7 +1104,7 @@
       "reviewer": "Bryony Everly",
       "date": "2026-10-12T20:35:00Z",
       "text": "Lotquill took over dealer group reporting for our team and the difference showed within a month. Mitch Kowal sends a short weekly update with exactly what changed and what to do next.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -598,7 +1115,7 @@
       "reply": {
         "text": "Thanks so much, Bryony! We'll pass this along to the whole Lotquill team. See you next time.\n\nLotquill Dealer Marketing",
         "author": "Lotquill Dealer Marketing",
-        "date": "2026-10-14T14:55:00Z"
+        "date": "2026-10-15T10:30:00Z"
       }
     },
     {
@@ -628,21 +1145,18 @@
       "locationId": "acct-lotquill-channel-loc-1",
       "location": "Lotquill - HQ (Detroit, MI)",
       "site": "google",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Dahlia Vance-Ortiz",
       "date": "2026-09-14T14:45:00Z",
-      "text": "Our kickoff with Lotquill for listings for our service departments was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
-      "photoCount": 3,
+      "text": "Omar Saleh answered every question about service-lane review requests the same day. Easy partner to work with.",
+      "photoCount": 1,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Dahlia, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Lotquill. A manager will reach out this week to make it right.\n\nLotquill Dealer Marketing",
-        "author": "Lotquill Dealer Marketing",
-        "date": "2026-09-16T16:25:00Z"
-      }
+      "employeesMentioned": [
+        "Omar Saleh"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-lotquill-channel-rev-7",
@@ -655,7 +1169,7 @@
       "reviewer": "Elio Ellery",
       "date": "2026-08-31T17:10:00Z",
       "text": "We run more than 20 dealership locations and Lotquill is the first partner that made service-lane review requests feel manageable. Mitch Kowal knows our markets by name.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -666,7 +1180,7 @@
       "reply": {
         "text": "Thanks so much, Elio! We'll pass this along to the whole Lotquill team. See you next time.\n\nLotquill Dealer Marketing",
         "author": "Lotquill Dealer Marketing",
-        "date": "2026-09-01T19:40:00Z"
+        "date": "2026-09-07T15:15:00Z"
       }
     },
     {
@@ -680,7 +1194,7 @@
       "reviewer": "Fern Lockhart",
       "date": "2026-08-17T16:55:00Z",
       "text": "Good strategy on dealer group reporting, but the monthly invoice from Lotquill has vague line items. Our finance team needs clearer activity summaries.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -689,7 +1203,7 @@
       "reply": {
         "text": "Fern, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Lotquill. A manager will reach out this week to make it right.\n\nLotquill Dealer Marketing",
         "author": "Lotquill Dealer Marketing",
-        "date": "2026-08-19T18:00:00Z"
+        "date": "2026-08-17T17:15:00Z"
       }
     }
   ]

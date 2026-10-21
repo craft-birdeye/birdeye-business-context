@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-puddlewick-kids",
@@ -74,7 +74,17 @@
       "a sealant appointment",
       "a six-month checkup"
     ],
-    "llmContext": "Puddlewick Kids Dentistry · SMB · Dental and healthcare · HQ Portland, Oregon, United States · 1 purchased location · CRM Open Dental · Pediatric-only practice serving Portland families with sedation and special-needs care."
+    "llmContext": "Puddlewick Kids Dentistry · SMB · Dental and healthcare · HQ Portland, Oregon, United States · 1 purchased location · CRM Open Dental · Pediatric-only practice serving Portland families with sedation and special-needs care.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 2,
+      "totalReviews": 594,
+      "averageRating": 4.9,
+      "photoCount": 36
+    }
   },
   "locations": [
     {
@@ -115,7 +125,135 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-10-17T20:55:00Z"
+      "createdOn": "2026-10-17T20:55:00Z",
+      "coordinates": {
+        "lat": 45.52927,
+        "lng": -122.56361
+      },
+      "categories": {
+        "primary": "Pediatric dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 36,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/puddlewick-kids-dentistry",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 486,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 2,
+            "4": 20,
+            "5": 463
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/puddlewick-kids-dentistry",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 56,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 50
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/puddlewick-kids-dentistry",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 52,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 5,
+            "5": 43
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 594,
+        "averageRating": 4.9,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -382,21 +520,18 @@
       "locationId": "acct-puddlewick-kids-loc-1",
       "location": "Puddlewick Kids Dentistry (Portland, OR)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Fenwick Szabo",
       "date": "2026-09-24T15:30:00Z",
-      "text": "The care at Puddlewick Kids Dentistry was fine, but weeks later I got a bill for a sealant appointment that I thought insurance covered. Please check coverage before the visit, not after.",
-      "photoCount": 2,
+      "text": "Dr. Priya Sandhu made a six-month checkup painless. Clear pricing up front from Puddlewick Kids Dentistry, no surprises at checkout.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Fenwick, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Puddlewick Kids Dentistry. A manager will reach out this week to make it right.\n\nDr. Priya Sandhu and the Puddlewick Kids crew",
-        "author": "Dr. Priya Sandhu and the Puddlewick Kids crew",
-        "date": "2026-09-25T17:20:00Z"
-      }
+      "employeesMentioned": [
+        "Dr. Priya Sandhu"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-puddlewick-kids-rev-2",
@@ -409,7 +544,7 @@
       "reviewer": "Gemma Ashby",
       "date": "2026-09-10T14:15:00Z",
       "text": "Brought my teenager in for a sedation visit. Miss Corinne talked to her directly instead of over her head, and she actually wants to go back to Puddlewick Kids Dentistry. That's a first.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -438,7 +573,7 @@
       "reply": {
         "text": "Hugo, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Puddlewick Kids Dentistry. A manager will reach out this week to make it right.\n\nDr. Priya Sandhu and the Puddlewick Kids crew",
         "author": "Dr. Priya Sandhu and the Puddlewick Kids crew",
-        "date": "2026-08-28T19:30:00Z"
+        "date": "2026-08-29T16:00:00Z"
       }
     },
     {
@@ -452,7 +587,7 @@
       "reviewer": "Ines Prescott",
       "date": "2026-08-13T16:50:00Z",
       "text": "Dr. Priya Sandhu handled a six-month checkup with a light touch and gave clear instructions afterward. Parking near Puddlewick Kids Dentistry is limited at midday, but the care is worth it.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -463,7 +598,7 @@
       "reply": {
         "text": "Thanks so much, Ines! We'll pass this along to the whole Puddlewick Kids Dentistry team. See you next time.\n\nDr. Priya Sandhu and the Puddlewick Kids crew",
         "author": "Dr. Priya Sandhu and the Puddlewick Kids crew",
-        "date": "2026-08-15T18:15:00Z"
+        "date": "2026-08-18T20:50:00Z"
       }
     },
     {
@@ -477,14 +612,19 @@
       "reviewer": "Jonah Abernethy",
       "date": "2026-07-30T19:15:00Z",
       "text": "Asked for a second opinion after another office pushed hard for a sealant appointment. Miss Corinne said I didn't need it yet and showed me why on the scan. An honest pediatric dentist is hard to find, and Puddlewick Kids Dentistry has one.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Miss Corinne"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Jonah, this made our day. Thanks for trusting us, and see you next time!\n\nDr. Priya Sandhu and the Puddlewick Kids crew",
+        "author": "Dr. Priya Sandhu and the Puddlewick Kids crew",
+        "date": "2026-07-30T23:15:00Z"
+      }
     },
     {
       "id": "acct-puddlewick-kids-rev-6",
@@ -497,14 +637,19 @@
       "reviewer": "Kaia Hargrove",
       "date": "2026-07-16T18:55:00Z",
       "text": "Came in for a sedation visit at Puddlewick Kids Dentistry. Dr. Owen Lacey explained each step before starting and checked in halfway through. We finished on time and my next visit was booked before I left.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Dr. Owen Lacey"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Kaia, this made our day. Thanks for trusting us, and see you next time!\n\nDr. Priya Sandhu and the Puddlewick Kids crew",
+        "author": "Dr. Priya Sandhu and the Puddlewick Kids crew",
+        "date": "2026-07-17T06:45:00Z"
+      }
     },
     {
       "id": "acct-puddlewick-kids-rev-7",
@@ -528,7 +673,7 @@
       "reply": {
         "text": "Thanks so much, Lionel! We'll pass this along to the whole Puddlewick Kids Dentistry team. See you next time.\n\nDr. Priya Sandhu and the Puddlewick Kids crew",
         "author": "Dr. Priya Sandhu and the Puddlewick Kids crew",
-        "date": "2026-07-03T15:00:00Z"
+        "date": "2026-07-03T04:30:00Z"
       }
     },
     {
@@ -542,12 +687,17 @@
       "reviewer": "Mila Valdivia",
       "date": "2026-10-11T20:30:00Z",
       "text": "Good experience with a six-month checkup at Puddlewick Kids Dentistry. The team was organized and the final bill matched the estimate. The waiting room was crowded around 4 p.m., so book early if you can.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Mila! Happy we could help, and we'll pass this along to the team.\n\nDr. Priya Sandhu and the Puddlewick Kids crew",
+        "author": "Dr. Priya Sandhu and the Puddlewick Kids crew",
+        "date": "2026-10-12T12:25:00Z"
+      }
     }
   ]
 }

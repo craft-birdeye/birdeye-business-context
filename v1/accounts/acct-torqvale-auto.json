@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-torqvale-auto",
@@ -75,7 +75,17 @@
       "an oil change and rotation",
       "a check-engine diagnostic"
     ],
-    "llmContext": "Torqvale Auto Care · Enterprise · Automotive · HQ Denver, Colorado, United States · 8 purchased locations · CRM Tekion · Multi-location auto service group for Denver metro fleets and retail customers."
+    "llmContext": "Torqvale Auto Care · Enterprise · Automotive · HQ Denver, Colorado, United States · 8 purchased locations · CRM Tekion · Multi-location auto service group for Denver metro fleets and retail customers.",
+    "listingSummary": {
+      "locations": 8,
+      "openLocations": 8,
+      "listings": 22,
+      "claimedListings": 17,
+      "verifiedListings": 16,
+      "totalReviews": 1220,
+      "averageRating": 4.6,
+      "photoCount": 248
+    }
   },
   "locations": [
     {
@@ -116,7 +126,130 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-09-13T18:50:00Z"
+      "createdOn": "2026-09-13T18:50:00Z",
+      "coordinates": {
+        "lat": 39.79239,
+        "lng": -104.98471
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Oil change service",
+          "Auto air conditioning service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/torqvale-denver",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 64,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 3,
+            "4": 8,
+            "5": 50
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/torqvale-denver",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 18,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 14
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/torqvale-denver",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.9,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 6
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 92,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-torqvale-auto-loc-2",
@@ -156,7 +289,110 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-30T19:05:00Z"
+      "createdOn": "2026-08-30T19:05:00Z",
+      "coordinates": {
+        "lat": 39.69764,
+        "lng": -104.98034
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Auto air conditioning service",
+          "Car inspection station"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 17,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/torqvale-aurora",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 286,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 4,
+            "3": 8,
+            "4": 33,
+            "5": 233
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/torqvale-aurora",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 28,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 26
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 314,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-torqvale-auto-loc-3",
@@ -196,7 +432,129 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-08-16T16:40:00Z"
+      "createdOn": "2026-08-16T16:40:00Z",
+      "coordinates": {
+        "lat": 39.78676,
+        "lng": -105.04298
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Oil change service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 27,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/torqvale-lakewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 220,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 4,
+            "3": 7,
+            "4": 26,
+            "5": 175
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/torqvale-lakewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 36,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 30
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/torqvale-lakewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 49,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 6,
+            "5": 37
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 305,
+        "averageRating": 4.6,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-torqvale-auto-loc-4",
@@ -236,7 +594,109 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-08-02T17:30:00Z"
+      "createdOn": "2026-08-02T17:30:00Z",
+      "coordinates": {
+        "lat": 39.81883,
+        "lng": -104.96759
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Auto air conditioning service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 69,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/torqvale-thornton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 26,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 22
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/torqvale-thornton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 29,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-torqvale-auto-loc-5",
@@ -276,7 +736,125 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-07-19T14:05:00Z"
+      "createdOn": "2026-07-19T14:05:00Z",
+      "coordinates": {
+        "lat": 39.62229,
+        "lng": -104.76635
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Oil change service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 64,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/torqvale-centennial",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 120,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 3,
+            "3": 5,
+            "4": 15,
+            "5": 89
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/torqvale-centennial",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 16,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 13
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/torqvale-centennial",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 1,
+            "3": 2,
+            "4": 4,
+            "5": 21
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 168,
+        "averageRating": 4.4,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-torqvale-auto-loc-6",
@@ -316,7 +894,127 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-05T15:25:00Z"
+      "createdOn": "2026-07-05T15:25:00Z",
+      "coordinates": {
+        "lat": 39.96553,
+        "lng": -105.17001
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 57,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/torqvale-boulder",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 28,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 21
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/torqvale-boulder",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/torqvale-boulder",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 9
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 43,
+        "averageRating": 4.6,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-torqvale-auto-loc-7",
@@ -356,7 +1054,123 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-17T20:55:00Z"
+      "createdOn": "2026-10-17T20:55:00Z",
+      "coordinates": {
+        "lat": 39.5643,
+        "lng": -104.90892
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 11,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/torqvale-highlands-ranch",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 126,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 10,
+            "5": 113
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/torqvale-highlands-ranch",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 39,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 32
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/torqvale-highlands-ranch",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 172,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-torqvale-auto-loc-8",
@@ -396,7 +1210,121 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-06-28T21:45:00Z"
+      "createdOn": "2026-06-28T21:45:00Z",
+      "coordinates": {
+        "lat": 39.75733,
+        "lng": -105.20327
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Brake shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/torqvale-arvada",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 72,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 3,
+            "4": 9,
+            "5": 54
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/torqvale-arvada",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 14
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/torqvale-arvada",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.4,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 97,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -671,7 +1599,7 @@
       "reviewer": "Orion Pembrook",
       "date": "2026-09-04T21:30:00Z",
       "text": "Good work on a fleet PM service, but the final bill from Torqvale was higher than the estimate because of shop fees nobody mentioned up front.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -680,7 +1608,7 @@
       "reply": {
         "text": "Orion, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Torqvale. A manager will reach out this week to make it right.\n\nTorqvale Auto Care",
         "author": "Torqvale Auto Care",
-        "date": "2026-09-05T15:45:00Z"
+        "date": "2026-09-06T19:55:00Z"
       }
     },
     {
@@ -694,14 +1622,19 @@
       "reviewer": "Paloma Wexford",
       "date": "2026-08-21T16:55:00Z",
       "text": "Kendra explained the inspection results in plain language and sorted out what could wait. Turnaround on a brake job ran a little longer than quoted.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Kendra"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Paloma. It means a lot to our team.\n\nTorqvale Auto Care",
+        "author": "Torqvale Auto Care",
+        "date": "2026-08-24T14:25:00Z"
+      }
     },
     {
       "id": "acct-torqvale-auto-rev-3",
@@ -721,7 +1654,12 @@
         "Victor"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Reuben. It means a lot to our team.\n\nTorqvale Auto Care",
+        "author": "Torqvale Auto Care",
+        "date": "2026-08-08T10:05:00Z"
+      }
     },
     {
       "id": "acct-torqvale-auto-rev-4",
@@ -734,7 +1672,7 @@
       "reviewer": "Sabine Lindahl",
       "date": "2026-07-24T14:20:00Z",
       "text": "Booked a check-engine diagnostic online with Torqvale, arrived on time, and still waited 50 minutes to be checked in.",
-      "photoCount": 3,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -743,7 +1681,7 @@
       "reply": {
         "text": "Sabine, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Torqvale. A manager will reach out this week to make it right.\n\nTorqvale Auto Care",
         "author": "Torqvale Auto Care",
-        "date": "2026-07-26T16:00:00Z"
+        "date": "2026-07-24T19:25:00Z"
       }
     },
     {
@@ -757,14 +1695,19 @@
       "reviewer": "Tobias Tavares",
       "date": "2026-07-10T17:45:00Z",
       "text": "Brought my car in for a fleet PM service at the Centennial location. Ray texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Ray"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Tobias. It means a lot to our team.\n\nTorqvale Auto Care",
+        "author": "Torqvale Auto Care",
+        "date": "2026-07-11T19:10:00Z"
+      }
     },
     {
       "id": "acct-torqvale-auto-rev-6",
@@ -777,7 +1720,7 @@
       "reviewer": "Uma Brannigan",
       "date": "2026-10-19T20:10:00Z",
       "text": "My brake job was done right and priced fairly. The waiting area at the Boulder location was busy and the Wi-Fi kept dropping, but Kendra kept me updated.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -793,20 +1736,22 @@
       "locationId": "acct-torqvale-auto-loc-7",
       "location": "Torqvale - Highlands Ranch (Highlands Ranch, CO)",
       "site": "yelp",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Vaughn Ivers",
       "date": "2026-10-05T15:40:00Z",
-      "text": "Dropped off for an oil change and rotation at 8 a.m. and didn't hear anything until I called at 4. The work from Torqvale was fine, but proactive updates would make a big difference.",
+      "text": "Quick and honest. Kendra checked one extra thing for free and didn't charge me for it.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Kendra"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Vaughn, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Torqvale. A manager will reach out this week to make it right.\n\nTorqvale Auto Care",
+        "text": "We appreciate you taking the time to share this, Vaughn. It means a lot to our team.\n\nTorqvale Auto Care",
         "author": "Torqvale Auto Care",
-        "date": "2026-10-06T17:50:00Z"
+        "date": "2026-10-08T06:10:00Z"
       }
     },
     {
@@ -820,14 +1765,19 @@
       "reviewer": "Willa Ridley",
       "date": "2026-09-21T18:35:00Z",
       "text": "Sione talked me out of a brake job because it wasn't needed yet. It's rare to find a service advisor who saves you money.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Sione"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Willa. It means a lot to our team.\n\nTorqvale Auto Care",
+        "author": "Torqvale Auto Care",
+        "date": "2026-09-28T09:25:00Z"
+      }
     }
   ]
 }

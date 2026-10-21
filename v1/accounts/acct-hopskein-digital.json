@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-hopskein-digital",
@@ -73,7 +73,17 @@
       "a small-business website",
       "monthly social posts"
     ],
-    "llmContext": "Hopskein Digital · SMB · Advertising and agency · HQ Nashville, Tennessee, United States · 1 purchased location · CRM HubSpot · Small Nashville agency handling social and reviews for local restaurants and clinics."
+    "llmContext": "Hopskein Digital · SMB · Advertising and agency · HQ Nashville, Tennessee, United States · 1 purchased location · CRM HubSpot · Small Nashville agency handling social and reviews for local restaurants and clinics.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 3,
+      "verifiedListings": 2,
+      "totalReviews": 18,
+      "averageRating": 4.4,
+      "photoCount": 13
+    }
   },
   "locations": [
     {
@@ -109,7 +119,123 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-09-30T20:55:00Z"
+      "createdOn": "2026-09-30T20:55:00Z",
+      "coordinates": {
+        "lat": 36.13925,
+        "lng": -86.71307
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 13,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hopskein-digital",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 10
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hopskein-digital",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hopskein-digital",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 18,
+        "averageRating": 4.4,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -380,7 +506,7 @@
       "reviewer": "Yvette Bergstrom",
       "date": "2026-09-19T15:10:00Z",
       "text": "Wes Calloway ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -391,7 +517,7 @@
       "reply": {
         "text": "Thanks so much, Yvette! We'll pass this along to the whole Hopskein Digital team. See you next time.\n\nWes and Tamsin, Hopskein Digital",
         "author": "Wes and Tamsin, Hopskein Digital",
-        "date": "2026-09-20T17:00:00Z"
+        "date": "2026-09-20T12:00:00Z"
       }
     },
     {
@@ -405,7 +531,7 @@
       "reviewer": "Zion Iwasaki",
       "date": "2026-09-05T14:50:00Z",
       "text": "Hopskein Digital cleaned up duplicate listings across our client locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -423,7 +549,7 @@
       "reviewer": "Arlo Pacheco",
       "date": "2026-08-22T17:15:00Z",
       "text": "Tool access for a small-business website took weeks to sort out on the Hopskein Digital side. Once connected it worked, but setup was rough.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -432,7 +558,7 @@
       "reply": {
         "text": "Arlo, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hopskein Digital. A manager will reach out this week to make it right.\n\nWes and Tamsin, Hopskein Digital",
         "author": "Wes and Tamsin, Hopskein Digital",
-        "date": "2026-08-23T19:25:00Z"
+        "date": "2026-08-23T11:00:00Z"
       }
     },
     {
@@ -457,7 +583,7 @@
       "reply": {
         "text": "Thanks so much, Bryony! We'll pass this along to the whole Hopskein Digital team. See you next time.\n\nWes and Tamsin, Hopskein Digital",
         "author": "Wes and Tamsin, Hopskein Digital",
-        "date": "2026-08-10T18:50:00Z"
+        "date": "2026-08-10T04:15:00Z"
       }
     },
     {
@@ -471,14 +597,19 @@
       "reviewer": "Cassius Faulkner",
       "date": "2026-07-25T19:50:00Z",
       "text": "Solid partner for Google profile setup. Reporting is clear and Wes Calloway is responsive. Onboarding with Hopskein Digital took a couple of weeks longer than planned.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Wes Calloway"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Cassius! Happy we could help, and we'll pass this along to the team.\n\nWes and Tamsin, Hopskein Digital",
+        "author": "Wes and Tamsin, Hopskein Digital",
+        "date": "2026-08-01T10:55:00Z"
+      }
     },
     {
       "id": "acct-hopskein-digital-rev-6",
@@ -487,20 +618,22 @@
       "locationId": "acct-hopskein-digital-loc-1",
       "location": "Hopskein Digital (Nashville, TN)",
       "site": "yelp",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Dahlia Novak",
       "date": "2026-07-11T18:35:00Z",
-      "text": "Our kickoff with Hopskein Digital for a review-request flow was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
-      "photoCount": 2,
+      "text": "Hopskein Digital handled a small-business website for us and the results were obvious within a month. Tamsin Reed keeps the updates short and useful.",
+      "photoCount": 0,
       "featured": false,
       "archived": true,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Tamsin Reed"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Dahlia, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hopskein Digital. A manager will reach out this week to make it right.\n\nWes and Tamsin, Hopskein Digital",
+        "text": "Dahlia, this made our day. Thanks for trusting us, and see you next time!\n\nWes and Tamsin, Hopskein Digital",
         "author": "Wes and Tamsin, Hopskein Digital",
-        "date": "2026-07-13T20:15:00Z"
+        "date": "2026-07-12T07:55:00Z"
       }
     },
     {
@@ -514,7 +647,7 @@
       "reviewer": "Elio Winslow",
       "date": "2026-06-27T21:00:00Z",
       "text": "We run more than 20 client locations and Hopskein Digital is the first partner that made a small-business website feel manageable. Wes Calloway knows our markets by name.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -525,7 +658,7 @@
       "reply": {
         "text": "Thanks so much, Elio! We'll pass this along to the whole Hopskein Digital team. See you next time.\n\nWes and Tamsin, Hopskein Digital",
         "author": "Wes and Tamsin, Hopskein Digital",
-        "date": "2026-06-28T15:35:00Z"
+        "date": "2026-06-28T00:45:00Z"
       }
     },
     {
@@ -535,21 +668,18 @@
       "locationId": "acct-hopskein-digital-loc-1",
       "location": "Hopskein Digital (Nashville, TN)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Fern Fairchild",
       "date": "2026-10-06T20:15:00Z",
-      "text": "Good strategy on monthly social posts, but the monthly invoice from Hopskein Digital has vague line items. Our finance team needs clearer activity summaries.",
+      "text": "Clear reporting, quick turnaround, and no jargon. Wes Calloway has been a great point of contact for Google profile setup.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Fern, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hopskein Digital. A manager will reach out this week to make it right.\n\nWes and Tamsin, Hopskein Digital",
-        "author": "Wes and Tamsin, Hopskein Digital",
-        "date": "2026-10-08T14:40:00Z"
-      }
+      "employeesMentioned": [
+        "Wes Calloway"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     }
   ]
 }

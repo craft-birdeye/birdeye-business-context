@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-amperlund-ev",
@@ -74,7 +74,17 @@
       "a suspension alignment",
       "a charging port repair"
     ],
-    "llmContext": "Amperlund EV Service Labs · Enterprise · Automotive · HQ San Jose, California, United States · 5 purchased locations · CRM Tekion · EV-focused service labs along California’s I-5 and Bay corridors."
+    "llmContext": "Amperlund EV Service Labs · Enterprise · Automotive · HQ San Jose, California, United States · 5 purchased locations · CRM Tekion · EV-focused service labs along California’s I-5 and Bay corridors.",
+    "listingSummary": {
+      "locations": 5,
+      "openLocations": 5,
+      "listings": 13,
+      "claimedListings": 8,
+      "verifiedListings": 7,
+      "totalReviews": 1117,
+      "averageRating": 4.7,
+      "photoCount": 483
+    }
   },
   "locations": [
     {
@@ -115,7 +125,125 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-08T14:00:00Z"
+      "createdOn": "2026-07-08T14:00:00Z",
+      "coordinates": {
+        "lat": 37.38051,
+        "lng": -121.83379
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Oil change service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 19,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/amperlund-ev-san-jose-lab",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 88,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 10,
+            "5": 72
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/amperlund-ev-san-jose-lab",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 29,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 26
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/amperlund-ev-san-jose-lab",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 124,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-amperlund-ev-loc-2",
@@ -155,7 +283,110 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-20T15:20:00Z"
+      "createdOn": "2026-10-20T15:20:00Z",
+      "coordinates": {
+        "lat": 37.46699,
+        "lng": -121.96564
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Car inspection station",
+          "Oil change service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 31,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/amperlund-ev-fremont",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 271,
+          "ratingDistribution": {
+            "1": 11,
+            "2": 6,
+            "3": 9,
+            "4": 34,
+            "5": 211
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/amperlund-ev-fremont",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 25
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 303,
+        "averageRating": 4.6,
+        "sampledReviews": 2,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-amperlund-ev-loc-3",
@@ -195,7 +426,129 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-10-06T20:50:00Z"
+      "createdOn": "2026-10-06T20:50:00Z",
+      "coordinates": {
+        "lat": 37.82827,
+        "lng": -122.20117
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Auto air conditioning service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/amperlund-ev-oakland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 308,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 21,
+            "5": 283
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/amperlund-ev-oakland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 17
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/amperlund-ev-oakland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 34,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 4,
+            "5": 24
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 362,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-amperlund-ev-loc-4",
@@ -235,7 +588,130 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-09-22T21:10:00Z"
+      "createdOn": "2026-09-22T21:10:00Z",
+      "coordinates": {
+        "lat": 38.57719,
+        "lng": -121.62659
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Brake shop",
+          "Oil change service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 29,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/amperlund-ev-sacramento",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 147,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 4,
+            "3": 5,
+            "4": 18,
+            "5": 112
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/amperlund-ev-sacramento",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 17,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 17
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/amperlund-ev-sacramento",
+          "claimed": false,
+          "verified": false,
+          "rating": 3.8,
+          "reviewCount": 29,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 2,
+            "3": 2,
+            "4": 4,
+            "5": 16
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 193,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-amperlund-ev-loc-5",
@@ -275,7 +751,113 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-08T18:45:00Z"
+      "createdOn": "2026-09-08T18:45:00Z",
+      "coordinates": {
+        "lat": 36.67265,
+        "lng": -119.87457
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": [
+          "Auto air conditioning service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 400,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/amperlund-ev-fresno",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 122,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 3,
+            "4": 14,
+            "5": 99
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/amperlund-ev-fresno",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 135,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     }
   ],
   "contacts": [
@@ -557,7 +1139,7 @@
       "reply": {
         "text": "Thanks so much, Ivy! We'll pass this along to the whole Amperlund EV team. See you next time.\n\nAmperlund EV Service Labs",
         "author": "Amperlund EV Service Labs",
-        "date": "2026-08-21T19:35:00Z"
+        "date": "2026-08-20T22:40:00Z"
       }
     },
     {
@@ -567,20 +1149,22 @@
       "locationId": "acct-amperlund-ev-loc-2",
       "location": "Amperlund EV - Fremont (Fremont, CA)",
       "site": "google",
-      "rating": 3,
+      "rating": 4,
       "reviewer": "Jasper Lockhart",
       "date": "2026-08-06T20:50:00Z",
-      "text": "Good work on a heat pump repair, but the final bill from Amperlund EV was higher than the estimate because of shop fees nobody mentioned up front.",
-      "photoCount": 3,
+      "text": "Good work on a battery health check. It ran about an hour longer than quoted, but Ines kept me posted.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Ines"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Jasper, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Amperlund EV. A manager will reach out this week to make it right.\n\nAmperlund EV Service Labs",
+        "text": "Thanks, Jasper. We're glad we could help and have shared your note with the team.\n\nAmperlund EV Service Labs",
         "author": "Amperlund EV Service Labs",
-        "date": "2026-08-08T14:30:00Z"
+        "date": "2026-08-10T20:55:00Z"
       }
     },
     {
@@ -594,7 +1178,7 @@
       "reviewer": "Kira Sandoval",
       "date": "2026-07-23T15:20:00Z",
       "text": "Drew explained the inspection results in plain language and sorted out what could wait. Turnaround on a suspension alignment ran a little longer than quoted.",
-      "photoCount": 2,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -614,7 +1198,7 @@
       "reviewer": "Leon Achebe",
       "date": "2026-07-09T18:45:00Z",
       "text": "Fleet manager here. Amperlund EV keeps our vans on the road with one invoice a month and almost no downtime. Ines is our go-to contact.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -625,7 +1209,7 @@
       "reply": {
         "text": "Thanks so much, Leon! We'll pass this along to the whole Amperlund EV team. See you next time.\n\nAmperlund EV Service Labs",
         "author": "Amperlund EV Service Labs",
-        "date": "2026-07-11T20:45:00Z"
+        "date": "2026-07-10T03:00:00Z"
       }
     },
     {
@@ -648,7 +1232,7 @@
       "reply": {
         "text": "Marisa, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Amperlund EV. A manager will reach out this week to make it right.\n\nAmperlund EV Service Labs",
         "author": "Amperlund EV Service Labs",
-        "date": "2026-10-19T15:05:00Z"
+        "date": "2026-10-19T09:35:00Z"
       }
     },
     {
@@ -662,14 +1246,19 @@
       "reviewer": "Nico Okonjo",
       "date": "2026-10-04T16:35:00Z",
       "text": "Brought my car in for a heat pump repair at the San Jose Lab location. Drew texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Drew"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Nico. We're glad we could help and have shared your note with the team.\n\nAmperlund EV Service Labs",
+        "author": "Amperlund EV Service Labs",
+        "date": "2026-10-10T13:35:00Z"
+      }
     },
     {
       "id": "acct-amperlund-ev-rev-7",
@@ -682,7 +1271,7 @@
       "reviewer": "Odette Whitmore",
       "date": "2026-09-20T19:00:00Z",
       "text": "My suspension alignment was done right and priced fairly. The waiting area at the Fremont location was busy and the Wi-Fi kept dropping, but Ines kept me updated.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -693,7 +1282,7 @@
       "reply": {
         "text": "Thanks so much, Odette! We'll pass this along to the whole Amperlund EV team. See you next time.\n\nAmperlund EV Service Labs",
         "author": "Amperlund EV Service Labs",
-        "date": "2026-09-21T21:35:00Z"
+        "date": "2026-09-21T10:55:00Z"
       }
     },
     {
@@ -703,20 +1292,22 @@
       "locationId": "acct-amperlund-ev-loc-3",
       "location": "Amperlund EV - Oakland (Oakland, CA)",
       "site": "yelp",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Pierce Everly",
       "date": "2026-09-06T14:35:00Z",
-      "text": "Dropped off for a charging port repair at 8 a.m. and didn't hear anything until I called at 4. The work from Amperlund EV was fine, but proactive updates would make a big difference.",
-      "photoCount": 1,
+      "text": "Dropped the car at the Oakland location for a battery health check on my way to work. Kai called with a clear quote mid-morning, explained what could wait until next time, and it was ready before five. No pressure, no surprises.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Kai"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Pierce, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Amperlund EV. A manager will reach out this week to make it right.\n\nAmperlund EV Service Labs",
+        "text": "Thanks, Pierce. We're glad we could help and have shared your note with the team.\n\nAmperlund EV Service Labs",
         "author": "Amperlund EV Service Labs",
-        "date": "2026-09-08T16:30:00Z"
+        "date": "2026-09-06T15:20:00Z"
       }
     }
   ]

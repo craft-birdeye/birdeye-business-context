@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-firthgale-counsel",
@@ -74,7 +74,17 @@
       "an employment investigation",
       "a licensing agreement"
     ],
-    "llmContext": "Firthgale Counsel LLP · Enterprise · Legal and professional services · HQ Seattle, Washington, United States · 7 purchased locations · CRM Clio · Pacific Northwest firm focused on corporate, IP, and employment matters."
+    "llmContext": "Firthgale Counsel LLP · Enterprise · Legal and professional services · HQ Seattle, Washington, United States · 7 purchased locations · CRM Clio · Pacific Northwest firm focused on corporate, IP, and employment matters.",
+    "listingSummary": {
+      "locations": 7,
+      "openLocations": 7,
+      "listings": 18,
+      "claimedListings": 15,
+      "verifiedListings": 15,
+      "totalReviews": 1495,
+      "averageRating": 4.7,
+      "photoCount": 128
+    }
   },
   "locations": [
     {
@@ -110,7 +120,123 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-07T16:40:00Z"
+      "createdOn": "2026-07-07T16:40:00Z",
+      "coordinates": {
+        "lat": 47.60637,
+        "lng": -122.35109
+      },
+      "categories": {
+        "primary": "Law firm",
+        "secondary": [
+          "Real estate attorney"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 8,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/firthgale-counsel-seattle",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 71,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 5,
+            "5": 64
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/firthgale-counsel-seattle",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 4
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/firthgale-counsel-seattle",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 4
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 81,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-firthgale-counsel-loc-2",
@@ -145,7 +271,124 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-19T21:10:00Z"
+      "createdOn": "2026-10-19T21:10:00Z",
+      "coordinates": {
+        "lat": 47.58407,
+        "lng": -122.1811
+      },
+      "categories": {
+        "primary": "Law firm",
+        "secondary": [
+          "Business attorney",
+          "Employment attorney"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Free consultation"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 50,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/firthgale-counsel-bellevue",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 184,
+          "ratingDistribution": {
+            "1": 12,
+            "2": 4,
+            "3": 4,
+            "4": 17,
+            "5": 147
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/firthgale-counsel-bellevue",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 22,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 21
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/firthgale-counsel-bellevue",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 19,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 2,
+            "3": 0,
+            "4": 2,
+            "5": 13
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 225,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-firthgale-counsel-loc-3",
@@ -180,7 +423,127 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-10-05T18:45:00Z"
+      "createdOn": "2026-10-05T18:45:00Z",
+      "coordinates": {
+        "lat": 47.31345,
+        "lng": -122.4791
+      },
+      "categories": {
+        "primary": "Law firm",
+        "secondary": [
+          "Employment attorney"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Free consultation"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 30,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/firthgale-counsel-tacoma",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 77,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 74
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/firthgale-counsel-tacoma",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 6
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/firthgale-counsel-tacoma",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 94,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-firthgale-counsel-loc-4",
@@ -215,7 +578,113 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-09-21T15:20:00Z"
+      "createdOn": "2026-09-21T15:20:00Z",
+      "coordinates": {
+        "lat": 45.46738,
+        "lng": -122.54675
+      },
+      "categories": {
+        "primary": "Law firm",
+        "secondary": [
+          "Employment attorney",
+          "Real estate attorney",
+          "Litigation attorney"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 7,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/firthgale-counsel-portland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 454,
+          "ratingDistribution": {
+            "1": 16,
+            "2": 7,
+            "3": 8,
+            "4": 38,
+            "5": 385
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/firthgale-counsel-portland",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 31,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 28
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 485,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-firthgale-counsel-loc-5",
@@ -250,7 +719,101 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-07T20:55:00Z"
+      "createdOn": "2026-09-07T20:55:00Z",
+      "coordinates": {
+        "lat": 45.69106,
+        "lng": -122.56825
+      },
+      "categories": {
+        "primary": "Law firm",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 14,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/firthgale-counsel-vancouver-wa",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 240,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 2,
+            "3": 3,
+            "4": 17,
+            "5": 215
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/firthgale-counsel-vancouver-wa",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 26,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 22
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 266,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-firthgale-counsel-loc-6",
@@ -285,7 +848,111 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-24T17:30:00Z"
+      "createdOn": "2026-08-24T17:30:00Z",
+      "coordinates": {
+        "lat": 47.68697,
+        "lng": -117.4454
+      },
+      "categories": {
+        "primary": "Law firm",
+        "secondary": [
+          "Employment attorney"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Free consultation"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/firthgale-counsel-spokane",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 72,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 69
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/firthgale-counsel-spokane",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 4
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 76,
+        "averageRating": 5,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-firthgale-counsel-loc-7",
@@ -320,7 +987,116 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-10T14:05:00Z"
+      "createdOn": "2026-08-10T14:05:00Z",
+      "coordinates": {
+        "lat": 43.9831,
+        "lng": -123.09988
+      },
+      "categories": {
+        "primary": "Law firm",
+        "secondary": [
+          "Litigation attorney",
+          "Employment attorney"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 17,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/firthgale-counsel-eugene",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 216,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 2,
+            "3": 3,
+            "4": 16,
+            "5": 190
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/firthgale-counsel-eugene",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 21,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 18
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/firthgale-counsel-eugene",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 31,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 24
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 268,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -595,7 +1371,7 @@
       "reviewer": "Fenwick Zielinski",
       "date": "2026-07-26T19:55:00Z",
       "text": "Strong work on a trademark filing. Responses from Firthgale Counsel usually came within a day, though a couple of emails took longer during a busy stretch. Would hire them again.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -604,7 +1380,7 @@
       "reply": {
         "text": "Thank you for your kind words, Fenwick. We are glad the team at Firthgale Counsel could help, and we appreciate you taking the time to share your experience.\n\nFirthgale Counsel LLP",
         "author": "Firthgale Counsel LLP",
-        "date": "2026-07-27T21:30:00Z"
+        "date": "2026-07-27T18:15:00Z"
       }
     },
     {
@@ -618,7 +1394,7 @@
       "reviewer": "Gemma Granger",
       "date": "2026-07-12T18:40:00Z",
       "text": "It took four days to get a return call about a Series A financing. Once Anders Holt was on it the advice was good, but intake at the Bellevue location felt slow for a time-sensitive matter.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": true,
       "employeesMentioned": [
@@ -629,7 +1405,7 @@
       "reply": {
         "text": "Gemma, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Firthgale Counsel. A member of our leadership team will contact you directly to discuss it.\n\nFirthgale Counsel LLP",
         "author": "Firthgale Counsel LLP",
-        "date": "2026-07-14T20:40:00Z"
+        "date": "2026-07-12T23:20:00Z"
       }
     },
     {
@@ -643,7 +1419,7 @@
       "reviewer": "Hugo Osgood",
       "date": "2026-06-28T21:05:00Z",
       "text": "I was anxious going into an employment investigation. Jae-won Park laid out a realistic timeline, flagged the risks up front, and checked in at every milestone.",
-      "photoCount": 0,
+      "photoCount": 3,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -659,20 +1435,20 @@
       "locationId": "acct-firthgale-counsel-loc-4",
       "location": "Firthgale Counsel - Portland (Portland, OR)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Ines Yardley",
       "date": "2026-10-07T20:45:00Z",
-      "text": "Competent work on a licensing agreement, but the invoices from Firthgale Counsel were vague and I had to ask for an itemized breakdown. Clearer billing would earn a better rating.",
-      "photoCount": 3,
+      "text": "Clear advice, fair billing, quick replies. Would hire Firthgale Counsel again.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
       "replyStatus": "edit",
       "reply": {
-        "text": "Ines, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Firthgale Counsel. A member of our leadership team will contact you directly to discuss it.\n\nFirthgale Counsel LLP",
+        "text": "Thank you for your review, Ines. We appreciate your trust and are pleased the matter was handled to your satisfaction.\n\nFirthgale Counsel LLP",
         "author": "Firthgale Counsel LLP",
-        "date": "2026-10-09T14:05:00Z"
+        "date": "2026-10-08T18:55:00Z"
       }
     },
     {
@@ -686,7 +1462,7 @@
       "reviewer": "Jonah Galbraith",
       "date": "2026-09-23T15:15:00Z",
       "text": "Referred a friend to Firthgale Counsel after my own a trademark filing went smoothly. Anders Holt and Jae-won Park worked as a team and never made us repeat ourselves.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -702,21 +1478,18 @@
       "locationId": "acct-firthgale-counsel-loc-6",
       "location": "Firthgale Counsel - Spokane (Spokane, WA)",
       "site": "yelp",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Kaia Northcott",
       "date": "2026-09-09T14:55:00Z",
-      "text": "My file at Firthgale Counsel changed hands twice during a Series A financing and nobody told me. It eventually got done, but I spent too much time chasing status updates.",
-      "photoCount": 1,
+      "text": "I came to Firthgale Counsel stressed and confused about an employment investigation. Miriam Lowe took the time to explain my options in plain language, answered every email within a day, and got it resolved sooner than I thought possible.",
+      "photoCount": 3,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Kaia, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Firthgale Counsel. A member of our leadership team will contact you directly to discuss it.\n\nFirthgale Counsel LLP",
-        "author": "Firthgale Counsel LLP",
-        "date": "2026-09-11T16:35:00Z"
-      }
+      "employeesMentioned": [
+        "Miriam Lowe"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-firthgale-counsel-rev-7",
@@ -740,7 +1513,7 @@
       "reply": {
         "text": "Thank you for your kind words, Lionel. We are glad the team at Firthgale Counsel could help, and we appreciate you taking the time to share your experience.\n\nFirthgale Counsel LLP",
         "author": "Firthgale Counsel LLP",
-        "date": "2026-08-27T19:10:00Z"
+        "date": "2026-08-29T09:30:00Z"
       }
     },
     {
@@ -754,14 +1527,19 @@
       "reviewer": "Mila Castaneda",
       "date": "2026-08-12T16:05:00Z",
       "text": "My consult about a Series A financing was free of jargon and pressure. Anders Holt told me what I could handle myself and what really needed an attorney.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Anders Holt"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Mila. It was a privilege to work with you, and we appreciate you sharing your experience.\n\nFirthgale Counsel LLP",
+        "author": "Firthgale Counsel LLP",
+        "date": "2026-08-12T19:40:00Z"
+      }
     }
   ]
 }
