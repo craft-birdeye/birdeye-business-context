@@ -261,6 +261,59 @@
           "bundleUrl": {
             "type": "string",
             "format": "uri"
+          },
+          "listingSummary": {
+            "description": "Rollup of the account's location listings. Added in 1.1.0.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "locations",
+              "openLocations",
+              "listings",
+              "claimedListings",
+              "verifiedListings",
+              "totalReviews",
+              "averageRating",
+              "photoCount"
+            ],
+            "properties": {
+              "locations": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "openLocations": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "listings": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "claimedListings": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "verifiedListings": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "totalReviews": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "photoCount": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "averageRating": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 1,
+                "maximum": 5
+              }
+            }
           }
         }
       }
