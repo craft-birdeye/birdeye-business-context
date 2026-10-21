@@ -1,0 +1,696 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-lotquill-channel",
+    "name": "Lotquill Dealer Marketing",
+    "brandName": "Lotquill",
+    "parentGroup": "Lotquill Channel",
+    "segment": "CH-SLV",
+    "segmentLabel": "Channel",
+    "industryId": "automotive",
+    "industryLabel": "Automotive",
+    "tier": "Dealer channel partner",
+    "crm": "HubSpot",
+    "purchasedLocations": 5,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Detroit",
+      "state": "MI",
+      "stateName": "Michigan",
+      "country": "United States"
+    },
+    "businessBlurb": "Channel partner that standardizes review and listing programs for regional dealer groups.",
+    "profile": {
+      "description": "Channel partner that standardizes review and listing programs for regional dealer groups. Review and listings programs for dealer groups.",
+      "categories": [
+        "Marketing agency"
+      ],
+      "website": "https://lotquilldealer.example.com",
+      "email": "hello@lotquilldealer.example.com",
+      "phone": "(313) 555-0105",
+      "primaryLocationId": "acct-lotquill-channel-loc-1",
+      "address": {
+        "street1": "6301 Copperleaf Court",
+        "street2": "Suite 274",
+        "city": "Detroit",
+        "state": "MI",
+        "stateName": "Michigan",
+        "zip": "48201",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Lotquill",
+      "tagline": "Review and listings programs for dealer groups",
+      "logo": {
+        "kind": "monogram",
+        "initials": "L",
+        "path": "v1/logos/acct-lotquill-channel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-lotquill-channel.svg"
+      },
+      "colors": {
+        "primary": "#3A0CA3",
+        "secondary": "#EEE9F9",
+        "accent": "#4CC9F0",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Dealer-savvy and metrics-focused; partner-to-partner tone.",
+      "formality": "neutral",
+      "replySignoff": "Lotquill Dealer Marketing"
+    },
+    "staff": [
+      "Mitch Kowal",
+      "Renee Dupree",
+      "Omar Saleh"
+    ],
+    "services": [
+      "a review program for our rooftops",
+      "listings for our service departments",
+      "service-lane review requests",
+      "dealer group reporting"
+    ],
+    "llmContext": "Lotquill Dealer Marketing · Channel · Automotive · HQ Detroit, Michigan, United States · 5 purchased locations · CRM HubSpot · Channel partner that standardizes review and listing programs for regional dealer groups."
+  },
+  "locations": [
+    {
+      "id": "acct-lotquill-channel-loc-1",
+      "accountId": "acct-lotquill-channel",
+      "index": 1,
+      "name": "Lotquill - HQ",
+      "shortName": "HQ",
+      "label": "Lotquill - HQ (Detroit, MI)",
+      "locationLine": "Detroit, MI",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "6301 Copperleaf Court",
+        "street2": "Suite 274",
+        "city": "Detroit",
+        "state": "MI",
+        "stateName": "Michigan",
+        "zip": "48201",
+        "country": "US"
+      },
+      "phone": "(313) 555-0100",
+      "email": "hq@lotquilldealer.example.com",
+      "website": "https://lotquilldealer.example.com/locations/hq",
+      "timezone": "America/Detroit",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-07-24T16:50:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-loc-2",
+      "accountId": "acct-lotquill-channel",
+      "index": 2,
+      "name": "Lotquill - Dealer hub - Chicago",
+      "shortName": "Dealer hub - Chicago",
+      "label": "Lotquill - Dealer hub - Chicago (Chicago, IL)",
+      "locationLine": "Chicago, IL",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2944 Pinecrest Boulevard",
+        "street2": "Suite 285",
+        "city": "Chicago",
+        "state": "IL",
+        "stateName": "Illinois",
+        "zip": "60601",
+        "country": "US"
+      },
+      "phone": "(872) 555-0101",
+      "email": "dealer-hub-chicago@lotquilldealer.example.com",
+      "website": "https://lotquilldealer.example.com/locations/dealer-hub-chicago",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-07-10T21:20:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-loc-3",
+      "accountId": "acct-lotquill-channel",
+      "index": 3,
+      "name": "Lotquill - Dealer hub - Cleveland",
+      "shortName": "Dealer hub - Cleveland",
+      "label": "Lotquill - Dealer hub - Cleveland (Cleveland, OH)",
+      "locationLine": "Cleveland, OH",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4063 Kestrel Avenue",
+        "street2": "Suite 180",
+        "city": "Cleveland",
+        "state": "OH",
+        "stateName": "Ohio",
+        "zip": "44114",
+        "country": "US"
+      },
+      "phone": "(216) 555-0102",
+      "email": "dealer-hub-cleveland@lotquilldealer.example.com",
+      "website": "https://lotquilldealer.example.com/locations/dealer-hub-cleveland",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-06-26T18:55:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-loc-4",
+      "accountId": "acct-lotquill-channel",
+      "index": 4,
+      "name": "Lotquill - Dealer hub - Indianapolis",
+      "shortName": "Dealer hub - Indianapolis",
+      "label": "Lotquill - Dealer hub - Indianapolis (Indianapolis, IN)",
+      "locationLine": "Indianapolis, IN",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "758 Hazelwood Commons",
+        "street2": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "stateName": "Indiana",
+        "zip": "46204",
+        "country": "US"
+      },
+      "phone": "(463) 555-0103",
+      "email": "dealer-hub-indianapolis@lotquilldealer.example.com",
+      "website": "https://lotquilldealer.example.com/locations/dealer-hub-indianapolis",
+      "timezone": "America/Indiana/Indianapolis",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-10-08T15:30:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-loc-5",
+      "accountId": "acct-lotquill-channel",
+      "index": 5,
+      "name": "Lotquill - Dealer hub - Columbus",
+      "shortName": "Dealer hub - Columbus",
+      "label": "Lotquill - Dealer hub - Columbus (Columbus, OH)",
+      "locationLine": "Columbus, OH",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5481 Meadowlark Terrace",
+        "street2": "",
+        "city": "Columbus",
+        "state": "OH",
+        "stateName": "Ohio",
+        "zip": "43201",
+        "country": "US"
+      },
+      "phone": "(614) 555-0104",
+      "email": "dealer-hub-columbus@lotquilldealer.example.com",
+      "website": "https://lotquilldealer.example.com/locations/dealer-hub-columbus",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-09-24T20:05:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-lotquill-channel-ct-1",
+      "number": 42,
+      "accountId": "acct-lotquill-channel",
+      "name": "Nolan Whitmore",
+      "firstName": "Nolan",
+      "lastName": "Whitmore",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-lotquill-channel-loc-1",
+      "locationIds": [
+        "acct-lotquill-channel-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-lotquill-channel-001",
+      "email": "nolan.whitmore@pinnaclefitness.example.com",
+      "phone": "(313) 555-0106",
+      "locationCount": 1,
+      "location": "Lotquill - HQ (Detroit, MI)",
+      "createdOn": "2026-10-17T15:30:00Z",
+      "lastActivity": "2026-10-19T20:10:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-ct-2",
+      "number": 2,
+      "accountId": "acct-lotquill-channel",
+      "name": "Opal Everly",
+      "firstName": "Opal",
+      "lastName": "Everly",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lotquill-channel-loc-4",
+      "locationIds": [
+        "acct-lotquill-channel-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-lotquill-channel-002",
+      "email": "opal.everly@harborclinics.example.com",
+      "phone": "(463) 555-0107",
+      "locationCount": 1,
+      "location": "Lotquill - Dealer hub - Indianapolis (Indianapolis, IN)",
+      "createdOn": "2026-10-03T14:55:00Z",
+      "lastActivity": "2026-10-10T19:35:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-ct-3",
+      "number": 3,
+      "accountId": "acct-lotquill-channel",
+      "name": "Pascal Mabry",
+      "firstName": "Pascal",
+      "lastName": "Mabry",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-lotquill-channel-loc-2",
+      "locationIds": [
+        "acct-lotquill-channel-loc-2"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-lotquill-channel-003",
+      "phone": "(312) 555-0108",
+      "locationCount": 1,
+      "location": "Lotquill - Dealer hub - Chicago (Chicago, IL)",
+      "createdOn": "2026-09-19T17:50:00Z",
+      "lastActivity": "2026-10-17T18:15:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-ct-4",
+      "number": 4,
+      "accountId": "acct-lotquill-channel",
+      "name": "Rhea Vance-Ortiz",
+      "firstName": "Rhea",
+      "lastName": "Vance-Ortiz",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lotquill-channel-loc-5",
+      "locationIds": [
+        "acct-lotquill-channel-loc-5"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-lotquill-channel-004",
+      "email": "rhea.vance.ortiz@lumenhealth.example.com",
+      "phone": "(380) 555-0109",
+      "locationCount": 1,
+      "location": "Lotquill - Dealer hub - Columbus (Columbus, OH)",
+      "createdOn": "2026-09-05T16:15:00Z",
+      "lastActivity": "2026-10-14T17:20:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-ct-5",
+      "number": 5,
+      "accountId": "acct-lotquill-channel",
+      "name": "Soren Ellery",
+      "firstName": "Soren",
+      "lastName": "Ellery",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lotquill-channel-loc-3",
+      "locationIds": [
+        "acct-lotquill-channel-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-lotquill-channel-005",
+      "email": "soren.ellery@ridgelinehomes.example.com",
+      "phone": "(216) 555-0110",
+      "locationCount": 1,
+      "location": "Lotquill - Dealer hub - Cleveland (Cleveland, OH)",
+      "createdOn": "2026-08-22T19:05:00Z",
+      "lastActivity": "2026-09-13T16:40:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-ct-6",
+      "number": 6,
+      "accountId": "acct-lotquill-channel",
+      "name": "Tess Lockhart",
+      "firstName": "Tess",
+      "lastName": "Lockhart",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lotquill-channel-loc-1",
+      "locationIds": [
+        "acct-lotquill-channel-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-lotquill-channel-006",
+      "email": "tess.lockhart@prospect.example.com",
+      "locationCount": 1,
+      "location": "Lotquill - HQ (Detroit, MI)",
+      "createdOn": "2026-08-08T18:15:00Z",
+      "lastActivity": "2026-09-28T15:15:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-ct-7",
+      "number": 7,
+      "accountId": "acct-lotquill-channel",
+      "name": "Vivian Sandoval",
+      "firstName": "Vivian",
+      "lastName": "Sandoval",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-lotquill-channel-loc-4",
+      "locationIds": [
+        "acct-lotquill-channel-loc-4"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-lotquill-channel-007",
+      "email": "vivian.sandoval@beaconauto.example.com",
+      "phone": "(317) 555-0111",
+      "locationCount": 1,
+      "location": "Lotquill - Dealer hub - Indianapolis (Indianapolis, IN)",
+      "createdOn": "2026-07-25T21:00:00Z",
+      "lastActivity": "2026-10-13T14:55:00Z"
+    },
+    {
+      "id": "acct-lotquill-channel-ct-8",
+      "number": 8,
+      "accountId": "acct-lotquill-channel",
+      "name": "Wade Achebe",
+      "firstName": "Wade",
+      "lastName": "Achebe",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lotquill-channel-loc-2",
+      "locationIds": [
+        "acct-lotquill-channel-loc-2"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-lotquill-channel-008",
+      "email": "wade.achebe@meridianfood.example.com",
+      "phone": "(872) 555-0112",
+      "locationCount": 1,
+      "location": "Lotquill - Dealer hub - Chicago (Chicago, IL)",
+      "createdOn": "2026-08-01T20:50:00Z",
+      "lastActivity": "2026-09-16T21:25:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-lotquill-channel-rev-1",
+      "number": 1,
+      "accountId": "acct-lotquill-channel",
+      "locationId": "acct-lotquill-channel-loc-1",
+      "location": "Lotquill - HQ (Detroit, MI)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Yvette Halvorsen",
+      "date": "2026-07-31T19:45:00Z",
+      "text": "Mitch Kowal ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Mitch Kowal"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Yvette! We'll pass this along to the whole Lotquill team. See you next time.\n\nLotquill Dealer Marketing",
+        "author": "Lotquill Dealer Marketing",
+        "date": "2026-08-01T21:00:00Z"
+      }
+    },
+    {
+      "id": "acct-lotquill-channel-rev-2",
+      "number": 2,
+      "accountId": "acct-lotquill-channel",
+      "locationId": "acct-lotquill-channel-loc-2",
+      "location": "Lotquill - Dealer hub - Chicago (Chicago, IL)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Zion Okonjo",
+      "date": "2026-07-17T18:30:00Z",
+      "text": "Lotquill cleaned up duplicate listings across our dealership locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-lotquill-channel-rev-3",
+      "number": 3,
+      "accountId": "acct-lotquill-channel",
+      "locationId": "acct-lotquill-channel-loc-3",
+      "location": "Lotquill - Dealer hub - Cleveland (Cleveland, OH)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Arlo Whitmore",
+      "date": "2026-07-03T21:55:00Z",
+      "text": "Tool access for service-lane review requests took weeks to sort out on the Lotquill side. Once connected it worked, but setup was rough.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Arlo, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Lotquill. A manager will reach out this week to make it right.\n\nLotquill Dealer Marketing",
+        "author": "Lotquill Dealer Marketing",
+        "date": "2026-07-04T15:10:00Z"
+      }
+    },
+    {
+      "id": "acct-lotquill-channel-rev-4",
+      "number": 4,
+      "accountId": "acct-lotquill-channel",
+      "locationId": "acct-lotquill-channel-loc-4",
+      "location": "Lotquill - Dealer hub - Indianapolis (Indianapolis, IN)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Bryony Everly",
+      "date": "2026-10-12T20:35:00Z",
+      "text": "Lotquill took over dealer group reporting for our team and the difference showed within a month. Mitch Kowal sends a short weekly update with exactly what changed and what to do next.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Mitch Kowal"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Bryony! We'll pass this along to the whole Lotquill team. See you next time.\n\nLotquill Dealer Marketing",
+        "author": "Lotquill Dealer Marketing",
+        "date": "2026-10-14T14:55:00Z"
+      }
+    },
+    {
+      "id": "acct-lotquill-channel-rev-5",
+      "number": 5,
+      "accountId": "acct-lotquill-channel",
+      "locationId": "acct-lotquill-channel-loc-5",
+      "location": "Lotquill - Dealer hub - Columbus (Columbus, OH)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Cassius Mabry",
+      "date": "2026-09-28T15:05:00Z",
+      "text": "Solid partner for a review program for our rooftops. Reporting is clear and Renee Dupree is responsive. Onboarding with Lotquill took a couple of weeks longer than planned.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Renee Dupree"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-lotquill-channel-rev-6",
+      "number": 6,
+      "accountId": "acct-lotquill-channel",
+      "locationId": "acct-lotquill-channel-loc-1",
+      "location": "Lotquill - HQ (Detroit, MI)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Dahlia Vance-Ortiz",
+      "date": "2026-09-14T14:45:00Z",
+      "text": "Our kickoff with Lotquill for listings for our service departments was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Dahlia, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Lotquill. A manager will reach out this week to make it right.\n\nLotquill Dealer Marketing",
+        "author": "Lotquill Dealer Marketing",
+        "date": "2026-09-16T16:25:00Z"
+      }
+    },
+    {
+      "id": "acct-lotquill-channel-rev-7",
+      "number": 7,
+      "accountId": "acct-lotquill-channel",
+      "locationId": "acct-lotquill-channel-loc-2",
+      "location": "Lotquill - Dealer hub - Chicago (Chicago, IL)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Elio Ellery",
+      "date": "2026-08-31T17:10:00Z",
+      "text": "We run more than 20 dealership locations and Lotquill is the first partner that made service-lane review requests feel manageable. Mitch Kowal knows our markets by name.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Mitch Kowal"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Elio! We'll pass this along to the whole Lotquill team. See you next time.\n\nLotquill Dealer Marketing",
+        "author": "Lotquill Dealer Marketing",
+        "date": "2026-09-01T19:40:00Z"
+      }
+    },
+    {
+      "id": "acct-lotquill-channel-rev-8",
+      "number": 8,
+      "accountId": "acct-lotquill-channel",
+      "locationId": "acct-lotquill-channel-loc-3",
+      "location": "Lotquill - Dealer hub - Cleveland (Cleveland, OH)",
+      "site": "yelp",
+      "rating": 3,
+      "reviewer": "Fern Lockhart",
+      "date": "2026-08-17T16:55:00Z",
+      "text": "Good strategy on dealer group reporting, but the monthly invoice from Lotquill has vague line items. Our finance team needs clearer activity summaries.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Fern, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Lotquill. A manager will reach out this week to make it right.\n\nLotquill Dealer Marketing",
+        "author": "Lotquill Dealer Marketing",
+        "date": "2026-08-19T18:00:00Z"
+      }
+    }
+  ]
+}

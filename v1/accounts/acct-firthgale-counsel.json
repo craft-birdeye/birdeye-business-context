@@ -1,0 +1,767 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-firthgale-counsel",
+    "name": "Firthgale Counsel LLP",
+    "brandName": "Firthgale Counsel",
+    "parentGroup": "Firthgale Counsel",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "legal",
+    "industryLabel": "Legal and professional services",
+    "tier": "Coastal mid-market firm",
+    "crm": "Clio",
+    "purchasedLocations": 7,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Seattle",
+      "state": "WA",
+      "stateName": "Washington",
+      "country": "United States"
+    },
+    "businessBlurb": "Pacific Northwest firm focused on corporate, IP, and employment matters.",
+    "profile": {
+      "description": "Pacific Northwest firm focused on corporate, IP, and employment matters. Corporate, IP, and employment counsel in the Northwest.",
+      "categories": [
+        "Law firm"
+      ],
+      "website": "https://firthgalecounsel.example.com",
+      "email": "hello@firthgalecounsel.example.com",
+      "phone": "(206) 555-0107",
+      "primaryLocationId": "acct-firthgale-counsel-loc-1",
+      "address": {
+        "street1": "651 Willowmere Parkway",
+        "street2": "",
+        "city": "Seattle",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98101",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Firthgale Counsel",
+      "tagline": "Corporate, IP, and employment counsel in the Northwest",
+      "logo": {
+        "kind": "monogram",
+        "initials": "FC",
+        "path": "v1/logos/acct-firthgale-counsel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-firthgale-counsel.svg"
+      },
+      "colors": {
+        "primary": "#21445B",
+        "secondary": "#ECF2F6",
+        "accent": "#6BA292",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Collaborative, precise, and understated Pacific Northwest professionalism.",
+      "formality": "formal",
+      "replySignoff": "Firthgale Counsel LLP"
+    },
+    "staff": [
+      "Miriam Lowe",
+      "Anders Holt",
+      "Jae-won Park"
+    ],
+    "services": [
+      "a trademark filing",
+      "a Series A financing",
+      "an employment investigation",
+      "a licensing agreement"
+    ],
+    "llmContext": "Firthgale Counsel LLP · Enterprise · Legal and professional services · HQ Seattle, Washington, United States · 7 purchased locations · CRM Clio · Pacific Northwest firm focused on corporate, IP, and employment matters."
+  },
+  "locations": [
+    {
+      "id": "acct-firthgale-counsel-loc-1",
+      "accountId": "acct-firthgale-counsel",
+      "index": 1,
+      "name": "Firthgale Counsel - Seattle",
+      "shortName": "Seattle",
+      "label": "Firthgale Counsel - Seattle (Seattle, WA)",
+      "locationLine": "Seattle, WA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "651 Willowmere Parkway",
+        "street2": "",
+        "city": "Seattle",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98101",
+        "country": "US"
+      },
+      "phone": "(206) 555-0100",
+      "email": "seattle@firthgalecounsel.example.com",
+      "website": "https://firthgalecounsel.example.com/locations/seattle",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-07T16:40:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-loc-2",
+      "accountId": "acct-firthgale-counsel",
+      "index": 2,
+      "name": "Firthgale Counsel - Bellevue",
+      "shortName": "Bellevue",
+      "label": "Firthgale Counsel - Bellevue (Bellevue, WA)",
+      "locationLine": "Bellevue, WA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1770 Thistledown Commons",
+        "street2": "Suite 167",
+        "city": "Bellevue",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98004",
+        "country": "US"
+      },
+      "phone": "(425) 555-0101",
+      "email": "bellevue@firthgalecounsel.example.com",
+      "website": "https://firthgalecounsel.example.com/locations/bellevue",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-10-19T21:10:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-loc-3",
+      "accountId": "acct-firthgale-counsel",
+      "index": 3,
+      "name": "Firthgale Counsel - Tacoma",
+      "shortName": "Tacoma",
+      "label": "Firthgale Counsel - Tacoma (Tacoma, WA)",
+      "locationLine": "Tacoma, WA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2889 Upland Ridge Lane",
+        "street2": "Suite 214",
+        "city": "Tacoma",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98405",
+        "country": "US"
+      },
+      "phone": "(253) 555-0102",
+      "email": "tacoma@firthgalecounsel.example.com",
+      "website": "https://firthgalecounsel.example.com/locations/tacoma",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-05T18:45:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-loc-4",
+      "accountId": "acct-firthgale-counsel",
+      "index": 4,
+      "name": "Firthgale Counsel - Portland",
+      "shortName": "Portland",
+      "label": "Firthgale Counsel - Portland (Portland, OR)",
+      "locationLine": "Portland, OR",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3956 Fernbrook Boulevard",
+        "street2": "Suite 429",
+        "city": "Portland",
+        "state": "OR",
+        "stateName": "Oregon",
+        "zip": "97209",
+        "country": "US"
+      },
+      "phone": "(971) 555-0103",
+      "email": "portland@firthgalecounsel.example.com",
+      "website": "https://firthgalecounsel.example.com/locations/portland",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-09-21T15:20:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-loc-5",
+      "accountId": "acct-firthgale-counsel",
+      "index": 5,
+      "name": "Firthgale Counsel - Vancouver WA",
+      "shortName": "Vancouver WA",
+      "label": "Firthgale Counsel - Vancouver WA (Vancouver, WA)",
+      "locationLine": "Vancouver, WA",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5075 Clover Bend Avenue",
+        "street2": "",
+        "city": "Vancouver",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98661",
+        "country": "US"
+      },
+      "phone": "(360) 555-0104",
+      "email": "vancouver-wa@firthgalecounsel.example.com",
+      "website": "https://firthgalecounsel.example.com/locations/vancouver-wa",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-07T20:55:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-loc-6",
+      "accountId": "acct-firthgale-counsel",
+      "index": 6,
+      "name": "Firthgale Counsel - Spokane",
+      "shortName": "Spokane",
+      "label": "Firthgale Counsel - Spokane (Spokane, WA)",
+      "locationLine": "Spokane, WA",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6194 Driftwood Terrace",
+        "street2": "",
+        "city": "Spokane",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "99208",
+        "country": "US"
+      },
+      "phone": "(509) 555-0105",
+      "email": "spokane@firthgalecounsel.example.com",
+      "website": "https://firthgalecounsel.example.com/locations/spokane",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-24T17:30:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-loc-7",
+      "accountId": "acct-firthgale-counsel",
+      "index": 7,
+      "name": "Firthgale Counsel - Eugene",
+      "shortName": "Eugene",
+      "label": "Firthgale Counsel - Eugene (Eugene, OR)",
+      "locationLine": "Eugene, OR",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7313 Zephyr Court",
+        "street2": "",
+        "city": "Eugene",
+        "state": "OR",
+        "stateName": "Oregon",
+        "zip": "97404",
+        "country": "US"
+      },
+      "phone": "(541) 555-0106",
+      "email": "eugene@firthgalecounsel.example.com",
+      "website": "https://firthgalecounsel.example.com/locations/eugene",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-10T14:05:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-firthgale-counsel-ct-1",
+      "number": 42,
+      "accountId": "acct-firthgale-counsel",
+      "name": "Xavier Osgood",
+      "firstName": "Xavier",
+      "lastName": "Osgood",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-firthgale-counsel-loc-1",
+      "locationIds": [
+        "acct-firthgale-counsel-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Corporate"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-firthgale-counsel-001",
+      "email": "xavier.osgood@example.com",
+      "phone": "(206) 555-0108",
+      "locationCount": 1,
+      "location": "Firthgale Counsel - Seattle (Seattle, WA)",
+      "createdOn": "2026-07-08T15:00:00Z",
+      "lastActivity": "2026-07-12T20:20:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-ct-2",
+      "number": 2,
+      "accountId": "acct-firthgale-counsel",
+      "name": "Yara Yardley",
+      "firstName": "Yara",
+      "lastName": "Yardley",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-firthgale-counsel-loc-4",
+      "locationIds": [
+        "acct-firthgale-counsel-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-firthgale-counsel-002",
+      "email": "yara.yardley@example.com",
+      "phone": "(971) 555-0109",
+      "locationCount": 1,
+      "location": "Firthgale Counsel - Portland (Portland, OR)",
+      "createdOn": "2026-10-20T14:45:00Z",
+      "lastActivity": "2026-10-20T19:25:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-ct-3",
+      "number": 3,
+      "accountId": "acct-firthgale-counsel",
+      "name": "Zeke Galbraith",
+      "firstName": "Zeke",
+      "lastName": "Galbraith",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-firthgale-counsel-loc-7",
+      "locationIds": [
+        "acct-firthgale-counsel-loc-7"
+      ],
+      "segments": [
+        "Consultation inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-firthgale-counsel-003",
+      "phone": "(541) 555-0110",
+      "locationCount": 1,
+      "location": "Firthgale Counsel - Eugene (Eugene, OR)",
+      "createdOn": "2026-10-06T17:00:00Z",
+      "lastActivity": "2026-10-14T18:45:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-ct-4",
+      "number": 4,
+      "accountId": "acct-firthgale-counsel",
+      "name": "Anouk Northcott",
+      "firstName": "Anouk",
+      "lastName": "Northcott",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-firthgale-counsel-loc-3",
+      "locationIds": [
+        "acct-firthgale-counsel-loc-3",
+        "acct-firthgale-counsel-loc-1"
+      ],
+      "segments": [
+        "Referral"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-firthgale-counsel-004",
+      "email": "anouk.northcott@example.com",
+      "phone": "(253) 555-0111",
+      "locationCount": 2,
+      "location": "Firthgale Counsel - Tacoma (Tacoma, WA)",
+      "createdOn": "2026-09-22T16:25:00Z",
+      "lastActivity": "2026-09-27T17:50:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-ct-5",
+      "number": 5,
+      "accountId": "acct-firthgale-counsel",
+      "name": "Booker Underhill",
+      "firstName": "Booker",
+      "lastName": "Underhill",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-firthgale-counsel-loc-6",
+      "locationIds": [
+        "acct-firthgale-counsel-loc-6"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-firthgale-counsel-005",
+      "email": "booker.underhill@example.com",
+      "phone": "(509) 555-0112",
+      "locationCount": 1,
+      "location": "Firthgale Counsel - Spokane (Spokane, WA)",
+      "createdOn": "2026-09-08T19:35:00Z",
+      "lastActivity": "2026-09-27T16:30:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-ct-6",
+      "number": 6,
+      "accountId": "acct-firthgale-counsel",
+      "name": "Celine Castaneda",
+      "firstName": "Celine",
+      "lastName": "Castaneda",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-firthgale-counsel-loc-2",
+      "locationIds": [
+        "acct-firthgale-counsel-loc-2"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-firthgale-counsel-006",
+      "email": "celine.castaneda@example.com",
+      "locationCount": 1,
+      "location": "Firthgale Counsel - Bellevue (Bellevue, WA)",
+      "createdOn": "2026-08-25T18:45:00Z",
+      "lastActivity": "2026-08-30T15:25:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-ct-7",
+      "number": 7,
+      "accountId": "acct-firthgale-counsel",
+      "name": "Dashiell Jaramillo",
+      "firstName": "Dashiell",
+      "lastName": "Jaramillo",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-firthgale-counsel-loc-5",
+      "locationIds": [
+        "acct-firthgale-counsel-loc-5",
+        "acct-firthgale-counsel-loc-3",
+        "acct-firthgale-counsel-loc-1"
+      ],
+      "segments": [
+        "Corporate",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-firthgale-counsel-007",
+      "email": "dashiell.jaramillo@example.com",
+      "phone": "(360) 555-0113",
+      "locationCount": 3,
+      "location": "Firthgale Counsel - Vancouver WA (Vancouver, WA)",
+      "createdOn": "2026-08-11T21:50:00Z",
+      "lastActivity": "2026-09-14T14:05:00Z"
+    },
+    {
+      "id": "acct-firthgale-counsel-ct-8",
+      "number": 8,
+      "accountId": "acct-firthgale-counsel",
+      "name": "Elise Rasmussen",
+      "firstName": "Elise",
+      "lastName": "Rasmussen",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-firthgale-counsel-loc-1",
+      "locationIds": [
+        "acct-firthgale-counsel-loc-1",
+        "acct-firthgale-counsel-loc-6"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-firthgale-counsel-008",
+      "email": "elise.rasmussen@example.com",
+      "phone": "(206) 555-0114",
+      "locationCount": 2,
+      "location": "Firthgale Counsel - Seattle (Seattle, WA)",
+      "createdOn": "2026-08-18T20:40:00Z",
+      "lastActivity": "2026-08-18T21:15:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-firthgale-counsel-rev-1",
+      "number": 1,
+      "accountId": "acct-firthgale-counsel",
+      "locationId": "acct-firthgale-counsel-loc-1",
+      "location": "Firthgale Counsel - Seattle (Seattle, WA)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Fenwick Zielinski",
+      "date": "2026-07-26T19:55:00Z",
+      "text": "Strong work on a trademark filing. Responses from Firthgale Counsel usually came within a day, though a couple of emails took longer during a busy stretch. Would hire them again.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Fenwick. We are glad the team at Firthgale Counsel could help, and we appreciate you taking the time to share your experience.\n\nFirthgale Counsel LLP",
+        "author": "Firthgale Counsel LLP",
+        "date": "2026-07-27T21:30:00Z"
+      }
+    },
+    {
+      "id": "acct-firthgale-counsel-rev-2",
+      "number": 2,
+      "accountId": "acct-firthgale-counsel",
+      "locationId": "acct-firthgale-counsel-loc-2",
+      "location": "Firthgale Counsel - Bellevue (Bellevue, WA)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Gemma Granger",
+      "date": "2026-07-12T18:40:00Z",
+      "text": "It took four days to get a return call about a Series A financing. Once Anders Holt was on it the advice was good, but intake at the Bellevue location felt slow for a time-sensitive matter.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [
+        "Anders Holt"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Gemma, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Firthgale Counsel. A member of our leadership team will contact you directly to discuss it.\n\nFirthgale Counsel LLP",
+        "author": "Firthgale Counsel LLP",
+        "date": "2026-07-14T20:40:00Z"
+      }
+    },
+    {
+      "id": "acct-firthgale-counsel-rev-3",
+      "number": 3,
+      "accountId": "acct-firthgale-counsel",
+      "locationId": "acct-firthgale-counsel-loc-3",
+      "location": "Firthgale Counsel - Tacoma (Tacoma, WA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Hugo Osgood",
+      "date": "2026-06-28T21:05:00Z",
+      "text": "I was anxious going into an employment investigation. Jae-won Park laid out a realistic timeline, flagged the risks up front, and checked in at every milestone.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jae-won Park"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-firthgale-counsel-rev-4",
+      "number": 4,
+      "accountId": "acct-firthgale-counsel",
+      "locationId": "acct-firthgale-counsel-loc-4",
+      "location": "Firthgale Counsel - Portland (Portland, OR)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Ines Yardley",
+      "date": "2026-10-07T20:45:00Z",
+      "text": "Competent work on a licensing agreement, but the invoices from Firthgale Counsel were vague and I had to ask for an itemized breakdown. Clearer billing would earn a better rating.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Ines, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Firthgale Counsel. A member of our leadership team will contact you directly to discuss it.\n\nFirthgale Counsel LLP",
+        "author": "Firthgale Counsel LLP",
+        "date": "2026-10-09T14:05:00Z"
+      }
+    },
+    {
+      "id": "acct-firthgale-counsel-rev-5",
+      "number": 5,
+      "accountId": "acct-firthgale-counsel",
+      "locationId": "acct-firthgale-counsel-loc-5",
+      "location": "Firthgale Counsel - Vancouver WA (Vancouver, WA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Jonah Galbraith",
+      "date": "2026-09-23T15:15:00Z",
+      "text": "Referred a friend to Firthgale Counsel after my own a trademark filing went smoothly. Anders Holt and Jae-won Park worked as a team and never made us repeat ourselves.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Anders Holt"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-firthgale-counsel-rev-6",
+      "number": 6,
+      "accountId": "acct-firthgale-counsel",
+      "locationId": "acct-firthgale-counsel-loc-6",
+      "location": "Firthgale Counsel - Spokane (Spokane, WA)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Kaia Northcott",
+      "date": "2026-09-09T14:55:00Z",
+      "text": "My file at Firthgale Counsel changed hands twice during a Series A financing and nobody told me. It eventually got done, but I spent too much time chasing status updates.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Kaia, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Firthgale Counsel. A member of our leadership team will contact you directly to discuss it.\n\nFirthgale Counsel LLP",
+        "author": "Firthgale Counsel LLP",
+        "date": "2026-09-11T16:35:00Z"
+      }
+    },
+    {
+      "id": "acct-firthgale-counsel-rev-7",
+      "number": 7,
+      "accountId": "acct-firthgale-counsel",
+      "locationId": "acct-firthgale-counsel-loc-7",
+      "location": "Firthgale Counsel - Eugene (Eugene, OR)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Lionel Underhill",
+      "date": "2026-08-26T17:20:00Z",
+      "text": "The fixed-fee quote for an employment investigation was honored to the dollar. Miriam Lowe was thorough, though the first consult at the Eugene location started 20 minutes late.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Miriam Lowe"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Lionel. We are glad the team at Firthgale Counsel could help, and we appreciate you taking the time to share your experience.\n\nFirthgale Counsel LLP",
+        "author": "Firthgale Counsel LLP",
+        "date": "2026-08-27T19:10:00Z"
+      }
+    },
+    {
+      "id": "acct-firthgale-counsel-rev-8",
+      "number": 8,
+      "accountId": "acct-firthgale-counsel",
+      "locationId": "acct-firthgale-counsel-loc-1",
+      "location": "Firthgale Counsel - Seattle (Seattle, WA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Mila Castaneda",
+      "date": "2026-08-12T16:05:00Z",
+      "text": "My consult about a Series A financing was free of jargon and pressure. Anders Holt told me what I could handle myself and what really needed an attorney.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Anders Holt"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

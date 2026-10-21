@@ -1,0 +1,2505 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-evercoast",
+    "name": "Evercoast Dental Partners",
+    "brandName": "Evercoast Dental",
+    "parentGroup": "Evercoast Dental",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "dental-healthcare",
+    "industryLabel": "Dental and healthcare",
+    "tier": "Enterprise multi-location DSO",
+    "crm": "Dentrix Enterprise",
+    "purchasedLocations": 45,
+    "isDefault": true,
+    "quickScenario": true,
+    "hq": {
+      "city": "San Diego",
+      "state": "CA",
+      "stateName": "California",
+      "country": "United States"
+    },
+    "businessBlurb": "Multi-state dental support organization operating Evercoast Dental practices across the western United States.",
+    "profile": {
+      "description": "Multi-state dental support organization operating Evercoast Dental practices across the western United States. Neighborhood dentistry from the Pacific to the Rockies.",
+      "categories": [
+        "Dentist"
+      ],
+      "website": "https://evercoastdental.example.com",
+      "email": "hello@evercoastdental.example.com",
+      "phone": "(619) 555-0104",
+      "primaryLocationId": "acct-evercoast-loc-1",
+      "address": {
+        "street1": "6953 Cobble Creek Lane",
+        "street2": "Suite 238",
+        "city": "San Diego",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92108",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Evercoast Dental",
+      "tagline": "Neighborhood dentistry from the Pacific to the Rockies",
+      "logo": {
+        "kind": "monogram",
+        "initials": "ED",
+        "path": "v1/logos/acct-evercoast.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-evercoast.svg"
+      },
+      "colors": {
+        "primary": "#0F6E8C",
+        "secondary": "#E8F4F7",
+        "accent": "#F2A541",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Warm, reassuring, and plain-spoken; explains clinical steps without jargon.",
+      "formality": "neutral",
+      "replySignoff": "The Evercoast Dental patient care team"
+    },
+    "staff": [
+      "Dr. Hana Okafor",
+      "Marisol",
+      "Dr. Brandt"
+    ],
+    "services": [
+      "a hygiene recall",
+      "an implant consult",
+      "a crown",
+      "a night guard"
+    ],
+    "llmContext": "Evercoast Dental Partners · Enterprise · Dental and healthcare · HQ San Diego, California, United States · 45 purchased locations · CRM Dentrix Enterprise · Multi-state dental support organization operating Evercoast Dental practices across the western United States."
+  },
+  "locations": [
+    {
+      "id": "acct-evercoast-loc-1",
+      "accountId": "acct-evercoast",
+      "index": 1,
+      "name": "Evercoast Dental - San Diego",
+      "shortName": "San Diego",
+      "label": "Evercoast Dental - San Diego (San Diego, CA)",
+      "locationLine": "San Diego, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "6953 Cobble Creek Lane",
+        "street2": "Suite 238",
+        "city": "San Diego",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92108",
+        "country": "US"
+      },
+      "phone": "(619) 555-0102",
+      "email": "sandiego@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/san-diego",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-22T14:25:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-2",
+      "accountId": "acct-evercoast",
+      "index": 2,
+      "name": "Evercoast Dental - Escondido",
+      "shortName": "Escondido",
+      "label": "Evercoast Dental - Escondido (Escondido, CA)",
+      "locationLine": "Escondido, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3596 Dovetail Commons",
+        "street2": "",
+        "city": "Escondido",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92025",
+        "country": "US"
+      },
+      "phone": "(760) 555-0100",
+      "email": "escondido@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/escondido",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-08T15:45:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-3",
+      "accountId": "acct-evercoast",
+      "index": 3,
+      "name": "Evercoast Dental - Oceanside",
+      "shortName": "Oceanside",
+      "label": "Evercoast Dental - Oceanside (Oceanside, CA)",
+      "locationLine": "Oceanside, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4715 Elderberry Parkway",
+        "street2": "Suite 144",
+        "city": "Oceanside",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92056",
+        "country": "US"
+      },
+      "phone": "(760) 555-0101",
+      "email": "oceanside@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/oceanside",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-07-25T20:15:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-4",
+      "accountId": "acct-evercoast",
+      "index": 4,
+      "name": "Evercoast Dental - El Cajon",
+      "shortName": "El Cajon",
+      "label": "Evercoast Dental - El Cajon (El Cajon, CA)",
+      "locationLine": "El Cajon, CA",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1358 Falconridge Terrace",
+        "street2": "",
+        "city": "El Cajon",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92020",
+        "country": "US"
+      },
+      "phone": "(619) 555-0103",
+      "email": "elcajon@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/el-cajon",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-11T21:35:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-5",
+      "accountId": "acct-evercoast",
+      "index": 5,
+      "name": "Evercoast Dental - San Jose",
+      "shortName": "San Jose",
+      "label": "Evercoast Dental - San Jose (San Jose, CA)",
+      "locationLine": "San Jose, CA",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2477 Goldfinch Court",
+        "street2": "",
+        "city": "San Jose",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "95126",
+        "country": "US"
+      },
+      "phone": "(408) 555-0101",
+      "email": "sanjose@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/san-jose",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-06-27T18:10:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-6",
+      "accountId": "acct-evercoast",
+      "index": 6,
+      "name": "Evercoast Dental - Fremont",
+      "shortName": "Fremont",
+      "label": "Evercoast Dental - Fremont (Fremont, CA)",
+      "locationLine": "Fremont, CA",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8020 Larkspur Boulevard",
+        "street2": "Suite 453",
+        "city": "Fremont",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "94538",
+        "country": "US"
+      },
+      "phone": "(510) 555-0100",
+      "email": "fremont@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/fremont",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-10-09T19:25:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-7",
+      "accountId": "acct-evercoast",
+      "index": 7,
+      "name": "Evercoast Dental - Oakland",
+      "shortName": "Oakland",
+      "label": "Evercoast Dental - Oakland (Oakland, CA)",
+      "locationLine": "Oakland, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "239 Ironleaf Court",
+        "street2": "",
+        "city": "Oakland",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "94610",
+        "country": "US"
+      },
+      "phone": "(510) 555-0103",
+      "email": "oakland@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/oakland",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-09-25T16:00:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-8",
+      "accountId": "acct-evercoast",
+      "index": 8,
+      "name": "Evercoast Dental - Berkeley",
+      "shortName": "Berkeley",
+      "label": "Evercoast Dental - Berkeley (Berkeley, CA)",
+      "locationLine": "Berkeley, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5782 Bramblewood Trail",
+        "street2": "Suite 359",
+        "city": "Berkeley",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "94704",
+        "country": "US"
+      },
+      "phone": "(510) 555-0104",
+      "email": "berkeley@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/berkeley",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-02T17:25:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-9",
+      "accountId": "acct-evercoast",
+      "index": 9,
+      "name": "Evercoast Dental - San Mateo",
+      "shortName": "San Mateo",
+      "label": "Evercoast Dental - San Mateo (San Mateo, CA)",
+      "locationLine": "San Mateo, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6901 Meadowlark Avenue",
+        "street2": "Suite 406",
+        "city": "San Mateo",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "94403",
+        "country": "US"
+      },
+      "phone": "(650) 555-0100",
+      "email": "sanmateo@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/san-mateo",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-09-18T14:00:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-10",
+      "accountId": "acct-evercoast",
+      "index": 10,
+      "name": "Evercoast Dental - Palo Alto",
+      "shortName": "Palo Alto",
+      "label": "Evercoast Dental - Palo Alto (Palo Alto, CA)",
+      "locationLine": "Palo Alto, CA",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6139 Glenhaven Court",
+        "street2": "Suite 176",
+        "city": "Palo Alto",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "94301",
+        "country": "US"
+      },
+      "phone": "(650) 555-0101",
+      "email": "paloalto@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/palo-alto",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-04T14:15:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-11",
+      "accountId": "acct-evercoast",
+      "index": 11,
+      "name": "Evercoast Dental - Sacramento",
+      "shortName": "Sacramento",
+      "label": "Evercoast Dental - Sacramento (Sacramento, CA)",
+      "locationLine": "Sacramento, CA",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5020 Lantern Hill Boulevard",
+        "street2": "Suite 281",
+        "city": "Sacramento",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "95816",
+        "country": "US"
+      },
+      "phone": "(916) 555-0100",
+      "email": "sacramento@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/sacramento",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-21T17:40:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-12",
+      "accountId": "acct-evercoast",
+      "index": 12,
+      "name": "Evercoast Dental - San Francisco",
+      "shortName": "San Francisco",
+      "label": "Evercoast Dental - San Francisco (San Francisco, CA)",
+      "locationLine": "San Francisco, CA",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8377 Emberly Parkway",
+        "street2": "Suite 270",
+        "city": "San Francisco",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "94103",
+        "country": "US"
+      },
+      "phone": "(415) 555-0101",
+      "email": "sanfrancisco@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/san-francisco",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-07T20:05:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-13",
+      "accountId": "acct-evercoast",
+      "index": 13,
+      "name": "Evercoast Dental - Bellevue",
+      "shortName": "Bellevue",
+      "label": "Evercoast Dental - Bellevue (Bellevue, WA)",
+      "locationLine": "Bellevue, WA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7258 Hazelwood Terrace",
+        "street2": "Suite 223",
+        "city": "Bellevue",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98005",
+        "country": "US"
+      },
+      "phone": "(425) 555-0100",
+      "email": "bellevue@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/bellevue",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-07-24T15:35:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-14",
+      "accountId": "acct-evercoast",
+      "index": 14,
+      "name": "Evercoast Dental - Tacoma",
+      "shortName": "Tacoma",
+      "label": "Evercoast Dental - Tacoma (Tacoma, WA)",
+      "locationLine": "Tacoma, WA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1663 Kestrel Row",
+        "street2": "Suite 380",
+        "city": "Tacoma",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98402",
+        "country": "US"
+      },
+      "phone": "(253) 555-0100",
+      "email": "tacoma@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/tacoma",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-10T18:00:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-15",
+      "accountId": "acct-evercoast",
+      "index": 15,
+      "name": "Evercoast Dental - Vancouver",
+      "shortName": "Vancouver",
+      "label": "Evercoast Dental - Vancouver (Vancouver, WA)",
+      "locationLine": "Vancouver, WA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "544 Pinecrest Trail",
+        "street2": "",
+        "city": "Vancouver",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98661",
+        "country": "US"
+      },
+      "phone": "(360) 555-0100",
+      "email": "vancouver@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/vancouver",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-17T21:25:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-16",
+      "accountId": "acct-evercoast",
+      "index": 16,
+      "name": "Evercoast Dental - Tempe",
+      "shortName": "Tempe",
+      "label": "Evercoast Dental - Tempe (Tempe, AZ)",
+      "locationLine": "Tempe, AZ",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3901 Copperleaf Avenue",
+        "street2": "Suite 234",
+        "city": "Tempe",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85281",
+        "country": "US"
+      },
+      "phone": "(480) 555-0107",
+      "email": "tempe@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/tempe",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-03T16:50:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-17",
+      "accountId": "acct-evercoast",
+      "index": 17,
+      "name": "Evercoast Dental - Chandler",
+      "shortName": "Chandler",
+      "label": "Evercoast Dental - Chandler (Chandler, AZ)",
+      "locationLine": "Chandler, AZ",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2782 Northwind Trail",
+        "street2": "",
+        "city": "Chandler",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85226",
+        "country": "US"
+      },
+      "phone": "(480) 555-0108",
+      "email": "chandler@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/chandler",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-10-15T19:15:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-18",
+      "accountId": "acct-evercoast",
+      "index": 18,
+      "name": "Evercoast Dental - Mesa",
+      "shortName": "Mesa",
+      "label": "Evercoast Dental - Mesa (Mesa, AZ)",
+      "locationLine": "Mesa, AZ",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6087 Foxglove Drive",
+        "street2": "Suite 152",
+        "city": "Mesa",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85201",
+        "country": "US"
+      },
+      "phone": "(480) 555-0110",
+      "email": "mesa@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/mesa",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-01T14:50:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-19",
+      "accountId": "acct-evercoast",
+      "index": 19,
+      "name": "Evercoast Dental - Gilbert",
+      "shortName": "Gilbert",
+      "label": "Evercoast Dental - Gilbert (Gilbert, AZ)",
+      "locationLine": "Gilbert, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4968 Tamarack Lane",
+        "street2": "Suite 257",
+        "city": "Gilbert",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85296",
+        "country": "US"
+      },
+      "phone": "(480) 555-0111",
+      "email": "gilbert@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/gilbert",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-09-17T17:15:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-20",
+      "accountId": "acct-evercoast",
+      "index": 20,
+      "name": "Evercoast Dental - Glendale",
+      "shortName": "Glendale",
+      "label": "Evercoast Dental - Glendale (Glendale, AZ)",
+      "locationLine": "Glendale, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3076 Dovetail Parkway",
+        "street2": "Suite 129",
+        "city": "Glendale",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85301",
+        "country": "US"
+      },
+      "phone": "(623) 555-0100",
+      "email": "glendale@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/glendale",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-03T17:55:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-21",
+      "accountId": "acct-evercoast",
+      "index": 21,
+      "name": "Evercoast Dental - Peoria",
+      "shortName": "Peoria",
+      "label": "Evercoast Dental - Peoria (Peoria, AZ)",
+      "locationLine": "Peoria, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4195 Elderberry Drive",
+        "street2": "Suite 424",
+        "city": "Peoria",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85382",
+        "country": "US"
+      },
+      "phone": "(623) 555-0101",
+      "email": "peoria@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/peoria",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-20T14:30:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-22",
+      "accountId": "acct-evercoast",
+      "index": 22,
+      "name": "Evercoast Dental - Surprise",
+      "shortName": "Surprise",
+      "label": "Evercoast Dental - Surprise (Surprise, AZ)",
+      "locationLine": "Surprise, AZ",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5314 Brightwater Lane",
+        "street2": "",
+        "city": "Surprise",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85374",
+        "country": "US"
+      },
+      "phone": "(623) 555-0102",
+      "email": "surprise@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/surprise",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-27T15:45:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-23",
+      "accountId": "acct-evercoast",
+      "index": 23,
+      "name": "Evercoast Dental - Queen Creek",
+      "shortName": "Queen Creek",
+      "label": "Evercoast Dental - Queen Creek (Queen Creek, AZ)",
+      "locationLine": "Queen Creek, AZ",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6433 Cobble Creek Loop",
+        "street2": "",
+        "city": "Queen Creek",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85142",
+        "country": "US"
+      },
+      "phone": "(480) 555-0112",
+      "email": "queencreek@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/queen-creek",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-08-13T20:20:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-24",
+      "accountId": "acct-evercoast",
+      "index": 24,
+      "name": "Evercoast Dental - Salt Lake City",
+      "shortName": "Salt Lake City",
+      "label": "Evercoast Dental - Salt Lake City (Salt Lake City, UT)",
+      "locationLine": "Salt Lake City, UT",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7500 Larkspur Court",
+        "street2": "Suite 125",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84101",
+        "country": "US"
+      },
+      "phone": "(801) 555-0100",
+      "email": "saltlakecity@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/salt-lake-city",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-30T21:35:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-25",
+      "accountId": "acct-evercoast",
+      "index": 25,
+      "name": "Evercoast Dental - Sandy",
+      "shortName": "Sandy",
+      "label": "Evercoast Dental - Sandy (Sandy, UT)",
+      "locationLine": "Sandy, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8619 Ironleaf Terrace",
+        "street2": "Suite 420",
+        "city": "Sandy",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84094",
+        "country": "US"
+      },
+      "phone": "(801) 555-0102",
+      "email": "sandy@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/sandy",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-16T18:10:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-26",
+      "accountId": "acct-evercoast",
+      "index": 26,
+      "name": "Evercoast Dental - West Valley City",
+      "shortName": "West Valley City",
+      "label": "Evercoast Dental - West Valley City (West Valley City, UT)",
+      "locationLine": "West Valley City, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "838 Falconridge Court",
+        "street2": "Suite 435",
+        "city": "West Valley City",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84119",
+        "country": "US"
+      },
+      "phone": "(801) 555-0104",
+      "email": "westvalleycity@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/west-valley-city",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-02T19:30:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-27",
+      "accountId": "acct-evercoast",
+      "index": 27,
+      "name": "Evercoast Dental - Ogden",
+      "shortName": "Ogden",
+      "label": "Evercoast Dental - Ogden (Ogden, UT)",
+      "locationLine": "Ogden, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1957 Goldfinch Commons",
+        "street2": "Suite 482",
+        "city": "Ogden",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84403",
+        "country": "US"
+      },
+      "phone": "(801) 555-0105",
+      "email": "ogden@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/ogden",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-10-14T16:05:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-28",
+      "accountId": "acct-evercoast",
+      "index": 28,
+      "name": "Evercoast Dental - Provo",
+      "shortName": "Provo",
+      "label": "Evercoast Dental - Provo (Provo, UT)",
+      "locationLine": "Provo, UT",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3128 Tamarack Boulevard",
+        "street2": "Suite 153",
+        "city": "Provo",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84601",
+        "country": "US"
+      },
+      "phone": "(801) 555-0106",
+      "email": "provo@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/provo",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-09-30T17:20:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-29",
+      "accountId": "acct-evercoast",
+      "index": 29,
+      "name": "Evercoast Dental - Park City",
+      "shortName": "Park City",
+      "label": "Evercoast Dental - Park City (Park City, UT)",
+      "locationLine": "Park City, UT",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4247 Foxglove Avenue",
+        "street2": "Suite 448",
+        "city": "Park City",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84060",
+        "country": "US"
+      },
+      "phone": "(435) 555-0100",
+      "email": "parkcity@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/park-city",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-10-07T14:55:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-30",
+      "accountId": "acct-evercoast",
+      "index": 30,
+      "name": "Evercoast Dental - St. George",
+      "shortName": "St. George",
+      "label": "Evercoast Dental - St. George (St. George, UT)",
+      "locationLine": "St. George, UT",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5585 Silverbell Boulevard",
+        "street2": "Suite 390",
+        "city": "St. George",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84770",
+        "country": "US"
+      },
+      "phone": "(435) 555-0101",
+      "email": "stgeorge@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/st-george",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-23T16:40:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-31",
+      "accountId": "acct-evercoast",
+      "index": 31,
+      "name": "Evercoast Dental - Logan",
+      "shortName": "Logan",
+      "label": "Evercoast Dental - Logan (Logan, UT)",
+      "locationLine": "Logan, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4466 Ravenwood Avenue",
+        "street2": "Suite 343",
+        "city": "Logan",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84321",
+        "country": "US"
+      },
+      "phone": "(435) 555-0102",
+      "email": "logan@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/logan",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-09-09T19:05:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-32",
+      "accountId": "acct-evercoast",
+      "index": 32,
+      "name": "Evercoast Dental - Layton",
+      "shortName": "Layton",
+      "label": "Evercoast Dental - Layton (Layton, UT)",
+      "locationLine": "Layton, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3347 Foxglove Trail",
+        "street2": "",
+        "city": "Layton",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84041",
+        "country": "US"
+      },
+      "phone": "(801) 555-0107",
+      "email": "layton@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/layton",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-26T18:50:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-33",
+      "accountId": "acct-evercoast",
+      "index": 33,
+      "name": "Evercoast Dental - Orem",
+      "shortName": "Orem",
+      "label": "Evercoast Dental - Orem (Orem, UT)",
+      "locationLine": "Orem, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2228 Tamarack Row",
+        "street2": "",
+        "city": "Orem",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84058",
+        "country": "US"
+      },
+      "phone": "(801) 555-0108",
+      "email": "orem@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/orem",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-08-12T21:15:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-34",
+      "accountId": "acct-evercoast",
+      "index": 34,
+      "name": "Evercoast Dental - Denver",
+      "shortName": "Denver",
+      "label": "Evercoast Dental - Denver (Denver, CO)",
+      "locationLine": "Denver, CO",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1109 Wrenfield Trail",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80211",
+        "country": "US"
+      },
+      "phone": "(303) 555-0109",
+      "email": "denver@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/denver",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-29T20:55:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-35",
+      "accountId": "acct-evercoast",
+      "index": 35,
+      "name": "Evercoast Dental - Centennial",
+      "shortName": "Centennial",
+      "label": "Evercoast Dental - Centennial (Centennial, CO)",
+      "locationLine": "Centennial, CO",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8890 Velvet Ash Loop",
+        "street2": "",
+        "city": "Centennial",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80122",
+        "country": "US"
+      },
+      "phone": "(303) 555-0111",
+      "email": "centennial@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/centennial",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-15T15:25:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-36",
+      "accountId": "acct-evercoast",
+      "index": 36,
+      "name": "Evercoast Dental - Aurora",
+      "shortName": "Aurora",
+      "label": "Evercoast Dental - Aurora (Aurora, CO)",
+      "locationLine": "Aurora, CO",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7771 Amberwood Way",
+        "street2": "",
+        "city": "Aurora",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80012",
+        "country": "US"
+      },
+      "phone": "(303) 555-0113",
+      "email": "aurora@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/aurora",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-22T14:05:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-37",
+      "accountId": "acct-evercoast",
+      "index": 37,
+      "name": "Evercoast Dental - Lakewood",
+      "shortName": "Lakewood",
+      "label": "Evercoast Dental - Lakewood (Lakewood, CO)",
+      "locationLine": "Lakewood, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6652 Yarrow Drive",
+        "street2": "Suite 205",
+        "city": "Lakewood",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80228",
+        "country": "US"
+      },
+      "phone": "(303) 555-0116",
+      "email": "lakewood@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/lakewood",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-07-08T17:30:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-38",
+      "accountId": "acct-evercoast",
+      "index": 38,
+      "name": "Evercoast Dental - Boulder",
+      "shortName": "Boulder",
+      "label": "Evercoast Dental - Boulder (Boulder, CO)",
+      "locationLine": "Boulder, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5637 Emberly Loop",
+        "street2": "",
+        "city": "Boulder",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80302",
+        "country": "US"
+      },
+      "phone": "(303) 555-0117",
+      "email": "boulder@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/boulder",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-20T16:15:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-39",
+      "accountId": "acct-evercoast",
+      "index": 39,
+      "name": "Evercoast Dental - Highlands Ranch",
+      "shortName": "Highlands Ranch",
+      "label": "Evercoast Dental - Highlands Ranch (Highlands Ranch, CO)",
+      "locationLine": "Highlands Ranch, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4518 Hazelwood Lane",
+        "street2": "",
+        "city": "Highlands Ranch",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80130",
+        "country": "US"
+      },
+      "phone": "(303) 555-0118",
+      "email": "highlandsranch@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/highlands-ranch",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-10-06T19:40:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-40",
+      "accountId": "acct-evercoast",
+      "index": 40,
+      "name": "Evercoast Dental - Arvada",
+      "shortName": "Arvada",
+      "label": "Evercoast Dental - Arvada (Arvada, CO)",
+      "locationLine": "Arvada, CO",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6334 Brightwater Parkway",
+        "street2": "Suite 303",
+        "city": "Arvada",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80002",
+        "country": "US"
+      },
+      "phone": "(303) 555-0119",
+      "email": "arvada@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/arvada",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-22T19:20:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-41",
+      "accountId": "acct-evercoast",
+      "index": 41,
+      "name": "Evercoast Dental - Westminster",
+      "shortName": "Westminster",
+      "label": "Evercoast Dental - Westminster (Westminster, CO)",
+      "locationLine": "Westminster, CO",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7453 Cobble Creek Commons",
+        "street2": "Suite 318",
+        "city": "Westminster",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80030",
+        "country": "US"
+      },
+      "phone": "(303) 555-0120",
+      "email": "westminster@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/westminster",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-09-08T16:55:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-42",
+      "accountId": "acct-evercoast",
+      "index": 42,
+      "name": "Evercoast Dental - Littleton",
+      "shortName": "Littleton",
+      "label": "Evercoast Dental - Littleton (Littleton, CO)",
+      "locationLine": "Littleton, CO",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4096 Dovetail Court",
+        "street2": "Suite 361",
+        "city": "Littleton",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80120",
+        "country": "US"
+      },
+      "phone": "(303) 555-0121",
+      "email": "littleton@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/littleton",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-25T21:25:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-43",
+      "accountId": "acct-evercoast",
+      "index": 43,
+      "name": "Evercoast Dental - Broomfield",
+      "shortName": "Broomfield",
+      "label": "Evercoast Dental - Broomfield (Broomfield, CO)",
+      "locationLine": "Broomfield, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5215 Elderberry Terrace",
+        "street2": "Suite 256",
+        "city": "Broomfield",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80023",
+        "country": "US"
+      },
+      "phone": "(303) 555-0122",
+      "email": "broomfield@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/broomfield",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-09-01T18:00:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-44",
+      "accountId": "acct-evercoast",
+      "index": 44,
+      "name": "Evercoast Dental - Castle Rock",
+      "shortName": "Castle Rock",
+      "label": "Evercoast Dental - Castle Rock (Castle Rock, CO)",
+      "locationLine": "Castle Rock, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1858 Falconridge Avenue",
+        "street2": "",
+        "city": "Castle Rock",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80104",
+        "country": "US"
+      },
+      "phone": "(303) 555-0123",
+      "email": "castlerock@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/castle-rock",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-08-18T15:35:00Z"
+    },
+    {
+      "id": "acct-evercoast-loc-45",
+      "accountId": "acct-evercoast",
+      "index": 45,
+      "name": "Evercoast Dental - Parker",
+      "shortName": "Parker",
+      "label": "Evercoast Dental - Parker (Parker, CO)",
+      "locationLine": "Parker, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2977 Goldfinch Boulevard",
+        "street2": "Suite 314",
+        "city": "Parker",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80138",
+        "country": "US"
+      },
+      "phone": "(303) 555-0124",
+      "email": "parker@evercoastdental.example.com",
+      "website": "https://evercoastdental.example.com/locations/parker",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-08-04T20:10:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-evercoast-ct-1",
+      "number": 42,
+      "accountId": "acct-evercoast",
+      "name": "Maya Chen",
+      "firstName": "Maya",
+      "lastName": "Chen",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-evercoast-loc-1",
+      "locationIds": [
+        "acct-evercoast-loc-1",
+        "acct-evercoast-loc-6"
+      ],
+      "segments": [
+        "High value",
+        "Hygiene recall",
+        "Family plan"
+      ],
+      "experienceTags": [
+        "Verified",
+        "Promoter",
+        "Multi-location"
+      ],
+      "externalId": "ext-evercoast-001",
+      "email": "maya.chen@example.com",
+      "phone": "(619) 555-0146",
+      "locationCount": 2,
+      "location": "Evercoast Dental - San Diego (San Diego, CA)",
+      "createdOn": "2026-10-18T17:15:00Z",
+      "lastActivity": "2026-10-19T18:30:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-2",
+      "number": 2,
+      "accountId": "acct-evercoast",
+      "name": "Jordan Blake",
+      "firstName": "Jordan",
+      "lastName": "Blake",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-evercoast-loc-4",
+      "locationIds": [
+        "acct-evercoast-loc-4"
+      ],
+      "segments": [
+        "Hygiene recall"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-evercoast-002",
+      "email": "jordan.blake@example.com",
+      "phone": "(619) 555-0147",
+      "locationCount": 1,
+      "location": "Evercoast Dental - El Cajon (El Cajon, CA)",
+      "createdOn": "2026-10-04T20:25:00Z",
+      "lastActivity": "2026-10-05T21:35:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-3",
+      "number": 3,
+      "accountId": "acct-evercoast",
+      "name": "Priya Nair",
+      "firstName": "Priya",
+      "lastName": "Nair",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-evercoast-loc-7",
+      "locationIds": [
+        "acct-evercoast-loc-7",
+        "acct-evercoast-loc-12"
+      ],
+      "segments": [
+        "Ortho consult"
+      ],
+      "experienceTags": [
+        "At risk",
+        "SMS active"
+      ],
+      "externalId": "ext-evercoast-003",
+      "email": "priya.nair@example.com",
+      "phone": "(510) 555-0148",
+      "locationCount": 2,
+      "location": "Evercoast Dental - Oakland (Oakland, CA)",
+      "createdOn": "2026-09-20T15:15:00Z",
+      "lastActivity": "2026-10-17T20:05:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-4",
+      "number": 4,
+      "accountId": "acct-evercoast",
+      "name": "Ethan Morales",
+      "firstName": "Ethan",
+      "lastName": "Morales",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 6,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-evercoast-loc-10",
+      "locationIds": [
+        "acct-evercoast-loc-10",
+        "acct-evercoast-loc-15",
+        "acct-evercoast-loc-20"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Detractor"
+      ],
+      "externalId": "ext-evercoast-004",
+      "phone": "(650) 555-0149",
+      "locationCount": 3,
+      "location": "Evercoast Dental - Palo Alto (Palo Alto, CA)",
+      "createdOn": "2026-09-06T18:20:00Z",
+      "lastActivity": "2026-10-01T15:30:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-5",
+      "number": 5,
+      "accountId": "acct-evercoast",
+      "name": "Sofia Alvarenne",
+      "firstName": "Sofia",
+      "lastName": "Alvarenne",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-evercoast-loc-13",
+      "locationIds": [
+        "acct-evercoast-loc-13"
+      ],
+      "segments": [
+        "Pediatric",
+        "Newsletter"
+      ],
+      "experienceTags": [
+        "Loyal",
+        "Family plan"
+      ],
+      "externalId": "ext-evercoast-005",
+      "email": "sofia.alvarenne@example.com",
+      "phone": "(425) 555-0150",
+      "locationCount": 1,
+      "location": "Evercoast Dental - Bellevue (Bellevue, WA)",
+      "createdOn": "2026-08-23T21:45:00Z",
+      "lastActivity": "2026-10-16T14:30:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-6",
+      "number": 6,
+      "accountId": "acct-evercoast",
+      "name": "Noah Patel",
+      "firstName": "Noah",
+      "lastName": "Patel",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-evercoast-loc-16",
+      "locationIds": [
+        "acct-evercoast-loc-16"
+      ],
+      "segments": [
+        "New patient inquiry"
+      ],
+      "experienceTags": [
+        "Lead"
+      ],
+      "externalId": "ext-evercoast-006",
+      "email": "noah.patel@example.com",
+      "phone": "(480) 555-0151",
+      "locationCount": 1,
+      "location": "Evercoast Dental - Tempe (Tempe, AZ)",
+      "createdOn": "2026-08-09T16:40:00Z",
+      "lastActivity": "2026-08-19T17:35:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-7",
+      "number": 7,
+      "accountId": "acct-evercoast",
+      "name": "Ava Kim",
+      "firstName": "Ava",
+      "lastName": "Kim",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-evercoast-loc-19",
+      "locationIds": [
+        "acct-evercoast-loc-19"
+      ],
+      "segments": [
+        "High value",
+        "Clear aligners"
+      ],
+      "experienceTags": [
+        "Advocate",
+        "Referrer"
+      ],
+      "externalId": "ext-evercoast-007",
+      "email": "ava.kim@example.com",
+      "phone": "(480) 555-0152",
+      "locationCount": 1,
+      "location": "Evercoast Dental - Gilbert (Gilbert, AZ)",
+      "createdOn": "2026-07-26T19:30:00Z",
+      "lastActivity": "2026-08-20T16:55:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-8",
+      "number": 8,
+      "accountId": "acct-evercoast",
+      "name": "Liam Ortiz",
+      "firstName": "Liam",
+      "lastName": "Ortiz",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-evercoast-loc-22",
+      "locationIds": [
+        "acct-evercoast-loc-22"
+      ],
+      "segments": [
+        "Hygiene recall"
+      ],
+      "experienceTags": [
+        "Steady"
+      ],
+      "externalId": "ext-evercoast-008",
+      "email": "liam.ortiz@example.com",
+      "phone": "(623) 555-0153",
+      "locationCount": 1,
+      "location": "Evercoast Dental - Surprise (Surprise, AZ)",
+      "createdOn": "2026-08-02T14:15:00Z",
+      "lastActivity": "2026-10-19T19:00:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-9",
+      "number": 9,
+      "accountId": "acct-evercoast",
+      "name": "Harper Singh",
+      "firstName": "Harper",
+      "lastName": "Singh",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 2,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-evercoast-loc-25",
+      "locationIds": [
+        "acct-evercoast-loc-25"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-evercoast-009",
+      "email": "harper.singh@example.com",
+      "locationCount": 1,
+      "location": "Evercoast Dental - Sandy (Sandy, UT)",
+      "createdOn": "2026-07-19T17:45:00Z",
+      "lastActivity": "2026-08-01T18:40:00Z"
+    },
+    {
+      "id": "acct-evercoast-ct-10",
+      "number": 10,
+      "accountId": "acct-evercoast",
+      "name": "Mason Rivera",
+      "firstName": "Mason",
+      "lastName": "Rivera",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-evercoast-loc-28",
+      "locationIds": [
+        "acct-evercoast-loc-28",
+        "acct-evercoast-loc-33",
+        "acct-evercoast-loc-38",
+        "acct-evercoast-loc-43"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Churn risk"
+      ],
+      "externalId": "ext-evercoast-010",
+      "email": "mason.rivera@example.com",
+      "phone": "(801) 555-0154",
+      "locationCount": 4,
+      "location": "Evercoast Dental - Provo (Provo, UT)",
+      "createdOn": "2026-07-05T15:30:00Z",
+      "lastActivity": "2026-08-02T20:30:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-evercoast-rev-1",
+      "number": 1,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-1",
+      "location": "Evercoast Dental - San Diego (San Diego, CA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Renata Solis",
+      "date": "2026-10-19T17:10:00Z",
+      "text": "Six-month cleaning at the San Diego office. Marisol, my hygienist, spotted early gum recession and showed me the probe readings on the screen instead of just reading numbers out loud.\n\nDr. Okafor stopped in, checked two older fillings, and said they could wait another year. The front desk booked my next visit and texted the confirmation before I reached the car.",
+      "photoCount": 3,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Marisol",
+        "Dr. Hana Okafor"
+      ],
+      "employees": 2,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-evercoast-rev-2",
+      "number": 2,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-3",
+      "location": "Evercoast Dental - Oceanside (Oceanside, CA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Brianna Holt",
+      "date": "2026-10-15T20:35:00Z",
+      "text": "Our four-year-old's first dental visit at Evercoast Kids in Oceanside. They let her ride the chair up and down and count her own teeth with a mirror before anyone picked up an instrument. Zero tears.\n\nDr. Salazar recommended fluoride varnish and gave us a printed brushing chart. The small reading corner in the waiting room kept her older brother busy.",
+      "photoCount": 4,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Salazar"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-evercoast-rev-3",
+      "number": 3,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-4",
+      "location": "Evercoast Dental - El Cajon (El Cajon, CA)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Terrence Mabry",
+      "date": "2026-10-17T15:05:00Z",
+      "text": "Waited 35 minutes past my 8:00 appointment at El Cajon, and nobody explained why until I asked. The cleaning itself was fine, but I took time off work for this.\n\nIf mornings are overbooked, a text saying you're running late would go a long way.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Terrence, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Evercoast Dental. A manager will reach out this week to make it right.\n\nThe Evercoast Dental patient care team",
+        "author": "The Evercoast Dental patient care team",
+        "date": "2026-10-18T17:35:00Z"
+      }
+    },
+    {
+      "id": "acct-evercoast-rev-4",
+      "number": 4,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-5",
+      "location": "Evercoast Dental - San Jose (San Jose, CA)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Colleen Rasmussen",
+      "date": "2026-10-10T18:30:00Z",
+      "text": "Cracked a molar on a Saturday, called Monday at 7:45, and San Jose fit me in by 10. Dr. Brandt was upfront that I needed a crown and gave me the out-of-pocket estimate on paper before starting the temporary.\n\nFour stars only because the billing coordinator was out, so my financing questions had to wait for a callback.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Brandt"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Colleen! We'll pass this along to the whole Evercoast Dental team. See you next time.\n\nThe Evercoast Dental patient care team",
+        "author": "The Evercoast Dental patient care team",
+        "date": "2026-10-12T20:10:00Z"
+      }
+    },
+    {
+      "id": "acct-evercoast-rev-5",
+      "number": 5,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-19",
+      "location": "Evercoast Dental - Gilbert (Gilbert, AZ)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Devin Ashcroft",
+      "date": "2026-10-06T21:55:00Z",
+      "text": "Switched to the Gilbert office after moving across town. The new-patient visit included full x-rays, an oral cancer screening, and an honest conversation about my coffee habit. No upselling on whitening.\n\nOnline check-in actually worked, and my insurance was verified before I arrived.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-evercoast-rev-6",
+      "number": 6,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-31",
+      "location": "Evercoast Dental - Logan (Logan, UT)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Leilani Kahale",
+      "date": "2026-10-02T16:20:00Z",
+      "text": "Took my mom to the Logan office for a denture reline. Keoni, the assistant, was patient with her hearing and wrote the aftercare steps down for her. The shared parking lot is tight around noon, so plan for that.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Keoni"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-evercoast-rev-7",
+      "number": 7,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-29",
+      "location": "Evercoast Dental - Park City (Park City, UT)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Gordon Pruitt",
+      "date": "2026-07-09T19:45:00Z",
+      "text": "I was charged for a fluoride treatment at Park City that nobody mentioned during the visit. When I called, the office said it was standard. It isn't standard if my plan doesn't cover it and I wasn't told.\n\nThe clinical care was gentle, but I'm disputing the charge.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Gordon, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Evercoast Dental. A manager will reach out this week to make it right.\n\nThe Evercoast Dental patient care team",
+        "author": "The Evercoast Dental patient care team",
+        "date": "2026-07-10T21:00:00Z"
+      }
+    },
+    {
+      "id": "acct-evercoast-rev-8",
+      "number": 8,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-7",
+      "location": "Evercoast Dental - Oakland (Oakland, CA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Sylvia Marchetti",
+      "date": "2026-09-24T14:20:00Z",
+      "text": "Two years of perio maintenance every three months at the Oakland office. Joanna tracks my pocket depths and they've improved at almost every visit. The text reminders the day before are spot on.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Joanna"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-evercoast-rev-9",
+      "number": 9,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-8",
+      "location": "Evercoast Dental - Berkeley (Berkeley, CA)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Wesley Harlan",
+      "date": "2026-09-18T17:45:00Z",
+      "text": "Berkeley is the only office near us, so I'm glad it's here. The dentist was thorough, but the front desk lost my insurance update twice and I had to send the card photo again.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Wesley, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Evercoast Dental. A manager will reach out this week to make it right.\n\nThe Evercoast Dental patient care team",
+        "author": "The Evercoast Dental patient care team",
+        "date": "2026-09-19T19:15:00Z"
+      }
+    },
+    {
+      "id": "acct-evercoast-rev-10",
+      "number": 10,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-16",
+      "location": "Evercoast Dental - Tempe (Tempe, AZ)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Alejandra Fuenmira",
+      "date": "2026-09-10T15:20:00Z",
+      "text": "The bilingual team at Tempe made my dad's extraction so much easier. Dr. Ibarra explained everything in Spanish, called him that evening to check on swelling, and the post-op sheet came in both languages.",
+      "photoCount": 0,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Ibarra"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-evercoast-rev-11",
+      "number": 11,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-45",
+      "location": "Evercoast Dental - Parker (Parker, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Trevor Ainsley",
+      "date": "2026-08-30T20:50:00Z",
+      "text": "My night guard from the Parker office fit on the first try. A small pressure point on the left side was fixed in five minutes at a quick follow-up. Fair price compared with the other quote I got.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-evercoast-rev-12",
+      "number": 12,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-28",
+      "location": "Evercoast Dental - Provo (Provo, UT)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Marlene Ostrander",
+      "date": "2026-08-19T17:25:00Z",
+      "text": "Booked a cleaning online for the Provo office and showed up to find the appointment had never been confirmed. They found a hygienist to see me after a 20-minute wait, but the online booking needs fixing.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Marlene, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Evercoast Dental. A manager will reach out this week to make it right.\n\nThe Evercoast Dental patient care team",
+        "author": "The Evercoast Dental patient care team",
+        "date": "2026-08-21T19:15:00Z"
+      }
+    },
+    {
+      "id": "acct-evercoast-rev-13",
+      "number": 13,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-27",
+      "location": "Evercoast Dental - Ogden (Ogden, UT)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Caleb Brennan",
+      "date": "2026-08-04T14:00:00Z",
+      "text": "Brought all three kids to Ogden on one afternoon. They ran two chairs side by side so we were in and out in an hour, and Dr. Lindgren gave each kid one thing to work on instead of a lecture.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Lindgren"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-evercoast-rev-14",
+      "number": 14,
+      "accountId": "acct-evercoast",
+      "locationId": "acct-evercoast-loc-22",
+      "location": "Evercoast Dental - Surprise (Surprise, AZ)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Danielle Whitford",
+      "date": "2026-07-17T19:00:00Z",
+      "text": "The implant consult at Surprise covered the 3D scan, the bone graft question, and a staged timeline in one visit. I left with a written estimate and two financing options, with no pressure to decide that day.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    }
+  ]
+}

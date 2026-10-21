@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://craft-birdeye.github.io/birdeye-business-context/schemas/locations.schema.json",
+  "title": "locations",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schemaVersion",
+    "generatedAt",
+    "locations"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^1\\.\\d+\\.\\d+$"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "locations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "accountId",
+          "index",
+          "name",
+          "shortName",
+          "label",
+          "locationLine",
+          "type",
+          "status",
+          "isHeadquarters",
+          "address",
+          "phone",
+          "email",
+          "website",
+          "timezone",
+          "hours",
+          "owner",
+          "createdBy",
+          "createdOn"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+-loc-[0-9]+$"
+          },
+          "accountId": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+$"
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "shortName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locationLine": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "Physical location",
+              "Virtual location"
+            ]
+          },
+          "status": {
+            "enum": [
+              "Active",
+              "Demo",
+              "Needs setup",
+              "Inactive"
+            ]
+          },
+          "isHeadquarters": {
+            "type": "boolean"
+          },
+          "address": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "street1",
+              "street2",
+              "city",
+              "state",
+              "stateName",
+              "zip",
+              "country"
+            ],
+            "properties": {
+              "street1": {
+                "type": "string",
+                "minLength": 1
+              },
+              "street2": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string",
+                "minLength": 1
+              },
+              "state": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "stateName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "zip": {
+                "type": "string",
+                "pattern": "^\\d{5}$"
+              },
+              "country": {
+                "const": "US"
+              }
+            }
+          },
+          "phone": {
+            "type": "string",
+            "pattern": "^\\(\\d{3}\\) 555-01\\d{2}$"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "pattern": "^[a-z0-9._%+-]+@([a-z0-9-]+\\.)*example\\.com$"
+          },
+          "website": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://([a-z0-9-]+\\.)*example\\.com(/[a-z0-9/._-]*)?$"
+          },
+          "timezone": {
+            "type": "string",
+            "pattern": "^[A-Za-z]+/[A-Za-z_/]+$"
+          },
+          "hours": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "days",
+                "open",
+                "close"
+              ],
+              "properties": {
+                "days": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "open": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "close": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "createdBy": {
+            "type": "string",
+            "minLength": 1
+          },
+          "createdOn": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          }
+        }
+      }
+    }
+  }
+}

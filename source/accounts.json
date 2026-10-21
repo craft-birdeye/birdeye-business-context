@@ -1,0 +1,2893 @@
+{
+  "$comment": "Source of truth for accounts. Edit here, then run `node scripts/generate.mjs`. Invented businesses only.",
+  "accounts": [
+    {
+      "id": "acct-evercoast",
+      "name": "Evercoast Dental Partners",
+      "brandName": "Evercoast Dental",
+      "parentGroup": "Evercoast Dental",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "tier": "Enterprise multi-location DSO",
+      "crm": "Dentrix Enterprise",
+      "purchasedLocations": 45,
+      "isDefault": true,
+      "quickScenario": true,
+      "hq": {
+        "city": "San Diego",
+        "state": "CA",
+        "stateName": "California",
+        "country": "United States"
+      },
+      "businessBlurb": "Multi-state dental support organization operating Evercoast Dental practices across the western United States.",
+      "profile": {
+        "description": "Multi-state dental support organization operating Evercoast Dental practices across the western United States. Neighborhood dentistry from the Pacific to the Rockies.",
+        "categories": [
+          "Dentist"
+        ],
+        "website": "https://evercoastdental.example.com",
+        "email": "hello@evercoastdental.example.com",
+        "phone": "(619) 555-0104",
+        "primaryLocationId": "acct-evercoast-loc-1",
+        "address": {
+          "street1": "6953 Cobble Creek Lane",
+          "street2": "Suite 238",
+          "city": "San Diego",
+          "state": "CA",
+          "stateName": "California",
+          "zip": "92108",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Evercoast Dental",
+        "tagline": "Neighborhood dentistry from the Pacific to the Rockies",
+        "logo": {
+          "kind": "monogram",
+          "initials": "ED",
+          "path": "v1/logos/acct-evercoast.svg"
+        },
+        "colors": {
+          "primary": "#0F6E8C",
+          "secondary": "#E8F4F7",
+          "accent": "#F2A541",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Warm, reassuring, and plain-spoken; explains clinical steps without jargon.",
+        "formality": "neutral",
+        "replySignoff": "The Evercoast Dental patient care team"
+      },
+      "staff": [
+        "Dr. Hana Okafor",
+        "Marisol",
+        "Dr. Brandt"
+      ],
+      "services": [
+        "a hygiene recall",
+        "an implant consult",
+        "a crown",
+        "a night guard"
+      ]
+    },
+    {
+      "id": "acct-brisquen-dental",
+      "name": "Brisquen Dental Partners",
+      "brandName": "Brisquen Dental",
+      "parentGroup": "Brisquen Dental",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "tier": "Regional dental group",
+      "crm": "Open Dental",
+      "purchasedLocations": 5,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Scottsdale",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "country": "United States"
+      },
+      "businessBlurb": "Five-location dental group across the East Valley of Phoenix.",
+      "profile": {
+        "description": "Five-location dental group across the East Valley of Phoenix. Dentistry for the East Valley.",
+        "categories": [
+          "Dentist"
+        ],
+        "website": "https://brisquendental.example.com",
+        "email": "hello@brisquendental.example.com",
+        "phone": "(480) 555-0105",
+        "primaryLocationId": "acct-brisquen-dental-loc-1",
+        "address": {
+          "street1": "4088 Marigold Way",
+          "street2": "Suite 117",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "stateName": "Arizona",
+          "zip": "85254",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Brisquen Dental",
+        "tagline": "Dentistry for the East Valley",
+        "logo": {
+          "kind": "monogram",
+          "initials": "BD",
+          "path": "v1/logos/acct-brisquen-dental.svg"
+        },
+        "colors": {
+          "primary": "#B5452B",
+          "secondary": "#FBEDE7",
+          "accent": "#2F5D62",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Friendly and energetic with a desert-town familiarity.",
+        "formality": "casual",
+        "replySignoff": "Team Brisquen Dental"
+      },
+      "staff": [
+        "Dr. Leah Moreno",
+        "Tasha",
+        "Dr. Ben Achterberg",
+        "Jalen"
+      ],
+      "services": [
+        "a cleaning",
+        "a same-day crown",
+        "a whitening consult",
+        "a filling"
+      ]
+    },
+    {
+      "id": "acct-tovaline-ortho",
+      "name": "Tovaline Orthodontics Group",
+      "brandName": "Tovaline Ortho",
+      "parentGroup": "Tovaline Ortho",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "tier": "Specialty multi-clinic",
+      "crm": "OrthoTrac",
+      "purchasedLocations": 8,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Naperville",
+        "state": "IL",
+        "stateName": "Illinois",
+        "country": "United States"
+      },
+      "businessBlurb": "Chicago-suburb orthodontic group focused on teens and adult clear-aligner cases.",
+      "profile": {
+        "description": "Chicago-suburb orthodontic group focused on teens and adult clear-aligner cases. Straight smiles, suburban schedules.",
+        "categories": [
+          "Orthodontist"
+        ],
+        "website": "https://tovalineortho.example.com",
+        "email": "hello@tovalineortho.example.com",
+        "phone": "(630) 555-0108",
+        "primaryLocationId": "acct-tovaline-ortho-loc-1",
+        "address": {
+          "street1": "4583 Kestrel Row",
+          "street2": "Suite 108",
+          "city": "Naperville",
+          "state": "IL",
+          "stateName": "Illinois",
+          "zip": "60563",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Tovaline Ortho",
+        "tagline": "Straight smiles, suburban schedules",
+        "logo": {
+          "kind": "monogram",
+          "initials": "TO",
+          "path": "v1/logos/acct-tovaline-ortho.svg"
+        },
+        "colors": {
+          "primary": "#1F4E9C",
+          "secondary": "#EAF1FB",
+          "accent": "#3FB9A7",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Upbeat and encouraging, speaks to teens and parents equally.",
+        "formality": "casual",
+        "replySignoff": "Your Tovaline Ortho crew"
+      },
+      "staff": [
+        "Dr. Kiran Ballard",
+        "Ashlyn",
+        "Dr. Mateo Ruizandre",
+        "Gabe"
+      ],
+      "services": [
+        "a clear-aligner check",
+        "braces",
+        "a free ortho consult",
+        "a retainer fitting"
+      ]
+    },
+    {
+      "id": "acct-saltwick-dental",
+      "name": "Saltwick Dental Collective",
+      "brandName": "Saltwick Dental",
+      "parentGroup": "Saltwick Dental",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "tier": "Coastal group practice",
+      "crm": "Dentrix",
+      "purchasedLocations": 6,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "San Francisco",
+        "state": "CA",
+        "stateName": "California",
+        "country": "United States"
+      },
+      "businessBlurb": "Bay Area general dentistry group with strong new-patient and hygiene recall programs.",
+      "profile": {
+        "description": "Bay Area general dentistry group with strong new-patient and hygiene recall programs. Bay Area dentistry that runs on time.",
+        "categories": [
+          "Dentist"
+        ],
+        "website": "https://saltwickdental.example.com",
+        "email": "hello@saltwickdental.example.com",
+        "phone": "(415) 555-0106",
+        "primaryLocationId": "acct-saltwick-dental-loc-1",
+        "address": {
+          "street1": "6355 Clover Bend Avenue",
+          "street2": "",
+          "city": "San Francisco",
+          "state": "CA",
+          "stateName": "California",
+          "zip": "94107",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Saltwick Dental",
+        "tagline": "Bay Area dentistry that runs on time",
+        "logo": {
+          "kind": "monogram",
+          "initials": "SD",
+          "path": "v1/logos/acct-saltwick-dental.svg"
+        },
+        "colors": {
+          "primary": "#2E6F95",
+          "secondary": "#EEF5F9",
+          "accent": "#F28F79",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Modern, concise, and a little playful; respects busy professionals' time.",
+        "formality": "neutral",
+        "replySignoff": "Saltwick Dental Collective"
+      },
+      "staff": [
+        "Dr. Naomi Feld",
+        "Rico",
+        "Dr. Arjun Patil",
+        "Wen"
+      ],
+      "services": [
+        "a new-patient exam",
+        "a deep cleaning",
+        "a veneer consult",
+        "a hygiene recall"
+      ]
+    },
+    {
+      "id": "acct-thimbleleaf-dental",
+      "name": "Thimbleleaf Family Dental",
+      "brandName": "Thimbleleaf Family Dental",
+      "parentGroup": "Thimbleleaf Dental",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "tier": "Single location practice",
+      "crm": "Dentrix",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": true,
+      "hq": {
+        "city": "Austin",
+        "state": "TX",
+        "stateName": "Texas",
+        "country": "United States"
+      },
+      "businessBlurb": "Single-location family dental practice in Austin.",
+      "profile": {
+        "description": "Single-location family dental practice in Austin. Family dentistry on South Lamar.",
+        "categories": [
+          "Dentist"
+        ],
+        "website": "https://thimbleleafdental.example.com",
+        "email": "hello@thimbleleafdental.example.com",
+        "phone": "(512) 555-0100",
+        "primaryLocationId": "acct-thimbleleaf-dental-loc-1",
+        "address": {
+          "street1": "1407 Saddlebrook Commons",
+          "street2": "",
+          "city": "Austin",
+          "state": "TX",
+          "stateName": "Texas",
+          "zip": "78704",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Thimbleleaf Family Dental",
+        "tagline": "Family dentistry on South Lamar",
+        "logo": {
+          "kind": "monogram",
+          "initials": "TF",
+          "path": "v1/logos/acct-thimbleleaf-dental.svg"
+        },
+        "colors": {
+          "primary": "#2F6B4F",
+          "secondary": "#EFF6F1",
+          "accent": "#C98B3B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Small-town warm and personal; the owner-dentist's voice, first names welcome.",
+        "formality": "casual",
+        "replySignoff": "Dr. Anika Bose and the Thimbleleaf team"
+      },
+      "staff": [
+        "Dr. Anika Bose",
+        "Lupe",
+        "Marcus"
+      ],
+      "services": [
+        "a family cleaning",
+        "a bonding repair",
+        "a crown"
+      ]
+    },
+    {
+      "id": "acct-puddlewick-kids",
+      "name": "Puddlewick Kids Dentistry",
+      "brandName": "Puddlewick Kids Dentistry",
+      "parentGroup": "Puddlewick Pediatric",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "tier": "Single location specialty",
+      "crm": "Open Dental",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Portland",
+        "state": "OR",
+        "stateName": "Oregon",
+        "country": "United States"
+      },
+      "businessBlurb": "Pediatric-only practice serving Portland families with sedation and special-needs care.",
+      "profile": {
+        "description": "Pediatric-only practice serving Portland families with sedation and special-needs care. Happy visits for little teeth.",
+        "categories": [
+          "Pediatric dentist"
+        ],
+        "website": "https://puddlewickkids.example.com",
+        "email": "hello@puddlewickkids.example.com",
+        "phone": "(503) 555-0100",
+        "primaryLocationId": "acct-puddlewick-kids-loc-1",
+        "address": {
+          "street1": "5755 Elderberry Row",
+          "street2": "",
+          "city": "Portland",
+          "state": "OR",
+          "stateName": "Oregon",
+          "zip": "97209",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Puddlewick Kids Dentistry",
+        "tagline": "Happy visits for little teeth",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PK",
+          "path": "v1/logos/acct-puddlewick-kids.svg"
+        },
+        "colors": {
+          "primary": "#D9622B",
+          "secondary": "#FFF3E8",
+          "accent": "#4A9D5B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Gentle, cheerful, and kid-friendly; reassures anxious parents.",
+        "formality": "casual",
+        "replySignoff": "Dr. Priya Sandhu and the Puddlewick Kids crew"
+      },
+      "staff": [
+        "Dr. Priya Sandhu",
+        "Miss Corinne",
+        "Dr. Owen Lacey"
+      ],
+      "services": [
+        "a first dental visit",
+        "a sedation visit",
+        "a sealant appointment",
+        "a six-month checkup"
+      ]
+    },
+    {
+      "id": "acct-brindlemoss-dental",
+      "name": "Brindlemoss Dental Studio",
+      "brandName": "Brindlemoss Dental Studio",
+      "parentGroup": "Brindlemoss Dental",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "tier": "Boutique practice",
+      "crm": "Curve Dental",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Nashville",
+        "state": "TN",
+        "stateName": "Tennessee",
+        "country": "United States"
+      },
+      "businessBlurb": "Boutique restorative and cosmetic studio in Nashville with a strong Google review habit.",
+      "profile": {
+        "description": "Boutique restorative and cosmetic studio in Nashville with a strong Google review habit. Restorative and cosmetic dentistry in Nashville.",
+        "categories": [
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://brindlemossdental.example.com",
+        "email": "hello@brindlemossdental.example.com",
+        "phone": "(629) 555-0100",
+        "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+        "address": {
+          "street1": "2608 Tamarack Court",
+          "street2": "",
+          "city": "Nashville",
+          "state": "TN",
+          "stateName": "Tennessee",
+          "zip": "37203",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Brindlemoss Dental Studio",
+        "tagline": "Restorative and cosmetic dentistry in Nashville",
+        "logo": {
+          "kind": "monogram",
+          "initials": "BD",
+          "path": "v1/logos/acct-brindlemoss-dental.svg"
+        },
+        "colors": {
+          "primary": "#3B3A5C",
+          "secondary": "#F3F2F8",
+          "accent": "#C9A227",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Polished and boutique; calm, confident, detail-oriented.",
+        "formality": "formal",
+        "replySignoff": "Brindlemoss Dental Studio"
+      },
+      "staff": [
+        "Dr. Celeste Haywood",
+        "Imani",
+        "Dr. Paul Vargasse"
+      ],
+      "services": [
+        "a veneer consult",
+        "a cosmetic bonding visit",
+        "a whitening session",
+        "an implant crown"
+      ]
+    },
+    {
+      "id": "acct-dentavane-channel",
+      "name": "Dentavane Dental Marketing",
+      "brandName": "Dentavane",
+      "parentGroup": "Dentavane Channel",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "tier": "Channel partner for DSOs",
+      "crm": "HubSpot",
+      "purchasedLocations": 4,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Atlanta",
+        "state": "GA",
+        "stateName": "Georgia",
+        "country": "United States"
+      },
+      "businessBlurb": "Channel partner that runs listings and review programs for independent dental groups.",
+      "profile": {
+        "description": "Channel partner that runs listings and review programs for independent dental groups. Reputation programs for independent dental groups.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://dentavane.example.com",
+        "email": "hello@dentavane.example.com",
+        "phone": "(404) 555-0104",
+        "primaryLocationId": "acct-dentavane-channel-loc-1",
+        "address": {
+          "street1": "821 Copperleaf Avenue",
+          "street2": "Suite 458",
+          "city": "Atlanta",
+          "state": "GA",
+          "stateName": "Georgia",
+          "zip": "30309",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Dentavane",
+        "tagline": "Reputation programs for independent dental groups",
+        "logo": {
+          "kind": "monogram",
+          "initials": "D",
+          "path": "v1/logos/acct-dentavane-channel.svg"
+        },
+        "colors": {
+          "primary": "#6B3FA0",
+          "secondary": "#F4EEFA",
+          "accent": "#F2B134",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Consultative and data-led; speaks to dental group owners and office managers.",
+        "formality": "neutral",
+        "replySignoff": "The Dentavane partner team"
+      },
+      "staff": [
+        "Dana Cruzalva",
+        "Felipe Arroyo",
+        "Hollis Grant"
+      ],
+      "services": [
+        "a review program for our dental offices",
+        "listings cleanup for our practices",
+        "a new-patient review campaign",
+        "monthly reputation reporting"
+      ]
+    },
+    {
+      "id": "acct-hearthquell-home",
+      "name": "Hearthquell Heating, Plumbing & Electrical",
+      "brandName": "Hearthquell",
+      "parentGroup": "Hearthquell Home Services Group",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "tier": "Regional multi-branch dispatch",
+      "crm": "ServiceTitan",
+      "purchasedLocations": 15,
+      "isDefault": false,
+      "quickScenario": true,
+      "hq": {
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "country": "United States"
+      },
+      "businessBlurb": "Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites.",
+      "profile": {
+        "description": "Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites. Heating, cooling, plumbing, and electrical for the Front Range.",
+        "categories": [
+          "HVAC contractor",
+          "Plumber",
+          "Electrician"
+        ],
+        "website": "https://hearthquell.example.com",
+        "email": "hello@hearthquell.example.com",
+        "phone": "(303) 555-0115",
+        "primaryLocationId": "acct-hearthquell-home-loc-1",
+        "address": {
+          "street1": "5708 Marigold Avenue",
+          "street2": "",
+          "city": "Denver",
+          "state": "CO",
+          "stateName": "Colorado",
+          "zip": "80211",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Hearthquell",
+        "tagline": "Heating, cooling, plumbing, and electrical for the Front Range",
+        "logo": {
+          "kind": "monogram",
+          "initials": "H",
+          "path": "v1/logos/acct-hearthquell-home.svg"
+        },
+        "colors": {
+          "primary": "#C8102E",
+          "secondary": "#FDECEE",
+          "accent": "#1D3557",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Direct, dependable, no-nonsense; leads with arrival windows and upfront pricing.",
+        "formality": "neutral",
+        "replySignoff": "Hearthquell Home Services"
+      },
+      "staff": [
+        "Luis",
+        "Derek",
+        "Kayla",
+        "Tomás",
+        "Priyanka"
+      ],
+      "services": [
+        "an AC repair",
+        "a water heater replacement",
+        "a panel upgrade",
+        "a furnace tune-up"
+      ]
+    },
+    {
+      "id": "acct-pipewren-plumbing",
+      "name": "Pipewren Plumbing & Drain",
+      "brandName": "Pipewren Plumbing",
+      "parentGroup": "Pipewren Trades",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "tier": "Multi-market plumbing",
+      "crm": "ServiceTitan",
+      "purchasedLocations": 10,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Phoenix",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "country": "United States"
+      },
+      "businessBlurb": "Phoenix-metro plumbing and drain group with 24/7 emergency dispatch.",
+      "profile": {
+        "description": "Phoenix-metro plumbing and drain group with 24/7 emergency dispatch. 24/7 plumbing across the Valley.",
+        "categories": [
+          "Plumber"
+        ],
+        "website": "https://pipewrenplumbing.example.com",
+        "email": "hello@pipewrenplumbing.example.com",
+        "phone": "(602) 555-0110",
+        "primaryLocationId": "acct-pipewren-plumbing-loc-1",
+        "address": {
+          "street1": "6914 Brightwater Boulevard",
+          "street2": "Suite 463",
+          "city": "Phoenix",
+          "state": "AZ",
+          "stateName": "Arizona",
+          "zip": "85044",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Pipewren Plumbing",
+        "tagline": "24/7 plumbing across the Valley",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PP",
+          "path": "v1/logos/acct-pipewren-plumbing.svg"
+        },
+        "colors": {
+          "primary": "#0077B6",
+          "secondary": "#E6F4FB",
+          "accent": "#F4A261",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Fast, practical, and reassuring in emergencies.",
+        "formality": "casual",
+        "replySignoff": "Pipewren Plumbing & Drain"
+      },
+      "staff": [
+        "Ruben",
+        "Cody",
+        "Marisa",
+        "Hector"
+      ],
+      "services": [
+        "a slab leak repair",
+        "a drain clearing",
+        "a water softener install",
+        "a tankless water heater install"
+      ]
+    },
+    {
+      "id": "acct-quarrytide-electric",
+      "name": "Quarrytide Electric",
+      "brandName": "Quarrytide Electric",
+      "parentGroup": "Quarrytide Trades",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "tier": "Electrical specialist",
+      "crm": "Housecall Pro",
+      "purchasedLocations": 6,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "San Diego",
+        "state": "CA",
+        "stateName": "California",
+        "country": "United States"
+      },
+      "businessBlurb": "Residential and light-commercial electrical contractor across San Diego County.",
+      "profile": {
+        "description": "Residential and light-commercial electrical contractor across San Diego County. Licensed electricians across San Diego County.",
+        "categories": [
+          "Electrician"
+        ],
+        "website": "https://quarrytideelectric.example.com",
+        "email": "hello@quarrytideelectric.example.com",
+        "phone": "(619) 555-0106",
+        "primaryLocationId": "acct-quarrytide-electric-loc-1",
+        "address": {
+          "street1": "5385 Silverbell Loop",
+          "street2": "Suite 110",
+          "city": "San Diego",
+          "state": "CA",
+          "stateName": "California",
+          "zip": "92108",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Quarrytide Electric",
+        "tagline": "Licensed electricians across San Diego County",
+        "logo": {
+          "kind": "monogram",
+          "initials": "QE",
+          "path": "v1/logos/acct-quarrytide-electric.svg"
+        },
+        "colors": {
+          "primary": "#F2C14E",
+          "secondary": "#FFF9E8",
+          "accent": "#264653",
+          "onPrimary": "#111111"
+        }
+      },
+      "tone": {
+        "voice": "Safety-first, clear, and friendly; explains code requirements simply.",
+        "formality": "neutral",
+        "replySignoff": "Quarrytide Electric"
+      },
+      "staff": [
+        "Nate",
+        "Dolores",
+        "Kenji",
+        "Austin"
+      ],
+      "services": [
+        "an EV charger install",
+        "a panel upgrade",
+        "recessed lighting",
+        "a whole-home surge protector"
+      ]
+    },
+    {
+      "id": "acct-thatchwhim-outdoor",
+      "name": "Thatchwhim Outdoor Services",
+      "brandName": "Thatchwhim",
+      "parentGroup": "Thatchwhim",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "tier": "Lawn and outdoor",
+      "crm": "Jobber",
+      "purchasedLocations": 5,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Charlotte",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "country": "United States"
+      },
+      "businessBlurb": "Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs.",
+      "profile": {
+        "description": "Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs. Lawn and outdoor care for Charlotte suburbs.",
+        "categories": [
+          "Lawn care service"
+        ],
+        "website": "https://thatchwhim.example.com",
+        "email": "hello@thatchwhim.example.com",
+        "phone": "(704) 555-0105",
+        "primaryLocationId": "acct-thatchwhim-outdoor-loc-1",
+        "address": {
+          "street1": "2857 Goldfinch Drive",
+          "street2": "Suite 226",
+          "city": "Charlotte",
+          "state": "NC",
+          "stateName": "North Carolina",
+          "zip": "28203",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Thatchwhim",
+        "tagline": "Lawn and outdoor care for Charlotte suburbs",
+        "logo": {
+          "kind": "monogram",
+          "initials": "T",
+          "path": "v1/logos/acct-thatchwhim-outdoor.svg"
+        },
+        "colors": {
+          "primary": "#3A7D44",
+          "secondary": "#EEF7EF",
+          "accent": "#9DC08B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Neighborly and seasonal; talks routes, weather, and curb appeal.",
+        "formality": "casual",
+        "replySignoff": "Your Thatchwhim route team"
+      },
+      "staff": [
+        "Travis",
+        "Shonda",
+        "Eli",
+        "Marco"
+      ],
+      "services": [
+        "fall aeration and overseeding",
+        "an irrigation repair",
+        "weekly mowing",
+        "leaf cleanup"
+      ]
+    },
+    {
+      "id": "acct-coilhaven-hvac",
+      "name": "Coilhaven Heating & Cooling",
+      "brandName": "Coilhaven Heating & Cooling",
+      "parentGroup": "Coilhaven Home Services",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "tier": "Single location shop",
+      "crm": "Jobber",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Boulder",
+        "state": "CO",
+        "stateName": "Colorado",
+        "country": "United States"
+      },
+      "businessBlurb": "Owner-operated HVAC shop serving Boulder homes and small offices.",
+      "profile": {
+        "description": "Owner-operated HVAC shop serving Boulder homes and small offices. Owner-operated HVAC in Boulder.",
+        "categories": [
+          "HVAC contractor"
+        ],
+        "website": "https://coilhaven.example.com",
+        "email": "hello@coilhaven.example.com",
+        "phone": "(303) 555-0100",
+        "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+        "address": {
+          "street1": "7159 Ironleaf Way",
+          "street2": "Suite 204",
+          "city": "Boulder",
+          "state": "CO",
+          "stateName": "Colorado",
+          "zip": "80301",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Coilhaven Heating & Cooling",
+        "tagline": "Owner-operated HVAC in Boulder",
+        "logo": {
+          "kind": "monogram",
+          "initials": "CH",
+          "path": "v1/logos/acct-coilhaven-hvac.svg"
+        },
+        "colors": {
+          "primary": "#D35400",
+          "secondary": "#FDF0E7",
+          "accent": "#2C3E50",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Owner-operator honest; personal, plainspoken, signs replies by name.",
+        "formality": "casual",
+        "replySignoff": "Gary Lindqvist, owner, Coilhaven Heating & Cooling"
+      },
+      "staff": [
+        "Gary",
+        "Jess"
+      ],
+      "services": [
+        "a furnace tune-up",
+        "a mini-split install",
+        "an AC diagnostic",
+        "a humidifier repair"
+      ]
+    },
+    {
+      "id": "acct-patchwhit-handyman",
+      "name": "Patchwhit Handyman Co",
+      "brandName": "Patchwhit Handyman",
+      "parentGroup": "Patchwhit Services",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "tier": "Single crew",
+      "crm": "Jobber",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Columbus",
+        "state": "OH",
+        "stateName": "Ohio",
+        "country": "United States"
+      },
+      "businessBlurb": "Neighborhood handyman and punch-list crew for Columbus homeowners.",
+      "profile": {
+        "description": "Neighborhood handyman and punch-list crew for Columbus homeowners. Punch lists, patches, and small fixes in Columbus.",
+        "categories": [
+          "Handyman"
+        ],
+        "website": "https://patchwhit.example.com",
+        "email": "hello@patchwhit.example.com",
+        "phone": "(380) 555-0100",
+        "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+        "address": {
+          "street1": "8512 Bluestem Court",
+          "street2": "Suite 441",
+          "city": "Columbus",
+          "state": "OH",
+          "stateName": "Ohio",
+          "zip": "43215",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Patchwhit Handyman",
+        "tagline": "Punch lists, patches, and small fixes in Columbus",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PH",
+          "path": "v1/logos/acct-patchwhit-handyman.svg"
+        },
+        "colors": {
+          "primary": "#7A4E2D",
+          "secondary": "#F7F0EA",
+          "accent": "#5B8C5A",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Down-to-earth and helpful; small crew that remembers your house.",
+        "formality": "casual",
+        "replySignoff": "Pete and the Patchwhit crew"
+      },
+      "staff": [
+        "Pete",
+        "Ramon"
+      ],
+      "services": [
+        "a punch list before listing our house",
+        "drywall patching",
+        "a storm door install",
+        "deck board replacement"
+      ]
+    },
+    {
+      "id": "acct-hollowbeck-pest",
+      "name": "Hollowbeck Pest Control",
+      "brandName": "Hollowbeck Pest Control",
+      "parentGroup": "Hollowbeck Pest",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "tier": "Single location",
+      "crm": "FieldRoutes",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Asheville",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "country": "United States"
+      },
+      "businessBlurb": "Residential pest and termite service covering Asheville and nearby towns.",
+      "profile": {
+        "description": "Residential pest and termite service covering Asheville and nearby towns. Family-safe pest control in the mountains.",
+        "categories": [
+          "Pest control service"
+        ],
+        "website": "https://hollowbeckpest.example.com",
+        "email": "hello@hollowbeckpest.example.com",
+        "phone": "(828) 555-0100",
+        "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+        "address": {
+          "street1": "3291 Willowmere Row",
+          "street2": "Suite 344",
+          "city": "Asheville",
+          "state": "NC",
+          "stateName": "North Carolina",
+          "zip": "28803",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Hollowbeck Pest Control",
+        "tagline": "Family-safe pest control in the mountains",
+        "logo": {
+          "kind": "monogram",
+          "initials": "HP",
+          "path": "v1/logos/acct-hollowbeck-pest.svg"
+        },
+        "colors": {
+          "primary": "#2B4C7E",
+          "secondary": "#EDF2F9",
+          "accent": "#7FB069",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Calm and knowledgeable; pet- and family-safety forward.",
+        "formality": "neutral",
+        "replySignoff": "Hollowbeck Pest Control"
+      },
+      "staff": [
+        "Wade",
+        "Amber"
+      ],
+      "services": [
+        "a termite inspection",
+        "quarterly pest service",
+        "a rodent exclusion job",
+        "a wasp nest removal"
+      ]
+    },
+    {
+      "id": "acct-franquill-channel",
+      "name": "Franquill Franchise Network",
+      "brandName": "Franquill Network",
+      "parentGroup": "Franquill Channel",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "tier": "Franchise channel partner",
+      "crm": "ServiceTitan",
+      "purchasedLocations": 5,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Dallas",
+        "state": "TX",
+        "stateName": "Texas",
+        "country": "United States"
+      },
+      "businessBlurb": "Channel org that supports home-services franchisees with listings and review SLAs.",
+      "profile": {
+        "description": "Channel org that supports home-services franchisees with listings and review SLAs. Listings and reviews for home-services franchisees.",
+        "categories": [
+          "Franchise support"
+        ],
+        "website": "https://franquill.example.com",
+        "email": "hello@franquill.example.com",
+        "phone": "(214) 555-0105",
+        "primaryLocationId": "acct-franquill-channel-loc-1",
+        "address": {
+          "street1": "1134 Brightwater Avenue",
+          "street2": "Suite 103",
+          "city": "Dallas",
+          "state": "TX",
+          "stateName": "Texas",
+          "zip": "75201",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Franquill Network",
+        "tagline": "Listings and reviews for home-services franchisees",
+        "logo": {
+          "kind": "monogram",
+          "initials": "FN",
+          "path": "v1/logos/acct-franquill-channel.svg"
+        },
+        "colors": {
+          "primary": "#E76F51",
+          "secondary": "#FDF0EC",
+          "accent": "#2A9D8F",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Supportive franchisor voice; process-oriented, celebrates franchisee wins.",
+        "formality": "neutral",
+        "replySignoff": "Franquill Franchise Network support"
+      },
+      "staff": [
+        "Corey Daniels",
+        "Alana Price",
+        "Vic Ramos"
+      ],
+      "services": [
+        "review SLAs for our franchisees",
+        "listings sync across our territories",
+        "a franchisee review-request rollout",
+        "territory reputation reporting"
+      ]
+    },
+    {
+      "id": "acct-varrowmere-law",
+      "name": "Varrowmere & Associates Law Firm",
+      "brandName": "Varrowmere Law",
+      "parentGroup": "Varrowmere Legal Partners",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "tier": "Regional firm",
+      "crm": "Clio / SmartAdvocate",
+      "purchasedLocations": 5,
+      "isDefault": false,
+      "quickScenario": true,
+      "hq": {
+        "city": "Dallas",
+        "state": "TX",
+        "stateName": "Texas",
+        "country": "United States"
+      },
+      "businessBlurb": "Commercial and employment law firm serving mid-market clients in the Dallas–Fort Worth area.",
+      "profile": {
+        "description": "Commercial and employment law firm serving mid-market clients in the Dallas–Fort Worth area. Business and employment counsel for North Texas.",
+        "categories": [
+          "Law firm"
+        ],
+        "website": "https://varrowmerelaw.example.com",
+        "email": "hello@varrowmerelaw.example.com",
+        "phone": "(214) 555-0105",
+        "primaryLocationId": "acct-varrowmere-law-loc-1",
+        "address": {
+          "street1": "5225 Quillfeather Avenue",
+          "street2": "Suite 282",
+          "city": "Dallas",
+          "state": "TX",
+          "stateName": "Texas",
+          "zip": "75219",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Varrowmere Law",
+        "tagline": "Business and employment counsel for North Texas",
+        "logo": {
+          "kind": "monogram",
+          "initials": "VL",
+          "path": "v1/logos/acct-varrowmere-law.svg"
+        },
+        "colors": {
+          "primary": "#1B2A41",
+          "secondary": "#EEF0F4",
+          "accent": "#B08D57",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Measured, confident, and discreet; never discusses case specifics in public.",
+        "formality": "formal",
+        "replySignoff": "Varrowmere & Associates Law Firm"
+      },
+      "staff": [
+        "Catherine Varrowmere",
+        "Raj Methuran",
+        "Lena Ortiz",
+        "David Kwanlow"
+      ],
+      "services": [
+        "a lease review",
+        "an employment handbook update",
+        "a contract dispute",
+        "a mediation"
+      ]
+    },
+    {
+      "id": "acct-firthgale-counsel",
+      "name": "Firthgale Counsel LLP",
+      "brandName": "Firthgale Counsel",
+      "parentGroup": "Firthgale Counsel",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "tier": "Coastal mid-market firm",
+      "crm": "Clio",
+      "purchasedLocations": 7,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Seattle",
+        "state": "WA",
+        "stateName": "Washington",
+        "country": "United States"
+      },
+      "businessBlurb": "Pacific Northwest firm focused on corporate, IP, and employment matters.",
+      "profile": {
+        "description": "Pacific Northwest firm focused on corporate, IP, and employment matters. Corporate, IP, and employment counsel in the Northwest.",
+        "categories": [
+          "Law firm"
+        ],
+        "website": "https://firthgalecounsel.example.com",
+        "email": "hello@firthgalecounsel.example.com",
+        "phone": "(206) 555-0107",
+        "primaryLocationId": "acct-firthgale-counsel-loc-1",
+        "address": {
+          "street1": "651 Willowmere Parkway",
+          "street2": "",
+          "city": "Seattle",
+          "state": "WA",
+          "stateName": "Washington",
+          "zip": "98101",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Firthgale Counsel",
+        "tagline": "Corporate, IP, and employment counsel in the Northwest",
+        "logo": {
+          "kind": "monogram",
+          "initials": "FC",
+          "path": "v1/logos/acct-firthgale-counsel.svg"
+        },
+        "colors": {
+          "primary": "#21445B",
+          "secondary": "#ECF2F6",
+          "accent": "#6BA292",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Collaborative, precise, and understated Pacific Northwest professionalism.",
+        "formality": "formal",
+        "replySignoff": "Firthgale Counsel LLP"
+      },
+      "staff": [
+        "Miriam Lowe",
+        "Anders Holt",
+        "Jae-won Park"
+      ],
+      "services": [
+        "a trademark filing",
+        "a Series A financing",
+        "an employment investigation",
+        "a licensing agreement"
+      ]
+    },
+    {
+      "id": "acct-plainsby-litigation",
+      "name": "Plainsby Litigation Group",
+      "brandName": "Plainsby Litigation",
+      "parentGroup": "Plainsby Legal",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "tier": "Litigation boutique network",
+      "crm": "SmartAdvocate",
+      "purchasedLocations": 8,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Chicago",
+        "state": "IL",
+        "stateName": "Illinois",
+        "country": "United States"
+      },
+      "businessBlurb": "Multi-city litigation group for commercial disputes across the Midwest.",
+      "profile": {
+        "description": "Multi-city litigation group for commercial disputes across the Midwest. Commercial litigators across the Midwest.",
+        "categories": [
+          "Law firm"
+        ],
+        "website": "https://plainsbylitigation.example.com",
+        "email": "hello@plainsbylitigation.example.com",
+        "phone": "(312) 555-0108",
+        "primaryLocationId": "acct-plainsby-litigation-loc-1",
+        "address": {
+          "street1": "5862 Northwind Row",
+          "street2": "Suite 323",
+          "city": "Chicago",
+          "state": "IL",
+          "stateName": "Illinois",
+          "zip": "60603",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Plainsby Litigation",
+        "tagline": "Commercial litigators across the Midwest",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PL",
+          "path": "v1/logos/acct-plainsby-litigation.svg"
+        },
+        "colors": {
+          "primary": "#5C2A2A",
+          "secondary": "#F7EEEE",
+          "accent": "#D4A373",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Steady and straightforward; trial-ready confidence without bravado.",
+        "formality": "formal",
+        "replySignoff": "Plainsby Litigation Group"
+      },
+      "staff": [
+        "Walt Brennan",
+        "Sasha Ivers",
+        "Tom Delacroix"
+      ],
+      "services": [
+        "a breach-of-contract suit",
+        "a commercial arbitration",
+        "a partnership dispute",
+        "a discovery fight"
+      ]
+    },
+    {
+      "id": "acct-pellwrin-tax",
+      "name": "Pellwrin Tax & Estates",
+      "brandName": "Pellwrin Tax",
+      "parentGroup": "Pellwrin Tax Law",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "tier": "Specialty firm",
+      "crm": "Clio",
+      "purchasedLocations": 4,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Washington",
+        "state": "DC",
+        "stateName": "District of Columbia",
+        "country": "United States"
+      },
+      "businessBlurb": "Tax and estate planning firm for professionals and closely held businesses in the capital region.",
+      "profile": {
+        "description": "Tax and estate planning firm for professionals and closely held businesses in the capital region. Tax and estate planning in the capital region.",
+        "categories": [
+          "Tax attorney",
+          "Estate planning attorney"
+        ],
+        "website": "https://pellwrintax.example.com",
+        "email": "hello@pellwrintax.example.com",
+        "phone": "(202) 555-0104",
+        "primaryLocationId": "acct-pellwrin-tax-loc-1",
+        "address": {
+          "street1": "5245 Quillfeather Loop",
+          "street2": "Suite 434",
+          "city": "Washington",
+          "state": "DC",
+          "stateName": "District of Columbia",
+          "zip": "20001",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Pellwrin Tax",
+        "tagline": "Tax and estate planning in the capital region",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PT",
+          "path": "v1/logos/acct-pellwrin-tax.svg"
+        },
+        "colors": {
+          "primary": "#2D3E50",
+          "secondary": "#EEF1F4",
+          "accent": "#8E6C3A",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Precise, patient, and reassuring about complex family and tax matters.",
+        "formality": "formal",
+        "replySignoff": "Pellwrin Tax & Estates"
+      },
+      "staff": [
+        "Eleanor Vanstrell",
+        "Marcus Webbersley",
+        "Ruth Adeyemi"
+      ],
+      "services": [
+        "an estate plan",
+        "a trust update",
+        "an IRS notice response",
+        "a business succession plan"
+      ]
+    },
+    {
+      "id": "acct-wickhallow-law",
+      "name": "Wickhallow Law Office",
+      "brandName": "Wickhallow Law",
+      "parentGroup": "Wickhallow Law",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "tier": "Single location practice",
+      "crm": "Clio",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Seattle",
+        "state": "WA",
+        "stateName": "Washington",
+        "country": "United States"
+      },
+      "businessBlurb": "Solo family and estate law practice in downtown Seattle.",
+      "profile": {
+        "description": "Solo family and estate law practice in downtown Seattle. Family and estate law in downtown Seattle.",
+        "categories": [
+          "Family law attorney"
+        ],
+        "website": "https://wickhallowlaw.example.com",
+        "email": "hello@wickhallowlaw.example.com",
+        "phone": "(206) 555-0100",
+        "primaryLocationId": "acct-wickhallow-law-loc-1",
+        "address": {
+          "street1": "3131 Amberwood Boulevard",
+          "street2": "Suite 188",
+          "city": "Seattle",
+          "state": "WA",
+          "stateName": "Washington",
+          "zip": "98101",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Wickhallow Law",
+        "tagline": "Family and estate law in downtown Seattle",
+        "logo": {
+          "kind": "monogram",
+          "initials": "WL",
+          "path": "v1/logos/acct-wickhallow-law.svg"
+        },
+        "colors": {
+          "primary": "#30577A",
+          "secondary": "#EDF3F8",
+          "accent": "#E0A458",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Compassionate and personal; solo-practitioner warmth.",
+        "formality": "neutral",
+        "replySignoff": "Nora Whitcomb, Wickhallow Law Office"
+      },
+      "staff": [
+        "Nora Whitcomb",
+        "Iris"
+      ],
+      "services": [
+        "a custody modification",
+        "a will and power of attorney",
+        "a probate filing",
+        "a prenup"
+      ]
+    },
+    {
+      "id": "acct-valdrift-immigration",
+      "name": "Valdrift Immigration Law",
+      "brandName": "Valdrift Immigration Law",
+      "parentGroup": "Valdrift Immigration",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "tier": "Specialty solo",
+      "crm": "Clio",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "San Jose",
+        "state": "CA",
+        "stateName": "California",
+        "country": "United States"
+      },
+      "businessBlurb": "Immigration boutique serving Bay Area employers and families.",
+      "profile": {
+        "description": "Immigration boutique serving Bay Area employers and families. Immigration counsel for Bay Area families and employers.",
+        "categories": [
+          "Immigration attorney"
+        ],
+        "website": "https://valdriftimmigration.example.com",
+        "email": "hello@valdriftimmigration.example.com",
+        "phone": "(408) 555-0100",
+        "primaryLocationId": "acct-valdrift-immigration-loc-1",
+        "address": {
+          "street1": "2127 Foxglove Loop",
+          "street2": "Suite 336",
+          "city": "San Jose",
+          "state": "CA",
+          "stateName": "California",
+          "zip": "95112",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Valdrift Immigration Law",
+        "tagline": "Immigration counsel for Bay Area families and employers",
+        "logo": {
+          "kind": "monogram",
+          "initials": "VI",
+          "path": "v1/logos/acct-valdrift-immigration.svg"
+        },
+        "colors": {
+          "primary": "#8C3B2E",
+          "secondary": "#F9EEEC",
+          "accent": "#4E7D5B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Empathetic, multilingual, and clear about timelines.",
+        "formality": "neutral",
+        "replySignoff": "Valdrift Immigration Law"
+      },
+      "staff": [
+        "Ana Delgarrow",
+        "Vikram",
+        "Mei"
+      ],
+      "services": [
+        "an H-1B petition",
+        "a green card application",
+        "a naturalization case",
+        "an O-1 visa"
+      ]
+    },
+    {
+      "id": "acct-gavelmoor-injury",
+      "name": "Gavelmoor Personal Injury",
+      "brandName": "Gavelmoor Personal Injury",
+      "parentGroup": "Gavelmoor Law",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "tier": "Plaintiff boutique",
+      "crm": "SmartAdvocate",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Phoenix",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "country": "United States"
+      },
+      "businessBlurb": "Plaintiff personal-injury practice with a heavy Google review footprint.",
+      "profile": {
+        "description": "Plaintiff personal-injury practice with a heavy Google review footprint. Injury lawyers who pick up the phone.",
+        "categories": [
+          "Personal injury attorney"
+        ],
+        "website": "https://gavelmoorinjury.example.com",
+        "email": "hello@gavelmoorinjury.example.com",
+        "phone": "(602) 555-0100",
+        "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+        "address": {
+          "street1": "4559 Ironleaf Way",
+          "street2": "Suite 332",
+          "city": "Phoenix",
+          "state": "AZ",
+          "stateName": "Arizona",
+          "zip": "85044",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Gavelmoor Personal Injury",
+        "tagline": "Injury lawyers who pick up the phone",
+        "logo": {
+          "kind": "monogram",
+          "initials": "GP",
+          "path": "v1/logos/acct-gavelmoor-injury.svg"
+        },
+        "colors": {
+          "primary": "#3E4A3D",
+          "secondary": "#F0F2EF",
+          "accent": "#C1440E",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Determined and empathetic; plain talk about recovery and settlements.",
+        "formality": "neutral",
+        "replySignoff": "Gavelmoor Personal Injury"
+      },
+      "staff": [
+        "Dale Gavelmoor",
+        "Carmen",
+        "Josh"
+      ],
+      "services": [
+        "a car accident claim",
+        "a slip-and-fall case",
+        "a motorcycle injury claim",
+        "a dog bite claim"
+      ]
+    },
+    {
+      "id": "acct-counselvane-channel",
+      "name": "Counselvane Referral Network",
+      "brandName": "Counselvane",
+      "parentGroup": "Counselvane Channel",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "tier": "Channel referral partner",
+      "crm": "HubSpot",
+      "purchasedLocations": 4,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Boston",
+        "state": "MA",
+        "stateName": "Massachusetts",
+        "country": "United States"
+      },
+      "businessBlurb": "Channel network that routes consumer legal leads and manages partner reputation pages.",
+      "profile": {
+        "description": "Channel network that routes consumer legal leads and manages partner reputation pages. Referral and reputation network for consumer law firms.",
+        "categories": [
+          "Lawyer referral service"
+        ],
+        "website": "https://counselvane.example.com",
+        "email": "hello@counselvane.example.com",
+        "phone": "(617) 555-0104",
+        "primaryLocationId": "acct-counselvane-channel-loc-1",
+        "address": {
+          "street1": "592 Bluestem Boulevard",
+          "street2": "",
+          "city": "Boston",
+          "state": "MA",
+          "stateName": "Massachusetts",
+          "zip": "02110",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Counselvane",
+        "tagline": "Referral and reputation network for consumer law firms",
+        "logo": {
+          "kind": "monogram",
+          "initials": "C",
+          "path": "v1/logos/acct-counselvane-channel.svg"
+        },
+        "colors": {
+          "primary": "#003B5C",
+          "secondary": "#E8F0F5",
+          "accent": "#F6AE2D",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Professional and partner-focused; emphasizes lead quality and response times.",
+        "formality": "formal",
+        "replySignoff": "Counselvane partner success"
+      },
+      "staff": [
+        "Grant Hollisford",
+        "Simone Achebe",
+        "Paul Reyesmont"
+      ],
+      "services": [
+        "consumer lead routing for our firm",
+        "reputation pages for our attorneys",
+        "intake response coaching",
+        "a review program for our offices"
+      ]
+    },
+    {
+      "id": "acct-northquell",
+      "name": "Northquell Digital Partners",
+      "brandName": "Northquell",
+      "parentGroup": "Northquell Agency",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "tier": "Agency partner",
+      "crm": "HubSpot",
+      "purchasedLocations": 10,
+      "isDefault": false,
+      "quickScenario": true,
+      "hq": {
+        "city": "Charlotte",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "country": "United States"
+      },
+      "businessBlurb": "Channel and agency partner that manages reviews, listings, and reputation programs for client brands.",
+      "profile": {
+        "description": "Channel and agency partner that manages reviews, listings, and reputation programs for client brands. Reputation and local search for multi-location brands.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://northquelldigital.example.com",
+        "email": "hello@northquelldigital.example.com",
+        "phone": "(704) 555-0110",
+        "primaryLocationId": "acct-northquell-loc-1",
+        "address": {
+          "street1": "510 Velvet Ash Row",
+          "street2": "Suite 339",
+          "city": "Charlotte",
+          "state": "NC",
+          "stateName": "North Carolina",
+          "zip": "28204",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Northquell",
+        "tagline": "Reputation and local search for multi-location brands",
+        "logo": {
+          "kind": "monogram",
+          "initials": "N",
+          "path": "v1/logos/acct-northquell.svg"
+        },
+        "colors": {
+          "primary": "#14213D",
+          "secondary": "#E9EEF6",
+          "accent": "#FCA311",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Sharp, candid, and data-literate; short sentences, concrete next steps.",
+        "formality": "neutral",
+        "replySignoff": "Northquell Digital Partners"
+      },
+      "staff": [
+        "Jess Albright",
+        "Marcus Leovanne",
+        "Tanya Brooks"
+      ],
+      "services": [
+        "review monitoring",
+        "local SEO",
+        "review-request campaigns",
+        "franchise reporting"
+      ]
+    },
+    {
+      "id": "acct-skelvane-media",
+      "name": "Skelvane Media",
+      "brandName": "Skelvane",
+      "parentGroup": "Skelvane",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "tier": "Full-service agency",
+      "crm": "HubSpot",
+      "purchasedLocations": 5,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Austin",
+        "state": "TX",
+        "stateName": "Texas",
+        "country": "United States"
+      },
+      "businessBlurb": "Performance and brand agency running local SEO and review programs for multi-location clients.",
+      "profile": {
+        "description": "Performance and brand agency running local SEO and review programs for multi-location clients. Performance and brand for multi-location Texas businesses.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://skelvanemedia.example.com",
+        "email": "hello@skelvanemedia.example.com",
+        "phone": "(512) 555-0105",
+        "primaryLocationId": "acct-skelvane-media-loc-1",
+        "address": {
+          "street1": "3468 Marigold Lane",
+          "street2": "",
+          "city": "Austin",
+          "state": "TX",
+          "stateName": "Texas",
+          "zip": "78701",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Skelvane",
+        "tagline": "Performance and brand for multi-location Texas businesses",
+        "logo": {
+          "kind": "monogram",
+          "initials": "S",
+          "path": "v1/logos/acct-skelvane-media.svg"
+        },
+        "colors": {
+          "primary": "#5A189A",
+          "secondary": "#F3ECFA",
+          "accent": "#FF6D00",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Bold, creative, and results-focused with Texas swagger.",
+        "formality": "casual",
+        "replySignoff": "Skelvane Media"
+      },
+      "staff": [
+        "Lindsey Ochoa",
+        "Trey Mason",
+        "Bao Tran"
+      ],
+      "services": [
+        "a local SEO sprint",
+        "a review-generation campaign",
+        "paid social for our locations",
+        "a brand refresh"
+      ]
+    },
+    {
+      "id": "acct-lumbrisk-reputation",
+      "name": "Lumbrisk Reputation Co",
+      "brandName": "Lumbrisk",
+      "parentGroup": "Lumbrisk",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "tier": "Reputation specialist",
+      "crm": "Salesforce",
+      "purchasedLocations": 6,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Boston",
+        "state": "MA",
+        "stateName": "Massachusetts",
+        "country": "United States"
+      },
+      "businessBlurb": "Northeast agency focused on review response, GBP hygiene, and franchise reporting.",
+      "profile": {
+        "description": "Northeast agency focused on review response, GBP hygiene, and franchise reporting. Review response and listings hygiene for the Northeast.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://lumbrisk.example.com",
+        "email": "hello@lumbrisk.example.com",
+        "phone": "(617) 555-0106",
+        "primaryLocationId": "acct-lumbrisk-reputation-loc-1",
+        "address": {
+          "street1": "1698 Hazelwood Commons",
+          "street2": "Suite 167",
+          "city": "Boston",
+          "state": "MA",
+          "stateName": "Massachusetts",
+          "zip": "02110",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Lumbrisk",
+        "tagline": "Review response and listings hygiene for the Northeast",
+        "logo": {
+          "kind": "monogram",
+          "initials": "L",
+          "path": "v1/logos/acct-lumbrisk-reputation.svg"
+        },
+        "colors": {
+          "primary": "#0B3954",
+          "secondary": "#E7F0F5",
+          "accent": "#FF5A5F",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Calm, methodical New England professionalism; reporting-heavy.",
+        "formality": "formal",
+        "replySignoff": "Lumbrisk Reputation Co"
+      },
+      "staff": [
+        "Colleen Murtagny",
+        "Dev Raman",
+        "Sam Whitlock"
+      ],
+      "services": [
+        "review response management",
+        "business profile cleanup",
+        "franchise reporting",
+        "a reputation audit"
+      ]
+    },
+    {
+      "id": "acct-inkfallow-creative",
+      "name": "Inkfallow Creative",
+      "brandName": "Inkfallow",
+      "parentGroup": "Inkfallow",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "tier": "Creative + social",
+      "crm": "HubSpot",
+      "purchasedLocations": 4,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Portland",
+        "state": "OR",
+        "stateName": "Oregon",
+        "country": "United States"
+      },
+      "businessBlurb": "Creative shop that produces social calendars and review-request creative for regional brands.",
+      "profile": {
+        "description": "Creative shop that produces social calendars and review-request creative for regional brands. Creative for local businesses.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://inkfallowcreative.example.com",
+        "email": "hello@inkfallowcreative.example.com",
+        "phone": "(503) 555-0104",
+        "primaryLocationId": "acct-inkfallow-creative-loc-1",
+        "address": {
+          "street1": "819 Ironleaf Avenue",
+          "street2": "Suite 316",
+          "city": "Portland",
+          "state": "OR",
+          "stateName": "Oregon",
+          "zip": "97205",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Inkfallow",
+        "tagline": "Creative for local businesses",
+        "logo": {
+          "kind": "monogram",
+          "initials": "I",
+          "path": "v1/logos/acct-inkfallow-creative.svg"
+        },
+        "colors": {
+          "primary": "#E63946",
+          "secondary": "#FDECEE",
+          "accent": "#457B9D",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Quirky, warm, and design-forward.",
+        "formality": "casual",
+        "replySignoff": "The Inkfallow crew"
+      },
+      "staff": [
+        "Juniper Hale",
+        "Oscar Lindgren",
+        "Tess Moreau"
+      ],
+      "services": [
+        "a website redesign",
+        "social content for our shops",
+        "a review widget install",
+        "photo shoots for our locations"
+      ]
+    },
+    {
+      "id": "acct-tallomere-partners",
+      "name": "Tallomere Partners",
+      "brandName": "Tallomere",
+      "parentGroup": "Tallomere",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "tier": "Analytics-led agency",
+      "crm": "HubSpot",
+      "purchasedLocations": 8,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Chicago",
+        "state": "IL",
+        "stateName": "Illinois",
+        "country": "United States"
+      },
+      "businessBlurb": "Midwest channel partner known for location-level reputation dashboards.",
+      "profile": {
+        "description": "Midwest channel partner known for location-level reputation dashboards. Measurement-led local marketing.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://tallomere.example.com",
+        "email": "hello@tallomere.example.com",
+        "phone": "(312) 555-0108",
+        "primaryLocationId": "acct-tallomere-partners-loc-1",
+        "address": {
+          "street1": "502 Northwind Commons",
+          "street2": "Suite 211",
+          "city": "Chicago",
+          "state": "IL",
+          "stateName": "Illinois",
+          "zip": "60601",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Tallomere",
+        "tagline": "Measurement-led local marketing",
+        "logo": {
+          "kind": "monogram",
+          "initials": "T",
+          "path": "v1/logos/acct-tallomere-partners.svg"
+        },
+        "colors": {
+          "primary": "#264653",
+          "secondary": "#EAF1F3",
+          "accent": "#E9C46A",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Analytical and precise; dashboards, benchmarks, and clear ROI.",
+        "formality": "formal",
+        "replySignoff": "Tallomere Partners"
+      },
+      "staff": [
+        "Hannah Kessler",
+        "Ravi Subrahvel",
+        "Colin Mbeki"
+      ],
+      "services": [
+        "multi-location analytics",
+        "a reputation benchmark study",
+        "listings management",
+        "an attribution model"
+      ]
+    },
+    {
+      "id": "acct-hopskein-digital",
+      "name": "Hopskein Digital",
+      "brandName": "Hopskein Digital",
+      "parentGroup": "Hopskein",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "tier": "SMB agency",
+      "crm": "HubSpot",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Nashville",
+        "state": "TN",
+        "stateName": "Tennessee",
+        "country": "United States"
+      },
+      "businessBlurb": "Small Nashville agency handling social and reviews for local restaurants and clinics.",
+      "profile": {
+        "description": "Small Nashville agency handling social and reviews for local restaurants and clinics. Digital marketing for Nashville small businesses.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://hopskeindigital.example.com",
+        "email": "hello@hopskeindigital.example.com",
+        "phone": "(629) 555-0100",
+        "primaryLocationId": "acct-hopskein-digital-loc-1",
+        "address": {
+          "street1": "4162 Bramblewood Boulevard",
+          "street2": "Suite 287",
+          "city": "Nashville",
+          "state": "TN",
+          "stateName": "Tennessee",
+          "zip": "37203",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Hopskein Digital",
+        "tagline": "Digital marketing for Nashville small businesses",
+        "logo": {
+          "kind": "monogram",
+          "initials": "HD",
+          "path": "v1/logos/acct-hopskein-digital.svg"
+        },
+        "colors": {
+          "primary": "#118AB2",
+          "secondary": "#E7F5FA",
+          "accent": "#EF476F",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Scrappy, friendly, and hands-on; two-person shop energy.",
+        "formality": "casual",
+        "replySignoff": "Wes and Tamsin, Hopskein Digital"
+      },
+      "staff": [
+        "Wes Calloway",
+        "Tamsin Reed"
+      ],
+      "services": [
+        "Google profile setup",
+        "a review-request flow",
+        "a small-business website",
+        "monthly social posts"
+      ]
+    },
+    {
+      "id": "acct-kindlewry-studio",
+      "name": "Kindlewry Studio Marketing",
+      "brandName": "Kindlewry Studio",
+      "parentGroup": "Kindlewry Studio",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "tier": "Boutique studio",
+      "crm": "Pipedrive",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "country": "United States"
+      },
+      "businessBlurb": "Two-person studio running GBP and review invites for Denver home-services clients.",
+      "profile": {
+        "description": "Two-person studio running GBP and review invites for Denver home-services clients. Brand and local marketing studio in Denver.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://kindlewrystudio.example.com",
+        "email": "hello@kindlewrystudio.example.com",
+        "phone": "(720) 555-0100",
+        "primaryLocationId": "acct-kindlewry-studio-loc-1",
+        "address": {
+          "street1": "4344 Pinecrest Avenue",
+          "street2": "",
+          "city": "Denver",
+          "state": "CO",
+          "stateName": "Colorado",
+          "zip": "80204",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Kindlewry Studio",
+        "tagline": "Brand and local marketing studio in Denver",
+        "logo": {
+          "kind": "monogram",
+          "initials": "KS",
+          "path": "v1/logos/acct-kindlewry-studio.svg"
+        },
+        "colors": {
+          "primary": "#2B2D42",
+          "secondary": "#EDEDF2",
+          "accent": "#EF8354",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Minimal, design-led, and thoughtful.",
+        "formality": "neutral",
+        "replySignoff": "Kindlewry Studio Marketing"
+      },
+      "staff": [
+        "Ines Okoro",
+        "Max Fairbanks"
+      ],
+      "services": [
+        "a brand identity",
+        "a local landing page",
+        "review-request templates",
+        "a photo library"
+      ]
+    },
+    {
+      "id": "acct-tramvelle-field",
+      "name": "Tramvelle Field Marketing",
+      "brandName": "Tramvelle Field",
+      "parentGroup": "Tramvelle Field",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "tier": "Field marketing partner",
+      "crm": "HubSpot",
+      "purchasedLocations": 5,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Miami",
+        "state": "FL",
+        "stateName": "Florida",
+        "country": "United States"
+      },
+      "businessBlurb": "Field marketing partner for Southeast multi-location retail and services brands.",
+      "profile": {
+        "description": "Field marketing partner for Southeast multi-location retail and services brands. Field marketing across the Southeast.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://tramvellefield.example.com",
+        "email": "hello@tramvellefield.example.com",
+        "phone": "(305) 555-0105",
+        "primaryLocationId": "acct-tramvelle-field-loc-1",
+        "address": {
+          "street1": "6091 Amberwood Boulevard",
+          "street2": "Suite 364",
+          "city": "Miami",
+          "state": "FL",
+          "stateName": "Florida",
+          "zip": "33130",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Tramvelle Field",
+        "tagline": "Field marketing across the Southeast",
+        "logo": {
+          "kind": "monogram",
+          "initials": "TF",
+          "path": "v1/logos/acct-tramvelle-field.svg"
+        },
+        "colors": {
+          "primary": "#06D6A0",
+          "secondary": "#E8FBF5",
+          "accent": "#073B4C",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "High-energy, on-the-ground, event-savvy.",
+        "formality": "casual",
+        "replySignoff": "Tramvelle Field Marketing"
+      },
+      "staff": [
+        "Yesenia Cruz",
+        "Darnell Hughes",
+        "Kat Romero"
+      ],
+      "services": [
+        "grand opening events",
+        "in-store review drives",
+        "field team training",
+        "local sponsorships"
+      ]
+    },
+    {
+      "id": "acct-torqvale-auto",
+      "name": "Torqvale Auto Care",
+      "brandName": "Torqvale",
+      "parentGroup": "Torqvale Automotive",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "tier": "Multi-bay group",
+      "crm": "Tekion",
+      "purchasedLocations": 8,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "country": "United States"
+      },
+      "businessBlurb": "Multi-location auto service group for Denver metro fleets and retail customers.",
+      "profile": {
+        "description": "Multi-location auto service group for Denver metro fleets and retail customers. Auto care for Denver fleets and drivers.",
+        "categories": [
+          "Auto repair shop"
+        ],
+        "website": "https://torqvaleauto.example.com",
+        "email": "hello@torqvaleauto.example.com",
+        "phone": "(303) 555-0108",
+        "primaryLocationId": "acct-torqvale-auto-loc-1",
+        "address": {
+          "street1": "3395 Elderberry Commons",
+          "street2": "",
+          "city": "Denver",
+          "state": "CO",
+          "stateName": "Colorado",
+          "zip": "80211",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Torqvale",
+        "tagline": "Auto care for Denver fleets and drivers",
+        "logo": {
+          "kind": "monogram",
+          "initials": "T",
+          "path": "v1/logos/acct-torqvale-auto.svg"
+        },
+        "colors": {
+          "primary": "#005F73",
+          "secondary": "#E6F2F4",
+          "accent": "#EE9B00",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Efficient, fleet-savvy, and transparent about timelines and parts.",
+        "formality": "neutral",
+        "replySignoff": "Torqvale Auto Care"
+      },
+      "staff": [
+        "Ray",
+        "Kendra",
+        "Victor",
+        "Sione"
+      ],
+      "services": [
+        "a fleet PM service",
+        "a brake job",
+        "an oil change and rotation",
+        "a check-engine diagnostic"
+      ]
+    },
+    {
+      "id": "acct-crestovar-motors",
+      "name": "Crestovar Motors Service Centers",
+      "brandName": "Crestovar Motors",
+      "parentGroup": "Crestovar Motors",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "tier": "Dealer service network",
+      "crm": "CDK",
+      "purchasedLocations": 10,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Salt Lake City",
+        "state": "UT",
+        "stateName": "Utah",
+        "country": "United States"
+      },
+      "businessBlurb": "Dealer service centers across the Wasatch Front with shared review monitoring.",
+      "profile": {
+        "description": "Dealer service centers across the Wasatch Front with shared review monitoring. Dealer service across the Wasatch Front.",
+        "categories": [
+          "Car dealer service center"
+        ],
+        "website": "https://crestovarmotors.example.com",
+        "email": "hello@crestovarmotors.example.com",
+        "phone": "(801) 555-0110",
+        "primaryLocationId": "acct-crestovar-motors-loc-1",
+        "address": {
+          "street1": "4218 Falconridge Boulevard",
+          "street2": "Suite 203",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "stateName": "Utah",
+          "zip": "84101",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Crestovar Motors",
+        "tagline": "Dealer service across the Wasatch Front",
+        "logo": {
+          "kind": "monogram",
+          "initials": "CM",
+          "path": "v1/logos/acct-crestovar-motors.svg"
+        },
+        "colors": {
+          "primary": "#0A2463",
+          "secondary": "#E8ECF6",
+          "accent": "#D8315B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Courteous dealer-service polish; proactive updates.",
+        "formality": "neutral",
+        "replySignoff": "Crestovar Motors Service"
+      },
+      "staff": [
+        "Brooke",
+        "Landon",
+        "Parker",
+        "Mele"
+      ],
+      "services": [
+        "a 30k-mile service",
+        "a recall repair",
+        "a transmission flush",
+        "new tires and alignment"
+      ]
+    },
+    {
+      "id": "acct-treadmarsh-tire",
+      "name": "Treadmarsh Tire & Auto",
+      "brandName": "Treadmarsh Tire",
+      "parentGroup": "Treadmarsh Auto",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "tier": "Tire and service chain",
+      "crm": "Tekion",
+      "purchasedLocations": 7,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Houston",
+        "state": "TX",
+        "stateName": "Texas",
+        "country": "United States"
+      },
+      "businessBlurb": "Houston-area tire and quick-service chain with strong Google Maps traffic.",
+      "profile": {
+        "description": "Houston-area tire and quick-service chain with strong Google Maps traffic. Tires and quick service around Houston.",
+        "categories": [
+          "Tire shop",
+          "Auto repair shop"
+        ],
+        "website": "https://treadmarshtire.example.com",
+        "email": "hello@treadmarshtire.example.com",
+        "phone": "(713) 555-0107",
+        "primaryLocationId": "acct-treadmarsh-tire-loc-1",
+        "address": {
+          "street1": "2677 Emberly Terrace",
+          "street2": "Suite 382",
+          "city": "Houston",
+          "state": "TX",
+          "stateName": "Texas",
+          "zip": "77007",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Treadmarsh Tire",
+        "tagline": "Tires and quick service around Houston",
+        "logo": {
+          "kind": "monogram",
+          "initials": "TT",
+          "path": "v1/logos/acct-treadmarsh-tire.svg"
+        },
+        "colors": {
+          "primary": "#023E8A",
+          "secondary": "#E6EEF8",
+          "accent": "#FFB703",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Quick, friendly, and value-minded.",
+        "formality": "casual",
+        "replySignoff": "Treadmarsh Tire & Auto"
+      },
+      "staff": [
+        "Junior",
+        "Kayleigh",
+        "Manny",
+        "Dewayne"
+      ],
+      "services": [
+        "a set of tires",
+        "a flat repair",
+        "an alignment",
+        "a battery replacement"
+      ]
+    },
+    {
+      "id": "acct-amperlund-ev",
+      "name": "Amperlund EV Service Labs",
+      "brandName": "Amperlund EV",
+      "parentGroup": "Amperlund EV",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "tier": "EV specialty",
+      "crm": "Tekion",
+      "purchasedLocations": 5,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "San Jose",
+        "state": "CA",
+        "stateName": "California",
+        "country": "United States"
+      },
+      "businessBlurb": "EV-focused service labs along California’s I-5 and Bay corridors.",
+      "profile": {
+        "description": "EV-focused service labs along California’s I-5 and Bay corridors. Independent EV service in California.",
+        "categories": [
+          "Auto repair shop"
+        ],
+        "website": "https://amperlundev.example.com",
+        "email": "hello@amperlundev.example.com",
+        "phone": "(408) 555-0105",
+        "primaryLocationId": "acct-amperlund-ev-loc-1",
+        "address": {
+          "street1": "4085 Quillfeather Loop",
+          "street2": "Suite 186",
+          "city": "San Jose",
+          "state": "CA",
+          "stateName": "California",
+          "zip": "95112",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Amperlund EV",
+        "tagline": "Independent EV service in California",
+        "logo": {
+          "kind": "monogram",
+          "initials": "AE",
+          "path": "v1/logos/acct-amperlund-ev.svg"
+        },
+        "colors": {
+          "primary": "#00A6A6",
+          "secondary": "#E6F7F7",
+          "accent": "#1B1B3A",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Tech-forward, precise, and enthusiastic about EVs.",
+        "formality": "neutral",
+        "replySignoff": "Amperlund EV Service Labs"
+      },
+      "staff": [
+        "Ines",
+        "Kai",
+        "Drew"
+      ],
+      "services": [
+        "a battery health check",
+        "a heat pump repair",
+        "a suspension alignment",
+        "a charging port repair"
+      ]
+    },
+    {
+      "id": "acct-cornerwick-garage",
+      "name": "Cornerwick Garage Auto Repair",
+      "brandName": "Cornerwick Garage",
+      "parentGroup": "Cornerwick Garage",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "tier": "Independent shop",
+      "crm": "Shop-Ware",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Pittsburgh",
+        "state": "PA",
+        "stateName": "Pennsylvania",
+        "country": "United States"
+      },
+      "businessBlurb": "Independent repair shop known for transparent multi-point inspections.",
+      "profile": {
+        "description": "Independent repair shop known for transparent multi-point inspections. Honest repairs in Pittsburgh.",
+        "categories": [
+          "Auto repair shop"
+        ],
+        "website": "https://cornerwickgarage.example.com",
+        "email": "hello@cornerwickgarage.example.com",
+        "phone": "(412) 555-0100",
+        "primaryLocationId": "acct-cornerwick-garage-loc-1",
+        "address": {
+          "street1": "1519 Ironleaf Trail",
+          "street2": "",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "stateName": "Pennsylvania",
+          "zip": "15213",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Cornerwick Garage",
+        "tagline": "Honest repairs in Pittsburgh",
+        "logo": {
+          "kind": "monogram",
+          "initials": "CG",
+          "path": "v1/logos/acct-cornerwick-garage.svg"
+        },
+        "colors": {
+          "primary": "#9B2226",
+          "secondary": "#F8ECEC",
+          "accent": "#E9D8A6",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Honest neighborhood mechanic; plain talk and photos of worn parts.",
+        "formality": "casual",
+        "replySignoff": "Frank and the Cornerwick Garage crew"
+      },
+      "staff": [
+        "Frank",
+        "Dom"
+      ],
+      "services": [
+        "a state inspection",
+        "a timing belt",
+        "a brake job",
+        "an exhaust repair"
+      ]
+    },
+    {
+      "id": "acct-buffwren-detail",
+      "name": "Buffwren Detail Studio",
+      "brandName": "Buffwren Detail Studio",
+      "parentGroup": "Buffwren Detail",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "tier": "Detail boutique",
+      "crm": "Jobber",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Austin",
+        "state": "TX",
+        "stateName": "Texas",
+        "country": "United States"
+      },
+      "businessBlurb": "Mobile and studio detailing for Austin enthusiasts and fleet managers.",
+      "profile": {
+        "description": "Mobile and studio detailing for Austin enthusiasts and fleet managers. Studio and mobile detailing in Austin.",
+        "categories": [
+          "Car detailing service"
+        ],
+        "website": "https://buffwrendetail.example.com",
+        "email": "hello@buffwrendetail.example.com",
+        "phone": "(512) 555-0100",
+        "primaryLocationId": "acct-buffwren-detail-loc-1",
+        "address": {
+          "street1": "6051 Willowmere Way",
+          "street2": "Suite 152",
+          "city": "Austin",
+          "state": "TX",
+          "stateName": "Texas",
+          "zip": "78704",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Buffwren Detail Studio",
+        "tagline": "Studio and mobile detailing in Austin",
+        "logo": {
+          "kind": "monogram",
+          "initials": "BD",
+          "path": "v1/logos/acct-buffwren-detail.svg"
+        },
+        "colors": {
+          "primary": "#111111",
+          "secondary": "#F2F2F2",
+          "accent": "#C0A062",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Enthusiast, meticulous, and premium.",
+        "formality": "neutral",
+        "replySignoff": "Buffwren Detail Studio"
+      },
+      "staff": [
+        "Jace",
+        "Lia"
+      ],
+      "services": [
+        "a ceramic coating",
+        "a paint correction",
+        "an interior detail",
+        "paint protection film"
+      ]
+    },
+    {
+      "id": "acct-panelbrook-collision",
+      "name": "Panelbrook Collision Center",
+      "brandName": "Panelbrook Collision",
+      "parentGroup": "Panelbrook Body",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "tier": "Collision shop",
+      "crm": "CCC ONE",
+      "purchasedLocations": 1,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Milwaukee",
+        "state": "WI",
+        "stateName": "Wisconsin",
+        "country": "United States"
+      },
+      "businessBlurb": "Family-owned collision center with insurer DRP relationships in Milwaukee.",
+      "profile": {
+        "description": "Family-owned collision center with insurer DRP relationships in Milwaukee. Family-owned collision repair in Milwaukee.",
+        "categories": [
+          "Auto body shop"
+        ],
+        "website": "https://panelbrookcollision.example.com",
+        "email": "hello@panelbrookcollision.example.com",
+        "phone": "(414) 555-0100",
+        "primaryLocationId": "acct-panelbrook-collision-loc-1",
+        "address": {
+          "street1": "7847 Foxglove Drive",
+          "street2": "Suite 472",
+          "city": "Milwaukee",
+          "state": "WI",
+          "stateName": "Wisconsin",
+          "zip": "53204",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Panelbrook Collision",
+        "tagline": "Family-owned collision repair in Milwaukee",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PC",
+          "path": "v1/logos/acct-panelbrook-collision.svg"
+        },
+        "colors": {
+          "primary": "#1D4E89",
+          "secondary": "#E8EFF7",
+          "accent": "#F79256",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Reassuring after a stressful accident; walks through insurance steps.",
+        "formality": "neutral",
+        "replySignoff": "The Kowalbrook family, Panelbrook Collision Center"
+      },
+      "staff": [
+        "Stan Kowalbrook",
+        "Becky",
+        "Tyrell"
+      ],
+      "services": [
+        "a bumper repair",
+        "a hail repair",
+        "a frame straightening",
+        "a paint match"
+      ]
+    },
+    {
+      "id": "acct-lotquill-channel",
+      "name": "Lotquill Dealer Marketing",
+      "brandName": "Lotquill",
+      "parentGroup": "Lotquill Channel",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "tier": "Dealer channel partner",
+      "crm": "HubSpot",
+      "purchasedLocations": 5,
+      "isDefault": false,
+      "quickScenario": false,
+      "hq": {
+        "city": "Detroit",
+        "state": "MI",
+        "stateName": "Michigan",
+        "country": "United States"
+      },
+      "businessBlurb": "Channel partner that standardizes review and listing programs for regional dealer groups.",
+      "profile": {
+        "description": "Channel partner that standardizes review and listing programs for regional dealer groups. Review and listings programs for dealer groups.",
+        "categories": [
+          "Marketing agency"
+        ],
+        "website": "https://lotquilldealer.example.com",
+        "email": "hello@lotquilldealer.example.com",
+        "phone": "(313) 555-0105",
+        "primaryLocationId": "acct-lotquill-channel-loc-1",
+        "address": {
+          "street1": "6301 Copperleaf Court",
+          "street2": "Suite 274",
+          "city": "Detroit",
+          "state": "MI",
+          "stateName": "Michigan",
+          "zip": "48201",
+          "country": "US"
+        }
+      },
+      "branding": {
+        "brandName": "Lotquill",
+        "tagline": "Review and listings programs for dealer groups",
+        "logo": {
+          "kind": "monogram",
+          "initials": "L",
+          "path": "v1/logos/acct-lotquill-channel.svg"
+        },
+        "colors": {
+          "primary": "#3A0CA3",
+          "secondary": "#EEE9F9",
+          "accent": "#4CC9F0",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "tone": {
+        "voice": "Dealer-savvy and metrics-focused; partner-to-partner tone.",
+        "formality": "neutral",
+        "replySignoff": "Lotquill Dealer Marketing"
+      },
+      "staff": [
+        "Mitch Kowal",
+        "Renee Dupree",
+        "Omar Saleh"
+      ],
+      "services": [
+        "a review program for our rooftops",
+        "listings for our service departments",
+        "service-lane review requests",
+        "dealer group reporting"
+      ]
+    }
+  ]
+}

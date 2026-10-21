@@ -1,0 +1,561 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-brindlemoss-dental",
+    "name": "Brindlemoss Dental Studio",
+    "brandName": "Brindlemoss Dental Studio",
+    "parentGroup": "Brindlemoss Dental",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "dental-healthcare",
+    "industryLabel": "Dental and healthcare",
+    "tier": "Boutique practice",
+    "crm": "Curve Dental",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Nashville",
+      "state": "TN",
+      "stateName": "Tennessee",
+      "country": "United States"
+    },
+    "businessBlurb": "Boutique restorative and cosmetic studio in Nashville with a strong Google review habit.",
+    "profile": {
+      "description": "Boutique restorative and cosmetic studio in Nashville with a strong Google review habit. Restorative and cosmetic dentistry in Nashville.",
+      "categories": [
+        "Cosmetic dentist",
+        "Dentist"
+      ],
+      "website": "https://brindlemossdental.example.com",
+      "email": "hello@brindlemossdental.example.com",
+      "phone": "(629) 555-0100",
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "address": {
+        "street1": "2608 Tamarack Court",
+        "street2": "",
+        "city": "Nashville",
+        "state": "TN",
+        "stateName": "Tennessee",
+        "zip": "37203",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Brindlemoss Dental Studio",
+      "tagline": "Restorative and cosmetic dentistry in Nashville",
+      "logo": {
+        "kind": "monogram",
+        "initials": "BD",
+        "path": "v1/logos/acct-brindlemoss-dental.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-brindlemoss-dental.svg"
+      },
+      "colors": {
+        "primary": "#3B3A5C",
+        "secondary": "#F3F2F8",
+        "accent": "#C9A227",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Polished and boutique; calm, confident, detail-oriented.",
+      "formality": "formal",
+      "replySignoff": "Brindlemoss Dental Studio"
+    },
+    "staff": [
+      "Dr. Celeste Haywood",
+      "Imani",
+      "Dr. Paul Vargasse"
+    ],
+    "services": [
+      "a veneer consult",
+      "a cosmetic bonding visit",
+      "a whitening session",
+      "an implant crown"
+    ],
+    "llmContext": "Brindlemoss Dental Studio · SMB · Dental and healthcare · HQ Nashville, Tennessee, United States · 1 purchased location · CRM Curve Dental · Boutique restorative and cosmetic studio in Nashville with a strong Google review habit."
+  },
+  "locations": [
+    {
+      "id": "acct-brindlemoss-dental-loc-1",
+      "accountId": "acct-brindlemoss-dental",
+      "index": 1,
+      "name": "Brindlemoss Dental Studio",
+      "shortName": "Main",
+      "label": "Brindlemoss Dental Studio (Nashville, TN)",
+      "locationLine": "Nashville, TN",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "2608 Tamarack Court",
+        "street2": "",
+        "city": "Nashville",
+        "state": "TN",
+        "stateName": "Tennessee",
+        "zip": "37203",
+        "country": "US"
+      },
+      "phone": "(629) 555-0100",
+      "email": "hello@brindlemossdental.example.com",
+      "website": "https://brindlemossdental.example.com",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-09-30T21:45:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-brindlemoss-dental-ct-1",
+      "number": 42,
+      "accountId": "acct-brindlemoss-dental",
+      "name": "Nolan Delgado",
+      "firstName": "Nolan",
+      "lastName": "Delgado",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "locationIds": [
+        "acct-brindlemoss-dental-loc-1"
+      ],
+      "segments": [
+        "Hygiene recall",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-brindlemoss-dental-001",
+      "email": "nolan.delgado@example.com",
+      "phone": "(615) 555-0101",
+      "locationCount": 1,
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "createdOn": "2026-10-17T16:35:00Z",
+      "lastActivity": "2026-10-19T17:00:00Z"
+    },
+    {
+      "id": "acct-brindlemoss-dental-ct-2",
+      "number": 2,
+      "accountId": "acct-brindlemoss-dental",
+      "name": "Opal Kowalczyk",
+      "firstName": "Opal",
+      "lastName": "Kowalczyk",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "locationIds": [
+        "acct-brindlemoss-dental-loc-1"
+      ],
+      "segments": [
+        "Hygiene recall"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-brindlemoss-dental-002",
+      "email": "opal.kowalczyk@example.com",
+      "phone": "(629) 555-0102",
+      "locationCount": 1,
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "createdOn": "2026-10-03T21:00:00Z",
+      "lastActivity": "2026-10-10T14:35:00Z"
+    },
+    {
+      "id": "acct-brindlemoss-dental-ct-3",
+      "number": 3,
+      "accountId": "acct-brindlemoss-dental",
+      "name": "Pascal Szabo",
+      "firstName": "Pascal",
+      "lastName": "Szabo",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "locationIds": [
+        "acct-brindlemoss-dental-loc-1"
+      ],
+      "segments": [
+        "Family plan"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-brindlemoss-dental-003",
+      "phone": "(615) 555-0103",
+      "locationCount": 1,
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "createdOn": "2026-09-19T18:35:00Z",
+      "lastActivity": "2026-10-17T15:35:00Z"
+    },
+    {
+      "id": "acct-brindlemoss-dental-ct-4",
+      "number": 4,
+      "accountId": "acct-brindlemoss-dental",
+      "name": "Rhea Ashby",
+      "firstName": "Rhea",
+      "lastName": "Ashby",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "locationIds": [
+        "acct-brindlemoss-dental-loc-1"
+      ],
+      "segments": [
+        "Newsletter"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-brindlemoss-dental-004",
+      "email": "rhea.ashby@example.com",
+      "phone": "(629) 555-0104",
+      "locationCount": 1,
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "createdOn": "2026-09-05T15:10:00Z",
+      "lastActivity": "2026-10-14T20:50:00Z"
+    },
+    {
+      "id": "acct-brindlemoss-dental-ct-5",
+      "number": 5,
+      "accountId": "acct-brindlemoss-dental",
+      "name": "Soren Holloway",
+      "firstName": "Soren",
+      "lastName": "Holloway",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "locationIds": [
+        "acct-brindlemoss-dental-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-brindlemoss-dental-005",
+      "email": "soren.holloway@example.com",
+      "phone": "(615) 555-0105",
+      "locationCount": 1,
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "createdOn": "2026-08-22T20:40:00Z",
+      "lastActivity": "2026-09-13T21:40:00Z"
+    },
+    {
+      "id": "acct-brindlemoss-dental-ct-6",
+      "number": 6,
+      "accountId": "acct-brindlemoss-dental",
+      "name": "Tess Prescott",
+      "firstName": "Tess",
+      "lastName": "Prescott",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "locationIds": [
+        "acct-brindlemoss-dental-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-brindlemoss-dental-006",
+      "email": "tess.prescott@example.com",
+      "locationCount": 1,
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "createdOn": "2026-08-08T17:10:00Z",
+      "lastActivity": "2026-09-28T18:55:00Z"
+    },
+    {
+      "id": "acct-brindlemoss-dental-ct-7",
+      "number": 7,
+      "accountId": "acct-brindlemoss-dental",
+      "name": "Vivian Abernethy",
+      "firstName": "Vivian",
+      "lastName": "Abernethy",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "locationIds": [
+        "acct-brindlemoss-dental-loc-1"
+      ],
+      "segments": [
+        "High value",
+        "New patient inquiry"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-brindlemoss-dental-007",
+      "email": "vivian.abernethy@example.com",
+      "phone": "(615) 555-0106",
+      "locationCount": 1,
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "createdOn": "2026-07-25T14:55:00Z",
+      "lastActivity": "2026-10-13T19:55:00Z"
+    },
+    {
+      "id": "acct-brindlemoss-dental-ct-8",
+      "number": 8,
+      "accountId": "acct-brindlemoss-dental",
+      "name": "Wade Hargrove",
+      "firstName": "Wade",
+      "lastName": "Hargrove",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brindlemoss-dental-loc-1",
+      "locationIds": [
+        "acct-brindlemoss-dental-loc-1"
+      ],
+      "segments": [
+        "Hygiene recall"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-brindlemoss-dental-008",
+      "email": "wade.hargrove@example.com",
+      "phone": "(629) 555-0107",
+      "locationCount": 1,
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "createdOn": "2026-08-01T19:20:00Z",
+      "lastActivity": "2026-09-16T16:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-brindlemoss-dental-rev-1",
+      "number": 1,
+      "accountId": "acct-brindlemoss-dental",
+      "locationId": "acct-brindlemoss-dental-loc-1",
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Yvette Oyelaran",
+      "date": "2026-09-19T14:25:00Z",
+      "text": "Dr. Celeste Haywood handled a veneer consult with a light touch and gave clear instructions afterward. Parking near Brindlemoss Dental Studio is limited at midday, but the care is worth it.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Celeste Haywood"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Yvette. We are glad the team at Brindlemoss Dental Studio could help, and we appreciate you taking the time to share your experience.\n\nBrindlemoss Dental Studio",
+        "author": "Brindlemoss Dental Studio",
+        "date": "2026-09-20T16:00:00Z"
+      }
+    },
+    {
+      "id": "acct-brindlemoss-dental-rev-2",
+      "number": 2,
+      "accountId": "acct-brindlemoss-dental",
+      "locationId": "acct-brindlemoss-dental-loc-1",
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Zion Valdivia",
+      "date": "2026-09-05T15:40:00Z",
+      "text": "Asked for a second opinion after another office pushed hard for an implant crown. Imani said I didn't need it yet and showed me why on the scan. An honest dentist is hard to find, and Brindlemoss Dental Studio has one.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Imani"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-brindlemoss-dental-rev-3",
+      "number": 3,
+      "accountId": "acct-brindlemoss-dental",
+      "locationId": "acct-brindlemoss-dental-loc-1",
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Arlo Delgado",
+      "date": "2026-08-22T20:15:00Z",
+      "text": "Came in for a whitening session at Brindlemoss Dental Studio. Dr. Paul Vargasse explained each step before starting and checked in halfway through. We finished on time and my next visit was booked before I left.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Paul Vargasse"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-brindlemoss-dental-rev-4",
+      "number": 4,
+      "accountId": "acct-brindlemoss-dental",
+      "locationId": "acct-brindlemoss-dental-loc-1",
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Bryony Kowalczyk",
+      "date": "2026-08-08T21:30:00Z",
+      "text": "Dr. Celeste Haywood has a way of making appointments feel unhurried. My an implant crown ran longer than planned and nobody rushed me out of the chair. That's why I keep coming back to Brindlemoss Dental Studio.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Celeste Haywood"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Bryony. We are glad the team at Brindlemoss Dental Studio could help, and we appreciate you taking the time to share your experience.\n\nBrindlemoss Dental Studio",
+        "author": "Brindlemoss Dental Studio",
+        "date": "2026-08-10T15:10:00Z"
+      }
+    },
+    {
+      "id": "acct-brindlemoss-dental-rev-5",
+      "number": 5,
+      "accountId": "acct-brindlemoss-dental",
+      "locationId": "acct-brindlemoss-dental-loc-1",
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Cassius Szabo",
+      "date": "2026-07-25T18:05:00Z",
+      "text": "Good experience with a veneer consult at Brindlemoss Dental Studio. The team was organized and the final bill matched the estimate. The waiting room was crowded around 4 p.m., so book early if you can.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-brindlemoss-dental-rev-6",
+      "number": 6,
+      "accountId": "acct-brindlemoss-dental",
+      "locationId": "acct-brindlemoss-dental-loc-1",
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Dahlia Ashby",
+      "date": "2026-07-11T19:25:00Z",
+      "text": "Waited almost half an hour past my appointment at Brindlemoss Dental Studio with no explanation. Dr. Paul Vargasse was kind once I got back there, but the front desk should warn people when the schedule slips.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [
+        "Dr. Paul Vargasse"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Dahlia, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Brindlemoss Dental Studio. A member of our leadership team will contact you directly to discuss it.\n\nBrindlemoss Dental Studio",
+        "author": "Brindlemoss Dental Studio",
+        "date": "2026-07-13T21:40:00Z"
+      }
+    },
+    {
+      "id": "acct-brindlemoss-dental-rev-7",
+      "number": 7,
+      "accountId": "acct-brindlemoss-dental",
+      "locationId": "acct-brindlemoss-dental-loc-1",
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Elio Holloway",
+      "date": "2026-06-27T16:00:00Z",
+      "text": "Booked a whitening session online on a Sunday night and had a confirmation text within minutes. Dr. Celeste Haywood remembered details from my last visit, which says a lot about the team at Brindlemoss Dental Studio.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Celeste Haywood"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Elio. We are glad the team at Brindlemoss Dental Studio could help, and we appreciate you taking the time to share your experience.\n\nBrindlemoss Dental Studio",
+        "author": "Brindlemoss Dental Studio",
+        "date": "2026-06-28T18:05:00Z"
+      }
+    },
+    {
+      "id": "acct-brindlemoss-dental-rev-8",
+      "number": 8,
+      "accountId": "acct-brindlemoss-dental",
+      "locationId": "acct-brindlemoss-dental-loc-1",
+      "location": "Brindlemoss Dental Studio (Nashville, TN)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Fern Prescott",
+      "date": "2026-10-06T17:15:00Z",
+      "text": "The care at Brindlemoss Dental Studio was fine, but weeks later I got a bill for a cosmetic bonding visit that I thought insurance covered. Please check coverage before the visit, not after.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Fern, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Brindlemoss Dental Studio. A member of our leadership team will contact you directly to discuss it.\n\nBrindlemoss Dental Studio",
+        "author": "Brindlemoss Dental Studio",
+        "date": "2026-10-08T19:25:00Z"
+      }
+    }
+  ]
+}

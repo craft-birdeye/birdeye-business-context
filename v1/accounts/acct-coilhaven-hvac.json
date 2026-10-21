@@ -1,0 +1,552 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-coilhaven-hvac",
+    "name": "Coilhaven Heating & Cooling",
+    "brandName": "Coilhaven Heating & Cooling",
+    "parentGroup": "Coilhaven Home Services",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Single location shop",
+    "crm": "Jobber",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Boulder",
+      "state": "CO",
+      "stateName": "Colorado",
+      "country": "United States"
+    },
+    "businessBlurb": "Owner-operated HVAC shop serving Boulder homes and small offices.",
+    "profile": {
+      "description": "Owner-operated HVAC shop serving Boulder homes and small offices. Owner-operated HVAC in Boulder.",
+      "categories": [
+        "HVAC contractor"
+      ],
+      "website": "https://coilhaven.example.com",
+      "email": "hello@coilhaven.example.com",
+      "phone": "(303) 555-0100",
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "address": {
+        "street1": "7159 Ironleaf Way",
+        "street2": "Suite 204",
+        "city": "Boulder",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80301",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Coilhaven Heating & Cooling",
+      "tagline": "Owner-operated HVAC in Boulder",
+      "logo": {
+        "kind": "monogram",
+        "initials": "CH",
+        "path": "v1/logos/acct-coilhaven-hvac.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-coilhaven-hvac.svg"
+      },
+      "colors": {
+        "primary": "#D35400",
+        "secondary": "#FDF0E7",
+        "accent": "#2C3E50",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Owner-operator honest; personal, plainspoken, signs replies by name.",
+      "formality": "casual",
+      "replySignoff": "Gary Lindqvist, owner, Coilhaven Heating & Cooling"
+    },
+    "staff": [
+      "Gary",
+      "Jess"
+    ],
+    "services": [
+      "a furnace tune-up",
+      "a mini-split install",
+      "an AC diagnostic",
+      "a humidifier repair"
+    ],
+    "llmContext": "Coilhaven Heating & Cooling · SMB · Home services and contractors · HQ Boulder, Colorado, United States · 1 purchased location · CRM Jobber · Owner-operated HVAC shop serving Boulder homes and small offices."
+  },
+  "locations": [
+    {
+      "id": "acct-coilhaven-hvac-loc-1",
+      "accountId": "acct-coilhaven-hvac",
+      "index": 1,
+      "name": "Coilhaven Heating & Cooling",
+      "shortName": "Main",
+      "label": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "locationLine": "Boulder, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "7159 Ironleaf Way",
+        "street2": "Suite 204",
+        "city": "Boulder",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80301",
+        "country": "US"
+      },
+      "phone": "(303) 555-0100",
+      "email": "hello@coilhaven.example.com",
+      "website": "https://coilhaven.example.com",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-07-08T20:30:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-coilhaven-hvac-ct-1",
+      "number": 42,
+      "accountId": "acct-coilhaven-hvac",
+      "name": "Nolan Guerrero",
+      "firstName": "Nolan",
+      "lastName": "Guerrero",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "locationIds": [
+        "acct-coilhaven-hvac-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-coilhaven-hvac-001",
+      "email": "nolan.guerrero@example.com",
+      "phone": "(303) 555-0101",
+      "locationCount": 1,
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "createdOn": "2026-07-25T19:35:00Z",
+      "lastActivity": "2026-10-13T16:10:00Z"
+    },
+    {
+      "id": "acct-coilhaven-hvac-ct-2",
+      "number": 2,
+      "accountId": "acct-coilhaven-hvac",
+      "name": "Opal Nakashima",
+      "firstName": "Opal",
+      "lastName": "Nakashima",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "locationIds": [
+        "acct-coilhaven-hvac-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-coilhaven-hvac-002",
+      "email": "opal.nakashima@example.com",
+      "phone": "(720) 555-0102",
+      "locationCount": 1,
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "createdOn": "2026-07-11T18:45:00Z",
+      "lastActivity": "2026-10-14T15:05:00Z"
+    },
+    {
+      "id": "acct-coilhaven-hvac-ct-3",
+      "number": 3,
+      "accountId": "acct-coilhaven-hvac",
+      "name": "Pascal Vasquez-Lane",
+      "firstName": "Pascal",
+      "lastName": "Vasquez-Lane",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "locationIds": [
+        "acct-coilhaven-hvac-loc-1"
+      ],
+      "segments": [
+        "Emergency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-coilhaven-hvac-003",
+      "phone": "(303) 555-0103",
+      "locationCount": 1,
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "createdOn": "2026-06-27T21:50:00Z",
+      "lastActivity": "2026-10-15T14:45:00Z"
+    },
+    {
+      "id": "acct-coilhaven-hvac-ct-4",
+      "number": 4,
+      "accountId": "acct-coilhaven-hvac",
+      "name": "Rhea Dempsey",
+      "firstName": "Rhea",
+      "lastName": "Dempsey",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "locationIds": [
+        "acct-coilhaven-hvac-loc-1"
+      ],
+      "segments": [
+        "Seasonal"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-coilhaven-hvac-004",
+      "email": "rhea.dempsey@example.com",
+      "phone": "(720) 555-0104",
+      "locationCount": 1,
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "createdOn": "2026-10-09T20:30:00Z",
+      "lastActivity": "2026-10-18T21:30:00Z"
+    },
+    {
+      "id": "acct-coilhaven-hvac-ct-5",
+      "number": 5,
+      "accountId": "acct-coilhaven-hvac",
+      "name": "Soren Landry",
+      "firstName": "Soren",
+      "lastName": "Landry",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "locationIds": [
+        "acct-coilhaven-hvac-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-coilhaven-hvac-005",
+      "email": "soren.landry@example.com",
+      "phone": "(303) 555-0105",
+      "locationCount": 1,
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "createdOn": "2026-09-25T15:00:00Z",
+      "lastActivity": "2026-10-03T20:20:00Z"
+    },
+    {
+      "id": "acct-coilhaven-hvac-ct-6",
+      "number": 6,
+      "accountId": "acct-coilhaven-hvac",
+      "name": "Tess Tolliver",
+      "firstName": "Tess",
+      "lastName": "Tolliver",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "locationIds": [
+        "acct-coilhaven-hvac-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-coilhaven-hvac-006",
+      "email": "tess.tolliver@example.com",
+      "locationCount": 1,
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "createdOn": "2026-09-11T14:45:00Z",
+      "lastActivity": "2026-10-20T19:05:00Z"
+    },
+    {
+      "id": "acct-coilhaven-hvac-ct-7",
+      "number": 7,
+      "accountId": "acct-coilhaven-hvac",
+      "name": "Vivian Dunleavy",
+      "firstName": "Vivian",
+      "lastName": "Dunleavy",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "locationIds": [
+        "acct-coilhaven-hvac-loc-1"
+      ],
+      "segments": [
+        "High value",
+        "Property manager"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-coilhaven-hvac-007",
+      "email": "vivian.dunleavy@example.com",
+      "phone": "(303) 555-0106",
+      "locationCount": 1,
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "createdOn": "2026-08-28T17:00:00Z",
+      "lastActivity": "2026-10-09T18:25:00Z"
+    },
+    {
+      "id": "acct-coilhaven-hvac-ct-8",
+      "number": 8,
+      "accountId": "acct-coilhaven-hvac",
+      "name": "Wade Kingsley",
+      "firstName": "Wade",
+      "lastName": "Kingsley",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-coilhaven-hvac-loc-1",
+      "locationIds": [
+        "acct-coilhaven-hvac-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-coilhaven-hvac-008",
+      "email": "wade.kingsley@example.com",
+      "phone": "(720) 555-0107",
+      "locationCount": 1,
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "createdOn": "2026-09-04T16:00:00Z",
+      "lastActivity": "2026-09-05T17:10:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-coilhaven-hvac-rev-1",
+      "number": 1,
+      "accountId": "acct-coilhaven-hvac",
+      "locationId": "acct-coilhaven-hvac-loc-1",
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Yvette Rourke",
+      "date": "2026-08-20T15:05:00Z",
+      "text": "Work quality on a furnace tune-up was good, but scheduling with Coilhaven Heating & Cooling took three phone calls and the confirmation email had the wrong date. The office side needs tightening.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Yvette, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Coilhaven Heating & Cooling. A manager will reach out this week to make it right.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "author": "Gary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "date": "2026-08-21T17:35:00Z"
+      }
+    },
+    {
+      "id": "acct-coilhaven-hvac-rev-2",
+      "number": 2,
+      "accountId": "acct-coilhaven-hvac",
+      "locationId": "acct-coilhaven-hvac-loc-1",
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Zion Zamora",
+      "date": "2026-08-06T14:45:00Z",
+      "text": "Property manager here. Coilhaven Heating & Cooling handled a mini-split install across two of our buildings and sent photos and invoices the same day. Tenant notices could be a bit more proactive.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-coilhaven-hvac-rev-3",
+      "number": 3,
+      "accountId": "acct-coilhaven-hvac",
+      "locationId": "acct-coilhaven-hvac-loc-1",
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Arlo Guerrero",
+      "date": "2026-07-23T17:10:00Z",
+      "text": "Called Coilhaven Heating & Cooling on a Saturday morning about a furnace tune-up. They had Gary out by early afternoon and the job was done right. Weekend pricing was fair and clearly explained.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Gary"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-coilhaven-hvac-rev-4",
+      "number": 4,
+      "accountId": "acct-coilhaven-hvac",
+      "locationId": "acct-coilhaven-hvac-loc-1",
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Bryony Nakashima",
+      "date": "2026-07-09T16:20:00Z",
+      "text": "Jess was friendly, but the crew left debris in the driveway after a humidifier repair and I had to call Coilhaven Heating & Cooling to get it picked up.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [
+        "Jess"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Bryony, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Coilhaven Heating & Cooling. A manager will reach out this week to make it right.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "author": "Gary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "date": "2026-07-11T18:45:00Z"
+      }
+    },
+    {
+      "id": "acct-coilhaven-hvac-rev-5",
+      "number": 5,
+      "accountId": "acct-coilhaven-hvac",
+      "locationId": "acct-coilhaven-hvac-loc-1",
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Cassius Vasquez-Lane",
+      "date": "2026-10-18T19:45:00Z",
+      "text": "Needed a furnace tune-up and Coilhaven Heating & Cooling gave me a two-hour arrival window. Gary showed up early in it, explained the options with prices, and cleaned up before leaving.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Gary"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-coilhaven-hvac-rev-6",
+      "number": 6,
+      "accountId": "acct-coilhaven-hvac",
+      "locationId": "acct-coilhaven-hvac-loc-1",
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Dahlia Dempsey",
+      "date": "2026-10-04T18:30:00Z",
+      "text": "Jess did a mini-split install for us at Coilhaven Heating & Cooling. Solid work and a fair price. It took about a week to get on the schedule, which is the only reason it's not five stars.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jess"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-coilhaven-hvac-rev-7",
+      "number": 7,
+      "accountId": "acct-coilhaven-hvac",
+      "locationId": "acct-coilhaven-hvac-loc-1",
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Elio Landry",
+      "date": "2026-09-20T21:55:00Z",
+      "text": "The technician from Coilhaven Heating & Cooling showed up two hours late without a call. The work itself was done properly, but I lost half a workday waiting.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Elio, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Coilhaven Heating & Cooling. A manager will reach out this week to make it right.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "author": "Gary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "date": "2026-09-21T15:10:00Z"
+      }
+    },
+    {
+      "id": "acct-coilhaven-hvac-rev-8",
+      "number": 8,
+      "accountId": "acct-coilhaven-hvac",
+      "locationId": "acct-coilhaven-hvac-loc-1",
+      "location": "Coilhaven Heating & Cooling (Boulder, CO)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Fern Tolliver",
+      "date": "2026-09-06T20:10:00Z",
+      "text": "Second time using Coilhaven Heating & Cooling. Jess remembered our setup from last spring and finished a humidifier repair faster than quoted. The invoice matched the estimate exactly.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jess"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

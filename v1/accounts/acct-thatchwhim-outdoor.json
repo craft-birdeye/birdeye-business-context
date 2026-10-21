@@ -1,0 +1,739 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-thatchwhim-outdoor",
+    "name": "Thatchwhim Outdoor Services",
+    "brandName": "Thatchwhim",
+    "parentGroup": "Thatchwhim",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Lawn and outdoor",
+    "crm": "Jobber",
+    "purchasedLocations": 5,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Charlotte",
+      "state": "NC",
+      "stateName": "North Carolina",
+      "country": "United States"
+    },
+    "businessBlurb": "Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs.",
+    "profile": {
+      "description": "Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs. Lawn and outdoor care for Charlotte suburbs.",
+      "categories": [
+        "Lawn care service"
+      ],
+      "website": "https://thatchwhim.example.com",
+      "email": "hello@thatchwhim.example.com",
+      "phone": "(704) 555-0105",
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-1",
+      "address": {
+        "street1": "2857 Goldfinch Drive",
+        "street2": "Suite 226",
+        "city": "Charlotte",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28203",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Thatchwhim",
+      "tagline": "Lawn and outdoor care for Charlotte suburbs",
+      "logo": {
+        "kind": "monogram",
+        "initials": "T",
+        "path": "v1/logos/acct-thatchwhim-outdoor.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-thatchwhim-outdoor.svg"
+      },
+      "colors": {
+        "primary": "#3A7D44",
+        "secondary": "#EEF7EF",
+        "accent": "#9DC08B",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Neighborly and seasonal; talks routes, weather, and curb appeal.",
+      "formality": "casual",
+      "replySignoff": "Your Thatchwhim route team"
+    },
+    "staff": [
+      "Travis",
+      "Shonda",
+      "Eli",
+      "Marco"
+    ],
+    "services": [
+      "fall aeration and overseeding",
+      "an irrigation repair",
+      "weekly mowing",
+      "leaf cleanup"
+    ],
+    "llmContext": "Thatchwhim Outdoor Services · Enterprise · Home services and contractors · HQ Charlotte, North Carolina, United States · 5 purchased locations · CRM Jobber · Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs."
+  },
+  "locations": [
+    {
+      "id": "acct-thatchwhim-outdoor-loc-1",
+      "accountId": "acct-thatchwhim-outdoor",
+      "index": 1,
+      "name": "Thatchwhim - Charlotte HQ",
+      "shortName": "Charlotte HQ",
+      "label": "Thatchwhim - Charlotte HQ (Charlotte, NC)",
+      "locationLine": "Charlotte, NC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "2857 Goldfinch Drive",
+        "street2": "Suite 226",
+        "city": "Charlotte",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28203",
+        "country": "US"
+      },
+      "phone": "(704) 555-0100",
+      "email": "charlotte-hq@thatchwhim.example.com",
+      "website": "https://thatchwhim.example.com/locations/charlotte-hq",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-27T16:10:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-loc-2",
+      "accountId": "acct-thatchwhim-outdoor",
+      "index": 2,
+      "name": "Thatchwhim - Concord",
+      "shortName": "Concord",
+      "label": "Thatchwhim - Concord (Concord, NC)",
+      "locationLine": "Concord, NC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8400 Larkspur Parkway",
+        "street2": "",
+        "city": "Concord",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28025",
+        "country": "US"
+      },
+      "phone": "(980) 555-0101",
+      "email": "concord@thatchwhim.example.com",
+      "website": "https://thatchwhim.example.com/locations/concord",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-13T21:40:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-loc-3",
+      "accountId": "acct-thatchwhim-outdoor",
+      "index": 3,
+      "name": "Thatchwhim - Gastonia",
+      "shortName": "Gastonia",
+      "label": "Thatchwhim - Gastonia (Gastonia, NC)",
+      "locationLine": "Gastonia, NC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "619 Ironleaf Commons",
+        "street2": "Suite 132",
+        "city": "Gastonia",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28054",
+        "country": "US"
+      },
+      "phone": "(704) 555-0102",
+      "email": "gastonia@thatchwhim.example.com",
+      "website": "https://thatchwhim.example.com/locations/gastonia",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-07-30T18:15:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-loc-4",
+      "accountId": "acct-thatchwhim-outdoor",
+      "index": 4,
+      "name": "Thatchwhim - Rock Hill",
+      "shortName": "Rock Hill",
+      "label": "Thatchwhim - Rock Hill (Rock Hill, SC)",
+      "locationLine": "Rock Hill, SC",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6214 Brightwater Way",
+        "street2": "Suite 375",
+        "city": "Rock Hill",
+        "state": "SC",
+        "stateName": "South Carolina",
+        "zip": "29730",
+        "country": "US"
+      },
+      "phone": "(839) 555-0103",
+      "email": "rock-hill@thatchwhim.example.com",
+      "website": "https://thatchwhim.example.com/locations/rock-hill",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-16T15:50:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-loc-5",
+      "accountId": "acct-thatchwhim-outdoor",
+      "index": 5,
+      "name": "Thatchwhim - Huntersville",
+      "shortName": "Huntersville",
+      "label": "Thatchwhim - Huntersville (Huntersville, NC)",
+      "locationLine": "Huntersville, NC",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7333 Cobble Creek Row",
+        "street2": "Suite 422",
+        "city": "Huntersville",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28078",
+        "country": "US"
+      },
+      "phone": "(704) 555-0104",
+      "email": "huntersville@thatchwhim.example.com",
+      "website": "https://thatchwhim.example.com/locations/huntersville",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-02T20:25:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-thatchwhim-outdoor-ct-1",
+      "number": 42,
+      "accountId": "acct-thatchwhim-outdoor",
+      "name": "Xavier Landry",
+      "firstName": "Xavier",
+      "lastName": "Landry",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-1",
+      "locationIds": [
+        "acct-thatchwhim-outdoor-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-thatchwhim-outdoor-001",
+      "email": "xavier.landry@example.com",
+      "phone": "(704) 555-0106",
+      "locationCount": 1,
+      "location": "Thatchwhim - Charlotte HQ (Charlotte, NC)",
+      "createdOn": "2026-07-25T15:30:00Z",
+      "lastActivity": "2026-10-13T20:30:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-ct-2",
+      "number": 2,
+      "accountId": "acct-thatchwhim-outdoor",
+      "name": "Yara Tolliver",
+      "firstName": "Yara",
+      "lastName": "Tolliver",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-4",
+      "locationIds": [
+        "acct-thatchwhim-outdoor-loc-4"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-thatchwhim-outdoor-002",
+      "email": "yara.tolliver@example.com",
+      "phone": "(839) 555-0107",
+      "locationCount": 1,
+      "location": "Thatchwhim - Rock Hill (Rock Hill, SC)",
+      "createdOn": "2026-07-11T14:35:00Z",
+      "lastActivity": "2026-10-14T19:15:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-ct-3",
+      "number": 3,
+      "accountId": "acct-thatchwhim-outdoor",
+      "name": "Zeke Dunleavy",
+      "firstName": "Zeke",
+      "lastName": "Dunleavy",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-2",
+      "locationIds": [
+        "acct-thatchwhim-outdoor-loc-2"
+      ],
+      "segments": [
+        "Emergency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-thatchwhim-outdoor-003",
+      "phone": "(704) 555-0108",
+      "locationCount": 1,
+      "location": "Thatchwhim - Concord (Concord, NC)",
+      "createdOn": "2026-06-27T17:30:00Z",
+      "lastActivity": "2026-10-15T18:15:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-ct-4",
+      "number": 4,
+      "accountId": "acct-thatchwhim-outdoor",
+      "name": "Anouk Kingsley",
+      "firstName": "Anouk",
+      "lastName": "Kingsley",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-5",
+      "locationIds": [
+        "acct-thatchwhim-outdoor-loc-5"
+      ],
+      "segments": [
+        "Seasonal"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-thatchwhim-outdoor-004",
+      "email": "anouk.kingsley@example.com",
+      "phone": "(980) 555-0109",
+      "locationCount": 1,
+      "location": "Thatchwhim - Huntersville (Huntersville, NC)",
+      "createdOn": "2026-10-09T16:55:00Z",
+      "lastActivity": "2026-10-18T17:20:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-ct-5",
+      "number": 5,
+      "accountId": "acct-thatchwhim-outdoor",
+      "name": "Booker Rourke",
+      "firstName": "Booker",
+      "lastName": "Rourke",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-3",
+      "locationIds": [
+        "acct-thatchwhim-outdoor-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-thatchwhim-outdoor-005",
+      "email": "booker.rourke@example.com",
+      "phone": "(704) 555-0110",
+      "locationCount": 1,
+      "location": "Thatchwhim - Gastonia (Gastonia, NC)",
+      "createdOn": "2026-09-25T19:05:00Z",
+      "lastActivity": "2026-10-03T16:20:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-ct-6",
+      "number": 6,
+      "accountId": "acct-thatchwhim-outdoor",
+      "name": "Celine Zamora",
+      "firstName": "Celine",
+      "lastName": "Zamora",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-1",
+      "locationIds": [
+        "acct-thatchwhim-outdoor-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-thatchwhim-outdoor-006",
+      "email": "celine.zamora@example.com",
+      "locationCount": 1,
+      "location": "Thatchwhim - Charlotte HQ (Charlotte, NC)",
+      "createdOn": "2026-09-11T18:55:00Z",
+      "lastActivity": "2026-10-20T15:55:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-ct-7",
+      "number": 7,
+      "accountId": "acct-thatchwhim-outdoor",
+      "name": "Dashiell Guerrero",
+      "firstName": "Dashiell",
+      "lastName": "Guerrero",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-4",
+      "locationIds": [
+        "acct-thatchwhim-outdoor-loc-4"
+      ],
+      "segments": [
+        "High value",
+        "Property manager"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-thatchwhim-outdoor-007",
+      "email": "dashiell.guerrero@example.com",
+      "phone": "(803) 555-0111",
+      "locationCount": 1,
+      "location": "Thatchwhim - Rock Hill (Rock Hill, SC)",
+      "createdOn": "2026-08-28T21:20:00Z",
+      "lastActivity": "2026-10-09T14:15:00Z"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-ct-8",
+      "number": 8,
+      "accountId": "acct-thatchwhim-outdoor",
+      "name": "Elise Nakashima",
+      "firstName": "Elise",
+      "lastName": "Nakashima",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-thatchwhim-outdoor-loc-2",
+      "locationIds": [
+        "acct-thatchwhim-outdoor-loc-2"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-thatchwhim-outdoor-008",
+      "email": "elise.nakashima@example.com",
+      "phone": "(980) 555-0112",
+      "locationCount": 1,
+      "location": "Thatchwhim - Concord (Concord, NC)",
+      "createdOn": "2026-09-04T20:30:00Z",
+      "lastActivity": "2026-09-05T21:05:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-thatchwhim-outdoor-rev-1",
+      "number": 1,
+      "accountId": "acct-thatchwhim-outdoor",
+      "locationId": "acct-thatchwhim-outdoor-loc-1",
+      "location": "Thatchwhim - Charlotte HQ (Charlotte, NC)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Fenwick Vasquez-Lane",
+      "date": "2026-08-25T19:05:00Z",
+      "text": "Second time using Thatchwhim. Travis remembered our setup from last spring and finished fall aeration and overseeding faster than quoted. The invoice matched the estimate exactly.",
+      "photoCount": 0,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Travis"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Fenwick! We'll pass this along to the whole Thatchwhim team. See you next time.\n\nYour Thatchwhim route team",
+        "author": "Your Thatchwhim route team",
+        "date": "2026-08-26T21:00:00Z"
+      }
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-rev-2",
+      "number": 2,
+      "accountId": "acct-thatchwhim-outdoor",
+      "locationId": "acct-thatchwhim-outdoor-loc-2",
+      "location": "Thatchwhim - Concord (Concord, NC)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Gemma Dempsey",
+      "date": "2026-08-11T18:50:00Z",
+      "text": "Thatchwhim quoted one price on the phone for an irrigation repair and a much higher one once the crew was here. I declined and got a second opinion. Not the experience I expected.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Gemma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Thatchwhim. A manager will reach out this week to make it right.\n\nYour Thatchwhim route team",
+        "author": "Your Thatchwhim route team",
+        "date": "2026-08-13T20:10:00Z"
+      }
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-rev-3",
+      "number": 3,
+      "accountId": "acct-thatchwhim-outdoor",
+      "locationId": "acct-thatchwhim-outdoor-loc-3",
+      "location": "Thatchwhim - Gastonia (Gastonia, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Hugo Landry",
+      "date": "2026-07-28T21:15:00Z",
+      "text": "Eli took the time to show me what was wrong before recommending anything, and said plainly that fall aeration and overseeding wasn't needed yet. That honesty earned Thatchwhim a customer for life.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Eli"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-rev-4",
+      "number": 4,
+      "accountId": "acct-thatchwhim-outdoor",
+      "locationId": "acct-thatchwhim-outdoor-loc-4",
+      "location": "Thatchwhim - Rock Hill (Rock Hill, SC)",
+      "site": "yelp",
+      "rating": 3,
+      "reviewer": "Ines Tolliver",
+      "date": "2026-07-14T20:55:00Z",
+      "text": "Work quality on leaf cleanup was good, but scheduling with Thatchwhim took three phone calls and the confirmation email had the wrong date. The office side needs tightening.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Ines, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Thatchwhim. A manager will reach out this week to make it right.\n\nYour Thatchwhim route team",
+        "author": "Your Thatchwhim route team",
+        "date": "2026-07-16T14:35:00Z"
+      }
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-rev-5",
+      "number": 5,
+      "accountId": "acct-thatchwhim-outdoor",
+      "locationId": "acct-thatchwhim-outdoor-loc-5",
+      "location": "Thatchwhim - Huntersville (Huntersville, NC)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Jonah Dunleavy",
+      "date": "2026-06-30T15:25:00Z",
+      "text": "Property manager here. Thatchwhim handled fall aeration and overseeding across two of our buildings and sent photos and invoices the same day. Tenant notices could be a bit more proactive.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-rev-6",
+      "number": 6,
+      "accountId": "acct-thatchwhim-outdoor",
+      "locationId": "acct-thatchwhim-outdoor-loc-1",
+      "location": "Thatchwhim - Charlotte HQ (Charlotte, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Kaia Kingsley",
+      "date": "2026-10-09T14:05:00Z",
+      "text": "Called Thatchwhim on a Saturday morning about leaf cleanup. They had Shonda out by early afternoon and the job was done right. Weekend pricing was fair and clearly explained.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Shonda"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-rev-7",
+      "number": 7,
+      "accountId": "acct-thatchwhim-outdoor",
+      "locationId": "acct-thatchwhim-outdoor-loc-2",
+      "location": "Thatchwhim - Concord (Concord, NC)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Lionel Rourke",
+      "date": "2026-09-25T17:30:00Z",
+      "text": "Eli was friendly, but the crew left debris in the driveway after weekly mowing and I had to call Thatchwhim to get it picked up.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Eli"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Lionel, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Thatchwhim. A manager will reach out this week to make it right.\n\nYour Thatchwhim route team",
+        "author": "Your Thatchwhim route team",
+        "date": "2026-09-26T19:00:00Z"
+      }
+    },
+    {
+      "id": "acct-thatchwhim-outdoor-rev-8",
+      "number": 8,
+      "accountId": "acct-thatchwhim-outdoor",
+      "locationId": "acct-thatchwhim-outdoor-loc-3",
+      "location": "Thatchwhim - Gastonia (Gastonia, NC)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Mila Zamora",
+      "date": "2026-09-11T16:15:00Z",
+      "text": "Needed leaf cleanup and Thatchwhim gave me a two-hour arrival window. Marco showed up early in it, explained the options with prices, and cleaned up before leaving.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Marco"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

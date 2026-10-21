@@ -1,0 +1,686 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-tramvelle-field",
+    "name": "Tramvelle Field Marketing",
+    "brandName": "Tramvelle Field",
+    "parentGroup": "Tramvelle Field",
+    "segment": "CH-SLV",
+    "segmentLabel": "Channel",
+    "industryId": "advertising-agency",
+    "industryLabel": "Advertising and agency",
+    "tier": "Field marketing partner",
+    "crm": "HubSpot",
+    "purchasedLocations": 5,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Miami",
+      "state": "FL",
+      "stateName": "Florida",
+      "country": "United States"
+    },
+    "businessBlurb": "Field marketing partner for Southeast multi-location retail and services brands.",
+    "profile": {
+      "description": "Field marketing partner for Southeast multi-location retail and services brands. Field marketing across the Southeast.",
+      "categories": [
+        "Marketing agency"
+      ],
+      "website": "https://tramvellefield.example.com",
+      "email": "hello@tramvellefield.example.com",
+      "phone": "(305) 555-0105",
+      "primaryLocationId": "acct-tramvelle-field-loc-1",
+      "address": {
+        "street1": "6091 Amberwood Boulevard",
+        "street2": "Suite 364",
+        "city": "Miami",
+        "state": "FL",
+        "stateName": "Florida",
+        "zip": "33130",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Tramvelle Field",
+      "tagline": "Field marketing across the Southeast",
+      "logo": {
+        "kind": "monogram",
+        "initials": "TF",
+        "path": "v1/logos/acct-tramvelle-field.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-tramvelle-field.svg"
+      },
+      "colors": {
+        "primary": "#06D6A0",
+        "secondary": "#E8FBF5",
+        "accent": "#073B4C",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "High-energy, on-the-ground, event-savvy.",
+      "formality": "casual",
+      "replySignoff": "Tramvelle Field Marketing"
+    },
+    "staff": [
+      "Yesenia Cruz",
+      "Darnell Hughes",
+      "Kat Romero"
+    ],
+    "services": [
+      "grand opening events",
+      "in-store review drives",
+      "field team training",
+      "local sponsorships"
+    ],
+    "llmContext": "Tramvelle Field Marketing · Channel · Advertising and agency · HQ Miami, Florida, United States · 5 purchased locations · CRM HubSpot · Field marketing partner for Southeast multi-location retail and services brands."
+  },
+  "locations": [
+    {
+      "id": "acct-tramvelle-field-loc-1",
+      "accountId": "acct-tramvelle-field",
+      "index": 1,
+      "name": "Tramvelle Field - HQ",
+      "shortName": "HQ",
+      "label": "Tramvelle Field - HQ (Miami, FL)",
+      "locationLine": "Miami, FL",
+      "type": "Virtual location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "6091 Amberwood Boulevard",
+        "street2": "Suite 364",
+        "city": "Miami",
+        "state": "FL",
+        "stateName": "Florida",
+        "zip": "33130",
+        "country": "US"
+      },
+      "phone": "(305) 555-0100",
+      "email": "hq@tramvellefield.example.com",
+      "website": "https://tramvellefield.example.com/locations/hq",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-10-17T17:45:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-loc-2",
+      "accountId": "acct-tramvelle-field",
+      "index": 2,
+      "name": "Tramvelle Field - Orlando hub",
+      "shortName": "Orlando hub",
+      "label": "Tramvelle Field - Orlando hub (Orlando, FL)",
+      "locationLine": "Orlando, FL",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7210 Velvet Ash Court",
+        "street2": "Suite 411",
+        "city": "Orlando",
+        "state": "FL",
+        "stateName": "Florida",
+        "zip": "32801",
+        "country": "US"
+      },
+      "phone": "(689) 555-0101",
+      "email": "orlando-hub@tramvellefield.example.com",
+      "website": "https://tramvellefield.example.com/locations/orlando-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-10-03T20:10:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-loc-3",
+      "accountId": "acct-tramvelle-field",
+      "index": 3,
+      "name": "Tramvelle Field - Tampa hub",
+      "shortName": "Tampa hub",
+      "label": "Tramvelle Field - Tampa hub (Tampa, FL)",
+      "locationLine": "Tampa, FL",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8329 Wrenfield Terrace",
+        "street2": "",
+        "city": "Tampa",
+        "state": "FL",
+        "stateName": "Florida",
+        "zip": "33606",
+        "country": "US"
+      },
+      "phone": "(813) 555-0102",
+      "email": "tampa-hub@tramvellefield.example.com",
+      "website": "https://tramvellefield.example.com/locations/tampa-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-09-19T15:35:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-loc-4",
+      "accountId": "acct-tramvelle-field",
+      "index": 4,
+      "name": "Tramvelle Field - Jacksonville hub",
+      "shortName": "Jacksonville hub",
+      "label": "Tramvelle Field - Jacksonville hub (Jacksonville, FL)",
+      "locationLine": "Jacksonville, FL",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "548 Tamarack Parkway",
+        "street2": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "stateName": "Florida",
+        "zip": "32202",
+        "country": "US"
+      },
+      "phone": "(904) 555-0103",
+      "email": "jacksonville-hub@tramvellefield.example.com",
+      "website": "https://tramvellefield.example.com/locations/jacksonville-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-09-05T18:00:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-loc-5",
+      "accountId": "acct-tramvelle-field",
+      "index": 5,
+      "name": "Tramvelle Field - Atlanta hub",
+      "shortName": "Atlanta hub",
+      "label": "Tramvelle Field - Atlanta hub (Atlanta, GA)",
+      "locationLine": "Atlanta, GA",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1667 Foxglove Commons",
+        "street2": "Suite 192",
+        "city": "Atlanta",
+        "state": "GA",
+        "stateName": "Georgia",
+        "zip": "30308",
+        "country": "US"
+      },
+      "phone": "(678) 555-0104",
+      "email": "atlanta-hub@tramvellefield.example.com",
+      "website": "https://tramvellefield.example.com/locations/atlanta-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-08-22T21:25:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-tramvelle-field-ct-1",
+      "number": 42,
+      "accountId": "acct-tramvelle-field",
+      "name": "Quinn Ivers",
+      "firstName": "Quinn",
+      "lastName": "Ivers",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-tramvelle-field-loc-1",
+      "locationIds": [
+        "acct-tramvelle-field-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-tramvelle-field-001",
+      "email": "quinn.ivers@retailclient.example.com",
+      "phone": "(305) 555-0106",
+      "locationCount": 1,
+      "location": "Tramvelle Field - HQ (Miami, FL)",
+      "createdOn": "2026-09-14T20:10:00Z",
+      "lastActivity": "2026-10-14T21:05:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-ct-2",
+      "number": 2,
+      "accountId": "acct-tramvelle-field",
+      "name": "Rosalie Ridley",
+      "firstName": "Rosalie",
+      "lastName": "Ridley",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-tramvelle-field-loc-4",
+      "locationIds": [
+        "acct-tramvelle-field-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-tramvelle-field-002",
+      "email": "rosalie.ridley@lumenhealth.example.com",
+      "phone": "(904) 555-0107",
+      "locationCount": 1,
+      "location": "Tramvelle Field - Jacksonville hub (Jacksonville, FL)",
+      "createdOn": "2026-08-31T17:00:00Z",
+      "lastActivity": "2026-09-08T18:25:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-ct-3",
+      "number": 3,
+      "accountId": "acct-tramvelle-field",
+      "name": "Silas Blackwood",
+      "firstName": "Silas",
+      "lastName": "Blackwood",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-tramvelle-field-loc-2",
+      "locationIds": [
+        "acct-tramvelle-field-loc-2"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-tramvelle-field-003",
+      "phone": "(407) 555-0108",
+      "locationCount": 1,
+      "location": "Tramvelle Field - Orlando hub (Orlando, FL)",
+      "createdOn": "2026-08-17T14:30:00Z",
+      "lastActivity": "2026-09-09T19:25:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-ct-4",
+      "number": 4,
+      "accountId": "acct-tramvelle-field",
+      "name": "Talia Ingram",
+      "firstName": "Talia",
+      "lastName": "Ingram",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-tramvelle-field-loc-5",
+      "locationIds": [
+        "acct-tramvelle-field-loc-5"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-tramvelle-field-004",
+      "email": "talia.ingram@keystonelegal.example.com",
+      "phone": "(404) 555-0109",
+      "locationCount": 1,
+      "location": "Tramvelle Field - Atlanta hub (Atlanta, GA)",
+      "createdOn": "2026-08-03T19:40:00Z",
+      "lastActivity": "2026-09-10T16:00:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-ct-5",
+      "number": 5,
+      "accountId": "acct-tramvelle-field",
+      "name": "Ulric Pembrook",
+      "firstName": "Ulric",
+      "lastName": "Pembrook",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-tramvelle-field-loc-3",
+      "locationIds": [
+        "acct-tramvelle-field-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-tramvelle-field-005",
+      "email": "ulric.pembrook@beaconauto.example.com",
+      "phone": "(813) 555-0110",
+      "locationCount": 1,
+      "location": "Tramvelle Field - Tampa hub (Tampa, FL)",
+      "createdOn": "2026-07-20T16:50:00Z",
+      "lastActivity": "2026-09-11T17:40:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-ct-6",
+      "number": 6,
+      "accountId": "acct-tramvelle-field",
+      "name": "Vera Wexford",
+      "firstName": "Vera",
+      "lastName": "Wexford",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-tramvelle-field-loc-1",
+      "locationIds": [
+        "acct-tramvelle-field-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-tramvelle-field-006",
+      "email": "vera.wexford@prospect.example.com",
+      "locationCount": 1,
+      "location": "Tramvelle Field - HQ (Miami, FL)",
+      "createdOn": "2026-07-06T21:50:00Z",
+      "lastActivity": "2026-09-12T14:00:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-ct-7",
+      "number": 7,
+      "accountId": "acct-tramvelle-field",
+      "name": "Warren Esposito",
+      "firstName": "Warren",
+      "lastName": "Esposito",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-tramvelle-field-loc-4",
+      "locationIds": [
+        "acct-tramvelle-field-loc-4"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-tramvelle-field-007",
+      "email": "warren.esposito@tidewaterdental.example.com",
+      "phone": "(904) 555-0111",
+      "locationCount": 1,
+      "location": "Tramvelle Field - Jacksonville hub (Jacksonville, FL)",
+      "createdOn": "2026-10-18T18:20:00Z",
+      "lastActivity": "2026-10-18T20:20:00Z"
+    },
+    {
+      "id": "acct-tramvelle-field-ct-8",
+      "number": 8,
+      "accountId": "acct-tramvelle-field",
+      "name": "Ximena Lindahl",
+      "firstName": "Ximena",
+      "lastName": "Lindahl",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-tramvelle-field-loc-2",
+      "locationIds": [
+        "acct-tramvelle-field-loc-2"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-tramvelle-field-008",
+      "email": "ximena.lindahl@oakhollowgroup.example.com",
+      "phone": "(689) 555-0112",
+      "locationCount": 1,
+      "location": "Tramvelle Field - Orlando hub (Orlando, FL)",
+      "createdOn": "2026-06-29T15:10:00Z",
+      "lastActivity": "2026-08-24T20:10:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-tramvelle-field-rev-1",
+      "number": 1,
+      "accountId": "acct-tramvelle-field",
+      "locationId": "acct-tramvelle-field-loc-1",
+      "location": "Tramvelle Field - HQ (Miami, FL)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Yusuf Tavares",
+      "date": "2026-09-09T18:55:00Z",
+      "text": "We run more than 20 retail locations and Tramvelle Field is the first partner that made grand opening events feel manageable. Yesenia Cruz knows our markets by name.",
+      "photoCount": 2,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Yesenia Cruz"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Yusuf! We'll pass this along to the whole Tramvelle Field team. See you next time.\n\nTramvelle Field Marketing",
+        "author": "Tramvelle Field Marketing",
+        "date": "2026-09-10T20:35:00Z"
+      }
+    },
+    {
+      "id": "acct-tramvelle-field-rev-2",
+      "number": 2,
+      "accountId": "acct-tramvelle-field",
+      "locationId": "acct-tramvelle-field-loc-2",
+      "location": "Tramvelle Field - Orlando hub (Orlando, FL)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Zara Brannigan",
+      "date": "2026-08-26T19:10:00Z",
+      "text": "Good strategy on in-store review drives, but the monthly invoice from Tramvelle Field has vague line items. Our finance team needs clearer activity summaries.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Zara, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Tramvelle Field. A manager will reach out this week to make it right.\n\nTramvelle Field Marketing",
+        "author": "Tramvelle Field Marketing",
+        "date": "2026-08-28T21:05:00Z"
+      }
+    },
+    {
+      "id": "acct-tramvelle-field-rev-3",
+      "number": 3,
+      "accountId": "acct-tramvelle-field",
+      "locationId": "acct-tramvelle-field-loc-3",
+      "location": "Tramvelle Field - Tampa hub (Tampa, FL)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Abel Ivers",
+      "date": "2026-08-12T16:45:00Z",
+      "text": "When one of our retail locations got hit with a wave of negative reviews, Kat Romero had draft responses ready the same afternoon. Calm, specific, and on-brand.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Kat Romero"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-tramvelle-field-rev-4",
+      "number": 4,
+      "accountId": "acct-tramvelle-field",
+      "locationId": "acct-tramvelle-field-loc-4",
+      "location": "Tramvelle Field - Jacksonville hub (Jacksonville, FL)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Bianca Ridley",
+      "date": "2026-07-29T17:35:00Z",
+      "text": "Our account lead at Tramvelle Field left and we went a month without anyone owning local sponsorships. They've since assigned someone new, but the gap hurt.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Bianca, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Tramvelle Field. A manager will reach out this week to make it right.\n\nTramvelle Field Marketing",
+        "author": "Tramvelle Field Marketing",
+        "date": "2026-07-31T19:05:00Z"
+      }
+    },
+    {
+      "id": "acct-tramvelle-field-rev-5",
+      "number": 5,
+      "accountId": "acct-tramvelle-field",
+      "locationId": "acct-tramvelle-field-loc-5",
+      "location": "Tramvelle Field - Atlanta hub (Atlanta, GA)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Cyrus Blackwood",
+      "date": "2026-07-15T14:10:00Z",
+      "text": "Darnell Hughes ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Darnell Hughes"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-tramvelle-field-rev-6",
+      "number": 6,
+      "accountId": "acct-tramvelle-field",
+      "locationId": "acct-tramvelle-field-loc-1",
+      "location": "Tramvelle Field - HQ (Miami, FL)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Delia Ingram",
+      "date": "2026-07-01T15:30:00Z",
+      "text": "Tramvelle Field cleaned up duplicate listings across our retail locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-tramvelle-field-rev-7",
+      "number": 7,
+      "accountId": "acct-tramvelle-field",
+      "locationId": "acct-tramvelle-field-loc-2",
+      "location": "Tramvelle Field - Orlando hub (Orlando, FL)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Emmett Pembrook",
+      "date": "2026-10-10T20:00:00Z",
+      "text": "Tool access for field team training took weeks to sort out on the Tramvelle Field side. Once connected it worked, but setup was rough.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Emmett, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Tramvelle Field. A manager will reach out this week to make it right.\n\nTramvelle Field Marketing",
+        "author": "Tramvelle Field Marketing",
+        "date": "2026-10-11T14:00:00Z"
+      }
+    },
+    {
+      "id": "acct-tramvelle-field-rev-8",
+      "number": 8,
+      "accountId": "acct-tramvelle-field",
+      "locationId": "acct-tramvelle-field-loc-3",
+      "location": "Tramvelle Field - Tampa hub (Tampa, FL)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Flora Wexford",
+      "date": "2026-09-26T21:50:00Z",
+      "text": "Tramvelle Field took over local sponsorships for our team and the difference showed within a month. Darnell Hughes sends a short weekly update with exactly what changed and what to do next.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Darnell Hughes"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

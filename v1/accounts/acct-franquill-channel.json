@@ -1,0 +1,696 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-franquill-channel",
+    "name": "Franquill Franchise Network",
+    "brandName": "Franquill Network",
+    "parentGroup": "Franquill Channel",
+    "segment": "CH-SLV",
+    "segmentLabel": "Channel",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Franchise channel partner",
+    "crm": "ServiceTitan",
+    "purchasedLocations": 5,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Dallas",
+      "state": "TX",
+      "stateName": "Texas",
+      "country": "United States"
+    },
+    "businessBlurb": "Channel org that supports home-services franchisees with listings and review SLAs.",
+    "profile": {
+      "description": "Channel org that supports home-services franchisees with listings and review SLAs. Listings and reviews for home-services franchisees.",
+      "categories": [
+        "Franchise support"
+      ],
+      "website": "https://franquill.example.com",
+      "email": "hello@franquill.example.com",
+      "phone": "(214) 555-0105",
+      "primaryLocationId": "acct-franquill-channel-loc-1",
+      "address": {
+        "street1": "1134 Brightwater Avenue",
+        "street2": "Suite 103",
+        "city": "Dallas",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "75201",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Franquill Network",
+      "tagline": "Listings and reviews for home-services franchisees",
+      "logo": {
+        "kind": "monogram",
+        "initials": "FN",
+        "path": "v1/logos/acct-franquill-channel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-franquill-channel.svg"
+      },
+      "colors": {
+        "primary": "#E76F51",
+        "secondary": "#FDF0EC",
+        "accent": "#2A9D8F",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Supportive franchisor voice; process-oriented, celebrates franchisee wins.",
+      "formality": "neutral",
+      "replySignoff": "Franquill Franchise Network support"
+    },
+    "staff": [
+      "Corey Daniels",
+      "Alana Price",
+      "Vic Ramos"
+    ],
+    "services": [
+      "review SLAs for our franchisees",
+      "listings sync across our territories",
+      "a franchisee review-request rollout",
+      "territory reputation reporting"
+    ],
+    "llmContext": "Franquill Franchise Network · Channel · Home services and contractors · HQ Dallas, Texas, United States · 5 purchased locations · CRM ServiceTitan · Channel org that supports home-services franchisees with listings and review SLAs."
+  },
+  "locations": [
+    {
+      "id": "acct-franquill-channel-loc-1",
+      "accountId": "acct-franquill-channel",
+      "index": 1,
+      "name": "Franquill Network - HQ",
+      "shortName": "HQ",
+      "label": "Franquill Network - HQ (Dallas, TX)",
+      "locationLine": "Dallas, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "1134 Brightwater Avenue",
+        "street2": "Suite 103",
+        "city": "Dallas",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "75201",
+        "country": "US"
+      },
+      "phone": "(469) 555-0100",
+      "email": "hq@franquill.example.com",
+      "website": "https://franquill.example.com/locations/hq",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-07-07T18:45:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-loc-2",
+      "accountId": "acct-franquill-channel",
+      "index": 2,
+      "name": "Franquill Network - Franchise ops - Houston",
+      "shortName": "Franchise ops - Houston",
+      "label": "Franquill Network - Franchise ops - Houston (Houston, TX)",
+      "locationLine": "Houston, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8915 Elderberry Boulevard",
+        "street2": "",
+        "city": "Houston",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77007",
+        "country": "US"
+      },
+      "phone": "(281) 555-0101",
+      "email": "franchise-ops-houston@franquill.example.com",
+      "website": "https://franquill.example.com/locations/franchise-ops-houston",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-10-19T19:00:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-loc-3",
+      "accountId": "acct-franquill-channel",
+      "index": 3,
+      "name": "Franquill Network - Franchise ops - Austin",
+      "shortName": "Franchise ops - Austin",
+      "label": "Franquill Network - Franchise ops - Austin (Austin, TX)",
+      "locationLine": "Austin, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7796 Dovetail Row",
+        "street2": "Suite 369",
+        "city": "Austin",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "78704",
+        "country": "US"
+      },
+      "phone": "(737) 555-0102",
+      "email": "franchise-ops-austin@franquill.example.com",
+      "website": "https://franquill.example.com/locations/franchise-ops-austin",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-10-05T16:35:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-loc-4",
+      "accountId": "acct-franquill-channel",
+      "index": 4,
+      "name": "Franquill Network - Franchise ops - San Antonio",
+      "shortName": "Franchise ops - San Antonio",
+      "label": "Franquill Network - Franchise ops - San Antonio (San Antonio, TX)",
+      "locationLine": "San Antonio, TX",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6677 Goldfinch Trail",
+        "street2": "Suite 322",
+        "city": "San Antonio",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "78209",
+        "country": "US"
+      },
+      "phone": "(210) 555-0103",
+      "email": "franchise-ops-san-antonio@franquill.example.com",
+      "website": "https://franquill.example.com/locations/franchise-ops-san-antonio",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-09-21T17:25:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-loc-5",
+      "accountId": "acct-franquill-channel",
+      "index": 5,
+      "name": "Franquill Network - Franchise ops - Oklahoma City",
+      "shortName": "Franchise ops - Oklahoma City",
+      "label": "Franquill Network - Franchise ops - Oklahoma City (Oklahoma City, OK)",
+      "locationLine": "Oklahoma City, OK",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5558 Falconridge Row",
+        "street2": "",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "stateName": "Oklahoma",
+        "zip": "73102",
+        "country": "US"
+      },
+      "phone": "(405) 555-0104",
+      "email": "franchise-ops-oklahoma-city@franquill.example.com",
+      "website": "https://franquill.example.com/locations/franchise-ops-oklahoma-city",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-09-07T14:00:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-franquill-channel-ct-1",
+      "number": 42,
+      "accountId": "acct-franquill-channel",
+      "name": "Gideon Underhill",
+      "firstName": "Gideon",
+      "lastName": "Underhill",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-franquill-channel-loc-1",
+      "locationIds": [
+        "acct-franquill-channel-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-franquill-channel-001",
+      "email": "gideon.underhill@beaconauto.example.com",
+      "phone": "(214) 555-0106",
+      "locationCount": 1,
+      "location": "Franquill Network - HQ (Dallas, TX)",
+      "createdOn": "2026-09-30T21:55:00Z",
+      "lastActivity": "2026-10-15T14:15:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-ct-2",
+      "number": 2,
+      "accountId": "acct-franquill-channel",
+      "name": "Helena Castaneda",
+      "firstName": "Helena",
+      "lastName": "Castaneda",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-franquill-channel-loc-4",
+      "locationIds": [
+        "acct-franquill-channel-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-franquill-channel-002",
+      "email": "helena.castaneda@meridianfood.example.com",
+      "phone": "(726) 555-0107",
+      "locationCount": 1,
+      "location": "Franquill Network - Franchise ops - San Antonio (San Antonio, TX)",
+      "createdOn": "2026-09-16T16:35:00Z",
+      "lastActivity": "2026-10-02T17:55:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-ct-3",
+      "number": 3,
+      "accountId": "acct-franquill-channel",
+      "name": "Idris Jaramillo",
+      "firstName": "Idris",
+      "lastName": "Jaramillo",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-franquill-channel-loc-2",
+      "locationIds": [
+        "acct-franquill-channel-loc-2"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-franquill-channel-003",
+      "phone": "(281) 555-0108",
+      "locationCount": 1,
+      "location": "Franquill Network - Franchise ops - Houston (Houston, TX)",
+      "createdOn": "2026-09-02T19:05:00Z",
+      "lastActivity": "2026-09-12T16:15:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-ct-4",
+      "number": 4,
+      "accountId": "acct-franquill-channel",
+      "name": "Juno Rasmussen",
+      "firstName": "Juno",
+      "lastName": "Rasmussen",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-franquill-channel-loc-5",
+      "locationIds": [
+        "acct-franquill-channel-loc-5"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-franquill-channel-004",
+      "email": "juno.rasmussen@oakhollowgroup.example.com",
+      "phone": "(405) 555-0109",
+      "locationCount": 1,
+      "location": "Franquill Network - Franchise ops - Oklahoma City (Oklahoma City, OK)",
+      "createdOn": "2026-08-19T14:15:00Z",
+      "lastActivity": "2026-09-27T19:40:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-ct-5",
+      "number": 5,
+      "accountId": "acct-franquill-channel",
+      "name": "Kellan Zielinski",
+      "firstName": "Kellan",
+      "lastName": "Zielinski",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-franquill-channel-loc-3",
+      "locationIds": [
+        "acct-franquill-channel-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-franquill-channel-005",
+      "email": "kellan.zielinski@pinnaclefitness.example.com",
+      "phone": "(512) 555-0110",
+      "locationCount": 1,
+      "location": "Franquill Network - Franchise ops - Austin (Austin, TX)",
+      "createdOn": "2026-08-05T17:05:00Z",
+      "lastActivity": "2026-10-12T18:00:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-ct-6",
+      "number": 6,
+      "accountId": "acct-franquill-channel",
+      "name": "Lorena Granger",
+      "firstName": "Lorena",
+      "lastName": "Granger",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-franquill-channel-loc-1",
+      "locationIds": [
+        "acct-franquill-channel-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-franquill-channel-006",
+      "email": "lorena.granger@prospect.example.com",
+      "locationCount": 1,
+      "location": "Franquill Network - HQ (Dallas, TX)",
+      "createdOn": "2026-07-22T20:15:00Z",
+      "lastActivity": "2026-07-28T21:20:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-ct-7",
+      "number": 7,
+      "accountId": "acct-franquill-channel",
+      "name": "Magnus Osgood",
+      "firstName": "Magnus",
+      "lastName": "Osgood",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-franquill-channel-loc-4",
+      "locationIds": [
+        "acct-franquill-channel-loc-4"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-franquill-channel-007",
+      "email": "magnus.osgood@retailclient.example.com",
+      "phone": "(210) 555-0111",
+      "locationCount": 1,
+      "location": "Franquill Network - Franchise ops - San Antonio (San Antonio, TX)",
+      "createdOn": "2026-07-08T15:10:00Z",
+      "lastActivity": "2026-07-29T20:20:00Z"
+    },
+    {
+      "id": "acct-franquill-channel-ct-8",
+      "number": 8,
+      "accountId": "acct-franquill-channel",
+      "name": "Nadia Yardley",
+      "firstName": "Nadia",
+      "lastName": "Yardley",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-franquill-channel-loc-2",
+      "locationIds": [
+        "acct-franquill-channel-loc-2"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-franquill-channel-008",
+      "email": "nadia.yardley@lumenhealth.example.com",
+      "phone": "(832) 555-0112",
+      "locationCount": 1,
+      "location": "Franquill Network - Franchise ops - Houston (Houston, TX)",
+      "createdOn": "2026-07-15T18:20:00Z",
+      "lastActivity": "2026-10-15T15:50:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-franquill-channel-rev-1",
+      "number": 1,
+      "accountId": "acct-franquill-channel",
+      "locationId": "acct-franquill-channel-loc-1",
+      "location": "Franquill Network - HQ (Dallas, TX)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Orion Galbraith",
+      "date": "2026-08-05T21:05:00Z",
+      "text": "When one of our franchise locations got hit with a wave of negative reviews, Corey Daniels had draft responses ready the same afternoon. Calm, specific, and on-brand.",
+      "photoCount": 1,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Corey Daniels"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Orion! We'll pass this along to the whole Franquill Network team. See you next time.\n\nFranquill Franchise Network support",
+        "author": "Franquill Franchise Network support",
+        "date": "2026-08-06T15:20:00Z"
+      }
+    },
+    {
+      "id": "acct-franquill-channel-rev-2",
+      "number": 2,
+      "accountId": "acct-franquill-channel",
+      "locationId": "acct-franquill-channel-loc-2",
+      "location": "Franquill Network - Franchise ops - Houston (Houston, TX)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Paloma Northcott",
+      "date": "2026-07-22T16:30:00Z",
+      "text": "Our account lead at Franquill Network left and we went a month without anyone owning listings sync across our territories. They've since assigned someone new, but the gap hurt.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Paloma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Franquill Network. A manager will reach out this week to make it right.\n\nFranquill Franchise Network support",
+        "author": "Franquill Franchise Network support",
+        "date": "2026-07-24T18:35:00Z"
+      }
+    },
+    {
+      "id": "acct-franquill-channel-rev-3",
+      "number": 3,
+      "accountId": "acct-franquill-channel",
+      "locationId": "acct-franquill-channel-loc-3",
+      "location": "Franquill Network - Franchise ops - Austin (Austin, TX)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Reuben Underhill",
+      "date": "2026-07-08T19:55:00Z",
+      "text": "Vic Ramos ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Vic Ramos"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-franquill-channel-rev-4",
+      "number": 4,
+      "accountId": "acct-franquill-channel",
+      "locationId": "acct-franquill-channel-loc-4",
+      "location": "Franquill Network - Franchise ops - San Antonio (San Antonio, TX)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Sabine Castaneda",
+      "date": "2026-10-17T14:55:00Z",
+      "text": "Franquill Network cleaned up duplicate listings across our franchise locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Sabine! We'll pass this along to the whole Franquill Network team. See you next time.\n\nFranquill Franchise Network support",
+        "author": "Franquill Franchise Network support",
+        "date": "2026-10-19T16:15:00Z"
+      }
+    },
+    {
+      "id": "acct-franquill-channel-rev-5",
+      "number": 5,
+      "accountId": "acct-franquill-channel",
+      "locationId": "acct-franquill-channel-loc-5",
+      "location": "Franquill Network - Franchise ops - Oklahoma City (Oklahoma City, OK)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Tobias Jaramillo",
+      "date": "2026-10-03T17:20:00Z",
+      "text": "Tool access for review SLAs for our franchisees took weeks to sort out on the Franquill Network side. Once connected it worked, but setup was rough.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Tobias, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Franquill Network. A manager will reach out this week to make it right.\n\nFranquill Franchise Network support",
+        "author": "Franquill Franchise Network support",
+        "date": "2026-10-04T19:10:00Z"
+      }
+    },
+    {
+      "id": "acct-franquill-channel-rev-6",
+      "number": 6,
+      "accountId": "acct-franquill-channel",
+      "locationId": "acct-franquill-channel-loc-1",
+      "location": "Franquill Network - HQ (Dallas, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Uma Rasmussen",
+      "date": "2026-09-19T20:45:00Z",
+      "text": "Franquill Network took over listings sync across our territories for our team and the difference showed within a month. Vic Ramos sends a short weekly update with exactly what changed and what to do next.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Vic Ramos"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-franquill-channel-rev-7",
+      "number": 7,
+      "accountId": "acct-franquill-channel",
+      "locationId": "acct-franquill-channel-loc-2",
+      "location": "Franquill Network - Franchise ops - Houston (Houston, TX)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Vaughn Zielinski",
+      "date": "2026-09-05T15:15:00Z",
+      "text": "Solid partner for a franchisee review-request rollout. Reporting is clear and Corey Daniels is responsive. Onboarding with Franquill Network took a couple of weeks longer than planned.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Corey Daniels"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Vaughn! We'll pass this along to the whole Franquill Network team. See you next time.\n\nFranquill Franchise Network support",
+        "author": "Franquill Franchise Network support",
+        "date": "2026-09-06T17:45:00Z"
+      }
+    },
+    {
+      "id": "acct-franquill-channel-rev-8",
+      "number": 8,
+      "accountId": "acct-franquill-channel",
+      "locationId": "acct-franquill-channel-loc-3",
+      "location": "Franquill Network - Franchise ops - Austin (Austin, TX)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Willa Granger",
+      "date": "2026-08-22T18:10:00Z",
+      "text": "Our kickoff with Franquill Network for territory reputation reporting was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Willa, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Franquill Network. A manager will reach out this week to make it right.\n\nFranquill Franchise Network support",
+        "author": "Franquill Franchise Network support",
+        "date": "2026-08-24T20:05:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Weekly refresh so hosted dates stay inside the last 3-4 months (Mondays 06:17 UTC).
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write # configure-pages reads the Pages site config
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate dated data (build date = today, UTC)
+        run: node scripts/generate.mjs
+      - name: Validate (and require data generated today)
+        run: node scripts/validate.mjs --max-age-days 1
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp -r v1 schemas docs skills rules examples _site/
+          cp index.html README.md .nojekyll _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    # Only the deploy job can mint the OIDC token that deploy-pages needs.
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,815 @@
+{
+  "description": "Single-word US place names that are also a common English word or a common first name, with the largest 2023 population of a place of that name. The review city check flags these only when a place cue sits next to them (\"from Tyler\", \"in Mobile\", \"Tyler, TX\"), so \"Tyler at the front desk\" or \"Mobile check-in\" passes; places above BIG_CITY_EXEMPT_MAX (scripts/validate.mjs) are flagged even without a cue. Regenerate with scripts/lib/derive-city-stoplist.mjs; do not hand-edit.",
+  "sources": [
+    "Place names: scripts/lib/us-places-20k.json (U.S. Census Bureau SUB-EST2023) plus scripts/lib/geo.mjs",
+    "Common words: SCOWL size-50 American English word list (Debian wamerican 2020.12.07), all-lowercase entries only; http://wordlist.aspell.net/",
+    "Populations: U.S. Census Bureau SUB-EST2023 (Vintage 2023 subcounty population estimates), POPESTIMATE2023",
+    "First names: U.S. Census Bureau 1990 first-name files dist.male.first and dist.female.first, rank <= 1000 for either sex; https://www2.census.gov/topics/genealogy/1990surnames/"
+  ],
+  "counts": {
+    "singleWordPlacesCompared": 1133,
+    "word": 105,
+    "firstName": 106,
+    "over500k": 7,
+    "over250k": 17,
+    "total": 199
+  },
+  "entries": {
+    "Adrian": {
+      "reason": "firstName",
+      "population": 20238
+    },
+    "Alabaster": {
+      "reason": "word",
+      "population": 34107
+    },
+    "Alexandria": {
+      "reason": "firstName",
+      "population": 155230
+    },
+    "Allen": {
+      "reason": "firstName",
+      "population": 111620
+    },
+    "Alliance": {
+      "reason": "word",
+      "population": 21525
+    },
+    "Alton": {
+      "reason": "firstName",
+      "population": 25006
+    },
+    "Alvin": {
+      "reason": "firstName",
+      "population": 28633
+    },
+    "Anchorage": {
+      "reason": "word",
+      "population": 286075
+    },
+    "Anderson": {
+      "reason": "firstName",
+      "population": 55199
+    },
+    "Anna": {
+      "reason": "firstName",
+      "population": 27501
+    },
+    "Apex": {
+      "reason": "word",
+      "population": 72225
+    },
+    "Arnold": {
+      "reason": "firstName",
+      "population": 21059
+    },
+    "Auburn": {
+      "reason": "word",
+      "population": 83870
+    },
+    "Augusta": {
+      "reason": "firstName",
+      "population": 205414
+    },
+    "Aurora": {
+      "reason": "firstName",
+      "population": 395052
+    },
+    "Austin": {
+      "reason": "firstName",
+      "population": 979882
+    },
+    "Banning": {
+      "reason": "word",
+      "population": 31680
+    },
+    "Bell": {
+      "reason": "word",
+      "population": 31864
+    },
+    "Bend": {
+      "reason": "word",
+      "population": 104557
+    },
+    "Bethany": {
+      "reason": "firstName",
+      "population": 20369
+    },
+    "Beverly": {
+      "reason": "firstName",
+      "population": 42318
+    },
+    "Billings": {
+      "reason": "word",
+      "population": 120864
+    },
+    "Blaine": {
+      "reason": "firstName",
+      "population": 73774
+    },
+    "Boulder": {
+      "reason": "word",
+      "population": 105898
+    },
+    "Bountiful": {
+      "reason": "word",
+      "population": 44144
+    },
+    "Brandon": {
+      "reason": "firstName",
+      "population": 25719
+    },
+    "Bryan": {
+      "reason": "firstName",
+      "population": 89615
+    },
+    "Bryant": {
+      "reason": "firstName",
+      "population": 21877
+    },
+    "Buckeye": {
+      "reason": "word",
+      "population": 108909
+    },
+    "Buffalo": {
+      "reason": "word",
+      "population": 274678
+    },
+    "Burton": {
+      "reason": "firstName",
+      "population": 29376
+    },
+    "Butte": {
+      "reason": "word",
+      "population": 36360
+    },
+    "Canton": {
+      "reason": "word",
+      "population": 69197
+    },
+    "Carson": {
+      "reason": "firstName",
+      "population": 91139
+    },
+    "Cary": {
+      "reason": "firstName",
+      "population": 180010
+    },
+    "Celina": {
+      "reason": "firstName",
+      "population": 43317
+    },
+    "Centennial": {
+      "reason": "word",
+      "population": 106883
+    },
+    "Central": {
+      "reason": "word",
+      "population": 29781
+    },
+    "Chandler": {
+      "reason": "word",
+      "population": 280167
+    },
+    "Charlotte": {
+      "reason": "firstName",
+      "population": 911311
+    },
+    "Chelsea": {
+      "reason": "firstName",
+      "population": 38319
+    },
+    "Chester": {
+      "reason": "firstName",
+      "population": 33595
+    },
+    "Chino": {
+      "reason": "word",
+      "population": 93114
+    },
+    "Clayton": {
+      "reason": "firstName",
+      "population": 30216
+    },
+    "Cleveland": {
+      "reason": "firstName",
+      "population": 362656
+    },
+    "Clifton": {
+      "reason": "firstName",
+      "population": 88461
+    },
+    "Clinton": {
+      "reason": "firstName",
+      "population": 26698
+    },
+    "Concord": {
+      "reason": "word",
+      "population": 122315
+    },
+    "Converse": {
+      "reason": "word",
+      "population": 30321
+    },
+    "Cornelius": {
+      "reason": "firstName",
+      "population": 33139
+    },
+    "Corona": {
+      "reason": "word",
+      "population": 160238
+    },
+    "Crystal": {
+      "reason": "word+firstName",
+      "population": 21906
+    },
+    "Cypress": {
+      "reason": "word",
+      "population": 48782
+    },
+    "Dallas": {
+      "reason": "firstName",
+      "population": 1302868
+    },
+    "Dalton": {
+      "reason": "firstName",
+      "population": 34508
+    },
+    "Daphne": {
+      "reason": "firstName",
+      "population": 30321
+    },
+    "Davenport": {
+      "reason": "word",
+      "population": 100354
+    },
+    "Davis": {
+      "reason": "firstName",
+      "population": 65832
+    },
+    "Denver": {
+      "reason": "firstName",
+      "population": 716577
+    },
+    "Derby": {
+      "reason": "word",
+      "population": 26233
+    },
+    "Duncan": {
+      "reason": "firstName",
+      "population": 23170
+    },
+    "Eagle": {
+      "reason": "word",
+      "population": 32319
+    },
+    "Edmond": {
+      "reason": "firstName",
+      "population": 98103
+    },
+    "Elizabeth": {
+      "reason": "firstName",
+      "population": 135829
+    },
+    "Emporia": {
+      "reason": "word",
+      "population": 24105
+    },
+    "Enid": {
+      "reason": "firstName",
+      "population": 50577
+    },
+    "Enterprise": {
+      "reason": "word",
+      "population": 30271
+    },
+    "Eugene": {
+      "reason": "firstName",
+      "population": 177899
+    },
+    "Eureka": {
+      "reason": "word",
+      "population": 25734
+    },
+    "Everett": {
+      "reason": "firstName",
+      "population": 111180
+    },
+    "Fate": {
+      "reason": "word",
+      "population": 24626
+    },
+    "Fishers": {
+      "reason": "word",
+      "population": 104094
+    },
+    "Flagstaff": {
+      "reason": "word",
+      "population": 76586
+    },
+    "Flint": {
+      "reason": "word",
+      "population": 79661
+    },
+    "Florence": {
+      "reason": "firstName",
+      "population": 42437
+    },
+    "Fountain": {
+      "reason": "word",
+      "population": 28489
+    },
+    "Franklin": {
+      "reason": "firstName",
+      "population": 88558
+    },
+    "Frederick": {
+      "reason": "firstName",
+      "population": 85793
+    },
+    "Garland": {
+      "reason": "word+firstName",
+      "population": 243470
+    },
+    "Garner": {
+      "reason": "word",
+      "population": 35265
+    },
+    "Gary": {
+      "reason": "firstName",
+      "population": 67652
+    },
+    "Geneva": {
+      "reason": "firstName",
+      "population": 21129
+    },
+    "Gilbert": {
+      "reason": "firstName",
+      "population": 275411
+    },
+    "Golden": {
+      "reason": "word",
+      "population": 20242
+    },
+    "Grapevine": {
+      "reason": "word",
+      "population": 50928
+    },
+    "Green": {
+      "reason": "word",
+      "population": 27338
+    },
+    "Griffin": {
+      "reason": "word",
+      "population": 24044
+    },
+    "Harrison": {
+      "reason": "firstName",
+      "population": 30780
+    },
+    "Hays": {
+      "reason": "word",
+      "population": 21040
+    },
+    "Helena": {
+      "reason": "firstName",
+      "population": 34464
+    },
+    "Hickory": {
+      "reason": "word",
+      "population": 44415
+    },
+    "Highland": {
+      "reason": "word",
+      "population": 56202
+    },
+    "Homestead": {
+      "reason": "word",
+      "population": 81659
+    },
+    "Houston": {
+      "reason": "firstName",
+      "population": 2314157
+    },
+    "Howard": {
+      "reason": "firstName",
+      "population": 20775
+    },
+    "Hurricane": {
+      "reason": "word",
+      "population": 23959
+    },
+    "Imperial": {
+      "reason": "word",
+      "population": 21591
+    },
+    "Independence": {
+      "reason": "word",
+      "population": 120922
+    },
+    "Irving": {
+      "reason": "firstName",
+      "population": 254373
+    },
+    "Jackson": {
+      "reason": "firstName",
+      "population": 143709
+    },
+    "Katy": {
+      "reason": "firstName",
+      "population": 26360
+    },
+    "Kent": {
+      "reason": "firstName",
+      "population": 133378
+    },
+    "Kyle": {
+      "reason": "firstName",
+      "population": 62548
+    },
+    "Lacey": {
+      "reason": "firstName",
+      "population": 58326
+    },
+    "Largo": {
+      "reason": "word",
+      "population": 82248
+    },
+    "Laurel": {
+      "reason": "word+firstName",
+      "population": 29400
+    },
+    "Lawrence": {
+      "reason": "firstName",
+      "population": 96207
+    },
+    "Leland": {
+      "reason": "firstName",
+      "population": 30542
+    },
+    "Liberty": {
+      "reason": "word",
+      "population": 30794
+    },
+    "Lincoln": {
+      "reason": "firstName",
+      "population": 294757
+    },
+    "Linden": {
+      "reason": "word",
+      "population": 43950
+    },
+    "Lisle": {
+      "reason": "word",
+      "population": 23222
+    },
+    "Logan": {
+      "reason": "firstName",
+      "population": 55250
+    },
+    "Lowell": {
+      "reason": "firstName",
+      "population": 114296
+    },
+    "Lynn": {
+      "reason": "firstName",
+      "population": 101241
+    },
+    "Manor": {
+      "reason": "word",
+      "population": 20209
+    },
+    "Marietta": {
+      "reason": "firstName",
+      "population": 62769
+    },
+    "Marina": {
+      "reason": "word+firstName",
+      "population": 22833
+    },
+    "Marion": {
+      "reason": "firstName",
+      "population": 42213
+    },
+    "Marshall": {
+      "reason": "firstName",
+      "population": 24118
+    },
+    "Mason": {
+      "reason": "word+firstName",
+      "population": 35660
+    },
+    "Melissa": {
+      "reason": "firstName",
+      "population": 23571
+    },
+    "Mentor": {
+      "reason": "word",
+      "population": 46929
+    },
+    "Meridian": {
+      "reason": "word",
+      "population": 134801
+    },
+    "Mesa": {
+      "reason": "word",
+      "population": 511648
+    },
+    "Mesquite": {
+      "reason": "word",
+      "population": 147317
+    },
+    "Midland": {
+      "reason": "word",
+      "population": 138397
+    },
+    "Milford": {
+      "reason": "firstName",
+      "population": 52793
+    },
+    "Milton": {
+      "reason": "firstName",
+      "population": 41383
+    },
+    "Mission": {
+      "reason": "word",
+      "population": 87292
+    },
+    "Mobile": {
+      "reason": "word",
+      "population": 182595
+    },
+    "Monroe": {
+      "reason": "firstName",
+      "population": 46616
+    },
+    "Murray": {
+      "reason": "firstName",
+      "population": 49553
+    },
+    "Mustang": {
+      "reason": "word",
+      "population": 23270
+    },
+    "Newton": {
+      "reason": "word+firstName",
+      "population": 88415
+    },
+    "Normal": {
+      "reason": "word",
+      "population": 52618
+    },
+    "Norman": {
+      "reason": "firstName",
+      "population": 130046
+    },
+    "Odessa": {
+      "reason": "firstName",
+      "population": 115743
+    },
+    "Orange": {
+      "reason": "word",
+      "population": 138337
+    },
+    "Orlando": {
+      "reason": "firstName",
+      "population": 320742
+    },
+    "Oxford": {
+      "reason": "word",
+      "population": 27008
+    },
+    "Paramount": {
+      "reason": "word",
+      "population": 51072
+    },
+    "Parker": {
+      "reason": "firstName",
+      "population": 62743
+    },
+    "Pearl": {
+      "reason": "word+firstName",
+      "population": 28117
+    },
+    "Perry": {
+      "reason": "firstName",
+      "population": 24029
+    },
+    "Phoenix": {
+      "reason": "word",
+      "population": 1650070
+    },
+    "Plantation": {
+      "reason": "word",
+      "population": 96548
+    },
+    "Plum": {
+      "reason": "word",
+      "population": 26391
+    },
+    "Portage": {
+      "reason": "word",
+      "population": 49302
+    },
+    "Prosper": {
+      "reason": "word",
+      "population": 41660
+    },
+    "Providence": {
+      "reason": "word",
+      "population": 190792
+    },
+    "Pueblo": {
+      "reason": "word",
+      "population": 111077
+    },
+    "Quincy": {
+      "reason": "firstName",
+      "population": 101597
+    },
+    "Reading": {
+      "reason": "word",
+      "population": 94903
+    },
+    "Republic": {
+      "reason": "word",
+      "population": 20144
+    },
+    "Revere": {
+      "reason": "word",
+      "population": 57954
+    },
+    "Riverside": {
+      "reason": "word",
+      "population": 318858
+    },
+    "Rogers": {
+      "reason": "word",
+      "population": 74035
+    },
+    "Roy": {
+      "reason": "firstName",
+      "population": 38592
+    },
+    "Sandy": {
+      "reason": "word+firstName",
+      "population": 91943
+    },
+    "Sanford": {
+      "reason": "firstName",
+      "population": 65394
+    },
+    "Savage": {
+      "reason": "word",
+      "population": 32999
+    },
+    "Savannah": {
+      "reason": "word+firstName",
+      "population": 147748
+    },
+    "Seaside": {
+      "reason": "word",
+      "population": 31317
+    },
+    "Sebastian": {
+      "reason": "firstName",
+      "population": 26846
+    },
+    "Selma": {
+      "reason": "firstName",
+      "population": 24467
+    },
+    "Seymour": {
+      "reason": "firstName",
+      "population": 21666
+    },
+    "Shelby": {
+      "reason": "firstName",
+      "population": 22010
+    },
+    "Shelton": {
+      "reason": "firstName",
+      "population": 42144
+    },
+    "Sherman": {
+      "reason": "firstName",
+      "population": 47473
+    },
+    "Shoreline": {
+      "reason": "word",
+      "population": 61353
+    },
+    "Sidney": {
+      "reason": "firstName",
+      "population": 20309
+    },
+    "Socorro": {
+      "reason": "firstName",
+      "population": 38238
+    },
+    "Sparks": {
+      "reason": "word",
+      "population": 110323
+    },
+    "Stow": {
+      "reason": "word",
+      "population": 33957
+    },
+    "Sulphur": {
+      "reason": "word",
+      "population": 20400
+    },
+    "Summit": {
+      "reason": "word",
+      "population": 22344
+    },
+    "Sunrise": {
+      "reason": "word",
+      "population": 96808
+    },
+    "Superior": {
+      "reason": "word",
+      "population": 26423
+    },
+    "Surprise": {
+      "reason": "word",
+      "population": 158285
+    },
+    "Taylor": {
+      "reason": "firstName",
+      "population": 61241
+    },
+    "Temple": {
+      "reason": "word",
+      "population": 93095
+    },
+    "Terrell": {
+      "reason": "firstName",
+      "population": 21480
+    },
+    "Tracy": {
+      "reason": "firstName",
+      "population": 98010
+    },
+    "Trenton": {
+      "reason": "firstName",
+      "population": 89620
+    },
+    "Troy": {
+      "reason": "word+firstName",
+      "population": 87339
+    },
+    "Tucker": {
+      "reason": "word",
+      "population": 36975
+    },
+    "Tyler": {
+      "reason": "firstName",
+      "population": 110327
+    },
+    "Upland": {
+      "reason": "word",
+      "population": 78699
+    },
+    "Victoria": {
+      "reason": "firstName",
+      "population": 65800
+    },
+    "Vista": {
+      "reason": "word",
+      "population": 98344
+    },
+    "Walker": {
+      "reason": "word+firstName",
+      "population": 25289
+    },
+    "Walnut": {
+      "reason": "word",
+      "population": 27104
+    },
+    "Warren": {
+      "reason": "word+firstName",
+      "population": 136655
+    },
+    "Wellington": {
+      "reason": "word",
+      "population": 61634
+    },
+    "Weston": {
+      "reason": "firstName",
+      "population": 68181
+    },
+    "Wheeling": {
+      "reason": "word",
+      "population": 37725
+    },
+    "Wilson": {
+      "reason": "firstName",
+      "population": 47833
+    },
+    "Woodland": {
+      "reason": "word",
+      "population": 61123
+    }
+  }
+}

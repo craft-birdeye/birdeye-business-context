@@ -1,0 +1,552 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-wickhallow-law",
+    "name": "Wickhallow Law Office",
+    "brandName": "Wickhallow Law",
+    "parentGroup": "Wickhallow Law",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "legal",
+    "industryLabel": "Legal and professional services",
+    "tier": "Single location practice",
+    "crm": "Clio",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Seattle",
+      "state": "WA",
+      "stateName": "Washington",
+      "country": "United States"
+    },
+    "businessBlurb": "Solo family and estate law practice in downtown Seattle.",
+    "profile": {
+      "description": "Solo family and estate law practice in downtown Seattle. Family and estate law in downtown Seattle.",
+      "categories": [
+        "Family law attorney"
+      ],
+      "website": "https://wickhallowlaw.example.com",
+      "email": "hello@wickhallowlaw.example.com",
+      "phone": "(206) 555-0100",
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "address": {
+        "street1": "3131 Amberwood Boulevard",
+        "street2": "Suite 188",
+        "city": "Seattle",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98101",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Wickhallow Law",
+      "tagline": "Family and estate law in downtown Seattle",
+      "logo": {
+        "kind": "monogram",
+        "initials": "WL",
+        "path": "v1/logos/acct-wickhallow-law.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-wickhallow-law.svg"
+      },
+      "colors": {
+        "primary": "#30577A",
+        "secondary": "#EDF3F8",
+        "accent": "#E0A458",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Compassionate and personal; solo-practitioner warmth.",
+      "formality": "neutral",
+      "replySignoff": "Nora Whitcomb, Wickhallow Law Office"
+    },
+    "staff": [
+      "Nora Whitcomb",
+      "Iris"
+    ],
+    "services": [
+      "a custody modification",
+      "a will and power of attorney",
+      "a probate filing",
+      "a prenup"
+    ],
+    "llmContext": "Wickhallow Law Office · SMB · Legal and professional services · HQ Seattle, Washington, United States · 1 purchased location · CRM Clio · Solo family and estate law practice in downtown Seattle."
+  },
+  "locations": [
+    {
+      "id": "acct-wickhallow-law-loc-1",
+      "accountId": "acct-wickhallow-law",
+      "index": 1,
+      "name": "Wickhallow Law Office",
+      "shortName": "Main",
+      "label": "Wickhallow Law Office (Seattle, WA)",
+      "locationLine": "Seattle, WA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "3131 Amberwood Boulevard",
+        "street2": "Suite 188",
+        "city": "Seattle",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98101",
+        "country": "US"
+      },
+      "phone": "(206) 555-0100",
+      "email": "hello@wickhallowlaw.example.com",
+      "website": "https://wickhallowlaw.example.com",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-09-14T16:50:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-wickhallow-law-ct-1",
+      "number": 42,
+      "accountId": "acct-wickhallow-law",
+      "name": "Quinn Cortland",
+      "firstName": "Quinn",
+      "lastName": "Cortland",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "locationIds": [
+        "acct-wickhallow-law-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Corporate"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-wickhallow-law-001",
+      "email": "quinn.cortland@example.com",
+      "phone": "(206) 555-0101",
+      "locationCount": 1,
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "createdOn": "2026-10-01T15:10:00Z",
+      "lastActivity": "2026-10-05T20:30:00Z"
+    },
+    {
+      "id": "acct-wickhallow-law-ct-2",
+      "number": 2,
+      "accountId": "acct-wickhallow-law",
+      "name": "Rosalie Kincaid",
+      "firstName": "Rosalie",
+      "lastName": "Kincaid",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "locationIds": [
+        "acct-wickhallow-law-loc-1"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-wickhallow-law-002",
+      "email": "rosalie.kincaid@example.com",
+      "phone": "(206) 555-0102",
+      "locationCount": 1,
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "createdOn": "2026-09-17T14:55:00Z",
+      "lastActivity": "2026-09-30T19:35:00Z"
+    },
+    {
+      "id": "acct-wickhallow-law-ct-3",
+      "number": 3,
+      "accountId": "acct-wickhallow-law",
+      "name": "Silas Stroud",
+      "firstName": "Silas",
+      "lastName": "Stroud",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "locationIds": [
+        "acct-wickhallow-law-loc-1"
+      ],
+      "segments": [
+        "Consultation inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-wickhallow-law-003",
+      "phone": "(206) 555-0103",
+      "locationCount": 1,
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "createdOn": "2026-09-03T17:30:00Z",
+      "lastActivity": "2026-10-15T18:35:00Z"
+    },
+    {
+      "id": "acct-wickhallow-law-ct-4",
+      "number": 4,
+      "accountId": "acct-wickhallow-law",
+      "name": "Talia Carrow",
+      "firstName": "Talia",
+      "lastName": "Carrow",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "locationIds": [
+        "acct-wickhallow-law-loc-1"
+      ],
+      "segments": [
+        "Referral"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-wickhallow-law-004",
+      "email": "talia.carrow@example.com",
+      "phone": "(206) 555-0104",
+      "locationCount": 1,
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "createdOn": "2026-08-20T16:55:00Z",
+      "lastActivity": "2026-08-29T17:40:00Z"
+    },
+    {
+      "id": "acct-wickhallow-law-ct-5",
+      "number": 5,
+      "accountId": "acct-wickhallow-law",
+      "name": "Ulric Jessup",
+      "firstName": "Ulric",
+      "lastName": "Jessup",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "locationIds": [
+        "acct-wickhallow-law-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-wickhallow-law-005",
+      "email": "ulric.jessup@example.com",
+      "phone": "(206) 555-0105",
+      "locationCount": 1,
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "createdOn": "2026-08-06T19:05:00Z",
+      "lastActivity": "2026-08-30T16:40:00Z"
+    },
+    {
+      "id": "acct-wickhallow-law-ct-6",
+      "number": 6,
+      "accountId": "acct-wickhallow-law",
+      "name": "Vera Quintero",
+      "firstName": "Vera",
+      "lastName": "Quintero",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "locationIds": [
+        "acct-wickhallow-law-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-wickhallow-law-006",
+      "email": "vera.quintero@example.com",
+      "locationCount": 1,
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "createdOn": "2026-07-23T18:55:00Z",
+      "lastActivity": "2026-08-31T15:15:00Z"
+    },
+    {
+      "id": "acct-wickhallow-law-ct-7",
+      "number": 7,
+      "accountId": "acct-wickhallow-law",
+      "name": "Warren Yancey",
+      "firstName": "Warren",
+      "lastName": "Yancey",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "locationIds": [
+        "acct-wickhallow-law-loc-1"
+      ],
+      "segments": [
+        "Corporate",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-wickhallow-law-007",
+      "email": "warren.yancey@example.com",
+      "phone": "(206) 555-0106",
+      "locationCount": 1,
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "createdOn": "2026-07-09T21:40:00Z",
+      "lastActivity": "2026-09-01T14:55:00Z"
+    },
+    {
+      "id": "acct-wickhallow-law-ct-8",
+      "number": 8,
+      "accountId": "acct-wickhallow-law",
+      "name": "Ximena Fitzwilliam",
+      "firstName": "Ximena",
+      "lastName": "Fitzwilliam",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-wickhallow-law-loc-1",
+      "locationIds": [
+        "acct-wickhallow-law-loc-1"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-wickhallow-law-008",
+      "email": "ximena.fitzwilliam@example.com",
+      "phone": "(206) 555-0107",
+      "locationCount": 1,
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "createdOn": "2026-07-16T20:30:00Z",
+      "lastActivity": "2026-08-12T21:45:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-wickhallow-law-rev-1",
+      "number": 1,
+      "accountId": "acct-wickhallow-law",
+      "locationId": "acct-wickhallow-law-loc-1",
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Yusuf Moreau",
+      "date": "2026-07-11T19:45:00Z",
+      "text": "Nora Whitcomb handled a custody modification for us with real care. Every step and cost was explained in plain English, and nothing from Wickhallow Law came as a surprise.",
+      "photoCount": 2,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Nora Whitcomb"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Yusuf! We'll pass this along to the whole Wickhallow Law team. See you next time.\n\nNora Whitcomb, Wickhallow Law Office",
+        "author": "Nora Whitcomb, Wickhallow Law Office",
+        "date": "2026-07-12T21:40:00Z"
+      }
+    },
+    {
+      "id": "acct-wickhallow-law-rev-2",
+      "number": 2,
+      "accountId": "acct-wickhallow-law",
+      "locationId": "acct-wickhallow-law-loc-1",
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Zara Uchenna",
+      "date": "2026-06-27T18:30:00Z",
+      "text": "Strong work on a will and power of attorney. Responses from Wickhallow Law usually came within a day, though a couple of emails took longer during a busy stretch. Would hire them again.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-wickhallow-law-rev-3",
+      "number": 3,
+      "accountId": "acct-wickhallow-law",
+      "locationId": "acct-wickhallow-law-loc-1",
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Abel Cortland",
+      "date": "2026-10-06T21:55:00Z",
+      "text": "It took four days to get a return call about a probate filing. Once Nora Whitcomb was on it the advice was good, but intake at Wickhallow Law felt slow for a time-sensitive matter.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Nora Whitcomb"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Abel, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Wickhallow Law. A manager will reach out this week to make it right.\n\nNora Whitcomb, Wickhallow Law Office",
+        "author": "Nora Whitcomb, Wickhallow Law Office",
+        "date": "2026-10-07T15:30:00Z"
+      }
+    },
+    {
+      "id": "acct-wickhallow-law-rev-4",
+      "number": 4,
+      "accountId": "acct-wickhallow-law",
+      "locationId": "acct-wickhallow-law-loc-1",
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Bianca Kincaid",
+      "date": "2026-09-22T20:35:00Z",
+      "text": "I was anxious going into a prenup. Iris laid out a realistic timeline, flagged the risks up front, and checked in at every milestone.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Iris"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Bianca! We'll pass this along to the whole Wickhallow Law team. See you next time.\n\nNora Whitcomb, Wickhallow Law Office",
+        "author": "Nora Whitcomb, Wickhallow Law Office",
+        "date": "2026-09-24T14:15:00Z"
+      }
+    },
+    {
+      "id": "acct-wickhallow-law-rev-5",
+      "number": 5,
+      "accountId": "acct-wickhallow-law",
+      "locationId": "acct-wickhallow-law-loc-1",
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Cyrus Stroud",
+      "date": "2026-09-08T15:05:00Z",
+      "text": "Competent work on a custody modification, but the invoices from Wickhallow Law were vague and I had to ask for an itemized breakdown. Clearer billing would earn a better rating.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Cyrus, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Wickhallow Law. A manager will reach out this week to make it right.\n\nNora Whitcomb, Wickhallow Law Office",
+        "author": "Nora Whitcomb, Wickhallow Law Office",
+        "date": "2026-09-09T17:55:00Z"
+      }
+    },
+    {
+      "id": "acct-wickhallow-law-rev-6",
+      "number": 6,
+      "accountId": "acct-wickhallow-law",
+      "locationId": "acct-wickhallow-law-loc-1",
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Delia Carrow",
+      "date": "2026-08-25T14:45:00Z",
+      "text": "Referred a friend to Wickhallow Law after my own a will and power of attorney went smoothly. Iris and Nora Whitcomb worked as a team and never made us repeat ourselves.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Iris"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-wickhallow-law-rev-7",
+      "number": 7,
+      "accountId": "acct-wickhallow-law",
+      "locationId": "acct-wickhallow-law-loc-1",
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Emmett Jessup",
+      "date": "2026-08-11T17:10:00Z",
+      "text": "My file at Wickhallow Law changed hands twice during a probate filing and nobody told me. It eventually got done, but I spent too much time chasing status updates.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Emmett, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Wickhallow Law. A manager will reach out this week to make it right.\n\nNora Whitcomb, Wickhallow Law Office",
+        "author": "Nora Whitcomb, Wickhallow Law Office",
+        "date": "2026-08-12T19:00:00Z"
+      }
+    },
+    {
+      "id": "acct-wickhallow-law-rev-8",
+      "number": 8,
+      "accountId": "acct-wickhallow-law",
+      "locationId": "acct-wickhallow-law-loc-1",
+      "location": "Wickhallow Law Office (Seattle, WA)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Flora Quintero",
+      "date": "2026-07-28T16:55:00Z",
+      "text": "The fixed-fee quote for a prenup was honored to the dollar. Iris was thorough, though the first consult at Wickhallow Law started 20 minutes late.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Iris"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

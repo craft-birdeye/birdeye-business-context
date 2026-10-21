@@ -1,0 +1,730 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-lumbrisk-reputation",
+    "name": "Lumbrisk Reputation Co",
+    "brandName": "Lumbrisk",
+    "parentGroup": "Lumbrisk",
+    "segment": "CH-SLV",
+    "segmentLabel": "Channel",
+    "industryId": "advertising-agency",
+    "industryLabel": "Advertising and agency",
+    "tier": "Reputation specialist",
+    "crm": "Salesforce",
+    "purchasedLocations": 6,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Boston",
+      "state": "MA",
+      "stateName": "Massachusetts",
+      "country": "United States"
+    },
+    "businessBlurb": "Northeast agency focused on review response, GBP hygiene, and franchise reporting.",
+    "profile": {
+      "description": "Northeast agency focused on review response, GBP hygiene, and franchise reporting. Review response and listings hygiene for the Northeast.",
+      "categories": [
+        "Marketing agency"
+      ],
+      "website": "https://lumbrisk.example.com",
+      "email": "hello@lumbrisk.example.com",
+      "phone": "(617) 555-0106",
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-1",
+      "address": {
+        "street1": "1698 Hazelwood Commons",
+        "street2": "Suite 167",
+        "city": "Boston",
+        "state": "MA",
+        "stateName": "Massachusetts",
+        "zip": "02110",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Lumbrisk",
+      "tagline": "Review response and listings hygiene for the Northeast",
+      "logo": {
+        "kind": "monogram",
+        "initials": "L",
+        "path": "v1/logos/acct-lumbrisk-reputation.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-lumbrisk-reputation.svg"
+      },
+      "colors": {
+        "primary": "#0B3954",
+        "secondary": "#E7F0F5",
+        "accent": "#FF5A5F",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Calm, methodical New England professionalism; reporting-heavy.",
+      "formality": "formal",
+      "replySignoff": "Lumbrisk Reputation Co"
+    },
+    "staff": [
+      "Colleen Murtagny",
+      "Dev Raman",
+      "Sam Whitlock"
+    ],
+    "services": [
+      "review response management",
+      "business profile cleanup",
+      "franchise reporting",
+      "a reputation audit"
+    ],
+    "llmContext": "Lumbrisk Reputation Co · Channel · Advertising and agency · HQ Boston, Massachusetts, United States · 6 purchased locations · CRM Salesforce · Northeast agency focused on review response, GBP hygiene, and franchise reporting."
+  },
+  "locations": [
+    {
+      "id": "acct-lumbrisk-reputation-loc-1",
+      "accountId": "acct-lumbrisk-reputation",
+      "index": 1,
+      "name": "Lumbrisk - Boston HQ",
+      "shortName": "Boston HQ",
+      "label": "Lumbrisk - Boston HQ (Boston, MA)",
+      "locationLine": "Boston, MA",
+      "type": "Virtual location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "1698 Hazelwood Commons",
+        "street2": "Suite 167",
+        "city": "Boston",
+        "state": "MA",
+        "stateName": "Massachusetts",
+        "zip": "02110",
+        "country": "US"
+      },
+      "phone": "(857) 555-0100",
+      "email": "boston-hq@lumbrisk.example.com",
+      "website": "https://lumbrisk.example.com/locations/boston-hq",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-09-29T17:30:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-loc-2",
+      "accountId": "acct-lumbrisk-reputation",
+      "index": 2,
+      "name": "Lumbrisk - Providence",
+      "shortName": "Providence",
+      "label": "Lumbrisk - Providence (Providence, RI)",
+      "locationLine": "Providence, RI",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "579 Glenhaven Parkway",
+        "street2": "Suite 360",
+        "city": "Providence",
+        "state": "RI",
+        "stateName": "Rhode Island",
+        "zip": "02906",
+        "country": "US"
+      },
+      "phone": "(401) 555-0101",
+      "email": "providence@lumbrisk.example.com",
+      "website": "https://lumbrisk.example.com/locations/providence",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-09-15T20:55:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-loc-3",
+      "accountId": "acct-lumbrisk-reputation",
+      "index": 3,
+      "name": "Lumbrisk - Hartford",
+      "shortName": "Hartford",
+      "label": "Lumbrisk - Hartford (Hartford, CT)",
+      "locationLine": "Hartford, CT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8360 Lantern Hill Terrace",
+        "street2": "",
+        "city": "Hartford",
+        "state": "CT",
+        "stateName": "Connecticut",
+        "zip": "06103",
+        "country": "US"
+      },
+      "phone": "(959) 555-0102",
+      "email": "hartford@lumbrisk.example.com",
+      "website": "https://lumbrisk.example.com/locations/hartford",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-09-01T15:20:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-loc-4",
+      "accountId": "acct-lumbrisk-reputation",
+      "index": 4,
+      "name": "Lumbrisk - Portland ME",
+      "shortName": "Portland ME",
+      "label": "Lumbrisk - Portland ME (Portland, ME)",
+      "locationLine": "Portland, ME",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7241 Copperleaf Court",
+        "street2": "",
+        "city": "Portland",
+        "state": "ME",
+        "stateName": "Maine",
+        "zip": "04102",
+        "country": "US"
+      },
+      "phone": "(207) 555-0103",
+      "email": "portland-me@lumbrisk.example.com",
+      "website": "https://lumbrisk.example.com/locations/portland-me",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-08-18T18:45:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-loc-5",
+      "accountId": "acct-lumbrisk-reputation",
+      "index": 5,
+      "name": "Lumbrisk - Albany",
+      "shortName": "Albany",
+      "label": "Lumbrisk - Albany (Albany, NY)",
+      "locationLine": "Albany, NY",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6122 Northwind Boulevard",
+        "street2": "",
+        "city": "Albany",
+        "state": "NY",
+        "stateName": "New York",
+        "zip": "12207",
+        "country": "US"
+      },
+      "phone": "(518) 555-0104",
+      "email": "albany@lumbrisk.example.com",
+      "website": "https://lumbrisk.example.com/locations/albany",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-08-04T21:10:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-loc-6",
+      "accountId": "acct-lumbrisk-reputation",
+      "index": 6,
+      "name": "Lumbrisk - Buffalo",
+      "shortName": "Buffalo",
+      "label": "Lumbrisk - Buffalo (Buffalo, NY)",
+      "locationLine": "Buffalo, NY",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5003 Kestrel Avenue",
+        "street2": "",
+        "city": "Buffalo",
+        "state": "NY",
+        "stateName": "New York",
+        "zip": "14203",
+        "country": "US"
+      },
+      "phone": "(716) 555-0105",
+      "email": "buffalo@lumbrisk.example.com",
+      "website": "https://lumbrisk.example.com/locations/buffalo",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-07-21T16:40:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-lumbrisk-reputation-ct-1",
+      "number": 42,
+      "accountId": "acct-lumbrisk-reputation",
+      "name": "Quinn Faulkner",
+      "firstName": "Quinn",
+      "lastName": "Faulkner",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-1",
+      "locationIds": [
+        "acct-lumbrisk-reputation-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-lumbrisk-reputation-001",
+      "email": "quinn.faulkner@meridianfood.example.com",
+      "phone": "(617) 555-0107",
+      "locationCount": 1,
+      "location": "Lumbrisk - Boston HQ (Boston, MA)",
+      "createdOn": "2026-09-13T20:05:00Z",
+      "lastActivity": "2026-10-19T21:50:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-ct-2",
+      "number": 2,
+      "accountId": "acct-lumbrisk-reputation",
+      "name": "Rosalie Novak",
+      "firstName": "Rosalie",
+      "lastName": "Novak",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-4",
+      "locationIds": [
+        "acct-lumbrisk-reputation-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-lumbrisk-reputation-002",
+      "email": "rosalie.novak@tidewaterdental.example.com",
+      "phone": "(207) 555-0108",
+      "locationCount": 1,
+      "location": "Lumbrisk - Portland ME (Portland, ME)",
+      "createdOn": "2026-08-30T17:55:00Z",
+      "lastActivity": "2026-09-26T18:30:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-ct-3",
+      "number": 3,
+      "accountId": "acct-lumbrisk-reputation",
+      "name": "Silas Winslow",
+      "firstName": "Silas",
+      "lastName": "Winslow",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-1",
+      "locationIds": [
+        "acct-lumbrisk-reputation-loc-1"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-lumbrisk-reputation-003",
+      "phone": "(617) 555-0109",
+      "locationCount": 1,
+      "location": "Lumbrisk - Boston HQ (Boston, MA)",
+      "createdOn": "2026-08-16T14:45:00Z",
+      "lastActivity": "2026-10-11T19:30:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-ct-4",
+      "number": 4,
+      "accountId": "acct-lumbrisk-reputation",
+      "name": "Talia Fairchild",
+      "firstName": "Talia",
+      "lastName": "Fairchild",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-4",
+      "locationIds": [
+        "acct-lumbrisk-reputation-loc-4",
+        "acct-lumbrisk-reputation-loc-3"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-lumbrisk-reputation-004",
+      "email": "talia.fairchild@pinnaclefitness.example.com",
+      "phone": "(207) 555-0110",
+      "locationCount": 2,
+      "location": "Lumbrisk - Portland ME (Portland, ME)",
+      "createdOn": "2026-08-02T19:35:00Z",
+      "lastActivity": "2026-08-07T16:45:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-ct-5",
+      "number": 5,
+      "accountId": "acct-lumbrisk-reputation",
+      "name": "Ulric Merriweather",
+      "firstName": "Ulric",
+      "lastName": "Merriweather",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-1",
+      "locationIds": [
+        "acct-lumbrisk-reputation-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-lumbrisk-reputation-005",
+      "email": "ulric.merriweather@harborclinics.example.com",
+      "phone": "(617) 555-0111",
+      "locationCount": 1,
+      "location": "Lumbrisk - Boston HQ (Boston, MA)",
+      "createdOn": "2026-07-19T16:45:00Z",
+      "lastActivity": "2026-08-08T17:45:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-ct-6",
+      "number": 6,
+      "accountId": "acct-lumbrisk-reputation",
+      "name": "Vera Thackeray",
+      "firstName": "Vera",
+      "lastName": "Thackeray",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-4",
+      "locationIds": [
+        "acct-lumbrisk-reputation-loc-4"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-lumbrisk-reputation-006",
+      "email": "vera.thackeray@prospect.example.com",
+      "locationCount": 1,
+      "location": "Lumbrisk - Portland ME (Portland, ME)",
+      "createdOn": "2026-07-05T21:25:00Z",
+      "lastActivity": "2026-08-09T14:45:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-ct-7",
+      "number": 7,
+      "accountId": "acct-lumbrisk-reputation",
+      "name": "Warren Bergstrom",
+      "firstName": "Warren",
+      "lastName": "Bergstrom",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-1",
+      "locationIds": [
+        "acct-lumbrisk-reputation-loc-1",
+        "acct-lumbrisk-reputation-loc-6",
+        "acct-lumbrisk-reputation-loc-5"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-lumbrisk-reputation-007",
+      "email": "warren.bergstrom@lumenhealth.example.com",
+      "phone": "(617) 555-0112",
+      "locationCount": 3,
+      "location": "Lumbrisk - Boston HQ (Boston, MA)",
+      "createdOn": "2026-10-17T18:15:00Z",
+      "lastActivity": "2026-10-19T15:55:00Z"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-ct-8",
+      "number": 8,
+      "accountId": "acct-lumbrisk-reputation",
+      "name": "Ximena Iwasaki",
+      "firstName": "Ximena",
+      "lastName": "Iwasaki",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-lumbrisk-reputation-loc-4",
+      "locationIds": [
+        "acct-lumbrisk-reputation-loc-4",
+        "acct-lumbrisk-reputation-loc-3"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-lumbrisk-reputation-008",
+      "email": "ximena.iwasaki@ridgelinehomes.example.com",
+      "phone": "(207) 555-0113",
+      "locationCount": 2,
+      "location": "Lumbrisk - Portland ME (Portland, ME)",
+      "createdOn": "2026-06-28T15:25:00Z",
+      "lastActivity": "2026-07-21T20:35:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-lumbrisk-reputation-rev-1",
+      "number": 1,
+      "accountId": "acct-lumbrisk-reputation",
+      "locationId": "acct-lumbrisk-reputation-loc-1",
+      "location": "Lumbrisk - Boston HQ (Boston, MA)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Yusuf Pacheco",
+      "date": "2026-10-04T18:00:00Z",
+      "text": "Lumbrisk cleaned up duplicate listings across our client locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
+      "photoCount": 1,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Yusuf. We are glad the team at Lumbrisk could help, and we appreciate you taking the time to share your experience.\n\nLumbrisk Reputation Co",
+        "author": "Lumbrisk Reputation Co",
+        "date": "2026-10-05T20:00:00Z"
+      }
+    },
+    {
+      "id": "acct-lumbrisk-reputation-rev-2",
+      "number": 2,
+      "accountId": "acct-lumbrisk-reputation",
+      "locationId": "acct-lumbrisk-reputation-loc-2",
+      "location": "Lumbrisk - Providence (Providence, RI)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Zara Ybarra",
+      "date": "2026-09-20T19:15:00Z",
+      "text": "Tool access for business profile cleanup took weeks to sort out on the Lumbrisk side. Once connected it worked, but setup was rough.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Zara, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Lumbrisk. A member of our leadership team will contact you directly to discuss it.\n\nLumbrisk Reputation Co",
+        "author": "Lumbrisk Reputation Co",
+        "date": "2026-09-22T21:30:00Z"
+      }
+    },
+    {
+      "id": "acct-lumbrisk-reputation-rev-3",
+      "number": 3,
+      "accountId": "acct-lumbrisk-reputation",
+      "locationId": "acct-lumbrisk-reputation-loc-3",
+      "location": "Lumbrisk - Hartford (Hartford, CT)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Abel Faulkner",
+      "date": "2026-09-06T16:50:00Z",
+      "text": "Lumbrisk took over franchise reporting for our team and the difference showed within a month. Sam Whitlock sends a short weekly update with exactly what changed and what to do next.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Sam Whitlock"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-rev-4",
+      "number": 4,
+      "accountId": "acct-lumbrisk-reputation",
+      "locationId": "acct-lumbrisk-reputation-loc-4",
+      "location": "Lumbrisk - Portland ME (Portland, ME)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Bianca Novak",
+      "date": "2026-08-23T17:40:00Z",
+      "text": "Solid partner for a reputation audit. Reporting is clear and Colleen Murtagny is responsive. Onboarding with Lumbrisk took a couple of weeks longer than planned.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Colleen Murtagny"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Bianca. We are glad the team at Lumbrisk could help, and we appreciate you taking the time to share your experience.\n\nLumbrisk Reputation Co",
+        "author": "Lumbrisk Reputation Co",
+        "date": "2026-08-25T19:30:00Z"
+      }
+    },
+    {
+      "id": "acct-lumbrisk-reputation-rev-5",
+      "number": 5,
+      "accountId": "acct-lumbrisk-reputation",
+      "locationId": "acct-lumbrisk-reputation-loc-5",
+      "location": "Lumbrisk - Albany (Albany, NY)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Cyrus Winslow",
+      "date": "2026-08-09T14:15:00Z",
+      "text": "Our kickoff with Lumbrisk for review response management was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Cyrus, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Lumbrisk. A member of our leadership team will contact you directly to discuss it.\n\nLumbrisk Reputation Co",
+        "author": "Lumbrisk Reputation Co",
+        "date": "2026-08-10T16:55:00Z"
+      }
+    },
+    {
+      "id": "acct-lumbrisk-reputation-rev-6",
+      "number": 6,
+      "accountId": "acct-lumbrisk-reputation",
+      "locationId": "acct-lumbrisk-reputation-loc-6",
+      "location": "Lumbrisk - Buffalo (Buffalo, NY)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Delia Fairchild",
+      "date": "2026-07-26T15:35:00Z",
+      "text": "We run more than 20 client locations and Lumbrisk is the first partner that made business profile cleanup feel manageable. Sam Whitlock knows our markets by name.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Sam Whitlock"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-lumbrisk-reputation-rev-7",
+      "number": 7,
+      "accountId": "acct-lumbrisk-reputation",
+      "locationId": "acct-lumbrisk-reputation-loc-1",
+      "location": "Lumbrisk - Boston HQ (Boston, MA)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Emmett Merriweather",
+      "date": "2026-07-12T20:05:00Z",
+      "text": "Good strategy on franchise reporting, but the monthly invoice from Lumbrisk has vague line items. Our finance team needs clearer activity summaries.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Emmett, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Lumbrisk. A member of our leadership team will contact you directly to discuss it.\n\nLumbrisk Reputation Co",
+        "author": "Lumbrisk Reputation Co",
+        "date": "2026-07-13T14:25:00Z"
+      }
+    },
+    {
+      "id": "acct-lumbrisk-reputation-rev-8",
+      "number": 8,
+      "accountId": "acct-lumbrisk-reputation",
+      "locationId": "acct-lumbrisk-reputation-loc-2",
+      "location": "Lumbrisk - Providence (Providence, RI)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Flora Thackeray",
+      "date": "2026-06-28T21:55:00Z",
+      "text": "When one of our client locations got hit with a wave of negative reviews, Dev Raman had draft responses ready the same afternoon. Calm, specific, and on-brand.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dev Raman"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

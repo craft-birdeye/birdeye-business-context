@@ -1,0 +1,920 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-crestovar-motors",
+    "name": "Crestovar Motors Service Centers",
+    "brandName": "Crestovar Motors",
+    "parentGroup": "Crestovar Motors",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "automotive",
+    "industryLabel": "Automotive",
+    "tier": "Dealer service network",
+    "crm": "CDK",
+    "purchasedLocations": 10,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Salt Lake City",
+      "state": "UT",
+      "stateName": "Utah",
+      "country": "United States"
+    },
+    "businessBlurb": "Dealer service centers across the Wasatch Front with shared review monitoring.",
+    "profile": {
+      "description": "Dealer service centers across the Wasatch Front with shared review monitoring. Dealer service across the Wasatch Front.",
+      "categories": [
+        "Car dealer service center"
+      ],
+      "website": "https://crestovarmotors.example.com",
+      "email": "hello@crestovarmotors.example.com",
+      "phone": "(801) 555-0110",
+      "primaryLocationId": "acct-crestovar-motors-loc-1",
+      "address": {
+        "street1": "4218 Falconridge Boulevard",
+        "street2": "Suite 203",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84101",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Crestovar Motors",
+      "tagline": "Dealer service across the Wasatch Front",
+      "logo": {
+        "kind": "monogram",
+        "initials": "CM",
+        "path": "v1/logos/acct-crestovar-motors.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-crestovar-motors.svg"
+      },
+      "colors": {
+        "primary": "#0A2463",
+        "secondary": "#E8ECF6",
+        "accent": "#D8315B",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Courteous dealer-service polish; proactive updates.",
+      "formality": "neutral",
+      "replySignoff": "Crestovar Motors Service"
+    },
+    "staff": [
+      "Brooke",
+      "Landon",
+      "Parker",
+      "Mele"
+    ],
+    "services": [
+      "a 30k-mile service",
+      "a recall repair",
+      "a transmission flush",
+      "new tires and alignment"
+    ],
+    "llmContext": "Crestovar Motors Service Centers · Enterprise · Automotive · HQ Salt Lake City, Utah, United States · 10 purchased locations · CRM CDK · Dealer service centers across the Wasatch Front with shared review monitoring."
+  },
+  "locations": [
+    {
+      "id": "acct-crestovar-motors-loc-1",
+      "accountId": "acct-crestovar-motors",
+      "index": 1,
+      "name": "Crestovar Motors - Salt Lake Service",
+      "shortName": "Salt Lake Service",
+      "label": "Crestovar Motors - Salt Lake Service (Salt Lake City, UT)",
+      "locationLine": "Salt Lake City, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "4218 Falconridge Boulevard",
+        "street2": "Suite 203",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84101",
+        "country": "US"
+      },
+      "phone": "(385) 555-0100",
+      "email": "salt-lake-service@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/salt-lake-service",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-10-16T16:45:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-2",
+      "accountId": "acct-crestovar-motors",
+      "index": 2,
+      "name": "Crestovar Motors - Sandy",
+      "shortName": "Sandy",
+      "label": "Crestovar Motors - Sandy (Sandy, UT)",
+      "locationLine": "Sandy, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3099 Ironleaf Row",
+        "street2": "Suite 156",
+        "city": "Sandy",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84094",
+        "country": "US"
+      },
+      "phone": "(801) 555-0101",
+      "email": "sandy@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/sandy",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-10-02T21:15:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-3",
+      "accountId": "acct-crestovar-motors",
+      "index": 3,
+      "name": "Crestovar Motors - West Valley",
+      "shortName": "West Valley",
+      "label": "Crestovar Motors - West Valley (West Valley City, UT)",
+      "locationLine": "West Valley City, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1980 Larkspur Trail",
+        "street2": "",
+        "city": "West Valley City",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84119",
+        "country": "US"
+      },
+      "phone": "(385) 555-0102",
+      "email": "west-valley@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/west-valley",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-09-18T18:50:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-4",
+      "accountId": "acct-crestovar-motors",
+      "index": 4,
+      "name": "Crestovar Motors - Ogden",
+      "shortName": "Ogden",
+      "label": "Crestovar Motors - Ogden (Ogden, UT)",
+      "locationLine": "Ogden, UT",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "913 Cobble Creek Parkway",
+        "street2": "Suite 446",
+        "city": "Ogden",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84403",
+        "country": "US"
+      },
+      "phone": "(801) 555-0103",
+      "email": "ogden@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/ogden",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-09-04T15:25:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-5",
+      "accountId": "acct-crestovar-motors",
+      "index": 5,
+      "name": "Crestovar Motors - Provo",
+      "shortName": "Provo",
+      "label": "Crestovar Motors - Provo (Provo, UT)",
+      "locationLine": "Provo, UT",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8694 Brightwater Terrace",
+        "street2": "Suite 399",
+        "city": "Provo",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84601",
+        "country": "US"
+      },
+      "phone": "(385) 555-0104",
+      "email": "provo@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/provo",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-08-21T20:00:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-6",
+      "accountId": "acct-crestovar-motors",
+      "index": 6,
+      "name": "Crestovar Motors - Park City",
+      "shortName": "Park City",
+      "label": "Crestovar Motors - Park City (Park City, UT)",
+      "locationLine": "Park City, UT",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7575 Elderberry Court",
+        "street2": "Suite 352",
+        "city": "Park City",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84060",
+        "country": "US"
+      },
+      "phone": "(435) 555-0105",
+      "email": "park-city@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/park-city",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-07T17:35:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-7",
+      "accountId": "acct-crestovar-motors",
+      "index": 7,
+      "name": "Crestovar Motors - St George",
+      "shortName": "St George",
+      "label": "Crestovar Motors - St George (St. George, UT)",
+      "locationLine": "St. George, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6456 Dovetail Boulevard",
+        "street2": "Suite 457",
+        "city": "St. George",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84770",
+        "country": "US"
+      },
+      "phone": "(435) 555-0106",
+      "email": "st-george@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/st-george",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-07-24T14:10:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-8",
+      "accountId": "acct-crestovar-motors",
+      "index": 8,
+      "name": "Crestovar Motors - Logan",
+      "shortName": "Logan",
+      "label": "Crestovar Motors - Logan (Logan, UT)",
+      "locationLine": "Logan, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5285 Quillfeather Drive",
+        "street2": "Suite 418",
+        "city": "Logan",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84321",
+        "country": "US"
+      },
+      "phone": "(435) 555-0107",
+      "email": "logan@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/logan",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-07-31T19:35:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-9",
+      "accountId": "acct-crestovar-motors",
+      "index": 9,
+      "name": "Crestovar Motors - Layton",
+      "shortName": "Layton",
+      "label": "Crestovar Motors - Layton (Layton, UT)",
+      "locationLine": "Layton, UT",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4166 Quarrystone Parkway",
+        "street2": "Suite 371",
+        "city": "Layton",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84041",
+        "country": "US"
+      },
+      "phone": "(385) 555-0108",
+      "email": "layton@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/layton",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-17T16:10:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-loc-10",
+      "accountId": "acct-crestovar-motors",
+      "index": 10,
+      "name": "Crestovar Motors - Orem",
+      "shortName": "Orem",
+      "label": "Crestovar Motors - Orem (Orem, UT)",
+      "locationLine": "Orem, UT",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8638 Hazelwood Boulevard",
+        "street2": "",
+        "city": "Orem",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84057",
+        "country": "US"
+      },
+      "phone": "(385) 555-0109",
+      "email": "orem@crestovarmotors.example.com",
+      "website": "https://crestovarmotors.example.com/locations/orem",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-03T20:20:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-crestovar-motors-ct-1",
+      "number": 42,
+      "accountId": "acct-crestovar-motors",
+      "name": "Xavier Blackwood",
+      "firstName": "Xavier",
+      "lastName": "Blackwood",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-crestovar-motors-loc-1",
+      "locationIds": [
+        "acct-crestovar-motors-loc-1"
+      ],
+      "segments": [
+        "Service plan",
+        "Tire customer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-crestovar-motors-001",
+      "email": "xavier.blackwood@example.com",
+      "phone": "(801) 555-0111",
+      "locationCount": 1,
+      "location": "Crestovar Motors - Salt Lake Service (Salt Lake City, UT)",
+      "createdOn": "2026-08-11T15:15:00Z",
+      "lastActivity": "2026-10-01T20:05:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-ct-2",
+      "number": 2,
+      "accountId": "acct-crestovar-motors",
+      "name": "Yara Ingram",
+      "firstName": "Yara",
+      "lastName": "Ingram",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-crestovar-motors-loc-4",
+      "locationIds": [
+        "acct-crestovar-motors-loc-4"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-crestovar-motors-002",
+      "email": "yara.ingram@example.com",
+      "phone": "(385) 555-0112",
+      "locationCount": 1,
+      "location": "Crestovar Motors - Ogden (Ogden, UT)",
+      "createdOn": "2026-07-28T14:00:00Z",
+      "lastActivity": "2026-10-02T19:50:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-ct-3",
+      "number": 3,
+      "accountId": "acct-crestovar-motors",
+      "name": "Zeke Pembrook",
+      "firstName": "Zeke",
+      "lastName": "Pembrook",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-crestovar-motors-loc-7",
+      "locationIds": [
+        "acct-crestovar-motors-loc-7"
+      ],
+      "segments": [
+        "Fleet"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-crestovar-motors-003",
+      "phone": "(435) 555-0113",
+      "locationCount": 1,
+      "location": "Crestovar Motors - St George (St. George, UT)",
+      "createdOn": "2026-07-14T17:35:00Z",
+      "lastActivity": "2026-10-03T18:30:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-ct-4",
+      "number": 4,
+      "accountId": "acct-crestovar-motors",
+      "name": "Anouk Wexford",
+      "firstName": "Anouk",
+      "lastName": "Wexford",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-crestovar-motors-loc-10",
+      "locationIds": [
+        "acct-crestovar-motors-loc-10",
+        "acct-crestovar-motors-loc-5"
+      ],
+      "segments": [
+        "Recall notice"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-crestovar-motors-004",
+      "email": "anouk.wexford@example.com",
+      "phone": "(385) 555-0114",
+      "locationCount": 2,
+      "location": "Crestovar Motors - Orem (Orem, UT)",
+      "createdOn": "2026-06-30T16:00:00Z",
+      "lastActivity": "2026-10-04T17:55:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-ct-5",
+      "number": 5,
+      "accountId": "acct-crestovar-motors",
+      "name": "Booker Esposito",
+      "firstName": "Booker",
+      "lastName": "Esposito",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-crestovar-motors-loc-3",
+      "locationIds": [
+        "acct-crestovar-motors-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-crestovar-motors-005",
+      "email": "booker.esposito@example.com",
+      "phone": "(801) 555-0115",
+      "locationCount": 1,
+      "location": "Crestovar Motors - West Valley (West Valley City, UT)",
+      "createdOn": "2026-10-12T19:50:00Z",
+      "lastActivity": "2026-10-13T16:55:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-ct-6",
+      "number": 6,
+      "accountId": "acct-crestovar-motors",
+      "name": "Celine Lindahl",
+      "firstName": "Celine",
+      "lastName": "Lindahl",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-crestovar-motors-loc-6",
+      "locationIds": [
+        "acct-crestovar-motors-loc-6"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-crestovar-motors-006",
+      "email": "celine.lindahl@example.com",
+      "locationCount": 1,
+      "location": "Crestovar Motors - Park City (Park City, UT)",
+      "createdOn": "2026-09-28T18:20:00Z",
+      "lastActivity": "2026-10-03T15:10:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-ct-7",
+      "number": 7,
+      "accountId": "acct-crestovar-motors",
+      "name": "Dashiell Tavares",
+      "firstName": "Dashiell",
+      "lastName": "Tavares",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-crestovar-motors-loc-9",
+      "locationIds": [
+        "acct-crestovar-motors-loc-9",
+        "acct-crestovar-motors-loc-4"
+      ],
+      "segments": [
+        "Tire customer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-crestovar-motors-007",
+      "email": "dashiell.tavares@example.com",
+      "phone": "(801) 555-0116",
+      "locationCount": 2,
+      "location": "Crestovar Motors - Layton (Layton, UT)",
+      "createdOn": "2026-09-14T21:25:00Z",
+      "lastActivity": "2026-09-30T14:30:00Z"
+    },
+    {
+      "id": "acct-crestovar-motors-ct-8",
+      "number": 8,
+      "accountId": "acct-crestovar-motors",
+      "name": "Elise Brannigan",
+      "firstName": "Elise",
+      "lastName": "Brannigan",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-crestovar-motors-loc-2",
+      "locationIds": [
+        "acct-crestovar-motors-loc-2",
+        "acct-crestovar-motors-loc-7"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-crestovar-motors-008",
+      "email": "elise.brannigan@example.com",
+      "phone": "(385) 555-0117",
+      "locationCount": 2,
+      "location": "Crestovar Motors - Sandy (Sandy, UT)",
+      "createdOn": "2026-09-21T20:15:00Z",
+      "lastActivity": "2026-10-19T21:40:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-crestovar-motors-rev-1",
+      "number": 1,
+      "accountId": "acct-crestovar-motors",
+      "locationId": "acct-crestovar-motors-loc-1",
+      "location": "Crestovar Motors - Salt Lake Service (Salt Lake City, UT)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Fenwick Ivers",
+      "date": "2026-08-30T19:40:00Z",
+      "text": "Booked a 30k-mile service online with Crestovar Motors, arrived on time, and still waited 50 minutes to be checked in.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Fenwick, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Crestovar Motors. A manager will reach out this week to make it right.\n\nCrestovar Motors Service",
+        "author": "Crestovar Motors Service",
+        "date": "2026-08-31T21:15:00Z"
+      }
+    },
+    {
+      "id": "acct-crestovar-motors-rev-2",
+      "number": 2,
+      "accountId": "acct-crestovar-motors",
+      "locationId": "acct-crestovar-motors-loc-2",
+      "location": "Crestovar Motors - Sandy (Sandy, UT)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Gemma Ridley",
+      "date": "2026-08-16T18:25:00Z",
+      "text": "Brought my car in for a recall repair at the Sandy location. Landon texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Landon"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-crestovar-motors-rev-3",
+      "number": 3,
+      "accountId": "acct-crestovar-motors",
+      "locationId": "acct-crestovar-motors-loc-3",
+      "location": "Crestovar Motors - West Valley (West Valley City, UT)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Hugo Blackwood",
+      "date": "2026-08-02T21:50:00Z",
+      "text": "My transmission flush was done right and priced fairly. The waiting area at the West Valley location was busy and the Wi-Fi kept dropping, but Parker kept me updated.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Parker"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-crestovar-motors-rev-4",
+      "number": 4,
+      "accountId": "acct-crestovar-motors",
+      "locationId": "acct-crestovar-motors-loc-4",
+      "location": "Crestovar Motors - Ogden (Ogden, UT)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Ines Ingram",
+      "date": "2026-07-19T20:30:00Z",
+      "text": "Dropped off for new tires and alignment at 8 a.m. and didn't hear anything until I called at 4. The work from Crestovar Motors was fine, but proactive updates would make a big difference.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Ines, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Crestovar Motors. A manager will reach out this week to make it right.\n\nCrestovar Motors Service",
+        "author": "Crestovar Motors Service",
+        "date": "2026-07-21T14:10:00Z"
+      }
+    },
+    {
+      "id": "acct-crestovar-motors-rev-5",
+      "number": 5,
+      "accountId": "acct-crestovar-motors",
+      "locationId": "acct-crestovar-motors-loc-5",
+      "location": "Crestovar Motors - Provo (Provo, UT)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Jonah Pembrook",
+      "date": "2026-07-05T15:00:00Z",
+      "text": "Brooke talked me out of a transmission flush because it wasn't needed yet. It's rare to find a service advisor who saves you money.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Brooke"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-crestovar-motors-rev-6",
+      "number": 6,
+      "accountId": "acct-crestovar-motors",
+      "locationId": "acct-crestovar-motors-loc-6",
+      "location": "Crestovar Motors - Park City (Park City, UT)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Kaia Wexford",
+      "date": "2026-10-14T14:40:00Z",
+      "text": "Picked up my car from Crestovar Motors after a recall repair and there was a new rattle that wasn't there before. Had to bring it back twice. They fixed it eventually, but it cost me two days.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Kaia, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Crestovar Motors. A manager will reach out this week to make it right.\n\nCrestovar Motors Service",
+        "author": "Crestovar Motors Service",
+        "date": "2026-10-16T16:00:00Z"
+      }
+    },
+    {
+      "id": "acct-crestovar-motors-rev-7",
+      "number": 7,
+      "accountId": "acct-crestovar-motors",
+      "locationId": "acct-crestovar-motors-loc-7",
+      "location": "Crestovar Motors - St George (St. George, UT)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Lionel Esposito",
+      "date": "2026-09-30T17:05:00Z",
+      "text": "Third visit to Crestovar Motors and it's consistently good. My transmission flush was finished early, and Parker reset my tire pressure light without being asked.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Parker"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Lionel! We'll pass this along to the whole Crestovar Motors team. See you next time.\n\nCrestovar Motors Service",
+        "author": "Crestovar Motors Service",
+        "date": "2026-10-01T19:15:00Z"
+      }
+    },
+    {
+      "id": "acct-crestovar-motors-rev-8",
+      "number": 8,
+      "accountId": "acct-crestovar-motors",
+      "locationId": "acct-crestovar-motors-loc-8",
+      "location": "Crestovar Motors - Logan (Logan, UT)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Mila Lindahl",
+      "date": "2026-09-16T16:50:00Z",
+      "text": "Good work on new tires and alignment, but the final bill from Crestovar Motors was higher than the estimate because of shop fees nobody mentioned up front.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Mila, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Crestovar Motors. A manager will reach out this week to make it right.\n\nCrestovar Motors Service",
+        "author": "Crestovar Motors Service",
+        "date": "2026-09-18T18:15:00Z"
+      }
+    }
+  ]
+}

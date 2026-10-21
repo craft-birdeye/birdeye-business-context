@@ -1,0 +1,29 @@
+name: Validate data
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate dated data from source offsets
+        run: node scripts/generate.mjs
+      - name: Validate
+        run: node scripts/validate.mjs
+      - name: Briefs and schemas are up to date with source
+        run: |
+          if ! git diff --exit-code -- docs/accounts schemas; then
+            echo "::error::Generated briefs or schemas changed. Run 'node scripts/generate.mjs' locally and commit the result."
+            exit 1
+          fi

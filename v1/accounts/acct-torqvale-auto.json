@@ -1,0 +1,833 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-torqvale-auto",
+    "name": "Torqvale Auto Care",
+    "brandName": "Torqvale",
+    "parentGroup": "Torqvale Automotive",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "automotive",
+    "industryLabel": "Automotive",
+    "tier": "Multi-bay group",
+    "crm": "Tekion",
+    "purchasedLocations": 8,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Denver",
+      "state": "CO",
+      "stateName": "Colorado",
+      "country": "United States"
+    },
+    "businessBlurb": "Multi-location auto service group for Denver metro fleets and retail customers.",
+    "profile": {
+      "description": "Multi-location auto service group for Denver metro fleets and retail customers. Auto care for Denver fleets and drivers.",
+      "categories": [
+        "Auto repair shop"
+      ],
+      "website": "https://torqvaleauto.example.com",
+      "email": "hello@torqvaleauto.example.com",
+      "phone": "(303) 555-0108",
+      "primaryLocationId": "acct-torqvale-auto-loc-1",
+      "address": {
+        "street1": "3395 Elderberry Commons",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80211",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Torqvale",
+      "tagline": "Auto care for Denver fleets and drivers",
+      "logo": {
+        "kind": "monogram",
+        "initials": "T",
+        "path": "v1/logos/acct-torqvale-auto.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-torqvale-auto.svg"
+      },
+      "colors": {
+        "primary": "#005F73",
+        "secondary": "#E6F2F4",
+        "accent": "#EE9B00",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Efficient, fleet-savvy, and transparent about timelines and parts.",
+      "formality": "neutral",
+      "replySignoff": "Torqvale Auto Care"
+    },
+    "staff": [
+      "Ray",
+      "Kendra",
+      "Victor",
+      "Sione"
+    ],
+    "services": [
+      "a fleet PM service",
+      "a brake job",
+      "an oil change and rotation",
+      "a check-engine diagnostic"
+    ],
+    "llmContext": "Torqvale Auto Care · Enterprise · Automotive · HQ Denver, Colorado, United States · 8 purchased locations · CRM Tekion · Multi-location auto service group for Denver metro fleets and retail customers."
+  },
+  "locations": [
+    {
+      "id": "acct-torqvale-auto-loc-1",
+      "accountId": "acct-torqvale-auto",
+      "index": 1,
+      "name": "Torqvale - Denver",
+      "shortName": "Denver",
+      "label": "Torqvale - Denver (Denver, CO)",
+      "locationLine": "Denver, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "3395 Elderberry Commons",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80211",
+        "country": "US"
+      },
+      "phone": "(303) 555-0100",
+      "email": "denver@torqvaleauto.example.com",
+      "website": "https://torqvaleauto.example.com/locations/denver",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-09-13T18:50:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-loc-2",
+      "accountId": "acct-torqvale-auto",
+      "index": 2,
+      "name": "Torqvale - Aurora",
+      "shortName": "Aurora",
+      "label": "Torqvale - Aurora (Aurora, CO)",
+      "locationLine": "Aurora, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4514 Brightwater Lane",
+        "street2": "Suite 247",
+        "city": "Aurora",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80012",
+        "country": "US"
+      },
+      "phone": "(720) 555-0101",
+      "email": "aurora@torqvaleauto.example.com",
+      "website": "https://torqvaleauto.example.com/locations/aurora",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-30T19:05:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-loc-3",
+      "accountId": "acct-torqvale-auto",
+      "index": 3,
+      "name": "Torqvale - Lakewood",
+      "shortName": "Lakewood",
+      "label": "Torqvale - Lakewood (Lakewood, CO)",
+      "locationLine": "Lakewood, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5633 Cobble Creek Drive",
+        "street2": "",
+        "city": "Lakewood",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80228",
+        "country": "US"
+      },
+      "phone": "(303) 555-0102",
+      "email": "lakewood@torqvaleauto.example.com",
+      "website": "https://torqvaleauto.example.com/locations/lakewood",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-08-16T16:40:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-loc-4",
+      "accountId": "acct-torqvale-auto",
+      "index": 4,
+      "name": "Torqvale - Thornton",
+      "shortName": "Thornton",
+      "label": "Torqvale - Thornton (Thornton, CO)",
+      "locationLine": "Thornton, CO",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6700 Larkspur Avenue",
+        "street2": "Suite 477",
+        "city": "Thornton",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80229",
+        "country": "US"
+      },
+      "phone": "(720) 555-0103",
+      "email": "thornton@torqvaleauto.example.com",
+      "website": "https://torqvaleauto.example.com/locations/thornton",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-08-02T17:30:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-loc-5",
+      "accountId": "acct-torqvale-auto",
+      "index": 5,
+      "name": "Torqvale - Centennial",
+      "shortName": "Centennial",
+      "label": "Torqvale - Centennial (Centennial, CO)",
+      "locationLine": "Centennial, CO",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7819 Ironleaf Boulevard",
+        "street2": "Suite 372",
+        "city": "Centennial",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80122",
+        "country": "US"
+      },
+      "phone": "(303) 555-0104",
+      "email": "centennial@torqvaleauto.example.com",
+      "website": "https://torqvaleauto.example.com/locations/centennial",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-19T14:05:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-loc-6",
+      "accountId": "acct-torqvale-auto",
+      "index": 6,
+      "name": "Torqvale - Boulder",
+      "shortName": "Boulder",
+      "label": "Torqvale - Boulder (Boulder, CO)",
+      "locationLine": "Boulder, CO",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8938 Falconridge Court",
+        "street2": "Suite 419",
+        "city": "Boulder",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80302",
+        "country": "US"
+      },
+      "phone": "(720) 555-0105",
+      "email": "boulder@torqvaleauto.example.com",
+      "website": "https://torqvaleauto.example.com/locations/boulder",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-05T15:25:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-loc-7",
+      "accountId": "acct-torqvale-auto",
+      "index": 7,
+      "name": "Torqvale - Highlands Ranch",
+      "shortName": "Highlands Ranch",
+      "label": "Torqvale - Highlands Ranch (Highlands Ranch, CO)",
+      "locationLine": "Highlands Ranch, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1157 Goldfinch Terrace",
+        "street2": "Suite 466",
+        "city": "Highlands Ranch",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80130",
+        "country": "US"
+      },
+      "phone": "(303) 555-0106",
+      "email": "highlands-ranch@torqvaleauto.example.com",
+      "website": "https://torqvaleauto.example.com/locations/highlands-ranch",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-10-17T20:55:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-loc-8",
+      "accountId": "acct-torqvale-auto",
+      "index": 8,
+      "name": "Torqvale - Arvada",
+      "shortName": "Arvada",
+      "label": "Torqvale - Arvada (Arvada, CO)",
+      "locationLine": "Arvada, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2328 Tamarack Trail",
+        "street2": "Suite 137",
+        "city": "Arvada",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80002",
+        "country": "US"
+      },
+      "phone": "(720) 555-0107",
+      "email": "arvada@torqvaleauto.example.com",
+      "website": "https://torqvaleauto.example.com/locations/arvada",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-06-28T21:45:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-torqvale-auto-ct-1",
+      "number": 42,
+      "accountId": "acct-torqvale-auto",
+      "name": "Gideon Esposito",
+      "firstName": "Gideon",
+      "lastName": "Esposito",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-torqvale-auto-loc-1",
+      "locationIds": [
+        "acct-torqvale-auto-loc-1"
+      ],
+      "segments": [
+        "Service plan",
+        "Tire customer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-torqvale-auto-001",
+      "email": "gideon.esposito@example.com",
+      "phone": "(303) 555-0109",
+      "locationCount": 1,
+      "location": "Torqvale - Denver (Denver, CO)",
+      "createdOn": "2026-10-01T21:50:00Z",
+      "lastActivity": "2026-10-05T14:40:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-ct-2",
+      "number": 2,
+      "accountId": "acct-torqvale-auto",
+      "name": "Helena Lindwerth",
+      "firstName": "Helena",
+      "lastName": "Lindwerth",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-torqvale-auto-loc-4",
+      "locationIds": [
+        "acct-torqvale-auto-loc-4"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-torqvale-auto-002",
+      "email": "helena.lindwerth@example.com",
+      "phone": "(720) 555-0110",
+      "locationCount": 1,
+      "location": "Torqvale - Thornton (Thornton, CO)",
+      "createdOn": "2026-09-17T16:30:00Z",
+      "lastActivity": "2026-09-30T17:20:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-ct-3",
+      "number": 3,
+      "accountId": "acct-torqvale-auto",
+      "name": "Idris Tavares",
+      "firstName": "Idris",
+      "lastName": "Tavares",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-torqvale-auto-loc-7",
+      "locationIds": [
+        "acct-torqvale-auto-loc-7"
+      ],
+      "segments": [
+        "Fleet"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-torqvale-auto-003",
+      "phone": "(303) 555-0111",
+      "locationCount": 1,
+      "location": "Torqvale - Highlands Ranch (Highlands Ranch, CO)",
+      "createdOn": "2026-09-03T19:20:00Z",
+      "lastActivity": "2026-10-15T16:00:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-ct-4",
+      "number": 4,
+      "accountId": "acct-torqvale-auto",
+      "name": "Juno Brannigan",
+      "firstName": "Juno",
+      "lastName": "Brannigan",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-torqvale-auto-loc-2",
+      "locationIds": [
+        "acct-torqvale-auto-loc-2",
+        "acct-torqvale-auto-loc-7"
+      ],
+      "segments": [
+        "Recall notice"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-torqvale-auto-004",
+      "email": "juno.brannigan@example.com",
+      "phone": "(720) 555-0112",
+      "locationCount": 2,
+      "location": "Torqvale - Aurora (Aurora, CO)",
+      "createdOn": "2026-08-20T14:30:00Z",
+      "lastActivity": "2026-08-29T19:25:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-ct-5",
+      "number": 5,
+      "accountId": "acct-torqvale-auto",
+      "name": "Kellan Ivers",
+      "firstName": "Kellan",
+      "lastName": "Ivers",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-torqvale-auto-loc-5",
+      "locationIds": [
+        "acct-torqvale-auto-loc-5"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-torqvale-auto-005",
+      "email": "kellan.ivers@example.com",
+      "phone": "(303) 555-0113",
+      "locationCount": 1,
+      "location": "Torqvale - Centennial (Centennial, CO)",
+      "createdOn": "2026-08-06T17:40:00Z",
+      "lastActivity": "2026-08-30T18:25:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-ct-6",
+      "number": 6,
+      "accountId": "acct-torqvale-auto",
+      "name": "Lorena Ridley",
+      "firstName": "Lorena",
+      "lastName": "Ridley",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-torqvale-auto-loc-8",
+      "locationIds": [
+        "acct-torqvale-auto-loc-8"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-torqvale-auto-006",
+      "email": "lorena.ridley@example.com",
+      "locationCount": 1,
+      "location": "Torqvale - Arvada (Arvada, CO)",
+      "createdOn": "2026-07-23T20:10:00Z",
+      "lastActivity": "2026-08-31T21:45:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-ct-7",
+      "number": 7,
+      "accountId": "acct-torqvale-auto",
+      "name": "Magnus Blackwood",
+      "firstName": "Magnus",
+      "lastName": "Blackwood",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-torqvale-auto-loc-3",
+      "locationIds": [
+        "acct-torqvale-auto-loc-3",
+        "acct-torqvale-auto-loc-8",
+        "acct-torqvale-auto-loc-5"
+      ],
+      "segments": [
+        "Tire customer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-torqvale-auto-007",
+      "email": "magnus.blackwood@example.com",
+      "phone": "(303) 555-0114",
+      "locationCount": 3,
+      "location": "Torqvale - Lakewood (Lakewood, CO)",
+      "createdOn": "2026-07-09T15:45:00Z",
+      "lastActivity": "2026-09-01T20:25:00Z"
+    },
+    {
+      "id": "acct-torqvale-auto-ct-8",
+      "number": 8,
+      "accountId": "acct-torqvale-auto",
+      "name": "Nadia Ingram",
+      "firstName": "Nadia",
+      "lastName": "Ingram",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-torqvale-auto-loc-6",
+      "locationIds": [
+        "acct-torqvale-auto-loc-6",
+        "acct-torqvale-auto-loc-3"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-torqvale-auto-008",
+      "email": "nadia.ingram@example.com",
+      "phone": "(720) 555-0115",
+      "locationCount": 2,
+      "location": "Torqvale - Boulder (Boulder, CO)",
+      "createdOn": "2026-07-16T18:35:00Z",
+      "lastActivity": "2026-08-12T15:35:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-torqvale-auto-rev-1",
+      "number": 1,
+      "accountId": "acct-torqvale-auto",
+      "locationId": "acct-torqvale-auto-loc-1",
+      "location": "Torqvale - Denver (Denver, CO)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Orion Pembrook",
+      "date": "2026-09-04T21:30:00Z",
+      "text": "Good work on a fleet PM service, but the final bill from Torqvale was higher than the estimate because of shop fees nobody mentioned up front.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Orion, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Torqvale. A manager will reach out this week to make it right.\n\nTorqvale Auto Care",
+        "author": "Torqvale Auto Care",
+        "date": "2026-09-05T15:45:00Z"
+      }
+    },
+    {
+      "id": "acct-torqvale-auto-rev-2",
+      "number": 2,
+      "accountId": "acct-torqvale-auto",
+      "locationId": "acct-torqvale-auto-loc-2",
+      "location": "Torqvale - Aurora (Aurora, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Paloma Wexford",
+      "date": "2026-08-21T16:55:00Z",
+      "text": "Kendra explained the inspection results in plain language and sorted out what could wait. Turnaround on a brake job ran a little longer than quoted.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Kendra"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-torqvale-auto-rev-3",
+      "number": 3,
+      "accountId": "acct-torqvale-auto",
+      "locationId": "acct-torqvale-auto-loc-3",
+      "location": "Torqvale - Lakewood (Lakewood, CO)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Reuben Esposito",
+      "date": "2026-08-07T19:20:00Z",
+      "text": "Fleet manager here. Torqvale keeps our vans on the road with one invoice a month and almost no downtime. Victor is our go-to contact.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Victor"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-torqvale-auto-rev-4",
+      "number": 4,
+      "accountId": "acct-torqvale-auto",
+      "locationId": "acct-torqvale-auto-loc-4",
+      "location": "Torqvale - Thornton (Thornton, CO)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Sabine Lindahl",
+      "date": "2026-07-24T14:20:00Z",
+      "text": "Booked a check-engine diagnostic online with Torqvale, arrived on time, and still waited 50 minutes to be checked in.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Sabine, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Torqvale. A manager will reach out this week to make it right.\n\nTorqvale Auto Care",
+        "author": "Torqvale Auto Care",
+        "date": "2026-07-26T16:00:00Z"
+      }
+    },
+    {
+      "id": "acct-torqvale-auto-rev-5",
+      "number": 5,
+      "accountId": "acct-torqvale-auto",
+      "locationId": "acct-torqvale-auto-loc-5",
+      "location": "Torqvale - Centennial (Centennial, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Tobias Tavares",
+      "date": "2026-07-10T17:45:00Z",
+      "text": "Brought my car in for a fleet PM service at the Centennial location. Ray texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Ray"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-torqvale-auto-rev-6",
+      "number": 6,
+      "accountId": "acct-torqvale-auto",
+      "locationId": "acct-torqvale-auto-loc-6",
+      "location": "Torqvale - Boulder (Boulder, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Uma Brannigan",
+      "date": "2026-10-19T20:10:00Z",
+      "text": "My brake job was done right and priced fairly. The waiting area at the Boulder location was busy and the Wi-Fi kept dropping, but Kendra kept me updated.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Kendra"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-torqvale-auto-rev-7",
+      "number": 7,
+      "accountId": "acct-torqvale-auto",
+      "locationId": "acct-torqvale-auto-loc-7",
+      "location": "Torqvale - Highlands Ranch (Highlands Ranch, CO)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Vaughn Ivers",
+      "date": "2026-10-05T15:40:00Z",
+      "text": "Dropped off for an oil change and rotation at 8 a.m. and didn't hear anything until I called at 4. The work from Torqvale was fine, but proactive updates would make a big difference.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Vaughn, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Torqvale. A manager will reach out this week to make it right.\n\nTorqvale Auto Care",
+        "author": "Torqvale Auto Care",
+        "date": "2026-10-06T17:50:00Z"
+      }
+    },
+    {
+      "id": "acct-torqvale-auto-rev-8",
+      "number": 8,
+      "accountId": "acct-torqvale-auto",
+      "locationId": "acct-torqvale-auto-loc-8",
+      "location": "Torqvale - Arvada (Arvada, CO)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Willa Ridley",
+      "date": "2026-09-21T18:35:00Z",
+      "text": "Sione talked me out of a brake job because it wasn't needed yet. It's rare to find a service advisor who saves you money.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Sione"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

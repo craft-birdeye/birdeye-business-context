@@ -1,0 +1,558 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-panelbrook-collision",
+    "name": "Panelbrook Collision Center",
+    "brandName": "Panelbrook Collision",
+    "parentGroup": "Panelbrook Body",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "automotive",
+    "industryLabel": "Automotive",
+    "tier": "Collision shop",
+    "crm": "CCC ONE",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Milwaukee",
+      "state": "WI",
+      "stateName": "Wisconsin",
+      "country": "United States"
+    },
+    "businessBlurb": "Family-owned collision center with insurer DRP relationships in Milwaukee.",
+    "profile": {
+      "description": "Family-owned collision center with insurer DRP relationships in Milwaukee. Family-owned collision repair in Milwaukee.",
+      "categories": [
+        "Auto body shop"
+      ],
+      "website": "https://panelbrookcollision.example.com",
+      "email": "hello@panelbrookcollision.example.com",
+      "phone": "(414) 555-0100",
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "address": {
+        "street1": "7847 Foxglove Drive",
+        "street2": "Suite 472",
+        "city": "Milwaukee",
+        "state": "WI",
+        "stateName": "Wisconsin",
+        "zip": "53204",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Panelbrook Collision",
+      "tagline": "Family-owned collision repair in Milwaukee",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PC",
+        "path": "v1/logos/acct-panelbrook-collision.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-panelbrook-collision.svg"
+      },
+      "colors": {
+        "primary": "#1D4E89",
+        "secondary": "#E8EFF7",
+        "accent": "#F79256",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Reassuring after a stressful accident; walks through insurance steps.",
+      "formality": "neutral",
+      "replySignoff": "The Kowalbrook family, Panelbrook Collision Center"
+    },
+    "staff": [
+      "Stan Kowalbrook",
+      "Becky",
+      "Tyrell"
+    ],
+    "services": [
+      "a bumper repair",
+      "a hail repair",
+      "a frame straightening",
+      "a paint match"
+    ],
+    "llmContext": "Panelbrook Collision Center · SMB · Automotive · HQ Milwaukee, Wisconsin, United States · 1 purchased location · CRM CCC ONE · Family-owned collision center with insurer DRP relationships in Milwaukee."
+  },
+  "locations": [
+    {
+      "id": "acct-panelbrook-collision-loc-1",
+      "accountId": "acct-panelbrook-collision",
+      "index": 1,
+      "name": "Panelbrook Collision Center",
+      "shortName": "Main",
+      "label": "Panelbrook Collision Center (Milwaukee, WI)",
+      "locationLine": "Milwaukee, WI",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "7847 Foxglove Drive",
+        "street2": "Suite 472",
+        "city": "Milwaukee",
+        "state": "WI",
+        "stateName": "Wisconsin",
+        "zip": "53204",
+        "country": "US"
+      },
+      "phone": "(414) 555-0100",
+      "email": "hello@panelbrookcollision.example.com",
+      "website": "https://panelbrookcollision.example.com",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-07-08T18:15:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-panelbrook-collision-ct-1",
+      "number": 42,
+      "accountId": "acct-panelbrook-collision",
+      "name": "Xavier Ellery",
+      "firstName": "Xavier",
+      "lastName": "Ellery",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "locationIds": [
+        "acct-panelbrook-collision-loc-1"
+      ],
+      "segments": [
+        "Service plan",
+        "Tire customer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-panelbrook-collision-001",
+      "email": "xavier.ellery@example.com",
+      "phone": "(414) 555-0101",
+      "locationCount": 1,
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "createdOn": "2026-07-25T21:45:00Z",
+      "lastActivity": "2026-10-13T14:05:00Z"
+    },
+    {
+      "id": "acct-panelbrook-collision-ct-2",
+      "number": 2,
+      "accountId": "acct-panelbrook-collision",
+      "name": "Yara Lockhart",
+      "firstName": "Yara",
+      "lastName": "Lockhart",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "locationIds": [
+        "acct-panelbrook-collision-loc-1"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-panelbrook-collision-002",
+      "email": "yara.lockhart@example.com",
+      "phone": "(414) 555-0102",
+      "locationCount": 1,
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "createdOn": "2026-07-11T16:05:00Z",
+      "lastActivity": "2026-10-14T17:05:00Z"
+    },
+    {
+      "id": "acct-panelbrook-collision-ct-3",
+      "number": 3,
+      "accountId": "acct-panelbrook-collision",
+      "name": "Zeke Sandoval",
+      "firstName": "Zeke",
+      "lastName": "Sandoval",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "locationIds": [
+        "acct-panelbrook-collision-loc-1"
+      ],
+      "segments": [
+        "Fleet"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-panelbrook-collision-003",
+      "phone": "(414) 555-0103",
+      "locationCount": 1,
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "createdOn": "2026-06-27T19:15:00Z",
+      "lastActivity": "2026-10-15T16:25:00Z"
+    },
+    {
+      "id": "acct-panelbrook-collision-ct-4",
+      "number": 4,
+      "accountId": "acct-panelbrook-collision",
+      "name": "Anouk Achebe",
+      "firstName": "Anouk",
+      "lastName": "Achebe",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "locationIds": [
+        "acct-panelbrook-collision-loc-1"
+      ],
+      "segments": [
+        "Recall notice"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-panelbrook-collision-004",
+      "email": "anouk.achebe@example.com",
+      "phone": "(414) 555-0104",
+      "locationCount": 1,
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "createdOn": "2026-10-09T14:45:00Z",
+      "lastActivity": "2026-10-18T19:10:00Z"
+    },
+    {
+      "id": "acct-panelbrook-collision-ct-5",
+      "number": 5,
+      "accountId": "acct-panelbrook-collision",
+      "name": "Booker Halvorsen",
+      "firstName": "Booker",
+      "lastName": "Halvorsen",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "locationIds": [
+        "acct-panelbrook-collision-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-panelbrook-collision-005",
+      "email": "booker.halvorsen@example.com",
+      "phone": "(414) 555-0105",
+      "locationCount": 1,
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "createdOn": "2026-09-25T17:15:00Z",
+      "lastActivity": "2026-10-03T18:50:00Z"
+    },
+    {
+      "id": "acct-panelbrook-collision-ct-6",
+      "number": 6,
+      "accountId": "acct-panelbrook-collision",
+      "name": "Celine Okonjo",
+      "firstName": "Celine",
+      "lastName": "Okonjo",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "locationIds": [
+        "acct-panelbrook-collision-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-panelbrook-collision-006",
+      "email": "celine.okonjo@example.com",
+      "locationCount": 1,
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "createdOn": "2026-09-11T20:25:00Z",
+      "lastActivity": "2026-10-20T21:10:00Z"
+    },
+    {
+      "id": "acct-panelbrook-collision-ct-7",
+      "number": 7,
+      "accountId": "acct-panelbrook-collision",
+      "name": "Dashiell Whitmore",
+      "firstName": "Dashiell",
+      "lastName": "Whitmore",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "locationIds": [
+        "acct-panelbrook-collision-loc-1"
+      ],
+      "segments": [
+        "Tire customer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-panelbrook-collision-007",
+      "email": "dashiell.whitmore@example.com",
+      "phone": "(414) 555-0106",
+      "locationCount": 1,
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "createdOn": "2026-08-28T15:20:00Z",
+      "lastActivity": "2026-10-09T20:10:00Z"
+    },
+    {
+      "id": "acct-panelbrook-collision-ct-8",
+      "number": 8,
+      "accountId": "acct-panelbrook-collision",
+      "name": "Elise Everly",
+      "firstName": "Elise",
+      "lastName": "Everly",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-panelbrook-collision-loc-1",
+      "locationIds": [
+        "acct-panelbrook-collision-loc-1"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-panelbrook-collision-008",
+      "email": "elise.everly@example.com",
+      "phone": "(414) 555-0107",
+      "locationCount": 1,
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "createdOn": "2026-09-04T18:50:00Z",
+      "lastActivity": "2026-09-05T15:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-panelbrook-collision-rev-1",
+      "number": 1,
+      "accountId": "acct-panelbrook-collision",
+      "locationId": "acct-panelbrook-collision-loc-1",
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Fenwick Mabry",
+      "date": "2026-08-05T21:35:00Z",
+      "text": "Picked up my car from Panelbrook Collision after a bumper repair and there was a new rattle that wasn't there before. Had to bring it back twice. They fixed it eventually, but it cost me two days.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Fenwick, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Panelbrook Collision. A manager will reach out this week to make it right.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "author": "The Kowalbrook family, Panelbrook Collision Center",
+        "date": "2026-08-06T15:50:00Z"
+      }
+    },
+    {
+      "id": "acct-panelbrook-collision-rev-2",
+      "number": 2,
+      "accountId": "acct-panelbrook-collision",
+      "locationId": "acct-panelbrook-collision-loc-1",
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Gemma Vance-Ortiz",
+      "date": "2026-07-22T16:40:00Z",
+      "text": "Third visit to Panelbrook Collision and it's consistently good. My hail repair was finished early, and Becky reset my tire pressure light without being asked.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Becky"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-panelbrook-collision-rev-3",
+      "number": 3,
+      "accountId": "acct-panelbrook-collision",
+      "locationId": "acct-panelbrook-collision-loc-1",
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Hugo Ellery",
+      "date": "2026-07-08T19:05:00Z",
+      "text": "Good work on a frame straightening, but the final bill from Panelbrook Collision was higher than the estimate because of shop fees nobody mentioned up front.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Hugo, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Panelbrook Collision. A manager will reach out this week to make it right.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "author": "The Kowalbrook family, Panelbrook Collision Center",
+        "date": "2026-07-09T21:40:00Z"
+      }
+    },
+    {
+      "id": "acct-panelbrook-collision-rev-4",
+      "number": 4,
+      "accountId": "acct-panelbrook-collision",
+      "locationId": "acct-panelbrook-collision-loc-1",
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Ines Lockhart",
+      "date": "2026-10-17T14:25:00Z",
+      "text": "Stan Kowalbrook explained the inspection results in plain language and sorted out what could wait. Turnaround on a paint match ran a little longer than quoted.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Stan Kowalbrook"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Ines! We'll pass this along to the whole Panelbrook Collision team. See you next time.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "author": "The Kowalbrook family, Panelbrook Collision Center",
+        "date": "2026-10-19T16:05:00Z"
+      }
+    },
+    {
+      "id": "acct-panelbrook-collision-rev-5",
+      "number": 5,
+      "accountId": "acct-panelbrook-collision",
+      "locationId": "acct-panelbrook-collision-loc-1",
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Jonah Sandoval",
+      "date": "2026-10-03T17:50:00Z",
+      "text": "Fleet manager here. Panelbrook Collision keeps our vans on the road with one invoice a month and almost no downtime. Becky is our go-to contact.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Becky"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-panelbrook-collision-rev-6",
+      "number": 6,
+      "accountId": "acct-panelbrook-collision",
+      "locationId": "acct-panelbrook-collision-loc-1",
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Kaia Achebe",
+      "date": "2026-09-19T20:15:00Z",
+      "text": "Booked a hail repair online with Panelbrook Collision, arrived on time, and still waited 50 minutes to be checked in.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Kaia, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Panelbrook Collision. A manager will reach out this week to make it right.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "author": "The Kowalbrook family, Panelbrook Collision Center",
+        "date": "2026-09-21T14:15:00Z"
+      }
+    },
+    {
+      "id": "acct-panelbrook-collision-rev-7",
+      "number": 7,
+      "accountId": "acct-panelbrook-collision",
+      "locationId": "acct-panelbrook-collision-loc-1",
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Lionel Halvorsen",
+      "date": "2026-09-05T15:45:00Z",
+      "text": "Brought my car in for a frame straightening at Panelbrook Collision. Stan Kowalbrook texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Stan Kowalbrook"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Lionel! We'll pass this along to the whole Panelbrook Collision team. See you next time.\n\nThe Kowalbrook family, Panelbrook Collision Center",
+        "author": "The Kowalbrook family, Panelbrook Collision Center",
+        "date": "2026-09-06T17:15:00Z"
+      }
+    },
+    {
+      "id": "acct-panelbrook-collision-rev-8",
+      "number": 8,
+      "accountId": "acct-panelbrook-collision",
+      "locationId": "acct-panelbrook-collision-loc-1",
+      "location": "Panelbrook Collision Center (Milwaukee, WI)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Mila Okonjo",
+      "date": "2026-08-22T18:40:00Z",
+      "text": "My paint match was done right and priced fairly. The waiting area at Panelbrook Collision was busy and the Wi-Fi kept dropping, but Becky kept me updated.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Becky"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}
