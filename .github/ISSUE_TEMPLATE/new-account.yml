@@ -1,0 +1,36 @@
+name: Request a new demo account
+description: Ask for a new invented business in the shared business-context data.
+title: "New account: <business name>"
+labels: ["new-account"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Invented businesses only. Do not paste real customer names, account IDs, addresses, phone numbers, or emails.
+  - type: input
+    id: name
+    attributes: { label: Business name (invented), placeholder: "Juniper Creek Veterinary" }
+    validations: { required: true }
+  - type: dropdown
+    id: segment
+    attributes: { label: Segment, options: ["SMB", "ENT (Enterprise)", "CH-SLV (Channel)"] }
+    validations: { required: true }
+  - type: dropdown
+    id: industry
+    attributes: { label: Industry, options: ["dental-healthcare", "home-services", "legal", "advertising-agency", "automotive", "other (describe below)"] }
+    validations: { required: true }
+  - type: input
+    id: hq
+    attributes: { label: HQ city and state, placeholder: "Boise, ID" }
+    validations: { required: true }
+  - type: input
+    id: locations
+    attributes: { label: Purchased locations (how many, and which cities), placeholder: "3 - Boise, Meridian, Nampa" }
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes: { label: What demo or prototype needs it?, description: "Which screens (Contacts, Reviews, Business info, branding) and what story it should tell." }
+    validations: { required: true }
+  - type: textarea
+    id: brand
+    attributes: { label: Branding and tone (optional), description: "Colors, voice, staff names, services you want reviews to mention." }
