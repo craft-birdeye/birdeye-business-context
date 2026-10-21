@@ -31,7 +31,8 @@ Two-person studio running GBP and review invites for Denver home-services client
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.1★, 5 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 2 claimed, 2 verified; 147 public reviews, average 4.7★; 15 photos
 - Bundle: [`v1/accounts/acct-kindlewry-studio.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-kindlewry-studio.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Two-person studio running GBP and review invites for Denver home-services client
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Kindlewry Studio Marketing | 4344 Pinecrest Avenue, Denver, CO 80204 | (720) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency, Social media agency | google: 4.6 · 112 · verified; facebook: 4.9 · 16 · verified; yelp: 4.5 · 19 · unclaimed | 39.67781, -105.05441 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

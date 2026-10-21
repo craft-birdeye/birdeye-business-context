@@ -31,7 +31,8 @@ Chicago-suburb orthodontic group focused on teens and adult clear-aligner cases.
 ## Data at a glance
 
 - Contacts: 8 (Patient, Lead)
-- Reviews: 8, average 3.9★, 5 with replies
+- Reviews: 8, average 4.3★, 6 with replies
+- Listings (invented, schema 1.1.0): 24 across 8 locations, 17 claimed, 17 verified; 4040 public reviews, average 4.8★; 383 photos
 - Bundle: [`v1/accounts/acct-tovaline-ortho.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tovaline-ortho.json)
 
 ## Locations
@@ -46,6 +47,21 @@ Chicago-suburb orthodontic group focused on teens and adult clear-aligner cases.
 | 6 | Tovaline Ortho - Wheaton | 1278 Hazelwood Terrace, Suite 351, Wheaton, IL 60187 | (331) 555-0105 | Inactive |
 | 7 | Tovaline Ortho - Orland Park | 2397 Emberly Parkway, Suite 398, Orland Park, IL 60467 | (708) 555-0106 | Active |
 | 8 | Tovaline Ortho - Vernon Hills | 3412 Yarrow Court, Suite 381, Vernon Hills, IL 60061 | (224) 555-0107 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Orthodontist | google: 4.7 · 329 · verified; facebook: 4.6 · 40 · unclaimed; yelp: 4.6 · 21 · unclaimed | 41.68155, -88.10636 |
+| 2 | Open | Orthodontist, Dental clinic | google: 4.9 · 904 · verified; facebook: 4.9 · 152 · verified; yelp: 4.4 · 165 · verified | 41.85069, -87.93072 |
+| 3 | Open | Orthodontist | google: 4.9 · 134 · verified; facebook: 4.6 · 13 · verified; yelp: 4.3 · 37 · verified | 42.10641, -88.15716 |
+| 4 | Open | Orthodontist, Cosmetic dentist, Pediatric dentist, Dental clinic | google: 4.8 · 943 · unclaimed; facebook: 4.9 · 101 · verified; yelp: 4.2 · 83 · verified | 42.106, -87.74094 |
+| 5 | Open | Orthodontist, Dental clinic | google: 4.7 · 225 · verified; facebook: 4.9 · 29 · verified; yelp: 4.1 · 37 · verified | 41.72157, -88.29639 |
+| 6 | Open | Orthodontist, Cosmetic dentist, Dental clinic | google: 4.9 · 137 · verified; facebook: 5 · 9 · unclaimed; yelp: 4.5 · 16 · unclaimed | 41.88306, -88.12237 |
+| 7 | Open | Orthodontist, Pediatric dentist | google: 4.9 · 458 · verified; facebook: 4.9 · 48 · verified; yelp: 4.3 · 30 · unclaimed | 41.7227, -87.85828 |
+| 8 | Open | Orthodontist, Pediatric dentist | google: 4.8 · 105 · verified; facebook: 5 · 14 · unclaimed; yelp: 4.3 · 10 · verified | 42.2613, -87.83066 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

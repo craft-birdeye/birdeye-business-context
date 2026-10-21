@@ -31,7 +31,8 @@ Channel org that supports home-services franchisees with listings and review SLA
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.5★, 6 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 15 across 5 locations, 11 claimed, 11 verified; 95 public reviews, average 4.8★; 47 photos
 - Bundle: [`v1/accounts/acct-franquill-channel.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-franquill-channel.json)
 
 ## Locations
@@ -43,6 +44,18 @@ Channel org that supports home-services franchisees with listings and review SLA
 | 3 | Franquill Network - Franchise ops - Austin | 7796 Dovetail Row, Suite 369, Austin, TX 78704 | (737) 555-0102 | Active |
 | 4 | Franquill Network - Franchise ops - San Antonio | 6677 Goldfinch Trail, Suite 322, San Antonio, TX 78209 | (210) 555-0103 | Demo |
 | 5 | Franquill Network - Franchise ops - Oklahoma City | 5558 Falconridge Row, Oklahoma City, OK 73102 | (405) 555-0104 | Needs setup |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Franchise support, Marketing agency, Business management consultant | google: 4.7 · 30 · verified; facebook: 4.9 · 8 · verified; yelp: 4.7 · 3 · unclaimed | 32.81573, -96.77103 |
+| 2 | Open | Franchise support, Marketing agency, Business management consultant | google: 4.7 · 3 · verified; facebook: 5 · 1 · verified; yelp: – · 0 · unclaimed | 29.69247, -95.39982 |
+| 3 | Open | Franchise support, Marketing agency, Business management consultant | google: 4.9 · 27 · verified; facebook: 4.9 · 9 · verified; yelp: 5 · 2 · verified | 30.2322, -97.63053 |
+| 4 | Open | Franchise support, Marketing agency, Business management consultant | google: 5 · 5 · unclaimed; facebook: 5 · 1 · verified; yelp: 5 · 1 · verified | 29.40389, -98.47597 |
+| 5 | Open | Franchise support, Marketing agency, Business management consultant | google: 5 · 4 · unclaimed; facebook: 2 · 1 · verified; yelp: – · 0 · verified | 35.39202, -97.45499 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

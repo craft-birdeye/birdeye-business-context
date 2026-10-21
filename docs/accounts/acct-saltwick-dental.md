@@ -31,7 +31,8 @@ Bay Area general dentistry group with strong new-patient and hygiene recall prog
 ## Data at a glance
 
 - Contacts: 8 (Patient, Lead)
-- Reviews: 8, average 4.3★, 4 with replies
+- Reviews: 8, average 4.3★, 7 with replies
+- Listings (invented, schema 1.1.0): 17 across 6 locations, 12 claimed, 12 verified; 3539 public reviews, average 4.9★; 327 photos
 - Bundle: [`v1/accounts/acct-saltwick-dental.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-saltwick-dental.json)
 
 ## Locations
@@ -44,6 +45,19 @@ Bay Area general dentistry group with strong new-patient and hygiene recall prog
 | 4 | Saltwick Dental - San Mateo | 812 Bluestem Terrace, San Mateo, CA 94401 | (650) 555-0103 | Demo |
 | 5 | Saltwick Dental - Palo Alto | 1931 Willowmere Court, Suite 192, Palo Alto, CA 94306 | (650) 555-0104 | Needs setup |
 | 6 | Saltwick Dental - San Jose | 3050 Thistledown Commons, Suite 239, San Jose, CA 95112 | (669) 555-0105 | Inactive |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Dentist, Cosmetic dentist | google: 4.7 · 270 · verified; facebook: 5 · 26 · verified; yelp: 4.4 · 33 · verified | 37.82165, -122.37812 |
+| 2 | Open | Dentist | google: 4.9 · 65 · verified; facebook: 4.9 · 22 · verified; yelp: 4.8 · 6 · unclaimed | 37.80634, -122.30885 |
+| 3 | Open | Dentist, Dental implants provider, Emergency dental service | google: 4.9 · 1604 · verified; facebook: 5 · 202 · verified | 37.84444, -122.25407 |
+| 4 | Open | Dentist, Cosmetic dentist, Emergency dental service | google: 4.9 · 330 · verified; facebook: 4.9 · 11 · verified; yelp: 4.3 · 32 · verified | 37.52538, -122.23701 |
+| 5 | Open | Dentist, Dental implants provider | google: 4.9 · 738 · verified; facebook: 4.8 · 51 · unclaimed; yelp: 4.3 · 32 · unclaimed | 37.48786, -122.09939 |
+| 6 | Temporarily closed | Dentist, Emergency dental service, Dental implants provider, Dental clinic | google: 4.6 · 72 · unclaimed; facebook: 5 · 18 · verified; yelp: 4.7 · 27 · unclaimed | 37.23742, -121.85487 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

@@ -31,7 +31,8 @@ Plaintiff personal-injury practice with a heavy Google review footprint. Injury 
 ## Data at a glance
 
 - Contacts: 8 (Client, Lead)
-- Reviews: 8, average 3.5★, 3 with replies
+- Reviews: 8, average 4.4★, 3 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 2 claimed, 2 verified; 184 public reviews, average 4.8★; 8 photos
 - Bundle: [`v1/accounts/acct-gavelmoor-injury.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-gavelmoor-injury.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Plaintiff personal-injury practice with a heavy Google review footprint. Injury 
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Gavelmoor Personal Injury | 4559 Ironleaf Way, Suite 332, Phoenix, AZ 85044 | (602) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Personal injury attorney, Accident lawyer | google: 4.9 · 149 · verified; facebook: 4.8 · 12 · unclaimed; yelp: 4.6 · 23 · verified | 33.42008, -112.01461 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

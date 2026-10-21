@@ -31,7 +31,8 @@ Multi-location auto service group for Denver metro fleets and retail customers. 
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.8★, 3 with replies
+- Reviews: 8, average 4.1★, 7 with replies
+- Listings (invented, schema 1.1.0): 22 across 8 locations, 17 claimed, 16 verified; 1220 public reviews, average 4.6★; 248 photos
 - Bundle: [`v1/accounts/acct-torqvale-auto.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-torqvale-auto.json)
 
 ## Locations
@@ -46,6 +47,21 @@ Multi-location auto service group for Denver metro fleets and retail customers. 
 | 6 | Torqvale - Boulder | 8938 Falconridge Court, Suite 419, Boulder, CO 80302 | (720) 555-0105 | Inactive |
 | 7 | Torqvale - Highlands Ranch | 1157 Goldfinch Terrace, Suite 466, Highlands Ranch, CO 80130 | (303) 555-0106 | Active |
 | 8 | Torqvale - Arvada | 2328 Tamarack Trail, Suite 137, Arvada, CO 80002 | (720) 555-0107 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Auto repair shop, Oil change service, Auto air conditioning service | google: 4.6 · 64 · verified; facebook: 4.6 · 18 · verified; yelp: 3.9 · 10 · verified | 39.79239, -104.98471 |
+| 2 | Open | Auto repair shop, Auto air conditioning service, Car inspection station | google: 4.7 · 286 · verified; facebook: 4.9 · 28 · claimed | 39.69764, -104.98034 |
+| 3 | Open | Auto repair shop, Oil change service | google: 4.6 · 220 · verified; facebook: 4.7 · 36 · verified; yelp: 4.5 · 49 · verified | 39.78676, -105.04298 |
+| 4 | Open | Auto repair shop, Auto air conditioning service | google: 4.8 · 26 · verified; facebook: 4 · 3 · verified | 39.81883, -104.96759 |
+| 5 | Open | Auto repair shop, Oil change service | google: 4.5 · 120 · verified; facebook: 4.6 · 16 · unclaimed; yelp: 4.2 · 32 · unclaimed | 39.62229, -104.76635 |
+| 6 | Open | Auto repair shop | google: 4.5 · 28 · unclaimed; facebook: 5 · 3 · verified; yelp: 4.5 · 12 · verified | 39.96553, -105.17001 |
+| 7 | Open | Auto repair shop | google: 4.8 · 126 · verified; facebook: 4.7 · 39 · verified; yelp: 4.3 · 7 · unclaimed | 39.5643, -104.90892 |
+| 8 | Open | Auto repair shop, Brake shop | google: 4.5 · 72 · verified; facebook: 5 · 14 · verified; yelp: 4.4 · 11 · unclaimed | 39.75733, -105.20327 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

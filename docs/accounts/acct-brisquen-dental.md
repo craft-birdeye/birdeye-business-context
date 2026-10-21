@@ -31,7 +31,8 @@ Five-location dental group across the East Valley of Phoenix. Dentistry for the 
 ## Data at a glance
 
 - Contacts: 8 (Patient, Lead)
-- Reviews: 8, average 3.8★, 5 with replies
+- Reviews: 8, average 4.3★, 6 with replies
+- Listings (invented, schema 1.1.0): 14 across 5 locations, 8 claimed, 8 verified; 7090 public reviews, average 4.6★; 61 photos
 - Bundle: [`v1/accounts/acct-brisquen-dental.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-brisquen-dental.json)
 
 ## Locations
@@ -43,6 +44,18 @@ Five-location dental group across the East Valley of Phoenix. Dentistry for the 
 | 3 | Brisquen Dental - Chandler | 6326 Quarrystone Trail, Chandler, AZ 85224 | (480) 555-0102 | Active |
 | 4 | Brisquen Dental - Mesa | 783 Oriole Avenue, Suite 208, Mesa, AZ 85205 | (480) 555-0103 | Demo |
 | 5 | Brisquen Dental - Gilbert | 8564 Juniper Hollow Trail, Gilbert, AZ 85234 | (480) 555-0104 | Needs setup |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Dentist, Dental implants provider | google: 4.4 · 2115 · verified; yelp: 4.2 · 351 · unclaimed | 33.40754, -111.85069 |
+| 2 | Open | Dentist, Dental implants provider | google: 4.9 · 581 · verified; facebook: 4.6 · 49 · verified; yelp: 4.2 · 52 · unclaimed | 33.47575, -112.01514 |
+| 3 | Open | Dentist, Emergency dental service, Teeth whitening service, Dental clinic | google: 4.7 · 1337 · verified; facebook: 4.8 · 199 · verified; yelp: 4.3 · 173 · unclaimed | 33.25442, -111.94198 |
+| 4 | Open | Dentist | google: 4.9 · 285 · verified; facebook: 4.7 · 63 · verified; yelp: 4.4 · 45 · verified | 33.36355, -111.79218 |
+| 5 | Open | Dentist, Dental clinic | google: 4.5 · 1529 · unclaimed; facebook: 4.9 · 137 · unclaimed; yelp: 4.4 · 174 · unclaimed | 33.31845, -111.83597 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

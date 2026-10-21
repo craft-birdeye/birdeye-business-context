@@ -31,7 +31,8 @@ Residential pest and termite service covering Asheville and nearby towns. Family
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.4★, 6 with replies
+- Reviews: 8, average 4.5★, 4 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 2 claimed, 2 verified; 115 public reviews, average 4.4★; 38 photos
 - Bundle: [`v1/accounts/acct-hollowbeck-pest.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hollowbeck-pest.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Residential pest and termite service covering Asheville and nearby towns. Family
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Hollowbeck Pest Control | 3291 Willowmere Row, Suite 344, Asheville, NC 28803 | (828) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Pest control service, Wildlife removal service, Termite control service | google: 4.4 · 92 · verified; facebook: 4.9 · 11 · verified; yelp: 4.3 · 12 · unclaimed | 35.57141, -82.57453 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

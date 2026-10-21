@@ -31,7 +31,8 @@ Creative shop that produces social calendars and review-request creative for reg
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.1★, 5 with replies
+- Listings (invented, schema 1.1.0): 11 across 4 locations, 10 claimed, 9 verified; 122 public reviews, average 4.9★; 23 photos
 - Bundle: [`v1/accounts/acct-inkfallow-creative.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-inkfallow-creative.json)
 
 ## Locations
@@ -42,6 +43,17 @@ Creative shop that produces social calendars and review-request creative for reg
 | 2 | Inkfallow - Seattle desk | 1938 Falconridge Boulevard, Suite 363, Seattle, WA 98125 | (206) 555-0101 | Active |
 | 3 | Inkfallow - Boise desk | 3057 Goldfinch Court, Suite 202, Boise, ID 83706 | (208) 555-0102 | Active |
 | 4 | Inkfallow - Salt Lake desk | 4176 Dovetail Terrace, Suite 249, Salt Lake City, UT 84101 | (385) 555-0103 | Demo |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency | google: 4.9 · 62 · verified; facebook: 4.9 · 18 · verified | 45.46219, -122.78842 |
+| 2 | Open | Marketing agency, Social media agency, Internet marketing service, Website designer | google: 4 · 3 · verified; facebook: – · 0 · verified; yelp: – · 0 · verified | 47.57281, -122.20811 |
+| 3 | Open | Marketing agency, Social media agency | google: 4.9 · 26 · verified; facebook: 5 · 2 · verified; yelp: 5 · 1 · unclaimed | 43.66335, -116.27331 |
+| 4 | Open | Marketing agency, Internet marketing service, Advertising agency | google: 4.9 · 8 · claimed; facebook: – · 0 · verified; yelp: 4 · 2 · verified | 40.74117, -111.7588 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 
