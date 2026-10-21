@@ -1,0 +1,999 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-northquell",
+    "name": "Northquell Digital Partners",
+    "brandName": "Northquell",
+    "parentGroup": "Northquell Agency",
+    "segment": "CH-SLV",
+    "segmentLabel": "Channel",
+    "industryId": "advertising-agency",
+    "industryLabel": "Advertising and agency",
+    "tier": "Agency partner",
+    "crm": "HubSpot",
+    "purchasedLocations": 10,
+    "isDefault": false,
+    "quickScenario": true,
+    "hq": {
+      "city": "Charlotte",
+      "state": "NC",
+      "stateName": "North Carolina",
+      "country": "United States"
+    },
+    "businessBlurb": "Channel and agency partner that manages reviews, listings, and reputation programs for client brands.",
+    "profile": {
+      "description": "Channel and agency partner that manages reviews, listings, and reputation programs for client brands. Reputation and local search for multi-location brands.",
+      "categories": [
+        "Marketing agency"
+      ],
+      "website": "https://northquelldigital.example.com",
+      "email": "hello@northquelldigital.example.com",
+      "phone": "(704) 555-0110",
+      "primaryLocationId": "acct-northquell-loc-1",
+      "address": {
+        "street1": "510 Velvet Ash Row",
+        "street2": "Suite 339",
+        "city": "Charlotte",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28204",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Northquell",
+      "tagline": "Reputation and local search for multi-location brands",
+      "logo": {
+        "kind": "monogram",
+        "initials": "N",
+        "path": "v1/logos/acct-northquell.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-northquell.svg"
+      },
+      "colors": {
+        "primary": "#14213D",
+        "secondary": "#E9EEF6",
+        "accent": "#FCA311",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Sharp, candid, and data-literate; short sentences, concrete next steps.",
+      "formality": "neutral",
+      "replySignoff": "Northquell Digital Partners"
+    },
+    "staff": [
+      "Jess Albright",
+      "Marcus Leovanne",
+      "Tanya Brooks"
+    ],
+    "services": [
+      "review monitoring",
+      "local SEO",
+      "review-request campaigns",
+      "franchise reporting"
+    ],
+    "llmContext": "Northquell Digital Partners · Channel · Advertising and agency · HQ Charlotte, North Carolina, United States · 10 purchased locations · CRM HubSpot · Channel and agency partner that manages reviews, listings, and reputation programs for client brands."
+  },
+  "locations": [
+    {
+      "id": "acct-northquell-loc-1",
+      "accountId": "acct-northquell",
+      "index": 1,
+      "name": "Northquell - HQ",
+      "shortName": "HQ",
+      "label": "Northquell - HQ (Charlotte, NC)",
+      "locationLine": "Charlotte, NC",
+      "type": "Virtual location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "510 Velvet Ash Row",
+        "street2": "Suite 339",
+        "city": "Charlotte",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28204",
+        "country": "US"
+      },
+      "phone": "(980) 555-0100",
+      "email": "hq@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/hq",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-08-27T18:45:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-2",
+      "accountId": "acct-northquell",
+      "index": 2,
+      "name": "Northquell - Charlotte Studio",
+      "shortName": "Charlotte Studio",
+      "label": "Northquell - Charlotte Studio (Charlotte, NC)",
+      "locationLine": "Charlotte, NC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8291 Amberwood Way",
+        "street2": "Suite 292",
+        "city": "Charlotte",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28202",
+        "country": "US"
+      },
+      "phone": "(704) 555-0101",
+      "email": "charlottestudio@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/charlotte-studio",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-08-13T19:00:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-3",
+      "accountId": "acct-northquell",
+      "index": 3,
+      "name": "Northquell - Raleigh Satellite",
+      "shortName": "Raleigh Satellite",
+      "label": "Northquell - Raleigh Satellite (Raleigh, NC)",
+      "locationLine": "Raleigh, NC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7172 Yarrow Loop",
+        "street2": "",
+        "city": "Raleigh",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "27601",
+        "country": "US"
+      },
+      "phone": "(984) 555-0102",
+      "email": "raleigh-satellite@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/raleigh-satellite",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-07-30T16:35:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-4",
+      "accountId": "acct-northquell",
+      "index": 4,
+      "name": "Northquell - Durham Satellite",
+      "shortName": "Durham Satellite",
+      "label": "Northquell - Durham Satellite (Durham, NC)",
+      "locationLine": "Durham, NC",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6105 Silverbell Terrace",
+        "street2": "Suite 182",
+        "city": "Durham",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "27705",
+        "country": "US"
+      },
+      "phone": "(919) 555-0103",
+      "email": "durham-satellite@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/durham-satellite",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-07-16T17:25:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-5",
+      "accountId": "acct-northquell",
+      "index": 5,
+      "name": "Northquell - Atlanta Client Hub",
+      "shortName": "Atlanta Client Hub",
+      "label": "Northquell - Atlanta Client Hub (Atlanta, GA)",
+      "locationLine": "Atlanta, GA",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4986 Ravenwood Avenue",
+        "street2": "Suite 135",
+        "city": "Atlanta",
+        "state": "GA",
+        "stateName": "Georgia",
+        "zip": "30309",
+        "country": "US"
+      },
+      "phone": "(470) 555-0104",
+      "email": "atlanta-client-hub@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/atlanta-client-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-07-02T14:00:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-6",
+      "accountId": "acct-northquell",
+      "index": 6,
+      "name": "Northquell - Nashville Client Hub",
+      "shortName": "Nashville Client Hub",
+      "label": "Northquell - Nashville Client Hub (Nashville, TN)",
+      "locationLine": "Nashville, TN",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3867 Foxglove Boulevard",
+        "street2": "Suite 328",
+        "city": "Nashville",
+        "state": "TN",
+        "stateName": "Tennessee",
+        "zip": "37206",
+        "country": "US"
+      },
+      "phone": "(615) 555-0105",
+      "email": "nashville-client-hub@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/nashville-client-hub",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-10-14T15:20:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-7",
+      "accountId": "acct-northquell",
+      "index": 7,
+      "name": "Northquell - Richmond Client Hub",
+      "shortName": "Richmond Client Hub",
+      "label": "Northquell - Richmond Client Hub (Richmond, VA)",
+      "locationLine": "Richmond, VA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2748 Tamarack Avenue",
+        "street2": "Suite 433",
+        "city": "Richmond",
+        "state": "VA",
+        "stateName": "Virginia",
+        "zip": "23219",
+        "country": "US"
+      },
+      "phone": "(804) 555-0106",
+      "email": "richmond-client-hub@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/richmond-client-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-09-30T20:50:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-8",
+      "accountId": "acct-northquell",
+      "index": 8,
+      "name": "Northquell - Charleston Client Hub",
+      "shortName": "Charleston Client Hub",
+      "label": "Northquell - Charleston Client Hub (Charleston, SC)",
+      "locationLine": "Charleston, SC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1681 Copperleaf Drive",
+        "street2": "Suite 410",
+        "city": "Charleston",
+        "state": "SC",
+        "stateName": "South Carolina",
+        "zip": "29403",
+        "country": "US"
+      },
+      "phone": "(843) 555-0107",
+      "email": "charleston-client-hub@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/charleston-client-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-10-07T21:40:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-9",
+      "accountId": "acct-northquell",
+      "index": 9,
+      "name": "Northquell - Greenville Client Hub",
+      "shortName": "Greenville Client Hub",
+      "label": "Northquell - Greenville Client Hub (Greenville, SC)",
+      "locationLine": "Greenville, SC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "562 Northwind Parkway",
+        "street2": "",
+        "city": "Greenville",
+        "state": "SC",
+        "stateName": "South Carolina",
+        "zip": "29601",
+        "country": "US"
+      },
+      "phone": "(864) 555-0108",
+      "email": "greenville-client-hub@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/greenville-client-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-09-23T18:15:00Z"
+    },
+    {
+      "id": "acct-northquell-loc-10",
+      "accountId": "acct-northquell",
+      "index": 10,
+      "name": "Northquell - Wilmington Client Hub",
+      "shortName": "Wilmington Client Hub",
+      "label": "Northquell - Wilmington Client Hub (Wilmington, NC)",
+      "locationLine": "Wilmington, NC",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4878 Hazelwood Parkway",
+        "street2": "Suite 343",
+        "city": "Wilmington",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28401",
+        "country": "US"
+      },
+      "phone": "(910) 555-0109",
+      "email": "wilmington-client-hub@northquelldigital.example.com",
+      "website": "https://northquelldigital.example.com/locations/wilmington-client-hub",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-09-09T18:50:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-northquell-ct-1",
+      "number": 42,
+      "accountId": "acct-northquell",
+      "name": "Lauren Pittman",
+      "firstName": "Lauren",
+      "lastName": "Pittman",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-1",
+      "locationIds": [
+        "acct-northquell-loc-1"
+      ],
+      "segments": [
+        "Dental brand",
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-northquell-001",
+      "email": "lauren.pittman@brightsmiles.example.com",
+      "phone": "(704) 555-0111",
+      "locationCount": 1,
+      "location": "Northquell - HQ (Charlotte, NC)",
+      "createdOn": "2026-10-18T21:35:00Z",
+      "lastActivity": "2026-10-19T14:15:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-2",
+      "number": 2,
+      "accountId": "acct-northquell",
+      "name": "Andre Whitaker",
+      "firstName": "Andre",
+      "lastName": "Whitaker",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-4",
+      "locationIds": [
+        "acct-northquell-loc-4"
+      ],
+      "segments": [
+        "Home services brand"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-northquell-002",
+      "email": "andre.whitaker@franchiseclient.example.com",
+      "phone": "(984) 555-0112",
+      "locationCount": 1,
+      "location": "Northquell - Durham Satellite (Durham, NC)",
+      "createdOn": "2026-10-04T16:55:00Z",
+      "lastActivity": "2026-10-05T17:55:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-3",
+      "number": 3,
+      "accountId": "acct-northquell",
+      "name": "Mei Lintrove",
+      "firstName": "Mei",
+      "lastName": "Lintrove",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-7",
+      "locationIds": [
+        "acct-northquell-loc-7",
+        "acct-northquell-loc-2"
+      ],
+      "segments": [
+        "Automotive brand",
+        "High value"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-northquell-003",
+      "email": "mei.lintrove@peakauto.example.com",
+      "phone": "(804) 555-0113",
+      "locationCount": 2,
+      "location": "Northquell - Richmond Client Hub (Richmond, VA)",
+      "createdOn": "2026-09-20T19:25:00Z",
+      "lastActivity": "2026-10-17T16:35:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-4",
+      "number": 4,
+      "accountId": "acct-northquell",
+      "name": "Brandon Colbrith",
+      "firstName": "Brandon",
+      "lastName": "Colbrith",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-10",
+      "locationIds": [
+        "acct-northquell-loc-10"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "Lead"
+      ],
+      "externalId": "ext-northquell-004",
+      "email": "brandon.colbrith@prospect.example.com",
+      "phone": "(910) 555-0114",
+      "locationCount": 1,
+      "location": "Northquell - Wilmington Client Hub (Wilmington, NC)",
+      "createdOn": "2026-09-06T14:35:00Z",
+      "lastActivity": "2026-10-01T19:00:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-5",
+      "number": 5,
+      "accountId": "acct-northquell",
+      "name": "Sofia Martivell",
+      "firstName": "Sofia",
+      "lastName": "Martivell",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-3",
+      "locationIds": [
+        "acct-northquell-loc-3"
+      ],
+      "segments": [
+        "Healthcare brand"
+      ],
+      "experienceTags": [
+        "SLA concern"
+      ],
+      "externalId": "ext-northquell-005",
+      "email": "sofia.martivell@clinicgroup.example.com",
+      "phone": "(919) 555-0115",
+      "locationCount": 1,
+      "location": "Northquell - Raleigh Satellite (Raleigh, NC)",
+      "createdOn": "2026-08-23T17:25:00Z",
+      "lastActivity": "2026-10-16T18:00:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-6",
+      "number": 6,
+      "accountId": "acct-northquell",
+      "name": "Nate Foster",
+      "firstName": "Nate",
+      "lastName": "Foster",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-6",
+      "locationIds": [
+        "acct-northquell-loc-6"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Email-first"
+      ],
+      "externalId": "ext-northquell-006",
+      "email": "nate.foster@franchiseco.example.com",
+      "locationCount": 1,
+      "location": "Northquell - Nashville Client Hub (Nashville, TN)",
+      "createdOn": "2026-08-09T20:35:00Z",
+      "lastActivity": "2026-08-19T21:20:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-7",
+      "number": 7,
+      "accountId": "acct-northquell",
+      "name": "Chloe Bennisfield",
+      "firstName": "Chloe",
+      "lastName": "Bennisfield",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-9",
+      "locationIds": [
+        "acct-northquell-loc-9",
+        "acct-northquell-loc-4"
+      ],
+      "segments": [
+        "Retainer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Champion",
+        "Referrer"
+      ],
+      "externalId": "ext-northquell-007",
+      "email": "chloe.bennisfield@multilocation.example.com",
+      "phone": "(864) 555-0116",
+      "locationCount": 2,
+      "location": "Northquell - Greenville Client Hub (Greenville, SC)",
+      "createdOn": "2026-07-26T15:30:00Z",
+      "lastActivity": "2026-08-20T20:40:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-8",
+      "number": 8,
+      "accountId": "acct-northquell",
+      "name": "Omar Hassanvale",
+      "firstName": "Omar",
+      "lastName": "Hassanvale",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-2",
+      "locationIds": [
+        "acct-northquell-loc-2"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-northquell-008",
+      "email": "omar.hassanvale@prospect.example.com",
+      "phone": "(980) 555-0117",
+      "locationCount": 1,
+      "location": "Northquell - Charlotte Studio (Charlotte, NC)",
+      "createdOn": "2026-08-02T18:40:00Z",
+      "lastActivity": "2026-10-19T15:50:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-9",
+      "number": 9,
+      "accountId": "acct-northquell",
+      "name": "Grace Okonkwo",
+      "firstName": "Grace",
+      "lastName": "Okonkwo",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 6,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-5",
+      "locationIds": [
+        "acct-northquell-loc-5"
+      ],
+      "segments": [
+        "Professional services"
+      ],
+      "experienceTags": [
+        "Steady"
+      ],
+      "externalId": "ext-northquell-009",
+      "email": "grace.okonkwo@legalgroup.example.com",
+      "phone": "(678) 555-0118",
+      "locationCount": 1,
+      "location": "Northquell - Atlanta Client Hub (Atlanta, GA)",
+      "createdOn": "2026-07-19T21:45:00Z",
+      "lastActivity": "2026-08-01T14:10:00Z"
+    },
+    {
+      "id": "acct-northquell-ct-10",
+      "number": 10,
+      "accountId": "acct-northquell",
+      "name": "Ian Burkhallow",
+      "firstName": "Ian",
+      "lastName": "Burkhallow",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-northquell-loc-8",
+      "locationIds": [
+        "acct-northquell-loc-8"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Scope creep"
+      ],
+      "externalId": "ext-northquell-010",
+      "email": "ian.burkhallow@retailco.example.com",
+      "phone": "(854) 555-0119",
+      "locationCount": 1,
+      "location": "Northquell - Charleston Client Hub (Charleston, SC)",
+      "createdOn": "2026-07-05T19:20:00Z",
+      "lastActivity": "2026-08-02T16:25:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-northquell-rev-1",
+      "number": 1,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-1",
+      "location": "Northquell - HQ (Charlotte, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Kendall Marsh",
+      "date": "2026-10-18T21:05:00Z",
+      "text": "Northquell rolled out review monitoring for our 14 dental offices in under two weeks. Jess Albright's weekly digest is one page: what changed, which offices are slipping, and what to do next. Our ops team actually reads it.",
+      "photoCount": 0,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Jess Albright"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-northquell-rev-2",
+      "number": 2,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-2",
+      "location": "Northquell - Charlotte Studio (Charlotte, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Valerie Quint",
+      "date": "2026-10-11T16:30:00Z",
+      "text": "The Charlotte Studio creative team rebuilt our review-request emails and texts. Our response rate went from 6% to 15% in one quarter, and they produced Spanish versions without being asked twice.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-northquell-rev-3",
+      "number": 3,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-3",
+      "location": "Northquell - Raleigh Satellite (Raleigh, NC)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Douglas Fairweather",
+      "date": "2026-10-05T19:55:00Z",
+      "text": "The Raleigh team rescheduled our kickoff calls twice and our launch slid three weeks. Work quality since then has been fine, but onboarding project management needs real attention.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Douglas, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Northquell. A manager will reach out this week to make it right.\n\nNorthquell Digital Partners",
+        "author": "Northquell Digital Partners",
+        "date": "2026-10-06T21:10:00Z"
+      }
+    },
+    {
+      "id": "acct-northquell-rev-4",
+      "number": 4,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-5",
+      "location": "Northquell - Atlanta Client Hub (Atlanta, GA)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Priscilla Odom",
+      "date": "2026-09-28T14:55:00Z",
+      "text": "Marcus Leovanne's local search audit found duplicate listings with old phone numbers for six of our HVAC branches. The cleanup plan was realistic for our small marketing team. The reporting dashboards are still a little cluttered.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Marcus Leovanne"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-northquell-rev-5",
+      "number": 5,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-6",
+      "location": "Northquell - Nashville Client Hub (Nashville, TN)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Lamar Whitehead",
+      "date": "2026-09-17T17:20:00Z",
+      "text": "One of our clinics got a burst of one-star reviews after a billing error made the local news. Tanya Brooks had draft responses in our approval queue within three hours, all calm and specific. Crisis contained.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Tanya Brooks"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-northquell-rev-6",
+      "number": 6,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-4",
+      "location": "Northquell - Durham Satellite (Durham, NC)",
+      "site": "yelp",
+      "rating": 3,
+      "reviewer": "Annika Strand",
+      "date": "2026-09-09T20:45:00Z",
+      "text": "Good strategy, but the monthly invoice had vague line items like \"listing optimization, 12 hrs.\" Our finance team needs clearer activity summaries before we renew.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Annika, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Northquell. A manager will reach out this week to make it right.\n\nNorthquell Digital Partners",
+        "author": "Northquell Digital Partners",
+        "date": "2026-09-11T14:25:00Z"
+      }
+    },
+    {
+      "id": "acct-northquell-rev-7",
+      "number": 7,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-7",
+      "location": "Northquell - Richmond Client Hub (Richmond, VA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Jerome Battiste",
+      "date": "2026-08-27T15:15:00Z",
+      "text": "The Richmond hub runs reporting for our franchise system. White-label PDFs go to 30 franchisees every month, and they finally understand why response time matters.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-northquell-rev-8",
+      "number": 8,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-8",
+      "location": "Northquell - Charleston Client Hub (Charleston, SC)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Rosemary Tillman",
+      "date": "2026-08-16T18:10:00Z",
+      "text": "Front-desk training for our boutique hotel staff was practical: scripts for asking for reviews at checkout, not theory. I would have liked the session recording sooner.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-northquell-rev-9",
+      "number": 9,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-9",
+      "location": "Northquell - Greenville Client Hub (Greenville, SC)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Spencer Galloway",
+      "date": "2026-07-06T21:35:00Z",
+      "text": "Our account manager left mid-quarter and we went five weeks without anyone owning our account. They've assigned a backup since, but that gap cost us a seasonal campaign.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Spencer, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Northquell. A manager will reach out this week to make it right.\n\nNorthquell Digital Partners",
+        "author": "Northquell Digital Partners",
+        "date": "2026-07-07T15:55:00Z"
+      }
+    },
+    {
+      "id": "acct-northquell-rev-10",
+      "number": 10,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-10",
+      "location": "Northquell - Wilmington Client Hub (Wilmington, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Harriet Klein",
+      "date": "2026-08-08T19:10:00Z",
+      "text": "They got our suspended business profile reinstated in eight days after our previous vendor gave up. Everyone is now clear on who owns our categories and hours.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-northquell-rev-11",
+      "number": 11,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-1",
+      "location": "Northquell - HQ (Charlotte, NC)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Theodore Akers",
+      "date": "2026-07-28T16:45:00Z",
+      "text": "Competitor benchmarking by market helped us set realistic rating targets for each of our nine law offices. Useful baselines rather than fear-based selling.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-northquell-rev-12",
+      "number": 12,
+      "accountId": "acct-northquell",
+      "locationId": "acct-northquell-loc-2",
+      "location": "Northquell - Charlotte Studio (Charlotte, NC)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Paloma Reyes-Hart",
+      "date": "2026-06-28T21:15:00Z",
+      "text": "The CRM integration took longer than scoped because tool access lagged on their side. Once connected, contacts flowed into review invite cohorts cleanly.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Paloma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Northquell. A manager will reach out this week to make it right.\n\nNorthquell Digital Partners",
+        "author": "Northquell Digital Partners",
+        "date": "2026-06-30T15:55:00Z"
+      }
+    }
+  ]
+}

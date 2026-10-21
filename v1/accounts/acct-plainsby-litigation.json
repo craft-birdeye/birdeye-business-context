@@ -1,0 +1,800 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-plainsby-litigation",
+    "name": "Plainsby Litigation Group",
+    "brandName": "Plainsby Litigation",
+    "parentGroup": "Plainsby Legal",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "legal",
+    "industryLabel": "Legal and professional services",
+    "tier": "Litigation boutique network",
+    "crm": "SmartAdvocate",
+    "purchasedLocations": 8,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Chicago",
+      "state": "IL",
+      "stateName": "Illinois",
+      "country": "United States"
+    },
+    "businessBlurb": "Multi-city litigation group for commercial disputes across the Midwest.",
+    "profile": {
+      "description": "Multi-city litigation group for commercial disputes across the Midwest. Commercial litigators across the Midwest.",
+      "categories": [
+        "Law firm"
+      ],
+      "website": "https://plainsbylitigation.example.com",
+      "email": "hello@plainsbylitigation.example.com",
+      "phone": "(312) 555-0108",
+      "primaryLocationId": "acct-plainsby-litigation-loc-1",
+      "address": {
+        "street1": "5862 Northwind Row",
+        "street2": "Suite 323",
+        "city": "Chicago",
+        "state": "IL",
+        "stateName": "Illinois",
+        "zip": "60603",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Plainsby Litigation",
+      "tagline": "Commercial litigators across the Midwest",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PL",
+        "path": "v1/logos/acct-plainsby-litigation.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-plainsby-litigation.svg"
+      },
+      "colors": {
+        "primary": "#5C2A2A",
+        "secondary": "#F7EEEE",
+        "accent": "#D4A373",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Steady and straightforward; trial-ready confidence without bravado.",
+      "formality": "formal",
+      "replySignoff": "Plainsby Litigation Group"
+    },
+    "staff": [
+      "Walt Brennan",
+      "Sasha Ivers",
+      "Tom Delacroix"
+    ],
+    "services": [
+      "a breach-of-contract suit",
+      "a commercial arbitration",
+      "a partnership dispute",
+      "a discovery fight"
+    ],
+    "llmContext": "Plainsby Litigation Group · Enterprise · Legal and professional services · HQ Chicago, Illinois, United States · 8 purchased locations · CRM SmartAdvocate · Multi-city litigation group for commercial disputes across the Midwest."
+  },
+  "locations": [
+    {
+      "id": "acct-plainsby-litigation-loc-1",
+      "accountId": "acct-plainsby-litigation",
+      "index": 1,
+      "name": "Plainsby Litigation - Chicago",
+      "shortName": "Chicago",
+      "label": "Plainsby Litigation - Chicago (Chicago, IL)",
+      "locationLine": "Chicago, IL",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "5862 Northwind Row",
+        "street2": "Suite 323",
+        "city": "Chicago",
+        "state": "IL",
+        "stateName": "Illinois",
+        "zip": "60603",
+        "country": "US"
+      },
+      "phone": "(872) 555-0100",
+      "email": "chicago@plainsbylitigation.example.com",
+      "website": "https://plainsbylitigation.example.com/locations/chicago",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-26T17:25:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-loc-2",
+      "accountId": "acct-plainsby-litigation",
+      "index": 2,
+      "name": "Plainsby Litigation - Milwaukee",
+      "shortName": "Milwaukee",
+      "label": "Plainsby Litigation - Milwaukee (Milwaukee, WI)",
+      "locationLine": "Milwaukee, WI",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4743 Kestrel Trail",
+        "street2": "Suite 276",
+        "city": "Milwaukee",
+        "state": "WI",
+        "stateName": "Wisconsin",
+        "zip": "53204",
+        "country": "US"
+      },
+      "phone": "(414) 555-0101",
+      "email": "milwaukee@plainsbylitigation.example.com",
+      "website": "https://plainsbylitigation.example.com/locations/milwaukee",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-12T20:50:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-loc-3",
+      "accountId": "acct-plainsby-litigation",
+      "index": 3,
+      "name": "Plainsby Litigation - Minneapolis",
+      "shortName": "Minneapolis",
+      "label": "Plainsby Litigation - Minneapolis (Minneapolis, MN)",
+      "locationLine": "Minneapolis, MN",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3624 Pinecrest Loop",
+        "street2": "",
+        "city": "Minneapolis",
+        "state": "MN",
+        "stateName": "Minnesota",
+        "zip": "55401",
+        "country": "US"
+      },
+      "phone": "(612) 555-0102",
+      "email": "minneapolis@plainsbylitigation.example.com",
+      "website": "https://plainsbylitigation.example.com/locations/minneapolis",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-07-29T15:15:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-loc-4",
+      "accountId": "acct-plainsby-litigation",
+      "index": 4,
+      "name": "Plainsby Litigation - Indianapolis",
+      "shortName": "Indianapolis",
+      "label": "Plainsby Litigation - Indianapolis (Indianapolis, IN)",
+      "locationLine": "Indianapolis, IN",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2557 Emberly Terrace",
+        "street2": "Suite 166",
+        "city": "Indianapolis",
+        "state": "IN",
+        "stateName": "Indiana",
+        "zip": "46202",
+        "country": "US"
+      },
+      "phone": "(317) 555-0103",
+      "email": "indianapolis@plainsbylitigation.example.com",
+      "website": "https://plainsbylitigation.example.com/locations/indianapolis",
+      "timezone": "America/Indiana/Indianapolis",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-15T18:40:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-loc-5",
+      "accountId": "acct-plainsby-litigation",
+      "index": 5,
+      "name": "Plainsby Litigation - St. Louis",
+      "shortName": "St. Louis",
+      "label": "Plainsby Litigation - St. Louis (St. Louis, MO)",
+      "locationLine": "St. Louis, MO",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1438 Hazelwood Court",
+        "street2": "Suite 119",
+        "city": "St. Louis",
+        "state": "MO",
+        "stateName": "Missouri",
+        "zip": "63101",
+        "country": "US"
+      },
+      "phone": "(314) 555-0104",
+      "email": "stlouis@plainsbylitigation.example.com",
+      "website": "https://plainsbylitigation.example.com/locations/st-louis",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-01T21:05:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-loc-6",
+      "accountId": "acct-plainsby-litigation",
+      "index": 6,
+      "name": "Plainsby Litigation - Kansas City",
+      "shortName": "Kansas City",
+      "label": "Plainsby Litigation - Kansas City (Kansas City, MO)",
+      "locationLine": "Kansas City, MO",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "319 Glenhaven Terrace",
+        "street2": "Suite 312",
+        "city": "Kansas City",
+        "state": "MO",
+        "stateName": "Missouri",
+        "zip": "64106",
+        "country": "US"
+      },
+      "phone": "(816) 555-0105",
+      "email": "kansas-city@plainsbylitigation.example.com",
+      "website": "https://plainsbylitigation.example.com/locations/kansas-city",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-10-13T16:35:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-loc-7",
+      "accountId": "acct-plainsby-litigation",
+      "index": 7,
+      "name": "Plainsby Litigation - Des Moines",
+      "shortName": "Des Moines",
+      "label": "Plainsby Litigation - Des Moines (Des Moines, IA)",
+      "locationLine": "Des Moines, IA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8100 Lantern Hill Avenue",
+        "street2": "Suite 417",
+        "city": "Des Moines",
+        "state": "IA",
+        "stateName": "Iowa",
+        "zip": "50309",
+        "country": "US"
+      },
+      "phone": "(515) 555-0106",
+      "email": "des-moines@plainsbylitigation.example.com",
+      "website": "https://plainsbylitigation.example.com/locations/des-moines",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-09-29T19:00:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-loc-8",
+      "accountId": "acct-plainsby-litigation",
+      "index": 8,
+      "name": "Plainsby Litigation - Madison",
+      "shortName": "Madison",
+      "label": "Plainsby Litigation - Madison (Madison, WI)",
+      "locationLine": "Madison, WI",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7033 Zephyr Drive",
+        "street2": "Suite 394",
+        "city": "Madison",
+        "state": "WI",
+        "stateName": "Wisconsin",
+        "zip": "53704",
+        "country": "US"
+      },
+      "phone": "(608) 555-0107",
+      "email": "madison@plainsbylitigation.example.com",
+      "website": "https://plainsbylitigation.example.com/locations/madison",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-06T14:25:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-plainsby-litigation-ct-1",
+      "number": 42,
+      "accountId": "acct-plainsby-litigation",
+      "name": "Nolan Jaramillo",
+      "firstName": "Nolan",
+      "lastName": "Jaramillo",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-plainsby-litigation-loc-1",
+      "locationIds": [
+        "acct-plainsby-litigation-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Corporate"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-plainsby-litigation-001",
+      "email": "nolan.jaramillo@example.com",
+      "phone": "(312) 555-0109",
+      "locationCount": 1,
+      "location": "Plainsby Litigation - Chicago (Chicago, IL)",
+      "createdOn": "2026-09-13T20:30:00Z",
+      "lastActivity": "2026-10-19T21:25:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-ct-2",
+      "number": 2,
+      "accountId": "acct-plainsby-litigation",
+      "name": "Opal Rasmussen",
+      "firstName": "Opal",
+      "lastName": "Rasmussen",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-plainsby-litigation-loc-4",
+      "locationIds": [
+        "acct-plainsby-litigation-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-plainsby-litigation-002",
+      "email": "opal.rasmussen@example.com",
+      "phone": "(463) 555-0110",
+      "locationCount": 1,
+      "location": "Plainsby Litigation - Indianapolis (Indianapolis, IN)",
+      "createdOn": "2026-08-30T17:00:00Z",
+      "lastActivity": "2026-09-26T18:45:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-ct-3",
+      "number": 3,
+      "accountId": "acct-plainsby-litigation",
+      "name": "Pascal Zielinski",
+      "firstName": "Pascal",
+      "lastName": "Zielinski",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-plainsby-litigation-loc-7",
+      "locationIds": [
+        "acct-plainsby-litigation-loc-7"
+      ],
+      "segments": [
+        "Consultation inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-plainsby-litigation-003",
+      "phone": "(515) 555-0111",
+      "locationCount": 1,
+      "location": "Plainsby Litigation - Des Moines (Des Moines, IA)",
+      "createdOn": "2026-08-16T14:10:00Z",
+      "lastActivity": "2026-10-11T19:05:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-ct-4",
+      "number": 4,
+      "accountId": "acct-plainsby-litigation",
+      "name": "Rhea Granger",
+      "firstName": "Rhea",
+      "lastName": "Granger",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-plainsby-litigation-loc-2",
+      "locationIds": [
+        "acct-plainsby-litigation-loc-2",
+        "acct-plainsby-litigation-loc-7"
+      ],
+      "segments": [
+        "Referral"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-plainsby-litigation-004",
+      "email": "rhea.granger@example.com",
+      "phone": "(414) 555-0112",
+      "locationCount": 2,
+      "location": "Plainsby Litigation - Milwaukee (Milwaukee, WI)",
+      "createdOn": "2026-08-02T19:00:00Z",
+      "lastActivity": "2026-08-07T16:00:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-ct-5",
+      "number": 5,
+      "accountId": "acct-plainsby-litigation",
+      "name": "Soren Osgood",
+      "firstName": "Soren",
+      "lastName": "Osgood",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-plainsby-litigation-loc-5",
+      "locationIds": [
+        "acct-plainsby-litigation-loc-5"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-plainsby-litigation-005",
+      "email": "soren.osgood@example.com",
+      "phone": "(314) 555-0113",
+      "locationCount": 1,
+      "location": "Plainsby Litigation - St. Louis (St. Louis, MO)",
+      "createdOn": "2026-07-19T16:10:00Z",
+      "lastActivity": "2026-08-08T17:40:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-ct-6",
+      "number": 6,
+      "accountId": "acct-plainsby-litigation",
+      "name": "Tess Yardley",
+      "firstName": "Tess",
+      "lastName": "Yardley",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-plainsby-litigation-loc-8",
+      "locationIds": [
+        "acct-plainsby-litigation-loc-8"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-plainsby-litigation-006",
+      "email": "tess.yardley@example.com",
+      "locationCount": 1,
+      "location": "Plainsby Litigation - Madison (Madison, WI)",
+      "createdOn": "2026-07-05T21:50:00Z",
+      "lastActivity": "2026-08-09T14:00:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-ct-7",
+      "number": 7,
+      "accountId": "acct-plainsby-litigation",
+      "name": "Vivian Galbrecken",
+      "firstName": "Vivian",
+      "lastName": "Galbrecken",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-plainsby-litigation-loc-3",
+      "locationIds": [
+        "acct-plainsby-litigation-loc-3",
+        "acct-plainsby-litigation-loc-8",
+        "acct-plainsby-litigation-loc-5"
+      ],
+      "segments": [
+        "Corporate",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-plainsby-litigation-007",
+      "email": "vivian.galbrecken@example.com",
+      "phone": "(612) 555-0114",
+      "locationCount": 3,
+      "location": "Plainsby Litigation - Minneapolis (Minneapolis, MN)",
+      "createdOn": "2026-10-17T18:20:00Z",
+      "lastActivity": "2026-10-19T15:10:00Z"
+    },
+    {
+      "id": "acct-plainsby-litigation-ct-8",
+      "number": 8,
+      "accountId": "acct-plainsby-litigation",
+      "name": "Wade Northcott",
+      "firstName": "Wade",
+      "lastName": "Northcott",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-plainsby-litigation-loc-6",
+      "locationIds": [
+        "acct-plainsby-litigation-loc-6",
+        "acct-plainsby-litigation-loc-3"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-plainsby-litigation-008",
+      "email": "wade.northcott@example.com",
+      "phone": "(816) 555-0115",
+      "locationCount": 2,
+      "location": "Plainsby Litigation - Kansas City (Kansas City, MO)",
+      "createdOn": "2026-06-28T15:10:00Z",
+      "lastActivity": "2026-07-21T20:10:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-plainsby-litigation-rev-1",
+      "number": 1,
+      "accountId": "acct-plainsby-litigation",
+      "locationId": "acct-plainsby-litigation-loc-1",
+      "location": "Plainsby Litigation - Chicago (Chicago, IL)",
+      "site": "yelp",
+      "rating": 3,
+      "reviewer": "Yvette Underhill",
+      "date": "2026-07-21T18:35:00Z",
+      "text": "Competent work on a breach-of-contract suit, but the invoices from Plainsby Litigation were vague and I had to ask for an itemized breakdown. Clearer billing would earn a better rating.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Yvette, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Plainsby Litigation. A member of our leadership team will contact you directly to discuss it.\n\nPlainsby Litigation Group",
+        "author": "Plainsby Litigation Group",
+        "date": "2026-07-22T20:55:00Z"
+      }
+    },
+    {
+      "id": "acct-plainsby-litigation-rev-2",
+      "number": 2,
+      "accountId": "acct-plainsby-litigation",
+      "locationId": "acct-plainsby-litigation-loc-2",
+      "location": "Plainsby Litigation - Milwaukee (Milwaukee, WI)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Zion Castaneda",
+      "date": "2026-07-07T19:50:00Z",
+      "text": "Referred a friend to Plainsby Litigation after my own a commercial arbitration went smoothly. Sasha Ivers and Tom Delacroix worked as a team and never made us repeat ourselves.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Sasha Ivers"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-plainsby-litigation-rev-3",
+      "number": 3,
+      "accountId": "acct-plainsby-litigation",
+      "locationId": "acct-plainsby-litigation-loc-3",
+      "location": "Plainsby Litigation - Minneapolis (Minneapolis, MN)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Arlo Jaramillo",
+      "date": "2026-10-16T16:25:00Z",
+      "text": "My file at Plainsby Litigation changed hands twice during a partnership dispute and nobody told me. It eventually got done, but I spent too much time chasing status updates.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Arlo, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Plainsby Litigation. A member of our leadership team will contact you directly to discuss it.\n\nPlainsby Litigation Group",
+        "author": "Plainsby Litigation Group",
+        "date": "2026-10-17T18:30:00Z"
+      }
+    },
+    {
+      "id": "acct-plainsby-litigation-rev-4",
+      "number": 4,
+      "accountId": "acct-plainsby-litigation",
+      "locationId": "acct-plainsby-litigation-loc-4",
+      "location": "Plainsby Litigation - Indianapolis (Indianapolis, IN)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Bryony Rasmussen",
+      "date": "2026-10-02T17:15:00Z",
+      "text": "The fixed-fee quote for a discovery fight was honored to the dollar. Walt Brennan was thorough, though the first consult at the Indianapolis location started 20 minutes late.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Walt Brennan"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Bryony. We are glad the team at Plainsby Litigation could help, and we appreciate you taking the time to share your experience.\n\nPlainsby Litigation Group",
+        "author": "Plainsby Litigation Group",
+        "date": "2026-10-04T19:45:00Z"
+      }
+    },
+    {
+      "id": "acct-plainsby-litigation-rev-5",
+      "number": 5,
+      "accountId": "acct-plainsby-litigation",
+      "locationId": "acct-plainsby-litigation-loc-5",
+      "location": "Plainsby Litigation - St. Louis (St. Louis, MO)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Cassius Zielinski",
+      "date": "2026-09-18T14:50:00Z",
+      "text": "My consult about a partnership dispute was free of jargon and pressure. Sasha Ivers told me what I could handle myself and what really needed an attorney.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Sasha Ivers"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-plainsby-litigation-rev-6",
+      "number": 6,
+      "accountId": "acct-plainsby-litigation",
+      "locationId": "acct-plainsby-litigation-loc-6",
+      "location": "Plainsby Litigation - Kansas City (Kansas City, MO)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Dahlia Granger",
+      "date": "2026-09-04T15:10:00Z",
+      "text": "Good attorney, frustrating front office. Plainsby Litigation sent the paperwork for a commercial arbitration to the wrong email twice.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Dahlia, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Plainsby Litigation. A member of our leadership team will contact you directly to discuss it.\n\nPlainsby Litigation Group",
+        "author": "Plainsby Litigation Group",
+        "date": "2026-09-06T17:20:00Z"
+      }
+    },
+    {
+      "id": "acct-plainsby-litigation-rev-7",
+      "number": 7,
+      "accountId": "acct-plainsby-litigation",
+      "locationId": "acct-plainsby-litigation-loc-7",
+      "location": "Plainsby Litigation - Des Moines (Des Moines, IA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Elio Osgood",
+      "date": "2026-08-21T20:40:00Z",
+      "text": "Walt Brennan handled a partnership dispute for us with real care. Every step and cost was explained in plain English, and nothing from Plainsby Litigation came as a surprise.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Walt Brennan"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Elio. We are glad the team at Plainsby Litigation could help, and we appreciate you taking the time to share your experience.\n\nPlainsby Litigation Group",
+        "author": "Plainsby Litigation Group",
+        "date": "2026-08-22T14:40:00Z"
+      }
+    },
+    {
+      "id": "acct-plainsby-litigation-rev-8",
+      "number": 8,
+      "accountId": "acct-plainsby-litigation",
+      "locationId": "acct-plainsby-litigation-loc-8",
+      "location": "Plainsby Litigation - Madison (Madison, WI)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Fern Yardley",
+      "date": "2026-08-07T21:30:00Z",
+      "text": "Strong work on a discovery fight. Responses from Plainsby Litigation usually came within a day, though a couple of emails took longer during a busy stretch. Would hire them again.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    }
+  ]
+}

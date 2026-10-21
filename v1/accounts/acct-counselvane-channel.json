@@ -1,0 +1,660 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-counselvane-channel",
+    "name": "Counselvane Referral Network",
+    "brandName": "Counselvane",
+    "parentGroup": "Counselvane Channel",
+    "segment": "CH-SLV",
+    "segmentLabel": "Channel",
+    "industryId": "legal",
+    "industryLabel": "Legal and professional services",
+    "tier": "Channel referral partner",
+    "crm": "HubSpot",
+    "purchasedLocations": 4,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Boston",
+      "state": "MA",
+      "stateName": "Massachusetts",
+      "country": "United States"
+    },
+    "businessBlurb": "Channel network that routes consumer legal leads and manages partner reputation pages.",
+    "profile": {
+      "description": "Channel network that routes consumer legal leads and manages partner reputation pages. Referral and reputation network for consumer law firms.",
+      "categories": [
+        "Lawyer referral service"
+      ],
+      "website": "https://counselvane.example.com",
+      "email": "hello@counselvane.example.com",
+      "phone": "(617) 555-0104",
+      "primaryLocationId": "acct-counselvane-channel-loc-1",
+      "address": {
+        "street1": "592 Bluestem Boulevard",
+        "street2": "",
+        "city": "Boston",
+        "state": "MA",
+        "stateName": "Massachusetts",
+        "zip": "02110",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Counselvane",
+      "tagline": "Referral and reputation network for consumer law firms",
+      "logo": {
+        "kind": "monogram",
+        "initials": "C",
+        "path": "v1/logos/acct-counselvane-channel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-counselvane-channel.svg"
+      },
+      "colors": {
+        "primary": "#003B5C",
+        "secondary": "#E8F0F5",
+        "accent": "#F6AE2D",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Professional and partner-focused; emphasizes lead quality and response times.",
+      "formality": "formal",
+      "replySignoff": "Counselvane partner success"
+    },
+    "staff": [
+      "Grant Hollisford",
+      "Simone Achebe",
+      "Paul Reyesmont"
+    ],
+    "services": [
+      "consumer lead routing for our firm",
+      "reputation pages for our attorneys",
+      "intake response coaching",
+      "a review program for our offices"
+    ],
+    "llmContext": "Counselvane Referral Network · Channel · Legal and professional services · HQ Boston, Massachusetts, United States · 4 purchased locations · CRM HubSpot · Channel network that routes consumer legal leads and manages partner reputation pages."
+  },
+  "locations": [
+    {
+      "id": "acct-counselvane-channel-loc-1",
+      "accountId": "acct-counselvane-channel",
+      "index": 1,
+      "name": "Counselvane - HQ",
+      "shortName": "HQ",
+      "label": "Counselvane - HQ (Boston, MA)",
+      "locationLine": "Boston, MA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "592 Bluestem Boulevard",
+        "street2": "",
+        "city": "Boston",
+        "state": "MA",
+        "stateName": "Massachusetts",
+        "zip": "02110",
+        "country": "US"
+      },
+      "phone": "(857) 555-0100",
+      "email": "hq@counselvane.example.com",
+      "website": "https://counselvane.example.com/locations/hq",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-07-24T21:15:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-loc-2",
+      "accountId": "acct-counselvane-channel",
+      "index": 2,
+      "name": "Counselvane - Partner desk - NYC",
+      "shortName": "Partner desk - NYC",
+      "label": "Counselvane - Partner desk - NYC (New York, NY)",
+      "locationLine": "New York, NY",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3949 Upland Ridge Parkway",
+        "street2": "Suite 302",
+        "city": "New York",
+        "state": "NY",
+        "stateName": "New York",
+        "zip": "10016",
+        "country": "US"
+      },
+      "phone": "(212) 555-0101",
+      "email": "partner-desk-nyc@counselvane.example.com",
+      "website": "https://counselvane.example.com/locations/partner-desk-nyc",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-07-10T16:45:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-loc-3",
+      "accountId": "acct-counselvane-channel",
+      "index": 3,
+      "name": "Counselvane - Partner desk - Philly",
+      "shortName": "Partner desk - Philly",
+      "label": "Counselvane - Partner desk - Philly (Philadelphia, PA)",
+      "locationLine": "Philadelphia, PA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2830 Thistledown Terrace",
+        "street2": "Suite 255",
+        "city": "Philadelphia",
+        "state": "PA",
+        "stateName": "Pennsylvania",
+        "zip": "19103",
+        "country": "US"
+      },
+      "phone": "(267) 555-0102",
+      "email": "partner-desk-philly@counselvane.example.com",
+      "website": "https://counselvane.example.com/locations/partner-desk-philly",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-06-26T19:10:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-loc-4",
+      "accountId": "acct-counselvane-channel",
+      "index": 4,
+      "name": "Counselvane - Partner desk - DC",
+      "shortName": "Partner desk - DC",
+      "label": "Counselvane - Partner desk - DC (Washington, DC)",
+      "locationLine": "Washington, DC",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6135 Clover Bend Row",
+        "street2": "",
+        "city": "Washington",
+        "state": "DC",
+        "stateName": "District of Columbia",
+        "zip": "20005",
+        "country": "US"
+      },
+      "phone": "(202) 555-0103",
+      "email": "partner-desk-dc@counselvane.example.com",
+      "website": "https://counselvane.example.com/locations/partner-desk-dc",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-10-08T14:10:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-counselvane-channel-ct-1",
+      "number": 42,
+      "accountId": "acct-counselvane-channel",
+      "name": "Nolan Moreau",
+      "firstName": "Nolan",
+      "lastName": "Moreau",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-counselvane-channel-loc-1",
+      "locationIds": [
+        "acct-counselvane-channel-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-counselvane-channel-001",
+      "email": "nolan.moreau@ridgelinehomes.example.com",
+      "phone": "(617) 555-0105",
+      "locationCount": 1,
+      "location": "Counselvane - HQ (Boston, MA)",
+      "createdOn": "2026-09-30T16:45:00Z",
+      "lastActivity": "2026-10-15T17:30:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-ct-2",
+      "number": 2,
+      "accountId": "acct-counselvane-channel",
+      "name": "Opal Uchenna",
+      "firstName": "Opal",
+      "lastName": "Uchenna",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-counselvane-channel-loc-4",
+      "locationIds": [
+        "acct-counselvane-channel-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-counselvane-channel-002",
+      "email": "opal.uchenna@keystonelegal.example.com",
+      "phone": "(202) 555-0106",
+      "locationCount": 1,
+      "location": "Counselvane - Partner desk - DC (Washington, DC)",
+      "createdOn": "2026-09-16T21:50:00Z",
+      "lastActivity": "2026-10-02T14:45:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-ct-3",
+      "number": 3,
+      "accountId": "acct-counselvane-channel",
+      "name": "Pascal Cortland",
+      "firstName": "Pascal",
+      "lastName": "Cortland",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-counselvane-channel-loc-3",
+      "locationIds": [
+        "acct-counselvane-channel-loc-3"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-counselvane-channel-003",
+      "phone": "(215) 555-0107",
+      "locationCount": 1,
+      "location": "Counselvane - Partner desk - Philly (Philadelphia, PA)",
+      "createdOn": "2026-09-02T18:45:00Z",
+      "lastActivity": "2026-09-12T15:05:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-ct-4",
+      "number": 4,
+      "accountId": "acct-counselvane-channel",
+      "name": "Rhea Kincaid",
+      "firstName": "Rhea",
+      "lastName": "Kincaid",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-counselvane-channel-loc-2",
+      "locationIds": [
+        "acct-counselvane-channel-loc-2",
+        "acct-counselvane-channel-loc-3"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-counselvane-channel-004",
+      "email": "rhea.kincaid@meridianfood.example.com",
+      "phone": "(646) 555-0108",
+      "locationCount": 2,
+      "location": "Counselvane - Partner desk - NYC (New York, NY)",
+      "createdOn": "2026-08-19T15:00:00Z",
+      "lastActivity": "2026-09-27T20:20:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-ct-5",
+      "number": 5,
+      "accountId": "acct-counselvane-channel",
+      "name": "Soren Stroud",
+      "firstName": "Soren",
+      "lastName": "Stroud",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-counselvane-channel-loc-1",
+      "locationIds": [
+        "acct-counselvane-channel-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-counselvane-channel-005",
+      "email": "soren.stroud@tidewaterdental.example.com",
+      "phone": "(617) 555-0109",
+      "locationCount": 1,
+      "location": "Counselvane - HQ (Boston, MA)",
+      "createdOn": "2026-08-05T20:30:00Z",
+      "lastActivity": "2026-10-12T21:30:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-ct-6",
+      "number": 6,
+      "accountId": "acct-counselvane-channel",
+      "name": "Tess Carrow",
+      "firstName": "Tess",
+      "lastName": "Carrow",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-counselvane-channel-loc-4",
+      "locationIds": [
+        "acct-counselvane-channel-loc-4"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-counselvane-channel-006",
+      "email": "tess.carrow@prospect.example.com",
+      "locationCount": 1,
+      "location": "Counselvane - Partner desk - DC (Washington, DC)",
+      "createdOn": "2026-07-22T17:00:00Z",
+      "lastActivity": "2026-07-28T18:25:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-ct-7",
+      "number": 7,
+      "accountId": "acct-counselvane-channel",
+      "name": "Vivian Jessup",
+      "firstName": "Vivian",
+      "lastName": "Jessup",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-counselvane-channel-loc-3",
+      "locationIds": [
+        "acct-counselvane-channel-loc-3",
+        "acct-counselvane-channel-loc-4",
+        "acct-counselvane-channel-loc-1"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-counselvane-channel-007",
+      "email": "vivian.jessup@pinnaclefitness.example.com",
+      "phone": "(215) 555-0110",
+      "locationCount": 3,
+      "location": "Counselvane - Partner desk - Philly (Philadelphia, PA)",
+      "createdOn": "2026-07-08T14:45:00Z",
+      "lastActivity": "2026-07-29T19:05:00Z"
+    },
+    {
+      "id": "acct-counselvane-channel-ct-8",
+      "number": 8,
+      "accountId": "acct-counselvane-channel",
+      "name": "Wade Quintero",
+      "firstName": "Wade",
+      "lastName": "Quintero",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-counselvane-channel-loc-2",
+      "locationIds": [
+        "acct-counselvane-channel-loc-2",
+        "acct-counselvane-channel-loc-3"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-counselvane-channel-008",
+      "email": "wade.quintero@harborclinics.example.com",
+      "phone": "(646) 555-0111",
+      "locationCount": 2,
+      "location": "Counselvane - Partner desk - NYC (New York, NY)",
+      "createdOn": "2026-07-15T19:50:00Z",
+      "lastActivity": "2026-10-15T16:10:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-counselvane-channel-rev-1",
+      "number": 1,
+      "accountId": "acct-counselvane-channel",
+      "locationId": "acct-counselvane-channel-loc-1",
+      "location": "Counselvane - HQ (Boston, MA)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Yvette Yancey",
+      "date": "2026-10-19T14:35:00Z",
+      "text": "Tool access for consumer lead routing for our firm took weeks to sort out on the Counselvane side. Once connected it worked, but setup was rough.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Yvette, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Counselvane. A member of our leadership team will contact you directly to discuss it.\n\nCounselvane partner success",
+        "author": "Counselvane partner success",
+        "date": "2026-10-20T16:50:00Z"
+      }
+    },
+    {
+      "id": "acct-counselvane-channel-rev-2",
+      "number": 2,
+      "accountId": "acct-counselvane-channel",
+      "locationId": "acct-counselvane-channel-loc-2",
+      "location": "Counselvane - Partner desk - NYC (New York, NY)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Zion Fitzwilliam",
+      "date": "2026-10-05T15:50:00Z",
+      "text": "Counselvane took over reputation pages for our attorneys for our team and the difference showed within a month. Simone Achebe sends a short weekly update with exactly what changed and what to do next.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Simone Achebe"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-counselvane-channel-rev-3",
+      "number": 3,
+      "accountId": "acct-counselvane-channel",
+      "locationId": "acct-counselvane-channel-loc-3",
+      "location": "Counselvane - Partner desk - Philly (Philadelphia, PA)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Arlo Moreau",
+      "date": "2026-09-21T20:25:00Z",
+      "text": "Solid partner for intake response coaching. Reporting is clear and Paul Reyesmont is responsive. Onboarding with Counselvane took a couple of weeks longer than planned.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Paul Reyesmont"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-counselvane-channel-rev-4",
+      "number": 4,
+      "accountId": "acct-counselvane-channel",
+      "locationId": "acct-counselvane-channel-loc-4",
+      "location": "Counselvane - Partner desk - DC (Washington, DC)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Bryony Uchenna",
+      "date": "2026-09-07T21:40:00Z",
+      "text": "Our kickoff with Counselvane for a review program for our offices was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Bryony, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Counselvane. A member of our leadership team will contact you directly to discuss it.\n\nCounselvane partner success",
+        "author": "Counselvane partner success",
+        "date": "2026-09-09T15:20:00Z"
+      }
+    },
+    {
+      "id": "acct-counselvane-channel-rev-5",
+      "number": 5,
+      "accountId": "acct-counselvane-channel",
+      "locationId": "acct-counselvane-channel-loc-1",
+      "location": "Counselvane - HQ (Boston, MA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Cassius Cortland",
+      "date": "2026-08-24T18:15:00Z",
+      "text": "We run more than 20 law office locations and Counselvane is the first partner that made consumer lead routing for our firm feel manageable. Simone Achebe knows our markets by name.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Simone Achebe"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-counselvane-channel-rev-6",
+      "number": 6,
+      "accountId": "acct-counselvane-channel",
+      "locationId": "acct-counselvane-channel-loc-2",
+      "location": "Counselvane - Partner desk - NYC (New York, NY)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Dahlia Kincaid",
+      "date": "2026-08-10T19:15:00Z",
+      "text": "Good strategy on reputation pages for our attorneys, but the monthly invoice from Counselvane has vague line items. Our finance team needs clearer activity summaries.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Dahlia, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Counselvane. A member of our leadership team will contact you directly to discuss it.\n\nCounselvane partner success",
+        "author": "Counselvane partner success",
+        "date": "2026-08-12T21:30:00Z"
+      }
+    },
+    {
+      "id": "acct-counselvane-channel-rev-7",
+      "number": 7,
+      "accountId": "acct-counselvane-channel",
+      "locationId": "acct-counselvane-channel-loc-3",
+      "location": "Counselvane - Partner desk - Philly (Philadelphia, PA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Elio Stroud",
+      "date": "2026-07-27T16:50:00Z",
+      "text": "When one of our law office locations got hit with a wave of negative reviews, Grant Hollisford had draft responses ready the same afternoon. Calm, specific, and on-brand.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Grant Hollisford"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Elio. We are glad the team at Counselvane could help, and we appreciate you taking the time to share your experience.\n\nCounselvane partner success",
+        "author": "Counselvane partner success",
+        "date": "2026-07-28T18:15:00Z"
+      }
+    },
+    {
+      "id": "acct-counselvane-channel-rev-8",
+      "number": 8,
+      "accountId": "acct-counselvane-channel",
+      "locationId": "acct-counselvane-channel-loc-4",
+      "location": "Counselvane - Partner desk - DC (Washington, DC)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Fern Carrow",
+      "date": "2026-07-13T17:05:00Z",
+      "text": "Our account lead at Counselvane left and we went a month without anyone owning a review program for our offices. They've since assigned someone new, but the gap hurt.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Fern, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Counselvane. A member of our leadership team will contact you directly to discuss it.\n\nCounselvane partner success",
+        "author": "Counselvane partner success",
+        "date": "2026-07-15T19:15:00Z"
+      }
+    }
+  ]
+}

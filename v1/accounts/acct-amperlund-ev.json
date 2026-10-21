@@ -1,0 +1,723 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-amperlund-ev",
+    "name": "Amperlund EV Service Labs",
+    "brandName": "Amperlund EV",
+    "parentGroup": "Amperlund EV",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "automotive",
+    "industryLabel": "Automotive",
+    "tier": "EV specialty",
+    "crm": "Tekion",
+    "purchasedLocations": 5,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "San Jose",
+      "state": "CA",
+      "stateName": "California",
+      "country": "United States"
+    },
+    "businessBlurb": "EV-focused service labs along California’s I-5 and Bay corridors.",
+    "profile": {
+      "description": "EV-focused service labs along California’s I-5 and Bay corridors. Independent EV service in California.",
+      "categories": [
+        "Auto repair shop"
+      ],
+      "website": "https://amperlundev.example.com",
+      "email": "hello@amperlundev.example.com",
+      "phone": "(408) 555-0105",
+      "primaryLocationId": "acct-amperlund-ev-loc-1",
+      "address": {
+        "street1": "4085 Quillfeather Loop",
+        "street2": "Suite 186",
+        "city": "San Jose",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "95112",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Amperlund EV",
+      "tagline": "Independent EV service in California",
+      "logo": {
+        "kind": "monogram",
+        "initials": "AE",
+        "path": "v1/logos/acct-amperlund-ev.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-amperlund-ev.svg"
+      },
+      "colors": {
+        "primary": "#00A6A6",
+        "secondary": "#E6F7F7",
+        "accent": "#1B1B3A",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Tech-forward, precise, and enthusiastic about EVs.",
+      "formality": "neutral",
+      "replySignoff": "Amperlund EV Service Labs"
+    },
+    "staff": [
+      "Ines",
+      "Kai",
+      "Drew"
+    ],
+    "services": [
+      "a battery health check",
+      "a heat pump repair",
+      "a suspension alignment",
+      "a charging port repair"
+    ],
+    "llmContext": "Amperlund EV Service Labs · Enterprise · Automotive · HQ San Jose, California, United States · 5 purchased locations · CRM Tekion · EV-focused service labs along California’s I-5 and Bay corridors."
+  },
+  "locations": [
+    {
+      "id": "acct-amperlund-ev-loc-1",
+      "accountId": "acct-amperlund-ev",
+      "index": 1,
+      "name": "Amperlund EV - San Jose Lab",
+      "shortName": "San Jose Lab",
+      "label": "Amperlund EV - San Jose Lab (San Jose, CA)",
+      "locationLine": "San Jose, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "4085 Quillfeather Loop",
+        "street2": "Suite 186",
+        "city": "San Jose",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "95112",
+        "country": "US"
+      },
+      "phone": "(408) 555-0100",
+      "email": "san-jose-lab@amperlundev.example.com",
+      "website": "https://amperlundev.example.com/locations/san-jose-lab",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-08T14:00:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-loc-2",
+      "accountId": "acct-amperlund-ev",
+      "index": 2,
+      "name": "Amperlund EV - Fremont",
+      "shortName": "Fremont",
+      "label": "Amperlund EV - Fremont (Fremont, CA)",
+      "locationLine": "Fremont, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "728 Marigold Lane",
+        "street2": "",
+        "city": "Fremont",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "94538",
+        "country": "US"
+      },
+      "phone": "(510) 555-0101",
+      "email": "fremont@amperlundev.example.com",
+      "website": "https://amperlundev.example.com/locations/fremont",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-10-20T15:20:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-loc-3",
+      "accountId": "acct-amperlund-ev",
+      "index": 3,
+      "name": "Amperlund EV - Oakland",
+      "shortName": "Oakland",
+      "label": "Amperlund EV - Oakland (Oakland, CA)",
+      "locationLine": "Oakland, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1847 Saddlebrook Drive",
+        "street2": "",
+        "city": "Oakland",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "94610",
+        "country": "US"
+      },
+      "phone": "(510) 555-0102",
+      "email": "oakland@amperlundev.example.com",
+      "website": "https://amperlundev.example.com/locations/oakland",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-06T20:50:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-loc-4",
+      "accountId": "acct-amperlund-ev",
+      "index": 4,
+      "name": "Amperlund EV - Sacramento",
+      "shortName": "Sacramento",
+      "label": "Amperlund EV - Sacramento (Sacramento, CA)",
+      "locationLine": "Sacramento, CA",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7442 Bramblewood Boulevard",
+        "street2": "Suite 175",
+        "city": "Sacramento",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "95814",
+        "country": "US"
+      },
+      "phone": "(916) 555-0103",
+      "email": "sacramento@amperlundev.example.com",
+      "website": "https://amperlundev.example.com/locations/sacramento",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-09-22T21:10:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-loc-5",
+      "accountId": "acct-amperlund-ev",
+      "index": 5,
+      "name": "Amperlund EV - Fresno",
+      "shortName": "Fresno",
+      "label": "Amperlund EV - Fresno (Fresno, CA)",
+      "locationLine": "Fresno, CA",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8561 Meadowlark Avenue",
+        "street2": "Suite 222",
+        "city": "Fresno",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "93720",
+        "country": "US"
+      },
+      "phone": "(559) 555-0104",
+      "email": "fresno@amperlundev.example.com",
+      "website": "https://amperlundev.example.com/locations/fresno",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-08T18:45:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-amperlund-ev-ct-1",
+      "number": 42,
+      "accountId": "acct-amperlund-ev",
+      "name": "Adele Sandoval",
+      "firstName": "Adele",
+      "lastName": "Sandoval",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-amperlund-ev-loc-1",
+      "locationIds": [
+        "acct-amperlund-ev-loc-1"
+      ],
+      "segments": [
+        "Service plan",
+        "Tire customer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-amperlund-ev-001",
+      "email": "adele.sandoval@example.com",
+      "phone": "(408) 555-0106",
+      "locationCount": 1,
+      "location": "Amperlund EV - San Jose Lab (San Jose, CA)",
+      "createdOn": "2026-10-01T17:40:00Z",
+      "lastActivity": "2026-10-05T18:05:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-ct-2",
+      "number": 2,
+      "accountId": "acct-amperlund-ev",
+      "name": "Bennett Achebe",
+      "firstName": "Bennett",
+      "lastName": "Achebe",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-amperlund-ev-loc-4",
+      "locationIds": [
+        "acct-amperlund-ev-loc-4"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-amperlund-ev-002",
+      "email": "bennett.achebe@example.com",
+      "phone": "(916) 555-0107",
+      "locationCount": 1,
+      "location": "Amperlund EV - Sacramento (Sacramento, CA)",
+      "createdOn": "2026-09-17T20:10:00Z",
+      "lastActivity": "2026-09-30T21:30:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-ct-3",
+      "number": 3,
+      "accountId": "acct-amperlund-ev",
+      "name": "Carmen Halvorsen",
+      "firstName": "Carmen",
+      "lastName": "Halvorsen",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-amperlund-ev-loc-2",
+      "locationIds": [
+        "acct-amperlund-ev-loc-2"
+      ],
+      "segments": [
+        "Fleet"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-amperlund-ev-003",
+      "phone": "(510) 555-0108",
+      "locationCount": 1,
+      "location": "Amperlund EV - Fremont (Fremont, CA)",
+      "createdOn": "2026-09-03T15:00:00Z",
+      "lastActivity": "2026-10-15T20:20:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-ct-4",
+      "number": 4,
+      "accountId": "acct-amperlund-ev",
+      "name": "Dorian Okonjo",
+      "firstName": "Dorian",
+      "lastName": "Okonjo",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-amperlund-ev-loc-5",
+      "locationIds": [
+        "acct-amperlund-ev-loc-5"
+      ],
+      "segments": [
+        "Recall notice"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-amperlund-ev-004",
+      "email": "dorian.okonjo@example.com",
+      "phone": "(559) 555-0109",
+      "locationCount": 1,
+      "location": "Amperlund EV - Fresno (Fresno, CA)",
+      "createdOn": "2026-08-20T18:45:00Z",
+      "lastActivity": "2026-08-29T15:25:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-ct-5",
+      "number": 5,
+      "accountId": "acct-amperlund-ev",
+      "name": "Esme Whitmore",
+      "firstName": "Esme",
+      "lastName": "Whitmore",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-amperlund-ev-loc-3",
+      "locationIds": [
+        "acct-amperlund-ev-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-amperlund-ev-005",
+      "email": "esme.whitmore@example.com",
+      "phone": "(510) 555-0110",
+      "locationCount": 1,
+      "location": "Amperlund EV - Oakland (Oakland, CA)",
+      "createdOn": "2026-08-06T21:10:00Z",
+      "lastActivity": "2026-08-30T14:45:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-ct-6",
+      "number": 6,
+      "accountId": "acct-amperlund-ev",
+      "name": "Fabian Everly",
+      "firstName": "Fabian",
+      "lastName": "Everly",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-amperlund-ev-loc-1",
+      "locationIds": [
+        "acct-amperlund-ev-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-amperlund-ev-006",
+      "email": "fabian.everly@example.com",
+      "locationCount": 1,
+      "location": "Amperlund EV - San Jose Lab (San Jose, CA)",
+      "createdOn": "2026-07-23T16:45:00Z",
+      "lastActivity": "2026-08-31T17:30:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-ct-7",
+      "number": 7,
+      "accountId": "acct-amperlund-ev",
+      "name": "Greta Mabry",
+      "firstName": "Greta",
+      "lastName": "Mabry",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-amperlund-ev-loc-4",
+      "locationIds": [
+        "acct-amperlund-ev-loc-4"
+      ],
+      "segments": [
+        "Tire customer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-amperlund-ev-007",
+      "email": "greta.mabry@example.com",
+      "phone": "(916) 555-0111",
+      "locationCount": 1,
+      "location": "Amperlund EV - Sacramento (Sacramento, CA)",
+      "createdOn": "2026-07-09T19:15:00Z",
+      "lastActivity": "2026-09-01T16:10:00Z"
+    },
+    {
+      "id": "acct-amperlund-ev-ct-8",
+      "number": 8,
+      "accountId": "acct-amperlund-ev",
+      "name": "Hollis Vance-Ortiz",
+      "firstName": "Hollis",
+      "lastName": "Vance-Ortiz",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-amperlund-ev-loc-2",
+      "locationIds": [
+        "acct-amperlund-ev-loc-2"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-amperlund-ev-008",
+      "email": "hollis.vance.ortiz@example.com",
+      "phone": "(510) 555-0112",
+      "locationCount": 1,
+      "location": "Amperlund EV - Fremont (Fremont, CA)",
+      "createdOn": "2026-07-16T14:00:00Z",
+      "lastActivity": "2026-08-12T19:15:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-amperlund-ev-rev-1",
+      "number": 1,
+      "accountId": "acct-amperlund-ev",
+      "locationId": "acct-amperlund-ev-loc-1",
+      "location": "Amperlund EV - San Jose Lab (San Jose, CA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Ivy Ellery",
+      "date": "2026-08-20T17:25:00Z",
+      "text": "Third visit to Amperlund EV and it's consistently good. My battery health check was finished early, and Ines reset my tire pressure light without being asked.",
+      "photoCount": 0,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Ines"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Ivy! We'll pass this along to the whole Amperlund EV team. See you next time.\n\nAmperlund EV Service Labs",
+        "author": "Amperlund EV Service Labs",
+        "date": "2026-08-21T19:35:00Z"
+      }
+    },
+    {
+      "id": "acct-amperlund-ev-rev-2",
+      "number": 2,
+      "accountId": "acct-amperlund-ev",
+      "locationId": "acct-amperlund-ev-loc-2",
+      "location": "Amperlund EV - Fremont (Fremont, CA)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Jasper Lockhart",
+      "date": "2026-08-06T20:50:00Z",
+      "text": "Good work on a heat pump repair, but the final bill from Amperlund EV was higher than the estimate because of shop fees nobody mentioned up front.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Jasper, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Amperlund EV. A manager will reach out this week to make it right.\n\nAmperlund EV Service Labs",
+        "author": "Amperlund EV Service Labs",
+        "date": "2026-08-08T14:30:00Z"
+      }
+    },
+    {
+      "id": "acct-amperlund-ev-rev-3",
+      "number": 3,
+      "accountId": "acct-amperlund-ev",
+      "locationId": "acct-amperlund-ev-loc-3",
+      "location": "Amperlund EV - Oakland (Oakland, CA)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Kira Sandoval",
+      "date": "2026-07-23T15:20:00Z",
+      "text": "Drew explained the inspection results in plain language and sorted out what could wait. Turnaround on a suspension alignment ran a little longer than quoted.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Drew"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-amperlund-ev-rev-4",
+      "number": 4,
+      "accountId": "acct-amperlund-ev",
+      "locationId": "acct-amperlund-ev-loc-4",
+      "location": "Amperlund EV - Sacramento (Sacramento, CA)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Leon Achebe",
+      "date": "2026-07-09T18:45:00Z",
+      "text": "Fleet manager here. Amperlund EV keeps our vans on the road with one invoice a month and almost no downtime. Ines is our go-to contact.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Ines"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Leon! We'll pass this along to the whole Amperlund EV team. See you next time.\n\nAmperlund EV Service Labs",
+        "author": "Amperlund EV Service Labs",
+        "date": "2026-07-11T20:45:00Z"
+      }
+    },
+    {
+      "id": "acct-amperlund-ev-rev-5",
+      "number": 5,
+      "accountId": "acct-amperlund-ev",
+      "locationId": "acct-amperlund-ev-loc-5",
+      "location": "Amperlund EV - Fresno (Fresno, CA)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Marisa Halvorsen",
+      "date": "2026-10-18T21:10:00Z",
+      "text": "Booked a battery health check online with Amperlund EV, arrived on time, and still waited 50 minutes to be checked in.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Marisa, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Amperlund EV. A manager will reach out this week to make it right.\n\nAmperlund EV Service Labs",
+        "author": "Amperlund EV Service Labs",
+        "date": "2026-10-19T15:05:00Z"
+      }
+    },
+    {
+      "id": "acct-amperlund-ev-rev-6",
+      "number": 6,
+      "accountId": "acct-amperlund-ev",
+      "locationId": "acct-amperlund-ev-loc-1",
+      "location": "Amperlund EV - San Jose Lab (San Jose, CA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Nico Okonjo",
+      "date": "2026-10-04T16:35:00Z",
+      "text": "Brought my car in for a heat pump repair at the San Jose Lab location. Drew texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Drew"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-amperlund-ev-rev-7",
+      "number": 7,
+      "accountId": "acct-amperlund-ev",
+      "locationId": "acct-amperlund-ev-loc-2",
+      "location": "Amperlund EV - Fremont (Fremont, CA)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Odette Whitmore",
+      "date": "2026-09-20T19:00:00Z",
+      "text": "My suspension alignment was done right and priced fairly. The waiting area at the Fremont location was busy and the Wi-Fi kept dropping, but Ines kept me updated.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Ines"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Odette! We'll pass this along to the whole Amperlund EV team. See you next time.\n\nAmperlund EV Service Labs",
+        "author": "Amperlund EV Service Labs",
+        "date": "2026-09-21T21:35:00Z"
+      }
+    },
+    {
+      "id": "acct-amperlund-ev-rev-8",
+      "number": 8,
+      "accountId": "acct-amperlund-ev",
+      "locationId": "acct-amperlund-ev-loc-3",
+      "location": "Amperlund EV - Oakland (Oakland, CA)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Pierce Everly",
+      "date": "2026-09-06T14:35:00Z",
+      "text": "Dropped off for a charging port repair at 8 a.m. and didn't hear anything until I called at 4. The work from Amperlund EV was fine, but proactive updates would make a big difference.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Pierce, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Amperlund EV. A manager will reach out this week to make it right.\n\nAmperlund EV Service Labs",
+        "author": "Amperlund EV Service Labs",
+        "date": "2026-09-08T16:30:00Z"
+      }
+    }
+  ]
+}

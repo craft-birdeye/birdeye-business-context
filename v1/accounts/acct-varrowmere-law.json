@@ -1,0 +1,781 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-varrowmere-law",
+    "name": "Varrowmere & Associates Law Firm",
+    "brandName": "Varrowmere Law",
+    "parentGroup": "Varrowmere Legal Partners",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "legal",
+    "industryLabel": "Legal and professional services",
+    "tier": "Regional firm",
+    "crm": "Clio / SmartAdvocate",
+    "purchasedLocations": 5,
+    "isDefault": false,
+    "quickScenario": true,
+    "hq": {
+      "city": "Dallas",
+      "state": "TX",
+      "stateName": "Texas",
+      "country": "United States"
+    },
+    "businessBlurb": "Commercial and employment law firm serving mid-market clients in the Dallas–Fort Worth area.",
+    "profile": {
+      "description": "Commercial and employment law firm serving mid-market clients in the Dallas–Fort Worth area. Business and employment counsel for North Texas.",
+      "categories": [
+        "Law firm"
+      ],
+      "website": "https://varrowmerelaw.example.com",
+      "email": "hello@varrowmerelaw.example.com",
+      "phone": "(214) 555-0105",
+      "primaryLocationId": "acct-varrowmere-law-loc-1",
+      "address": {
+        "street1": "5225 Quillfeather Avenue",
+        "street2": "Suite 282",
+        "city": "Dallas",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "75219",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Varrowmere Law",
+      "tagline": "Business and employment counsel for North Texas",
+      "logo": {
+        "kind": "monogram",
+        "initials": "VL",
+        "path": "v1/logos/acct-varrowmere-law.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-varrowmere-law.svg"
+      },
+      "colors": {
+        "primary": "#1B2A41",
+        "secondary": "#EEF0F4",
+        "accent": "#B08D57",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Measured, confident, and discreet; never discusses case specifics in public.",
+      "formality": "formal",
+      "replySignoff": "Varrowmere & Associates Law Firm"
+    },
+    "staff": [
+      "Catherine Varrowmere",
+      "Raj Methuran",
+      "Lena Ortiz",
+      "David Kwanlow"
+    ],
+    "services": [
+      "a lease review",
+      "an employment handbook update",
+      "a contract dispute",
+      "a mediation"
+    ],
+    "llmContext": "Varrowmere & Associates Law Firm · Enterprise · Legal and professional services · HQ Dallas, Texas, United States · 5 purchased locations · CRM Clio / SmartAdvocate · Commercial and employment law firm serving mid-market clients in the Dallas–Fort Worth area."
+  },
+  "locations": [
+    {
+      "id": "acct-varrowmere-law-loc-1",
+      "accountId": "acct-varrowmere-law",
+      "index": 1,
+      "name": "Varrowmere Law - Dallas Office",
+      "shortName": "Dallas Office",
+      "label": "Varrowmere Law - Dallas Office (Dallas, TX)",
+      "locationLine": "Dallas, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "5225 Quillfeather Avenue",
+        "street2": "Suite 282",
+        "city": "Dallas",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "75219",
+        "country": "US"
+      },
+      "phone": "(469) 555-0100",
+      "email": "dallasoffice@varrowmerelaw.example.com",
+      "website": "https://varrowmerelaw.example.com/locations/dallas-office",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-09-30T19:35:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-loc-2",
+      "accountId": "acct-varrowmere-law",
+      "index": 2,
+      "name": "Varrowmere Law - Plano Office",
+      "shortName": "Plano Office",
+      "label": "Varrowmere Law - Plano Office (Plano, TX)",
+      "locationLine": "Plano, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1868 Marigold Trail",
+        "street2": "Suite 133",
+        "city": "Plano",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "75024",
+        "country": "US"
+      },
+      "phone": "(214) 555-0101",
+      "email": "plano-office@varrowmerelaw.example.com",
+      "website": "https://varrowmerelaw.example.com/locations/plano-office",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-09-16T18:20:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-loc-3",
+      "accountId": "acct-varrowmere-law",
+      "index": 3,
+      "name": "Varrowmere Law - Fort Worth Office",
+      "shortName": "Fort Worth Office",
+      "label": "Varrowmere Law - Fort Worth Office (Fort Worth, TX)",
+      "locationLine": "Fort Worth, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2987 Saddlebrook Avenue",
+        "street2": "Suite 428",
+        "city": "Fort Worth",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "76107",
+        "country": "US"
+      },
+      "phone": "(817) 555-0102",
+      "email": "fort-worth-office@varrowmerelaw.example.com",
+      "website": "https://varrowmerelaw.example.com/locations/fort-worth-office",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-09-02T21:45:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-loc-4",
+      "accountId": "acct-varrowmere-law",
+      "index": 4,
+      "name": "Varrowmere Law - Irving Office",
+      "shortName": "Irving Office",
+      "label": "Varrowmere Law - Irving Office (Irving, TX)",
+      "locationLine": "Irving, TX",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8582 Bramblewood Commons",
+        "street2": "",
+        "city": "Irving",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "75039",
+        "country": "US"
+      },
+      "phone": "(972) 555-0103",
+      "email": "irving-office@varrowmerelaw.example.com",
+      "website": "https://varrowmerelaw.example.com/locations/irving-office",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-08-19T20:25:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-loc-5",
+      "accountId": "acct-varrowmere-law",
+      "index": 5,
+      "name": "Varrowmere Law - Frisco Office",
+      "shortName": "Frisco Office",
+      "label": "Varrowmere Law - Frisco Office (Frisco, TX)",
+      "locationLine": "Frisco, TX",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "801 Meadowlark Parkway",
+        "street2": "",
+        "city": "Frisco",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "75033",
+        "country": "US"
+      },
+      "phone": "(469) 555-0104",
+      "email": "frisco-office@varrowmerelaw.example.com",
+      "website": "https://varrowmerelaw.example.com/locations/frisco-office",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-08-05T15:55:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-varrowmere-law-ct-1",
+      "number": 42,
+      "accountId": "acct-varrowmere-law",
+      "name": "Rebecca Langston",
+      "firstName": "Rebecca",
+      "lastName": "Langston",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-1",
+      "locationIds": [
+        "acct-varrowmere-law-loc-1"
+      ],
+      "segments": [
+        "Commercial",
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-varrowmere-law-001",
+      "email": "rebecca.langston@example.com",
+      "phone": "(214) 555-0106",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Dallas Office (Dallas, TX)",
+      "createdOn": "2026-08-28T18:00:00Z",
+      "lastActivity": "2026-09-19T15:10:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-2",
+      "number": 2,
+      "accountId": "acct-varrowmere-law",
+      "name": "Marcus Hale",
+      "firstName": "Marcus",
+      "lastName": "Hale",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-4",
+      "locationIds": [
+        "acct-varrowmere-law-loc-4"
+      ],
+      "segments": [
+        "Employment"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-varrowmere-law-002",
+      "email": "marcus.hale@example.com",
+      "phone": "(469) 555-0107",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Irving Office (Irving, TX)",
+      "createdOn": "2026-08-14T19:20:00Z",
+      "lastActivity": "2026-09-20T16:00:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-3",
+      "number": 3,
+      "accountId": "acct-varrowmere-law",
+      "name": "Priya Shah",
+      "firstName": "Priya",
+      "lastName": "Shah",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-2",
+      "locationIds": [
+        "acct-varrowmere-law-loc-2"
+      ],
+      "segments": [
+        "Corporate",
+        "High value"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-varrowmere-law-003",
+      "email": "priya.shah@example.com",
+      "phone": "(214) 555-0108",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Plano Office (Plano, TX)",
+      "createdOn": "2026-07-31T16:30:00Z",
+      "lastActivity": "2026-09-21T17:20:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-4",
+      "number": 4,
+      "accountId": "acct-varrowmere-law",
+      "name": "Derek Colvarth",
+      "firstName": "Derek",
+      "lastName": "Colvarth",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-5",
+      "locationIds": [
+        "acct-varrowmere-law-loc-5"
+      ],
+      "segments": [
+        "Consultation inquiry"
+      ],
+      "experienceTags": [
+        "Lead"
+      ],
+      "externalId": "ext-varrowmere-law-004",
+      "email": "derek.colvarth@example.com",
+      "phone": "(469) 555-0109",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Frisco Office (Frisco, TX)",
+      "createdOn": "2026-07-17T17:40:00Z",
+      "lastActivity": "2026-09-22T18:25:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-5",
+      "number": 5,
+      "accountId": "acct-varrowmere-law",
+      "name": "Anita Flores",
+      "firstName": "Anita",
+      "lastName": "Flores",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-3",
+      "locationIds": [
+        "acct-varrowmere-law-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-varrowmere-law-005",
+      "email": "anita.flores@example.com",
+      "phone": "(817) 555-0110",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Fort Worth Office (Fort Worth, TX)",
+      "createdOn": "2026-07-03T14:10:00Z",
+      "lastActivity": "2026-09-23T19:25:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-6",
+      "number": 6,
+      "accountId": "acct-varrowmere-law",
+      "name": "Owen Bradwellin",
+      "firstName": "Owen",
+      "lastName": "Bradwellin",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-1",
+      "locationIds": [
+        "acct-varrowmere-law-loc-1"
+      ],
+      "segments": [
+        "Real estate"
+      ],
+      "experienceTags": [
+        "Email-first"
+      ],
+      "externalId": "ext-varrowmere-law-006",
+      "email": "owen.bradwellin@example.com",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Dallas Office (Dallas, TX)",
+      "createdOn": "2026-10-15T15:45:00Z",
+      "lastActivity": "2026-10-20T20:25:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-7",
+      "number": 7,
+      "accountId": "acct-varrowmere-law",
+      "name": "Simone Grant",
+      "firstName": "Simone",
+      "lastName": "Grant",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-4",
+      "locationIds": [
+        "acct-varrowmere-law-loc-4"
+      ],
+      "segments": [
+        "Retainer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-varrowmere-law-007",
+      "email": "simone.grant@example.com",
+      "phone": "(972) 555-0111",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Irving Office (Irving, TX)",
+      "createdOn": "2026-10-01T20:50:00Z",
+      "lastActivity": "2026-10-17T21:45:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-8",
+      "number": 8,
+      "accountId": "acct-varrowmere-law",
+      "name": "Victor Cho",
+      "firstName": "Victor",
+      "lastName": "Cho",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 2,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-2",
+      "locationIds": [
+        "acct-varrowmere-law-loc-2"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Intake lag"
+      ],
+      "externalId": "ext-varrowmere-law-008",
+      "email": "victor.cho@example.com",
+      "phone": "(469) 555-0112",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Plano Office (Plano, TX)",
+      "createdOn": "2026-10-08T21:40:00Z",
+      "lastActivity": "2026-10-13T14:35:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-9",
+      "number": 9,
+      "accountId": "acct-varrowmere-law",
+      "name": "Helen Marks",
+      "firstName": "Helen",
+      "lastName": "Marks",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 6,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-5",
+      "locationIds": [
+        "acct-varrowmere-law-loc-5"
+      ],
+      "segments": [
+        "Litigation"
+      ],
+      "experienceTags": [
+        "Steady"
+      ],
+      "externalId": "ext-varrowmere-law-009",
+      "email": "helen.marks@example.com",
+      "phone": "(214) 555-0113",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Frisco Office (Frisco, TX)",
+      "createdOn": "2026-09-24T18:15:00Z",
+      "lastActivity": "2026-10-20T15:35:00Z"
+    },
+    {
+      "id": "acct-varrowmere-law-ct-10",
+      "number": 10,
+      "accountId": "acct-varrowmere-law",
+      "name": "Greg Nakamura",
+      "firstName": "Greg",
+      "lastName": "Nakamura",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 3,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-varrowmere-law-loc-3",
+      "locationIds": [
+        "acct-varrowmere-law-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Slow response"
+      ],
+      "externalId": "ext-varrowmere-law-010",
+      "phone": "(682) 555-0114",
+      "locationCount": 1,
+      "location": "Varrowmere Law - Fort Worth Office (Fort Worth, TX)",
+      "createdOn": "2026-09-10T14:50:00Z",
+      "lastActivity": "2026-09-12T19:25:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-varrowmere-law-rev-1",
+      "number": 1,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-1",
+      "location": "Varrowmere Law - Dallas Office (Dallas, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Patrick Delanmere",
+      "date": "2026-10-16T20:20:00Z",
+      "text": "Catherine Varrowmere reviewed our office lease in four business days and caught a personal-guarantee clause our broker had glossed over. The redlines were short and practical, and the landlord accepted most of them.",
+      "photoCount": 0,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Catherine Varrowmere"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-varrowmere-law-rev-2",
+      "number": 2,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-2",
+      "location": "Varrowmere Law - Plano Office (Plano, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Yvonne Castillo",
+      "date": "2026-10-09T17:55:00Z",
+      "text": "Raj Methuran helped us rewrite our employee handbook after we passed 50 employees. He flagged leave-policy gaps we had no idea about and kept the language readable for our managers.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Raj Methuran"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-varrowmere-law-rev-3",
+      "number": 3,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-3",
+      "location": "Varrowmere Law - Fort Worth Office (Fort Worth, TX)",
+      "site": "yelp",
+      "rating": 3,
+      "reviewer": "Clifford Nash",
+      "date": "2026-10-01T14:30:00Z",
+      "text": "Solid advice on a contractor dispute, but it took three days to get a call back after my first inquiry. Once Lena, the paralegal, took over scheduling, things moved quickly.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Lena Ortiz"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Clifford, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Varrowmere Law. A member of our leadership team will contact you directly to discuss it.\n\nVarrowmere & Associates Law Firm",
+        "author": "Varrowmere & Associates Law Firm",
+        "date": "2026-10-02T16:10:00Z"
+      }
+    },
+    {
+      "id": "acct-varrowmere-law-rev-4",
+      "number": 4,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-5",
+      "location": "Varrowmere Law - Frisco Office (Frisco, TX)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Meredith Okoye",
+      "date": "2026-09-22T19:30:00Z",
+      "text": "The first invoice had block-billed entries like \"4.5 hrs research\" with no detail. They revised it after I asked, but business clients shouldn't have to request that.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Meredith, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Varrowmere Law. A member of our leadership team will contact you directly to discuss it.\n\nVarrowmere & Associates Law Firm",
+        "author": "Varrowmere & Associates Law Firm",
+        "date": "2026-09-24T21:05:00Z"
+      }
+    },
+    {
+      "id": "acct-varrowmere-law-rev-5",
+      "number": 5,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-4",
+      "location": "Varrowmere Law - Irving Office (Irving, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Harold Jennaway",
+      "date": "2026-09-14T16:05:00Z",
+      "text": "Mediation on a vendor dispute. David Kwanlow knew the file cold, kept us inside the settlement range we'd agreed on, and we closed by 4 p.m. Worth every hour billed.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "David Kwanlow"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-varrowmere-law-rev-6",
+      "number": 6,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-1",
+      "location": "Varrowmere Law - Dallas Office (Dallas, TX)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Lucinda Farrow",
+      "date": "2026-09-02T21:40:00Z",
+      "text": "They handled the asset purchase for our second restaurant. The diligence checklist was thorough and closing happened on schedule. Communication was good, though weekly updates sometimes arrived late on Friday.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-varrowmere-law-rev-7",
+      "number": 7,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-2",
+      "location": "Varrowmere Law - Plano Office (Plano, TX)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Vernon Pike",
+      "date": "2026-07-14T18:15:00Z",
+      "text": "Our engagement stalled for more than a week on a conflict check with no updates, and we eventually hired someone else. The attorney I met first was sharp; the intake process was not.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Vernon, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Varrowmere Law. A member of our leadership team will contact you directly to discuss it.\n\nVarrowmere & Associates Law Firm",
+        "author": "Varrowmere & Associates Law Firm",
+        "date": "2026-07-15T20:35:00Z"
+      }
+    },
+    {
+      "id": "acct-varrowmere-law-rev-8",
+      "number": 8,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-3",
+      "location": "Varrowmere Law - Fort Worth Office (Fort Worth, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Ingrid Solmarth",
+      "date": "2026-08-21T15:20:00Z",
+      "text": "We had a non-compete question for a new hire coming from a competitor. Same-week consult, a two-page memo in plain English, and a fixed fee quoted up front.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-varrowmere-law-rev-9",
+      "number": 9,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-5",
+      "location": "Varrowmere Law - Frisco Office (Frisco, TX)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Mitchell Yarbrough",
+      "date": "2026-08-06T20:55:00Z",
+      "text": "They drafted a customer agreement template for our small software company. It protects our liability cap without scaring off buyers. The second draft came a few days later than promised.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-varrowmere-law-rev-10",
+      "number": 10,
+      "accountId": "acct-varrowmere-law",
+      "locationId": "acct-varrowmere-law-loc-4",
+      "location": "Varrowmere Law - Irving Office (Irving, TX)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Celeste Navarro",
+      "date": "2026-07-20T16:25:00Z",
+      "text": "A former employee threatened a wrongful termination claim. The team was calm, realistic about costs, and resolved it before it reached court. Clear status emails every Tuesday.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    }
+  ]
+}

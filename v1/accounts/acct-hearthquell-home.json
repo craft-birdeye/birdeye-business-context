@@ -1,0 +1,1329 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-hearthquell-home",
+    "name": "Hearthquell Heating, Plumbing & Electrical",
+    "brandName": "Hearthquell",
+    "parentGroup": "Hearthquell Home Services Group",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Regional multi-branch dispatch",
+    "crm": "ServiceTitan",
+    "purchasedLocations": 15,
+    "isDefault": false,
+    "quickScenario": true,
+    "hq": {
+      "city": "Denver",
+      "state": "CO",
+      "stateName": "Colorado",
+      "country": "United States"
+    },
+    "businessBlurb": "Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites.",
+    "profile": {
+      "description": "Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites. Heating, cooling, plumbing, and electrical for the Front Range.",
+      "categories": [
+        "HVAC contractor",
+        "Plumber",
+        "Electrician"
+      ],
+      "website": "https://hearthquell.example.com",
+      "email": "hello@hearthquell.example.com",
+      "phone": "(303) 555-0115",
+      "primaryLocationId": "acct-hearthquell-home-loc-1",
+      "address": {
+        "street1": "5708 Marigold Avenue",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80211",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Hearthquell",
+      "tagline": "Heating, cooling, plumbing, and electrical for the Front Range",
+      "logo": {
+        "kind": "monogram",
+        "initials": "H",
+        "path": "v1/logos/acct-hearthquell-home.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hearthquell-home.svg"
+      },
+      "colors": {
+        "primary": "#C8102E",
+        "secondary": "#FDECEE",
+        "accent": "#1D3557",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Direct, dependable, no-nonsense; leads with arrival windows and upfront pricing.",
+      "formality": "neutral",
+      "replySignoff": "Hearthquell Home Services"
+    },
+    "staff": [
+      "Luis",
+      "Derek",
+      "Kayla",
+      "Tomás",
+      "Priyanka"
+    ],
+    "services": [
+      "an AC repair",
+      "a water heater replacement",
+      "a panel upgrade",
+      "a furnace tune-up"
+    ],
+    "llmContext": "Hearthquell Heating, Plumbing & Electrical · Enterprise · Home services and contractors · HQ Denver, Colorado, United States · 15 purchased locations · CRM ServiceTitan · Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites."
+  },
+  "locations": [
+    {
+      "id": "acct-hearthquell-home-loc-1",
+      "accountId": "acct-hearthquell-home",
+      "index": 1,
+      "name": "Hearthquell - Denver",
+      "shortName": "Denver",
+      "label": "Hearthquell - Denver (Denver, CO)",
+      "locationLine": "Denver, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "5708 Marigold Avenue",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80211",
+        "country": "US"
+      },
+      "phone": "(720) 555-0100",
+      "email": "denver@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/denver",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-23T17:55:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-2",
+      "accountId": "acct-hearthquell-home",
+      "index": 2,
+      "name": "Hearthquell - Centennial",
+      "shortName": "Centennial",
+      "label": "Hearthquell - Centennial (Centennial, CO)",
+      "locationLine": "Centennial, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "165 Quillfeather Terrace",
+        "street2": "Suite 426",
+        "city": "Centennial",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80122",
+        "country": "US"
+      },
+      "phone": "(303) 555-0101",
+      "email": "centennial@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/centennial",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-07-09T20:20:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-3",
+      "accountId": "acct-hearthquell-home",
+      "index": 3,
+      "name": "Hearthquell - Aurora",
+      "shortName": "Aurora",
+      "label": "Hearthquell - Aurora (Aurora, CO)",
+      "locationLine": "Aurora, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7946 Quarrystone Court",
+        "street2": "Suite 219",
+        "city": "Aurora",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80012",
+        "country": "US"
+      },
+      "phone": "(720) 555-0102",
+      "email": "aurora@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/aurora",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-06-25T15:45:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-4",
+      "accountId": "acct-hearthquell-home",
+      "index": 4,
+      "name": "Hearthquell - Lakewood",
+      "shortName": "Lakewood",
+      "label": "Hearthquell - Lakewood (Lakewood, CO)",
+      "locationLine": "Lakewood, CO",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2403 Oriole Commons",
+        "street2": "Suite 368",
+        "city": "Lakewood",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80228",
+        "country": "US"
+      },
+      "phone": "(303) 555-0103",
+      "email": "lakewood@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/lakewood",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-10-07T18:10:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-5",
+      "accountId": "acct-hearthquell-home",
+      "index": 5,
+      "name": "Hearthquell - Boulder",
+      "shortName": "Boulder",
+      "label": "Hearthquell - Boulder (Boulder, CO)",
+      "locationLine": "Boulder, CO",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1284 Juniper Hollow Court",
+        "street2": "Suite 473",
+        "city": "Boulder",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80302",
+        "country": "US"
+      },
+      "phone": "(720) 555-0104",
+      "email": "boulder@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/boulder",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-23T21:35:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-6",
+      "accountId": "acct-hearthquell-home",
+      "index": 6,
+      "name": "Hearthquell - Highlands Ranch",
+      "shortName": "Highlands Ranch",
+      "label": "Hearthquell - Highlands Ranch (Highlands Ranch, CO)",
+      "locationLine": "Highlands Ranch, CO",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4641 Meadowlark Drive",
+        "street2": "Suite 462",
+        "city": "Highlands Ranch",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80130",
+        "country": "US"
+      },
+      "phone": "(303) 555-0105",
+      "email": "highlands-ranch@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/highlands-ranch",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-09-09T16:05:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-7",
+      "accountId": "acct-hearthquell-home",
+      "index": 7,
+      "name": "Hearthquell - Thornton",
+      "shortName": "Thornton",
+      "label": "Hearthquell - Thornton (Thornton, CO)",
+      "locationLine": "Thornton, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3522 Bramblewood Parkway",
+        "street2": "Suite 415",
+        "city": "Thornton",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80229",
+        "country": "US"
+      },
+      "phone": "(720) 555-0106",
+      "email": "thornton@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/thornton",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-26T19:30:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-8",
+      "accountId": "acct-hearthquell-home",
+      "index": 8,
+      "name": "Hearthquell - Arvada",
+      "shortName": "Arvada",
+      "label": "Hearthquell - Arvada (Arvada, CO)",
+      "locationLine": "Arvada, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6775 Clover Bend Lane",
+        "street2": "Suite 340",
+        "city": "Arvada",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80003",
+        "country": "US"
+      },
+      "phone": "(303) 555-0107",
+      "email": "arvada@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/arvada",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-09-02T14:55:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-9",
+      "accountId": "acct-hearthquell-home",
+      "index": 9,
+      "name": "Hearthquell - Parker",
+      "shortName": "Parker",
+      "label": "Hearthquell - Parker (Parker, CO)",
+      "locationLine": "Parker, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5656 Fernbrook Commons",
+        "street2": "Suite 445",
+        "city": "Parker",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80134",
+        "country": "US"
+      },
+      "phone": "(720) 555-0108",
+      "email": "parker@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/parker",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-08-19T17:20:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-10",
+      "accountId": "acct-hearthquell-home",
+      "index": 10,
+      "name": "Hearthquell - Westminster",
+      "shortName": "Westminster",
+      "label": "Hearthquell - Westminster (Westminster, CO)",
+      "locationLine": "Westminster, CO",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3036 Fernbrook Terrace",
+        "street2": "",
+        "city": "Westminster",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80031",
+        "country": "US"
+      },
+      "phone": "(720) 555-0109",
+      "email": "westminster@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/westminster",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-08-05T15:35:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-11",
+      "accountId": "acct-hearthquell-home",
+      "index": 11,
+      "name": "Hearthquell - Littleton",
+      "shortName": "Littleton",
+      "label": "Hearthquell - Littleton (Littleton, CO)",
+      "locationLine": "Littleton, CO",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4155 Clover Bend Parkway",
+        "street2": "Suite 188",
+        "city": "Littleton",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80123",
+        "country": "US"
+      },
+      "phone": "(303) 555-0110",
+      "email": "littleton@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/littleton",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-22T20:10:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-12",
+      "accountId": "acct-hearthquell-home",
+      "index": 12,
+      "name": "Hearthquell - Commerce City",
+      "shortName": "Commerce City",
+      "label": "Hearthquell - Commerce City (Commerce City, CO)",
+      "locationLine": "Commerce City, CO",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5274 Driftwood Commons",
+        "street2": "Suite 235",
+        "city": "Commerce City",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80022",
+        "country": "US"
+      },
+      "phone": "(720) 555-0111",
+      "email": "commerce-city@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/commerce-city",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-07-08T17:45:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-13",
+      "accountId": "acct-hearthquell-home",
+      "index": 13,
+      "name": "Hearthquell - Englewood",
+      "shortName": "Englewood",
+      "label": "Hearthquell - Englewood (Englewood, CO)",
+      "locationLine": "Englewood, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6393 Zephyr Lane",
+        "street2": "Suite 474",
+        "city": "Englewood",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80113",
+        "country": "US"
+      },
+      "phone": "(303) 555-0112",
+      "email": "englewood@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/englewood",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-20T14:20:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-14",
+      "accountId": "acct-hearthquell-home",
+      "index": 14,
+      "name": "Hearthquell - Broomfield",
+      "shortName": "Broomfield",
+      "label": "Hearthquell - Broomfield (Broomfield, CO)",
+      "locationLine": "Broomfield, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7512 Bluestem Drive",
+        "street2": "Suite 489",
+        "city": "Broomfield",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80020",
+        "country": "US"
+      },
+      "phone": "(720) 555-0113",
+      "email": "broomfield@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/broomfield",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-10-06T19:20:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-loc-15",
+      "accountId": "acct-hearthquell-home",
+      "index": 15,
+      "name": "Hearthquell - Castle Rock",
+      "shortName": "Castle Rock",
+      "label": "Hearthquell - Castle Rock (Castle Rock, CO)",
+      "locationLine": "Castle Rock, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8631 Willowmere Lane",
+        "street2": "Suite 384",
+        "city": "Castle Rock",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80108",
+        "country": "US"
+      },
+      "phone": "(303) 555-0114",
+      "email": "castle-rock@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/castle-rock",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-10-13T16:55:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-hearthquell-home-ct-1",
+      "number": 42,
+      "accountId": "acct-hearthquell-home",
+      "name": "Dana Whitfield",
+      "firstName": "Dana",
+      "lastName": "Whitfield",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hearthquell-home-loc-1",
+      "locationIds": [
+        "acct-hearthquell-home-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-hearthquell-home-001",
+      "email": "dana.whitfield@example.com",
+      "phone": "(303) 555-0116",
+      "locationCount": 1,
+      "location": "Hearthquell - Denver (Denver, CO)",
+      "createdOn": "2026-08-11T20:20:00Z",
+      "lastActivity": "2026-10-01T21:15:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-2",
+      "number": 2,
+      "accountId": "acct-hearthquell-home",
+      "name": "Chris Langthwick",
+      "firstName": "Chris",
+      "lastName": "Langthwick",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-4",
+      "locationIds": [
+        "acct-hearthquell-home-loc-4"
+      ],
+      "segments": [
+        "HVAC seasonal"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-hearthquell-home-002",
+      "email": "chris.langthwick@example.com",
+      "phone": "(720) 555-0117",
+      "locationCount": 1,
+      "location": "Hearthquell - Lakewood (Lakewood, CO)",
+      "createdOn": "2026-07-28T17:10:00Z",
+      "lastActivity": "2026-10-02T18:35:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-3",
+      "number": 3,
+      "accountId": "acct-hearthquell-home",
+      "name": "Morgan Ellisworth",
+      "firstName": "Morgan",
+      "lastName": "Ellisworth",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-7",
+      "locationIds": [
+        "acct-hearthquell-home-loc-7"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Missed window"
+      ],
+      "externalId": "ext-hearthquell-home-003",
+      "email": "morgan.ellisworth@example.com",
+      "phone": "(303) 555-0118",
+      "locationCount": 1,
+      "location": "Hearthquell - Thornton (Thornton, CO)",
+      "createdOn": "2026-07-14T14:20:00Z",
+      "lastActivity": "2026-10-03T19:15:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-4",
+      "number": 4,
+      "accountId": "acct-hearthquell-home",
+      "name": "Sam Okonkwo",
+      "firstName": "Sam",
+      "lastName": "Okonkwo",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hearthquell-home-loc-10",
+      "locationIds": [
+        "acct-hearthquell-home-loc-10",
+        "acct-hearthquell-home-loc-15",
+        "acct-hearthquell-home-loc-5"
+      ],
+      "segments": [
+        "Property manager"
+      ],
+      "experienceTags": [
+        "Commercial",
+        "Loyal"
+      ],
+      "externalId": "ext-hearthquell-home-004",
+      "email": "sam.okonkwo@example.com",
+      "phone": "(720) 555-0119",
+      "locationCount": 3,
+      "location": "Hearthquell - Westminster (Westminster, CO)",
+      "createdOn": "2026-06-30T19:10:00Z",
+      "lastActivity": "2026-10-04T16:30:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-5",
+      "number": 5,
+      "accountId": "acct-hearthquell-home",
+      "name": "Riley Cho",
+      "firstName": "Riley",
+      "lastName": "Cho",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hearthquell-home-loc-13",
+      "locationIds": [
+        "acct-hearthquell-home-loc-13"
+      ],
+      "segments": [
+        "Emergency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-hearthquell-home-005",
+      "phone": "(303) 555-0120",
+      "locationCount": 1,
+      "location": "Hearthquell - Englewood (Englewood, CO)",
+      "createdOn": "2026-10-12T16:00:00Z",
+      "lastActivity": "2026-10-13T17:50:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-6",
+      "number": 6,
+      "accountId": "acct-hearthquell-home",
+      "name": "Jamie Ortevale",
+      "firstName": "Jamie",
+      "lastName": "Ortevale",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-1",
+      "locationIds": [
+        "acct-hearthquell-home-loc-1"
+      ],
+      "segments": [
+        "Plumbing"
+      ],
+      "experienceTags": [
+        "Steady"
+      ],
+      "externalId": "ext-hearthquell-home-006",
+      "email": "jamie.ortevale@example.com",
+      "phone": "(720) 555-0121",
+      "locationCount": 1,
+      "location": "Hearthquell - Denver (Denver, CO)",
+      "createdOn": "2026-09-28T21:20:00Z",
+      "lastActivity": "2026-10-03T14:10:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-7",
+      "number": 7,
+      "accountId": "acct-hearthquell-home",
+      "name": "Taylor Brooks",
+      "firstName": "Taylor",
+      "lastName": "Brooks",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-4",
+      "locationIds": [
+        "acct-hearthquell-home-loc-4"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Quote shopper"
+      ],
+      "externalId": "ext-hearthquell-home-007",
+      "email": "taylor.brooks@example.com",
+      "locationCount": 1,
+      "location": "Hearthquell - Lakewood (Lakewood, CO)",
+      "createdOn": "2026-09-14T18:50:00Z",
+      "lastActivity": "2026-09-30T15:40:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-8",
+      "number": 8,
+      "accountId": "acct-hearthquell-home",
+      "name": "Alex Riveland",
+      "firstName": "Alex",
+      "lastName": "Riveland",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-7",
+      "locationIds": [
+        "acct-hearthquell-home-loc-7"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer"
+      ],
+      "externalId": "ext-hearthquell-home-008",
+      "email": "alex.riveland@example.com",
+      "phone": "(720) 555-0122",
+      "locationCount": 1,
+      "location": "Hearthquell - Thornton (Thornton, CO)",
+      "createdOn": "2026-09-21T15:40:00Z",
+      "lastActivity": "2026-10-19T20:20:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-9",
+      "number": 9,
+      "accountId": "acct-hearthquell-home",
+      "name": "Casey Nguyen",
+      "firstName": "Casey",
+      "lastName": "Nguyen",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-10",
+      "locationIds": [
+        "acct-hearthquell-home-loc-10",
+        "acct-hearthquell-home-loc-15"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Churn risk"
+      ],
+      "externalId": "ext-hearthquell-home-009",
+      "email": "casey.nguyen@example.com",
+      "phone": "(303) 555-0123",
+      "locationCount": 2,
+      "location": "Hearthquell - Westminster (Westminster, CO)",
+      "createdOn": "2026-09-07T20:30:00Z",
+      "lastActivity": "2026-10-02T21:30:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-10",
+      "number": 10,
+      "accountId": "acct-hearthquell-home",
+      "name": "Jordan Park",
+      "firstName": "Jordan",
+      "lastName": "Park",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 6,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-13",
+      "locationIds": [
+        "acct-hearthquell-home-loc-13"
+      ],
+      "segments": [
+        "Electrical"
+      ],
+      "experienceTags": [
+        "Repeat visit"
+      ],
+      "externalId": "ext-hearthquell-home-010",
+      "email": "jordan.park@example.com",
+      "phone": "(720) 555-0124",
+      "locationCount": 1,
+      "location": "Hearthquell - Englewood (Englewood, CO)",
+      "createdOn": "2026-08-24T20:35:00Z",
+      "lastActivity": "2026-09-17T21:25:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-hearthquell-home-rev-1",
+      "number": 1,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-1",
+      "location": "Hearthquell - Denver (Denver, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Garrett Vance",
+      "date": "2026-10-19T18:45:00Z",
+      "text": "Our AC quit during the heat wave. Dispatch gave me a two-hour window and Luis showed up at the start of it. He found a bad capacitor and a clogged condensate line and showed me both before quoting.\n\nThe repair was finished on the same visit, and the invoice matched the tablet quote to the dollar.",
+      "photoCount": 2,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Luis"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-2",
+      "number": 2,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-3",
+      "location": "Hearthquell - Aurora (Aurora, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Rosalind Meeks",
+      "date": "2026-10-13T19:00:00Z",
+      "text": "Our water heater started leaking on a Sunday. Aurora dispatch picked up on the second ring and had a plumber here in three hours, and the replacement was installed Monday morning. The weekend emergency fee was steep but clearly disclosed up front.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-3",
+      "number": 3,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-5",
+      "location": "Hearthquell - Boulder (Boulder, CO)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Owen Castellanos",
+      "date": "2026-10-08T16:35:00Z",
+      "text": "Panel upgrade so we could add an EV charger. Priyanka pulled the permit, coordinated the utility shutoff, and labeled every breaker when she finished. Passed city inspection on the first try.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Priyanka"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-4",
+      "number": 4,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-4",
+      "location": "Hearthquell - Lakewood (Lakewood, CO)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Juliet Ramsey",
+      "date": "2026-10-04T17:25:00Z",
+      "text": "The tech arrived two hours after the window with no text or call. The fix was fine, but I had rearranged my workday around the appointment. For a dispatch company, delay notifications should be automatic.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Juliet, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hearthquell. A manager will reach out this week to make it right.\n\nHearthquell Home Services",
+        "author": "Hearthquell Home Services",
+        "date": "2026-10-06T19:15:00Z"
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-rev-5",
+      "number": 5,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-6",
+      "location": "Hearthquell - Highlands Ranch (Highlands Ranch, CO)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Simon Okafor-Wells",
+      "date": "2026-09-27T14:00:00Z",
+      "text": "Booked a fall furnace tune-up online in two minutes. Derek replaced the filter, checked the heat exchanger with a camera, and flagged that the flame sensor will probably need replacing next year, with no pressure to do it today.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Derek"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-6",
+      "number": 6,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-15",
+      "location": "Hearthquell - Castle Rock (Castle Rock, CO)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Tamsin Whitaker-Lowe",
+      "date": "2026-09-20T15:20:00Z",
+      "text": "I was quoted $450 on the phone for a drain clearing. On site the tech found a root intrusion and quoted $3,800 for a pipe liner. A second opinion said a $600 hydro-jet would do it. That cost you my trust.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Tamsin, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hearthquell. A manager will reach out this week to make it right.\n\nHearthquell Home Services",
+        "author": "Hearthquell Home Services",
+        "date": "2026-09-22T17:50:00Z"
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-rev-7",
+      "number": 7,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-10",
+      "location": "Hearthquell - Westminster (Westminster, CO)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Benedict Harrow",
+      "date": "2026-09-13T20:50:00Z",
+      "text": "The smart thermostat install went smoothly, and Tomás set up the schedule on my phone before he left. My only gripe is that his shoe covers came off halfway through and there were dusty footprints in the hallway.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Tomás"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-8",
+      "number": 8,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-2",
+      "location": "Hearthquell - Centennial (Centennial, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Regina Thibodeaux",
+      "date": "2026-09-05T21:40:00Z",
+      "text": "I manage a 12-unit building in Centennial. The South Foothills team did annual backflow tests for every unit in one morning and emailed the certificates the same afternoon.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-9",
+      "number": 9,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-7",
+      "location": "Hearthquell - Thornton (Thornton, CO)",
+      "site": "facebook",
+      "rating": 3,
+      "reviewer": "Darius Pennington",
+      "date": "2026-08-24T18:15:00Z",
+      "text": "The maintenance membership is a good deal, but booking my included tune-up took three calls. Once Kayla in dispatch sorted it out, the visit itself was quick and clean.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Kayla"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Darius, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hearthquell. A manager will reach out this week to make it right.\n\nHearthquell Home Services",
+        "author": "Hearthquell Home Services",
+        "date": "2026-08-25T20:10:00Z"
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-rev-10",
+      "number": 10,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-9",
+      "location": "Hearthquell - Parker (Parker, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Mira Castellano",
+      "date": "2026-08-11T18:30:00Z",
+      "text": "Our sump pump failed after a big summer storm. The Parker crew had a new pump with battery backup installed before the next round of rain, and they showed us how to test the alarm.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-11",
+      "number": 11,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-8",
+      "location": "Hearthquell - Arvada (Arvada, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Fletcher Dunmore",
+      "date": "2026-07-25T21:55:00Z",
+      "text": "Whole-home surge protector plus two new GFCI outlets in the kitchen. Clear price up front and tidy work. It took a week to get on the schedule, which is the only reason for four stars.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-12",
+      "number": 12,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-13",
+      "location": "Hearthquell - Englewood (Englewood, CO)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Corinne Abernathy",
+      "date": "2026-07-04T16:25:00Z",
+      "text": "Two techs argued in front of me about whether my AC compressor was failing. It eventually got fixed, but it didn't feel like they had a shared way of diagnosing problems.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Corinne, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hearthquell. A manager will reach out this week to make it right.\n\nHearthquell Home Services",
+        "author": "Hearthquell Home Services",
+        "date": "2026-07-06T18:30:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-cornerwick-garage",
+    "name": "Cornerwick Garage Auto Repair",
+    "brandName": "Cornerwick Garage",
+    "parentGroup": "Cornerwick Garage",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "automotive",
+    "industryLabel": "Automotive",
+    "tier": "Independent shop",
+    "crm": "Shop-Ware",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stateName": "Pennsylvania",
+      "country": "United States"
+    },
+    "businessBlurb": "Independent repair shop known for transparent multi-point inspections.",
+    "profile": {
+      "description": "Independent repair shop known for transparent multi-point inspections. Honest repairs in Pittsburgh.",
+      "categories": [
+        "Auto repair shop"
+      ],
+      "website": "https://cornerwickgarage.example.com",
+      "email": "hello@cornerwickgarage.example.com",
+      "phone": "(412) 555-0100",
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "address": {
+        "street1": "1519 Ironleaf Trail",
+        "street2": "",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "stateName": "Pennsylvania",
+        "zip": "15213",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Cornerwick Garage",
+      "tagline": "Honest repairs in Pittsburgh",
+      "logo": {
+        "kind": "monogram",
+        "initials": "CG",
+        "path": "v1/logos/acct-cornerwick-garage.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-cornerwick-garage.svg"
+      },
+      "colors": {
+        "primary": "#9B2226",
+        "secondary": "#F8ECEC",
+        "accent": "#E9D8A6",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Honest neighborhood mechanic; plain talk and photos of worn parts.",
+      "formality": "casual",
+      "replySignoff": "Frank and the Cornerwick Garage crew"
+    },
+    "staff": [
+      "Frank",
+      "Dom"
+    ],
+    "services": [
+      "a state inspection",
+      "a timing belt",
+      "a brake job",
+      "an exhaust repair"
+    ],
+    "llmContext": "Cornerwick Garage Auto Repair · SMB · Automotive · HQ Pittsburgh, Pennsylvania, United States · 1 purchased location · CRM Shop-Ware · Independent repair shop known for transparent multi-point inspections."
+  },
+  "locations": [
+    {
+      "id": "acct-cornerwick-garage-loc-1",
+      "accountId": "acct-cornerwick-garage",
+      "index": 1,
+      "name": "Cornerwick Garage Auto Repair",
+      "shortName": "Main",
+      "label": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "locationLine": "Pittsburgh, PA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "1519 Ironleaf Trail",
+        "street2": "",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "stateName": "Pennsylvania",
+        "zip": "15213",
+        "country": "US"
+      },
+      "phone": "(412) 555-0100",
+      "email": "hello@cornerwickgarage.example.com",
+      "website": "https://cornerwickgarage.example.com",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-07-25T19:20:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-cornerwick-garage-ct-1",
+      "number": 42,
+      "accountId": "acct-cornerwick-garage",
+      "name": "Quinn Mabry",
+      "firstName": "Quinn",
+      "lastName": "Mabry",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "locationIds": [
+        "acct-cornerwick-garage-loc-1"
+      ],
+      "segments": [
+        "Service plan",
+        "Tire customer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-cornerwick-garage-001",
+      "email": "quinn.mabry@example.com",
+      "phone": "(412) 555-0101",
+      "locationCount": 1,
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "createdOn": "2026-08-11T18:50:00Z",
+      "lastActivity": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "acct-cornerwick-garage-ct-2",
+      "number": 2,
+      "accountId": "acct-cornerwick-garage",
+      "name": "Rosalie Vance-Ortiz",
+      "firstName": "Rosalie",
+      "lastName": "Vance-Ortiz",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "locationIds": [
+        "acct-cornerwick-garage-loc-1"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-cornerwick-garage-002",
+      "email": "rosalie.vance.ortiz@example.com",
+      "phone": "(412) 555-0102",
+      "locationCount": 1,
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "createdOn": "2026-07-28T19:40:00Z",
+      "lastActivity": "2026-10-02T16:25:00Z"
+    },
+    {
+      "id": "acct-cornerwick-garage-ct-3",
+      "number": 3,
+      "accountId": "acct-cornerwick-garage",
+      "name": "Silas Ellery",
+      "firstName": "Silas",
+      "lastName": "Ellery",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "locationIds": [
+        "acct-cornerwick-garage-loc-1"
+      ],
+      "segments": [
+        "Fleet"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-cornerwick-garage-003",
+      "phone": "(412) 555-0103",
+      "locationCount": 1,
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "createdOn": "2026-07-14T16:50:00Z",
+      "lastActivity": "2026-10-03T17:45:00Z"
+    },
+    {
+      "id": "acct-cornerwick-garage-ct-4",
+      "number": 4,
+      "accountId": "acct-cornerwick-garage",
+      "name": "Talia Lockhart",
+      "firstName": "Talia",
+      "lastName": "Lockhart",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "locationIds": [
+        "acct-cornerwick-garage-loc-1"
+      ],
+      "segments": [
+        "Recall notice"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-cornerwick-garage-004",
+      "email": "talia.lockhart@example.com",
+      "phone": "(412) 555-0104",
+      "locationCount": 1,
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "createdOn": "2026-06-30T17:25:00Z",
+      "lastActivity": "2026-10-04T18:20:00Z"
+    },
+    {
+      "id": "acct-cornerwick-garage-ct-5",
+      "number": 5,
+      "accountId": "acct-cornerwick-garage",
+      "name": "Ulric Sandoval",
+      "firstName": "Ulric",
+      "lastName": "Sandoval",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "locationIds": [
+        "acct-cornerwick-garage-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-cornerwick-garage-005",
+      "email": "ulric.sandoval@example.com",
+      "phone": "(412) 555-0105",
+      "locationCount": 1,
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "createdOn": "2026-10-12T14:10:00Z",
+      "lastActivity": "2026-10-13T19:00:00Z"
+    },
+    {
+      "id": "acct-cornerwick-garage-ct-6",
+      "number": 6,
+      "accountId": "acct-cornerwick-garage",
+      "name": "Vera Achebe",
+      "firstName": "Vera",
+      "lastName": "Achebe",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "locationIds": [
+        "acct-cornerwick-garage-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-cornerwick-garage-006",
+      "email": "vera.achebe@example.com",
+      "locationCount": 1,
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "createdOn": "2026-09-28T15:05:00Z",
+      "lastActivity": "2026-10-03T20:15:00Z"
+    },
+    {
+      "id": "acct-cornerwick-garage-ct-7",
+      "number": 7,
+      "accountId": "acct-cornerwick-garage",
+      "name": "Warren Halvorsen",
+      "firstName": "Warren",
+      "lastName": "Halvorsen",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "locationIds": [
+        "acct-cornerwick-garage-loc-1"
+      ],
+      "segments": [
+        "Tire customer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-cornerwick-garage-007",
+      "email": "warren.halvorsen@example.com",
+      "phone": "(412) 555-0106",
+      "locationCount": 1,
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "createdOn": "2026-09-14T20:35:00Z",
+      "lastActivity": "2026-09-30T21:25:00Z"
+    },
+    {
+      "id": "acct-cornerwick-garage-ct-8",
+      "number": 8,
+      "accountId": "acct-cornerwick-garage",
+      "name": "Ximena Okonjo",
+      "firstName": "Ximena",
+      "lastName": "Okonjo",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-cornerwick-garage-loc-1",
+      "locationIds": [
+        "acct-cornerwick-garage-loc-1"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-cornerwick-garage-008",
+      "email": "ximena.okonjo@example.com",
+      "phone": "(412) 555-0107",
+      "locationCount": 1,
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "createdOn": "2026-09-21T21:05:00Z",
+      "lastActivity": "2026-10-19T14:45:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-cornerwick-garage-rev-1",
+      "number": 1,
+      "accountId": "acct-cornerwick-garage",
+      "locationId": "acct-cornerwick-garage-loc-1",
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Yusuf Whitmore",
+      "date": "2026-08-15T20:15:00Z",
+      "text": "Fleet manager here. Cornerwick Garage keeps our vans on the road with one invoice a month and almost no downtime. Frank is our go-to contact.",
+      "photoCount": 2,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Frank"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Yusuf! We'll pass this along to the whole Cornerwick Garage team. See you next time.\n\nFrank and the Cornerwick Garage crew",
+        "author": "Frank and the Cornerwick Garage crew",
+        "date": "2026-08-16T14:20:00Z"
+      }
+    },
+    {
+      "id": "acct-cornerwick-garage-rev-2",
+      "number": 2,
+      "accountId": "acct-cornerwick-garage",
+      "locationId": "acct-cornerwick-garage-loc-1",
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Zara Everly",
+      "date": "2026-08-01T17:50:00Z",
+      "text": "Booked a timing belt online with Cornerwick Garage, arrived on time, and still waited 50 minutes to be checked in.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Zara, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Cornerwick Garage. A manager will reach out this week to make it right.\n\nFrank and the Cornerwick Garage crew",
+        "author": "Frank and the Cornerwick Garage crew",
+        "date": "2026-08-03T19:00:00Z"
+      }
+    },
+    {
+      "id": "acct-cornerwick-garage-rev-3",
+      "number": 3,
+      "accountId": "acct-cornerwick-garage",
+      "locationId": "acct-cornerwick-garage-loc-1",
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Abel Mabry",
+      "date": "2026-07-18T14:25:00Z",
+      "text": "Brought my car in for a brake job at Cornerwick Garage. Frank texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Frank"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-cornerwick-garage-rev-4",
+      "number": 4,
+      "accountId": "acct-cornerwick-garage",
+      "locationId": "acct-cornerwick-garage-loc-1",
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Bianca Vance-Ortiz",
+      "date": "2026-07-04T19:25:00Z",
+      "text": "My exhaust repair was done right and priced fairly. The waiting area at Cornerwick Garage was busy and the Wi-Fi kept dropping, but Dom kept me updated.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dom"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Bianca! We'll pass this along to the whole Cornerwick Garage team. See you next time.\n\nFrank and the Cornerwick Garage crew",
+        "author": "Frank and the Cornerwick Garage crew",
+        "date": "2026-07-06T21:20:00Z"
+      }
+    },
+    {
+      "id": "acct-cornerwick-garage-rev-5",
+      "number": 5,
+      "accountId": "acct-cornerwick-garage",
+      "locationId": "acct-cornerwick-garage-loc-1",
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Cyrus Ellery",
+      "date": "2026-10-13T16:00:00Z",
+      "text": "Dropped off for a state inspection at 8 a.m. and didn't hear anything until I called at 4. The work from Cornerwick Garage was fine, but proactive updates would make a big difference.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Cyrus, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Cornerwick Garage. A manager will reach out this week to make it right.\n\nFrank and the Cornerwick Garage crew",
+        "author": "Frank and the Cornerwick Garage crew",
+        "date": "2026-10-14T18:45:00Z"
+      }
+    },
+    {
+      "id": "acct-cornerwick-garage-rev-6",
+      "number": 6,
+      "accountId": "acct-cornerwick-garage",
+      "locationId": "acct-cornerwick-garage-loc-1",
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Delia Lockhart",
+      "date": "2026-09-29T21:30:00Z",
+      "text": "Dom talked me out of an exhaust repair because it wasn't needed yet. It's rare to find a mechanic who saves you money.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dom"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-cornerwick-garage-rev-7",
+      "number": 7,
+      "accountId": "acct-cornerwick-garage",
+      "locationId": "acct-cornerwick-garage-loc-1",
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Emmett Sandoval",
+      "date": "2026-09-15T18:05:00Z",
+      "text": "Picked up my car from Cornerwick Garage after a brake job and there was a new rattle that wasn't there before. Had to bring it back twice. They fixed it eventually, but it cost me two days.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Emmett, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Cornerwick Garage. A manager will reach out this week to make it right.\n\nFrank and the Cornerwick Garage crew",
+        "author": "Frank and the Cornerwick Garage crew",
+        "date": "2026-09-16T20:40:00Z"
+      }
+    },
+    {
+      "id": "acct-cornerwick-garage-rev-8",
+      "number": 8,
+      "accountId": "acct-cornerwick-garage",
+      "locationId": "acct-cornerwick-garage-loc-1",
+      "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Flora Achebe",
+      "date": "2026-09-01T15:10:00Z",
+      "text": "Third visit to Cornerwick Garage and it's consistently good. My exhaust repair was finished early, and Dom reset my tire pressure light without being asked.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dom"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

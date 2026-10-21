@@ -1,0 +1,791 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-quarrytide-electric",
+    "name": "Quarrytide Electric",
+    "brandName": "Quarrytide Electric",
+    "parentGroup": "Quarrytide Trades",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Electrical specialist",
+    "crm": "Housecall Pro",
+    "purchasedLocations": 6,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "San Diego",
+      "state": "CA",
+      "stateName": "California",
+      "country": "United States"
+    },
+    "businessBlurb": "Residential and light-commercial electrical contractor across San Diego County.",
+    "profile": {
+      "description": "Residential and light-commercial electrical contractor across San Diego County. Licensed electricians across San Diego County.",
+      "categories": [
+        "Electrician"
+      ],
+      "website": "https://quarrytideelectric.example.com",
+      "email": "hello@quarrytideelectric.example.com",
+      "phone": "(619) 555-0106",
+      "primaryLocationId": "acct-quarrytide-electric-loc-1",
+      "address": {
+        "street1": "5385 Silverbell Loop",
+        "street2": "Suite 110",
+        "city": "San Diego",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92108",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Quarrytide Electric",
+      "tagline": "Licensed electricians across San Diego County",
+      "logo": {
+        "kind": "monogram",
+        "initials": "QE",
+        "path": "v1/logos/acct-quarrytide-electric.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-quarrytide-electric.svg"
+      },
+      "colors": {
+        "primary": "#F2C14E",
+        "secondary": "#FFF9E8",
+        "accent": "#264653",
+        "onPrimary": "#111111"
+      }
+    },
+    "tone": {
+      "voice": "Safety-first, clear, and friendly; explains code requirements simply.",
+      "formality": "neutral",
+      "replySignoff": "Quarrytide Electric"
+    },
+    "staff": [
+      "Nate",
+      "Dolores",
+      "Kenji",
+      "Austin"
+    ],
+    "services": [
+      "an EV charger install",
+      "a panel upgrade",
+      "recessed lighting",
+      "a whole-home surge protector"
+    ],
+    "llmContext": "Quarrytide Electric · Enterprise · Home services and contractors · HQ San Diego, California, United States · 6 purchased locations · CRM Housecall Pro · Residential and light-commercial electrical contractor across San Diego County."
+  },
+  "locations": [
+    {
+      "id": "acct-quarrytide-electric-loc-1",
+      "accountId": "acct-quarrytide-electric",
+      "index": 1,
+      "name": "Quarrytide Electric - San Diego HQ",
+      "shortName": "San Diego HQ",
+      "label": "Quarrytide Electric - San Diego HQ (San Diego, CA)",
+      "locationLine": "San Diego, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "5385 Silverbell Loop",
+        "street2": "Suite 110",
+        "city": "San Diego",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92108",
+        "country": "US"
+      },
+      "phone": "(619) 555-0100",
+      "email": "san-diego-hq@quarrytideelectric.example.com",
+      "website": "https://quarrytideelectric.example.com/locations/san-diego-hq",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-07T16:00:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-loc-2",
+      "accountId": "acct-quarrytide-electric",
+      "index": 2,
+      "name": "Quarrytide Electric - Chula Vista",
+      "shortName": "Chula Vista",
+      "label": "Quarrytide Electric - Chula Vista (Chula Vista, CA)",
+      "locationLine": "Chula Vista, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2028 Tamarack Lane",
+        "street2": "",
+        "city": "Chula Vista",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "91910",
+        "country": "US"
+      },
+      "phone": "(619) 555-0101",
+      "email": "chula-vista@quarrytideelectric.example.com",
+      "website": "https://quarrytideelectric.example.com/locations/chula-vista",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-10-19T21:30:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-loc-3",
+      "accountId": "acct-quarrytide-electric",
+      "index": 3,
+      "name": "Quarrytide Electric - Carlsbad",
+      "shortName": "Carlsbad",
+      "label": "Quarrytide Electric - Carlsbad (Carlsbad, CA)",
+      "locationLine": "Carlsbad, CA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3147 Foxglove Drive",
+        "street2": "Suite 416",
+        "city": "Carlsbad",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92011",
+        "country": "US"
+      },
+      "phone": "(760) 555-0102",
+      "email": "carlsbad@quarrytideelectric.example.com",
+      "website": "https://quarrytideelectric.example.com/locations/carlsbad",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-05T18:05:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-loc-4",
+      "accountId": "acct-quarrytide-electric",
+      "index": 4,
+      "name": "Quarrytide Electric - Escondido",
+      "shortName": "Escondido",
+      "label": "Quarrytide Electric - Escondido (Escondido, CA)",
+      "locationLine": "Escondido, CA",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8690 Velvet Ash Parkway",
+        "street2": "",
+        "city": "Escondido",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92025",
+        "country": "US"
+      },
+      "phone": "(442) 555-0103",
+      "email": "escondido@quarrytideelectric.example.com",
+      "website": "https://quarrytideelectric.example.com/locations/escondido",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-09-21T15:40:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-loc-5",
+      "accountId": "acct-quarrytide-electric",
+      "index": 5,
+      "name": "Quarrytide Electric - Oceanside",
+      "shortName": "Oceanside",
+      "label": "Quarrytide Electric - Oceanside (Oceanside, CA)",
+      "locationLine": "Oceanside, CA",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "909 Wrenfield Commons",
+        "street2": "",
+        "city": "Oceanside",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92056",
+        "country": "US"
+      },
+      "phone": "(760) 555-0104",
+      "email": "oceanside@quarrytideelectric.example.com",
+      "website": "https://quarrytideelectric.example.com/locations/oceanside",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-07T20:15:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-loc-6",
+      "accountId": "acct-quarrytide-electric",
+      "index": 6,
+      "name": "Quarrytide Electric - El Cajon",
+      "shortName": "El Cajon",
+      "label": "Quarrytide Electric - El Cajon (El Cajon, CA)",
+      "locationLine": "El Cajon, CA",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6452 Yarrow Court",
+        "street2": "Suite 325",
+        "city": "El Cajon",
+        "state": "CA",
+        "stateName": "California",
+        "zip": "92020",
+        "country": "US"
+      },
+      "phone": "(619) 555-0105",
+      "email": "el-cajon@quarrytideelectric.example.com",
+      "website": "https://quarrytideelectric.example.com/locations/el-cajon",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-24T17:50:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-quarrytide-electric-ct-1",
+      "number": 42,
+      "accountId": "acct-quarrytide-electric",
+      "name": "Gideon Rourke",
+      "firstName": "Gideon",
+      "lastName": "Rourke",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-quarrytide-electric-loc-1",
+      "locationIds": [
+        "acct-quarrytide-electric-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-quarrytide-electric-001",
+      "email": "gideon.rourke@example.com",
+      "phone": "(619) 555-0107",
+      "locationCount": 1,
+      "location": "Quarrytide Electric - San Diego HQ (San Diego, CA)",
+      "createdOn": "2026-10-17T15:40:00Z",
+      "lastActivity": "2026-10-19T20:20:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-ct-2",
+      "number": 2,
+      "accountId": "acct-quarrytide-electric",
+      "name": "Helena Zamora",
+      "firstName": "Helena",
+      "lastName": "Zamora",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-quarrytide-electric-loc-4",
+      "locationIds": [
+        "acct-quarrytide-electric-loc-4"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-quarrytide-electric-002",
+      "email": "helena.zamora@example.com",
+      "phone": "(442) 555-0108",
+      "locationCount": 1,
+      "location": "Quarrytide Electric - Escondido (Escondido, CA)",
+      "createdOn": "2026-10-03T14:05:00Z",
+      "lastActivity": "2026-10-10T19:05:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-ct-3",
+      "number": 3,
+      "accountId": "acct-quarrytide-electric",
+      "name": "Idris Guerrero",
+      "firstName": "Idris",
+      "lastName": "Guerrero",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-quarrytide-electric-loc-1",
+      "locationIds": [
+        "acct-quarrytide-electric-loc-1"
+      ],
+      "segments": [
+        "Emergency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-quarrytide-electric-003",
+      "phone": "(619) 555-0109",
+      "locationCount": 1,
+      "location": "Quarrytide Electric - San Diego HQ (San Diego, CA)",
+      "createdOn": "2026-09-19T17:20:00Z",
+      "lastActivity": "2026-10-17T18:25:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-ct-4",
+      "number": 4,
+      "accountId": "acct-quarrytide-electric",
+      "name": "Juno Nakashima",
+      "firstName": "Juno",
+      "lastName": "Nakashima",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-quarrytide-electric-loc-4",
+      "locationIds": [
+        "acct-quarrytide-electric-loc-4",
+        "acct-quarrytide-electric-loc-3"
+      ],
+      "segments": [
+        "Seasonal"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-quarrytide-electric-004",
+      "email": "juno.nakashima@example.com",
+      "phone": "(442) 555-0110",
+      "locationCount": 2,
+      "location": "Quarrytide Electric - Escondido (Escondido, CA)",
+      "createdOn": "2026-09-05T16:25:00Z",
+      "lastActivity": "2026-10-14T17:30:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-ct-5",
+      "number": 5,
+      "accountId": "acct-quarrytide-electric",
+      "name": "Kellan Vasquez-Lane",
+      "firstName": "Kellan",
+      "lastName": "Vasquez-Lane",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-quarrytide-electric-loc-1",
+      "locationIds": [
+        "acct-quarrytide-electric-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-quarrytide-electric-005",
+      "email": "kellan.vasquez.lane@example.com",
+      "phone": "(619) 555-0111",
+      "locationCount": 1,
+      "location": "Quarrytide Electric - San Diego HQ (San Diego, CA)",
+      "createdOn": "2026-08-22T19:55:00Z",
+      "lastActivity": "2026-09-13T16:30:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-ct-6",
+      "number": 6,
+      "accountId": "acct-quarrytide-electric",
+      "name": "Lorena Dempsey",
+      "firstName": "Lorena",
+      "lastName": "Dempsey",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-quarrytide-electric-loc-4",
+      "locationIds": [
+        "acct-quarrytide-electric-loc-4"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-quarrytide-electric-006",
+      "email": "lorena.dempsey@example.com",
+      "locationCount": 1,
+      "location": "Quarrytide Electric - Escondido (Escondido, CA)",
+      "createdOn": "2026-08-08T18:25:00Z",
+      "lastActivity": "2026-09-28T15:25:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-ct-7",
+      "number": 7,
+      "accountId": "acct-quarrytide-electric",
+      "name": "Magnus Landry",
+      "firstName": "Magnus",
+      "lastName": "Landry",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-quarrytide-electric-loc-1",
+      "locationIds": [
+        "acct-quarrytide-electric-loc-1",
+        "acct-quarrytide-electric-loc-6",
+        "acct-quarrytide-electric-loc-5"
+      ],
+      "segments": [
+        "High value",
+        "Property manager"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-quarrytide-electric-007",
+      "email": "magnus.landry@example.com",
+      "phone": "(619) 555-0112",
+      "locationCount": 3,
+      "location": "Quarrytide Electric - San Diego HQ (San Diego, CA)",
+      "createdOn": "2026-07-25T21:50:00Z",
+      "lastActivity": "2026-10-13T14:45:00Z"
+    },
+    {
+      "id": "acct-quarrytide-electric-ct-8",
+      "number": 8,
+      "accountId": "acct-quarrytide-electric",
+      "name": "Nadia Tolliver",
+      "firstName": "Nadia",
+      "lastName": "Tolliver",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-quarrytide-electric-loc-4",
+      "locationIds": [
+        "acct-quarrytide-electric-loc-4",
+        "acct-quarrytide-electric-loc-3"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-quarrytide-electric-008",
+      "email": "nadia.tolliver@example.com",
+      "phone": "(442) 555-0113",
+      "locationCount": 2,
+      "location": "Quarrytide Electric - Escondido (Escondido, CA)",
+      "createdOn": "2026-08-01T20:40:00Z",
+      "lastActivity": "2026-09-16T21:15:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-quarrytide-electric-rev-1",
+      "number": 1,
+      "accountId": "acct-quarrytide-electric",
+      "locationId": "acct-quarrytide-electric-loc-1",
+      "location": "Quarrytide Electric - San Diego HQ (San Diego, CA)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Orion Dunleavy",
+      "date": "2026-08-30T19:55:00Z",
+      "text": "Needed an EV charger install and Quarrytide Electric gave me a two-hour arrival window. Nate showed up early in it, explained the options with prices, and cleaned up before leaving.",
+      "photoCount": 0,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Nate"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Orion! We'll pass this along to the whole Quarrytide Electric team. See you next time.\n\nQuarrytide Electric",
+        "author": "Quarrytide Electric",
+        "date": "2026-08-31T21:10:00Z"
+      }
+    },
+    {
+      "id": "acct-quarrytide-electric-rev-2",
+      "number": 2,
+      "accountId": "acct-quarrytide-electric",
+      "locationId": "acct-quarrytide-electric-loc-2",
+      "location": "Quarrytide Electric - Chula Vista (Chula Vista, CA)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Paloma Kingsley",
+      "date": "2026-08-16T18:40:00Z",
+      "text": "Dolores did a panel upgrade for us at the Chula Vista location. Solid work and a fair price. It took about a week to get on the schedule, which is the only reason it's not five stars.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dolores"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-quarrytide-electric-rev-3",
+      "number": 3,
+      "accountId": "acct-quarrytide-electric",
+      "locationId": "acct-quarrytide-electric-loc-3",
+      "location": "Quarrytide Electric - Carlsbad (Carlsbad, CA)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Reuben Rourke",
+      "date": "2026-08-02T21:05:00Z",
+      "text": "The electrician from Quarrytide Electric showed up two hours late without a call. The work itself was done properly, but I lost half a workday waiting.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Reuben, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Quarrytide Electric. A manager will reach out this week to make it right.\n\nQuarrytide Electric",
+        "author": "Quarrytide Electric",
+        "date": "2026-08-03T15:40:00Z"
+      }
+    },
+    {
+      "id": "acct-quarrytide-electric-rev-4",
+      "number": 4,
+      "accountId": "acct-quarrytide-electric",
+      "locationId": "acct-quarrytide-electric-loc-4",
+      "location": "Quarrytide Electric - Escondido (Escondido, CA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Sabine Zamora",
+      "date": "2026-07-19T20:45:00Z",
+      "text": "Second time using Quarrytide Electric. Austin remembered our setup from last spring and finished a whole-home surge protector faster than quoted. The invoice matched the estimate exactly.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Austin"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Sabine! We'll pass this along to the whole Quarrytide Electric team. See you next time.\n\nQuarrytide Electric",
+        "author": "Quarrytide Electric",
+        "date": "2026-07-21T14:05:00Z"
+      }
+    },
+    {
+      "id": "acct-quarrytide-electric-rev-5",
+      "number": 5,
+      "accountId": "acct-quarrytide-electric",
+      "locationId": "acct-quarrytide-electric-loc-5",
+      "location": "Quarrytide Electric - Oceanside (Oceanside, CA)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Tobias Guerrero",
+      "date": "2026-07-05T15:15:00Z",
+      "text": "Quarrytide Electric quoted one price on the phone for an EV charger install and a much higher one once the electrician was here. I declined and got a second opinion. Not the experience I expected.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Tobias, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Quarrytide Electric. A manager will reach out this week to make it right.\n\nQuarrytide Electric",
+        "author": "Quarrytide Electric",
+        "date": "2026-07-06T17:25:00Z"
+      }
+    },
+    {
+      "id": "acct-quarrytide-electric-rev-6",
+      "number": 6,
+      "accountId": "acct-quarrytide-electric",
+      "locationId": "acct-quarrytide-electric-loc-6",
+      "location": "Quarrytide Electric - El Cajon (El Cajon, CA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Uma Nakashima",
+      "date": "2026-10-14T14:55:00Z",
+      "text": "Dolores took the time to show me what was wrong before recommending anything, and said plainly that a whole-home surge protector wasn't needed yet. That honesty earned Quarrytide Electric a customer for life.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dolores"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-quarrytide-electric-rev-7",
+      "number": 7,
+      "accountId": "acct-quarrytide-electric",
+      "locationId": "acct-quarrytide-electric-loc-1",
+      "location": "Quarrytide Electric - San Diego HQ (San Diego, CA)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Vaughn Vasquez-Lane",
+      "date": "2026-09-30T17:20:00Z",
+      "text": "Work quality on recessed lighting was good, but scheduling with Quarrytide Electric took three phone calls and the confirmation email had the wrong date. The office side needs tightening.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Vaughn, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Quarrytide Electric. A manager will reach out this week to make it right.\n\nQuarrytide Electric",
+        "author": "Quarrytide Electric",
+        "date": "2026-10-01T19:30:00Z"
+      }
+    },
+    {
+      "id": "acct-quarrytide-electric-rev-8",
+      "number": 8,
+      "accountId": "acct-quarrytide-electric",
+      "locationId": "acct-quarrytide-electric-loc-2",
+      "location": "Quarrytide Electric - Chula Vista (Chula Vista, CA)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Willa Dempsey",
+      "date": "2026-09-16T16:05:00Z",
+      "text": "Property manager here. Quarrytide Electric handled a whole-home surge protector across two of our buildings and sent photos and invoices the same day. Tenant notices could be a bit more proactive.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    }
+  ]
+}

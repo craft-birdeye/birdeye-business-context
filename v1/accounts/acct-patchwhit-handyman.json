@@ -1,0 +1,562 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-patchwhit-handyman",
+    "name": "Patchwhit Handyman Co",
+    "brandName": "Patchwhit Handyman",
+    "parentGroup": "Patchwhit Services",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Single crew",
+    "crm": "Jobber",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Columbus",
+      "state": "OH",
+      "stateName": "Ohio",
+      "country": "United States"
+    },
+    "businessBlurb": "Neighborhood handyman and punch-list crew for Columbus homeowners.",
+    "profile": {
+      "description": "Neighborhood handyman and punch-list crew for Columbus homeowners. Punch lists, patches, and small fixes in Columbus.",
+      "categories": [
+        "Handyman"
+      ],
+      "website": "https://patchwhit.example.com",
+      "email": "hello@patchwhit.example.com",
+      "phone": "(380) 555-0100",
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "address": {
+        "street1": "8512 Bluestem Court",
+        "street2": "Suite 441",
+        "city": "Columbus",
+        "state": "OH",
+        "stateName": "Ohio",
+        "zip": "43215",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Patchwhit Handyman",
+      "tagline": "Punch lists, patches, and small fixes in Columbus",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PH",
+        "path": "v1/logos/acct-patchwhit-handyman.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-patchwhit-handyman.svg"
+      },
+      "colors": {
+        "primary": "#7A4E2D",
+        "secondary": "#F7F0EA",
+        "accent": "#5B8C5A",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Down-to-earth and helpful; small crew that remembers your house.",
+      "formality": "casual",
+      "replySignoff": "Pete and the Patchwhit crew"
+    },
+    "staff": [
+      "Pete",
+      "Ramon"
+    ],
+    "services": [
+      "a punch list before listing our house",
+      "drywall patching",
+      "a storm door install",
+      "deck board replacement"
+    ],
+    "llmContext": "Patchwhit Handyman Co · SMB · Home services and contractors · HQ Columbus, Ohio, United States · 1 purchased location · CRM Jobber · Neighborhood handyman and punch-list crew for Columbus homeowners."
+  },
+  "locations": [
+    {
+      "id": "acct-patchwhit-handyman-loc-1",
+      "accountId": "acct-patchwhit-handyman",
+      "index": 1,
+      "name": "Patchwhit Handyman Co",
+      "shortName": "Main",
+      "label": "Patchwhit Handyman Co (Columbus, OH)",
+      "locationLine": "Columbus, OH",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "8512 Bluestem Court",
+        "street2": "Suite 441",
+        "city": "Columbus",
+        "state": "OH",
+        "stateName": "Ohio",
+        "zip": "43215",
+        "country": "US"
+      },
+      "phone": "(380) 555-0100",
+      "email": "hello@patchwhit.example.com",
+      "website": "https://patchwhit.example.com",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-08-10T21:55:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-patchwhit-handyman-ct-1",
+      "number": 42,
+      "accountId": "acct-patchwhit-handyman",
+      "name": "Adele Galbraith",
+      "firstName": "Adele",
+      "lastName": "Galbraith",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "locationIds": [
+        "acct-patchwhit-handyman-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-patchwhit-handyman-001",
+      "email": "adele.galbraith@example.com",
+      "phone": "(614) 555-0101",
+      "locationCount": 1,
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "createdOn": "2026-08-27T16:45:00Z",
+      "lastActivity": "2026-10-10T17:10:00Z"
+    },
+    {
+      "id": "acct-patchwhit-handyman-ct-2",
+      "number": 2,
+      "accountId": "acct-patchwhit-handyman",
+      "name": "Bennett Northcott",
+      "firstName": "Bennett",
+      "lastName": "Northcott",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "locationIds": [
+        "acct-patchwhit-handyman-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-patchwhit-handyman-002",
+      "email": "bennett.northcott@example.com",
+      "phone": "(380) 555-0102",
+      "locationCount": 1,
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "createdOn": "2026-08-13T21:10:00Z",
+      "lastActivity": "2026-08-17T14:25:00Z"
+    },
+    {
+      "id": "acct-patchwhit-handyman-ct-3",
+      "number": 3,
+      "accountId": "acct-patchwhit-handyman",
+      "name": "Carmen Underhill",
+      "firstName": "Carmen",
+      "lastName": "Underhill",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "locationIds": [
+        "acct-patchwhit-handyman-loc-1"
+      ],
+      "segments": [
+        "Emergency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-patchwhit-handyman-003",
+      "phone": "(614) 555-0103",
+      "locationCount": 1,
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "createdOn": "2026-07-30T18:45:00Z",
+      "lastActivity": "2026-08-18T15:05:00Z"
+    },
+    {
+      "id": "acct-patchwhit-handyman-ct-4",
+      "number": 4,
+      "accountId": "acct-patchwhit-handyman",
+      "name": "Dorian Castaneda",
+      "firstName": "Dorian",
+      "lastName": "Castaneda",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "locationIds": [
+        "acct-patchwhit-handyman-loc-1"
+      ],
+      "segments": [
+        "Seasonal"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-patchwhit-handyman-004",
+      "email": "dorian.castaneda@example.com",
+      "phone": "(380) 555-0104",
+      "locationCount": 1,
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "createdOn": "2026-07-16T15:00:00Z",
+      "lastActivity": "2026-08-19T20:00:00Z"
+    },
+    {
+      "id": "acct-patchwhit-handyman-ct-5",
+      "number": 5,
+      "accountId": "acct-patchwhit-handyman",
+      "name": "Esme Jaramillo",
+      "firstName": "Esme",
+      "lastName": "Jaramillo",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "locationIds": [
+        "acct-patchwhit-handyman-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-patchwhit-handyman-005",
+      "email": "esme.jaramillo@example.com",
+      "phone": "(614) 555-0105",
+      "locationCount": 1,
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "createdOn": "2026-07-02T20:50:00Z",
+      "lastActivity": "2026-08-20T21:10:00Z"
+    },
+    {
+      "id": "acct-patchwhit-handyman-ct-6",
+      "number": 6,
+      "accountId": "acct-patchwhit-handyman",
+      "name": "Fabian Rasmussen",
+      "firstName": "Fabian",
+      "lastName": "Rasmussen",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "locationIds": [
+        "acct-patchwhit-handyman-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-patchwhit-handyman-006",
+      "email": "fabian.rasmussen@example.com",
+      "locationCount": 1,
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "createdOn": "2026-10-14T17:20:00Z",
+      "lastActivity": "2026-10-17T18:45:00Z"
+    },
+    {
+      "id": "acct-patchwhit-handyman-ct-7",
+      "number": 7,
+      "accountId": "acct-patchwhit-handyman",
+      "name": "Greta Zielinski",
+      "firstName": "Greta",
+      "lastName": "Zielinski",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "locationIds": [
+        "acct-patchwhit-handyman-loc-1"
+      ],
+      "segments": [
+        "High value",
+        "Property manager"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-patchwhit-handyman-007",
+      "email": "greta.zielinski@example.com",
+      "phone": "(614) 555-0106",
+      "locationCount": 1,
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "createdOn": "2026-09-30T14:05:00Z",
+      "lastActivity": "2026-10-11T19:45:00Z"
+    },
+    {
+      "id": "acct-patchwhit-handyman-ct-8",
+      "number": 8,
+      "accountId": "acct-patchwhit-handyman",
+      "name": "Hollis Granger",
+      "firstName": "Hollis",
+      "lastName": "Granger",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-patchwhit-handyman-loc-1",
+      "locationIds": [
+        "acct-patchwhit-handyman-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-patchwhit-handyman-008",
+      "email": "hollis.granger@example.com",
+      "phone": "(380) 555-0107",
+      "locationCount": 1,
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "createdOn": "2026-10-07T19:50:00Z",
+      "lastActivity": "2026-10-19T16:10:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-patchwhit-handyman-rev-1",
+      "number": 1,
+      "accountId": "acct-patchwhit-handyman",
+      "locationId": "acct-patchwhit-handyman-loc-1",
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Ivy Osgood",
+      "date": "2026-08-15T14:55:00Z",
+      "text": "Pete was friendly, but the crew left debris in the driveway after a punch list before listing our house and I had to call Patchwhit Handyman to get it picked up.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Pete"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Ivy, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Patchwhit Handyman. A manager will reach out this week to make it right.\n\nPete and the Patchwhit crew",
+        "author": "Pete and the Patchwhit crew",
+        "date": "2026-08-16T16:50:00Z"
+      }
+    },
+    {
+      "id": "acct-patchwhit-handyman-rev-2",
+      "number": 2,
+      "accountId": "acct-patchwhit-handyman",
+      "locationId": "acct-patchwhit-handyman-loc-1",
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Jasper Yardley",
+      "date": "2026-08-01T15:10:00Z",
+      "text": "Needed drywall patching and Patchwhit Handyman gave me a two-hour arrival window. Ramon showed up early in it, explained the options with prices, and cleaned up before leaving.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Ramon"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-patchwhit-handyman-rev-3",
+      "number": 3,
+      "accountId": "acct-patchwhit-handyman",
+      "locationId": "acct-patchwhit-handyman-loc-1",
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Kira Galbraith",
+      "date": "2026-07-18T20:45:00Z",
+      "text": "Pete did a storm door install for us at Patchwhit Handyman. Solid work and a fair price. It took about a week to get on the schedule, which is the only reason it's not five stars.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Pete"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-patchwhit-handyman-rev-4",
+      "number": 4,
+      "accountId": "acct-patchwhit-handyman",
+      "locationId": "acct-patchwhit-handyman-loc-1",
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Leon Northcott",
+      "date": "2026-07-04T21:00:00Z",
+      "text": "The handyman from Patchwhit Handyman showed up two hours late without a call. The work itself was done properly, but I lost half a workday waiting.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Leon, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Patchwhit Handyman. A manager will reach out this week to make it right.\n\nPete and the Patchwhit crew",
+        "author": "Pete and the Patchwhit crew",
+        "date": "2026-07-06T15:40:00Z"
+      }
+    },
+    {
+      "id": "acct-patchwhit-handyman-rev-5",
+      "number": 5,
+      "accountId": "acct-patchwhit-handyman",
+      "locationId": "acct-patchwhit-handyman-loc-1",
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Marisa Underhill",
+      "date": "2026-10-13T18:35:00Z",
+      "text": "Second time using Patchwhit Handyman. Pete remembered our setup from last spring and finished a punch list before listing our house faster than quoted. The invoice matched the estimate exactly.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Pete"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-patchwhit-handyman-rev-6",
+      "number": 6,
+      "accountId": "acct-patchwhit-handyman",
+      "locationId": "acct-patchwhit-handyman-loc-1",
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "site": "yelp",
+      "rating": 1,
+      "reviewer": "Nico Castaneda",
+      "date": "2026-09-29T19:55:00Z",
+      "text": "Patchwhit Handyman quoted one price on the phone for drywall patching and a much higher one once the handyman was here. I declined and got a second opinion. Not the experience I expected.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Nico, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Patchwhit Handyman. A manager will reach out this week to make it right.\n\nPete and the Patchwhit crew",
+        "author": "Pete and the Patchwhit crew",
+        "date": "2026-10-01T21:10:00Z"
+      }
+    },
+    {
+      "id": "acct-patchwhit-handyman-rev-7",
+      "number": 7,
+      "accountId": "acct-patchwhit-handyman",
+      "locationId": "acct-patchwhit-handyman-loc-1",
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Odette Jaramillo",
+      "date": "2026-09-15T16:30:00Z",
+      "text": "Pete took the time to show me what was wrong before recommending anything, and said plainly that a punch list before listing our house wasn't needed yet. That honesty earned Patchwhit Handyman a customer for life.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Pete"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Odette! We'll pass this along to the whole Patchwhit Handyman team. See you next time.\n\nPete and the Patchwhit crew",
+        "author": "Pete and the Patchwhit crew",
+        "date": "2026-09-16T18:55:00Z"
+      }
+    },
+    {
+      "id": "acct-patchwhit-handyman-rev-8",
+      "number": 8,
+      "accountId": "acct-patchwhit-handyman",
+      "locationId": "acct-patchwhit-handyman-loc-1",
+      "location": "Patchwhit Handyman Co (Columbus, OH)",
+      "site": "google",
+      "rating": 3,
+      "reviewer": "Pierce Rasmussen",
+      "date": "2026-09-01T17:45:00Z",
+      "text": "Work quality on deck board replacement was good, but scheduling with Patchwhit Handyman took three phone calls and the confirmation email had the wrong date. The office side needs tightening.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Pierce, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Patchwhit Handyman. A manager will reach out this week to make it right.\n\nPete and the Patchwhit crew",
+        "author": "Pete and the Patchwhit crew",
+        "date": "2026-09-03T19:55:00Z"
+      }
+    }
+  ]
+}

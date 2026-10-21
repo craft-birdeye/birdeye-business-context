@@ -1,0 +1,557 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-buffwren-detail",
+    "name": "Buffwren Detail Studio",
+    "brandName": "Buffwren Detail Studio",
+    "parentGroup": "Buffwren Detail",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "automotive",
+    "industryLabel": "Automotive",
+    "tier": "Detail boutique",
+    "crm": "Jobber",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Austin",
+      "state": "TX",
+      "stateName": "Texas",
+      "country": "United States"
+    },
+    "businessBlurb": "Mobile and studio detailing for Austin enthusiasts and fleet managers.",
+    "profile": {
+      "description": "Mobile and studio detailing for Austin enthusiasts and fleet managers. Studio and mobile detailing in Austin.",
+      "categories": [
+        "Car detailing service"
+      ],
+      "website": "https://buffwrendetail.example.com",
+      "email": "hello@buffwrendetail.example.com",
+      "phone": "(512) 555-0100",
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "address": {
+        "street1": "6051 Willowmere Way",
+        "street2": "Suite 152",
+        "city": "Austin",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "78704",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Buffwren Detail Studio",
+      "tagline": "Studio and mobile detailing in Austin",
+      "logo": {
+        "kind": "monogram",
+        "initials": "BD",
+        "path": "v1/logos/acct-buffwren-detail.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-buffwren-detail.svg"
+      },
+      "colors": {
+        "primary": "#111111",
+        "secondary": "#F2F2F2",
+        "accent": "#C0A062",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Enthusiast, meticulous, and premium.",
+      "formality": "neutral",
+      "replySignoff": "Buffwren Detail Studio"
+    },
+    "staff": [
+      "Jace",
+      "Lia"
+    ],
+    "services": [
+      "a ceramic coating",
+      "a paint correction",
+      "an interior detail",
+      "paint protection film"
+    ],
+    "llmContext": "Buffwren Detail Studio · SMB · Automotive · HQ Austin, Texas, United States · 1 purchased location · CRM Jobber · Mobile and studio detailing for Austin enthusiasts and fleet managers."
+  },
+  "locations": [
+    {
+      "id": "acct-buffwren-detail-loc-1",
+      "accountId": "acct-buffwren-detail",
+      "index": 1,
+      "name": "Buffwren Detail Studio",
+      "shortName": "Main",
+      "label": "Buffwren Detail Studio (Austin, TX)",
+      "locationLine": "Austin, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "6051 Willowmere Way",
+        "street2": "Suite 152",
+        "city": "Austin",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "78704",
+        "country": "US"
+      },
+      "phone": "(512) 555-0100",
+      "email": "hello@buffwrendetail.example.com",
+      "website": "https://buffwrendetail.example.com",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-08-11T15:55:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-buffwren-detail-ct-1",
+      "number": 42,
+      "accountId": "acct-buffwren-detail",
+      "name": "Gideon Halvorsen",
+      "firstName": "Gideon",
+      "lastName": "Halvorsen",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "locationIds": [
+        "acct-buffwren-detail-loc-1"
+      ],
+      "segments": [
+        "Service plan",
+        "Tire customer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-buffwren-detail-001",
+      "email": "gideon.halvorsen@example.com",
+      "phone": "(512) 555-0101",
+      "locationCount": 1,
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "createdOn": "2026-08-28T14:05:00Z",
+      "lastActivity": "2026-09-19T19:05:00Z"
+    },
+    {
+      "id": "acct-buffwren-detail-ct-2",
+      "number": 2,
+      "accountId": "acct-buffwren-detail",
+      "name": "Helena Okonjo",
+      "firstName": "Helena",
+      "lastName": "Okonjo",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "locationIds": [
+        "acct-buffwren-detail-loc-1"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-buffwren-detail-002",
+      "email": "helena.okonjo@example.com",
+      "phone": "(737) 555-0102",
+      "locationCount": 1,
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "createdOn": "2026-08-14T15:40:00Z",
+      "lastActivity": "2026-09-20T20:20:00Z"
+    },
+    {
+      "id": "acct-buffwren-detail-ct-3",
+      "number": 3,
+      "accountId": "acct-buffwren-detail",
+      "name": "Idris Whitmore",
+      "firstName": "Idris",
+      "lastName": "Whitmore",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "locationIds": [
+        "acct-buffwren-detail-loc-1"
+      ],
+      "segments": [
+        "Fleet"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-buffwren-detail-003",
+      "phone": "(512) 555-0103",
+      "locationCount": 1,
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "createdOn": "2026-07-31T20:50:00Z",
+      "lastActivity": "2026-09-21T21:30:00Z"
+    },
+    {
+      "id": "acct-buffwren-detail-ct-4",
+      "number": 4,
+      "accountId": "acct-buffwren-detail",
+      "name": "Juno Everly",
+      "firstName": "Juno",
+      "lastName": "Everly",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "locationIds": [
+        "acct-buffwren-detail-loc-1"
+      ],
+      "segments": [
+        "Recall notice"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-buffwren-detail-004",
+      "email": "juno.everly@example.com",
+      "phone": "(737) 555-0104",
+      "locationCount": 1,
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "createdOn": "2026-07-17T21:50:00Z",
+      "lastActivity": "2026-09-22T14:45:00Z"
+    },
+    {
+      "id": "acct-buffwren-detail-ct-5",
+      "number": 5,
+      "accountId": "acct-buffwren-detail",
+      "name": "Kellan Mabry",
+      "firstName": "Kellan",
+      "lastName": "Mabry",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "locationIds": [
+        "acct-buffwren-detail-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-buffwren-detail-005",
+      "email": "kellan.mabry@example.com",
+      "phone": "(512) 555-0105",
+      "locationCount": 1,
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "createdOn": "2026-07-03T18:25:00Z",
+      "lastActivity": "2026-09-23T15:25:00Z"
+    },
+    {
+      "id": "acct-buffwren-detail-ct-6",
+      "number": 6,
+      "accountId": "acct-buffwren-detail",
+      "name": "Lorena Vance-Ortiz",
+      "firstName": "Lorena",
+      "lastName": "Vance-Ortiz",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "locationIds": [
+        "acct-buffwren-detail-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-buffwren-detail-006",
+      "email": "lorena.vance.ortiz@example.com",
+      "locationCount": 1,
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "createdOn": "2026-10-15T19:55:00Z",
+      "lastActivity": "2026-10-20T16:30:00Z"
+    },
+    {
+      "id": "acct-buffwren-detail-ct-7",
+      "number": 7,
+      "accountId": "acct-buffwren-detail",
+      "name": "Magnus Ellery",
+      "firstName": "Magnus",
+      "lastName": "Ellery",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "locationIds": [
+        "acct-buffwren-detail-loc-1"
+      ],
+      "segments": [
+        "Tire customer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-buffwren-detail-007",
+      "email": "magnus.ellery@example.com",
+      "phone": "(512) 555-0106",
+      "locationCount": 1,
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "createdOn": "2026-10-01T16:25:00Z",
+      "lastActivity": "2026-10-17T17:30:00Z"
+    },
+    {
+      "id": "acct-buffwren-detail-ct-8",
+      "number": 8,
+      "accountId": "acct-buffwren-detail",
+      "name": "Nadia Lockhart",
+      "firstName": "Nadia",
+      "lastName": "Lockhart",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-buffwren-detail-loc-1",
+      "locationIds": [
+        "acct-buffwren-detail-loc-1"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-buffwren-detail-008",
+      "email": "nadia.lockhart@example.com",
+      "phone": "(737) 555-0107",
+      "locationCount": 1,
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "createdOn": "2026-10-08T17:30:00Z",
+      "lastActivity": "2026-10-13T18:55:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-buffwren-detail-rev-1",
+      "number": 1,
+      "accountId": "acct-buffwren-detail",
+      "locationId": "acct-buffwren-detail-loc-1",
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Orion Sandoval",
+      "date": "2026-08-10T16:30:00Z",
+      "text": "My ceramic coating was done right and priced fairly. The waiting area at Buffwren Detail Studio was busy and the Wi-Fi kept dropping, but Jace kept me updated.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jace"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Orion! We'll pass this along to the whole Buffwren Detail Studio team. See you next time.\n\nBuffwren Detail Studio",
+        "author": "Buffwren Detail Studio",
+        "date": "2026-08-11T18:15:00Z"
+      }
+    },
+    {
+      "id": "acct-buffwren-detail-rev-2",
+      "number": 2,
+      "accountId": "acct-buffwren-detail",
+      "locationId": "acct-buffwren-detail-loc-1",
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Paloma Achebe",
+      "date": "2026-07-27T21:00:00Z",
+      "text": "Dropped off for a paint correction at 8 a.m. and didn't hear anything until I called at 4. The work from Buffwren Detail Studio was fine, but proactive updates would make a big difference.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Paloma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Buffwren Detail Studio. A manager will reach out this week to make it right.\n\nBuffwren Detail Studio",
+        "author": "Buffwren Detail Studio",
+        "date": "2026-07-29T15:20:00Z"
+      }
+    },
+    {
+      "id": "acct-buffwren-detail-rev-3",
+      "number": 3,
+      "accountId": "acct-buffwren-detail",
+      "locationId": "acct-buffwren-detail-loc-1",
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Reuben Halvorsen",
+      "date": "2026-07-13T18:35:00Z",
+      "text": "Jace talked me out of a ceramic coating because it wasn't needed yet. It's rare to find a detailer who saves you money.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jace"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-buffwren-detail-rev-4",
+      "number": 4,
+      "accountId": "acct-buffwren-detail",
+      "locationId": "acct-buffwren-detail-loc-1",
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Sabine Okonjo",
+      "date": "2026-06-29T15:10:00Z",
+      "text": "Picked up my car from Buffwren Detail Studio after paint protection film and there was a new rattle that wasn't there before. Had to bring it back twice. They fixed it eventually, but it cost me two days.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Sabine, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Buffwren Detail Studio. A manager will reach out this week to make it right.\n\nBuffwren Detail Studio",
+        "author": "Buffwren Detail Studio",
+        "date": "2026-07-01T17:20:00Z"
+      }
+    },
+    {
+      "id": "acct-buffwren-detail-rev-5",
+      "number": 5,
+      "accountId": "acct-buffwren-detail",
+      "locationId": "acct-buffwren-detail-loc-1",
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Tobias Whitmore",
+      "date": "2026-10-08T20:45:00Z",
+      "text": "Third visit to Buffwren Detail Studio and it's consistently good. My ceramic coating was finished early, and Jace reset my tire pressure light without being asked.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jace"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-buffwren-detail-rev-6",
+      "number": 6,
+      "accountId": "acct-buffwren-detail",
+      "locationId": "acct-buffwren-detail-loc-1",
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "site": "yelp",
+      "rating": 3,
+      "reviewer": "Uma Everly",
+      "date": "2026-09-24T17:20:00Z",
+      "text": "Good work on a paint correction, but the final bill from Buffwren Detail Studio was higher than the estimate because of shop fees nobody mentioned up front.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Uma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Buffwren Detail Studio. A manager will reach out this week to make it right.\n\nBuffwren Detail Studio",
+        "author": "Buffwren Detail Studio",
+        "date": "2026-09-26T19:50:00Z"
+      }
+    },
+    {
+      "id": "acct-buffwren-detail-rev-7",
+      "number": 7,
+      "accountId": "acct-buffwren-detail",
+      "locationId": "acct-buffwren-detail-loc-1",
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Vaughn Mabry",
+      "date": "2026-09-10T14:55:00Z",
+      "text": "Jace explained the inspection results in plain language and sorted out what could wait. Turnaround on an interior detail ran a little longer than quoted.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jace"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Vaughn! We'll pass this along to the whole Buffwren Detail Studio team. See you next time.\n\nBuffwren Detail Studio",
+        "author": "Buffwren Detail Studio",
+        "date": "2026-09-11T16:50:00Z"
+      }
+    },
+    {
+      "id": "acct-buffwren-detail-rev-8",
+      "number": 8,
+      "accountId": "acct-buffwren-detail",
+      "locationId": "acct-buffwren-detail-loc-1",
+      "location": "Buffwren Detail Studio (Austin, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Willa Vance-Ortiz",
+      "date": "2026-08-27T19:20:00Z",
+      "text": "Fleet manager here. Buffwren Detail Studio keeps our vans on the road with one invoice a month and almost no downtime. Lia is our go-to contact.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Lia"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}
