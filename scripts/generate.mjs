@@ -8,9 +8,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { CENTERS } from "./lib/centers.mjs";
+import { makeEnricher } from "./lib/enrich.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const SCHEMA_VERSION = "1.0.0";
+const SCHEMA_VERSION = "1.1.0";
 const BASE_URL = (process.env.BASE_URL || "https://craft-birdeye.github.io/birdeye-business-context").replace(/\/$/, "");
 
 const argDate = (() => { const i = process.argv.indexOf("--date"); return i > -1 ? process.argv[i + 1] : process.env.BUILD_DATE; })();
@@ -33,13 +35,17 @@ const read = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, "source", f), "ut
 const srcAccounts = read("accounts.json").accounts;
 const srcLocations = read("locations.json").locations;
 const srcContacts = read("contacts.json").contacts;
-const srcReviews = read("reviews.json").reviews;
+const D = read("distributions.json");
+const T = read("review-templates.json");
+const enricher = makeEnricher({ D, T, CENTERS, buildDate });
+// Proposal 1: reshape non-scenario review samples to source/distributions.json (quick scenarios stay as authored).
+const { reviews: srcReviews, stats: curationStats } = enricher.curateReviews(srcAccounts, srcLocations, read("reviews.json").reviews);
 
 const schemaUrl = (n) => `${BASE_URL}/schemas/${n}.schema.json`;
 const fileUrl = (p) => `${BASE_URL}/${p}`;
 
-const locations = srcLocations.map(({ createdDaysAgo, ...l }) => ({ ...l, createdOn: isoDaysAgo(createdDaysAgo, l.id) }));
-const locById = new Map(locations.map((l) => [l.id, l]));
+const baseLocations = srcLocations.map(({ createdDaysAgo, ...l }) => ({ ...l, createdOn: isoDaysAgo(createdDaysAgo, l.id) }));
+const locById = new Map(baseLocations.map((l) => [l.id, l]));
 
 const contacts = srcContacts.map(({ createdDaysAgo, lastActivityDaysAgo, ...c }) => {
   const out = { ...c };
@@ -54,7 +60,13 @@ const contacts = srcContacts.map(({ createdDaysAgo, lastActivityDaysAgo, ...c })
 
 const reviews = srcReviews.map(({ daysAgo, reply, ...r }) => {
   const out = { ...r, location: locById.get(r.locationId)?.label ?? "", employees: r.employeesMentioned.length, date: isoDaysAgo(daysAgo, r.id) };
-  if (reply) {
+  if (reply && reply.lagHours !== undefined) {
+    // reshaped accounts: reply posted lagHours after the review; a reply that would land after the build time is withheld
+    const { lagHours, ...rest } = reply;
+    const t = Date.parse(out.date) + Math.round(lagHours * 60) * 60000;
+    if (t <= anchor) out.reply = { ...rest, date: new Date(t).toISOString().replace(/\.\d{3}Z$/, "Z") };
+    else { out.replyStatus = "post"; curationStats.repliesWithheld = (curationStats.repliesWithheld ?? 0) + 1; }
+  } else if (reply) {
     const { daysAgo: rd, ...rest } = reply;
     // A reply can never predate its review.
     const replyDate = isoDaysAgo(Math.min(rd, daysAgo), r.id + ":reply");
@@ -65,6 +77,10 @@ const reviews = srcReviews.map(({ daysAgo, reply, ...r }) => {
   return { id, number, accountId, locationId, location, site, rating, reviewer, date, text, photoCount, featured, archived, employeesMentioned, employees, replyStatus, ...(out.reply ? { reply: out.reply } : {}) };
 });
 
+// Proposal 2: invented listing-level fields per location (additive in schema 1.1.0).
+const srcAccountById = new Map(srcAccounts.map((a) => [a.id, a]));
+const locations = baseLocations.map((l) => ({ ...l, ...enricher.enrichLocation(l, srcAccountById.get(l.accountId), reviews.filter((r) => r.locationId === l.id)) }));
+
 function llmContext(a) {
   const n = a.purchasedLocations;
   return [a.name, a.segmentLabel, a.industryLabel, `HQ ${a.hq.city}, ${a.hq.stateName}, ${a.hq.country}`, `${n} purchased location${n === 1 ? "" : "s"}`, `CRM ${a.crm}`, a.businessBlurb].join(" · ");
@@ -73,6 +89,7 @@ const accounts = srcAccounts.map((a) => ({
   ...a,
   branding: { ...a.branding, logo: { ...a.branding.logo, url: fileUrl(a.branding.logo.path) } },
   llmContext: llmContext(a),
+  listingSummary: enricher.accountSummary(locations.filter((l) => l.accountId === a.id)),
 }));
 
 const by = (rows, id) => rows.filter((r) => r.accountId === id);
@@ -93,6 +110,7 @@ const index = {
     industryId: a.industryId, industryLabel: a.industryLabel, purchasedLocations: a.purchasedLocations,
     hqLabel: `${a.hq.city}, ${a.hq.state}`, quickScenario: a.quickScenario, branding: a.branding,
     counts: { locations: by(locations, a.id).length, contacts: by(contacts, a.id).length, reviews: by(reviews, a.id).length },
+    listingSummary: a.listingSummary,
     bundleUrl: fileUrl(`v1/accounts/${a.id}.json`),
   }])),
 };
@@ -126,7 +144,8 @@ write("v1/index.json", {
     locations: fileUrl("v1/locations.json"), contacts: fileUrl("v1/contacts.json"), reviews: fileUrl("v1/reviews.json"),
     accountBundle: fileUrl("v1/accounts/{accountId}.json"), logo: fileUrl("v1/logos/{accountId}.svg"), schemas: fileUrl("schemas/"),
   },
-  counts: { accounts: accounts.length, locations: locations.length, contacts: contacts.length, reviews: reviews.length },
+  counts: { accounts: accounts.length, locations: locations.length, contacts: contacts.length, reviews: reviews.length, listings: locations.reduce((x, l) => x + l.listings.length, 0) },
+  distributions: { version: D.version, seed: D.seed, specialHoursWindow: specialHoursWindowFor() },
 });
 
 // ---- per-account briefs (no dates, so they only change when source changes) ----
@@ -138,6 +157,9 @@ fs.writeFileSync(path.join(ROOT, "docs", "accounts", "README.md"), briefIndex())
 
 console.log(`generated v1 for ${buildDate}: ${accounts.length} accounts, ${locations.length} locations, ${contacts.length} contacts, ${reviews.length} reviews`);
 console.log(`date window: ${allDates[0]} .. ${allDates.at(-1)}`);
+console.log(`curation: ${curationStats.converted} reviews re-rated from templates, ${curationStats.repliesAdded} templated replies added, ${curationStats.repliesWithheld ?? 0} replies withheld (would post after build time)`);
+
+function specialHoursWindowFor() { const h = D.common.holidays; return { from: new Date(anchor - h.windowDaysBefore * DAY).toISOString().slice(0, 10), to: new Date(anchor + h.windowDaysAfter * DAY).toISOString().slice(0, 10) }; }
 
 function logoSvg(a) {
   const { primary, onPrimary, accent } = a.branding.colors;
@@ -155,6 +177,7 @@ function brief(a) {
   const locs = by(locations, a.id), cts = by(contacts, a.id), revs = by(reviews, a.id);
   const avg = (revs.reduce((s, r) => s + r.rating, 0) / revs.length).toFixed(1);
   const types = [...new Set(cts.map((c) => c.contactType))].join(", ");
+  const listRows = locs.map((l) => `| ${l.index} | ${l.businessStatusLabel} | ${[l.categories.primary, ...l.categories.secondary].join(", ")} | ${l.listings.map((s) => `${s.site}: ${s.rating ?? "–"} · ${s.reviewCount} · ${s.claimed ? (s.verified ? "verified" : "claimed") : "unclaimed"}`).join("; ")} | ${l.coordinates.lat}, ${l.coordinates.lng} |`).join("\n");
   const locRows = locs.map((l) => `| ${l.index} | ${l.name} | ${l.address.street1}${l.address.street2 ? ", " + l.address.street2 : ""}, ${l.address.city}, ${l.address.state} ${l.address.zip} | ${l.phone} | ${l.status} |`).join("\n");
   return `<!-- Generated by scripts/generate.mjs from source/*.json. Do not edit by hand. -->
 # ${a.name}
@@ -190,6 +213,7 @@ ${a.profile.description}
 
 - Contacts: ${cts.length} (${types})
 - Reviews: ${revs.length}, average ${avg}★, ${revs.filter((r) => r.reply).length} with replies
+- Listings (invented, schema 1.1.0): ${a.listingSummary.listings} across ${a.listingSummary.locations} location${a.listingSummary.locations === 1 ? "" : "s"}, ${a.listingSummary.claimedListings} claimed, ${a.listingSummary.verifiedListings} verified; ${a.listingSummary.totalReviews} public reviews, average ${a.listingSummary.averageRating ?? "n/a"}★; ${a.listingSummary.photoCount} photos
 - Bundle: [\`v1/accounts/${a.id}.json\`](${fileUrl(`v1/accounts/${a.id}.json`)})
 
 ## Locations
@@ -197,6 +221,14 @@ ${a.profile.description}
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 ${locRows}
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+${listRows}
+
+Special hours are in the bundle (\`specialHours\`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 
