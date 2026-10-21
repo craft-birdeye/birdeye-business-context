@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/accounts.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "accounts": [
     {
@@ -75,7 +75,17 @@
         "a crown",
         "a night guard"
       ],
-      "llmContext": "Evercoast Dental Partners · Enterprise · Dental and healthcare · HQ San Diego, California, United States · 45 purchased locations · CRM Dentrix Enterprise · Multi-state dental support organization operating Evercoast Dental practices across the western United States."
+      "llmContext": "Evercoast Dental Partners · Enterprise · Dental and healthcare · HQ San Diego, California, United States · 45 purchased locations · CRM Dentrix Enterprise · Multi-state dental support organization operating Evercoast Dental practices across the western United States.",
+      "listingSummary": {
+        "locations": 45,
+        "openLocations": 39,
+        "listings": 117,
+        "claimedListings": 86,
+        "verifiedListings": 85,
+        "totalReviews": 31721,
+        "averageRating": 4.8,
+        "photoCount": 1396
+      }
     },
     {
       "id": "acct-brisquen-dental",
@@ -150,7 +160,17 @@
         "a whitening consult",
         "a filling"
       ],
-      "llmContext": "Brisquen Dental Partners · Enterprise · Dental and healthcare · HQ Scottsdale, Arizona, United States · 5 purchased locations · CRM Open Dental · Five-location dental group across the East Valley of Phoenix."
+      "llmContext": "Brisquen Dental Partners · Enterprise · Dental and healthcare · HQ Scottsdale, Arizona, United States · 5 purchased locations · CRM Open Dental · Five-location dental group across the East Valley of Phoenix.",
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 14,
+        "claimedListings": 8,
+        "verifiedListings": 8,
+        "totalReviews": 7090,
+        "averageRating": 4.6,
+        "photoCount": 61
+      }
     },
     {
       "id": "acct-tovaline-ortho",
@@ -225,7 +245,17 @@
         "a free ortho consult",
         "a retainer fitting"
       ],
-      "llmContext": "Tovaline Orthodontics Group · Enterprise · Dental and healthcare · HQ Naperville, Illinois, United States · 8 purchased locations · CRM OrthoTrac · Chicago-suburb orthodontic group focused on teens and adult clear-aligner cases."
+      "llmContext": "Tovaline Orthodontics Group · Enterprise · Dental and healthcare · HQ Naperville, Illinois, United States · 8 purchased locations · CRM OrthoTrac · Chicago-suburb orthodontic group focused on teens and adult clear-aligner cases.",
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 8,
+        "listings": 24,
+        "claimedListings": 17,
+        "verifiedListings": 17,
+        "totalReviews": 4040,
+        "averageRating": 4.8,
+        "photoCount": 383
+      }
     },
     {
       "id": "acct-saltwick-dental",
@@ -300,7 +330,17 @@
         "a veneer consult",
         "a hygiene recall"
       ],
-      "llmContext": "Saltwick Dental Collective · Enterprise · Dental and healthcare · HQ San Francisco, California, United States · 6 purchased locations · CRM Dentrix · Bay Area general dentistry group with strong new-patient and hygiene recall programs."
+      "llmContext": "Saltwick Dental Collective · Enterprise · Dental and healthcare · HQ San Francisco, California, United States · 6 purchased locations · CRM Dentrix · Bay Area general dentistry group with strong new-patient and hygiene recall programs.",
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 5,
+        "listings": 17,
+        "claimedListings": 12,
+        "verifiedListings": 12,
+        "totalReviews": 3539,
+        "averageRating": 4.9,
+        "photoCount": 327
+      }
     },
     {
       "id": "acct-thimbleleaf-dental",
@@ -373,7 +413,17 @@
         "a bonding repair",
         "a crown"
       ],
-      "llmContext": "Thimbleleaf Family Dental · SMB · Dental and healthcare · HQ Austin, Texas, United States · 1 purchased location · CRM Dentrix · Single-location family dental practice in Austin."
+      "llmContext": "Thimbleleaf Family Dental · SMB · Dental and healthcare · HQ Austin, Texas, United States · 1 purchased location · CRM Dentrix · Single-location family dental practice in Austin.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 1161,
+        "averageRating": 4.7,
+        "photoCount": 44
+      }
     },
     {
       "id": "acct-puddlewick-kids",
@@ -447,7 +497,17 @@
         "a sealant appointment",
         "a six-month checkup"
       ],
-      "llmContext": "Puddlewick Kids Dentistry · SMB · Dental and healthcare · HQ Portland, Oregon, United States · 1 purchased location · CRM Open Dental · Pediatric-only practice serving Portland families with sedation and special-needs care."
+      "llmContext": "Puddlewick Kids Dentistry · SMB · Dental and healthcare · HQ Portland, Oregon, United States · 1 purchased location · CRM Open Dental · Pediatric-only practice serving Portland families with sedation and special-needs care.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 594,
+        "averageRating": 4.9,
+        "photoCount": 36
+      }
     },
     {
       "id": "acct-brindlemoss-dental",
@@ -522,7 +582,17 @@
         "a whitening session",
         "an implant crown"
       ],
-      "llmContext": "Brindlemoss Dental Studio · SMB · Dental and healthcare · HQ Nashville, Tennessee, United States · 1 purchased location · CRM Curve Dental · Boutique restorative and cosmetic studio in Nashville with a strong Google review habit."
+      "llmContext": "Brindlemoss Dental Studio · SMB · Dental and healthcare · HQ Nashville, Tennessee, United States · 1 purchased location · CRM Curve Dental · Boutique restorative and cosmetic studio in Nashville with a strong Google review habit.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 479,
+        "averageRating": 4.8,
+        "photoCount": 63
+      }
     },
     {
       "id": "acct-dentavane-channel",
@@ -596,7 +666,17 @@
         "a new-patient review campaign",
         "monthly reputation reporting"
       ],
-      "llmContext": "Dentavane Dental Marketing · Channel · Dental and healthcare · HQ Atlanta, Georgia, United States · 4 purchased locations · CRM HubSpot · Channel partner that runs listings and review programs for independent dental groups."
+      "llmContext": "Dentavane Dental Marketing · Channel · Dental and healthcare · HQ Atlanta, Georgia, United States · 4 purchased locations · CRM HubSpot · Channel partner that runs listings and review programs for independent dental groups.",
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 10,
+        "claimedListings": 7,
+        "verifiedListings": 5,
+        "totalReviews": 115,
+        "averageRating": 4.9,
+        "photoCount": 26
+      }
     },
     {
       "id": "acct-hearthquell-home",
@@ -674,7 +754,17 @@
         "a panel upgrade",
         "a furnace tune-up"
       ],
-      "llmContext": "Hearthquell Heating, Plumbing & Electrical · Enterprise · Home services and contractors · HQ Denver, Colorado, United States · 15 purchased locations · CRM ServiceTitan · Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites."
+      "llmContext": "Hearthquell Heating, Plumbing & Electrical · Enterprise · Home services and contractors · HQ Denver, Colorado, United States · 15 purchased locations · CRM ServiceTitan · Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites.",
+      "listingSummary": {
+        "locations": 15,
+        "openLocations": 14,
+        "listings": 40,
+        "claimedListings": 27,
+        "verifiedListings": 23,
+        "totalReviews": 4283,
+        "averageRating": 4.8,
+        "photoCount": 384
+      }
     },
     {
       "id": "acct-pipewren-plumbing",
@@ -749,7 +839,17 @@
         "a water softener install",
         "a tankless water heater install"
       ],
-      "llmContext": "Pipewren Plumbing & Drain · Enterprise · Home services and contractors · HQ Phoenix, Arizona, United States · 10 purchased locations · CRM ServiceTitan · Phoenix-metro plumbing and drain group with 24/7 emergency dispatch."
+      "llmContext": "Pipewren Plumbing & Drain · Enterprise · Home services and contractors · HQ Phoenix, Arizona, United States · 10 purchased locations · CRM ServiceTitan · Phoenix-metro plumbing and drain group with 24/7 emergency dispatch.",
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 29,
+        "claimedListings": 21,
+        "verifiedListings": 19,
+        "totalReviews": 3456,
+        "averageRating": 4.8,
+        "photoCount": 304
+      }
     },
     {
       "id": "acct-quarrytide-electric",
@@ -824,7 +924,17 @@
         "recessed lighting",
         "a whole-home surge protector"
       ],
-      "llmContext": "Quarrytide Electric · Enterprise · Home services and contractors · HQ San Diego, California, United States · 6 purchased locations · CRM Housecall Pro · Residential and light-commercial electrical contractor across San Diego County."
+      "llmContext": "Quarrytide Electric · Enterprise · Home services and contractors · HQ San Diego, California, United States · 6 purchased locations · CRM Housecall Pro · Residential and light-commercial electrical contractor across San Diego County.",
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 275,
+        "averageRating": 4.8,
+        "photoCount": 425
+      }
     },
     {
       "id": "acct-thatchwhim-outdoor",
@@ -899,7 +1009,17 @@
         "weekly mowing",
         "leaf cleanup"
       ],
-      "llmContext": "Thatchwhim Outdoor Services · Enterprise · Home services and contractors · HQ Charlotte, North Carolina, United States · 5 purchased locations · CRM Jobber · Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs."
+      "llmContext": "Thatchwhim Outdoor Services · Enterprise · Home services and contractors · HQ Charlotte, North Carolina, United States · 5 purchased locations · CRM Jobber · Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs.",
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 10,
+        "verifiedListings": 10,
+        "totalReviews": 413,
+        "averageRating": 4.9,
+        "photoCount": 169
+      }
     },
     {
       "id": "acct-coilhaven-hvac",
@@ -972,7 +1092,17 @@
         "an AC diagnostic",
         "a humidifier repair"
       ],
-      "llmContext": "Coilhaven Heating & Cooling · SMB · Home services and contractors · HQ Boulder, Colorado, United States · 1 purchased location · CRM Jobber · Owner-operated HVAC shop serving Boulder homes and small offices."
+      "llmContext": "Coilhaven Heating & Cooling · SMB · Home services and contractors · HQ Boulder, Colorado, United States · 1 purchased location · CRM Jobber · Owner-operated HVAC shop serving Boulder homes and small offices.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 72,
+        "averageRating": 4.8,
+        "photoCount": 1
+      }
     },
     {
       "id": "acct-patchwhit-handyman",
@@ -1045,7 +1175,17 @@
         "a storm door install",
         "deck board replacement"
       ],
-      "llmContext": "Patchwhit Handyman Co · SMB · Home services and contractors · HQ Columbus, Ohio, United States · 1 purchased location · CRM Jobber · Neighborhood handyman and punch-list crew for Columbus homeowners."
+      "llmContext": "Patchwhit Handyman Co · SMB · Home services and contractors · HQ Columbus, Ohio, United States · 1 purchased location · CRM Jobber · Neighborhood handyman and punch-list crew for Columbus homeowners.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 29,
+        "averageRating": 4.7,
+        "photoCount": 4
+      }
     },
     {
       "id": "acct-hollowbeck-pest",
@@ -1118,7 +1258,17 @@
         "a rodent exclusion job",
         "a wasp nest removal"
       ],
-      "llmContext": "Hollowbeck Pest Control · SMB · Home services and contractors · HQ Asheville, North Carolina, United States · 1 purchased location · CRM FieldRoutes · Residential pest and termite service covering Asheville and nearby towns."
+      "llmContext": "Hollowbeck Pest Control · SMB · Home services and contractors · HQ Asheville, North Carolina, United States · 1 purchased location · CRM FieldRoutes · Residential pest and termite service covering Asheville and nearby towns.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 115,
+        "averageRating": 4.4,
+        "photoCount": 38
+      }
     },
     {
       "id": "acct-franquill-channel",
@@ -1192,7 +1342,17 @@
         "a franchisee review-request rollout",
         "territory reputation reporting"
       ],
-      "llmContext": "Franquill Franchise Network · Channel · Home services and contractors · HQ Dallas, Texas, United States · 5 purchased locations · CRM ServiceTitan · Channel org that supports home-services franchisees with listings and review SLAs."
+      "llmContext": "Franquill Franchise Network · Channel · Home services and contractors · HQ Dallas, Texas, United States · 5 purchased locations · CRM ServiceTitan · Channel org that supports home-services franchisees with listings and review SLAs.",
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 95,
+        "averageRating": 4.8,
+        "photoCount": 47
+      }
     },
     {
       "id": "acct-varrowmere-law",
@@ -1267,7 +1427,17 @@
         "a contract dispute",
         "a mediation"
       ],
-      "llmContext": "Varrowmere & Associates Law Firm · Enterprise · Legal and professional services · HQ Dallas, Texas, United States · 5 purchased locations · CRM Clio / SmartAdvocate · Commercial and employment law firm serving mid-market clients in the Dallas–Fort Worth area."
+      "llmContext": "Varrowmere & Associates Law Firm · Enterprise · Legal and professional services · HQ Dallas, Texas, United States · 5 purchased locations · CRM Clio / SmartAdvocate · Commercial and employment law firm serving mid-market clients in the Dallas–Fort Worth area.",
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 14,
+        "claimedListings": 13,
+        "verifiedListings": 12,
+        "totalReviews": 342,
+        "averageRating": 4.9,
+        "photoCount": 29
+      }
     },
     {
       "id": "acct-firthgale-counsel",
@@ -1341,7 +1511,17 @@
         "an employment investigation",
         "a licensing agreement"
       ],
-      "llmContext": "Firthgale Counsel LLP · Enterprise · Legal and professional services · HQ Seattle, Washington, United States · 7 purchased locations · CRM Clio · Pacific Northwest firm focused on corporate, IP, and employment matters."
+      "llmContext": "Firthgale Counsel LLP · Enterprise · Legal and professional services · HQ Seattle, Washington, United States · 7 purchased locations · CRM Clio · Pacific Northwest firm focused on corporate, IP, and employment matters.",
+      "listingSummary": {
+        "locations": 7,
+        "openLocations": 7,
+        "listings": 18,
+        "claimedListings": 15,
+        "verifiedListings": 15,
+        "totalReviews": 1495,
+        "averageRating": 4.7,
+        "photoCount": 128
+      }
     },
     {
       "id": "acct-plainsby-litigation",
@@ -1415,7 +1595,17 @@
         "a partnership dispute",
         "a discovery fight"
       ],
-      "llmContext": "Plainsby Litigation Group · Enterprise · Legal and professional services · HQ Chicago, Illinois, United States · 8 purchased locations · CRM SmartAdvocate · Multi-city litigation group for commercial disputes across the Midwest."
+      "llmContext": "Plainsby Litigation Group · Enterprise · Legal and professional services · HQ Chicago, Illinois, United States · 8 purchased locations · CRM SmartAdvocate · Multi-city litigation group for commercial disputes across the Midwest.",
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 7,
+        "listings": 21,
+        "claimedListings": 16,
+        "verifiedListings": 16,
+        "totalReviews": 605,
+        "averageRating": 4.8,
+        "photoCount": 107
+      }
     },
     {
       "id": "acct-pellwrin-tax",
@@ -1490,7 +1680,17 @@
         "an IRS notice response",
         "a business succession plan"
       ],
-      "llmContext": "Pellwrin Tax & Estates · Enterprise · Legal and professional services · HQ Washington, District of Columbia, United States · 4 purchased locations · CRM Clio · Tax and estate planning firm for professionals and closely held businesses in the capital region."
+      "llmContext": "Pellwrin Tax & Estates · Enterprise · Legal and professional services · HQ Washington, District of Columbia, United States · 4 purchased locations · CRM Clio · Tax and estate planning firm for professionals and closely held businesses in the capital region.",
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 12,
+        "claimedListings": 11,
+        "verifiedListings": 10,
+        "totalReviews": 677,
+        "averageRating": 4.8,
+        "photoCount": 61
+      }
     },
     {
       "id": "acct-wickhallow-law",
@@ -1563,7 +1763,17 @@
         "a probate filing",
         "a prenup"
       ],
-      "llmContext": "Wickhallow Law Office · SMB · Legal and professional services · HQ Seattle, Washington, United States · 1 purchased location · CRM Clio · Solo family and estate law practice in downtown Seattle."
+      "llmContext": "Wickhallow Law Office · SMB · Legal and professional services · HQ Seattle, Washington, United States · 1 purchased location · CRM Clio · Solo family and estate law practice in downtown Seattle.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 21,
+        "averageRating": 4.8,
+        "photoCount": 8
+      }
     },
     {
       "id": "acct-valdrift-immigration",
@@ -1637,7 +1847,17 @@
         "a naturalization case",
         "an O-1 visa"
       ],
-      "llmContext": "Valdrift Immigration Law · SMB · Legal and professional services · HQ San Jose, California, United States · 1 purchased location · CRM Clio · Immigration boutique serving Bay Area employers and families."
+      "llmContext": "Valdrift Immigration Law · SMB · Legal and professional services · HQ San Jose, California, United States · 1 purchased location · CRM Clio · Immigration boutique serving Bay Area employers and families.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 1,
+        "totalReviews": 38,
+        "averageRating": 4.7,
+        "photoCount": 2
+      }
     },
     {
       "id": "acct-gavelmoor-injury",
@@ -1711,7 +1931,17 @@
         "a motorcycle injury claim",
         "a dog bite claim"
       ],
-      "llmContext": "Gavelmoor Personal Injury · SMB · Legal and professional services · HQ Phoenix, Arizona, United States · 1 purchased location · CRM SmartAdvocate · Plaintiff personal-injury practice with a heavy Google review footprint."
+      "llmContext": "Gavelmoor Personal Injury · SMB · Legal and professional services · HQ Phoenix, Arizona, United States · 1 purchased location · CRM SmartAdvocate · Plaintiff personal-injury practice with a heavy Google review footprint.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 184,
+        "averageRating": 4.8,
+        "photoCount": 8
+      }
     },
     {
       "id": "acct-counselvane-channel",
@@ -1785,7 +2015,17 @@
         "intake response coaching",
         "a review program for our offices"
       ],
-      "llmContext": "Counselvane Referral Network · Channel · Legal and professional services · HQ Boston, Massachusetts, United States · 4 purchased locations · CRM HubSpot · Channel network that routes consumer legal leads and manages partner reputation pages."
+      "llmContext": "Counselvane Referral Network · Channel · Legal and professional services · HQ Boston, Massachusetts, United States · 4 purchased locations · CRM HubSpot · Channel network that routes consumer legal leads and manages partner reputation pages.",
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 12,
+        "claimedListings": 8,
+        "verifiedListings": 8,
+        "totalReviews": 304,
+        "averageRating": 4.9,
+        "photoCount": 181
+      }
     },
     {
       "id": "acct-northquell",
@@ -1859,7 +2099,17 @@
         "review-request campaigns",
         "franchise reporting"
       ],
-      "llmContext": "Northquell Digital Partners · Channel · Advertising and agency · HQ Charlotte, North Carolina, United States · 10 purchased locations · CRM HubSpot · Channel and agency partner that manages reviews, listings, and reputation programs for client brands."
+      "llmContext": "Northquell Digital Partners · Channel · Advertising and agency · HQ Charlotte, North Carolina, United States · 10 purchased locations · CRM HubSpot · Channel and agency partner that manages reviews, listings, and reputation programs for client brands.",
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 29,
+        "claimedListings": 25,
+        "verifiedListings": 25,
+        "totalReviews": 222,
+        "averageRating": 4.7,
+        "photoCount": 73
+      }
     },
     {
       "id": "acct-skelvane-media",
@@ -1933,7 +2183,17 @@
         "paid social for our locations",
         "a brand refresh"
       ],
-      "llmContext": "Skelvane Media · Channel · Advertising and agency · HQ Austin, Texas, United States · 5 purchased locations · CRM HubSpot · Performance and brand agency running local SEO and review programs for multi-location clients."
+      "llmContext": "Skelvane Media · Channel · Advertising and agency · HQ Austin, Texas, United States · 5 purchased locations · CRM HubSpot · Performance and brand agency running local SEO and review programs for multi-location clients.",
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 12,
+        "verifiedListings": 12,
+        "totalReviews": 212,
+        "averageRating": 4.8,
+        "photoCount": 107
+      }
     },
     {
       "id": "acct-lumbrisk-reputation",
@@ -2007,7 +2267,17 @@
         "franchise reporting",
         "a reputation audit"
       ],
-      "llmContext": "Lumbrisk Reputation Co · Channel · Advertising and agency · HQ Boston, Massachusetts, United States · 6 purchased locations · CRM Salesforce · Northeast agency focused on review response, GBP hygiene, and franchise reporting."
+      "llmContext": "Lumbrisk Reputation Co · Channel · Advertising and agency · HQ Boston, Massachusetts, United States · 6 purchased locations · CRM Salesforce · Northeast agency focused on review response, GBP hygiene, and franchise reporting.",
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 6,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 9,
+        "totalReviews": 73,
+        "averageRating": 4.8,
+        "photoCount": 28
+      }
     },
     {
       "id": "acct-inkfallow-creative",
@@ -2081,7 +2351,17 @@
         "a review widget install",
         "photo shoots for our locations"
       ],
-      "llmContext": "Inkfallow Creative · Channel · Advertising and agency · HQ Portland, Oregon, United States · 4 purchased locations · CRM HubSpot · Creative shop that produces social calendars and review-request creative for regional brands."
+      "llmContext": "Inkfallow Creative · Channel · Advertising and agency · HQ Portland, Oregon, United States · 4 purchased locations · CRM HubSpot · Creative shop that produces social calendars and review-request creative for regional brands.",
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 11,
+        "claimedListings": 10,
+        "verifiedListings": 9,
+        "totalReviews": 122,
+        "averageRating": 4.9,
+        "photoCount": 23
+      }
     },
     {
       "id": "acct-tallomere-partners",
@@ -2155,7 +2435,17 @@
         "listings management",
         "an attribution model"
       ],
-      "llmContext": "Tallomere Partners · Channel · Advertising and agency · HQ Chicago, Illinois, United States · 8 purchased locations · CRM HubSpot · Midwest channel partner known for location-level reputation dashboards."
+      "llmContext": "Tallomere Partners · Channel · Advertising and agency · HQ Chicago, Illinois, United States · 8 purchased locations · CRM HubSpot · Midwest channel partner known for location-level reputation dashboards.",
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 7,
+        "listings": 24,
+        "claimedListings": 18,
+        "verifiedListings": 16,
+        "totalReviews": 172,
+        "averageRating": 4.9,
+        "photoCount": 110
+      }
     },
     {
       "id": "acct-hopskein-digital",
@@ -2228,7 +2518,17 @@
         "a small-business website",
         "monthly social posts"
       ],
-      "llmContext": "Hopskein Digital · SMB · Advertising and agency · HQ Nashville, Tennessee, United States · 1 purchased location · CRM HubSpot · Small Nashville agency handling social and reviews for local restaurants and clinics."
+      "llmContext": "Hopskein Digital · SMB · Advertising and agency · HQ Nashville, Tennessee, United States · 1 purchased location · CRM HubSpot · Small Nashville agency handling social and reviews for local restaurants and clinics.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 2,
+        "totalReviews": 18,
+        "averageRating": 4.4,
+        "photoCount": 13
+      }
     },
     {
       "id": "acct-kindlewry-studio",
@@ -2301,7 +2601,17 @@
         "review-request templates",
         "a photo library"
       ],
-      "llmContext": "Kindlewry Studio Marketing · SMB · Advertising and agency · HQ Denver, Colorado, United States · 1 purchased location · CRM Pipedrive · Two-person studio running GBP and review invites for Denver home-services clients."
+      "llmContext": "Kindlewry Studio Marketing · SMB · Advertising and agency · HQ Denver, Colorado, United States · 1 purchased location · CRM Pipedrive · Two-person studio running GBP and review invites for Denver home-services clients.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 147,
+        "averageRating": 4.7,
+        "photoCount": 15
+      }
     },
     {
       "id": "acct-tramvelle-field",
@@ -2375,7 +2685,17 @@
         "field team training",
         "local sponsorships"
       ],
-      "llmContext": "Tramvelle Field Marketing · Channel · Advertising and agency · HQ Miami, Florida, United States · 5 purchased locations · CRM HubSpot · Field marketing partner for Southeast multi-location retail and services brands."
+      "llmContext": "Tramvelle Field Marketing · Channel · Advertising and agency · HQ Miami, Florida, United States · 5 purchased locations · CRM HubSpot · Field marketing partner for Southeast multi-location retail and services brands.",
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 9,
+        "totalReviews": 332,
+        "averageRating": 4.9,
+        "photoCount": 72
+      }
     },
     {
       "id": "acct-torqvale-auto",
@@ -2450,7 +2770,17 @@
         "an oil change and rotation",
         "a check-engine diagnostic"
       ],
-      "llmContext": "Torqvale Auto Care · Enterprise · Automotive · HQ Denver, Colorado, United States · 8 purchased locations · CRM Tekion · Multi-location auto service group for Denver metro fleets and retail customers."
+      "llmContext": "Torqvale Auto Care · Enterprise · Automotive · HQ Denver, Colorado, United States · 8 purchased locations · CRM Tekion · Multi-location auto service group for Denver metro fleets and retail customers.",
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 8,
+        "listings": 22,
+        "claimedListings": 17,
+        "verifiedListings": 16,
+        "totalReviews": 1220,
+        "averageRating": 4.6,
+        "photoCount": 248
+      }
     },
     {
       "id": "acct-crestovar-motors",
@@ -2525,7 +2855,17 @@
         "a transmission flush",
         "new tires and alignment"
       ],
-      "llmContext": "Crestovar Motors Service Centers · Enterprise · Automotive · HQ Salt Lake City, Utah, United States · 10 purchased locations · CRM CDK · Dealer service centers across the Wasatch Front with shared review monitoring."
+      "llmContext": "Crestovar Motors Service Centers · Enterprise · Automotive · HQ Salt Lake City, Utah, United States · 10 purchased locations · CRM CDK · Dealer service centers across the Wasatch Front with shared review monitoring.",
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 26,
+        "claimedListings": 23,
+        "verifiedListings": 22,
+        "totalReviews": 7644,
+        "averageRating": 4.5,
+        "photoCount": 352
+      }
     },
     {
       "id": "acct-treadmarsh-tire",
@@ -2601,7 +2941,17 @@
         "an alignment",
         "a battery replacement"
       ],
-      "llmContext": "Treadmarsh Tire & Auto · Enterprise · Automotive · HQ Houston, Texas, United States · 7 purchased locations · CRM Tekion · Houston-area tire and quick-service chain with strong Google Maps traffic."
+      "llmContext": "Treadmarsh Tire & Auto · Enterprise · Automotive · HQ Houston, Texas, United States · 7 purchased locations · CRM Tekion · Houston-area tire and quick-service chain with strong Google Maps traffic.",
+      "listingSummary": {
+        "locations": 7,
+        "openLocations": 6,
+        "listings": 19,
+        "claimedListings": 16,
+        "verifiedListings": 15,
+        "totalReviews": 2811,
+        "averageRating": 4.6,
+        "photoCount": 243
+      }
     },
     {
       "id": "acct-amperlund-ev",
@@ -2675,7 +3025,17 @@
         "a suspension alignment",
         "a charging port repair"
       ],
-      "llmContext": "Amperlund EV Service Labs · Enterprise · Automotive · HQ San Jose, California, United States · 5 purchased locations · CRM Tekion · EV-focused service labs along California’s I-5 and Bay corridors."
+      "llmContext": "Amperlund EV Service Labs · Enterprise · Automotive · HQ San Jose, California, United States · 5 purchased locations · CRM Tekion · EV-focused service labs along California’s I-5 and Bay corridors.",
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 8,
+        "verifiedListings": 7,
+        "totalReviews": 1117,
+        "averageRating": 4.7,
+        "photoCount": 483
+      }
     },
     {
       "id": "acct-cornerwick-garage",
@@ -2748,7 +3108,17 @@
         "a brake job",
         "an exhaust repair"
       ],
-      "llmContext": "Cornerwick Garage Auto Repair · SMB · Automotive · HQ Pittsburgh, Pennsylvania, United States · 1 purchased location · CRM Shop-Ware · Independent repair shop known for transparent multi-point inspections."
+      "llmContext": "Cornerwick Garage Auto Repair · SMB · Automotive · HQ Pittsburgh, Pennsylvania, United States · 1 purchased location · CRM Shop-Ware · Independent repair shop known for transparent multi-point inspections.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 1,
+        "verifiedListings": 1,
+        "totalReviews": 256,
+        "averageRating": 4.6,
+        "photoCount": 11
+      }
     },
     {
       "id": "acct-buffwren-detail",
@@ -2821,7 +3191,17 @@
         "an interior detail",
         "paint protection film"
       ],
-      "llmContext": "Buffwren Detail Studio · SMB · Automotive · HQ Austin, Texas, United States · 1 purchased location · CRM Jobber · Mobile and studio detailing for Austin enthusiasts and fleet managers."
+      "llmContext": "Buffwren Detail Studio · SMB · Automotive · HQ Austin, Texas, United States · 1 purchased location · CRM Jobber · Mobile and studio detailing for Austin enthusiasts and fleet managers.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 121,
+        "averageRating": 4.7,
+        "photoCount": 2
+      }
     },
     {
       "id": "acct-panelbrook-collision",
@@ -2895,7 +3275,17 @@
         "a frame straightening",
         "a paint match"
       ],
-      "llmContext": "Panelbrook Collision Center · SMB · Automotive · HQ Milwaukee, Wisconsin, United States · 1 purchased location · CRM CCC ONE · Family-owned collision center with insurer DRP relationships in Milwaukee."
+      "llmContext": "Panelbrook Collision Center · SMB · Automotive · HQ Milwaukee, Wisconsin, United States · 1 purchased location · CRM CCC ONE · Family-owned collision center with insurer DRP relationships in Milwaukee.",
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 63,
+        "averageRating": 4.7,
+        "photoCount": 10
+      }
     },
     {
       "id": "acct-lotquill-channel",
@@ -2969,7 +3359,17 @@
         "service-lane review requests",
         "dealer group reporting"
       ],
-      "llmContext": "Lotquill Dealer Marketing · Channel · Automotive · HQ Detroit, Michigan, United States · 5 purchased locations · CRM HubSpot · Channel partner that standardizes review and listing programs for regional dealer groups."
+      "llmContext": "Lotquill Dealer Marketing · Channel · Automotive · HQ Detroit, Michigan, United States · 5 purchased locations · CRM HubSpot · Channel partner that standardizes review and listing programs for regional dealer groups.",
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 266,
+        "averageRating": 4.8,
+        "photoCount": 43
+      }
     }
   ]
 }
