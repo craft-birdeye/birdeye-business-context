@@ -32,6 +32,7 @@ Channel and agency partner that manages reviews, listings, and reputation progra
 
 - Contacts: 10 (Client contact, Lead)
 - Reviews: 12, average 3.8★, 4 with replies
+- Listings (invented, schema 1.1.0): 29 across 10 locations, 25 claimed, 25 verified; 222 public reviews, average 4.7★; 73 photos
 - Bundle: [`v1/accounts/acct-northquell.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-northquell.json)
 
 ## Locations
@@ -48,6 +49,23 @@ Channel and agency partner that manages reviews, listings, and reputation progra
 | 8 | Northquell - Charleston Client Hub | 1681 Copperleaf Drive, Suite 410, Charleston, SC 29403 | (843) 555-0107 | Active |
 | 9 | Northquell - Greenville Client Hub | 562 Northwind Parkway, Greenville, SC 29601 | (864) 555-0108 | Active |
 | 10 | Northquell - Wilmington Client Hub | 4878 Hazelwood Parkway, Suite 343, Wilmington, NC 28401 | (910) 555-0109 | Demo |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency, Social media agency, Advertising agency | google: 5 · 12 · verified; facebook: 5 · 1 · verified; yelp: 4.5 · 2 · verified | 35.25351, -80.89011 |
+| 2 | Open | Marketing agency, Advertising agency, Internet marketing service | google: 4.7 · 7 · verified; facebook: 5 · 1 · verified; yelp: 5 · 1 · verified | 35.14192, -80.87058 |
+| 3 | Open | Marketing agency | google: 4.7 · 14 · verified; facebook: 5 · 1 · verified | 35.74975, -78.59343 |
+| 4 | Open | Marketing agency | google: 4.9 · 27 · unclaimed; facebook: 4.8 · 6 · verified; yelp: 4 · 7 · verified | 36.04973, -78.98212 |
+| 5 | Open | Marketing agency, Website designer | google: 4.9 · 27 · unclaimed; facebook: 4.7 · 3 · verified; yelp: 4.8 · 4 · verified | 33.81066, -84.29486 |
+| 6 | Open | Marketing agency | google: 4.6 · 15 · verified; facebook: 5 · 2 · verified; yelp: 4 · 5 · verified | 36.23161, -86.78035 |
+| 7 | Open | Marketing agency, Advertising agency | google: 5 · 4 · verified; facebook: 5 · 1 · verified; yelp: – · 0 · verified | 37.55973, -77.46771 |
+| 8 | Open | Marketing agency | google: 4.6 · 46 · verified; facebook: 4.8 · 5 · unclaimed; yelp: 3 · 2 · verified | 32.80854, -79.86079 |
+| 9 | Open | Marketing agency, Social media agency | google: 4.6 · 11 · verified; facebook: 5 · 1 · verified; yelp: 5 · 1 · verified | 34.88509, -82.47525 |
+| 10 | Open | Marketing agency, Social media agency | google: 5 · 13 · verified; facebook: 5 · 1 · verified; yelp: 5 · 2 · unclaimed | 34.32498, -77.90389 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

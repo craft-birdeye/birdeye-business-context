@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-coilhaven-hvac",
@@ -73,7 +73,17 @@
       "an AC diagnostic",
       "a humidifier repair"
     ],
-    "llmContext": "Coilhaven Heating & Cooling · SMB · Home services and contractors · HQ Boulder, Colorado, United States · 1 purchased location · CRM Jobber · Owner-operated HVAC shop serving Boulder homes and small offices."
+    "llmContext": "Coilhaven Heating & Cooling · SMB · Home services and contractors · HQ Boulder, Colorado, United States · 1 purchased location · CRM Jobber · Owner-operated HVAC shop serving Boulder homes and small offices.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 2,
+      "totalReviews": 72,
+      "averageRating": 4.8,
+      "photoCount": 1
+    }
   },
   "locations": [
     {
@@ -119,7 +129,132 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-07-08T20:30:00Z"
+      "createdOn": "2026-07-08T20:30:00Z",
+      "coordinates": {
+        "lat": 40.0938,
+        "lng": -105.29357
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Plumber",
+          "Electrician"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/coilhaven-heating-cooling",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 59,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 5,
+            "5": 53
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/coilhaven-heating-cooling",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/coilhaven-heating-cooling",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 4
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 72,
+        "averageRating": 4.8,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -390,7 +525,7 @@
       "reviewer": "Yvette Rourke",
       "date": "2026-08-20T15:05:00Z",
       "text": "Work quality on a furnace tune-up was good, but scheduling with Coilhaven Heating & Cooling took three phone calls and the confirmation email had the wrong date. The office side needs tightening.",
-      "photoCount": 2,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -399,7 +534,7 @@
       "reply": {
         "text": "Yvette, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Coilhaven Heating & Cooling. A manager will reach out this week to make it right.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
         "author": "Gary Lindqvist, owner, Coilhaven Heating & Cooling",
-        "date": "2026-08-21T17:35:00Z"
+        "date": "2026-08-21T14:05:00Z"
       }
     },
     {
@@ -413,7 +548,7 @@
       "reviewer": "Zion Zamora",
       "date": "2026-08-06T14:45:00Z",
       "text": "Property manager here. Coilhaven Heating & Cooling handled a mini-split install across two of our buildings and sent photos and invoices the same day. Tenant notices could be a bit more proactive.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -438,7 +573,12 @@
         "Gary"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Arlo! We love hearing this and will share it with the crew.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "author": "Gary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "date": "2026-07-30T09:00:00Z"
+      }
     },
     {
       "id": "acct-coilhaven-hvac-rev-4",
@@ -451,7 +591,7 @@
       "reviewer": "Bryony Nakashima",
       "date": "2026-07-09T16:20:00Z",
       "text": "Jess was friendly, but the crew left debris in the driveway after a humidifier repair and I had to call Coilhaven Heating & Cooling to get it picked up.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": true,
       "employeesMentioned": [
@@ -462,7 +602,7 @@
       "reply": {
         "text": "Bryony, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Coilhaven Heating & Cooling. A manager will reach out this week to make it right.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
         "author": "Gary Lindqvist, owner, Coilhaven Heating & Cooling",
-        "date": "2026-07-11T18:45:00Z"
+        "date": "2026-07-09T21:25:00Z"
       }
     },
     {
@@ -476,7 +616,7 @@
       "reviewer": "Cassius Vasquez-Lane",
       "date": "2026-10-18T19:45:00Z",
       "text": "Needed a furnace tune-up and Coilhaven Heating & Cooling gave me a two-hour arrival window. Gary showed up early in it, explained the options with prices, and cleaned up before leaving.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -496,7 +636,7 @@
       "reviewer": "Dahlia Dempsey",
       "date": "2026-10-04T18:30:00Z",
       "text": "Jess did a mini-split install for us at Coilhaven Heating & Cooling. Solid work and a fair price. It took about a week to get on the schedule, which is the only reason it's not five stars.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -512,10 +652,10 @@
       "locationId": "acct-coilhaven-hvac-loc-1",
       "location": "Coilhaven Heating & Cooling (Boulder, CO)",
       "site": "yelp",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Elio Landry",
       "date": "2026-09-20T21:55:00Z",
-      "text": "The technician from Coilhaven Heating & Cooling showed up two hours late without a call. The work itself was done properly, but I lost half a workday waiting.",
+      "text": "Called Coilhaven Heating & Cooling about a furnace tune-up and got a real person right away. Showed up in the window they promised.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
@@ -523,9 +663,9 @@
       "employees": 0,
       "replyStatus": "edit",
       "reply": {
-        "text": "Elio, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Coilhaven Heating & Cooling. A manager will reach out this week to make it right.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "text": "Thank you, Elio! We love hearing this and will share it with the crew.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
         "author": "Gary Lindqvist, owner, Coilhaven Heating & Cooling",
-        "date": "2026-09-21T15:10:00Z"
+        "date": "2026-09-22T18:50:00Z"
       }
     },
     {
@@ -539,14 +679,19 @@
       "reviewer": "Fern Tolliver",
       "date": "2026-09-06T20:10:00Z",
       "text": "Second time using Coilhaven Heating & Cooling. Jess remembered our setup from last spring and finished a humidifier repair faster than quoted. The invoice matched the estimate exactly.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Jess"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Fern! Happy we could help, and we'll pass this along to the team.\n\nGary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "author": "Gary Lindqvist, owner, Coilhaven Heating & Cooling",
+        "date": "2026-09-06T21:30:00Z"
+      }
     }
   ]
 }

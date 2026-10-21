@@ -31,7 +31,8 @@ Boutique restorative and cosmetic studio in Nashville with a strong Google revie
 ## Data at a glance
 
 - Contacts: 8 (Patient, Lead)
-- Reviews: 8, average 4.1★, 5 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 3 claimed, 3 verified; 479 public reviews, average 4.8★; 63 photos
 - Bundle: [`v1/accounts/acct-brindlemoss-dental.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-brindlemoss-dental.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Boutique restorative and cosmetic studio in Nashville with a strong Google revie
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Brindlemoss Dental Studio | 2608 Tamarack Court, Nashville, TN 37203 | (629) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Cosmetic dentist, Dental clinic | google: 5 · 394 · verified; facebook: 4.4 · 39 · verified; yelp: 4.3 · 46 · verified | 36.12046, -86.84875 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

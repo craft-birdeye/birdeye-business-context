@@ -37,7 +37,12 @@ names, locations, reviews, dates, logo, colors, and tone, not only a label in th
    - Branding: `account.branding` (brand name, logo placeholder, primary/secondary/accent colors,
      `onPrimary` text color) and `account.tone` (voice, formality, reply sign-off).
    - Staff names and services to mention: `account.staff`, `account.services`.
-4. **Dates.** All dates are ISO 8601 UTC inside the last ~4 months of the last build. For example,
+   - Listings screens (schema 1.1.0): `locations[].listings` (per-site rating, review count, claimed /
+     verified, `ratingDistribution`), `coordinates`, `categories`, `businessStatusLabel`, `specialHours`,
+     `attributes`, `photoCount`; rollups in `locations[].reviewSummary` and `account.listingSummary`.
+     A listing's `reviewCount` is the public total; only `sampledReviews` of them are in `reviews[]`.
+4. **Dates.** All dates are ISO 8601 UTC inside the last ~4 months of the last build, except
+   `specialHours[].date`, which can be up to 90 days ahead. For example,
    the committed snapshot (built 2026-10-21) has an Evercoast review dated `2026-10-19T17:10:00Z`; the hosted
    feed shifts every date weekly. Format them for display (`Oct 19, 2026`); never hard-code a calendar date.
 5. **Inventing more rows.** If a screen needs more data than the feed has, invent it in the same

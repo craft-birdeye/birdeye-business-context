@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-franquill-channel",
@@ -74,7 +74,17 @@
       "a franchisee review-request rollout",
       "territory reputation reporting"
     ],
-    "llmContext": "Franquill Franchise Network · Channel · Home services and contractors · HQ Dallas, Texas, United States · 5 purchased locations · CRM ServiceTitan · Channel org that supports home-services franchisees with listings and review SLAs."
+    "llmContext": "Franquill Franchise Network · Channel · Home services and contractors · HQ Dallas, Texas, United States · 5 purchased locations · CRM ServiceTitan · Channel org that supports home-services franchisees with listings and review SLAs.",
+    "listingSummary": {
+      "locations": 5,
+      "openLocations": 5,
+      "listings": 15,
+      "claimedListings": 11,
+      "verifiedListings": 11,
+      "totalReviews": 95,
+      "averageRating": 4.8,
+      "photoCount": 47
+    }
   },
   "locations": [
     {
@@ -110,7 +120,116 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-07-07T18:45:00Z"
+      "createdOn": "2026-07-07T18:45:00Z",
+      "coordinates": {
+        "lat": 32.81573,
+        "lng": -96.77103
+      },
+      "categories": {
+        "primary": "Franchise support",
+        "secondary": [
+          "Marketing agency",
+          "Business management consultant"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/franquill-network-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 30,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 25
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/franquill-network-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 8,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/franquill-network-hq",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 41,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-franquill-channel-loc-2",
@@ -145,7 +264,120 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-10-19T19:00:00Z"
+      "createdOn": "2026-10-19T19:00:00Z",
+      "coordinates": {
+        "lat": 29.69247,
+        "lng": -95.39982
+      },
+      "categories": {
+        "primary": "Franchise support",
+        "secondary": [
+          "Marketing agency",
+          "Business management consultant"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 15,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/franquill-network-franchise-ops-houston",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/franquill-network-franchise-ops-houston",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/franquill-network-franchise-ops-houston",
+          "claimed": false,
+          "verified": false,
+          "rating": null,
+          "reviewCount": 0,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 4,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-franquill-channel-loc-3",
@@ -180,7 +412,124 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-10-05T16:35:00Z"
+      "createdOn": "2026-10-05T16:35:00Z",
+      "coordinates": {
+        "lat": 30.2322,
+        "lng": -97.63053
+      },
+      "categories": {
+        "primary": "Franchise support",
+        "secondary": [
+          "Marketing agency",
+          "Business management consultant"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/franquill-network-franchise-ops-austin",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 27,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 25
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/franquill-network-franchise-ops-austin",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/franquill-network-franchise-ops-austin",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 38,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-franquill-channel-loc-4",
@@ -215,7 +564,116 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-09-21T17:25:00Z"
+      "createdOn": "2026-09-21T17:25:00Z",
+      "coordinates": {
+        "lat": 29.40389,
+        "lng": -98.47597
+      },
+      "categories": {
+        "primary": "Franchise support",
+        "secondary": [
+          "Marketing agency",
+          "Business management consultant"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/franquill-network-franchise-ops-san-antonio",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 5
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/franquill-network-franchise-ops-san-antonio",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/franquill-network-franchise-ops-san-antonio",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 7,
+        "averageRating": 5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-franquill-channel-loc-5",
@@ -250,7 +708,120 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-09-07T14:00:00Z"
+      "createdOn": "2026-09-07T14:00:00Z",
+      "coordinates": {
+        "lat": 35.39202,
+        "lng": -97.45499
+      },
+      "categories": {
+        "primary": "Franchise support",
+        "secondary": [
+          "Marketing agency",
+          "Business management consultant"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/franquill-network-franchise-ops-oklahoma-city",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 4
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/franquill-network-franchise-ops-oklahoma-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 2,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/franquill-network-franchise-ops-oklahoma-city",
+          "claimed": true,
+          "verified": true,
+          "rating": null,
+          "reviewCount": 0,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 5,
+        "averageRating": 4.4,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -521,7 +1092,7 @@
       "reviewer": "Orion Galbraith",
       "date": "2026-08-05T21:05:00Z",
       "text": "When one of our franchise locations got hit with a wave of negative reviews, Corey Daniels had draft responses ready the same afternoon. Calm, specific, and on-brand.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
@@ -532,7 +1103,7 @@
       "reply": {
         "text": "Thanks so much, Orion! We'll pass this along to the whole Franquill Network team. See you next time.\n\nFranquill Franchise Network support",
         "author": "Franquill Franchise Network support",
-        "date": "2026-08-06T15:20:00Z"
+        "date": "2026-08-06T22:45:00Z"
       }
     },
     {
@@ -542,20 +1113,22 @@
       "locationId": "acct-franquill-channel-loc-2",
       "location": "Franquill Network - Franchise ops - Houston (Houston, TX)",
       "site": "google",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Paloma Northcott",
       "date": "2026-07-22T16:30:00Z",
-      "text": "Our account lead at Franquill Network left and we went a month without anyone owning listings sync across our territories. They've since assigned someone new, but the gap hurt.",
-      "photoCount": 2,
+      "text": "Alana Price answered every question about a franchisee review-request rollout the same day. Easy partner to work with.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Alana Price"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Paloma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Franquill Network. A manager will reach out this week to make it right.\n\nFranquill Franchise Network support",
+        "text": "Thanks, Paloma. We're glad we could help and have shared your note with the team.\n\nFranquill Franchise Network support",
         "author": "Franquill Franchise Network support",
-        "date": "2026-07-24T18:35:00Z"
+        "date": "2026-07-23T16:10:00Z"
       }
     },
     {
@@ -569,14 +1142,19 @@
       "reviewer": "Reuben Underhill",
       "date": "2026-07-08T19:55:00Z",
       "text": "Vic Ramos ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Vic Ramos"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Reuben. We're glad we could help and have shared your note with the team.\n\nFranquill Franchise Network support",
+        "author": "Franquill Franchise Network support",
+        "date": "2026-07-13T10:20:00Z"
+      }
     },
     {
       "id": "acct-franquill-channel-rev-4",
@@ -594,12 +1172,7 @@
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Thanks so much, Sabine! We'll pass this along to the whole Franquill Network team. See you next time.\n\nFranquill Franchise Network support",
-        "author": "Franquill Franchise Network support",
-        "date": "2026-10-19T16:15:00Z"
-      }
+      "replyStatus": "post"
     },
     {
       "id": "acct-franquill-channel-rev-5",
@@ -612,7 +1185,7 @@
       "reviewer": "Tobias Jaramillo",
       "date": "2026-10-03T17:20:00Z",
       "text": "Tool access for review SLAs for our franchisees took weeks to sort out on the Franquill Network side. Once connected it worked, but setup was rough.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -621,7 +1194,7 @@
       "reply": {
         "text": "Tobias, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Franquill Network. A manager will reach out this week to make it right.\n\nFranquill Franchise Network support",
         "author": "Franquill Franchise Network support",
-        "date": "2026-10-04T19:10:00Z"
+        "date": "2026-10-04T17:00:00Z"
       }
     },
     {
@@ -635,7 +1208,7 @@
       "reviewer": "Uma Rasmussen",
       "date": "2026-09-19T20:45:00Z",
       "text": "Franquill Network took over listings sync across our territories for our team and the difference showed within a month. Vic Ramos sends a short weekly update with exactly what changed and what to do next.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -655,7 +1228,7 @@
       "reviewer": "Vaughn Zielinski",
       "date": "2026-09-05T15:15:00Z",
       "text": "Solid partner for a franchisee review-request rollout. Reporting is clear and Corey Daniels is responsive. Onboarding with Franquill Network took a couple of weeks longer than planned.",
-      "photoCount": 3,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -666,7 +1239,7 @@
       "reply": {
         "text": "Thanks so much, Vaughn! We'll pass this along to the whole Franquill Network team. See you next time.\n\nFranquill Franchise Network support",
         "author": "Franquill Franchise Network support",
-        "date": "2026-09-06T17:45:00Z"
+        "date": "2026-09-08T06:45:00Z"
       }
     },
     {
@@ -676,20 +1249,22 @@
       "locationId": "acct-franquill-channel-loc-3",
       "location": "Franquill Network - Franchise ops - Austin (Austin, TX)",
       "site": "yelp",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Willa Granger",
       "date": "2026-08-22T18:10:00Z",
-      "text": "Our kickoff with Franquill Network for territory reputation reporting was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
+      "text": "Franquill Network took a franchisee review-request rollout off our plate completely. Monthly check-ins with Alana Price are the most useful meeting on our calendar.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Alana Price"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Willa, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Franquill Network. A manager will reach out this week to make it right.\n\nFranquill Franchise Network support",
+        "text": "Thanks, Willa. We're glad we could help and have shared your note with the team.\n\nFranquill Franchise Network support",
         "author": "Franquill Franchise Network support",
-        "date": "2026-08-24T20:05:00Z"
+        "date": "2026-08-22T23:55:00Z"
       }
     }
   ]

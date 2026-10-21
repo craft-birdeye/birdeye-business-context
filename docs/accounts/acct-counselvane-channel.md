@@ -31,7 +31,8 @@ Channel network that routes consumer legal leads and manages partner reputation 
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.4★, 5 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 12 across 4 locations, 8 claimed, 8 verified; 304 public reviews, average 4.9★; 181 photos
 - Bundle: [`v1/accounts/acct-counselvane-channel.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-counselvane-channel.json)
 
 ## Locations
@@ -42,6 +43,17 @@ Channel network that routes consumer legal leads and manages partner reputation 
 | 2 | Counselvane - Partner desk - NYC | 3949 Upland Ridge Parkway, Suite 302, New York, NY 10016 | (212) 555-0101 | Active |
 | 3 | Counselvane - Partner desk - Philly | 2830 Thistledown Terrace, Suite 255, Philadelphia, PA 19103 | (267) 555-0102 | Active |
 | 4 | Counselvane - Partner desk - DC | 6135 Clover Bend Row, Washington, DC 20005 | (202) 555-0103 | Demo |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Lawyer referral service, Legal services | google: 5 · 19 · verified; facebook: 5 · 3 · unclaimed; yelp: 3 · 2 · verified | 42.36777, -71.12747 |
+| 2 | Open | Lawyer referral service | google: 5 · 203 · verified; facebook: 5 · 18 · unclaimed; yelp: 4.5 · 30 · unclaimed | 40.76232, -73.92408 |
+| 3 | Open | Lawyer referral service, Marketing agency, Legal services | google: 4.8 · 13 · verified; facebook: 5 · 2 · unclaimed; yelp: 4.8 · 4 · verified | 39.92471, -75.16433 |
+| 4 | Open | Lawyer referral service, Marketing agency, Legal services | google: 5 · 7 · verified; facebook: 5 · 1 · verified; yelp: 3 · 2 · verified | 38.87568, -76.9083 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

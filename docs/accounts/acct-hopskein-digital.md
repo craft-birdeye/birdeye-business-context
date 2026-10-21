@@ -31,7 +31,8 @@ Small Nashville agency handling social and reviews for local restaurants and cli
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.8★, 6 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 3 claimed, 2 verified; 18 public reviews, average 4.4★; 13 photos
 - Bundle: [`v1/accounts/acct-hopskein-digital.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hopskein-digital.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Small Nashville agency handling social and reviews for local restaurants and cli
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Hopskein Digital | 4162 Bramblewood Boulevard, Suite 287, Nashville, TN 37203 | (629) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency, Social media agency | google: 4.5 · 14 · claimed; facebook: 3.5 · 2 · verified; yelp: 5 · 2 · verified | 36.13925, -86.71307 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

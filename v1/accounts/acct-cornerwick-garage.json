@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-cornerwick-garage",
@@ -73,7 +73,17 @@
       "a brake job",
       "an exhaust repair"
     ],
-    "llmContext": "Cornerwick Garage Auto Repair · SMB · Automotive · HQ Pittsburgh, Pennsylvania, United States · 1 purchased location · CRM Shop-Ware · Independent repair shop known for transparent multi-point inspections."
+    "llmContext": "Cornerwick Garage Auto Repair · SMB · Automotive · HQ Pittsburgh, Pennsylvania, United States · 1 purchased location · CRM Shop-Ware · Independent repair shop known for transparent multi-point inspections.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 1,
+      "verifiedListings": 1,
+      "totalReviews": 256,
+      "averageRating": 4.6,
+      "photoCount": 11
+    }
   },
   "locations": [
     {
@@ -114,7 +124,131 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-07-25T19:20:00Z"
+      "createdOn": "2026-07-25T19:20:00Z",
+      "coordinates": {
+        "lat": 40.39126,
+        "lng": -79.95698
+      },
+      "categories": {
+        "primary": "Auto repair shop",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 11,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/cornerwick-garage-auto-repair",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 196,
+          "ratingDistribution": {
+            "1": 7,
+            "2": 5,
+            "3": 6,
+            "4": 22,
+            "5": 156
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/cornerwick-garage-auto-repair",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 24,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 20
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/cornerwick-garage-auto-repair",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 36,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 5,
+            "5": 25
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 256,
+        "averageRating": 4.6,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -385,7 +519,7 @@
       "reviewer": "Yusuf Whitmore",
       "date": "2026-08-15T20:15:00Z",
       "text": "Fleet manager here. Cornerwick Garage keeps our vans on the road with one invoice a month and almost no downtime. Frank is our go-to contact.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
@@ -396,7 +530,7 @@
       "reply": {
         "text": "Thanks so much, Yusuf! We'll pass this along to the whole Cornerwick Garage team. See you next time.\n\nFrank and the Cornerwick Garage crew",
         "author": "Frank and the Cornerwick Garage crew",
-        "date": "2026-08-16T14:20:00Z"
+        "date": "2026-08-15T22:35:00Z"
       }
     },
     {
@@ -406,21 +540,18 @@
       "locationId": "acct-cornerwick-garage-loc-1",
       "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
       "site": "google",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Zara Everly",
       "date": "2026-08-01T17:50:00Z",
-      "text": "Booked a timing belt online with Cornerwick Garage, arrived on time, and still waited 50 minutes to be checked in.",
-      "photoCount": 1,
+      "text": "Dom had a timing belt done by the time promised and texted photos before doing anything extra.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Zara, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Cornerwick Garage. A manager will reach out this week to make it right.\n\nFrank and the Cornerwick Garage crew",
-        "author": "Frank and the Cornerwick Garage crew",
-        "date": "2026-08-03T19:00:00Z"
-      }
+      "employeesMentioned": [
+        "Dom"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-cornerwick-garage-rev-3",
@@ -433,7 +564,7 @@
       "reviewer": "Abel Mabry",
       "date": "2026-07-18T14:25:00Z",
       "text": "Brought my car in for a brake job at Cornerwick Garage. Frank texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
-      "photoCount": 0,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -453,7 +584,7 @@
       "reviewer": "Bianca Vance-Ortiz",
       "date": "2026-07-04T19:25:00Z",
       "text": "My exhaust repair was done right and priced fairly. The waiting area at Cornerwick Garage was busy and the Wi-Fi kept dropping, but Dom kept me updated.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -464,7 +595,7 @@
       "reply": {
         "text": "Thanks so much, Bianca! We'll pass this along to the whole Cornerwick Garage team. See you next time.\n\nFrank and the Cornerwick Garage crew",
         "author": "Frank and the Cornerwick Garage crew",
-        "date": "2026-07-06T21:20:00Z"
+        "date": "2026-07-04T19:45:00Z"
       }
     },
     {
@@ -478,7 +609,7 @@
       "reviewer": "Cyrus Ellery",
       "date": "2026-10-13T16:00:00Z",
       "text": "Dropped off for a state inspection at 8 a.m. and didn't hear anything until I called at 4. The work from Cornerwick Garage was fine, but proactive updates would make a big difference.",
-      "photoCount": 2,
+      "photoCount": 3,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -487,7 +618,7 @@
       "reply": {
         "text": "Cyrus, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Cornerwick Garage. A manager will reach out this week to make it right.\n\nFrank and the Cornerwick Garage crew",
         "author": "Frank and the Cornerwick Garage crew",
-        "date": "2026-10-14T18:45:00Z"
+        "date": "2026-10-17T20:30:00Z"
       }
     },
     {
@@ -501,14 +632,19 @@
       "reviewer": "Delia Lockhart",
       "date": "2026-09-29T21:30:00Z",
       "text": "Dom talked me out of an exhaust repair because it wasn't needed yet. It's rare to find a mechanic who saves you money.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Dom"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Delia! Happy we could help, and we'll pass this along to the team.\n\nFrank and the Cornerwick Garage crew",
+        "author": "Frank and the Cornerwick Garage crew",
+        "date": "2026-09-29T22:00:00Z"
+      }
     },
     {
       "id": "acct-cornerwick-garage-rev-7",
@@ -517,10 +653,10 @@
       "locationId": "acct-cornerwick-garage-loc-1",
       "location": "Cornerwick Garage Auto Repair (Pittsburgh, PA)",
       "site": "yelp",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Emmett Sandoval",
       "date": "2026-09-15T18:05:00Z",
-      "text": "Picked up my car from Cornerwick Garage after a brake job and there was a new rattle that wasn't there before. Had to bring it back twice. They fixed it eventually, but it cost me two days.",
+      "text": "Booked a brake job online and was in and out in under an hour. Great service.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
@@ -528,9 +664,9 @@
       "employees": 0,
       "replyStatus": "edit",
       "reply": {
-        "text": "Emmett, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Cornerwick Garage. A manager will reach out this week to make it right.\n\nFrank and the Cornerwick Garage crew",
+        "text": "Thank you, Emmett! We love hearing this and will share it with the crew.\n\nFrank and the Cornerwick Garage crew",
         "author": "Frank and the Cornerwick Garage crew",
-        "date": "2026-09-16T20:40:00Z"
+        "date": "2026-09-16T10:15:00Z"
       }
     },
     {
@@ -544,7 +680,7 @@
       "reviewer": "Flora Achebe",
       "date": "2026-09-01T15:10:00Z",
       "text": "Third visit to Cornerwick Garage and it's consistently good. My exhaust repair was finished early, and Dom reset my tire pressure light without being asked.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [

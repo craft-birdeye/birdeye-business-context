@@ -194,6 +194,245 @@
             "type": "string",
             "format": "date-time",
             "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          },
+          "coordinates": {
+            "description": "Invented point, jittered 0.3-12 km from the city center (OpenStreetMap). Not the street address. Added in 1.1.0.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "lat",
+              "lng"
+            ],
+            "properties": {
+              "lat": {
+                "type": "number",
+                "minimum": -90,
+                "maximum": 90
+              },
+              "lng": {
+                "type": "number",
+                "minimum": -180,
+                "maximum": 180
+              }
+            }
+          },
+          "categories": {
+            "description": "Added in 1.1.0.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "primary",
+              "secondary"
+            ],
+            "properties": {
+              "primary": {
+                "type": "string",
+                "minLength": 1
+              },
+              "secondary": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "businessStatus": {
+            "description": "Stable code. Added in 1.1.0.",
+            "type": "string",
+            "enum": [
+              "open",
+              "temporarilyClosed",
+              "permanentlyClosed"
+            ]
+          },
+          "businessStatusLabel": {
+            "description": "Display label for businessStatus (source/distributions.json display.businessStatus). Added in 1.1.0.",
+            "type": "string",
+            "minLength": 1
+          },
+          "specialHours": {
+            "description": "Holiday hours from 30 days before to 90 days after generatedAt (dates can be in the future). Added in 1.1.0.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "date",
+                "name",
+                "closed"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "closed": {
+                  "type": "boolean"
+                },
+                "open": {
+                  "type": "string",
+                  "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"
+                },
+                "close": {
+                  "type": "string",
+                  "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"
+                }
+              }
+            }
+          },
+          "attributes": {
+            "description": "Added in 1.1.0.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "group",
+                "label"
+              ],
+              "properties": {
+                "group": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "photoCount": {
+            "description": "Photos on the listing. Added in 1.1.0.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "listings": {
+            "description": "One entry per review site where the location is listed. Added in 1.1.0.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "site",
+                "url",
+                "claimed",
+                "verified",
+                "rating",
+                "reviewCount",
+                "ratingDistribution",
+                "sampledReviews"
+              ],
+              "properties": {
+                "site": {
+                  "type": "string",
+                  "enum": [
+                    "google",
+                    "facebook",
+                    "yelp"
+                  ]
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https://[a-z0-9-]+\\.example\\.com/"
+                },
+                "claimed": {
+                  "type": "boolean"
+                },
+                "verified": {
+                  "type": "boolean"
+                },
+                "rating": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "reviewCount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "ratingDistribution": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "properties": {
+                    "1": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "2": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "3": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "4": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "5": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  }
+                },
+                "sampledReviews": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          },
+          "reviewSummary": {
+            "description": "Rollup of listings. Added in 1.1.0.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "totalReviews",
+              "averageRating",
+              "sampledReviews",
+              "listedSites"
+            ],
+            "properties": {
+              "totalReviews": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "averageRating": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 1,
+                "maximum": 5
+              },
+              "sampledReviews": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "listedSites": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
           }
         }
       }

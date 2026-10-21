@@ -31,7 +31,8 @@ Mobile and studio detailing for Austin enthusiasts and fleet managers. Studio an
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.4★, 5 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 3 claimed, 3 verified; 121 public reviews, average 4.7★; 2 photos
 - Bundle: [`v1/accounts/acct-buffwren-detail.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-buffwren-detail.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Mobile and studio detailing for Austin enthusiasts and fleet managers. Studio an
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Buffwren Detail Studio | 6051 Willowmere Way, Suite 152, Austin, TX 78704 | (512) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Car detailing service, Window tinting service, Car wash | google: 4.7 · 92 · verified; facebook: 4.9 · 14 · verified; yelp: 4.3 · 15 · verified | 30.32121, -97.76246 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

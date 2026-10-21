@@ -31,7 +31,8 @@ Houston-area tire and quick-service chain with strong Google Maps traffic. Tires
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.4★, 6 with replies
+- Reviews: 8, average 4.5★, 6 with replies
+- Listings (invented, schema 1.1.0): 19 across 7 locations, 16 claimed, 15 verified; 2811 public reviews, average 4.6★; 243 photos
 - Bundle: [`v1/accounts/acct-treadmarsh-tire.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-treadmarsh-tire.json)
 
 ## Locations
@@ -45,6 +46,20 @@ Houston-area tire and quick-service chain with strong Google Maps traffic. Tires
 | 5 | Treadmarsh Tire - Pearland | 7101 Copperleaf Trail, Pearland, TX 77581 | (281) 555-0104 | Needs setup |
 | 6 | Treadmarsh Tire - Cypress | 3744 Pinecrest Loop, Suite 197, Cypress, TX 77429 | (832) 555-0105 | Inactive |
 | 7 | Treadmarsh Tire - Pasadena | 4863 Kestrel Trail, Pasadena, TX 77505 | (713) 555-0106 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Tire shop, Brake shop | google: 5 · 102 · verified; facebook: 4.4 · 11 · claimed; yelp: 4 · 10 · verified | 29.83704, -95.4193 |
+| 2 | Open | Tire shop, Brake shop, Wheel alignment service | google: 4.7 · 449 · verified; facebook: 4.9 · 85 · verified | 29.85809, -95.73468 |
+| 3 | Open | Tire shop | google: 4.6 · 242 · verified; facebook: 4.4 · 27 · verified; yelp: 4 · 25 · verified | 29.65158, -95.7248 |
+| 4 | Open | Tire shop, Brake shop, Wheel alignment service | google: 4.5 · 743 · verified; facebook: 4.7 · 106 · verified; yelp: 4.3 · 83 · verified | 30.16338, -95.47218 |
+| 5 | Open | Tire shop, Wheel alignment service, Auto repair shop, Brake shop | google: 4.6 · 275 · unclaimed; facebook: 4.9 · 10 · unclaimed; yelp: 4.2 · 71 · unclaimed | 29.46171, -95.27772 |
+| 6 | Temporarily closed | Tire shop, Auto repair shop | google: 4.7 · 409 · verified; facebook: 4.9 · 30 · verified | 29.99703, -95.76734 |
+| 7 | Open | Tire shop, Wheel alignment service | google: 4.7 · 110 · verified; facebook: 4.5 · 10 · verified; yelp: 4.5 · 13 · verified | 29.68583, -95.18199 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

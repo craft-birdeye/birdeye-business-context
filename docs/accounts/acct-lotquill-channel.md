@@ -31,7 +31,8 @@ Channel partner that standardizes review and listing programs for regional deale
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.8★, 6 with replies
+- Reviews: 8, average 4.1★, 6 with replies
+- Listings (invented, schema 1.1.0): 13 across 5 locations, 11 claimed, 11 verified; 266 public reviews, average 4.8★; 43 photos
 - Bundle: [`v1/accounts/acct-lotquill-channel.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-lotquill-channel.json)
 
 ## Locations
@@ -43,6 +44,18 @@ Channel partner that standardizes review and listing programs for regional deale
 | 3 | Lotquill - Dealer hub - Cleveland | 4063 Kestrel Avenue, Suite 180, Cleveland, OH 44114 | (216) 555-0102 | Active |
 | 4 | Lotquill - Dealer hub - Indianapolis | 758 Hazelwood Commons, Indianapolis, IN 46204 | (463) 555-0103 | Demo |
 | 5 | Lotquill - Dealer hub - Columbus | 5481 Meadowlark Terrace, Columbus, OH 43201 | (614) 555-0104 | Needs setup |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency | google: 5 · 46 · verified; facebook: 4.8 · 4 · verified; yelp: 4.4 · 8 · verified | 42.27967, -83.16249 |
+| 2 | Open | Marketing agency, Website designer | google: 4.9 · 13 · verified; facebook: 5 · 3 · verified; yelp: 5 · 1 · verified | 41.85475, -87.54413 |
+| 3 | Open | Marketing agency, Advertising agency | google: 4.8 · 113 · verified; yelp: 4.3 · 26 · verified | 41.50304, -81.7528 |
+| 4 | Open | Marketing agency, Website designer | google: 5 · 7 · verified; facebook: 5 · 1 · verified; yelp: 5 · 1 · verified | 39.8502, -86.07869 |
+| 5 | Open | Marketing agency, Internet marketing service | google: 4.9 · 39 · unclaimed; facebook: 4.8 · 4 · unclaimed | 40.02513, -83.0603 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

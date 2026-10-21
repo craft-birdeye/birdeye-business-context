@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-tovaline-ortho",
@@ -75,7 +75,17 @@
       "a free ortho consult",
       "a retainer fitting"
     ],
-    "llmContext": "Tovaline Orthodontics Group · Enterprise · Dental and healthcare · HQ Naperville, Illinois, United States · 8 purchased locations · CRM OrthoTrac · Chicago-suburb orthodontic group focused on teens and adult clear-aligner cases."
+    "llmContext": "Tovaline Orthodontics Group · Enterprise · Dental and healthcare · HQ Naperville, Illinois, United States · 8 purchased locations · CRM OrthoTrac · Chicago-suburb orthodontic group focused on teens and adult clear-aligner cases.",
+    "listingSummary": {
+      "locations": 8,
+      "openLocations": 8,
+      "listings": 24,
+      "claimedListings": 17,
+      "verifiedListings": 17,
+      "totalReviews": 4040,
+      "averageRating": 4.8,
+      "photoCount": 383
+    }
   },
   "locations": [
     {
@@ -116,7 +126,123 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-07T15:30:00Z"
+      "createdOn": "2026-07-07T15:30:00Z",
+      "coordinates": {
+        "lat": 41.68155,
+        "lng": -88.10636
+      },
+      "categories": {
+        "primary": "Orthodontist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 5,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tovaline-ortho-naperville",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 329,
+          "ratingDistribution": {
+            "1": 12,
+            "2": 5,
+            "3": 9,
+            "4": 31,
+            "5": 272
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tovaline-ortho-naperville",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 40,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 32
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tovaline-ortho-naperville",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 21,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 17
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 390,
+        "averageRating": 4.6,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tovaline-ortho-loc-2",
@@ -156,7 +282,133 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-19T14:10:00Z"
+      "createdOn": "2026-10-19T14:10:00Z",
+      "coordinates": {
+        "lat": 41.85069,
+        "lng": -87.93072
+      },
+      "categories": {
+        "primary": "Orthodontist",
+        "secondary": [
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 155,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tovaline-ortho-oak-brook",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 904,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 3,
+            "4": 34,
+            "5": 865
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tovaline-ortho-oak-brook",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 152,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 10,
+            "5": 139
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tovaline-ortho-oak-brook",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 165,
+          "ratingDistribution": {
+            "1": 14,
+            "2": 5,
+            "3": 6,
+            "4": 18,
+            "5": 122
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1221,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tovaline-ortho-loc-3",
@@ -196,7 +448,127 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-10-05T17:35:00Z"
+      "createdOn": "2026-10-05T17:35:00Z",
+      "coordinates": {
+        "lat": 42.10641,
+        "lng": -88.15716
+      },
+      "categories": {
+        "primary": "Orthodontist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 14,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tovaline-ortho-schaumburg",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 134,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 6,
+            "5": 127
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tovaline-ortho-schaumburg",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tovaline-ortho-schaumburg",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 37,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 1,
+            "3": 2,
+            "4": 4,
+            "5": 26
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 184,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tovaline-ortho-loc-4",
@@ -236,7 +608,127 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-09-21T16:45:00Z"
+      "createdOn": "2026-09-21T16:45:00Z",
+      "coordinates": {
+        "lat": 42.106,
+        "lng": -87.74094
+      },
+      "categories": {
+        "primary": "Orthodontist",
+        "secondary": [
+          "Cosmetic dentist",
+          "Pediatric dentist",
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 11,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tovaline-ortho-evanston",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 943,
+          "ratingDistribution": {
+            "1": 10,
+            "2": 6,
+            "3": 14,
+            "4": 70,
+            "5": 843
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tovaline-ortho-evanston",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 101,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 6,
+            "5": 93
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tovaline-ortho-evanston",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 83,
+          "ratingDistribution": {
+            "1": 10,
+            "2": 3,
+            "3": 4,
+            "4": 9,
+            "5": 57
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1127,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tovaline-ortho-loc-5",
@@ -276,7 +768,133 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-07T19:10:00Z"
+      "createdOn": "2026-09-07T19:10:00Z",
+      "coordinates": {
+        "lat": 41.72157,
+        "lng": -88.29639
+      },
+      "categories": {
+        "primary": "Orthodontist",
+        "secondary": [
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 13,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tovaline-ortho-aurora",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 225,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 3,
+            "3": 5,
+            "4": 19,
+            "5": 193
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tovaline-ortho-aurora",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 29,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 26
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tovaline-ortho-aurora",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.1,
+          "reviewCount": 37,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 2,
+            "3": 2,
+            "4": 4,
+            "5": 24
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 291,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tovaline-ortho-loc-6",
@@ -316,7 +934,134 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-24T18:55:00Z"
+      "createdOn": "2026-08-24T18:55:00Z",
+      "coordinates": {
+        "lat": 41.88306,
+        "lng": -88.12237
+      },
+      "categories": {
+        "primary": "Orthodontist",
+        "secondary": [
+          "Cosmetic dentist",
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 110,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tovaline-ortho-wheaton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 137,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 5,
+            "5": 131
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tovaline-ortho-wheaton",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 9
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tovaline-ortho-wheaton",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 16,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 12
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 162,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tovaline-ortho-loc-7",
@@ -356,7 +1101,133 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-10T21:20:00Z"
+      "createdOn": "2026-08-10T21:20:00Z",
+      "coordinates": {
+        "lat": 41.7227,
+        "lng": -87.85828
+      },
+      "categories": {
+        "primary": "Orthodontist",
+        "secondary": [
+          "Pediatric dentist"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 73,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tovaline-ortho-orland-park",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 458,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 3,
+            "4": 24,
+            "5": 429
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tovaline-ortho-orland-park",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 48,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 43
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tovaline-ortho-orland-park",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 30,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 22
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 536,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tovaline-ortho-loc-8",
@@ -396,7 +1267,133 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-08-17T20:35:00Z"
+      "createdOn": "2026-08-17T20:35:00Z",
+      "coordinates": {
+        "lat": 42.2613,
+        "lng": -87.83066
+      },
+      "categories": {
+        "primary": "Orthodontist",
+        "secondary": [
+          "Pediatric dentist"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tovaline-ortho-vernon-hills",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 105,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 2,
+            "3": 1,
+            "4": 7,
+            "5": 94
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tovaline-ortho-vernon-hills",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 14
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tovaline-ortho-vernon-hills",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 129,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -671,19 +1668,14 @@
       "reviewer": "Yusuf Delgado",
       "date": "2026-10-09T16:45:00Z",
       "text": "Brought my teenager in for a clear-aligner check. Dr. Kiran Ballard talked to her directly instead of over her head, and she actually wants to go back to Tovaline Ortho. That's a first.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
         "Dr. Kiran Ballard"
       ],
       "employees": 1,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Thanks so much, Yusuf! We'll pass this along to the whole Tovaline Ortho team. See you next time.\n\nYour Tovaline Ortho crew",
-        "author": "Your Tovaline Ortho crew",
-        "date": "2026-10-10T18:30:00Z"
-      }
+      "replyStatus": "post"
     },
     {
       "id": "acct-tovaline-ortho-rev-2",
@@ -692,20 +1684,22 @@
       "locationId": "acct-tovaline-ortho-loc-2",
       "location": "Tovaline Ortho - Oak Brook (Oak Brook, IL)",
       "site": "facebook",
-      "rating": 1,
+      "rating": 4,
       "reviewer": "Zara Kowalczyk",
       "date": "2026-09-25T21:15:00Z",
-      "text": "Called three times to move my braces appointment and never got a callback at the Oak Brook location. I ended up missing it entirely. Disappointing communication.",
-      "photoCount": 1,
+      "text": "Good care from Dr. Kiran Ballard on a clear-aligner check. The wait at the Oak Brook location ran about fifteen minutes long.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Dr. Kiran Ballard"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Zara, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Tovaline Ortho. A manager will reach out this week to make it right.\n\nYour Tovaline Ortho crew",
+        "text": "Thanks so much, Zara! Happy we could help, and we'll pass this along to the team.\n\nYour Tovaline Ortho crew",
         "author": "Your Tovaline Ortho crew",
-        "date": "2026-09-27T15:55:00Z"
+        "date": "2026-09-26T02:25:00Z"
       }
     },
     {
@@ -739,7 +1733,7 @@
       "reviewer": "Bianca Ashby",
       "date": "2026-08-28T15:25:00Z",
       "text": "Asked for a second opinion after another office pushed hard for braces. Gabe said I didn't need it yet and showed me why on the scan. An honest orthodontist is hard to find, and Tovaline Ortho has one.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -750,7 +1744,7 @@
       "reply": {
         "text": "Thanks so much, Bianca! We'll pass this along to the whole Tovaline Ortho team. See you next time.\n\nYour Tovaline Ortho crew",
         "author": "Your Tovaline Ortho crew",
-        "date": "2026-08-30T17:35:00Z"
+        "date": "2026-08-31T22:35:00Z"
       }
     },
     {
@@ -764,14 +1758,19 @@
       "reviewer": "Cyrus Holloway",
       "date": "2026-08-14T20:00:00Z",
       "text": "Came in for a clear-aligner check at the Aurora location. Dr. Kiran Ballard explained each step before starting and checked in halfway through. We finished on time and my next visit was booked before I left.",
-      "photoCount": 2,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Dr. Kiran Ballard"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Cyrus! Happy we could help, and we'll pass this along to the team.\n\nYour Tovaline Ortho crew",
+        "author": "Your Tovaline Ortho crew",
+        "date": "2026-08-15T05:50:00Z"
+      }
     },
     {
       "id": "acct-tovaline-ortho-rev-6",
@@ -791,7 +1790,12 @@
         "Ashlyn"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Delia! Happy we could help, and we'll pass this along to the team.\n\nYour Tovaline Ortho crew",
+        "author": "Your Tovaline Ortho crew",
+        "date": "2026-08-05T14:55:00Z"
+      }
     },
     {
       "id": "acct-tovaline-ortho-rev-7",
@@ -813,7 +1817,7 @@
       "reply": {
         "text": "Thanks so much, Emmett! We'll pass this along to the whole Tovaline Ortho team. See you next time.\n\nYour Tovaline Ortho crew",
         "author": "Your Tovaline Ortho crew",
-        "date": "2026-07-18T16:05:00Z"
+        "date": "2026-07-18T08:10:00Z"
       }
     },
     {
@@ -827,7 +1831,7 @@
       "reviewer": "Flora Hargrove",
       "date": "2026-07-03T19:35:00Z",
       "text": "Waited almost half an hour past my appointment at the Vernon Hills location with no explanation. Gabe was kind once I got back there, but the front desk should warn people when the schedule slips.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": true,
       "employeesMentioned": [
@@ -838,7 +1842,7 @@
       "reply": {
         "text": "Flora, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Tovaline Ortho. A manager will reach out this week to make it right.\n\nYour Tovaline Ortho crew",
         "author": "Your Tovaline Ortho crew",
-        "date": "2026-07-05T21:10:00Z"
+        "date": "2026-07-16T14:30:00Z"
       }
     }
   ]

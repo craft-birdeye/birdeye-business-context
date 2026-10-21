@@ -31,7 +31,8 @@ Field marketing partner for Southeast multi-location retail and services brands.
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.8★, 4 with replies
+- Reviews: 8, average 4.4★, 4 with replies
+- Listings (invented, schema 1.1.0): 15 across 5 locations, 11 claimed, 9 verified; 332 public reviews, average 4.9★; 72 photos
 - Bundle: [`v1/accounts/acct-tramvelle-field.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tramvelle-field.json)
 
 ## Locations
@@ -43,6 +44,18 @@ Field marketing partner for Southeast multi-location retail and services brands.
 | 3 | Tramvelle Field - Tampa hub | 8329 Wrenfield Terrace, Tampa, FL 33606 | (813) 555-0102 | Active |
 | 4 | Tramvelle Field - Jacksonville hub | 548 Tamarack Parkway, Jacksonville, FL 32202 | (904) 555-0103 | Demo |
 | 5 | Tramvelle Field - Atlanta hub | 1667 Foxglove Commons, Suite 192, Atlanta, GA 30308 | (678) 555-0104 | Needs setup |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency, Social media agency, Advertising agency | google: 5 · 34 · claimed; facebook: 5 · 3 · verified; yelp: 5 · 2 · unclaimed | 25.68775, -80.18728 |
+| 2 | Open | Marketing agency | google: 5 · 51 · claimed; facebook: 4.8 · 6 · verified; yelp: 4.3 · 7 · verified | 28.60408, -81.36689 |
+| 3 | Open | Marketing agency | google: 4.7 · 59 · verified; facebook: 4.9 · 13 · verified; yelp: 4.8 · 6 · unclaimed | 28.00769, -82.36363 |
+| 4 | Open | Marketing agency, Social media agency | google: 5 · 114 · verified; facebook: 4.6 · 14 · verified; yelp: 4.5 · 10 · verified | 30.2821, -81.59948 |
+| 5 | Open | Marketing agency | google: 4.9 · 10 · unclaimed; facebook: 4.5 · 2 · unclaimed; yelp: 5 · 1 · verified | 33.83971, -84.3781 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

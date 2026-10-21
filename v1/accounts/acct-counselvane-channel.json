@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-counselvane-channel",
@@ -74,7 +74,17 @@
       "intake response coaching",
       "a review program for our offices"
     ],
-    "llmContext": "Counselvane Referral Network · Channel · Legal and professional services · HQ Boston, Massachusetts, United States · 4 purchased locations · CRM HubSpot · Channel network that routes consumer legal leads and manages partner reputation pages."
+    "llmContext": "Counselvane Referral Network · Channel · Legal and professional services · HQ Boston, Massachusetts, United States · 4 purchased locations · CRM HubSpot · Channel network that routes consumer legal leads and manages partner reputation pages.",
+    "listingSummary": {
+      "locations": 4,
+      "openLocations": 4,
+      "listings": 12,
+      "claimedListings": 8,
+      "verifiedListings": 8,
+      "totalReviews": 304,
+      "averageRating": 4.9,
+      "photoCount": 181
+    }
   },
   "locations": [
     {
@@ -110,7 +120,115 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-07-24T21:15:00Z"
+      "createdOn": "2026-07-24T21:15:00Z",
+      "coordinates": {
+        "lat": 42.36777,
+        "lng": -71.12747
+      },
+      "categories": {
+        "primary": "Lawyer referral service",
+        "secondary": [
+          "Legal services"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/counselvane-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 19,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 19
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/counselvane-hq",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/counselvane-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 3,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 24,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-counselvane-channel-loc-2",
@@ -145,7 +263,117 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-07-10T16:45:00Z"
+      "createdOn": "2026-07-10T16:45:00Z",
+      "coordinates": {
+        "lat": 40.76232,
+        "lng": -73.92408
+      },
+      "categories": {
+        "primary": "Lawyer referral service",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 173,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/counselvane-partner-desk-nyc",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 203,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 8,
+            "5": 194
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/counselvane-partner-desk-nyc",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 18,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/counselvane-partner-desk-nyc",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 30,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 23
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 251,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-counselvane-channel-loc-3",
@@ -180,7 +408,120 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-06-26T19:10:00Z"
+      "createdOn": "2026-06-26T19:10:00Z",
+      "coordinates": {
+        "lat": 39.92471,
+        "lng": -75.16433
+      },
+      "categories": {
+        "primary": "Lawyer referral service",
+        "secondary": [
+          "Marketing agency",
+          "Legal services"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 5,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/counselvane-partner-desk-philly",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 11
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/counselvane-partner-desk-philly",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/counselvane-partner-desk-philly",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 19,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-counselvane-channel-loc-4",
@@ -215,7 +556,120 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-10-08T14:10:00Z"
+      "createdOn": "2026-10-08T14:10:00Z",
+      "coordinates": {
+        "lat": 38.87568,
+        "lng": -76.9083
+      },
+      "categories": {
+        "primary": "Lawyer referral service",
+        "secondary": [
+          "Marketing agency",
+          "Legal services"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/counselvane-partner-desk-dc",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/counselvane-partner-desk-dc",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/counselvane-partner-desk-dc",
+          "claimed": true,
+          "verified": true,
+          "rating": 3,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 10,
+        "averageRating": 4.6,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -486,20 +940,20 @@
       "locationId": "acct-counselvane-channel-loc-1",
       "location": "Counselvane - HQ (Boston, MA)",
       "site": "facebook",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Yvette Yancey",
       "date": "2026-10-19T14:35:00Z",
-      "text": "Tool access for consumer lead routing for our firm took weeks to sort out on the Counselvane side. Once connected it worked, but setup was rough.",
-      "photoCount": 3,
+      "text": "Great partner for reputation pages for our attorneys. Responsive and organized.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
       "replyStatus": "edit",
       "reply": {
-        "text": "Yvette, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Counselvane. A member of our leadership team will contact you directly to discuss it.\n\nCounselvane partner success",
+        "text": "We are grateful for your feedback, Yvette, and glad our team could assist you.\n\nCounselvane partner success",
         "author": "Counselvane partner success",
-        "date": "2026-10-20T16:50:00Z"
+        "date": "2026-10-20T05:50:00Z"
       }
     },
     {
@@ -513,14 +967,19 @@
       "reviewer": "Zion Fitzwilliam",
       "date": "2026-10-05T15:50:00Z",
       "text": "Counselvane took over reputation pages for our attorneys for our team and the difference showed within a month. Simone Achebe sends a short weekly update with exactly what changed and what to do next.",
-      "photoCount": 0,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Simone Achebe"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Zion. It was a privilege to work with you, and we appreciate you sharing your experience.\n\nCounselvane partner success",
+        "author": "Counselvane partner success",
+        "date": "2026-10-11T16:40:00Z"
+      }
     },
     {
       "id": "acct-counselvane-channel-rev-3",
@@ -533,14 +992,19 @@
       "reviewer": "Arlo Moreau",
       "date": "2026-09-21T20:25:00Z",
       "text": "Solid partner for intake response coaching. Reporting is clear and Paul Reyesmont is responsive. Onboarding with Counselvane took a couple of weeks longer than planned.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Paul Reyesmont"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We are grateful for your feedback, Arlo, and glad our team could assist you.\n\nCounselvane partner success",
+        "author": "Counselvane partner success",
+        "date": "2026-09-22T01:50:00Z"
+      }
     },
     {
       "id": "acct-counselvane-channel-rev-4",
@@ -549,21 +1013,18 @@
       "locationId": "acct-counselvane-channel-loc-4",
       "location": "Counselvane - Partner desk - DC (Washington, DC)",
       "site": "yelp",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Bryony Uchenna",
       "date": "2026-09-07T21:40:00Z",
-      "text": "Our kickoff with Counselvane for a review program for our offices was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
-      "photoCount": 2,
+      "text": "We switched to Counselvane after a frustrating year with another partner. Paul Reyesmont audited where we stood, set realistic goals for intake response coaching, and delivered on every one of them. Our team finally knows what is working and why.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Bryony, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Counselvane. A member of our leadership team will contact you directly to discuss it.\n\nCounselvane partner success",
-        "author": "Counselvane partner success",
-        "date": "2026-09-09T15:20:00Z"
-      }
+      "employeesMentioned": [
+        "Paul Reyesmont"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-counselvane-channel-rev-5",
@@ -576,7 +1037,7 @@
       "reviewer": "Cassius Cortland",
       "date": "2026-08-24T18:15:00Z",
       "text": "We run more than 20 law office locations and Counselvane is the first partner that made consumer lead routing for our firm feel manageable. Simone Achebe knows our markets by name.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -592,20 +1053,22 @@
       "locationId": "acct-counselvane-channel-loc-2",
       "location": "Counselvane - Partner desk - NYC (New York, NY)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Dahlia Kincaid",
       "date": "2026-08-10T19:15:00Z",
-      "text": "Good strategy on reputation pages for our attorneys, but the monthly invoice from Counselvane has vague line items. Our finance team needs clearer activity summaries.",
+      "text": "Clear reporting, quick turnaround, and no jargon. Simone Achebe has been a great point of contact for reputation pages for our attorneys.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Simone Achebe"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Dahlia, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Counselvane. A member of our leadership team will contact you directly to discuss it.\n\nCounselvane partner success",
+        "text": "Thank you, Dahlia. It was a privilege to work with you, and we appreciate you sharing your experience.\n\nCounselvane partner success",
         "author": "Counselvane partner success",
-        "date": "2026-08-12T21:30:00Z"
+        "date": "2026-08-10T21:25:00Z"
       }
     },
     {
@@ -619,7 +1082,7 @@
       "reviewer": "Elio Stroud",
       "date": "2026-07-27T16:50:00Z",
       "text": "When one of our law office locations got hit with a wave of negative reviews, Grant Hollisford had draft responses ready the same afternoon. Calm, specific, and on-brand.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -630,7 +1093,7 @@
       "reply": {
         "text": "Thank you for your kind words, Elio. We are glad the team at Counselvane could help, and we appreciate you taking the time to share your experience.\n\nCounselvane partner success",
         "author": "Counselvane partner success",
-        "date": "2026-07-28T18:15:00Z"
+        "date": "2026-07-27T18:15:00Z"
       }
     },
     {
@@ -644,7 +1107,7 @@
       "reviewer": "Fern Carrow",
       "date": "2026-07-13T17:05:00Z",
       "text": "Our account lead at Counselvane left and we went a month without anyone owning a review program for our offices. They've since assigned someone new, but the gap hurt.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -653,7 +1116,7 @@
       "reply": {
         "text": "Fern, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Counselvane. A member of our leadership team will contact you directly to discuss it.\n\nCounselvane partner success",
         "author": "Counselvane partner success",
-        "date": "2026-07-15T19:15:00Z"
+        "date": "2026-07-14T17:30:00Z"
       }
     }
   ]

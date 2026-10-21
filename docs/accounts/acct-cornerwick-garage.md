@@ -31,7 +31,8 @@ Independent repair shop known for transparent multi-point inspections. Honest re
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.5★, 5 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 1 claimed, 1 verified; 256 public reviews, average 4.6★; 11 photos
 - Bundle: [`v1/accounts/acct-cornerwick-garage.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-cornerwick-garage.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Independent repair shop known for transparent multi-point inspections. Honest re
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Cornerwick Garage Auto Repair | 1519 Ironleaf Trail, Pittsburgh, PA 15213 | (412) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Auto repair shop | google: 4.6 · 196 · verified; facebook: 4.8 · 24 · unclaimed; yelp: 4.3 · 36 · unclaimed | 40.39126, -79.95698 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

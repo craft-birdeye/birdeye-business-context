@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-lumbrisk-reputation",
@@ -74,7 +74,17 @@
       "franchise reporting",
       "a reputation audit"
     ],
-    "llmContext": "Lumbrisk Reputation Co · Channel · Advertising and agency · HQ Boston, Massachusetts, United States · 6 purchased locations · CRM Salesforce · Northeast agency focused on review response, GBP hygiene, and franchise reporting."
+    "llmContext": "Lumbrisk Reputation Co · Channel · Advertising and agency · HQ Boston, Massachusetts, United States · 6 purchased locations · CRM Salesforce · Northeast agency focused on review response, GBP hygiene, and franchise reporting.",
+    "listingSummary": {
+      "locations": 6,
+      "openLocations": 6,
+      "listings": 15,
+      "claimedListings": 11,
+      "verifiedListings": 9,
+      "totalReviews": 73,
+      "averageRating": 4.8,
+      "photoCount": 28
+    }
   },
   "locations": [
     {
@@ -110,7 +120,115 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-09-29T17:30:00Z"
+      "createdOn": "2026-09-29T17:30:00Z",
+      "coordinates": {
+        "lat": 42.27773,
+        "lng": -71.13414
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Website designer"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 7,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lumbrisk-boston-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lumbrisk-boston-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/lumbrisk-boston-hq",
+          "claimed": true,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 11,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-lumbrisk-reputation-loc-2",
@@ -145,7 +263,97 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-09-15T20:55:00Z"
+      "createdOn": "2026-09-15T20:55:00Z",
+      "coordinates": {
+        "lat": 41.90007,
+        "lng": -71.3417
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lumbrisk-providence",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 17
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lumbrisk-providence",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 22,
+        "averageRating": 4.6,
+        "sampledReviews": 2,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-lumbrisk-reputation-loc-3",
@@ -180,7 +388,101 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-09-01T15:20:00Z"
+      "createdOn": "2026-09-01T15:20:00Z",
+      "coordinates": {
+        "lat": 41.81016,
+        "lng": -72.76626
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 5,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lumbrisk-hartford",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/lumbrisk-hartford",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 15,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-lumbrisk-reputation-loc-4",
@@ -215,7 +517,95 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-08-18T18:45:00Z"
+      "createdOn": "2026-08-18T18:45:00Z",
+      "coordinates": {
+        "lat": 43.62052,
+        "lng": -70.25351
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Website designer"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        }
+      ],
+      "photoCount": 10,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lumbrisk-portland-me",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 12
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lumbrisk-portland-me",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 15,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-lumbrisk-reputation-loc-5",
@@ -250,7 +640,119 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-08-04T21:10:00Z"
+      "createdOn": "2026-08-04T21:10:00Z",
+      "coordinates": {
+        "lat": 42.55362,
+        "lng": -73.77444
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lumbrisk-albany",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lumbrisk-albany",
+          "claimed": true,
+          "verified": true,
+          "rating": null,
+          "reviewCount": 0,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/lumbrisk-albany",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 7,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-lumbrisk-reputation-loc-6",
@@ -285,7 +787,119 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-07-21T16:40:00Z"
+      "createdOn": "2026-07-21T16:40:00Z",
+      "coordinates": {
+        "lat": 42.85642,
+        "lng": -78.8627
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Website designer"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 3,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/lumbrisk-buffalo",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/lumbrisk-buffalo",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/lumbrisk-buffalo",
+          "claimed": true,
+          "verified": false,
+          "rating": null,
+          "reviewCount": 0,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 3,
+        "averageRating": 5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -560,7 +1174,7 @@
       "reviewer": "Yusuf Pacheco",
       "date": "2026-10-04T18:00:00Z",
       "text": "Lumbrisk cleaned up duplicate listings across our client locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [],
@@ -569,7 +1183,7 @@
       "reply": {
         "text": "Thank you for your kind words, Yusuf. We are glad the team at Lumbrisk could help, and we appreciate you taking the time to share your experience.\n\nLumbrisk Reputation Co",
         "author": "Lumbrisk Reputation Co",
-        "date": "2026-10-05T20:00:00Z"
+        "date": "2026-10-04T18:45:00Z"
       }
     },
     {
@@ -583,7 +1197,7 @@
       "reviewer": "Zara Ybarra",
       "date": "2026-09-20T19:15:00Z",
       "text": "Tool access for business profile cleanup took weeks to sort out on the Lumbrisk side. Once connected it worked, but setup was rough.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -592,7 +1206,7 @@
       "reply": {
         "text": "Zara, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Lumbrisk. A member of our leadership team will contact you directly to discuss it.\n\nLumbrisk Reputation Co",
         "author": "Lumbrisk Reputation Co",
-        "date": "2026-09-22T21:30:00Z"
+        "date": "2026-09-23T18:25:00Z"
       }
     },
     {
@@ -606,14 +1220,19 @@
       "reviewer": "Abel Faulkner",
       "date": "2026-09-06T16:50:00Z",
       "text": "Lumbrisk took over franchise reporting for our team and the difference showed within a month. Sam Whitlock sends a short weekly update with exactly what changed and what to do next.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Sam Whitlock"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We are grateful for your feedback, Abel, and glad our team could assist you.\n\nLumbrisk Reputation Co",
+        "author": "Lumbrisk Reputation Co",
+        "date": "2026-09-06T23:50:00Z"
+      }
     },
     {
       "id": "acct-lumbrisk-reputation-rev-4",
@@ -637,7 +1256,7 @@
       "reply": {
         "text": "Thank you for your kind words, Bianca. We are glad the team at Lumbrisk could help, and we appreciate you taking the time to share your experience.\n\nLumbrisk Reputation Co",
         "author": "Lumbrisk Reputation Co",
-        "date": "2026-08-25T19:30:00Z"
+        "date": "2026-08-23T18:50:00Z"
       }
     },
     {
@@ -647,20 +1266,22 @@
       "locationId": "acct-lumbrisk-reputation-loc-5",
       "location": "Lumbrisk - Albany (Albany, NY)",
       "site": "yelp",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Cyrus Winslow",
       "date": "2026-08-09T14:15:00Z",
-      "text": "Our kickoff with Lumbrisk for review response management was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
-      "photoCount": 1,
+      "text": "Clear reporting, quick turnaround, and no jargon. Sam Whitlock has been a great point of contact for business profile cleanup.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Sam Whitlock"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Cyrus, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Lumbrisk. A member of our leadership team will contact you directly to discuss it.\n\nLumbrisk Reputation Co",
+        "text": "We are grateful for your feedback, Cyrus, and glad our team could assist you.\n\nLumbrisk Reputation Co",
         "author": "Lumbrisk Reputation Co",
-        "date": "2026-08-10T16:55:00Z"
+        "date": "2026-08-10T13:20:00Z"
       }
     },
     {
@@ -674,14 +1295,19 @@
       "reviewer": "Delia Fairchild",
       "date": "2026-07-26T15:35:00Z",
       "text": "We run more than 20 client locations and Lumbrisk is the first partner that made business profile cleanup feel manageable. Sam Whitlock knows our markets by name.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Sam Whitlock"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We are grateful for your feedback, Delia, and glad our team could assist you.\n\nLumbrisk Reputation Co",
+        "author": "Lumbrisk Reputation Co",
+        "date": "2026-07-27T12:15:00Z"
+      }
     },
     {
       "id": "acct-lumbrisk-reputation-rev-7",
@@ -690,20 +1316,20 @@
       "locationId": "acct-lumbrisk-reputation-loc-1",
       "location": "Lumbrisk - Boston HQ (Boston, MA)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Emmett Merriweather",
       "date": "2026-07-12T20:05:00Z",
-      "text": "Good strategy on franchise reporting, but the monthly invoice from Lumbrisk has vague line items. Our finance team needs clearer activity summaries.",
-      "photoCount": 3,
+      "text": "Great partner for review response management. Responsive and organized.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
       "replyStatus": "edit",
       "reply": {
-        "text": "Emmett, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Lumbrisk. A member of our leadership team will contact you directly to discuss it.\n\nLumbrisk Reputation Co",
+        "text": "Thank you for your review, Emmett. We appreciate your trust and are pleased the matter was handled to your satisfaction.\n\nLumbrisk Reputation Co",
         "author": "Lumbrisk Reputation Co",
-        "date": "2026-07-13T14:25:00Z"
+        "date": "2026-07-13T14:45:00Z"
       }
     },
     {
@@ -717,14 +1343,19 @@
       "reviewer": "Flora Thackeray",
       "date": "2026-06-28T21:55:00Z",
       "text": "When one of our client locations got hit with a wave of negative reviews, Dev Raman had draft responses ready the same afternoon. Calm, specific, and on-brand.",
-      "photoCount": 0,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Dev Raman"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We are grateful for your feedback, Flora, and glad our team could assist you.\n\nLumbrisk Reputation Co",
+        "author": "Lumbrisk Reputation Co",
+        "date": "2026-06-30T21:15:00Z"
+      }
     }
   ]
 }

@@ -32,6 +32,7 @@ Single-location family dental practice in Austin. Family dentistry on South Lama
 
 - Contacts: 10 (Patient, Lead)
 - Reviews: 10, average 3.9★, 4 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 2 claimed, 2 verified; 1161 public reviews, average 4.7★; 44 photos
 - Bundle: [`v1/accounts/acct-thimbleleaf-dental.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-thimbleleaf-dental.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Single-location family dental practice in Austin. Family dentistry on South Lama
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Thimbleleaf Family Dental | 1407 Saddlebrook Commons, Austin, TX 78704 | (512) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Dentist, Cosmetic dentist | google: 4.9 · 725 · verified; facebook: 4.6 · 47 · unclaimed; yelp: 4.2 · 389 · verified | 30.24776, -97.71069 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

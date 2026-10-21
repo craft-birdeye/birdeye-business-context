@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-valdrift-immigration",
@@ -74,7 +74,17 @@
       "a naturalization case",
       "an O-1 visa"
     ],
-    "llmContext": "Valdrift Immigration Law · SMB · Legal and professional services · HQ San Jose, California, United States · 1 purchased location · CRM Clio · Immigration boutique serving Bay Area employers and families."
+    "llmContext": "Valdrift Immigration Law · SMB · Legal and professional services · HQ San Jose, California, United States · 1 purchased location · CRM Clio · Immigration boutique serving Bay Area employers and families.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 1,
+      "totalReviews": 38,
+      "averageRating": 4.7,
+      "photoCount": 2
+    }
   },
   "locations": [
     {
@@ -110,7 +120,119 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-08-10T19:10:00Z"
+      "createdOn": "2026-08-10T19:10:00Z",
+      "coordinates": {
+        "lat": 37.41821,
+        "lng": -121.87475
+      },
+      "categories": {
+        "primary": "Immigration attorney",
+        "secondary": [
+          "Legal services"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/valdrift-immigration-law",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 29,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 26
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/valdrift-immigration-law",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 4
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/valdrift-immigration-law",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.8,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 38,
+        "averageRating": 4.7,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -381,7 +503,7 @@
       "reviewer": "Orion Jessup",
       "date": "2026-07-06T20:05:00Z",
       "text": "I was anxious going into an H-1B petition. Ana Delgarrow laid out a realistic timeline, flagged the risks up front, and checked in at every milestone.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
@@ -392,7 +514,7 @@
       "reply": {
         "text": "Thanks so much, Orion! We'll pass this along to the whole Valdrift Immigration Law team. See you next time.\n\nValdrift Immigration Law",
         "author": "Valdrift Immigration Law",
-        "date": "2026-07-07T14:50:00Z"
+        "date": "2026-07-11T19:10:00Z"
       }
     },
     {
@@ -406,7 +528,7 @@
       "reviewer": "Paloma Quintero",
       "date": "2026-10-15T17:40:00Z",
       "text": "Competent work on a green card application, but the invoices from Valdrift Immigration Law were vague and I had to ask for an itemized breakdown. Clearer billing would earn a better rating.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -415,7 +537,7 @@
       "reply": {
         "text": "Paloma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Valdrift Immigration Law. A manager will reach out this week to make it right.\n\nValdrift Immigration Law",
         "author": "Valdrift Immigration Law",
-        "date": "2026-10-17T19:10:00Z"
+        "date": "2026-10-20T13:45:00Z"
       }
     },
     {
@@ -436,7 +558,12 @@
         "Mei"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for the kind words, Reuben. We're glad everything went smoothly and look forward to seeing you again.\n\nValdrift Immigration Law",
+        "author": "Valdrift Immigration Law",
+        "date": "2026-10-01T17:25:00Z"
+      }
     },
     {
       "id": "acct-valdrift-immigration-rev-4",
@@ -449,7 +576,7 @@
       "reviewer": "Sabine Fitzwilliam",
       "date": "2026-09-17T19:15:00Z",
       "text": "My file at Valdrift Immigration Law changed hands twice during an O-1 visa and nobody told me. It eventually got done, but I spent too much time chasing status updates.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -458,7 +585,7 @@
       "reply": {
         "text": "Sabine, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Valdrift Immigration Law. A manager will reach out this week to make it right.\n\nValdrift Immigration Law",
         "author": "Valdrift Immigration Law",
-        "date": "2026-09-19T21:10:00Z"
+        "date": "2026-09-20T18:10:00Z"
       }
     },
     {
@@ -472,7 +599,7 @@
       "reviewer": "Tobias Moreau",
       "date": "2026-09-03T16:50:00Z",
       "text": "The fixed-fee quote for an H-1B petition was honored to the dollar. Vikram was thorough, though the first consult at Valdrift Immigration Law started 20 minutes late.",
-      "photoCount": 2,
+      "photoCount": 4,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -492,14 +619,19 @@
       "reviewer": "Uma Uchenna",
       "date": "2026-08-20T21:20:00Z",
       "text": "My consult about an O-1 visa was free of jargon and pressure. Mei told me what I could handle myself and what really needed an attorney.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Mei"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for the kind words, Uma. We're glad everything went smoothly and look forward to seeing you again.\n\nValdrift Immigration Law",
+        "author": "Valdrift Immigration Law",
+        "date": "2026-08-20T23:25:00Z"
+      }
     },
     {
       "id": "acct-valdrift-immigration-rev-7",
@@ -508,10 +640,10 @@
       "locationId": "acct-valdrift-immigration-loc-1",
       "location": "Valdrift Immigration Law (San Jose, CA)",
       "site": "facebook",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Vaughn Cortland",
       "date": "2026-08-06T18:55:00Z",
-      "text": "Good attorney, frustrating front office. Valdrift Immigration Law sent the paperwork for a naturalization case to the wrong email twice.",
+      "text": "Clear advice, fair billing, quick replies. Would hire Valdrift Immigration Law again.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
@@ -519,9 +651,9 @@
       "employees": 0,
       "replyStatus": "edit",
       "reply": {
-        "text": "Vaughn, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Valdrift Immigration Law. A manager will reach out this week to make it right.\n\nValdrift Immigration Law",
+        "text": "Thank you for the kind words, Vaughn. We're glad everything went smoothly and look forward to seeing you again.\n\nValdrift Immigration Law",
         "author": "Valdrift Immigration Law",
-        "date": "2026-08-07T20:50:00Z"
+        "date": "2026-08-08T08:20:00Z"
       }
     },
     {
@@ -535,14 +667,19 @@
       "reviewer": "Willa Kincaid",
       "date": "2026-07-23T15:00:00Z",
       "text": "Vikram handled an O-1 visa for us with real care. Every step and cost was explained in plain English, and nothing from Valdrift Immigration Law came as a surprise.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Vikram"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Willa. It means a lot to our team.\n\nValdrift Immigration Law",
+        "author": "Valdrift Immigration Law",
+        "date": "2026-07-25T14:40:00Z"
+      }
     }
   ]
 }

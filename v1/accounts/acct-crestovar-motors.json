@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-crestovar-motors",
@@ -75,7 +75,17 @@
       "a transmission flush",
       "new tires and alignment"
     ],
-    "llmContext": "Crestovar Motors Service Centers · Enterprise · Automotive · HQ Salt Lake City, Utah, United States · 10 purchased locations · CRM CDK · Dealer service centers across the Wasatch Front with shared review monitoring."
+    "llmContext": "Crestovar Motors Service Centers · Enterprise · Automotive · HQ Salt Lake City, Utah, United States · 10 purchased locations · CRM CDK · Dealer service centers across the Wasatch Front with shared review monitoring.",
+    "listingSummary": {
+      "locations": 10,
+      "openLocations": 10,
+      "listings": 26,
+      "claimedListings": 23,
+      "verifiedListings": 22,
+      "totalReviews": 7644,
+      "averageRating": 4.5,
+      "photoCount": 352
+    }
   },
   "locations": [
     {
@@ -116,7 +126,125 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-10-16T16:45:00Z"
+      "createdOn": "2026-10-16T16:45:00Z",
+      "coordinates": {
+        "lat": 40.69618,
+        "lng": -111.82587
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": [
+          "Oil change service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 3,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-salt-lake-service",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 268,
+          "ratingDistribution": {
+            "1": 11,
+            "2": 6,
+            "3": 9,
+            "4": 32,
+            "5": 210
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-salt-lake-service",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 25,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 22
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/crestovar-motors-salt-lake-service",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.1,
+          "reviewCount": 44,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 2,
+            "3": 2,
+            "4": 6,
+            "5": 28
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 337,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-2",
@@ -156,7 +284,135 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-02T21:15:00Z"
+      "createdOn": "2026-10-02T21:15:00Z",
+      "coordinates": {
+        "lat": 40.56005,
+        "lng": -111.80586
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 5,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-sandy",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 106,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 3,
+            "3": 4,
+            "4": 13,
+            "5": 80
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-sandy",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 30,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 21
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/crestovar-motors-sandy",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.8,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 148,
+        "averageRating": 4.4,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-3",
@@ -196,7 +452,113 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-09-18T18:50:00Z"
+      "createdOn": "2026-09-18T18:50:00Z",
+      "coordinates": {
+        "lat": 40.68367,
+        "lng": -111.99244
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": [
+          "Auto parts store"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 24,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-west-valley",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 571,
+          "ratingDistribution": {
+            "1": 27,
+            "2": 13,
+            "3": 20,
+            "4": 70,
+            "5": 441
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-west-valley",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 108,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 9,
+            "5": 98
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 679,
+        "averageRating": 4.6,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-4",
@@ -236,7 +598,111 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-09-04T15:25:00Z"
+      "createdOn": "2026-09-04T15:25:00Z",
+      "coordinates": {
+        "lat": 41.3197,
+        "lng": -112.03378
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 16,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-ogden",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 205,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 3,
+            "3": 5,
+            "4": 23,
+            "5": 169
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/crestovar-motors-ogden",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 13
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 225,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-5",
@@ -276,7 +742,122 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-08-21T20:00:00Z"
+      "createdOn": "2026-08-21T20:00:00Z",
+      "coordinates": {
+        "lat": 40.18456,
+        "lng": -111.75409
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": [
+          "Oil change service",
+          "Auto parts store"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 43,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-provo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 3129,
+          "ratingDistribution": {
+            "1": 290,
+            "2": 114,
+            "3": 140,
+            "4": 419,
+            "5": 2166
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-provo",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 343,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 2,
+            "4": 20,
+            "5": 320
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/crestovar-motors-provo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 690,
+          "ratingDistribution": {
+            "1": 54,
+            "2": 23,
+            "3": 29,
+            "4": 91,
+            "5": 493
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 4162,
+        "averageRating": 4.4,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-6",
@@ -316,7 +897,134 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-07T17:35:00Z"
+      "createdOn": "2026-08-07T17:35:00Z",
+      "coordinates": {
+        "lat": 40.67007,
+        "lng": -111.61246
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": [
+          "Oil change service",
+          "Auto parts store"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 163,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-park-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 173,
+          "ratingDistribution": {
+            "1": 12,
+            "2": 5,
+            "3": 7,
+            "4": 23,
+            "5": 126
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-park-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 24,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 23
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/crestovar-motors-park-city",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.1,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 8
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 210,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-7",
@@ -356,7 +1064,129 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-07-24T14:10:00Z"
+      "createdOn": "2026-07-24T14:10:00Z",
+      "coordinates": {
+        "lat": 37.13809,
+        "lng": -113.49197
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": [
+          "Auto repair shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        }
+      ],
+      "photoCount": 52,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-st-george",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 227,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 9,
+            "5": 217
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-st-george",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/crestovar-motors-st-george",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 82,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 2,
+            "3": 3,
+            "4": 10,
+            "5": 62
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 318,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-8",
@@ -396,7 +1226,113 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-07-31T19:35:00Z"
+      "createdOn": "2026-07-31T19:35:00Z",
+      "coordinates": {
+        "lat": 41.69995,
+        "lng": -111.9721
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": [
+          "Auto repair shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        }
+      ],
+      "photoCount": 8,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-logan",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 61,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 2,
+            "4": 8,
+            "5": 45
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-logan",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 21,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 18
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 82,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-9",
@@ -436,7 +1372,109 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-07-17T16:10:00Z"
+      "createdOn": "2026-07-17T16:10:00Z",
+      "coordinates": {
+        "lat": 41.10386,
+        "lng": -112.02108
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": [
+          "Oil change service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 37,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-layton",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 1236,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 7,
+            "3": 17,
+            "4": 103,
+            "5": 1101
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-layton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 207,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 3,
+            "4": 17,
+            "5": 185
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1443,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-crestovar-motors-loc-10",
@@ -476,7 +1514,134 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-07-03T20:20:00Z"
+      "createdOn": "2026-07-03T20:20:00Z",
+      "coordinates": {
+        "lat": 40.25947,
+        "lng": -111.59359
+      },
+      "categories": {
+        "primary": "Car dealer service center",
+        "secondary": [
+          "Auto parts store",
+          "Auto repair shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/crestovar-motors-orem",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 31,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 26
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/crestovar-motors-orem",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/crestovar-motors-orem",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 40,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -746,20 +1911,22 @@
       "locationId": "acct-crestovar-motors-loc-1",
       "location": "Crestovar Motors - Salt Lake Service (Salt Lake City, UT)",
       "site": "google",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Fenwick Ivers",
       "date": "2026-08-30T19:40:00Z",
-      "text": "Booked a 30k-mile service online with Crestovar Motors, arrived on time, and still waited 50 minutes to be checked in.",
-      "photoCount": 1,
+      "text": "Quick and honest. Landon checked one extra thing for free and didn't charge me for it.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Landon"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Fenwick, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Crestovar Motors. A manager will reach out this week to make it right.\n\nCrestovar Motors Service",
+        "text": "Thanks, Fenwick. We're glad we could help and have shared your note with the team.\n\nCrestovar Motors Service",
         "author": "Crestovar Motors Service",
-        "date": "2026-08-31T21:15:00Z"
+        "date": "2026-08-31T12:15:00Z"
       }
     },
     {
@@ -773,14 +1940,19 @@
       "reviewer": "Gemma Ridley",
       "date": "2026-08-16T18:25:00Z",
       "text": "Brought my car in for a recall repair at the Sandy location. Landon texted photos of the worn parts and a clear quote before doing anything. Done by the promised time.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Landon"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Gemma. We're glad we could help and have shared your note with the team.\n\nCrestovar Motors Service",
+        "author": "Crestovar Motors Service",
+        "date": "2026-08-16T22:05:00Z"
+      }
     },
     {
       "id": "acct-crestovar-motors-rev-3",
@@ -793,14 +1965,19 @@
       "reviewer": "Hugo Blackwood",
       "date": "2026-08-02T21:50:00Z",
       "text": "My transmission flush was done right and priced fairly. The waiting area at the West Valley location was busy and the Wi-Fi kept dropping, but Parker kept me updated.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Parker"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Hugo. It means a lot to our team.\n\nCrestovar Motors Service",
+        "author": "Crestovar Motors Service",
+        "date": "2026-08-02T23:40:00Z"
+      }
     },
     {
       "id": "acct-crestovar-motors-rev-4",
@@ -809,21 +1986,18 @@
       "locationId": "acct-crestovar-motors-loc-4",
       "location": "Crestovar Motors - Ogden (Ogden, UT)",
       "site": "google",
-      "rating": 2,
+      "rating": 5,
       "reviewer": "Ines Ingram",
       "date": "2026-07-19T20:30:00Z",
-      "text": "Dropped off for new tires and alignment at 8 a.m. and didn't hear anything until I called at 4. The work from Crestovar Motors was fine, but proactive updates would make a big difference.",
+      "text": "Mele had a transmission flush done by the time promised and texted photos before doing anything extra.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Ines, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Crestovar Motors. A manager will reach out this week to make it right.\n\nCrestovar Motors Service",
-        "author": "Crestovar Motors Service",
-        "date": "2026-07-21T14:10:00Z"
-      }
+      "employeesMentioned": [
+        "Mele"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-crestovar-motors-rev-5",
@@ -836,7 +2010,7 @@
       "reviewer": "Jonah Pembrook",
       "date": "2026-07-05T15:00:00Z",
       "text": "Brooke talked me out of a transmission flush because it wasn't needed yet. It's rare to find a service advisor who saves you money.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -856,7 +2030,7 @@
       "reviewer": "Kaia Wexford",
       "date": "2026-10-14T14:40:00Z",
       "text": "Picked up my car from Crestovar Motors after a recall repair and there was a new rattle that wasn't there before. Had to bring it back twice. They fixed it eventually, but it cost me two days.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -865,7 +2039,7 @@
       "reply": {
         "text": "Kaia, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Crestovar Motors. A manager will reach out this week to make it right.\n\nCrestovar Motors Service",
         "author": "Crestovar Motors Service",
-        "date": "2026-10-16T16:00:00Z"
+        "date": "2026-10-15T12:25:00Z"
       }
     },
     {
@@ -879,7 +2053,7 @@
       "reviewer": "Lionel Esposito",
       "date": "2026-09-30T17:05:00Z",
       "text": "Third visit to Crestovar Motors and it's consistently good. My transmission flush was finished early, and Parker reset my tire pressure light without being asked.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -890,7 +2064,7 @@
       "reply": {
         "text": "Thanks so much, Lionel! We'll pass this along to the whole Crestovar Motors team. See you next time.\n\nCrestovar Motors Service",
         "author": "Crestovar Motors Service",
-        "date": "2026-10-01T19:15:00Z"
+        "date": "2026-10-02T06:00:00Z"
       }
     },
     {
@@ -900,20 +2074,22 @@
       "locationId": "acct-crestovar-motors-loc-8",
       "location": "Crestovar Motors - Logan (Logan, UT)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Mila Lindahl",
       "date": "2026-09-16T16:50:00Z",
-      "text": "Good work on new tires and alignment, but the final bill from Crestovar Motors was higher than the estimate because of shop fees nobody mentioned up front.",
+      "text": "Been to a lot of shops and Crestovar Motors is the first one where I trust the quote. Landon showed me the worn part, explained the options for a 30k-mile service, and the final bill came in under the estimate.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Landon"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Mila, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Crestovar Motors. A manager will reach out this week to make it right.\n\nCrestovar Motors Service",
+        "text": "Thanks, Mila. We're glad we could help and have shared your note with the team.\n\nCrestovar Motors Service",
         "author": "Crestovar Motors Service",
-        "date": "2026-09-18T18:15:00Z"
+        "date": "2026-09-17T22:30:00Z"
       }
     }
   ]

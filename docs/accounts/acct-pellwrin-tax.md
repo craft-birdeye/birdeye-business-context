@@ -31,7 +31,8 @@ Tax and estate planning firm for professionals and closely held businesses in th
 ## Data at a glance
 
 - Contacts: 8 (Client, Lead)
-- Reviews: 8, average 3.8★, 6 with replies
+- Reviews: 8, average 4.3★, 7 with replies
+- Listings (invented, schema 1.1.0): 12 across 4 locations, 11 claimed, 10 verified; 677 public reviews, average 4.8★; 61 photos
 - Bundle: [`v1/accounts/acct-pellwrin-tax.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-pellwrin-tax.json)
 
 ## Locations
@@ -42,6 +43,17 @@ Tax and estate planning firm for professionals and closely held businesses in th
 | 2 | Pellwrin Tax - Arlington | 1888 Marigold Parkway, Arlington, VA 22201 | (571) 555-0101 | Active |
 | 3 | Pellwrin Tax - Bethesda | 3007 Saddlebrook Drive, Suite 340, Bethesda, MD 20815 | (301) 555-0102 | Active |
 | 4 | Pellwrin Tax - Tysons | 8602 Bramblewood Trail, Suite 183, Tysons, VA 22102 | (571) 555-0103 | Demo |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Tax attorney | google: 4.8 · 219 · verified; facebook: 4.9 · 25 · verified; yelp: 4.5 · 66 · verified | 38.9795, -77.02937 |
+| 2 | Open | Tax attorney, Estate planning attorney, Tax consultant | google: 4.8 · 55 · verified; facebook: 5 · 7 · verified; yelp: 4.5 · 11 · unclaimed | 38.95283, -77.14486 |
+| 3 | Open | Tax attorney, Tax consultant | google: 4.7 · 36 · verified; facebook: 5 · 1 · claimed; yelp: 5 · 2 · verified | 38.9478, -77.18891 |
+| 4 | Open | Tax attorney, Estate planning attorney, Tax consultant | google: 4.9 · 197 · verified; facebook: 4.9 · 15 · verified; yelp: 4.4 · 43 · verified | 38.97482, -77.17748 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

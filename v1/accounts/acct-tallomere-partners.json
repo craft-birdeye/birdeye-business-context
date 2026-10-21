@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-tallomere-partners",
@@ -74,7 +74,17 @@
       "listings management",
       "an attribution model"
     ],
-    "llmContext": "Tallomere Partners · Channel · Advertising and agency · HQ Chicago, Illinois, United States · 8 purchased locations · CRM HubSpot · Midwest channel partner known for location-level reputation dashboards."
+    "llmContext": "Tallomere Partners · Channel · Advertising and agency · HQ Chicago, Illinois, United States · 8 purchased locations · CRM HubSpot · Midwest channel partner known for location-level reputation dashboards.",
+    "listingSummary": {
+      "locations": 8,
+      "openLocations": 7,
+      "listings": 24,
+      "claimedListings": 18,
+      "verifiedListings": 16,
+      "totalReviews": 172,
+      "averageRating": 4.9,
+      "photoCount": 110
+    }
   },
   "locations": [
     {
@@ -110,7 +120,115 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-09-13T15:30:00Z"
+      "createdOn": "2026-09-13T15:30:00Z",
+      "coordinates": {
+        "lat": 41.95547,
+        "lng": -87.62613
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Advertising agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 19,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tallomere-chicago-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 1,
+            "5": 11
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tallomere-chicago-hq",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tallomere-chicago-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 17,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tallomere-partners-loc-2",
@@ -145,7 +263,109 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-08-30T14:10:00Z"
+      "createdOn": "2026-08-30T14:10:00Z",
+      "coordinates": {
+        "lat": 42.29089,
+        "lng": -82.95713
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 8,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tallomere-detroit-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 6
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tallomere-detroit-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tallomere-detroit-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 9,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tallomere-partners-loc-3",
@@ -180,7 +400,115 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-08-16T17:35:00Z"
+      "createdOn": "2026-08-16T17:35:00Z",
+      "coordinates": {
+        "lat": 39.79019,
+        "lng": -86.21511
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Internet marketing service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tallomere-indy-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tallomere-indy-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 4
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tallomere-indy-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 18,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tallomere-partners-loc-4",
@@ -215,7 +543,120 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-08-02T16:45:00Z"
+      "createdOn": "2026-08-02T16:45:00Z",
+      "coordinates": {
+        "lat": 39.99129,
+        "lng": -82.92605
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Advertising agency",
+          "Internet marketing service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 5,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tallomere-columbus-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tallomere-columbus-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 1
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tallomere-columbus-desk",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 25,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tallomere-partners-loc-5",
@@ -250,7 +691,121 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-07-19T19:10:00Z"
+      "createdOn": "2026-07-19T19:10:00Z",
+      "coordinates": {
+        "lat": 43.11204,
+        "lng": -87.91627
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tallomere-milwaukee-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 31
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tallomere-milwaukee-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 6
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tallomere-milwaukee-desk",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 45,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tallomere-partners-loc-6",
@@ -285,7 +840,119 @@
       ],
       "owner": "Mei Lintrove",
       "createdBy": "Mei Lintrove",
-      "createdOn": "2026-07-05T18:55:00Z"
+      "createdOn": "2026-07-05T18:55:00Z",
+      "coordinates": {
+        "lat": 44.89065,
+        "lng": -93.17965
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Advertising agency"
+        ]
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 21,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tallomere-minneapolis-desk",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tallomere-minneapolis-desk",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tallomere-minneapolis-desk",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 13,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tallomere-partners-loc-7",
@@ -320,7 +987,115 @@
       ],
       "owner": "Lauren Pittman",
       "createdBy": "Lauren Pittman",
-      "createdOn": "2026-10-17T21:20:00Z"
+      "createdOn": "2026-10-17T21:20:00Z",
+      "coordinates": {
+        "lat": 38.6579,
+        "lng": -90.22448
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Advertising agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 25,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tallomere-st-louis-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 25,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 23
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tallomere-st-louis-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tallomere-st-louis-desk",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 32,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-tallomere-partners-loc-8",
@@ -355,7 +1130,120 @@
       ],
       "owner": "Andre Whitaker",
       "createdBy": "Andre Whitaker",
-      "createdOn": "2026-06-28T20:35:00Z"
+      "createdOn": "2026-06-28T20:35:00Z",
+      "coordinates": {
+        "lat": 39.07838,
+        "lng": -94.53126
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Advertising agency",
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 24,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/tallomere-kansas-city-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 10
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/tallomere-kansas-city-desk",
+          "claimed": true,
+          "verified": false,
+          "rating": 4,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 0
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/tallomere-kansas-city-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 13,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -630,7 +1518,7 @@
       "reviewer": "Fenwick Faulkner",
       "date": "2026-09-24T16:45:00Z",
       "text": "Good strategy on multi-location analytics, but the monthly invoice from Tallomere has vague line items. Our finance team needs clearer activity summaries.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -639,7 +1527,7 @@
       "reply": {
         "text": "Fenwick, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Tallomere. A member of our leadership team will contact you directly to discuss it.\n\nTallomere Partners",
         "author": "Tallomere Partners",
-        "date": "2026-09-25T18:10:00Z"
+        "date": "2026-09-25T14:50:00Z"
       }
     },
     {
@@ -653,7 +1541,7 @@
       "reviewer": "Gemma Novak",
       "date": "2026-09-10T21:15:00Z",
       "text": "When one of our client locations got hit with a wave of negative reviews, Ravi Subrahvel had draft responses ready the same afternoon. Calm, specific, and on-brand.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -669,21 +1557,18 @@
       "locationId": "acct-tallomere-partners-loc-3",
       "location": "Tallomere - Indy desk (Indianapolis, IN)",
       "site": "yelp",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Hugo Winslow",
       "date": "2026-08-27T18:50:00Z",
-      "text": "Our account lead at Tallomere left and we went a month without anyone owning listings management. They've since assigned someone new, but the gap hurt.",
-      "photoCount": 3,
+      "text": "Tallomere took multi-location analytics off our plate completely. Monthly check-ins with Hannah Kessler are the most useful meeting on our calendar.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Hugo, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Tallomere. A member of our leadership team will contact you directly to discuss it.\n\nTallomere Partners",
-        "author": "Tallomere Partners",
-        "date": "2026-08-28T20:05:00Z"
-      }
+      "employeesMentioned": [
+        "Hannah Kessler"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-tallomere-partners-rev-4",
@@ -707,7 +1592,7 @@
       "reply": {
         "text": "Thank you for your kind words, Ines. We are glad the team at Tallomere could help, and we appreciate you taking the time to share your experience.\n\nTallomere Partners",
         "author": "Tallomere Partners",
-        "date": "2026-08-15T17:15:00Z"
+        "date": "2026-08-13T23:00:00Z"
       }
     },
     {
@@ -721,7 +1606,7 @@
       "reviewer": "Jonah Merriweather",
       "date": "2026-07-30T20:00:00Z",
       "text": "Tallomere cleaned up duplicate listings across our client locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -739,7 +1624,7 @@
       "reviewer": "Kaia Thackeray",
       "date": "2026-07-16T17:35:00Z",
       "text": "Tool access for a reputation benchmark study took weeks to sort out on the Tallomere side. Once connected it worked, but setup was rough.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -748,7 +1633,7 @@
       "reply": {
         "text": "Kaia, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Tallomere. A member of our leadership team will contact you directly to discuss it.\n\nTallomere Partners",
         "author": "Tallomere Partners",
-        "date": "2026-07-18T19:05:00Z"
+        "date": "2026-07-17T17:20:00Z"
       }
     },
     {
@@ -762,7 +1647,7 @@
       "reviewer": "Lionel Bergstrom",
       "date": "2026-07-02T14:10:00Z",
       "text": "Tallomere took over listings management for our team and the difference showed within a month. Hannah Kessler sends a short weekly update with exactly what changed and what to do next.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -773,7 +1658,7 @@
       "reply": {
         "text": "Thank you for your kind words, Lionel. We are glad the team at Tallomere could help, and we appreciate you taking the time to share your experience.\n\nTallomere Partners",
         "author": "Tallomere Partners",
-        "date": "2026-07-03T16:45:00Z"
+        "date": "2026-07-03T12:00:00Z"
       }
     },
     {
@@ -787,7 +1672,7 @@
       "reviewer": "Mila Iwasaki",
       "date": "2026-10-11T19:35:00Z",
       "text": "Solid partner for an attribution model. Reporting is clear and Ravi Subrahvel is responsive. Onboarding with Tallomere took a couple of weeks longer than planned.",
-      "photoCount": 0,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [

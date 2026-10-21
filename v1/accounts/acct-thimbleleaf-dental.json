@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-thimbleleaf-dental",
@@ -73,7 +73,17 @@
       "a bonding repair",
       "a crown"
     ],
-    "llmContext": "Thimbleleaf Family Dental · SMB · Dental and healthcare · HQ Austin, Texas, United States · 1 purchased location · CRM Dentrix · Single-location family dental practice in Austin."
+    "llmContext": "Thimbleleaf Family Dental · SMB · Dental and healthcare · HQ Austin, Texas, United States · 1 purchased location · CRM Dentrix · Single-location family dental practice in Austin.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 2,
+      "totalReviews": 1161,
+      "averageRating": 4.7,
+      "photoCount": 44
+    }
   },
   "locations": [
     {
@@ -114,7 +124,133 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-08-28T16:40:00Z"
+      "createdOn": "2026-08-28T16:40:00Z",
+      "coordinates": {
+        "lat": 30.24776,
+        "lng": -97.71069
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 44,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/thimbleleaf-family-dental",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 725,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 3,
+            "4": 28,
+            "5": 692
+          },
+          "sampledReviews": 5
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/thimbleleaf-family-dental",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 47,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 2,
+            "3": 1,
+            "4": 5,
+            "5": 38
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/thimbleleaf-family-dental",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 389,
+          "ratingDistribution": {
+            "1": 48,
+            "2": 15,
+            "3": 18,
+            "4": 43,
+            "5": 265
+          },
+          "sampledReviews": 3
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1161,
+        "averageRating": 4.7,
+        "sampledReviews": 10,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [

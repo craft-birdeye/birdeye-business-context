@@ -1,10 +1,10 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/manifest.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "dateWindow": {
     "oldest": "2026-06-25T15:45:00Z",
-    "newest": "2026-10-20T21:55:00Z",
+    "newest": "2026-10-20T21:15:00Z",
     "maxDaysAgo": 120
   },
   "baseUrl": "https://craft-birdeye.github.io/birdeye-business-context",
@@ -23,6 +23,15 @@
     "accounts": 40,
     "locations": 224,
     "contacts": 330,
-    "reviews": 338
+    "reviews": 338,
+    "listings": 615
+  },
+  "distributions": {
+    "version": "1.1.0",
+    "seed": "birdeye-business-context/distributions/1.1",
+    "specialHoursWindow": {
+      "from": "2026-09-21",
+      "to": "2027-01-19"
+    }
   }
 }

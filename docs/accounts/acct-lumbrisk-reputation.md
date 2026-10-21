@@ -31,7 +31,8 @@ Northeast agency focused on review response, GBP hygiene, and franchise reportin
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.9★, 5 with replies
+- Reviews: 8, average 4.5★, 8 with replies
+- Listings (invented, schema 1.1.0): 15 across 6 locations, 11 claimed, 9 verified; 73 public reviews, average 4.8★; 28 photos
 - Bundle: [`v1/accounts/acct-lumbrisk-reputation.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-lumbrisk-reputation.json)
 
 ## Locations
@@ -44,6 +45,19 @@ Northeast agency focused on review response, GBP hygiene, and franchise reportin
 | 4 | Lumbrisk - Portland ME | 7241 Copperleaf Court, Portland, ME 04102 | (207) 555-0103 | Demo |
 | 5 | Lumbrisk - Albany | 6122 Northwind Boulevard, Albany, NY 12207 | (518) 555-0104 | Needs setup |
 | 6 | Lumbrisk - Buffalo | 5003 Kestrel Avenue, Buffalo, NY 14203 | (716) 555-0105 | Inactive |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency, Website designer | google: 4.9 · 9 · verified; facebook: 5 · 1 · verified; yelp: 5 · 1 · claimed | 42.27773, -71.13414 |
+| 2 | Open | Marketing agency | google: 4.7 · 20 · verified; facebook: 3.5 · 2 · verified | 41.90007, -71.3417 |
+| 3 | Open | Marketing agency | google: 4.9 · 12 · verified; yelp: 5 · 3 · unclaimed | 41.81016, -72.76626 |
+| 4 | Open | Marketing agency, Website designer | google: 4.9 · 13 · verified; facebook: 5 · 2 · verified | 43.62052, -70.25351 |
+| 5 | Open | Marketing agency, Social media agency | google: 4.8 · 6 · unclaimed; facebook: – · 0 · verified; yelp: 5 · 1 · unclaimed | 42.55362, -73.77444 |
+| 6 | Open | Marketing agency, Website designer | google: 5 · 2 · verified; facebook: 5 · 1 · unclaimed; yelp: – · 0 · claimed | 42.85642, -78.8627 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

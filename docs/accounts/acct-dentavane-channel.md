@@ -31,7 +31,8 @@ Channel partner that runs listings and review programs for independent dental gr
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 10 across 4 locations, 7 claimed, 5 verified; 115 public reviews, average 4.9★; 26 photos
 - Bundle: [`v1/accounts/acct-dentavane-channel.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-dentavane-channel.json)
 
 ## Locations
@@ -42,6 +43,17 @@ Channel partner that runs listings and review programs for independent dental gr
 | 2 | Dentavane - Client hub - Charlotte | 6364 Pinecrest Trail, Suite 309, Charlotte, NC 28203 | (980) 555-0101 | Active |
 | 3 | Dentavane - Client hub - Tampa | 7483 Kestrel Avenue, Suite 204, Tampa, FL 33606 | (813) 555-0102 | Active |
 | 4 | Dentavane - Client hub - Dallas | 4178 Hazelwood Commons, Dallas, TX 75201 | (214) 555-0103 | Demo |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency, Advertising agency, Social media agency | google: 4.9 · 9 · verified; facebook: 4.5 · 2 · unclaimed; yelp: 5 · 2 · verified | 33.79695, -84.46943 |
+| 2 | Open | Marketing agency, Social media agency, Advertising agency | google: 4.8 · 20 · verified | 35.25877, -80.81396 |
+| 3 | Open | Marketing agency | google: 4.9 · 17 · claimed; facebook: 5 · 2 · verified; yelp: 5 · 1 · verified | 27.97399, -82.50439 |
+| 4 | Open | Marketing agency | google: 4.9 · 54 · unclaimed; facebook: 5 · 5 · claimed; yelp: 5 · 3 · unclaimed | 32.67511, -96.77986 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

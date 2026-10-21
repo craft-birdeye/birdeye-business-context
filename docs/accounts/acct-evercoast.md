@@ -32,6 +32,7 @@ Multi-state dental support organization operating Evercoast Dental practices acr
 
 - Contacts: 10 (Patient, Lead)
 - Reviews: 14, average 3.9★, 5 with replies
+- Listings (invented, schema 1.1.0): 117 across 45 locations, 86 claimed, 85 verified; 31721 public reviews, average 4.8★; 1396 photos
 - Bundle: [`v1/accounts/acct-evercoast.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-evercoast.json)
 
 ## Locations
@@ -83,6 +84,58 @@ Multi-state dental support organization operating Evercoast Dental practices acr
 | 43 | Evercoast Dental - Broomfield | 5215 Elderberry Terrace, Suite 256, Broomfield, CO 80023 | (303) 555-0122 | Active |
 | 44 | Evercoast Dental - Castle Rock | 1858 Falconridge Avenue, Castle Rock, CO 80104 | (303) 555-0123 | Active |
 | 45 | Evercoast Dental - Parker | 2977 Goldfinch Boulevard, Suite 314, Parker, CO 80138 | (303) 555-0124 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Dentist | google: 4.9 · 319 · verified; facebook: 4.7 · 191 · verified; yelp: 4.6 · 12 · unclaimed | 32.75331, -117.07862 |
+| 2 | Open | Dentist | google: 5 · 167 · verified; facebook: 4.7 · 28 · verified | 33.19396, -117.07111 |
+| 3 | Open | Dentist, Emergency dental service, Cosmetic dentist, Dental clinic | google: 4.9 · 987 · verified; facebook: 4.8 · 90 · verified; yelp: 4.3 · 98 · unclaimed | 33.09725, -117.37087 |
+| 4 | Open | Dentist, Dental implants provider | google: 4.7 · 1472 · verified; yelp: 4.3 · 101 · unclaimed | 32.86643, -117.05573 |
+| 5 | Open | Dentist, Cosmetic dentist, Dental implants provider | google: 4.8 · 511 · unclaimed; facebook: 5 · 36 · unclaimed; yelp: 4.3 · 84 · unclaimed | 37.28536, -121.84554 |
+| 6 | Permanently closed | Dentist, Dental implants provider | google: 4.7 · 325 · verified; facebook: 4.5 · 22 · verified; yelp: 4.2 · 32 · unclaimed | 37.63134, -122.04718 |
+| 7 | Open | Dentist | google: 4.7 · 244 · verified; facebook: 5 · 13 · verified | 37.74303, -122.25084 |
+| 8 | Open | Dentist, Emergency dental service | google: 4.9 · 1014 · verified; facebook: 4.8 · 95 · verified; yelp: 4.3 · 195 · unclaimed | 37.85902, -122.40458 |
+| 9 | Open | Dentist, Dental implants provider | google: 4.9 · 114 · verified; facebook: 4.9 · 22 · verified; yelp: 4.3 · 10 · verified | 37.60718, -122.25215 |
+| 10 | Open | Dentist, Teeth whitening service | google: 4.9 · 1994 · verified; facebook: 5 · 313 · verified; yelp: 4.5 · 162 · unclaimed | 37.51204, -122.05547 |
+| 11 | Open | Dentist, Teeth whitening service | google: 4.9 · 198 · verified; yelp: 4.3 · 21 · unclaimed | 38.63179, -121.57627 |
+| 12 | Permanently closed | Dentist, Emergency dental service | google: 4.6 · 265 · verified; facebook: 5 · 34 · verified; yelp: 4.3 · 27 · unclaimed | 37.76791, -122.53078 |
+| 13 | Open | Dentist, Teeth whitening service | google: 4.7 · 86 · verified; facebook: 4.9 · 8 · verified; yelp: 4.2 · 19 · unclaimed | 47.68458, -122.30123 |
+| 14 | Open | Dentist, Dental clinic | google: 4.9 · 178 · verified; facebook: 4.7 · 22 · verified; yelp: 4.4 · 25 · verified | 47.18532, -122.40155 |
+| 15 | Open | Dentist, Dental clinic | google: 4.6 · 2397 · verified | 45.55992, -122.64267 |
+| 16 | Open | Dentist | google: 4.9 · 87 · verified; facebook: 4.9 · 28 · verified; yelp: 4.5 · 11 · verified | 33.5174, -111.91265 |
+| 17 | Open | Dentist, Dental implants provider | google: 4.6 · 958 · verified | 33.29648, -111.76971 |
+| 18 | Temporarily closed | Dentist, Teeth whitening service | google: 4.8 · 1701 · verified; facebook: 4.9 · 281 · unclaimed | 33.47377, -111.91102 |
+| 19 | Open | Dentist, Dental implants provider | google: 5 · 96 · verified; facebook: 5 · 5 · verified; yelp: 4.3 · 24 · verified | 33.397, -111.67941 |
+| 20 | Open | Dentist | google: 5 · 78 · verified; facebook: 5 · 5 · verified | 33.57235, -112.23589 |
+| 21 | Open | Dentist, Emergency dental service, Teeth whitening service, Cosmetic dentist | google: 4.7 · 1442 · verified; facebook: 5 · 95 · verified; yelp: 4 · 85 · verified | 33.55069, -112.17754 |
+| 22 | Open | Dentist, Dental implants provider | google: 4.9 · 190 · unclaimed; yelp: 4.4 · 19 · unclaimed | 33.604, -112.26215 |
+| 23 | Open | Dentist | google: 4.6 · 909 · verified; facebook: 4.9 · 116 · verified; yelp: 4.4 · 37 · unclaimed | 33.29992, -111.59122 |
+| 24 | Temporarily closed | Dentist | google: 4.8 · 421 · verified; facebook: 4.7 · 65 · verified; yelp: 3.9 · 36 · verified | 40.65797, -111.86048 |
+| 25 | Open | Dentist, Dental implants provider | google: 4.8 · 116 · verified; facebook: 5 · 32 · verified; yelp: 4.3 · 17 · verified | 40.54526, -111.80246 |
+| 26 | Open | Dentist, Cosmetic dentist, Emergency dental service | google: 4.6 · 529 · verified; facebook: 5 · 53 · verified; yelp: 4.2 · 42 · unclaimed | 40.71626, -111.86317 |
+| 27 | Open | Dentist, Dental clinic | google: 5 · 1677 · verified; facebook: 4.7 · 135 · unclaimed; yelp: 4.6 · 227 · unclaimed | 41.17809, -111.88625 |
+| 28 | Open | Dentist, Cosmetic dentist | google: 5 · 269 · verified; facebook: 4.8 · 49 · verified; yelp: 4.7 · 21 · verified | 40.23438, -111.70824 |
+| 29 | Open | Dentist, Cosmetic dentist | google: 5 · 267 · unclaimed; facebook: 4.8 · 56 · unclaimed; yelp: 4.3 · 16 · verified | 40.66965, -111.56706 |
+| 30 | Temporarily closed | Dentist | google: 5 · 214 · unclaimed | 37.0165, -113.55959 |
+| 31 | Open | Dentist, Emergency dental service, Dental clinic | google: 4.9 · 534 · verified; facebook: 4.9 · 102 · unclaimed; yelp: 4.2 · 104 · verified | 41.75741, -111.95755 |
+| 32 | Open | Dentist, Cosmetic dentist, Dental implants provider | google: 4.6 · 339 · verified; facebook: 5 · 70 · verified; yelp: 4.4 · 59 · verified | 41.15139, -112.02731 |
+| 33 | Open | Dentist, Dental clinic | google: 4.9 · 1506 · verified; facebook: 5 · 411 · verified; yelp: 4.3 · 352 · verified | 40.27468, -111.5688 |
+| 34 | Open | Dentist, Teeth whitening service | google: 4.9 · 967 · verified; facebook: 5 · 195 · unclaimed | 39.74696, -105.0662 |
+| 35 | Open | Dentist | google: 5 · 263 · unclaimed; facebook: 5 · 15 · unclaimed; yelp: 4.2 · 32 · unclaimed | 39.50837, -104.82167 |
+| 36 | Temporarily closed | Dentist, Teeth whitening service | google: 4.6 · 49 · verified; facebook: 5 · 5 · verified | 39.64425, -104.82406 |
+| 37 | Open | Dentist, Dental clinic, Dental implants provider | google: 4.8 · 334 · verified; facebook: 4.9 · 41 · verified; yelp: 4.4 · 14 · verified | 39.7641, -105.16339 |
+| 38 | Open | Dentist, Cosmetic dentist | google: 4.8 · 183 · verified; facebook: 4.9 · 12 · verified; yelp: 4.3 · 35 · verified | 40.09182, -105.22757 |
+| 39 | Open | Dentist, Teeth whitening service, Dental clinic | google: 5 · 57 · verified; facebook: 4.8 · 6 · verified; yelp: 4.8 · 4 · unclaimed | 39.62086, -104.96511 |
+| 40 | Open | Dentist | google: 4.7 · 255 · unclaimed; facebook: 5 · 32 · unclaimed; yelp: 4.4 · 38 · verified | 39.79517, -105.1276 |
+| 41 | Open | Dentist, Dental implants provider, Teeth whitening service | google: 4.7 · 1710 · verified; facebook: 4.8 · 228 · unclaimed; yelp: 4.2 · 189 · verified | 39.91357, -105.061 |
+| 42 | Open | Dentist, Teeth whitening service, Dental implants provider | google: 4.6 · 415 · verified; facebook: 4.9 · 38 · verified | 39.55809, -104.95598 |
+| 43 | Open | Dentist | google: 4.9 · 262 · verified; facebook: 4.7 · 26 · verified; yelp: 4.4 · 31 · verified | 40.0242, -105.01511 |
+| 44 | Open | Dentist | google: 4.6 · 233 · verified; facebook: 4.8 · 64 · verified | 39.34241, -104.87692 |
+| 45 | Open | Dentist, Dental implants provider, Emergency dental service | google: 4.7 · 155 · verified; yelp: 4.5 · 16 · claimed | 39.47291, -104.71508 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 
