@@ -1,0 +1,1081 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-dentavane-channel",
+    "name": "Dentavane Dental Marketing",
+    "brandName": "Dentavane",
+    "parentGroup": "Dentavane Channel",
+    "segment": "CH-SLV",
+    "segmentLabel": "Channel",
+    "industryId": "dental-healthcare",
+    "industryLabel": "Dental and healthcare",
+    "tier": "Channel partner for DSOs",
+    "crm": "HubSpot",
+    "purchasedLocations": 4,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Atlanta",
+      "state": "GA",
+      "stateName": "Georgia",
+      "country": "United States"
+    },
+    "businessBlurb": "Channel partner that runs listings and review programs for independent dental groups.",
+    "profile": {
+      "description": "Channel partner that runs listings and review programs for independent dental groups. Reputation programs for independent dental groups.",
+      "categories": [
+        "Marketing agency"
+      ],
+      "website": "https://dentavane.example.com",
+      "email": "hello@dentavane.example.com",
+      "phone": "(404) 555-0104",
+      "primaryLocationId": "acct-dentavane-channel-loc-1",
+      "address": {
+        "street1": "821 Copperleaf Avenue",
+        "street2": "Suite 458",
+        "city": "Atlanta",
+        "state": "GA",
+        "stateName": "Georgia",
+        "zip": "30309",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Dentavane",
+      "tagline": "Reputation programs for independent dental groups",
+      "logo": {
+        "kind": "monogram",
+        "initials": "D",
+        "path": "v1/logos/acct-dentavane-channel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-dentavane-channel.svg"
+      },
+      "colors": {
+        "primary": "#6B3FA0",
+        "secondary": "#F4EEFA",
+        "accent": "#F2B134",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Consultative and data-led; speaks to dental group owners and office managers.",
+      "formality": "neutral",
+      "replySignoff": "The Dentavane partner team"
+    },
+    "staff": [
+      "Dana Cruzalva",
+      "Felipe Arroyo",
+      "Hollis Grant"
+    ],
+    "services": [
+      "a review program for our dental offices",
+      "listings cleanup for our practices",
+      "a new-patient review campaign",
+      "monthly reputation reporting"
+    ],
+    "llmContext": "Dentavane Dental Marketing · Channel · Dental and healthcare · HQ Atlanta, Georgia, United States · 4 purchased locations · CRM HubSpot · Channel partner that runs listings and review programs for independent dental groups.",
+    "listingSummary": {
+      "locations": 4,
+      "openLocations": 4,
+      "listings": 10,
+      "claimedListings": 7,
+      "verifiedListings": 5,
+      "totalReviews": 115,
+      "averageRating": 4.9,
+      "photoCount": 26
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-dentavane-channel-loc-1",
+      "accountId": "acct-dentavane-channel",
+      "index": 1,
+      "name": "Dentavane - HQ",
+      "shortName": "HQ",
+      "label": "Dentavane - HQ (Atlanta, GA)",
+      "locationLine": "Atlanta, GA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "821 Copperleaf Avenue",
+        "street2": "Suite 458",
+        "city": "Atlanta",
+        "state": "GA",
+        "stateName": "Georgia",
+        "zip": "30309",
+        "country": "US"
+      },
+      "phone": "(470) 555-0100",
+      "email": "hq@dentavane.example.com",
+      "website": "https://dentavane.example.com/locations/hq",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-07-07T14:15:00Z",
+      "coordinates": {
+        "lat": 33.79695,
+        "lng": -84.46943
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Advertising agency",
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 9,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/dentavane-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/dentavane-hq",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 1
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/dentavane-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 13,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-loc-2",
+      "accountId": "acct-dentavane-channel",
+      "index": 2,
+      "name": "Dentavane - Client hub - Charlotte",
+      "shortName": "Client hub - Charlotte",
+      "label": "Dentavane - Client hub - Charlotte (Charlotte, NC)",
+      "locationLine": "Charlotte, NC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6364 Pinecrest Trail",
+        "street2": "Suite 309",
+        "city": "Charlotte",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28203",
+        "country": "US"
+      },
+      "phone": "(980) 555-0101",
+      "email": "client-hub-charlotte@dentavane.example.com",
+      "website": "https://dentavane.example.com/locations/client-hub-charlotte",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-10-19T15:35:00Z",
+      "coordinates": {
+        "lat": 35.25877,
+        "lng": -80.81396
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency",
+          "Advertising agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 13,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/dentavane-client-hub-charlotte",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 2,
+            "5": 17
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 20,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 1
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-loc-3",
+      "accountId": "acct-dentavane-channel",
+      "index": 3,
+      "name": "Dentavane - Client hub - Tampa",
+      "shortName": "Client hub - Tampa",
+      "label": "Dentavane - Client hub - Tampa (Tampa, FL)",
+      "locationLine": "Tampa, FL",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7483 Kestrel Avenue",
+        "street2": "Suite 204",
+        "city": "Tampa",
+        "state": "FL",
+        "stateName": "Florida",
+        "zip": "33606",
+        "country": "US"
+      },
+      "phone": "(813) 555-0102",
+      "email": "client-hub-tampa@dentavane.example.com",
+      "website": "https://dentavane.example.com/locations/client-hub-tampa",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-10-05T20:05:00Z",
+      "coordinates": {
+        "lat": 27.97399,
+        "lng": -82.50439
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/dentavane-client-hub-tampa",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 17,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 15
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/dentavane-client-hub-tampa",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/dentavane-client-hub-tampa",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 20,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-loc-4",
+      "accountId": "acct-dentavane-channel",
+      "index": 4,
+      "name": "Dentavane - Client hub - Dallas",
+      "shortName": "Client hub - Dallas",
+      "label": "Dentavane - Client hub - Dallas (Dallas, TX)",
+      "locationLine": "Dallas, TX",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4178 Hazelwood Commons",
+        "street2": "",
+        "city": "Dallas",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "75201",
+        "country": "US"
+      },
+      "phone": "(214) 555-0103",
+      "email": "client-hub-dallas@dentavane.example.com",
+      "website": "https://dentavane.example.com/locations/client-hub-dallas",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-09-21T21:25:00Z",
+      "coordinates": {
+        "lat": 32.67511,
+        "lng": -96.77986
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 3,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/dentavane-client-hub-dallas",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 54,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 49
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/dentavane-client-hub-dallas",
+          "claimed": true,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 5
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/dentavane-client-hub-dallas",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 62,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-dentavane-channel-ct-1",
+      "number": 42,
+      "accountId": "acct-dentavane-channel",
+      "name": "Adele Dunleavy",
+      "firstName": "Adele",
+      "lastName": "Dunleavy",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-dentavane-channel-loc-1",
+      "locationIds": [
+        "acct-dentavane-channel-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-dentavane-channel-001",
+      "email": "adele.dunleavy@tidewaterdental.example.com",
+      "phone": "(404) 555-0105",
+      "locationCount": 1,
+      "location": "Dentavane - HQ (Atlanta, GA)",
+      "createdOn": "2026-09-13T17:25:00Z",
+      "lastActivity": "2026-10-19T18:20:00Z"
+    },
+    {
+      "id": "acct-dentavane-channel-ct-2",
+      "number": 2,
+      "accountId": "acct-dentavane-channel",
+      "name": "Bennett Kingsley",
+      "firstName": "Bennett",
+      "lastName": "Kingsley",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-dentavane-channel-loc-4",
+      "locationIds": [
+        "acct-dentavane-channel-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-dentavane-channel-002",
+      "email": "bennett.kingsley@oakhollowgroup.example.com",
+      "phone": "(469) 555-0106",
+      "locationCount": 1,
+      "location": "Dentavane - Client hub - Dallas (Dallas, TX)",
+      "createdOn": "2026-08-30T20:15:00Z",
+      "lastActivity": "2026-09-26T21:45:00Z"
+    },
+    {
+      "id": "acct-dentavane-channel-ct-3",
+      "number": 3,
+      "accountId": "acct-dentavane-channel",
+      "name": "Carmen Rourkland",
+      "firstName": "Carmen",
+      "lastName": "Rourkland",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-dentavane-channel-loc-3",
+      "locationIds": [
+        "acct-dentavane-channel-loc-3"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-dentavane-channel-003",
+      "phone": "(813) 555-0107",
+      "locationCount": 1,
+      "location": "Dentavane - Client hub - Tampa (Tampa, FL)",
+      "createdOn": "2026-08-16T15:25:00Z",
+      "lastActivity": "2026-10-11T20:35:00Z"
+    },
+    {
+      "id": "acct-dentavane-channel-ct-4",
+      "number": 4,
+      "accountId": "acct-dentavane-channel",
+      "name": "Dorian Zamora",
+      "firstName": "Dorian",
+      "lastName": "Zamora",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-dentavane-channel-loc-2",
+      "locationIds": [
+        "acct-dentavane-channel-loc-2",
+        "acct-dentavane-channel-loc-3"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-dentavane-channel-004",
+      "email": "dorian.zamora@harborclinics.example.com",
+      "phone": "(980) 555-0108",
+      "locationCount": 2,
+      "location": "Dentavane - Client hub - Charlotte (Charlotte, NC)",
+      "createdOn": "2026-08-02T18:30:00Z",
+      "lastActivity": "2026-08-07T15:20:00Z"
+    },
+    {
+      "id": "acct-dentavane-channel-ct-5",
+      "number": 5,
+      "accountId": "acct-dentavane-channel",
+      "name": "Esme Guerrero",
+      "firstName": "Esme",
+      "lastName": "Guerrero",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-dentavane-channel-loc-1",
+      "locationIds": [
+        "acct-dentavane-channel-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-dentavane-channel-005",
+      "email": "esme.guerrero@retailclient.example.com",
+      "phone": "(470) 555-0109",
+      "locationCount": 1,
+      "location": "Dentavane - HQ (Atlanta, GA)",
+      "createdOn": "2026-07-19T21:35:00Z",
+      "lastActivity": "2026-08-08T14:00:00Z"
+    },
+    {
+      "id": "acct-dentavane-channel-ct-6",
+      "number": 6,
+      "accountId": "acct-dentavane-channel",
+      "name": "Fabian Nakashima",
+      "firstName": "Fabian",
+      "lastName": "Nakashima",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-dentavane-channel-loc-4",
+      "locationIds": [
+        "acct-dentavane-channel-loc-4"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-dentavane-channel-006",
+      "email": "fabian.nakashima@prospect.example.com",
+      "locationCount": 1,
+      "location": "Dentavane - Client hub - Dallas (Dallas, TX)",
+      "createdOn": "2026-07-05T16:30:00Z",
+      "lastActivity": "2026-08-09T17:45:00Z"
+    },
+    {
+      "id": "acct-dentavane-channel-ct-7",
+      "number": 7,
+      "accountId": "acct-dentavane-channel",
+      "name": "Greta Vasquez-Lane",
+      "firstName": "Greta",
+      "lastName": "Vasquez-Lane",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-dentavane-channel-loc-3",
+      "locationIds": [
+        "acct-dentavane-channel-loc-3",
+        "acct-dentavane-channel-loc-4",
+        "acct-dentavane-channel-loc-1"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-dentavane-channel-007",
+      "email": "greta.vasquez.lane@ridgelinehomes.example.com",
+      "phone": "(813) 555-0110",
+      "locationCount": 3,
+      "location": "Dentavane - Client hub - Tampa (Tampa, FL)",
+      "createdOn": "2026-10-17T19:20:00Z",
+      "lastActivity": "2026-10-19T16:25:00Z"
+    },
+    {
+      "id": "acct-dentavane-channel-ct-8",
+      "number": 8,
+      "accountId": "acct-dentavane-channel",
+      "name": "Hollis Dempsey",
+      "firstName": "Hollis",
+      "lastName": "Dempsey",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-dentavane-channel-loc-2",
+      "locationIds": [
+        "acct-dentavane-channel-loc-2",
+        "acct-dentavane-channel-loc-3"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-dentavane-channel-008",
+      "email": "hollis.dempsey@keystonelegal.example.com",
+      "phone": "(980) 555-0111",
+      "locationCount": 2,
+      "location": "Dentavane - Client hub - Charlotte (Charlotte, NC)",
+      "createdOn": "2026-06-28T14:25:00Z",
+      "lastActivity": "2026-07-21T19:30:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-dentavane-channel-rev-1",
+      "number": 1,
+      "accountId": "acct-dentavane-channel",
+      "locationId": "acct-dentavane-channel-loc-1",
+      "location": "Dentavane - HQ (Atlanta, GA)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Ivy Landry",
+      "date": "2026-09-14T17:40:00Z",
+      "text": "Solid partner for a review program for our dental offices. Reporting is clear and Dana Cruzalva is responsive. Onboarding with Dentavane took a couple of weeks longer than planned.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dana Cruzalva"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Ivy! We'll pass this along to the whole Dentavane team. See you next time.\n\nThe Dentavane partner team",
+        "author": "The Dentavane partner team",
+        "date": "2026-09-16T08:20:00Z"
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-rev-2",
+      "number": 2,
+      "accountId": "acct-dentavane-channel",
+      "locationId": "acct-dentavane-channel-loc-2",
+      "location": "Dentavane - Client hub - Charlotte (Charlotte, NC)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Jasper Tolliver",
+      "date": "2026-08-31T20:05:00Z",
+      "text": "Our kickoff with Dentavane for listings cleanup for our practices was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Jasper, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Dentavane. A manager will reach out this week to make it right.\n\nThe Dentavane partner team",
+        "author": "The Dentavane partner team",
+        "date": "2026-09-02T19:35:00Z"
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-rev-3",
+      "number": 3,
+      "accountId": "acct-dentavane-channel",
+      "locationId": "acct-dentavane-channel-loc-3",
+      "location": "Dentavane - Client hub - Tampa (Tampa, FL)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Kira Dunleavy",
+      "date": "2026-08-17T15:35:00Z",
+      "text": "We run more than 20 dental locations and Dentavane is the first partner that made a new-patient review campaign feel manageable. Hollis Grant knows our markets by name.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Hollis Grant"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-dentavane-channel-rev-4",
+      "number": 4,
+      "accountId": "acct-dentavane-channel",
+      "locationId": "acct-dentavane-channel-loc-4",
+      "location": "Dentavane - Client hub - Dallas (Dallas, TX)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Leon Kingsley",
+      "date": "2026-08-03T18:00:00Z",
+      "text": "Onboarding with Dentavane was smooth and fast. Hollis Grant learned our locations by name in the first week, flagged two quick wins for monthly reputation reporting, and the dashboard they set up is something our regional managers actually open.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Hollis Grant"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Leon. It means a lot to our team.\n\nThe Dentavane partner team",
+        "author": "The Dentavane partner team",
+        "date": "2026-08-03T21:40:00Z"
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-rev-5",
+      "number": 5,
+      "accountId": "acct-dentavane-channel",
+      "locationId": "acct-dentavane-channel-loc-1",
+      "location": "Dentavane - HQ (Atlanta, GA)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Marisa Rourke",
+      "date": "2026-07-20T21:25:00Z",
+      "text": "When one of our dental locations got hit with a wave of negative reviews, Felipe Arroyo had draft responses ready the same afternoon. Calm, specific, and on-brand.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Felipe Arroyo"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for the kind words, Marisa. We're glad everything went smoothly and look forward to seeing you again.\n\nThe Dentavane partner team",
+        "author": "The Dentavane partner team",
+        "date": "2026-07-21T21:05:00Z"
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-rev-6",
+      "number": 6,
+      "accountId": "acct-dentavane-channel",
+      "locationId": "acct-dentavane-channel-loc-2",
+      "location": "Dentavane - Client hub - Charlotte (Charlotte, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Nico Zamora",
+      "date": "2026-07-06T16:50:00Z",
+      "text": "Dentavane took a new-patient review campaign off our plate completely. Monthly check-ins with Hollis Grant are the most useful meeting on our calendar.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [
+        "Hollis Grant"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Nico. It means a lot to our team.\n\nThe Dentavane partner team",
+        "author": "The Dentavane partner team",
+        "date": "2026-07-08T12:25:00Z"
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-rev-7",
+      "number": 7,
+      "accountId": "acct-dentavane-channel",
+      "locationId": "acct-dentavane-channel-loc-3",
+      "location": "Dentavane - Client hub - Tampa (Tampa, FL)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Odette Guerrero",
+      "date": "2026-10-15T19:15:00Z",
+      "text": "Dana Cruzalva ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dana Cruzalva"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Odette! We'll pass this along to the whole Dentavane team. See you next time.\n\nThe Dentavane partner team",
+        "author": "The Dentavane partner team",
+        "date": "2026-10-15T20:10:00Z"
+      }
+    },
+    {
+      "id": "acct-dentavane-channel-rev-8",
+      "number": 8,
+      "accountId": "acct-dentavane-channel",
+      "locationId": "acct-dentavane-channel-loc-4",
+      "location": "Dentavane - Client hub - Dallas (Dallas, TX)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Pierce Nakashima",
+      "date": "2026-10-01T14:50:00Z",
+      "text": "Dentavane cleaned up duplicate listings across our dental locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    }
+  ]
+}

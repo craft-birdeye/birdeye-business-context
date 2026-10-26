@@ -1,0 +1,1633 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-treadmarsh-tire",
+    "name": "Treadmarsh Tire & Auto",
+    "brandName": "Treadmarsh Tire",
+    "parentGroup": "Treadmarsh Auto",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "automotive",
+    "industryLabel": "Automotive",
+    "tier": "Tire and service chain",
+    "crm": "Tekion",
+    "purchasedLocations": 7,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Houston",
+      "state": "TX",
+      "stateName": "Texas",
+      "country": "United States"
+    },
+    "businessBlurb": "Houston-area tire and quick-service chain with strong Google Maps traffic.",
+    "profile": {
+      "description": "Houston-area tire and quick-service chain with strong Google Maps traffic. Tires and quick service around Houston.",
+      "categories": [
+        "Tire shop",
+        "Auto repair shop"
+      ],
+      "website": "https://treadmarshtire.example.com",
+      "email": "hello@treadmarshtire.example.com",
+      "phone": "(713) 555-0107",
+      "primaryLocationId": "acct-treadmarsh-tire-loc-1",
+      "address": {
+        "street1": "2677 Emberly Terrace",
+        "street2": "Suite 382",
+        "city": "Houston",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77007",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Treadmarsh Tire",
+      "tagline": "Tires and quick service around Houston",
+      "logo": {
+        "kind": "monogram",
+        "initials": "TT",
+        "path": "v1/logos/acct-treadmarsh-tire.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-treadmarsh-tire.svg"
+      },
+      "colors": {
+        "primary": "#023E8A",
+        "secondary": "#E6EEF8",
+        "accent": "#FFB703",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Quick, friendly, and value-minded.",
+      "formality": "casual",
+      "replySignoff": "Treadmarsh Tire & Auto"
+    },
+    "staff": [
+      "Junior",
+      "Kayleigh",
+      "Manny",
+      "Dewayne"
+    ],
+    "services": [
+      "a set of tires",
+      "a flat repair",
+      "an alignment",
+      "a battery replacement"
+    ],
+    "llmContext": "Treadmarsh Tire & Auto · Enterprise · Automotive · HQ Houston, Texas, United States · 7 purchased locations · CRM Tekion · Houston-area tire and quick-service chain with strong Google Maps traffic.",
+    "listingSummary": {
+      "locations": 7,
+      "openLocations": 6,
+      "listings": 19,
+      "claimedListings": 16,
+      "verifiedListings": 15,
+      "totalReviews": 2811,
+      "averageRating": 4.6,
+      "photoCount": 243
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-treadmarsh-tire-loc-1",
+      "accountId": "acct-treadmarsh-tire",
+      "index": 1,
+      "name": "Treadmarsh Tire - Houston West",
+      "shortName": "Houston West",
+      "label": "Treadmarsh Tire - Houston West (Houston, TX)",
+      "locationLine": "Houston, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "2677 Emberly Terrace",
+        "street2": "Suite 382",
+        "city": "Houston",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77007",
+        "country": "US"
+      },
+      "phone": "(281) 555-0100",
+      "email": "houston-west@treadmarshtire.example.com",
+      "website": "https://treadmarshtire.example.com/locations/houston-west",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-10-17T16:25:00Z",
+      "coordinates": {
+        "lat": 29.83704,
+        "lng": -95.4193
+      },
+      "categories": {
+        "primary": "Tire shop",
+        "secondary": [
+          "Brake shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 35,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/treadmarsh-tire-houston-west",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 102,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 98
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/treadmarsh-tire-houston-west",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.4,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/treadmarsh-tire-houston-west",
+          "claimed": true,
+          "verified": true,
+          "rating": 4,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 6
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 123,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-loc-2",
+      "accountId": "acct-treadmarsh-tire",
+      "index": 2,
+      "name": "Treadmarsh Tire - Katy",
+      "shortName": "Katy",
+      "label": "Treadmarsh Tire - Katy (Katy, TX)",
+      "locationLine": "Katy, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8220 Lantern Hill Avenue",
+        "street2": "",
+        "city": "Katy",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77494",
+        "country": "US"
+      },
+      "phone": "(832) 555-0101",
+      "email": "katy@treadmarshtire.example.com",
+      "website": "https://treadmarshtire.example.com/locations/katy",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-10-03T21:55:00Z",
+      "coordinates": {
+        "lat": 29.85809,
+        "lng": -95.73468
+      },
+      "categories": {
+        "primary": "Tire shop",
+        "secondary": [
+          "Brake shop",
+          "Wheel alignment service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 16,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/treadmarsh-tire-katy",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 449,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 5,
+            "3": 10,
+            "4": 46,
+            "5": 380
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/treadmarsh-tire-katy",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 85,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 6,
+            "5": 77
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 534,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-loc-3",
+      "accountId": "acct-treadmarsh-tire",
+      "index": 3,
+      "name": "Treadmarsh Tire - Sugar Land",
+      "shortName": "Sugar Land",
+      "label": "Treadmarsh Tire - Sugar Land (Sugar Land, TX)",
+      "locationLine": "Sugar Land, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "439 Glenhaven Boulevard",
+        "street2": "Suite 288",
+        "city": "Sugar Land",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77479",
+        "country": "US"
+      },
+      "phone": "(281) 555-0102",
+      "email": "sugar-land@treadmarshtire.example.com",
+      "website": "https://treadmarshtire.example.com/locations/sugar-land",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-09-19T18:30:00Z",
+      "coordinates": {
+        "lat": 29.65158,
+        "lng": -95.7248
+      },
+      "categories": {
+        "primary": "Tire shop",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 89,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/treadmarsh-tire-sugar-land",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 242,
+          "ratingDistribution": {
+            "1": 11,
+            "2": 5,
+            "3": 8,
+            "4": 30,
+            "5": 188
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/treadmarsh-tire-sugar-land",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 27,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 20
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/treadmarsh-tire-sugar-land",
+          "claimed": true,
+          "verified": true,
+          "rating": 4,
+          "reviewCount": 25,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 15
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 294,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-loc-4",
+      "accountId": "acct-treadmarsh-tire",
+      "index": 4,
+      "name": "Treadmarsh Tire - The Woodlands",
+      "shortName": "The Woodlands",
+      "label": "Treadmarsh Tire - The Woodlands (The Woodlands, TX)",
+      "locationLine": "The Woodlands, TX",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5982 Northwind Row",
+        "street2": "",
+        "city": "The Woodlands",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77380",
+        "country": "US"
+      },
+      "phone": "(832) 555-0103",
+      "email": "the-woodlands@treadmarshtire.example.com",
+      "website": "https://treadmarshtire.example.com/locations/the-woodlands",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-09-05T15:05:00Z",
+      "coordinates": {
+        "lat": 30.16338,
+        "lng": -95.47218
+      },
+      "categories": {
+        "primary": "Tire shop",
+        "secondary": [
+          "Brake shop",
+          "Wheel alignment service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 65,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/treadmarsh-tire-the-woodlands",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 743,
+          "ratingDistribution": {
+            "1": 41,
+            "2": 19,
+            "3": 27,
+            "4": 93,
+            "5": 563
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/treadmarsh-tire-the-woodlands",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 106,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 3,
+            "4": 11,
+            "5": 89
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/treadmarsh-tire-the-woodlands",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 83,
+          "ratingDistribution": {
+            "1": 7,
+            "2": 3,
+            "3": 3,
+            "4": 11,
+            "5": 59
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 932,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-loc-5",
+      "accountId": "acct-treadmarsh-tire",
+      "index": 5,
+      "name": "Treadmarsh Tire - Pearland",
+      "shortName": "Pearland",
+      "label": "Treadmarsh Tire - Pearland (Pearland, TX)",
+      "locationLine": "Pearland, TX",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7101 Copperleaf Trail",
+        "street2": "",
+        "city": "Pearland",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77581",
+        "country": "US"
+      },
+      "phone": "(281) 555-0104",
+      "email": "pearland@treadmarshtire.example.com",
+      "website": "https://treadmarshtire.example.com/locations/pearland",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-08-22T20:40:00Z",
+      "coordinates": {
+        "lat": 29.46171,
+        "lng": -95.27772
+      },
+      "categories": {
+        "primary": "Tire shop",
+        "secondary": [
+          "Wheel alignment service",
+          "Auto repair shop",
+          "Brake shop"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 8,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/treadmarsh-tire-pearland",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 275,
+          "ratingDistribution": {
+            "1": 12,
+            "2": 6,
+            "3": 9,
+            "4": 33,
+            "5": 215
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/treadmarsh-tire-pearland",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/treadmarsh-tire-pearland",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 71,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 3,
+            "3": 3,
+            "4": 10,
+            "5": 47
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 356,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-loc-6",
+      "accountId": "acct-treadmarsh-tire",
+      "index": 6,
+      "name": "Treadmarsh Tire - Cypress",
+      "shortName": "Cypress",
+      "label": "Treadmarsh Tire - Cypress (Cypress, TX)",
+      "locationLine": "Cypress, TX",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3744 Pinecrest Loop",
+        "street2": "Suite 197",
+        "city": "Cypress",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77429",
+        "country": "US"
+      },
+      "phone": "(832) 555-0105",
+      "email": "cypress@treadmarshtire.example.com",
+      "website": "https://treadmarshtire.example.com/locations/cypress",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-08T17:15:00Z",
+      "coordinates": {
+        "lat": 29.99703,
+        "lng": -95.76734
+      },
+      "categories": {
+        "primary": "Tire shop",
+        "secondary": [
+          "Auto repair shop"
+        ]
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Amenities",
+          "label": "Wi-Fi"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 18,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/treadmarsh-tire-cypress",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 409,
+          "ratingDistribution": {
+            "1": 9,
+            "2": 5,
+            "3": 10,
+            "4": 44,
+            "5": 341
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/treadmarsh-tire-cypress",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 30,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 28
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 439,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-loc-7",
+      "accountId": "acct-treadmarsh-tire",
+      "index": 7,
+      "name": "Treadmarsh Tire - Pasadena",
+      "shortName": "Pasadena",
+      "label": "Treadmarsh Tire - Pasadena (Pasadena, TX)",
+      "locationLine": "Pasadena, TX",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4863 Kestrel Trail",
+        "street2": "",
+        "city": "Pasadena",
+        "state": "TX",
+        "stateName": "Texas",
+        "zip": "77505",
+        "country": "US"
+      },
+      "phone": "(713) 555-0106",
+      "email": "pasadena@treadmarshtire.example.com",
+      "website": "https://treadmarshtire.example.com/locations/pasadena",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-07-25T14:50:00Z",
+      "coordinates": {
+        "lat": 29.68583,
+        "lng": -95.18199
+      },
+      "categories": {
+        "primary": "Tire shop",
+        "secondary": [
+          "Wheel alignment service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Same-day service"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/treadmarsh-tire-pasadena",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 110,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 2,
+            "3": 3,
+            "4": 12,
+            "5": 90
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/treadmarsh-tire-pasadena",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 8
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/treadmarsh-tire-pasadena",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 10
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 133,
+        "averageRating": 4.6,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-treadmarsh-tire-ct-1",
+      "number": 42,
+      "accountId": "acct-treadmarsh-tire",
+      "name": "Nolan Tavares",
+      "firstName": "Nolan",
+      "lastName": "Tavares",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-treadmarsh-tire-loc-1",
+      "locationIds": [
+        "acct-treadmarsh-tire-loc-1"
+      ],
+      "segments": [
+        "Service plan",
+        "Tire customer"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-treadmarsh-tire-001",
+      "email": "nolan.tavares@example.com",
+      "phone": "(713) 555-0108",
+      "locationCount": 1,
+      "location": "Treadmarsh Tire - Houston West (Houston, TX)",
+      "createdOn": "2026-10-18T15:35:00Z",
+      "lastActivity": "2026-10-19T20:05:00Z"
+    },
+    {
+      "id": "acct-treadmarsh-tire-ct-2",
+      "number": 2,
+      "accountId": "acct-treadmarsh-tire",
+      "name": "Opal Brannigan",
+      "firstName": "Opal",
+      "lastName": "Brannigan",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-treadmarsh-tire-loc-4",
+      "locationIds": [
+        "acct-treadmarsh-tire-loc-4"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-treadmarsh-tire-002",
+      "email": "opal.brannigan@example.com",
+      "phone": "(832) 555-0109",
+      "locationCount": 1,
+      "location": "Treadmarsh Tire - The Woodlands (The Woodlands, TX)",
+      "createdOn": "2026-10-04T14:20:00Z",
+      "lastActivity": "2026-10-05T19:50:00Z"
+    },
+    {
+      "id": "acct-treadmarsh-tire-ct-3",
+      "number": 3,
+      "accountId": "acct-treadmarsh-tire",
+      "name": "Pascal Ivers",
+      "firstName": "Pascal",
+      "lastName": "Ivers",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-treadmarsh-tire-loc-7",
+      "locationIds": [
+        "acct-treadmarsh-tire-loc-7"
+      ],
+      "segments": [
+        "Fleet"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-treadmarsh-tire-003",
+      "phone": "(713) 555-0110",
+      "locationCount": 1,
+      "location": "Treadmarsh Tire - Pasadena (Pasadena, TX)",
+      "createdOn": "2026-09-20T17:55:00Z",
+      "lastActivity": "2026-10-17T18:30:00Z"
+    },
+    {
+      "id": "acct-treadmarsh-tire-ct-4",
+      "number": 4,
+      "accountId": "acct-treadmarsh-tire",
+      "name": "Rhea Ridley",
+      "firstName": "Rhea",
+      "lastName": "Ridley",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-treadmarsh-tire-loc-3",
+      "locationIds": [
+        "acct-treadmarsh-tire-loc-3",
+        "acct-treadmarsh-tire-loc-1"
+      ],
+      "segments": [
+        "Recall notice"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-treadmarsh-tire-004",
+      "email": "rhea.ridley@example.com",
+      "phone": "(832) 555-0111",
+      "locationCount": 2,
+      "location": "Treadmarsh Tire - Sugar Land (Sugar Land, TX)",
+      "createdOn": "2026-09-06T16:00:00Z",
+      "lastActivity": "2026-10-01T17:55:00Z"
+    },
+    {
+      "id": "acct-treadmarsh-tire-ct-5",
+      "number": 5,
+      "accountId": "acct-treadmarsh-tire",
+      "name": "Soren Blackwood",
+      "firstName": "Soren",
+      "lastName": "Blackwood",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-treadmarsh-tire-loc-6",
+      "locationIds": [
+        "acct-treadmarsh-tire-loc-6"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-treadmarsh-tire-005",
+      "email": "soren.blackwood@example.com",
+      "phone": "(281) 555-0112",
+      "locationCount": 1,
+      "location": "Treadmarsh Tire - Cypress (Cypress, TX)",
+      "createdOn": "2026-08-23T19:10:00Z",
+      "lastActivity": "2026-10-16T16:55:00Z"
+    },
+    {
+      "id": "acct-treadmarsh-tire-ct-6",
+      "number": 6,
+      "accountId": "acct-treadmarsh-tire",
+      "name": "Tess Ingram",
+      "firstName": "Tess",
+      "lastName": "Ingram",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-treadmarsh-tire-loc-2",
+      "locationIds": [
+        "acct-treadmarsh-tire-loc-2"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-treadmarsh-tire-006",
+      "email": "tess.ingram@example.com",
+      "locationCount": 1,
+      "location": "Treadmarsh Tire - Katy (Katy, TX)",
+      "createdOn": "2026-08-09T18:20:00Z",
+      "lastActivity": "2026-08-19T15:10:00Z"
+    },
+    {
+      "id": "acct-treadmarsh-tire-ct-7",
+      "number": 7,
+      "accountId": "acct-treadmarsh-tire",
+      "name": "Vivian Pembrook",
+      "firstName": "Vivian",
+      "lastName": "Pembrook",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-treadmarsh-tire-loc-5",
+      "locationIds": [
+        "acct-treadmarsh-tire-loc-5",
+        "acct-treadmarsh-tire-loc-3",
+        "acct-treadmarsh-tire-loc-1"
+      ],
+      "segments": [
+        "Tire customer",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-treadmarsh-tire-007",
+      "email": "vivian.pembrook@example.com",
+      "phone": "(281) 555-0113",
+      "locationCount": 3,
+      "location": "Treadmarsh Tire - Pearland (Pearland, TX)",
+      "createdOn": "2026-07-26T21:25:00Z",
+      "lastActivity": "2026-08-20T14:30:00Z"
+    },
+    {
+      "id": "acct-treadmarsh-tire-ct-8",
+      "number": 8,
+      "accountId": "acct-treadmarsh-tire",
+      "name": "Wade Wexford",
+      "firstName": "Wade",
+      "lastName": "Wexford",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-treadmarsh-tire-loc-1",
+      "locationIds": [
+        "acct-treadmarsh-tire-loc-1",
+        "acct-treadmarsh-tire-loc-6"
+      ],
+      "segments": [
+        "Service plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-treadmarsh-tire-008",
+      "email": "wade.wexford@example.com",
+      "phone": "(832) 555-0114",
+      "locationCount": 2,
+      "location": "Treadmarsh Tire - Houston West (Houston, TX)",
+      "createdOn": "2026-08-02T20:15:00Z",
+      "lastActivity": "2026-10-19T21:40:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-treadmarsh-tire-rev-1",
+      "number": 1,
+      "accountId": "acct-treadmarsh-tire",
+      "locationId": "acct-treadmarsh-tire-loc-1",
+      "location": "Treadmarsh Tire - Houston West (Houston, TX)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Yvette Esposito",
+      "date": "2026-08-25T19:20:00Z",
+      "text": "Dropped off for a set of tires at 8 a.m. and didn't hear anything until I called at 4. The work from Treadmarsh Tire was fine, but proactive updates would make a big difference.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Yvette, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Treadmarsh Tire. A manager will reach out this week to make it right.\n\nTreadmarsh Tire & Auto",
+        "author": "Treadmarsh Tire & Auto",
+        "date": "2026-08-27T11:40:00Z"
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-rev-2",
+      "number": 2,
+      "accountId": "acct-treadmarsh-tire",
+      "locationId": "acct-treadmarsh-tire-loc-2",
+      "location": "Treadmarsh Tire - Katy (Katy, TX)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Zion Lindahl",
+      "date": "2026-08-11T18:05:00Z",
+      "text": "Kayleigh talked me out of a battery replacement because it wasn't needed yet. It's rare to find a tech who saves you money.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Kayleigh"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Zion! We love hearing this and will share it with the crew.\n\nTreadmarsh Tire & Auto",
+        "author": "Treadmarsh Tire & Auto",
+        "date": "2026-08-11T21:35:00Z"
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-rev-3",
+      "number": 3,
+      "accountId": "acct-treadmarsh-tire",
+      "locationId": "acct-treadmarsh-tire-loc-3",
+      "location": "Treadmarsh Tire - Sugar Land (Sugar Land, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Arlo Tavares",
+      "date": "2026-07-28T21:30:00Z",
+      "text": "Junior had a flat repair done by the time promised and texted photos before doing anything extra.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Junior"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Arlo! Happy we could help, and we'll pass this along to the team.\n\nTreadmarsh Tire & Auto",
+        "author": "Treadmarsh Tire & Auto",
+        "date": "2026-08-09T08:05:00Z"
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-rev-4",
+      "number": 4,
+      "accountId": "acct-treadmarsh-tire",
+      "locationId": "acct-treadmarsh-tire-loc-4",
+      "location": "Treadmarsh Tire - The Woodlands (The Woodlands, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Bryony Brannigan",
+      "date": "2026-07-14T20:10:00Z",
+      "text": "Third visit to Treadmarsh Tire and it's consistently good. My battery replacement was finished early, and Dewayne reset my tire pressure light without being asked.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dewayne"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Bryony! We'll pass this along to the whole Treadmarsh Tire team. See you next time.\n\nTreadmarsh Tire & Auto",
+        "author": "Treadmarsh Tire & Auto",
+        "date": "2026-07-14T21:30:00Z"
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-rev-5",
+      "number": 5,
+      "accountId": "acct-treadmarsh-tire",
+      "locationId": "acct-treadmarsh-tire-loc-5",
+      "location": "Treadmarsh Tire - Pearland (Pearland, TX)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Cassius Ivers",
+      "date": "2026-06-30T15:40:00Z",
+      "text": "Quick and honest. Kayleigh checked one extra thing for free and didn't charge me for it.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Kayleigh"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-treadmarsh-tire-rev-6",
+      "number": 6,
+      "accountId": "acct-treadmarsh-tire",
+      "locationId": "acct-treadmarsh-tire-loc-6",
+      "location": "Treadmarsh Tire - Cypress (Cypress, TX)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Dahlia Ridley",
+      "date": "2026-10-09T14:20:00Z",
+      "text": "Kayleigh explained the inspection results in plain language and sorted out what could wait. Turnaround on a flat repair ran a little longer than quoted.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Kayleigh"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-treadmarsh-tire-rev-7",
+      "number": 7,
+      "accountId": "acct-treadmarsh-tire",
+      "locationId": "acct-treadmarsh-tire-loc-7",
+      "location": "Treadmarsh Tire - Pasadena (Pasadena, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Elio Blackwood",
+      "date": "2026-09-25T17:45:00Z",
+      "text": "Fleet manager here. Treadmarsh Tire keeps our vans on the road with one invoice a month and almost no downtime. Manny is our go-to contact.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Manny"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Elio! We'll pass this along to the whole Treadmarsh Tire team. See you next time.\n\nTreadmarsh Tire & Auto",
+        "author": "Treadmarsh Tire & Auto",
+        "date": "2026-09-26T15:40:00Z"
+      }
+    },
+    {
+      "id": "acct-treadmarsh-tire-rev-8",
+      "number": 8,
+      "accountId": "acct-treadmarsh-tire",
+      "locationId": "acct-treadmarsh-tire-loc-1",
+      "location": "Treadmarsh Tire - Houston West (Houston, TX)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Fern Ingram",
+      "date": "2026-09-11T16:30:00Z",
+      "text": "Fair price on a flat repair and a clean waiting area. Treadmarsh Tire is my shop now.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Fern! We love hearing this and will share it with the crew.\n\nTreadmarsh Tire & Auto",
+        "author": "Treadmarsh Tire & Auto",
+        "date": "2026-09-17T12:50:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-hopskein-digital",
+    "name": "Hopskein Digital",
+    "brandName": "Hopskein Digital",
+    "parentGroup": "Hopskein",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "advertising-agency",
+    "industryLabel": "Advertising and agency",
+    "tier": "SMB agency",
+    "crm": "HubSpot",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Nashville",
+      "state": "TN",
+      "stateName": "Tennessee",
+      "country": "United States"
+    },
+    "businessBlurb": "Small Nashville agency handling social and reviews for local restaurants and clinics.",
+    "profile": {
+      "description": "Small Nashville agency handling social and reviews for local restaurants and clinics. Digital marketing for Nashville small businesses.",
+      "categories": [
+        "Marketing agency"
+      ],
+      "website": "https://hopskeindigital.example.com",
+      "email": "hello@hopskeindigital.example.com",
+      "phone": "(629) 555-0100",
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "address": {
+        "street1": "4162 Bramblewood Boulevard",
+        "street2": "Suite 287",
+        "city": "Nashville",
+        "state": "TN",
+        "stateName": "Tennessee",
+        "zip": "37203",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Hopskein Digital",
+      "tagline": "Digital marketing for Nashville small businesses",
+      "logo": {
+        "kind": "monogram",
+        "initials": "HD",
+        "path": "v1/logos/acct-hopskein-digital.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hopskein-digital.svg"
+      },
+      "colors": {
+        "primary": "#118AB2",
+        "secondary": "#E7F5FA",
+        "accent": "#EF476F",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Scrappy, friendly, and hands-on; two-person shop energy.",
+      "formality": "casual",
+      "replySignoff": "Wes and Tamsin, Hopskein Digital"
+    },
+    "staff": [
+      "Wes Calloway",
+      "Tamsin Reed"
+    ],
+    "services": [
+      "Google profile setup",
+      "a review-request flow",
+      "a small-business website",
+      "monthly social posts"
+    ],
+    "llmContext": "Hopskein Digital · SMB · Advertising and agency · HQ Nashville, Tennessee, United States · 1 purchased location · CRM HubSpot · Small Nashville agency handling social and reviews for local restaurants and clinics.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 3,
+      "verifiedListings": 2,
+      "totalReviews": 18,
+      "averageRating": 4.4,
+      "photoCount": 13
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-hopskein-digital-loc-1",
+      "accountId": "acct-hopskein-digital",
+      "index": 1,
+      "name": "Hopskein Digital",
+      "shortName": "Main",
+      "label": "Hopskein Digital (Nashville, TN)",
+      "locationLine": "Nashville, TN",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "4162 Bramblewood Boulevard",
+        "street2": "Suite 287",
+        "city": "Nashville",
+        "state": "TN",
+        "stateName": "Tennessee",
+        "zip": "37203",
+        "country": "US"
+      },
+      "phone": "(629) 555-0100",
+      "email": "hello@hopskeindigital.example.com",
+      "website": "https://hopskeindigital.example.com",
+      "timezone": "America/Chicago",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-09-30T20:55:00Z",
+      "coordinates": {
+        "lat": 36.13925,
+        "lng": -86.71307
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 13,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hopskein-digital",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 10
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hopskein-digital",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hopskein-digital",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 18,
+        "averageRating": 4.4,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-hopskein-digital-ct-1",
+      "number": 42,
+      "accountId": "acct-hopskein-digital",
+      "name": "Nolan Pacheco",
+      "firstName": "Nolan",
+      "lastName": "Pacheco",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "locationIds": [
+        "acct-hopskein-digital-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-hopskein-digital-001",
+      "email": "nolan.pacheco@pinnaclefitness.example.com",
+      "phone": "(615) 555-0101",
+      "locationCount": 1,
+      "location": "Hopskein Digital (Nashville, TN)",
+      "createdOn": "2026-10-17T19:10:00Z",
+      "lastActivity": "2026-10-19T16:55:00Z"
+    },
+    {
+      "id": "acct-hopskein-digital-ct-2",
+      "number": 2,
+      "accountId": "acct-hopskein-digital",
+      "name": "Opal Ybarra",
+      "firstName": "Opal",
+      "lastName": "Ybarra",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "locationIds": [
+        "acct-hopskein-digital-loc-1"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-hopskein-digital-002",
+      "email": "opal.ybarra@harborclinics.example.com",
+      "phone": "(629) 555-0102",
+      "locationCount": 1,
+      "location": "Hopskein Digital (Nashville, TN)",
+      "createdOn": "2026-10-03T18:40:00Z",
+      "lastActivity": "2026-10-10T15:50:00Z"
+    },
+    {
+      "id": "acct-hopskein-digital-ct-3",
+      "number": 3,
+      "accountId": "acct-hopskein-digital",
+      "name": "Pascal Faulkner",
+      "firstName": "Pascal",
+      "lastName": "Faulkner",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "locationIds": [
+        "acct-hopskein-digital-loc-1"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-hopskein-digital-003",
+      "phone": "(615) 555-0103",
+      "locationCount": 1,
+      "location": "Hopskein Digital (Nashville, TN)",
+      "createdOn": "2026-09-19T21:45:00Z",
+      "lastActivity": "2026-10-17T14:30:00Z"
+    },
+    {
+      "id": "acct-hopskein-digital-ct-4",
+      "number": 4,
+      "accountId": "acct-hopskein-digital",
+      "name": "Rhea Novak",
+      "firstName": "Rhea",
+      "lastName": "Novak",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "locationIds": [
+        "acct-hopskein-digital-loc-1"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-hopskein-digital-004",
+      "email": "rhea.novak@lumenhealth.example.com",
+      "phone": "(629) 555-0104",
+      "locationCount": 1,
+      "location": "Hopskein Digital (Nashville, TN)",
+      "createdOn": "2026-09-05T20:25:00Z",
+      "lastActivity": "2026-10-14T21:55:00Z"
+    },
+    {
+      "id": "acct-hopskein-digital-ct-5",
+      "number": 5,
+      "accountId": "acct-hopskein-digital",
+      "name": "Soren Winslow",
+      "firstName": "Soren",
+      "lastName": "Winslow",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "locationIds": [
+        "acct-hopskein-digital-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-hopskein-digital-005",
+      "email": "soren.winslow@ridgelinehomes.example.com",
+      "phone": "(615) 555-0105",
+      "locationCount": 1,
+      "location": "Hopskein Digital (Nashville, TN)",
+      "createdOn": "2026-08-22T15:35:00Z",
+      "lastActivity": "2026-09-13T20:45:00Z"
+    },
+    {
+      "id": "acct-hopskein-digital-ct-6",
+      "number": 6,
+      "accountId": "acct-hopskein-digital",
+      "name": "Tess Fairchild",
+      "firstName": "Tess",
+      "lastName": "Fairchild",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "locationIds": [
+        "acct-hopskein-digital-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-hopskein-digital-006",
+      "email": "tess.fairchild@prospect.example.com",
+      "locationCount": 1,
+      "location": "Hopskein Digital (Nashville, TN)",
+      "createdOn": "2026-08-08T14:20:00Z",
+      "lastActivity": "2026-09-28T19:50:00Z"
+    },
+    {
+      "id": "acct-hopskein-digital-ct-7",
+      "number": 7,
+      "accountId": "acct-hopskein-digital",
+      "name": "Vivian Merriweather",
+      "firstName": "Vivian",
+      "lastName": "Merriweather",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "locationIds": [
+        "acct-hopskein-digital-loc-1"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-hopskein-digital-007",
+      "email": "vivian.merriweather@beaconauto.example.com",
+      "phone": "(615) 555-0106",
+      "locationCount": 1,
+      "location": "Hopskein Digital (Nashville, TN)",
+      "createdOn": "2026-07-25T17:55:00Z",
+      "lastActivity": "2026-10-13T18:10:00Z"
+    },
+    {
+      "id": "acct-hopskein-digital-ct-8",
+      "number": 8,
+      "accountId": "acct-hopskein-digital",
+      "name": "Wade Thackeray",
+      "firstName": "Wade",
+      "lastName": "Thackeray",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hopskein-digital-loc-1",
+      "locationIds": [
+        "acct-hopskein-digital-loc-1"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-hopskein-digital-008",
+      "email": "wade.thackeray@meridianfood.example.com",
+      "phone": "(629) 555-0107",
+      "locationCount": 1,
+      "location": "Hopskein Digital (Nashville, TN)",
+      "createdOn": "2026-08-01T16:55:00Z",
+      "lastActivity": "2026-09-16T17:55:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-hopskein-digital-rev-1",
+      "number": 1,
+      "accountId": "acct-hopskein-digital",
+      "locationId": "acct-hopskein-digital-loc-1",
+      "location": "Hopskein Digital (Nashville, TN)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Yvette Bergstrom",
+      "date": "2026-09-19T15:10:00Z",
+      "text": "Wes Calloway ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Wes Calloway"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Yvette! We'll pass this along to the whole Hopskein Digital team. See you next time.\n\nWes and Tamsin, Hopskein Digital",
+        "author": "Wes and Tamsin, Hopskein Digital",
+        "date": "2026-09-20T12:00:00Z"
+      }
+    },
+    {
+      "id": "acct-hopskein-digital-rev-2",
+      "number": 2,
+      "accountId": "acct-hopskein-digital",
+      "locationId": "acct-hopskein-digital-loc-1",
+      "location": "Hopskein Digital (Nashville, TN)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Zion Iwasaki",
+      "date": "2026-09-05T14:50:00Z",
+      "text": "Hopskein Digital cleaned up duplicate listings across our client locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hopskein-digital-rev-3",
+      "number": 3,
+      "accountId": "acct-hopskein-digital",
+      "locationId": "acct-hopskein-digital-loc-1",
+      "location": "Hopskein Digital (Nashville, TN)",
+      "site": "facebook",
+      "rating": 2,
+      "reviewer": "Arlo Pacheco",
+      "date": "2026-08-22T17:15:00Z",
+      "text": "Tool access for a small-business website took weeks to sort out on the Hopskein Digital side. Once connected it worked, but setup was rough.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Arlo, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hopskein Digital. A manager will reach out this week to make it right.\n\nWes and Tamsin, Hopskein Digital",
+        "author": "Wes and Tamsin, Hopskein Digital",
+        "date": "2026-08-23T11:00:00Z"
+      }
+    },
+    {
+      "id": "acct-hopskein-digital-rev-4",
+      "number": 4,
+      "accountId": "acct-hopskein-digital",
+      "locationId": "acct-hopskein-digital-loc-1",
+      "location": "Hopskein Digital (Nashville, TN)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Bryony Ybarra",
+      "date": "2026-08-08T16:25:00Z",
+      "text": "Hopskein Digital took over monthly social posts for our team and the difference showed within a month. Tamsin Reed sends a short weekly update with exactly what changed and what to do next.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Tamsin Reed"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Bryony! We'll pass this along to the whole Hopskein Digital team. See you next time.\n\nWes and Tamsin, Hopskein Digital",
+        "author": "Wes and Tamsin, Hopskein Digital",
+        "date": "2026-08-10T04:15:00Z"
+      }
+    },
+    {
+      "id": "acct-hopskein-digital-rev-5",
+      "number": 5,
+      "accountId": "acct-hopskein-digital",
+      "locationId": "acct-hopskein-digital-loc-1",
+      "location": "Hopskein Digital (Nashville, TN)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Cassius Faulkner",
+      "date": "2026-07-25T19:50:00Z",
+      "text": "Solid partner for Google profile setup. Reporting is clear and Wes Calloway is responsive. Onboarding with Hopskein Digital took a couple of weeks longer than planned.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Wes Calloway"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Cassius! Happy we could help, and we'll pass this along to the team.\n\nWes and Tamsin, Hopskein Digital",
+        "author": "Wes and Tamsin, Hopskein Digital",
+        "date": "2026-08-01T10:55:00Z"
+      }
+    },
+    {
+      "id": "acct-hopskein-digital-rev-6",
+      "number": 6,
+      "accountId": "acct-hopskein-digital",
+      "locationId": "acct-hopskein-digital-loc-1",
+      "location": "Hopskein Digital (Nashville, TN)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Dahlia Novak",
+      "date": "2026-07-11T18:35:00Z",
+      "text": "Hopskein Digital handled a small-business website for us and the results were obvious within a month. Tamsin Reed keeps the updates short and useful.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [
+        "Tamsin Reed"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Dahlia, this made our day. Thanks for trusting us, and see you next time!\n\nWes and Tamsin, Hopskein Digital",
+        "author": "Wes and Tamsin, Hopskein Digital",
+        "date": "2026-07-12T07:55:00Z"
+      }
+    },
+    {
+      "id": "acct-hopskein-digital-rev-7",
+      "number": 7,
+      "accountId": "acct-hopskein-digital",
+      "locationId": "acct-hopskein-digital-loc-1",
+      "location": "Hopskein Digital (Nashville, TN)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Elio Winslow",
+      "date": "2026-06-27T21:00:00Z",
+      "text": "We run more than 20 client locations and Hopskein Digital is the first partner that made a small-business website feel manageable. Wes Calloway knows our markets by name.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Wes Calloway"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Elio! We'll pass this along to the whole Hopskein Digital team. See you next time.\n\nWes and Tamsin, Hopskein Digital",
+        "author": "Wes and Tamsin, Hopskein Digital",
+        "date": "2026-06-28T00:45:00Z"
+      }
+    },
+    {
+      "id": "acct-hopskein-digital-rev-8",
+      "number": 8,
+      "accountId": "acct-hopskein-digital",
+      "locationId": "acct-hopskein-digital-loc-1",
+      "location": "Hopskein Digital (Nashville, TN)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Fern Fairchild",
+      "date": "2026-10-06T20:15:00Z",
+      "text": "Clear reporting, quick turnaround, and no jargon. Wes Calloway has been a great point of contact for Google profile setup.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Wes Calloway"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

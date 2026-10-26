@@ -1,0 +1,2217 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-pipewren-plumbing",
+    "name": "Pipewren Plumbing & Drain",
+    "brandName": "Pipewren Plumbing",
+    "parentGroup": "Pipewren Trades",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Multi-market plumbing",
+    "crm": "ServiceTitan",
+    "purchasedLocations": 10,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Phoenix",
+      "state": "AZ",
+      "stateName": "Arizona",
+      "country": "United States"
+    },
+    "businessBlurb": "Phoenix-metro plumbing and drain group with 24/7 emergency dispatch.",
+    "profile": {
+      "description": "Phoenix-metro plumbing and drain group with 24/7 emergency dispatch. 24/7 plumbing across the Valley.",
+      "categories": [
+        "Plumber"
+      ],
+      "website": "https://pipewrenplumbing.example.com",
+      "email": "hello@pipewrenplumbing.example.com",
+      "phone": "(602) 555-0110",
+      "primaryLocationId": "acct-pipewren-plumbing-loc-1",
+      "address": {
+        "street1": "6914 Brightwater Boulevard",
+        "street2": "Suite 463",
+        "city": "Phoenix",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85044",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Pipewren Plumbing",
+      "tagline": "24/7 plumbing across the Valley",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PP",
+        "path": "v1/logos/acct-pipewren-plumbing.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-pipewren-plumbing.svg"
+      },
+      "colors": {
+        "primary": "#0077B6",
+        "secondary": "#E6F4FB",
+        "accent": "#F4A261",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Fast, practical, and reassuring in emergencies.",
+      "formality": "casual",
+      "replySignoff": "Pipewren Plumbing & Drain"
+    },
+    "staff": [
+      "Ruben",
+      "Cody",
+      "Marisa",
+      "Hector"
+    ],
+    "services": [
+      "a slab leak repair",
+      "a drain clearing",
+      "a water softener install",
+      "a tankless water heater install"
+    ],
+    "llmContext": "Pipewren Plumbing & Drain · Enterprise · Home services and contractors · HQ Phoenix, Arizona, United States · 10 purchased locations · CRM ServiceTitan · Phoenix-metro plumbing and drain group with 24/7 emergency dispatch.",
+    "listingSummary": {
+      "locations": 10,
+      "openLocations": 10,
+      "listings": 29,
+      "claimedListings": 21,
+      "verifiedListings": 19,
+      "totalReviews": 3456,
+      "averageRating": 4.8,
+      "photoCount": 304
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-pipewren-plumbing-loc-1",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 1,
+      "name": "Pipewren Plumbing - Phoenix Central",
+      "shortName": "Phoenix Central",
+      "label": "Pipewren Plumbing - Phoenix Central (Phoenix, AZ)",
+      "locationLine": "Phoenix, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "6914 Brightwater Boulevard",
+        "street2": "Suite 463",
+        "city": "Phoenix",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85044",
+        "country": "US"
+      },
+      "phone": "(480) 555-0100",
+      "email": "phoenix-central@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/phoenix-central",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-26T21:45:00Z",
+      "coordinates": {
+        "lat": 33.38339,
+        "lng": -112.03244
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": [
+          "Drainage service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 76,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-phoenix-central",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 64,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 2,
+            "3": 3,
+            "4": 8,
+            "5": 43
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-phoenix-central",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 15,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 13
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-phoenix-central",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 88,
+        "averageRating": 4.3,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-2",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 2,
+      "name": "Pipewren Plumbing - Mesa East",
+      "shortName": "Mesa East",
+      "label": "Pipewren Plumbing - Mesa East (Mesa, AZ)",
+      "locationLine": "Mesa, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5795 Elderberry Avenue",
+        "street2": "Suite 416",
+        "city": "Mesa",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85205",
+        "country": "US"
+      },
+      "phone": "(480) 555-0101",
+      "email": "mesa-east@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/mesa-east",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-12T16:10:00Z",
+      "coordinates": {
+        "lat": 33.39586,
+        "lng": -111.80272
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-mesa-east",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 498,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 4,
+            "4": 27,
+            "5": 465
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-mesa-east",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 80,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 6,
+            "5": 72
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-mesa-east",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 98,
+          "ratingDistribution": {
+            "1": 11,
+            "2": 3,
+            "3": 4,
+            "4": 11,
+            "5": 69
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 676,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-3",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 3,
+      "name": "Pipewren Plumbing - Scottsdale North",
+      "shortName": "Scottsdale North",
+      "label": "Pipewren Plumbing - Scottsdale North (Scottsdale, AZ)",
+      "locationLine": "Scottsdale, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4676 Dovetail Trail",
+        "street2": "Suite 121",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85254",
+        "country": "US"
+      },
+      "phone": "(480) 555-0102",
+      "email": "scottsdale-north@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/scottsdale-north",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-07-29T19:35:00Z",
+      "coordinates": {
+        "lat": 33.52695,
+        "lng": -111.8172
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": [
+          "Drainage service",
+          "Water heater installation service",
+          "Water softening equipment supplier"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 14,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-scottsdale-north",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 511,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 20,
+            "5": 489
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-scottsdale-north",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 92,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 3,
+            "4": 9,
+            "5": 74
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-scottsdale-north",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 79,
+          "ratingDistribution": {
+            "1": 7,
+            "2": 2,
+            "3": 3,
+            "4": 9,
+            "5": 58
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 682,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-4",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 4,
+      "name": "Pipewren Plumbing - Gilbert",
+      "shortName": "Gilbert",
+      "label": "Pipewren Plumbing - Gilbert (Gilbert, AZ)",
+      "locationLine": "Gilbert, AZ",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3557 Goldfinch Row",
+        "street2": "Suite 474",
+        "city": "Gilbert",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85296",
+        "country": "US"
+      },
+      "phone": "(480) 555-0103",
+      "email": "gilbert@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/gilbert",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-15T14:35:00Z",
+      "coordinates": {
+        "lat": 33.3369,
+        "lng": -111.77726
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": [
+          "Drainage service",
+          "Emergency plumber"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-gilbert",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 74,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 70
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-gilbert",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 6
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-gilbert",
+          "claimed": false,
+          "verified": false,
+          "rating": 4,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 86,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-5",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 5,
+      "name": "Pipewren Plumbing - Chandler",
+      "shortName": "Chandler",
+      "label": "Pipewren Plumbing - Chandler (Chandler, AZ)",
+      "locationLine": "Chandler, AZ",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2438 Falconridge Way",
+        "street2": "",
+        "city": "Chandler",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85224",
+        "country": "US"
+      },
+      "phone": "(480) 555-0104",
+      "email": "chandler@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/chandler",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-01T17:00:00Z",
+      "coordinates": {
+        "lat": 33.21609,
+        "lng": -111.8131
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": [
+          "Emergency plumber",
+          "Water softening equipment supplier"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 87,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-chandler",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 66,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 6,
+            "5": 58
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-chandler",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-chandler",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 78,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-6",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 6,
+      "name": "Pipewren Plumbing - Glendale West",
+      "shortName": "Glendale West",
+      "label": "Pipewren Plumbing - Glendale West (Glendale, AZ)",
+      "locationLine": "Glendale, AZ",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1319 Ironleaf Loop",
+        "street2": "",
+        "city": "Glendale",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85308",
+        "country": "US"
+      },
+      "phone": "(623) 555-0105",
+      "email": "glendale-west@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/glendale-west",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-10-13T20:25:00Z",
+      "coordinates": {
+        "lat": 33.45869,
+        "lng": -112.18653
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": [
+          "Drainage service",
+          "Water heater installation service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 46,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-glendale-west",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 366,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 2,
+            "3": 5,
+            "4": 26,
+            "5": 330
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-glendale-west",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 43,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 37
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-glendale-west",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 62,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 2,
+            "3": 2,
+            "4": 7,
+            "5": 46
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 471,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-7",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 7,
+      "name": "Pipewren Plumbing - Tempe",
+      "shortName": "Tempe",
+      "label": "Pipewren Plumbing - Tempe (Tempe, AZ)",
+      "locationLine": "Tempe, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "200 Larkspur Way",
+        "street2": "",
+        "city": "Tempe",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85281",
+        "country": "US"
+      },
+      "phone": "(480) 555-0106",
+      "email": "tempe@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/tempe",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-09-29T15:55:00Z",
+      "coordinates": {
+        "lat": 33.39079,
+        "lng": -111.81956
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": [
+          "Water heater installation service",
+          "Emergency plumber",
+          "Drainage service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-tempe",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 614,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 2,
+            "4": 23,
+            "5": 588
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-tempe",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 64,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 5,
+            "5": 56
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-tempe",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 112,
+          "ratingDistribution": {
+            "1": 11,
+            "2": 4,
+            "3": 4,
+            "4": 12,
+            "5": 81
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 790,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-8",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 8,
+      "name": "Pipewren Plumbing - Peoria",
+      "shortName": "Peoria",
+      "label": "Pipewren Plumbing - Peoria (Peoria, AZ)",
+      "locationLine": "Peoria, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7981 Meadowlark Drive",
+        "street2": "",
+        "city": "Peoria",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85382",
+        "country": "US"
+      },
+      "phone": "(623) 555-0107",
+      "email": "peoria@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/peoria",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-06T18:50:00Z",
+      "coordinates": {
+        "lat": 33.55858,
+        "lng": -112.35826
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-peoria",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 215,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 2,
+            "4": 12,
+            "5": 200
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-peoria",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 56,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 5,
+            "5": 45
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-peoria",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 24
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 303,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-9",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 9,
+      "name": "Pipewren Plumbing - Surprise",
+      "shortName": "Surprise",
+      "label": "Pipewren Plumbing - Surprise (Surprise, AZ)",
+      "locationLine": "Surprise, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6862 Bramblewood Lane",
+        "street2": "",
+        "city": "Surprise",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85374",
+        "country": "US"
+      },
+      "phone": "(623) 555-0108",
+      "email": "surprise@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/surprise",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-09-22T21:15:00Z",
+      "coordinates": {
+        "lat": 33.67726,
+        "lng": -112.35881
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": [
+          "Water heater installation service",
+          "Emergency plumber"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 10,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-surprise",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 33,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 28
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-surprise",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 8,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 8
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pipewren-plumbing-surprise",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 43,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-loc-10",
+      "accountId": "acct-pipewren-plumbing",
+      "index": 10,
+      "name": "Pipewren Plumbing - Queen Creek",
+      "shortName": "Queen Creek",
+      "label": "Pipewren Plumbing - Queen Creek (Queen Creek, AZ)",
+      "locationLine": "Queen Creek, AZ",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1398 Falconridge Trail",
+        "street2": "Suite 267",
+        "city": "Queen Creek",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85142",
+        "country": "US"
+      },
+      "phone": "(480) 555-0109",
+      "email": "queen-creek@pipewrenplumbing.example.com",
+      "website": "https://pipewrenplumbing.example.com/locations/queen-creek",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-08T19:30:00Z",
+      "coordinates": {
+        "lat": 33.26591,
+        "lng": -111.52393
+      },
+      "categories": {
+        "primary": "Plumber",
+        "secondary": [
+          "Water softening equipment supplier",
+          "Drainage service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 50,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pipewren-plumbing-queen-creek",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 207,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 8,
+            "5": 198
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pipewren-plumbing-queen-creek",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 31
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 239,
+        "averageRating": 5,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-pipewren-plumbing-ct-1",
+      "number": 42,
+      "accountId": "acct-pipewren-plumbing",
+      "name": "Quinn Vasquez-Lane",
+      "firstName": "Quinn",
+      "lastName": "Vasquez-Lane",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-pipewren-plumbing-loc-1",
+      "locationIds": [
+        "acct-pipewren-plumbing-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-pipewren-plumbing-001",
+      "email": "quinn.vasquez.lane@example.com",
+      "phone": "(602) 555-0111",
+      "locationCount": 1,
+      "location": "Pipewren Plumbing - Phoenix Central (Phoenix, AZ)",
+      "createdOn": "2026-10-17T16:25:00Z",
+      "lastActivity": "2026-10-19T17:45:00Z"
+    },
+    {
+      "id": "acct-pipewren-plumbing-ct-2",
+      "number": 2,
+      "accountId": "acct-pipewren-plumbing",
+      "name": "Rosalie Dempsey",
+      "firstName": "Rosalie",
+      "lastName": "Dempsey",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pipewren-plumbing-loc-4",
+      "locationIds": [
+        "acct-pipewren-plumbing-loc-4"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-pipewren-plumbing-002",
+      "email": "rosalie.dempsey@example.com",
+      "phone": "(480) 555-0112",
+      "locationCount": 1,
+      "location": "Pipewren Plumbing - Gilbert (Gilbert, AZ)",
+      "createdOn": "2026-10-03T21:05:00Z",
+      "lastActivity": "2026-10-10T14:45:00Z"
+    },
+    {
+      "id": "acct-pipewren-plumbing-ct-3",
+      "number": 3,
+      "accountId": "acct-pipewren-plumbing",
+      "name": "Silas Landry",
+      "firstName": "Silas",
+      "lastName": "Landry",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-pipewren-plumbing-loc-7",
+      "locationIds": [
+        "acct-pipewren-plumbing-loc-7"
+      ],
+      "segments": [
+        "Emergency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-pipewren-plumbing-003",
+      "phone": "(480) 555-0113",
+      "locationCount": 1,
+      "location": "Pipewren Plumbing - Tempe (Tempe, AZ)",
+      "createdOn": "2026-09-19T18:55:00Z",
+      "lastActivity": "2026-10-17T15:55:00Z"
+    },
+    {
+      "id": "acct-pipewren-plumbing-ct-4",
+      "number": 4,
+      "accountId": "acct-pipewren-plumbing",
+      "name": "Talia Tolliver",
+      "firstName": "Talia",
+      "lastName": "Tolliver",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pipewren-plumbing-loc-10",
+      "locationIds": [
+        "acct-pipewren-plumbing-loc-10",
+        "acct-pipewren-plumbing-loc-5"
+      ],
+      "segments": [
+        "Seasonal"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-pipewren-plumbing-004",
+      "email": "talia.tolliver@example.com",
+      "phone": "(480) 555-0114",
+      "locationCount": 2,
+      "location": "Pipewren Plumbing - Queen Creek (Queen Creek, AZ)",
+      "createdOn": "2026-09-05T15:00:00Z",
+      "lastActivity": "2026-10-14T20:30:00Z"
+    },
+    {
+      "id": "acct-pipewren-plumbing-ct-5",
+      "number": 5,
+      "accountId": "acct-pipewren-plumbing",
+      "name": "Ulric Dunleavy",
+      "firstName": "Ulric",
+      "lastName": "Dunleavy",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pipewren-plumbing-loc-3",
+      "locationIds": [
+        "acct-pipewren-plumbing-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-pipewren-plumbing-005",
+      "email": "ulric.dunleavy@example.com",
+      "phone": "(480) 555-0115",
+      "locationCount": 1,
+      "location": "Pipewren Plumbing - Scottsdale North (Scottsdale, AZ)",
+      "createdOn": "2026-08-22T20:45:00Z",
+      "lastActivity": "2026-09-13T21:30:00Z"
+    },
+    {
+      "id": "acct-pipewren-plumbing-ct-6",
+      "number": 6,
+      "accountId": "acct-pipewren-plumbing",
+      "name": "Vera Kingsley",
+      "firstName": "Vera",
+      "lastName": "Kingsley",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pipewren-plumbing-loc-6",
+      "locationIds": [
+        "acct-pipewren-plumbing-loc-6"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-pipewren-plumbing-006",
+      "email": "vera.kingsley@example.com",
+      "locationCount": 1,
+      "location": "Pipewren Plumbing - Glendale West (Glendale, AZ)",
+      "createdOn": "2026-08-08T17:35:00Z",
+      "lastActivity": "2026-09-28T18:30:00Z"
+    },
+    {
+      "id": "acct-pipewren-plumbing-ct-7",
+      "number": 7,
+      "accountId": "acct-pipewren-plumbing",
+      "name": "Warren Rourke",
+      "firstName": "Warren",
+      "lastName": "Rourke",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-pipewren-plumbing-loc-9",
+      "locationIds": [
+        "acct-pipewren-plumbing-loc-9",
+        "acct-pipewren-plumbing-loc-4"
+      ],
+      "segments": [
+        "High value",
+        "Property manager"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-pipewren-plumbing-007",
+      "email": "warren.rourke@example.com",
+      "phone": "(623) 555-0116",
+      "locationCount": 2,
+      "location": "Pipewren Plumbing - Surprise (Surprise, AZ)",
+      "createdOn": "2026-07-25T14:25:00Z",
+      "lastActivity": "2026-10-13T19:30:00Z"
+    },
+    {
+      "id": "acct-pipewren-plumbing-ct-8",
+      "number": 8,
+      "accountId": "acct-pipewren-plumbing",
+      "name": "Ximena Zamora",
+      "firstName": "Ximena",
+      "lastName": "Zamora",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pipewren-plumbing-loc-2",
+      "locationIds": [
+        "acct-pipewren-plumbing-loc-2",
+        "acct-pipewren-plumbing-loc-7"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-pipewren-plumbing-008",
+      "email": "ximena.zamora@example.com",
+      "phone": "(480) 555-0117",
+      "locationCount": 2,
+      "location": "Pipewren Plumbing - Mesa East (Mesa, AZ)",
+      "createdOn": "2026-08-01T19:00:00Z",
+      "lastActivity": "2026-09-16T16:45:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-pipewren-plumbing-rev-1",
+      "number": 1,
+      "accountId": "acct-pipewren-plumbing",
+      "locationId": "acct-pipewren-plumbing-loc-1",
+      "location": "Pipewren Plumbing - Phoenix Central (Phoenix, AZ)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Yusuf Guerrero",
+      "date": "2026-09-04T14:40:00Z",
+      "text": "Property manager here. Pipewren Plumbing handled a slab leak repair across two of our buildings and sent photos and invoices the same day. Tenant notices could be a bit more proactive.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Yusuf! We'll pass this along to the whole Pipewren Plumbing team. See you next time.\n\nPipewren Plumbing & Drain",
+        "author": "Pipewren Plumbing & Drain",
+        "date": "2026-09-04T20:50:00Z"
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-rev-2",
+      "number": 2,
+      "accountId": "acct-pipewren-plumbing",
+      "locationId": "acct-pipewren-plumbing-loc-2",
+      "location": "Pipewren Plumbing - Mesa East (Mesa, AZ)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Zara Nakashima",
+      "date": "2026-08-21T15:00:00Z",
+      "text": "Called Pipewren Plumbing on a Saturday morning about a tankless water heater install. They had Cody out by early afternoon and the job was done right. Weekend pricing was fair and clearly explained.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Cody"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Zara, this made our day. Thanks for trusting us, and see you next time!\n\nPipewren Plumbing & Drain",
+        "author": "Pipewren Plumbing & Drain",
+        "date": "2026-08-24T01:35:00Z"
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-rev-3",
+      "number": 3,
+      "accountId": "acct-pipewren-plumbing",
+      "locationId": "acct-pipewren-plumbing-loc-3",
+      "location": "Pipewren Plumbing - Scottsdale North (Scottsdale, AZ)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Abel Vasquez-Lane",
+      "date": "2026-08-07T20:30:00Z",
+      "text": "Called Pipewren Plumbing about a tankless water heater install and got a real person right away. Showed up in the window they promised.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Abel! We love hearing this and will share it with the crew.\n\nPipewren Plumbing & Drain",
+        "author": "Pipewren Plumbing & Drain",
+        "date": "2026-08-07T21:35:00Z"
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-rev-4",
+      "number": 4,
+      "accountId": "acct-pipewren-plumbing",
+      "locationId": "acct-pipewren-plumbing-loc-4",
+      "location": "Pipewren Plumbing - Gilbert (Gilbert, AZ)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Bianca Dempsey",
+      "date": "2026-07-24T21:50:00Z",
+      "text": "Needed a tankless water heater install and Pipewren Plumbing gave me a two-hour arrival window. Hector showed up early in it, explained the options with prices, and cleaned up before leaving.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Hector"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Bianca! We'll pass this along to the whole Pipewren Plumbing team. See you next time.\n\nPipewren Plumbing & Drain",
+        "author": "Pipewren Plumbing & Drain",
+        "date": "2026-07-27T02:10:00Z"
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-rev-5",
+      "number": 5,
+      "accountId": "acct-pipewren-plumbing",
+      "locationId": "acct-pipewren-plumbing-loc-5",
+      "location": "Pipewren Plumbing - Chandler (Chandler, AZ)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Cyrus Landry",
+      "date": "2026-07-10T18:25:00Z",
+      "text": "Ruben did a slab leak repair for us at the Chandler location. Solid work and a fair price. It took about a week to get on the schedule, which is the only reason it's not five stars.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Ruben"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Cyrus! Happy we could help, and we'll pass this along to the team.\n\nPipewren Plumbing & Drain",
+        "author": "Pipewren Plumbing & Drain",
+        "date": "2026-07-10T22:25:00Z"
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-rev-6",
+      "number": 6,
+      "accountId": "acct-pipewren-plumbing",
+      "locationId": "acct-pipewren-plumbing-loc-6",
+      "location": "Pipewren Plumbing - Glendale West (Glendale, AZ)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Delia Tolliver",
+      "date": "2026-10-19T19:40:00Z",
+      "text": "Third job with Pipewren Plumbing and they're consistent every time. Marisa knows our house by now.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Marisa"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-pipewren-plumbing-rev-7",
+      "number": 7,
+      "accountId": "acct-pipewren-plumbing",
+      "locationId": "acct-pipewren-plumbing-loc-7",
+      "location": "Pipewren Plumbing - Tempe (Tempe, AZ)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Emmett Dunleavy",
+      "date": "2026-10-05T16:15:00Z",
+      "text": "Second time using Pipewren Plumbing. Marisa remembered our setup from last spring and finished a water softener install faster than quoted. The invoice matched the estimate exactly.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Marisa"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Emmett! We'll pass this along to the whole Pipewren Plumbing team. See you next time.\n\nPipewren Plumbing & Drain",
+        "author": "Pipewren Plumbing & Drain",
+        "date": "2026-10-18T10:50:00Z"
+      }
+    },
+    {
+      "id": "acct-pipewren-plumbing-rev-8",
+      "number": 8,
+      "accountId": "acct-pipewren-plumbing",
+      "locationId": "acct-pipewren-plumbing-loc-8",
+      "location": "Pipewren Plumbing - Peoria (Peoria, AZ)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Flora Kingsley",
+      "date": "2026-09-21T17:40:00Z",
+      "text": "Pipewren Plumbing quoted one price on the phone for a tankless water heater install and a much higher one once the plumber was here. I declined and got a second opinion. Not the experience I expected.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Flora, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Pipewren Plumbing. A manager will reach out this week to make it right.\n\nPipewren Plumbing & Drain",
+        "author": "Pipewren Plumbing & Drain",
+        "date": "2026-09-22T09:50:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3093 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-hearthquell-home",
+    "name": "Hearthquell Heating, Plumbing & Electrical",
+    "brandName": "Hearthquell",
+    "parentGroup": "Hearthquell Home Services Group",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Regional multi-branch dispatch",
+    "crm": "ServiceTitan",
+    "purchasedLocations": 15,
+    "isDefault": false,
+    "quickScenario": true,
+    "hq": {
+      "city": "Denver",
+      "state": "CO",
+      "stateName": "Colorado",
+      "country": "United States"
+    },
+    "businessBlurb": "Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites.",
+    "profile": {
+      "description": "Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites. Heating, cooling, plumbing, and electrical for the Front Range.",
+      "categories": [
+        "HVAC contractor",
+        "Plumber",
+        "Electrician"
+      ],
+      "website": "https://hearthquell.example.com",
+      "email": "hello@hearthquell.example.com",
+      "phone": "(303) 555-0115",
+      "primaryLocationId": "acct-hearthquell-home-loc-1",
+      "address": {
+        "street1": "5708 Marigold Avenue",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80211",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Hearthquell",
+      "tagline": "Heating, cooling, plumbing, and electrical for the Front Range",
+      "logo": {
+        "kind": "monogram",
+        "initials": "H",
+        "path": "v1/logos/acct-hearthquell-home.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hearthquell-home.svg"
+      },
+      "colors": {
+        "primary": "#C8102E",
+        "secondary": "#FDECEE",
+        "accent": "#1D3557",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Direct, dependable, no-nonsense; leads with arrival windows and upfront pricing.",
+      "formality": "neutral",
+      "replySignoff": "Hearthquell Home Services"
+    },
+    "staff": [
+      "Luis",
+      "Derek",
+      "Kayla",
+      "Tomás",
+      "Priyanka"
+    ],
+    "services": [
+      "an AC repair",
+      "a water heater replacement",
+      "a panel upgrade",
+      "a furnace tune-up"
+    ],
+    "llmContext": "Hearthquell Heating, Plumbing & Electrical · Enterprise · Home services and contractors · HQ Denver, Colorado, United States · 15 purchased locations · CRM ServiceTitan · Regional HVAC, plumbing, and electrical dispatch group serving Denver metro homes and light commercial sites.",
+    "listingSummary": {
+      "locations": 15,
+      "openLocations": 14,
+      "listings": 40,
+      "claimedListings": 27,
+      "verifiedListings": 23,
+      "totalReviews": 4283,
+      "averageRating": 4.8,
+      "photoCount": 384
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-hearthquell-home-loc-1",
+      "accountId": "acct-hearthquell-home",
+      "index": 1,
+      "name": "Hearthquell - Denver",
+      "shortName": "Denver",
+      "label": "Hearthquell - Denver (Denver, CO)",
+      "locationLine": "Denver, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "5708 Marigold Avenue",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80211",
+        "country": "US"
+      },
+      "phone": "(720) 555-0100",
+      "email": "denver@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/denver",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-23T17:55:00Z",
+      "coordinates": {
+        "lat": 39.73297,
+        "lng": -104.87465
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-denver",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 69,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 5,
+            "5": 61
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-denver",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 18
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 89,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-2",
+      "accountId": "acct-hearthquell-home",
+      "index": 2,
+      "name": "Hearthquell - Centennial",
+      "shortName": "Centennial",
+      "label": "Hearthquell - Centennial (Centennial, CO)",
+      "locationLine": "Centennial, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "165 Quillfeather Terrace",
+        "street2": "Suite 426",
+        "city": "Centennial",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80122",
+        "country": "US"
+      },
+      "phone": "(303) 555-0101",
+      "email": "centennial@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/centennial",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-07-09T20:20:00Z",
+      "coordinates": {
+        "lat": 39.65027,
+        "lng": -104.8453
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 5,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-centennial",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 45,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 42
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-centennial",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 4
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 50,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-3",
+      "accountId": "acct-hearthquell-home",
+      "index": 3,
+      "name": "Hearthquell - Aurora",
+      "shortName": "Aurora",
+      "label": "Hearthquell - Aurora (Aurora, CO)",
+      "locationLine": "Aurora, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7946 Quarrystone Court",
+        "street2": "Suite 219",
+        "city": "Aurora",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80012",
+        "country": "US"
+      },
+      "phone": "(720) 555-0102",
+      "email": "aurora@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/aurora",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-06-25T15:45:00Z",
+      "coordinates": {
+        "lat": 39.71777,
+        "lng": -104.95033
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Furnace repair service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 44,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-aurora",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 441,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 6,
+            "4": 33,
+            "5": 396
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-aurora",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 44,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 41
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-aurora",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 50,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 2,
+            "3": 2,
+            "4": 5,
+            "5": 35
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 535,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-4",
+      "accountId": "acct-hearthquell-home",
+      "index": 4,
+      "name": "Hearthquell - Lakewood",
+      "shortName": "Lakewood",
+      "label": "Hearthquell - Lakewood (Lakewood, CO)",
+      "locationLine": "Lakewood, CO",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "2403 Oriole Commons",
+        "street2": "Suite 368",
+        "city": "Lakewood",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80228",
+        "country": "US"
+      },
+      "phone": "(303) 555-0103",
+      "email": "lakewood@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/lakewood",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-10-07T18:10:00Z",
+      "coordinates": {
+        "lat": 39.63375,
+        "lng": -105.12732
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Plumber"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-lakewood",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 26,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 20
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-lakewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-lakewood",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 29,
+        "averageRating": 4.6,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-5",
+      "accountId": "acct-hearthquell-home",
+      "index": 5,
+      "name": "Hearthquell - Boulder",
+      "shortName": "Boulder",
+      "label": "Hearthquell - Boulder (Boulder, CO)",
+      "locationLine": "Boulder, CO",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1284 Juniper Hollow Court",
+        "street2": "Suite 473",
+        "city": "Boulder",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80302",
+        "country": "US"
+      },
+      "phone": "(720) 555-0104",
+      "email": "boulder@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/boulder",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-09-23T21:35:00Z",
+      "coordinates": {
+        "lat": 39.91811,
+        "lng": -105.28007
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-boulder",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 1276,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 5,
+            "4": 48,
+            "5": 1221
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-boulder",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 77,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 72
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-boulder",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 69,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 2,
+            "3": 3,
+            "4": 8,
+            "5": 48
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1422,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-6",
+      "accountId": "acct-hearthquell-home",
+      "index": 6,
+      "name": "Hearthquell - Highlands Ranch",
+      "shortName": "Highlands Ranch",
+      "label": "Hearthquell - Highlands Ranch (Highlands Ranch, CO)",
+      "locationLine": "Highlands Ranch, CO",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4641 Meadowlark Drive",
+        "street2": "Suite 462",
+        "city": "Highlands Ranch",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80130",
+        "country": "US"
+      },
+      "phone": "(303) 555-0105",
+      "email": "highlands-ranch@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/highlands-ranch",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-09-09T16:05:00Z",
+      "coordinates": {
+        "lat": 39.64053,
+        "lng": -104.95655
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Furnace repair service",
+          "Plumber"
+        ]
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 13,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-highlands-ranch",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 824,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 4,
+            "3": 10,
+            "4": 56,
+            "5": 748
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-highlands-ranch",
+          "claimed": true,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 108,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 104
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-highlands-ranch",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.9,
+          "reviewCount": 95,
+          "ratingDistribution": {
+            "1": 17,
+            "2": 4,
+            "3": 5,
+            "4": 11,
+            "5": 58
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1027,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-7",
+      "accountId": "acct-hearthquell-home",
+      "index": 7,
+      "name": "Hearthquell - Thornton",
+      "shortName": "Thornton",
+      "label": "Hearthquell - Thornton (Thornton, CO)",
+      "locationLine": "Thornton, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3522 Bramblewood Parkway",
+        "street2": "Suite 415",
+        "city": "Thornton",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80229",
+        "country": "US"
+      },
+      "phone": "(720) 555-0106",
+      "email": "thornton@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/thornton",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-26T19:30:00Z",
+      "coordinates": {
+        "lat": 39.91007,
+        "lng": -104.98517
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Furnace repair service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 26,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-thornton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 108,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 8,
+            "5": 96
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-thornton",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 15,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 14
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-thornton",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 9,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 6
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 132,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-8",
+      "accountId": "acct-hearthquell-home",
+      "index": 8,
+      "name": "Hearthquell - Arvada",
+      "shortName": "Arvada",
+      "label": "Hearthquell - Arvada (Arvada, CO)",
+      "locationLine": "Arvada, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6775 Clover Bend Lane",
+        "street2": "Suite 340",
+        "city": "Arvada",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80003",
+        "country": "US"
+      },
+      "phone": "(303) 555-0107",
+      "email": "arvada@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/arvada",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-09-02T14:55:00Z",
+      "coordinates": {
+        "lat": 39.69936,
+        "lng": -105.09722
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Air conditioning repair service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-arvada",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 60,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 57
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-arvada",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 6
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-arvada",
+          "claimed": true,
+          "verified": true,
+          "rating": 4,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 70,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-9",
+      "accountId": "acct-hearthquell-home",
+      "index": 9,
+      "name": "Hearthquell - Parker",
+      "shortName": "Parker",
+      "label": "Hearthquell - Parker (Parker, CO)",
+      "locationLine": "Parker, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5656 Fernbrook Commons",
+        "street2": "Suite 445",
+        "city": "Parker",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80134",
+        "country": "US"
+      },
+      "phone": "(720) 555-0108",
+      "email": "parker@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/parker",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-08-19T17:20:00Z",
+      "coordinates": {
+        "lat": 39.52368,
+        "lng": -104.79948
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Furnace repair service",
+          "Electrician",
+          "Plumber"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 175,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-parker",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 47,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 40
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-parker",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 8,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 55,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-10",
+      "accountId": "acct-hearthquell-home",
+      "index": 10,
+      "name": "Hearthquell - Westminster",
+      "shortName": "Westminster",
+      "label": "Hearthquell - Westminster (Westminster, CO)",
+      "locationLine": "Westminster, CO",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3036 Fernbrook Terrace",
+        "street2": "",
+        "city": "Westminster",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80031",
+        "country": "US"
+      },
+      "phone": "(720) 555-0109",
+      "email": "westminster@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/westminster",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-08-05T15:35:00Z",
+      "coordinates": {
+        "lat": 39.912,
+        "lng": -104.98011
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Electrician",
+          "Furnace repair service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 9,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-westminster",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 245,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 4,
+            "4": 19,
+            "5": 216
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-westminster",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 57,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 5,
+            "5": 50
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-westminster",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 70,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 2,
+            "3": 3,
+            "4": 8,
+            "5": 51
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 372,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-11",
+      "accountId": "acct-hearthquell-home",
+      "index": 11,
+      "name": "Hearthquell - Littleton",
+      "shortName": "Littleton",
+      "label": "Hearthquell - Littleton (Littleton, CO)",
+      "locationLine": "Littleton, CO",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4155 Clover Bend Parkway",
+        "street2": "Suite 188",
+        "city": "Littleton",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80123",
+        "country": "US"
+      },
+      "phone": "(303) 555-0110",
+      "email": "littleton@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/littleton",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-07-22T20:10:00Z",
+      "coordinates": {
+        "lat": 39.56387,
+        "lng": -104.93873
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 10,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-littleton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 84,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 7,
+            "5": 74
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-littleton",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 10
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-littleton",
+          "claimed": false,
+          "verified": false,
+          "rating": 4,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 100,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-12",
+      "accountId": "acct-hearthquell-home",
+      "index": 12,
+      "name": "Hearthquell - Commerce City",
+      "shortName": "Commerce City",
+      "label": "Hearthquell - Commerce City (Commerce City, CO)",
+      "locationLine": "Commerce City, CO",
+      "type": "Physical location",
+      "status": "Inactive",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "5274 Driftwood Commons",
+        "street2": "Suite 235",
+        "city": "Commerce City",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80022",
+        "country": "US"
+      },
+      "phone": "(720) 555-0111",
+      "email": "commerce-city@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/commerce-city",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-07-08T17:45:00Z",
+      "coordinates": {
+        "lat": 39.80313,
+        "lng": -105.02305
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-commerce-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 49,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 44
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-commerce-city",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-commerce-city",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 6
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 59,
+        "averageRating": 4.9,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-13",
+      "accountId": "acct-hearthquell-home",
+      "index": 13,
+      "name": "Hearthquell - Englewood",
+      "shortName": "Englewood",
+      "label": "Hearthquell - Englewood (Englewood, CO)",
+      "locationLine": "Englewood, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6393 Zephyr Lane",
+        "street2": "Suite 474",
+        "city": "Englewood",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80113",
+        "country": "US"
+      },
+      "phone": "(303) 555-0112",
+      "email": "englewood@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/englewood",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-10-20T14:20:00Z",
+      "coordinates": {
+        "lat": 39.55724,
+        "lng": -104.9255
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Furnace repair service",
+          "Air conditioning repair service",
+          "Plumber"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 75,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-englewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 176,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 4,
+            "4": 16,
+            "5": 150
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-englewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 12
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-englewood",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 20,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 14
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 208,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-14",
+      "accountId": "acct-hearthquell-home",
+      "index": 14,
+      "name": "Hearthquell - Broomfield",
+      "shortName": "Broomfield",
+      "label": "Hearthquell - Broomfield (Broomfield, CO)",
+      "locationLine": "Broomfield, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7512 Bluestem Drive",
+        "street2": "Suite 489",
+        "city": "Broomfield",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80020",
+        "country": "US"
+      },
+      "phone": "(720) 555-0113",
+      "email": "broomfield@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/broomfield",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-10-06T19:20:00Z",
+      "coordinates": {
+        "lat": 39.84985,
+        "lng": -105.06195
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Plumber"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-broomfield",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 27,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 24
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hearthquell-broomfield",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 30,
+        "averageRating": 4.9,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-loc-15",
+      "accountId": "acct-hearthquell-home",
+      "index": 15,
+      "name": "Hearthquell - Castle Rock",
+      "shortName": "Castle Rock",
+      "label": "Hearthquell - Castle Rock (Castle Rock, CO)",
+      "locationLine": "Castle Rock, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8631 Willowmere Lane",
+        "street2": "Suite 384",
+        "city": "Castle Rock",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80108",
+        "country": "US"
+      },
+      "phone": "(303) 555-0114",
+      "email": "castle-rock@hearthquell.example.com",
+      "website": "https://hearthquell.example.com/locations/castle-rock",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-10-13T16:55:00Z",
+      "coordinates": {
+        "lat": 39.39482,
+        "lng": -104.7577
+      },
+      "categories": {
+        "primary": "HVAC contractor",
+        "secondary": [
+          "Furnace repair service",
+          "Electrician",
+          "Plumber"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 9,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hearthquell-castle-rock",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 93,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 2,
+            "3": 3,
+            "4": 9,
+            "5": 73
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hearthquell-castle-rock",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.4,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 9
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 105,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-hearthquell-home-ct-1",
+      "number": 42,
+      "accountId": "acct-hearthquell-home",
+      "name": "Dana Whitfield",
+      "firstName": "Dana",
+      "lastName": "Whitfield",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hearthquell-home-loc-1",
+      "locationIds": [
+        "acct-hearthquell-home-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-hearthquell-home-001",
+      "email": "dana.whitfield@example.com",
+      "phone": "(303) 555-0116",
+      "locationCount": 1,
+      "location": "Hearthquell - Denver (Denver, CO)",
+      "createdOn": "2026-08-11T20:20:00Z",
+      "lastActivity": "2026-10-01T21:15:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-2",
+      "number": 2,
+      "accountId": "acct-hearthquell-home",
+      "name": "Chris Langthwick",
+      "firstName": "Chris",
+      "lastName": "Langthwick",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-4",
+      "locationIds": [
+        "acct-hearthquell-home-loc-4"
+      ],
+      "segments": [
+        "HVAC seasonal"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-hearthquell-home-002",
+      "email": "chris.langthwick@example.com",
+      "phone": "(720) 555-0117",
+      "locationCount": 1,
+      "location": "Hearthquell - Lakewood (Lakewood, CO)",
+      "createdOn": "2026-07-28T17:10:00Z",
+      "lastActivity": "2026-10-02T18:35:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-3",
+      "number": 3,
+      "accountId": "acct-hearthquell-home",
+      "name": "Morgan Ellisworth",
+      "firstName": "Morgan",
+      "lastName": "Ellisworth",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-7",
+      "locationIds": [
+        "acct-hearthquell-home-loc-7"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Missed window"
+      ],
+      "externalId": "ext-hearthquell-home-003",
+      "email": "morgan.ellisworth@example.com",
+      "phone": "(303) 555-0118",
+      "locationCount": 1,
+      "location": "Hearthquell - Thornton (Thornton, CO)",
+      "createdOn": "2026-07-14T14:20:00Z",
+      "lastActivity": "2026-10-03T19:15:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-4",
+      "number": 4,
+      "accountId": "acct-hearthquell-home",
+      "name": "Sam Okonkwo",
+      "firstName": "Sam",
+      "lastName": "Okonkwo",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hearthquell-home-loc-10",
+      "locationIds": [
+        "acct-hearthquell-home-loc-10",
+        "acct-hearthquell-home-loc-15",
+        "acct-hearthquell-home-loc-5"
+      ],
+      "segments": [
+        "Property manager"
+      ],
+      "experienceTags": [
+        "Commercial",
+        "Loyal"
+      ],
+      "externalId": "ext-hearthquell-home-004",
+      "email": "sam.okonkwo@example.com",
+      "phone": "(720) 555-0119",
+      "locationCount": 3,
+      "location": "Hearthquell - Westminster (Westminster, CO)",
+      "createdOn": "2026-06-30T19:10:00Z",
+      "lastActivity": "2026-10-04T16:30:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-5",
+      "number": 5,
+      "accountId": "acct-hearthquell-home",
+      "name": "Riley Cho",
+      "firstName": "Riley",
+      "lastName": "Cho",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hearthquell-home-loc-13",
+      "locationIds": [
+        "acct-hearthquell-home-loc-13"
+      ],
+      "segments": [
+        "Emergency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-hearthquell-home-005",
+      "phone": "(303) 555-0120",
+      "locationCount": 1,
+      "location": "Hearthquell - Englewood (Englewood, CO)",
+      "createdOn": "2026-10-12T16:00:00Z",
+      "lastActivity": "2026-10-13T17:50:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-6",
+      "number": 6,
+      "accountId": "acct-hearthquell-home",
+      "name": "Jamie Ortevale",
+      "firstName": "Jamie",
+      "lastName": "Ortevale",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-1",
+      "locationIds": [
+        "acct-hearthquell-home-loc-1"
+      ],
+      "segments": [
+        "Plumbing"
+      ],
+      "experienceTags": [
+        "Steady"
+      ],
+      "externalId": "ext-hearthquell-home-006",
+      "email": "jamie.ortevale@example.com",
+      "phone": "(720) 555-0121",
+      "locationCount": 1,
+      "location": "Hearthquell - Denver (Denver, CO)",
+      "createdOn": "2026-09-28T21:20:00Z",
+      "lastActivity": "2026-10-03T14:10:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-7",
+      "number": 7,
+      "accountId": "acct-hearthquell-home",
+      "name": "Taylor Brooks",
+      "firstName": "Taylor",
+      "lastName": "Brooks",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-4",
+      "locationIds": [
+        "acct-hearthquell-home-loc-4"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Quote shopper"
+      ],
+      "externalId": "ext-hearthquell-home-007",
+      "email": "taylor.brooks@example.com",
+      "locationCount": 1,
+      "location": "Hearthquell - Lakewood (Lakewood, CO)",
+      "createdOn": "2026-09-14T18:50:00Z",
+      "lastActivity": "2026-09-30T15:40:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-8",
+      "number": 8,
+      "accountId": "acct-hearthquell-home",
+      "name": "Alex Riveland",
+      "firstName": "Alex",
+      "lastName": "Riveland",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-7",
+      "locationIds": [
+        "acct-hearthquell-home-loc-7"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer"
+      ],
+      "externalId": "ext-hearthquell-home-008",
+      "email": "alex.riveland@example.com",
+      "phone": "(720) 555-0122",
+      "locationCount": 1,
+      "location": "Hearthquell - Thornton (Thornton, CO)",
+      "createdOn": "2026-09-21T15:40:00Z",
+      "lastActivity": "2026-10-19T20:20:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-9",
+      "number": 9,
+      "accountId": "acct-hearthquell-home",
+      "name": "Casey Nguyen",
+      "firstName": "Casey",
+      "lastName": "Nguyen",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-10",
+      "locationIds": [
+        "acct-hearthquell-home-loc-10",
+        "acct-hearthquell-home-loc-15"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Churn risk"
+      ],
+      "externalId": "ext-hearthquell-home-009",
+      "email": "casey.nguyen@example.com",
+      "phone": "(303) 555-0123",
+      "locationCount": 2,
+      "location": "Hearthquell - Westminster (Westminster, CO)",
+      "createdOn": "2026-09-07T20:30:00Z",
+      "lastActivity": "2026-10-02T21:30:00Z"
+    },
+    {
+      "id": "acct-hearthquell-home-ct-10",
+      "number": 10,
+      "accountId": "acct-hearthquell-home",
+      "name": "Jordan Park",
+      "firstName": "Jordan",
+      "lastName": "Park",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 6,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hearthquell-home-loc-13",
+      "locationIds": [
+        "acct-hearthquell-home-loc-13"
+      ],
+      "segments": [
+        "Electrical"
+      ],
+      "experienceTags": [
+        "Repeat visit"
+      ],
+      "externalId": "ext-hearthquell-home-010",
+      "email": "jordan.park@example.com",
+      "phone": "(720) 555-0124",
+      "locationCount": 1,
+      "location": "Hearthquell - Englewood (Englewood, CO)",
+      "createdOn": "2026-08-24T20:35:00Z",
+      "lastActivity": "2026-09-17T21:25:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-hearthquell-home-rev-1",
+      "number": 1,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-1",
+      "location": "Hearthquell - Denver (Denver, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Garrett Vance",
+      "date": "2026-10-19T18:45:00Z",
+      "text": "Our AC quit during the heat wave. Dispatch gave me a two-hour window and Luis showed up at the start of it. He found a bad capacitor and a clogged condensate line and showed me both before quoting.\n\nThe repair was finished on the same visit, and the invoice matched the tablet quote to the dollar.",
+      "photoCount": 2,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Luis"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-2",
+      "number": 2,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-3",
+      "location": "Hearthquell - Aurora (Aurora, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Rosalind Meeks",
+      "date": "2026-10-13T19:00:00Z",
+      "text": "Our water heater started leaking on a Sunday. Aurora dispatch picked up on the second ring and had a plumber here in three hours, and the replacement was installed Monday morning. The weekend emergency fee was steep but clearly disclosed up front.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-3",
+      "number": 3,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-5",
+      "location": "Hearthquell - Boulder (Boulder, CO)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Owen Castellanos",
+      "date": "2026-10-08T16:35:00Z",
+      "text": "Panel upgrade so we could add an EV charger. Priyanka pulled the permit, coordinated the utility shutoff, and labeled every breaker when she finished. Passed city inspection on the first try.",
+      "photoCount": 3,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Priyanka"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-4",
+      "number": 4,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-4",
+      "location": "Hearthquell - Lakewood (Lakewood, CO)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Juliet Ramsey",
+      "date": "2026-10-04T17:25:00Z",
+      "text": "The tech arrived two hours after the window with no text or call. The fix was fine, but I had rearranged my workday around the appointment. For a dispatch company, delay notifications should be automatic.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Juliet, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hearthquell. A manager will reach out this week to make it right.\n\nHearthquell Home Services",
+        "author": "Hearthquell Home Services",
+        "date": "2026-10-06T19:15:00Z"
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-rev-5",
+      "number": 5,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-6",
+      "location": "Hearthquell - Highlands Ranch (Highlands Ranch, CO)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Simon Okafor-Wells",
+      "date": "2026-09-27T14:00:00Z",
+      "text": "Booked a fall furnace tune-up online in two minutes. Derek replaced the filter, checked the heat exchanger with a camera, and flagged that the flame sensor will probably need replacing next year, with no pressure to do it today.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Derek"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-6",
+      "number": 6,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-15",
+      "location": "Hearthquell - Castle Rock (Castle Rock, CO)",
+      "site": "google",
+      "rating": 1,
+      "reviewer": "Tamsin Whitaker-Lowe",
+      "date": "2026-09-20T15:20:00Z",
+      "text": "I was quoted $450 on the phone for a drain clearing. On site the tech found a root intrusion and quoted $3,800 for a pipe liner. A second opinion said a $600 hydro-jet would do it. That cost you my trust.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Tamsin, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hearthquell. A manager will reach out this week to make it right.\n\nHearthquell Home Services",
+        "author": "Hearthquell Home Services",
+        "date": "2026-09-22T17:50:00Z"
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-rev-7",
+      "number": 7,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-10",
+      "location": "Hearthquell - Westminster (Westminster, CO)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Benedict Harrow",
+      "date": "2026-09-13T20:50:00Z",
+      "text": "The smart thermostat install went smoothly, and Tomás set up the schedule on my phone before he left. My only gripe is that his shoe covers came off halfway through and there were dusty footprints in the hallway.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Tomás"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-8",
+      "number": 8,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-2",
+      "location": "Hearthquell - Centennial (Centennial, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Regina Thibodeaux",
+      "date": "2026-09-05T21:40:00Z",
+      "text": "I manage a 12-unit building in Centennial. The South Foothills team did annual backflow tests for every unit in one morning and emailed the certificates the same afternoon.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-9",
+      "number": 9,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-7",
+      "location": "Hearthquell - Thornton (Thornton, CO)",
+      "site": "facebook",
+      "rating": 3,
+      "reviewer": "Darius Pennington",
+      "date": "2026-08-24T18:15:00Z",
+      "text": "The maintenance membership is a good deal, but booking my included tune-up took three calls. Once Kayla in dispatch sorted it out, the visit itself was quick and clean.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Kayla"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Darius, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hearthquell. A manager will reach out this week to make it right.\n\nHearthquell Home Services",
+        "author": "Hearthquell Home Services",
+        "date": "2026-08-25T20:10:00Z"
+      }
+    },
+    {
+      "id": "acct-hearthquell-home-rev-10",
+      "number": 10,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-9",
+      "location": "Hearthquell - Parker (Parker, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Mira Castellano",
+      "date": "2026-08-11T18:30:00Z",
+      "text": "Our sump pump failed after a big summer storm. The Parker crew had a new pump with battery backup installed before the next round of rain, and they showed us how to test the alarm.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-11",
+      "number": 11,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-8",
+      "location": "Hearthquell - Arvada (Arvada, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Fletcher Dunmore",
+      "date": "2026-07-25T21:55:00Z",
+      "text": "Whole-home surge protector plus two new GFCI outlets in the kitchen. Clear price up front and tidy work. It took a week to get on the schedule, which is the only reason for four stars.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hearthquell-home-rev-12",
+      "number": 12,
+      "accountId": "acct-hearthquell-home",
+      "locationId": "acct-hearthquell-home-loc-13",
+      "location": "Hearthquell - Englewood (Englewood, CO)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Corinne Abernathy",
+      "date": "2026-07-04T16:25:00Z",
+      "text": "Two techs argued in front of me about whether my AC compressor was failing. It eventually got fixed, but it didn't feel like they had a shared way of diagnosing problems.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Corinne, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hearthquell. A manager will reach out this week to make it right.\n\nHearthquell Home Services",
+        "author": "Hearthquell Home Services",
+        "date": "2026-07-06T18:30:00Z"
+      }
+    }
+  ]
+}

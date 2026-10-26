@@ -1,0 +1,676 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-kindlewry-studio",
+    "name": "Kindlewry Studio Marketing",
+    "brandName": "Kindlewry Studio",
+    "parentGroup": "Kindlewry Studio",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "advertising-agency",
+    "industryLabel": "Advertising and agency",
+    "tier": "Boutique studio",
+    "crm": "Pipedrive",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Denver",
+      "state": "CO",
+      "stateName": "Colorado",
+      "country": "United States"
+    },
+    "businessBlurb": "Two-person studio running GBP and review invites for Denver home-services clients.",
+    "profile": {
+      "description": "Two-person studio running GBP and review invites for Denver home-services clients. Brand and local marketing studio in Denver.",
+      "categories": [
+        "Marketing agency"
+      ],
+      "website": "https://kindlewrystudio.example.com",
+      "email": "hello@kindlewrystudio.example.com",
+      "phone": "(720) 555-0100",
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "address": {
+        "street1": "4344 Pinecrest Avenue",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80204",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Kindlewry Studio",
+      "tagline": "Brand and local marketing studio in Denver",
+      "logo": {
+        "kind": "monogram",
+        "initials": "KS",
+        "path": "v1/logos/acct-kindlewry-studio.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-kindlewry-studio.svg"
+      },
+      "colors": {
+        "primary": "#2B2D42",
+        "secondary": "#EDEDF2",
+        "accent": "#EF8354",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Minimal, design-led, and thoughtful.",
+      "formality": "neutral",
+      "replySignoff": "Kindlewry Studio Marketing"
+    },
+    "staff": [
+      "Ines Okoro",
+      "Max Fairbanks"
+    ],
+    "services": [
+      "a brand identity",
+      "a local landing page",
+      "review-request templates",
+      "a photo library"
+    ],
+    "llmContext": "Kindlewry Studio Marketing · SMB · Advertising and agency · HQ Denver, Colorado, United States · 1 purchased location · CRM Pipedrive · Two-person studio running GBP and review invites for Denver home-services clients.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 2,
+      "totalReviews": 147,
+      "averageRating": 4.7,
+      "photoCount": 15
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-kindlewry-studio-loc-1",
+      "accountId": "acct-kindlewry-studio",
+      "index": 1,
+      "name": "Kindlewry Studio Marketing",
+      "shortName": "Main",
+      "label": "Kindlewry Studio Marketing (Denver, CO)",
+      "locationLine": "Denver, CO",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "4344 Pinecrest Avenue",
+        "street2": "",
+        "city": "Denver",
+        "state": "CO",
+        "stateName": "Colorado",
+        "zip": "80204",
+        "country": "US"
+      },
+      "phone": "(720) 555-0100",
+      "email": "hello@kindlewrystudio.example.com",
+      "website": "https://kindlewrystudio.example.com",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-07-25T18:45:00Z",
+      "coordinates": {
+        "lat": 39.67781,
+        "lng": -105.05441
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        }
+      ],
+      "photoCount": 15,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/kindlewry-studio-marketing",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 112,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 3,
+            "3": 3,
+            "4": 13,
+            "5": 90
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/kindlewry-studio-marketing",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 16,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 14
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/kindlewry-studio-marketing",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 19,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 14
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 147,
+        "averageRating": 4.7,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-kindlewry-studio-ct-1",
+      "number": 42,
+      "accountId": "acct-kindlewry-studio",
+      "name": "Adele Pembrook",
+      "firstName": "Adele",
+      "lastName": "Pembrook",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "locationIds": [
+        "acct-kindlewry-studio-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-kindlewry-studio-001",
+      "email": "adele.pembrook@harborclinics.example.com",
+      "phone": "(303) 555-0101",
+      "locationCount": 1,
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "createdOn": "2026-08-11T21:30:00Z",
+      "lastActivity": "2026-10-01T14:25:00Z"
+    },
+    {
+      "id": "acct-kindlewry-studio-ct-2",
+      "number": 2,
+      "accountId": "acct-kindlewry-studio",
+      "name": "Bennett Wexford",
+      "firstName": "Bennett",
+      "lastName": "Wexford",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "locationIds": [
+        "acct-kindlewry-studio-loc-1"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-kindlewry-studio-002",
+      "email": "bennett.wexford@retailclient.example.com",
+      "phone": "(720) 555-0102",
+      "locationCount": 1,
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "createdOn": "2026-07-28T16:25:00Z",
+      "lastActivity": "2026-10-02T17:10:00Z"
+    },
+    {
+      "id": "acct-kindlewry-studio-ct-3",
+      "number": 3,
+      "accountId": "acct-kindlewry-studio",
+      "name": "Carmen Esposito",
+      "firstName": "Carmen",
+      "lastName": "Esposito",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "locationIds": [
+        "acct-kindlewry-studio-loc-1"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-kindlewry-studio-003",
+      "phone": "(303) 555-0103",
+      "locationCount": 1,
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "createdOn": "2026-07-14T19:15:00Z",
+      "lastActivity": "2026-10-03T16:50:00Z"
+    },
+    {
+      "id": "acct-kindlewry-studio-ct-4",
+      "number": 4,
+      "accountId": "acct-kindlewry-studio",
+      "name": "Dorian Lindahl",
+      "firstName": "Dorian",
+      "lastName": "Lindahl",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "locationIds": [
+        "acct-kindlewry-studio-loc-1"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-kindlewry-studio-004",
+      "email": "dorian.lindahl@ridgelinehomes.example.com",
+      "phone": "(720) 555-0104",
+      "locationCount": 1,
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "createdOn": "2026-06-30T14:25:00Z",
+      "lastActivity": "2026-10-04T19:05:00Z"
+    },
+    {
+      "id": "acct-kindlewry-studio-ct-5",
+      "number": 5,
+      "accountId": "acct-kindlewry-studio",
+      "name": "Esme Tavares",
+      "firstName": "Esme",
+      "lastName": "Tavares",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "locationIds": [
+        "acct-kindlewry-studio-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-kindlewry-studio-005",
+      "email": "esme.tavares@keystonelegal.example.com",
+      "phone": "(303) 555-0105",
+      "locationCount": 1,
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "createdOn": "2026-10-12T17:40:00Z",
+      "lastActivity": "2026-10-13T18:05:00Z"
+    },
+    {
+      "id": "acct-kindlewry-studio-ct-6",
+      "number": 6,
+      "accountId": "acct-kindlewry-studio",
+      "name": "Fabian Brannigan",
+      "firstName": "Fabian",
+      "lastName": "Brannigan",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "locationIds": [
+        "acct-kindlewry-studio-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-kindlewry-studio-006",
+      "email": "fabian.brannigan@prospect.example.com",
+      "locationCount": 1,
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "createdOn": "2026-09-28T20:10:00Z",
+      "lastActivity": "2026-10-03T21:10:00Z"
+    },
+    {
+      "id": "acct-kindlewry-studio-ct-7",
+      "number": 7,
+      "accountId": "acct-kindlewry-studio",
+      "name": "Greta Ivers",
+      "firstName": "Greta",
+      "lastName": "Ivers",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "locationIds": [
+        "acct-kindlewry-studio-loc-1"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-kindlewry-studio-007",
+      "email": "greta.ivers@meridianfood.example.com",
+      "phone": "(303) 555-0106",
+      "locationCount": 1,
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "createdOn": "2026-09-14T15:40:00Z",
+      "lastActivity": "2026-09-30T20:00:00Z"
+    },
+    {
+      "id": "acct-kindlewry-studio-ct-8",
+      "number": 8,
+      "accountId": "acct-kindlewry-studio",
+      "name": "Hollis Ridley",
+      "firstName": "Hollis",
+      "lastName": "Ridley",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-kindlewry-studio-loc-1",
+      "locationIds": [
+        "acct-kindlewry-studio-loc-1"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-kindlewry-studio-008",
+      "email": "hollis.ridley@tidewaterdental.example.com",
+      "phone": "(720) 555-0107",
+      "locationCount": 1,
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "createdOn": "2026-09-21T18:10:00Z",
+      "lastActivity": "2026-10-19T15:40:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-kindlewry-studio-rev-1",
+      "number": 1,
+      "accountId": "acct-kindlewry-studio",
+      "locationId": "acct-kindlewry-studio-loc-1",
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Ivy Blackwood",
+      "date": "2026-09-14T21:25:00Z",
+      "text": "Kindlewry Studio took over a brand identity for our team and the difference showed within a month. Ines Okoro sends a short weekly update with exactly what changed and what to do next.",
+      "photoCount": 0,
+      "featured": true,
+      "archived": false,
+      "employeesMentioned": [
+        "Ines Okoro"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Ivy! We'll pass this along to the whole Kindlewry Studio team. See you next time.\n\nKindlewry Studio Marketing",
+        "author": "Kindlewry Studio Marketing",
+        "date": "2026-09-15T19:55:00Z"
+      }
+    },
+    {
+      "id": "acct-kindlewry-studio-rev-2",
+      "number": 2,
+      "accountId": "acct-kindlewry-studio",
+      "locationId": "acct-kindlewry-studio-loc-1",
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Jasper Ingram",
+      "date": "2026-08-31T16:55:00Z",
+      "text": "Solid partner for a local landing page. Reporting is clear and Max Fairbanks is responsive. Onboarding with Kindlewry Studio took a couple of weeks longer than planned.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Max Fairbanks"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Jasper. It means a lot to our team.\n\nKindlewry Studio Marketing",
+        "author": "Kindlewry Studio Marketing",
+        "date": "2026-09-02T12:00:00Z"
+      }
+    },
+    {
+      "id": "acct-kindlewry-studio-rev-3",
+      "number": 3,
+      "accountId": "acct-kindlewry-studio",
+      "locationId": "acct-kindlewry-studio-loc-1",
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Kira Pembrook",
+      "date": "2026-08-17T19:20:00Z",
+      "text": "Our kickoff with Kindlewry Studio for review-request templates was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Kira, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Kindlewry Studio. A manager will reach out this week to make it right.\n\nKindlewry Studio Marketing",
+        "author": "Kindlewry Studio Marketing",
+        "date": "2026-08-20T08:25:00Z"
+      }
+    },
+    {
+      "id": "acct-kindlewry-studio-rev-4",
+      "number": 4,
+      "accountId": "acct-kindlewry-studio",
+      "locationId": "acct-kindlewry-studio-loc-1",
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Leon Wexford",
+      "date": "2026-08-03T14:20:00Z",
+      "text": "We run more than 20 client locations and Kindlewry Studio is the first partner that made a photo library feel manageable. Max Fairbanks knows our markets by name.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Max Fairbanks"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Leon! We'll pass this along to the whole Kindlewry Studio team. See you next time.\n\nKindlewry Studio Marketing",
+        "author": "Kindlewry Studio Marketing",
+        "date": "2026-08-05T12:15:00Z"
+      }
+    },
+    {
+      "id": "acct-kindlewry-studio-rev-5",
+      "number": 5,
+      "accountId": "acct-kindlewry-studio",
+      "locationId": "acct-kindlewry-studio-loc-1",
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Marisa Esposito",
+      "date": "2026-07-20T17:45:00Z",
+      "text": "Kindlewry Studio is reliable and the reporting is clear. A few requests on a local landing page took longer than we'd like during busy weeks, but the quality was always there.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-kindlewry-studio-rev-6",
+      "number": 6,
+      "accountId": "acct-kindlewry-studio",
+      "locationId": "acct-kindlewry-studio-loc-1",
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Nico Lindahl",
+      "date": "2026-07-06T20:10:00Z",
+      "text": "When one of our client locations got hit with a wave of negative reviews, Max Fairbanks had draft responses ready the same afternoon. Calm, specific, and on-brand.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Max Fairbanks"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-kindlewry-studio-rev-7",
+      "number": 7,
+      "accountId": "acct-kindlewry-studio",
+      "locationId": "acct-kindlewry-studio-loc-1",
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Odette Tavares",
+      "date": "2026-10-15T15:35:00Z",
+      "text": "Good results on a photo library. Kickoff took a little longer than planned, but Ines Okoro kept things moving after that.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Ines Okoro"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-kindlewry-studio-rev-8",
+      "number": 8,
+      "accountId": "acct-kindlewry-studio",
+      "locationId": "acct-kindlewry-studio-loc-1",
+      "location": "Kindlewry Studio Marketing (Denver, CO)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Pierce Brannigan",
+      "date": "2026-10-01T18:30:00Z",
+      "text": "Max Fairbanks ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
+      "photoCount": 1,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Max Fairbanks"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for the kind words, Pierce. We're glad everything went smoothly and look forward to seeing you again.\n\nKindlewry Studio Marketing",
+        "author": "Kindlewry Studio Marketing",
+        "date": "2026-10-01T21:45:00Z"
+      }
+    }
+  ]
+}

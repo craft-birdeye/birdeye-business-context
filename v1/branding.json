@@ -1,0 +1,847 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/branding.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "branding": {
+    "acct-evercoast": {
+      "brandName": "Evercoast Dental",
+      "tagline": "Neighborhood dentistry from the Pacific to the Rockies",
+      "logo": {
+        "kind": "monogram",
+        "initials": "ED",
+        "path": "v1/logos/acct-evercoast.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-evercoast.svg"
+      },
+      "colors": {
+        "primary": "#0F6E8C",
+        "secondary": "#E8F4F7",
+        "accent": "#F2A541",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Warm, reassuring, and plain-spoken; explains clinical steps without jargon.",
+        "formality": "neutral",
+        "replySignoff": "The Evercoast Dental patient care team"
+      }
+    },
+    "acct-brisquen-dental": {
+      "brandName": "Brisquen Dental",
+      "tagline": "Dentistry for the East Valley",
+      "logo": {
+        "kind": "monogram",
+        "initials": "BD",
+        "path": "v1/logos/acct-brisquen-dental.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-brisquen-dental.svg"
+      },
+      "colors": {
+        "primary": "#B5452B",
+        "secondary": "#FBEDE7",
+        "accent": "#2F5D62",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Friendly and energetic with a desert-town familiarity.",
+        "formality": "casual",
+        "replySignoff": "Team Brisquen Dental"
+      }
+    },
+    "acct-tovaline-ortho": {
+      "brandName": "Tovaline Ortho",
+      "tagline": "Straight smiles, suburban schedules",
+      "logo": {
+        "kind": "monogram",
+        "initials": "TO",
+        "path": "v1/logos/acct-tovaline-ortho.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-tovaline-ortho.svg"
+      },
+      "colors": {
+        "primary": "#1F4E9C",
+        "secondary": "#EAF1FB",
+        "accent": "#3FB9A7",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Upbeat and encouraging, speaks to teens and parents equally.",
+        "formality": "casual",
+        "replySignoff": "Your Tovaline Ortho crew"
+      }
+    },
+    "acct-saltwick-dental": {
+      "brandName": "Saltwick Dental",
+      "tagline": "Bay Area dentistry that runs on time",
+      "logo": {
+        "kind": "monogram",
+        "initials": "SD",
+        "path": "v1/logos/acct-saltwick-dental.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-saltwick-dental.svg"
+      },
+      "colors": {
+        "primary": "#2E6F95",
+        "secondary": "#EEF5F9",
+        "accent": "#F28F79",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Modern, concise, and a little playful; respects busy professionals' time.",
+        "formality": "neutral",
+        "replySignoff": "Saltwick Dental Collective"
+      }
+    },
+    "acct-thimbleleaf-dental": {
+      "brandName": "Thimbleleaf Family Dental",
+      "tagline": "Family dentistry on South Lamar",
+      "logo": {
+        "kind": "monogram",
+        "initials": "TF",
+        "path": "v1/logos/acct-thimbleleaf-dental.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-thimbleleaf-dental.svg"
+      },
+      "colors": {
+        "primary": "#2F6B4F",
+        "secondary": "#EFF6F1",
+        "accent": "#C98B3B",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Small-town warm and personal; the owner-dentist's voice, first names welcome.",
+        "formality": "casual",
+        "replySignoff": "Dr. Anika Bose and the Thimbleleaf team"
+      }
+    },
+    "acct-puddlewick-kids": {
+      "brandName": "Puddlewick Kids Dentistry",
+      "tagline": "Happy visits for little teeth",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PK",
+        "path": "v1/logos/acct-puddlewick-kids.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-puddlewick-kids.svg"
+      },
+      "colors": {
+        "primary": "#D9622B",
+        "secondary": "#FFF3E8",
+        "accent": "#4A9D5B",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Gentle, cheerful, and kid-friendly; reassures anxious parents.",
+        "formality": "casual",
+        "replySignoff": "Dr. Priya Sandhu and the Puddlewick Kids crew"
+      }
+    },
+    "acct-brindlemoss-dental": {
+      "brandName": "Brindlemoss Dental Studio",
+      "tagline": "Restorative and cosmetic dentistry in Nashville",
+      "logo": {
+        "kind": "monogram",
+        "initials": "BD",
+        "path": "v1/logos/acct-brindlemoss-dental.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-brindlemoss-dental.svg"
+      },
+      "colors": {
+        "primary": "#3B3A5C",
+        "secondary": "#F3F2F8",
+        "accent": "#C9A227",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Polished and boutique; calm, confident, detail-oriented.",
+        "formality": "formal",
+        "replySignoff": "Brindlemoss Dental Studio"
+      }
+    },
+    "acct-dentavane-channel": {
+      "brandName": "Dentavane",
+      "tagline": "Reputation programs for independent dental groups",
+      "logo": {
+        "kind": "monogram",
+        "initials": "D",
+        "path": "v1/logos/acct-dentavane-channel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-dentavane-channel.svg"
+      },
+      "colors": {
+        "primary": "#6B3FA0",
+        "secondary": "#F4EEFA",
+        "accent": "#F2B134",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Consultative and data-led; speaks to dental group owners and office managers.",
+        "formality": "neutral",
+        "replySignoff": "The Dentavane partner team"
+      }
+    },
+    "acct-hearthquell-home": {
+      "brandName": "Hearthquell",
+      "tagline": "Heating, cooling, plumbing, and electrical for the Front Range",
+      "logo": {
+        "kind": "monogram",
+        "initials": "H",
+        "path": "v1/logos/acct-hearthquell-home.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hearthquell-home.svg"
+      },
+      "colors": {
+        "primary": "#C8102E",
+        "secondary": "#FDECEE",
+        "accent": "#1D3557",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Direct, dependable, no-nonsense; leads with arrival windows and upfront pricing.",
+        "formality": "neutral",
+        "replySignoff": "Hearthquell Home Services"
+      }
+    },
+    "acct-pipewren-plumbing": {
+      "brandName": "Pipewren Plumbing",
+      "tagline": "24/7 plumbing across the Valley",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PP",
+        "path": "v1/logos/acct-pipewren-plumbing.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-pipewren-plumbing.svg"
+      },
+      "colors": {
+        "primary": "#0077B6",
+        "secondary": "#E6F4FB",
+        "accent": "#F4A261",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Fast, practical, and reassuring in emergencies.",
+        "formality": "casual",
+        "replySignoff": "Pipewren Plumbing & Drain"
+      }
+    },
+    "acct-quarrytide-electric": {
+      "brandName": "Quarrytide Electric",
+      "tagline": "Licensed electricians across San Diego County",
+      "logo": {
+        "kind": "monogram",
+        "initials": "QE",
+        "path": "v1/logos/acct-quarrytide-electric.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-quarrytide-electric.svg"
+      },
+      "colors": {
+        "primary": "#F2C14E",
+        "secondary": "#FFF9E8",
+        "accent": "#264653",
+        "onPrimary": "#111111"
+      },
+      "tone": {
+        "voice": "Safety-first, clear, and friendly; explains code requirements simply.",
+        "formality": "neutral",
+        "replySignoff": "Quarrytide Electric"
+      }
+    },
+    "acct-thatchwhim-outdoor": {
+      "brandName": "Thatchwhim",
+      "tagline": "Lawn and outdoor care for Charlotte suburbs",
+      "logo": {
+        "kind": "monogram",
+        "initials": "T",
+        "path": "v1/logos/acct-thatchwhim-outdoor.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-thatchwhim-outdoor.svg"
+      },
+      "colors": {
+        "primary": "#3A7D44",
+        "secondary": "#EEF7EF",
+        "accent": "#9DC08B",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Neighborly and seasonal; talks routes, weather, and curb appeal.",
+        "formality": "casual",
+        "replySignoff": "Your Thatchwhim route team"
+      }
+    },
+    "acct-coilhaven-hvac": {
+      "brandName": "Coilhaven Heating & Cooling",
+      "tagline": "Owner-operated HVAC in Boulder",
+      "logo": {
+        "kind": "monogram",
+        "initials": "CH",
+        "path": "v1/logos/acct-coilhaven-hvac.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-coilhaven-hvac.svg"
+      },
+      "colors": {
+        "primary": "#D35400",
+        "secondary": "#FDF0E7",
+        "accent": "#2C3E50",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Owner-operator honest; personal, plainspoken, signs replies by name.",
+        "formality": "casual",
+        "replySignoff": "Gary Lindqvist, owner, Coilhaven Heating & Cooling"
+      }
+    },
+    "acct-patchwhit-handyman": {
+      "brandName": "Patchwhit Handyman",
+      "tagline": "Punch lists, patches, and small fixes in Columbus",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PH",
+        "path": "v1/logos/acct-patchwhit-handyman.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-patchwhit-handyman.svg"
+      },
+      "colors": {
+        "primary": "#7A4E2D",
+        "secondary": "#F7F0EA",
+        "accent": "#5B8C5A",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Down-to-earth and helpful; small crew that remembers your house.",
+        "formality": "casual",
+        "replySignoff": "Pete and the Patchwhit crew"
+      }
+    },
+    "acct-hollowbeck-pest": {
+      "brandName": "Hollowbeck Pest Control",
+      "tagline": "Family-safe pest control in the mountains",
+      "logo": {
+        "kind": "monogram",
+        "initials": "HP",
+        "path": "v1/logos/acct-hollowbeck-pest.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hollowbeck-pest.svg"
+      },
+      "colors": {
+        "primary": "#2B4C7E",
+        "secondary": "#EDF2F9",
+        "accent": "#7FB069",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Calm and knowledgeable; pet- and family-safety forward.",
+        "formality": "neutral",
+        "replySignoff": "Hollowbeck Pest Control"
+      }
+    },
+    "acct-franquill-channel": {
+      "brandName": "Franquill Network",
+      "tagline": "Listings and reviews for home-services franchisees",
+      "logo": {
+        "kind": "monogram",
+        "initials": "FN",
+        "path": "v1/logos/acct-franquill-channel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-franquill-channel.svg"
+      },
+      "colors": {
+        "primary": "#E76F51",
+        "secondary": "#FDF0EC",
+        "accent": "#2A9D8F",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Supportive franchisor voice; process-oriented, celebrates franchisee wins.",
+        "formality": "neutral",
+        "replySignoff": "Franquill Franchise Network support"
+      }
+    },
+    "acct-varrowmere-law": {
+      "brandName": "Varrowmere Law",
+      "tagline": "Business and employment counsel for North Texas",
+      "logo": {
+        "kind": "monogram",
+        "initials": "VL",
+        "path": "v1/logos/acct-varrowmere-law.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-varrowmere-law.svg"
+      },
+      "colors": {
+        "primary": "#1B2A41",
+        "secondary": "#EEF0F4",
+        "accent": "#B08D57",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Measured, confident, and discreet; never discusses case specifics in public.",
+        "formality": "formal",
+        "replySignoff": "Varrowmere & Associates Law Firm"
+      }
+    },
+    "acct-firthgale-counsel": {
+      "brandName": "Firthgale Counsel",
+      "tagline": "Corporate, IP, and employment counsel in the Northwest",
+      "logo": {
+        "kind": "monogram",
+        "initials": "FC",
+        "path": "v1/logos/acct-firthgale-counsel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-firthgale-counsel.svg"
+      },
+      "colors": {
+        "primary": "#21445B",
+        "secondary": "#ECF2F6",
+        "accent": "#6BA292",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Collaborative, precise, and understated Pacific Northwest professionalism.",
+        "formality": "formal",
+        "replySignoff": "Firthgale Counsel LLP"
+      }
+    },
+    "acct-plainsby-litigation": {
+      "brandName": "Plainsby Litigation",
+      "tagline": "Commercial litigators across the Midwest",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PL",
+        "path": "v1/logos/acct-plainsby-litigation.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-plainsby-litigation.svg"
+      },
+      "colors": {
+        "primary": "#5C2A2A",
+        "secondary": "#F7EEEE",
+        "accent": "#D4A373",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Steady and straightforward; trial-ready confidence without bravado.",
+        "formality": "formal",
+        "replySignoff": "Plainsby Litigation Group"
+      }
+    },
+    "acct-pellwrin-tax": {
+      "brandName": "Pellwrin Tax",
+      "tagline": "Tax and estate planning in the capital region",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PT",
+        "path": "v1/logos/acct-pellwrin-tax.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-pellwrin-tax.svg"
+      },
+      "colors": {
+        "primary": "#2D3E50",
+        "secondary": "#EEF1F4",
+        "accent": "#8E6C3A",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Precise, patient, and reassuring about complex family and tax matters.",
+        "formality": "formal",
+        "replySignoff": "Pellwrin Tax & Estates"
+      }
+    },
+    "acct-wickhallow-law": {
+      "brandName": "Wickhallow Law",
+      "tagline": "Family and estate law in downtown Seattle",
+      "logo": {
+        "kind": "monogram",
+        "initials": "WL",
+        "path": "v1/logos/acct-wickhallow-law.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-wickhallow-law.svg"
+      },
+      "colors": {
+        "primary": "#30577A",
+        "secondary": "#EDF3F8",
+        "accent": "#E0A458",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Compassionate and personal; solo-practitioner warmth.",
+        "formality": "neutral",
+        "replySignoff": "Nora Whitcomb, Wickhallow Law Office"
+      }
+    },
+    "acct-valdrift-immigration": {
+      "brandName": "Valdrift Immigration Law",
+      "tagline": "Immigration counsel for Bay Area families and employers",
+      "logo": {
+        "kind": "monogram",
+        "initials": "VI",
+        "path": "v1/logos/acct-valdrift-immigration.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-valdrift-immigration.svg"
+      },
+      "colors": {
+        "primary": "#8C3B2E",
+        "secondary": "#F9EEEC",
+        "accent": "#4E7D5B",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Empathetic, multilingual, and clear about timelines.",
+        "formality": "neutral",
+        "replySignoff": "Valdrift Immigration Law"
+      }
+    },
+    "acct-gavelmoor-injury": {
+      "brandName": "Gavelmoor Personal Injury",
+      "tagline": "Injury lawyers who pick up the phone",
+      "logo": {
+        "kind": "monogram",
+        "initials": "GP",
+        "path": "v1/logos/acct-gavelmoor-injury.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-gavelmoor-injury.svg"
+      },
+      "colors": {
+        "primary": "#3E4A3D",
+        "secondary": "#F0F2EF",
+        "accent": "#C1440E",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Determined and empathetic; plain talk about recovery and settlements.",
+        "formality": "neutral",
+        "replySignoff": "Gavelmoor Personal Injury"
+      }
+    },
+    "acct-counselvane-channel": {
+      "brandName": "Counselvane",
+      "tagline": "Referral and reputation network for consumer law firms",
+      "logo": {
+        "kind": "monogram",
+        "initials": "C",
+        "path": "v1/logos/acct-counselvane-channel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-counselvane-channel.svg"
+      },
+      "colors": {
+        "primary": "#003B5C",
+        "secondary": "#E8F0F5",
+        "accent": "#F6AE2D",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Professional and partner-focused; emphasizes lead quality and response times.",
+        "formality": "formal",
+        "replySignoff": "Counselvane partner success"
+      }
+    },
+    "acct-northquell": {
+      "brandName": "Northquell",
+      "tagline": "Reputation and local search for multi-location brands",
+      "logo": {
+        "kind": "monogram",
+        "initials": "N",
+        "path": "v1/logos/acct-northquell.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-northquell.svg"
+      },
+      "colors": {
+        "primary": "#14213D",
+        "secondary": "#E9EEF6",
+        "accent": "#FCA311",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Sharp, candid, and data-literate; short sentences, concrete next steps.",
+        "formality": "neutral",
+        "replySignoff": "Northquell Digital Partners"
+      }
+    },
+    "acct-skelvane-media": {
+      "brandName": "Skelvane",
+      "tagline": "Performance and brand for multi-location Texas businesses",
+      "logo": {
+        "kind": "monogram",
+        "initials": "S",
+        "path": "v1/logos/acct-skelvane-media.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-skelvane-media.svg"
+      },
+      "colors": {
+        "primary": "#5A189A",
+        "secondary": "#F3ECFA",
+        "accent": "#FF6D00",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Bold, creative, and results-focused with Texas swagger.",
+        "formality": "casual",
+        "replySignoff": "Skelvane Media"
+      }
+    },
+    "acct-lumbrisk-reputation": {
+      "brandName": "Lumbrisk",
+      "tagline": "Review response and listings hygiene for the Northeast",
+      "logo": {
+        "kind": "monogram",
+        "initials": "L",
+        "path": "v1/logos/acct-lumbrisk-reputation.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-lumbrisk-reputation.svg"
+      },
+      "colors": {
+        "primary": "#0B3954",
+        "secondary": "#E7F0F5",
+        "accent": "#FF5A5F",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Calm, methodical New England professionalism; reporting-heavy.",
+        "formality": "formal",
+        "replySignoff": "Lumbrisk Reputation Co"
+      }
+    },
+    "acct-inkfallow-creative": {
+      "brandName": "Inkfallow",
+      "tagline": "Creative for local businesses",
+      "logo": {
+        "kind": "monogram",
+        "initials": "I",
+        "path": "v1/logos/acct-inkfallow-creative.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-inkfallow-creative.svg"
+      },
+      "colors": {
+        "primary": "#E63946",
+        "secondary": "#FDECEE",
+        "accent": "#457B9D",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Quirky, warm, and design-forward.",
+        "formality": "casual",
+        "replySignoff": "The Inkfallow crew"
+      }
+    },
+    "acct-tallomere-partners": {
+      "brandName": "Tallomere",
+      "tagline": "Measurement-led local marketing",
+      "logo": {
+        "kind": "monogram",
+        "initials": "T",
+        "path": "v1/logos/acct-tallomere-partners.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-tallomere-partners.svg"
+      },
+      "colors": {
+        "primary": "#264653",
+        "secondary": "#EAF1F3",
+        "accent": "#E9C46A",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Analytical and precise; dashboards, benchmarks, and clear ROI.",
+        "formality": "formal",
+        "replySignoff": "Tallomere Partners"
+      }
+    },
+    "acct-hopskein-digital": {
+      "brandName": "Hopskein Digital",
+      "tagline": "Digital marketing for Nashville small businesses",
+      "logo": {
+        "kind": "monogram",
+        "initials": "HD",
+        "path": "v1/logos/acct-hopskein-digital.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hopskein-digital.svg"
+      },
+      "colors": {
+        "primary": "#118AB2",
+        "secondary": "#E7F5FA",
+        "accent": "#EF476F",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Scrappy, friendly, and hands-on; two-person shop energy.",
+        "formality": "casual",
+        "replySignoff": "Wes and Tamsin, Hopskein Digital"
+      }
+    },
+    "acct-kindlewry-studio": {
+      "brandName": "Kindlewry Studio",
+      "tagline": "Brand and local marketing studio in Denver",
+      "logo": {
+        "kind": "monogram",
+        "initials": "KS",
+        "path": "v1/logos/acct-kindlewry-studio.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-kindlewry-studio.svg"
+      },
+      "colors": {
+        "primary": "#2B2D42",
+        "secondary": "#EDEDF2",
+        "accent": "#EF8354",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Minimal, design-led, and thoughtful.",
+        "formality": "neutral",
+        "replySignoff": "Kindlewry Studio Marketing"
+      }
+    },
+    "acct-tramvelle-field": {
+      "brandName": "Tramvelle Field",
+      "tagline": "Field marketing across the Southeast",
+      "logo": {
+        "kind": "monogram",
+        "initials": "TF",
+        "path": "v1/logos/acct-tramvelle-field.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-tramvelle-field.svg"
+      },
+      "colors": {
+        "primary": "#06D6A0",
+        "secondary": "#E8FBF5",
+        "accent": "#073B4C",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "High-energy, on-the-ground, event-savvy.",
+        "formality": "casual",
+        "replySignoff": "Tramvelle Field Marketing"
+      }
+    },
+    "acct-torqvale-auto": {
+      "brandName": "Torqvale",
+      "tagline": "Auto care for Denver fleets and drivers",
+      "logo": {
+        "kind": "monogram",
+        "initials": "T",
+        "path": "v1/logos/acct-torqvale-auto.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-torqvale-auto.svg"
+      },
+      "colors": {
+        "primary": "#005F73",
+        "secondary": "#E6F2F4",
+        "accent": "#EE9B00",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Efficient, fleet-savvy, and transparent about timelines and parts.",
+        "formality": "neutral",
+        "replySignoff": "Torqvale Auto Care"
+      }
+    },
+    "acct-crestovar-motors": {
+      "brandName": "Crestovar Motors",
+      "tagline": "Dealer service across the Wasatch Front",
+      "logo": {
+        "kind": "monogram",
+        "initials": "CM",
+        "path": "v1/logos/acct-crestovar-motors.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-crestovar-motors.svg"
+      },
+      "colors": {
+        "primary": "#0A2463",
+        "secondary": "#E8ECF6",
+        "accent": "#D8315B",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Courteous dealer-service polish; proactive updates.",
+        "formality": "neutral",
+        "replySignoff": "Crestovar Motors Service"
+      }
+    },
+    "acct-treadmarsh-tire": {
+      "brandName": "Treadmarsh Tire",
+      "tagline": "Tires and quick service around Houston",
+      "logo": {
+        "kind": "monogram",
+        "initials": "TT",
+        "path": "v1/logos/acct-treadmarsh-tire.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-treadmarsh-tire.svg"
+      },
+      "colors": {
+        "primary": "#023E8A",
+        "secondary": "#E6EEF8",
+        "accent": "#FFB703",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Quick, friendly, and value-minded.",
+        "formality": "casual",
+        "replySignoff": "Treadmarsh Tire & Auto"
+      }
+    },
+    "acct-amperlund-ev": {
+      "brandName": "Amperlund EV",
+      "tagline": "Independent EV service in California",
+      "logo": {
+        "kind": "monogram",
+        "initials": "AE",
+        "path": "v1/logos/acct-amperlund-ev.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-amperlund-ev.svg"
+      },
+      "colors": {
+        "primary": "#00A6A6",
+        "secondary": "#E6F7F7",
+        "accent": "#1B1B3A",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Tech-forward, precise, and enthusiastic about EVs.",
+        "formality": "neutral",
+        "replySignoff": "Amperlund EV Service Labs"
+      }
+    },
+    "acct-cornerwick-garage": {
+      "brandName": "Cornerwick Garage",
+      "tagline": "Honest repairs in Pittsburgh",
+      "logo": {
+        "kind": "monogram",
+        "initials": "CG",
+        "path": "v1/logos/acct-cornerwick-garage.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-cornerwick-garage.svg"
+      },
+      "colors": {
+        "primary": "#9B2226",
+        "secondary": "#F8ECEC",
+        "accent": "#E9D8A6",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Honest neighborhood mechanic; plain talk and photos of worn parts.",
+        "formality": "casual",
+        "replySignoff": "Frank and the Cornerwick Garage crew"
+      }
+    },
+    "acct-buffwren-detail": {
+      "brandName": "Buffwren Detail Studio",
+      "tagline": "Studio and mobile detailing in Austin",
+      "logo": {
+        "kind": "monogram",
+        "initials": "BD",
+        "path": "v1/logos/acct-buffwren-detail.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-buffwren-detail.svg"
+      },
+      "colors": {
+        "primary": "#111111",
+        "secondary": "#F2F2F2",
+        "accent": "#C0A062",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Enthusiast, meticulous, and premium.",
+        "formality": "neutral",
+        "replySignoff": "Buffwren Detail Studio"
+      }
+    },
+    "acct-panelbrook-collision": {
+      "brandName": "Panelbrook Collision",
+      "tagline": "Family-owned collision repair in Milwaukee",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PC",
+        "path": "v1/logos/acct-panelbrook-collision.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-panelbrook-collision.svg"
+      },
+      "colors": {
+        "primary": "#1D4E89",
+        "secondary": "#E8EFF7",
+        "accent": "#F79256",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Reassuring after a stressful accident; walks through insurance steps.",
+        "formality": "neutral",
+        "replySignoff": "The Kowalbrook family, Panelbrook Collision Center"
+      }
+    },
+    "acct-lotquill-channel": {
+      "brandName": "Lotquill",
+      "tagline": "Review and listings programs for dealer groups",
+      "logo": {
+        "kind": "monogram",
+        "initials": "L",
+        "path": "v1/logos/acct-lotquill-channel.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-lotquill-channel.svg"
+      },
+      "colors": {
+        "primary": "#3A0CA3",
+        "secondary": "#EEE9F9",
+        "accent": "#4CC9F0",
+        "onPrimary": "#FFFFFF"
+      },
+      "tone": {
+        "voice": "Dealer-savvy and metrics-focused; partner-to-partner tone.",
+        "formality": "neutral",
+        "replySignoff": "Lotquill Dealer Marketing"
+      }
+    }
+  }
+}

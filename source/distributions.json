@@ -1,0 +1,279 @@
+{
+  "$comment": "Aggregate generator parameters per industry profile. Every number is either an aggregate figure from a public source cited in docs/distributions.md (key in 'src') or an estimate (src 'estimate'). No real business, review, reviewer, address, or phone is stored here or anywhere in this repo. scripts/generate.mjs draws from these deterministically: each draw is seeded by 'seed' + the row id, so values are stable across weekly rebuilds.",
+  "version": "1.1.0",
+  "seed": "birdeye-business-context/distributions/1.1",
+  "profileFor": {
+    "$comment": "Channel (CH-SLV) accounts and advertising-agency accounts use the agency profile; everyone else uses their industryId.",
+    "channelSegment": "CH-SLV",
+    "agencyIndustry": "advertising-agency",
+    "agencyProfile": "agency"
+  },
+  "curation": {
+    "$comment": "quickScenario accounts are hand-written demo stories; their reviews, ratings, replies, and photo counts are left exactly as authored. Every other account's review sample is reshaped from these distributions.",
+    "reshapeQuickScenarioAccounts": false,
+    "minLowStarReviewsPerAccount": 1,
+    "minLowStarReviewsSrc": "estimate: demo floor so every account's Reviews inbox has at least one 1-2 star review to reply to"
+  },
+  "display": {
+    "$comment": "Screen-facing vocabulary, kept in one place so design can change it without touching the generator. These settings were confirmed by Balaji K on 2026-10-21 (docs/distributions.md#design-decisions).",
+    "sites": [ { "id": "google", "label": "Google" }, { "id": "facebook", "label": "Facebook" }, { "id": "yelp", "label": "Yelp" } ],
+    "businessStatus": { "open": "Open", "temporarilyClosed": "Temporarily closed", "permanentlyClosed": "Permanently closed" },
+    "listingUrlTemplate": "https://{site}.example.com/biz/{slug}",
+    "attributeGroupsExcluded": [ "From the business" ],
+    "attributeGroupsExcludedSrc": "Design decision (Balaji K, 2026-10-21): identity attributes (for example owner-identity badges) are left out so demo businesses make no identity claims on screen.",
+    "ratingDecimals": 1
+  },
+  "common": {
+    "siteShare": { "google": 0.81, "facebook": 0.1, "yelp": 0.09, "src": "google: birdeye-sor-2025; facebook/yelp split of the remaining 19%: estimate" },
+    "siteListedProbability": { "google": 1, "facebook": 0.85, "yelp": 0.75, "src": "estimate (a site is always listed when the location has a sampled review there)" },
+    "siteRatingOffset": { "google": 0, "facebook": 0.05, "yelp": -0.5, "src": "direction: raval-ftc-2024 (Google and Facebook ratings run higher than Yelp, most of all for low-quality businesses); size: estimate" },
+    "listingReviewCountSigma": { "value": 1, "src": "estimate (log-normal spread around the published medians)" },
+    "listingRatingSd": {
+      "value": 0.18,
+      "min": 3.6,
+      "max": 5,
+      "src": "estimate (feedback-guru-2025 reports only 2-4% of listings in these industries below 4.0). A perfect 5.0 target is allowed only up to 20 reviews; larger listings cap at 4.95 (estimate; feedback-guru-2025: 20-23% of listings are a perfect 5.0, mostly small ones).",
+      "maxWhenOverReviews": { "reviews": 20, "max": 4.95 }
+    },
+    "otherSiteCountSigma": { "value": 0.5, "src": "estimate" },
+    "listingPhotos": { "median": 11, "sigma": 1.34, "min": 1, "max": 400, "src": "brightlocal-gbp-insights-2019: median 11 photos (listings with 1+ photo), 6% have one photo, 24% have 2-5; sigma fitted to those two shares (estimate)" },
+    "reviewPhotos": { "shareWithPhotos": 0.12, "countWeights": { "1": 0.6, "2": 0.25, "3": 0.1, "4": 0.05 }, "src": "estimate" },
+    "reviewLengthMedianChars": {
+      "1": 315,
+      "2": 298,
+      "3": 116,
+      "4": 48,
+      "5": 119,
+      "src": "trustreviews-2026 (median length by star). The generator never emits rating-only reviews because demo screens need text (birdeye-sor-2025: 81% of reviews include a comment)."
+    },
+    "replyRateByStar": {
+      "1": 0.9,
+      "2": 0.9,
+      "3": 0.8,
+      "4": 0.7,
+      "5": 0.72,
+      "src": "overall level anchored to birdeye-sor-2026 (75.5% of reviews get a response); split by star: estimate (trustreviews-2026 shows unmanaged profiles reply to ~45-54%)"
+    },
+    "replyLagHours": {
+      "$comment": "Share of replies posted within each bound, in hours after the review.",
+      "buckets": [ { "maxHours": 4, "share": 0.2 }, { "maxHours": 24, "share": 0.35 }, { "maxHours": 72, "share": 0.25 }, { "maxHours": 168, "share": 0.15 }, { "maxHours": 336, "share": 0.05 } ],
+      "src": "estimate; context: reviewtrackers-2022 (53% of reviewers expect a reply within 7 days, 1 in 3 within 3 days), reviewtrackers-2023 (industry average reply times of about 2-10 days; healthcare and legal about 4)"
+    },
+    "claimed": {
+      "google": { "Active": 1, "Demo": 0.9, "Needs setup": 0.5, "Inactive": 0.8 },
+      "facebook": { "Active": 0.85, "Demo": 0.8, "Needs setup": 0.4, "Inactive": 0.7 },
+      "yelp": { "Active": 0.65, "Demo": 0.6, "Needs setup": 0.3, "Inactive": 0.5 },
+      "verifiedIfClaimed": 0.95,
+      "src": "estimate"
+    },
+    "coordinates": { "minKm": 0.3, "maxKm": 12, "validateWithinKm": 25, "src": "city centers: OpenStreetMap Nominatim (osm-nominatim); jitter radius: estimate" },
+    "secondaryCategoryCountWeights": { "0": 0.25, "1": 0.4, "2": 0.25, "3": 0.1, "src": "estimate" },
+    "holidays": {
+      "$comment": "US holidays used for specialHours, in a window of 30 days before to 90 days after the build date.",
+      "windowDaysBefore": 30,
+      "windowDaysAfter": 90,
+      "list": [ "New Year's Day", "Memorial Day", "Independence Day", "Labor Day", "Thanksgiving Day", "Christmas Eve", "Christmas Day", "New Year's Eve" ]
+    },
+    "businessStatusWhenInactive": { "open": 0.5, "temporarilyClosed": 0.35, "permanentlyClosed": 0.15, "src": "estimate; Active, Demo, and Needs setup locations are always Open, as are headquarters" }
+  },
+  "profiles": {
+    "dental-healthcare": {
+      "label": "Dental and healthcare",
+      "starShare": {
+        "1": 0.05,
+        "2": 0.02,
+        "3": 0.03,
+        "4": 0.1,
+        "5": 0.8,
+        "src": "J-shape from trustreviews-2026 (5.6% one-star, 87.8% five-star across monitored profiles); tuned to the dentist median of 4.8-4.9 in feedback-guru-2025 and locus-2026; estimate"
+      },
+      "listingRatingMedian": { "value": 4.85, "src": "feedback-guru-2025 (dentists 4.9), locus-2026 (dentists 4.8)" },
+      "googleReviewCountMedianByCategory": {
+        "Dentist": { "value": 300, "src": "feedback-guru-2025 (312), locus-2026 (287)" },
+        "Cosmetic dentist": { "value": 300, "src": "estimate (dentist median)" },
+        "Orthodontist": { "value": 204, "src": "locus-2026" },
+        "Pediatric dentist": { "value": 295, "src": "locus-2026" }
+      },
+      "photoMultiplier": { "value": 1.2, "src": "estimate" },
+      "hoursPatterns": [ [ { "days": "Mon-Thu", "open": "07:30", "close": "17:00" }, { "days": "Fri", "open": "07:30", "close": "14:00" } ], [ { "days": "Mon-Fri", "open": "09:00", "close": "17:30" } ] ],
+      "hoursSrc": "estimate (patterns already in source/locations.json)",
+      "holidayPolicy": {
+        "closed": [ "New Year's Day", "Memorial Day", "Independence Day", "Labor Day", "Thanksgiving Day", "Christmas Day" ],
+        "reduced": { "Christmas Eve": [ "08:00", "12:00" ], "New Year's Eve": [ "08:00", "12:00" ] },
+        "src": "estimate"
+      },
+      "secondaryCategories": {
+        "Dentist": [ "Cosmetic dentist", "Emergency dental service", "Teeth whitening service", "Dental implants provider", "Dental clinic" ],
+        "Cosmetic dentist": [ "Teeth whitening service", "Dental implants provider", "Dental clinic" ],
+        "Orthodontist": [ "Dental clinic", "Pediatric dentist", "Cosmetic dentist" ],
+        "Pediatric dentist": [ "Dental clinic", "Orthodontist", "Emergency dental service" ]
+      },
+      "attributes": [
+        { "group": "Accessibility", "label": "Wheelchair accessible entrance", "p": 0.85 },
+        { "group": "Accessibility", "label": "Wheelchair accessible parking lot", "p": 0.7 },
+        { "group": "Planning", "label": "Appointment required", "p": 0.8 },
+        { "group": "Service options", "label": "Online appointments", "p": 0.75 },
+        { "group": "Payments", "label": "Credit cards", "p": 0.95 },
+        { "group": "Payments", "label": "NFC mobile payments", "p": 0.45 },
+        { "group": "Amenities", "label": "Restroom", "p": 0.9 },
+        { "group": "Offerings", "label": "Language assistance", "p": 0.3 }
+      ],
+      "attributesSrc": "estimate"
+    },
+    "home-services": {
+      "label": "Home services and contractors",
+      "starShare": { "1": 0.05, "2": 0.02, "3": 0.03, "4": 0.1, "5": 0.8, "src": "estimate shaped to plumbers 4.8, electricians 4.9, pest control 4.9 (feedback-guru-2025, locus-2026)" },
+      "listingRatingMedian": { "value": 4.85, "src": "feedback-guru-2025 (plumbers 4.8, electricians 4.9), locus-2026 (pest control 4.9, landscapers 4.9)" },
+      "googleReviewCountMedianByCategory": {
+        "Plumber": { "value": 167, "src": "feedback-guru-2025 (166), locus-2026 (168)" },
+        "Electrician": { "value": 32, "src": "feedback-guru-2025" },
+        "HVAC contractor": { "value": 120, "src": "estimate" },
+        "Lawn care service": { "value": 25, "src": "locus-2026 (landscapers)" },
+        "Handyman": { "value": 40, "src": "estimate" },
+        "Pest control service": { "value": 146, "src": "locus-2026" }
+      },
+      "photoMultiplier": { "value": 1, "src": "estimate" },
+      "hoursPatterns": [
+        [ { "days": "Mon-Fri", "open": "07:00", "close": "19:00" }, { "days": "Sat", "open": "08:00", "close": "16:00" }, { "days": "Sun", "open": "emergency", "close": "emergency" } ],
+        [ { "days": "Mon-Fri", "open": "09:00", "close": "17:30" } ]
+      ],
+      "hoursSrc": "estimate (patterns already in source/locations.json)",
+      "holidayPolicy": {
+        "closed": [ "Thanksgiving Day", "Christmas Day" ],
+        "reduced": { "Christmas Eve": [ "08:00", "13:00" ], "New Year's Eve": [ "08:00", "15:00" ], "New Year's Day": [ "10:00", "14:00" ] },
+        "src": "estimate"
+      },
+      "secondaryCategories": {
+        "Plumber": [ "Drainage service", "Water heater installation service", "Water softening equipment supplier", "Emergency plumber" ],
+        "Electrician": [ "Lighting contractor", "Electric vehicle charging station contractor", "Generator shop" ],
+        "HVAC contractor": [ "Air conditioning repair service", "Furnace repair service", "Plumber", "Electrician" ],
+        "Lawn care service": [ "Landscaper", "Irrigation equipment supplier", "Tree service" ],
+        "Handyman": [ "Drywall contractor", "Painter", "Carpenter" ],
+        "Pest control service": [ "Termite control service", "Wildlife removal service" ]
+      },
+      "attributes": [
+        { "group": "Service options", "label": "Onsite services", "p": 0.95 },
+        { "group": "Service options", "label": "Online estimates", "p": 0.6 },
+        { "group": "Planning", "label": "Appointment required", "p": 0.5 },
+        { "group": "Payments", "label": "Credit cards", "p": 0.95 },
+        { "group": "Payments", "label": "Checks", "p": 0.6 },
+        { "group": "From the business", "label": "Identifies as veteran-owned", "p": 0.12 },
+        { "group": "Accessibility", "label": "Wheelchair accessible entrance", "p": 0.5 }
+      ],
+      "attributesSrc": "estimate"
+    },
+    "legal": {
+      "label": "Legal and professional services",
+      "starShare": { "1": 0.05, "2": 0.02, "3": 0.02, "4": 0.09, "5": 0.82, "src": "estimate shaped to the lawyer median of 4.9 (feedback-guru-2025, locus-2026)" },
+      "listingRatingMedian": { "value": 4.9, "src": "feedback-guru-2025 (lawyers 4.9), locus-2026 (law firms 4.8-4.9)" },
+      "googleReviewCountMedianByCategory": {
+        "Law firm": { "value": 75, "src": "feedback-guru-2025 (lawyers 89), locus-2026 (law firms 60-74)" },
+        "Tax attorney": { "value": 75, "src": "estimate (law firm median)" },
+        "Estate planning attorney": { "value": 75, "src": "estimate (law firm median)" },
+        "Family law attorney": { "value": 75, "src": "estimate (law firm median)" },
+        "Immigration attorney": { "value": 75, "src": "estimate (law firm median)" },
+        "Personal injury attorney": { "value": 120, "src": "estimate" }
+      },
+      "photoMultiplier": { "value": 0.6, "src": "estimate" },
+      "hoursPatterns": [ [ { "days": "Mon-Fri", "open": "08:30", "close": "17:30" } ], [ { "days": "Mon-Fri", "open": "09:00", "close": "17:30" } ] ],
+      "hoursSrc": "estimate (patterns already in source/locations.json)",
+      "holidayPolicy": {
+        "closed": [ "New Year's Day", "Memorial Day", "Independence Day", "Labor Day", "Thanksgiving Day", "Christmas Eve", "Christmas Day" ],
+        "reduced": { "New Year's Eve": [ "08:30", "13:00" ] },
+        "src": "estimate"
+      },
+      "secondaryCategories": {
+        "Law firm": [ "Business attorney", "Employment attorney", "Real estate attorney", "Litigation attorney" ],
+        "Tax attorney": [ "Estate planning attorney", "Tax consultant" ],
+        "Estate planning attorney": [ "Probate attorney", "Tax attorney", "Elder law attorney" ],
+        "Family law attorney": [ "Divorce lawyer", "Estate planning attorney", "Mediation service" ],
+        "Immigration attorney": [ "Legal services", "Notary public" ],
+        "Personal injury attorney": [ "Accident lawyer", "Trial attorney" ]
+      },
+      "attributes": [
+        { "group": "Planning", "label": "Appointment required", "p": 0.85 },
+        { "group": "Service options", "label": "Online appointments", "p": 0.7 },
+        { "group": "Service options", "label": "Free consultation", "p": 0.5 },
+        { "group": "Offerings", "label": "Language assistance", "p": 0.35 },
+        { "group": "Accessibility", "label": "Wheelchair accessible entrance", "p": 0.8 },
+        { "group": "From the business", "label": "Identifies as women-owned", "p": 0.2 },
+        { "group": "Payments", "label": "Credit cards", "p": 0.85 }
+      ],
+      "attributesSrc": "estimate"
+    },
+    "agency": {
+      "label": "Advertising and agency (also used for Channel partners)",
+      "starShare": { "1": 0.04, "2": 0.02, "3": 0.03, "4": 0.11, "5": 0.8, "src": "estimate shaped to the B2B and professional services median of 4.9 (votednumberone-2025)" },
+      "listingRatingMedian": { "value": 4.9, "src": "votednumberone-2025 (B2B and professional services median 4.9)" },
+      "googleReviewCountMedianByCategory": {
+        "Marketing agency": { "value": 18, "src": "estimate; brightlocal-reviews-2018 lists marketing and PR among the industries with the fewest Google reviews" },
+        "Franchise support": { "value": 15, "src": "estimate" },
+        "Lawyer referral service": { "value": 20, "src": "estimate" }
+      },
+      "photoMultiplier": { "value": 0.5, "src": "estimate" },
+      "hoursPatterns": [ [ { "days": "Mon-Fri", "open": "09:00", "close": "17:30" } ] ],
+      "hoursSrc": "estimate (pattern already in source/locations.json)",
+      "holidayPolicy": {
+        "closed": [ "New Year's Day", "Memorial Day", "Independence Day", "Labor Day", "Thanksgiving Day", "Christmas Eve", "Christmas Day" ],
+        "reduced": { "New Year's Eve": [ "09:00", "13:00" ] },
+        "src": "estimate"
+      },
+      "secondaryCategories": {
+        "Marketing agency": [ "Internet marketing service", "Advertising agency", "Website designer", "Social media agency" ],
+        "Franchise support": [ "Business management consultant", "Marketing agency" ],
+        "Lawyer referral service": [ "Marketing agency", "Legal services" ]
+      },
+      "attributes": [
+        { "group": "Planning", "label": "Appointment required", "p": 0.7 },
+        { "group": "Service options", "label": "Online appointments", "p": 0.8 },
+        { "group": "Service options", "label": "Onsite services", "p": 0.4 },
+        { "group": "From the business", "label": "Identifies as women-owned", "p": 0.2 },
+        { "group": "Accessibility", "label": "Wheelchair accessible entrance", "p": 0.6 }
+      ],
+      "attributesSrc": "estimate"
+    },
+    "automotive": {
+      "label": "Automotive",
+      "starShare": { "1": 0.07, "2": 0.03, "3": 0.04, "4": 0.13, "5": 0.73, "src": "estimate shaped to auto repair 4.7 and car dealers 4.6 (feedback-guru-2025, locus-2026)" },
+      "listingRatingMedian": { "value": 4.7, "src": "feedback-guru-2025 (auto repair 4.7), locus-2026 (auto repair 4.7, car dealerships 4.6, tire shops 4.5)" },
+      "googleReviewCountMedianByCategory": {
+        "Auto repair shop": { "value": 120, "src": "feedback-guru-2025 (141), locus-2026 (102)" },
+        "Car dealer service center": { "value": 250, "src": "locus-2026 (car dealerships 204-311)" },
+        "Tire shop": { "value": 156, "src": "locus-2026" },
+        "Car detailing service": { "value": 60, "src": "estimate" },
+        "Auto body shop": { "value": 100, "src": "estimate" }
+      },
+      "photoMultiplier": { "value": 1.5, "src": "estimate" },
+      "hoursPatterns": [ [ { "days": "Mon-Fri", "open": "07:30", "close": "18:00" }, { "days": "Sat", "open": "08:00", "close": "14:00" } ], [ { "days": "Mon-Fri", "open": "09:00", "close": "17:30" } ] ],
+      "hoursSrc": "estimate (patterns already in source/locations.json)",
+      "holidayPolicy": {
+        "closed": [ "New Year's Day", "Thanksgiving Day", "Christmas Day" ],
+        "reduced": {
+          "Christmas Eve": [ "07:30", "13:00" ],
+          "New Year's Eve": [ "07:30", "15:00" ],
+          "Memorial Day": [ "08:00", "14:00" ],
+          "Labor Day": [ "08:00", "14:00" ],
+          "Independence Day": [ "08:00", "12:00" ]
+        },
+        "src": "estimate"
+      },
+      "secondaryCategories": {
+        "Auto repair shop": [ "Brake shop", "Oil change service", "Car inspection station", "Auto air conditioning service" ],
+        "Car dealer service center": [ "Auto repair shop", "Auto parts store", "Oil change service" ],
+        "Tire shop": [ "Wheel alignment service", "Auto repair shop", "Brake shop" ],
+        "Car detailing service": [ "Car wash", "Window tinting service" ],
+        "Auto body shop": [ "Auto dent removal service", "Auto painting", "Auto glass shop" ]
+      },
+      "attributes": [
+        { "group": "Service options", "label": "Online appointments", "p": 0.7 },
+        { "group": "Service options", "label": "Same-day service", "p": 0.5 },
+        { "group": "Amenities", "label": "Waiting area", "p": 0.8 },
+        { "group": "Amenities", "label": "Wi-Fi", "p": 0.6 },
+        { "group": "Payments", "label": "Credit cards", "p": 0.98 },
+        { "group": "Payments", "label": "NFC mobile payments", "p": 0.55 },
+        { "group": "Accessibility", "label": "Wheelchair accessible entrance", "p": 0.75 }
+      ],
+      "attributesSrc": "estimate"
+    }
+  }
+}

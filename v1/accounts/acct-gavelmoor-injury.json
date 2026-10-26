@@ -1,0 +1,667 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-gavelmoor-injury",
+    "name": "Gavelmoor Personal Injury",
+    "brandName": "Gavelmoor Personal Injury",
+    "parentGroup": "Gavelmoor Law",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "legal",
+    "industryLabel": "Legal and professional services",
+    "tier": "Plaintiff boutique",
+    "crm": "SmartAdvocate",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Phoenix",
+      "state": "AZ",
+      "stateName": "Arizona",
+      "country": "United States"
+    },
+    "businessBlurb": "Plaintiff personal-injury practice with a heavy Google review footprint.",
+    "profile": {
+      "description": "Plaintiff personal-injury practice with a heavy Google review footprint. Injury lawyers who pick up the phone.",
+      "categories": [
+        "Personal injury attorney"
+      ],
+      "website": "https://gavelmoorinjury.example.com",
+      "email": "hello@gavelmoorinjury.example.com",
+      "phone": "(602) 555-0100",
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "address": {
+        "street1": "4559 Ironleaf Way",
+        "street2": "Suite 332",
+        "city": "Phoenix",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85044",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Gavelmoor Personal Injury",
+      "tagline": "Injury lawyers who pick up the phone",
+      "logo": {
+        "kind": "monogram",
+        "initials": "GP",
+        "path": "v1/logos/acct-gavelmoor-injury.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-gavelmoor-injury.svg"
+      },
+      "colors": {
+        "primary": "#3E4A3D",
+        "secondary": "#F0F2EF",
+        "accent": "#C1440E",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Determined and empathetic; plain talk about recovery and settlements.",
+      "formality": "neutral",
+      "replySignoff": "Gavelmoor Personal Injury"
+    },
+    "staff": [
+      "Dale Gavelmoor",
+      "Carmen",
+      "Josh"
+    ],
+    "services": [
+      "a car accident claim",
+      "a slip-and-fall case",
+      "a motorcycle injury claim",
+      "a dog bite claim"
+    ],
+    "llmContext": "Gavelmoor Personal Injury · SMB · Legal and professional services · HQ Phoenix, Arizona, United States · 1 purchased location · CRM SmartAdvocate · Plaintiff personal-injury practice with a heavy Google review footprint.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 2,
+      "totalReviews": 184,
+      "averageRating": 4.8,
+      "photoCount": 8
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-gavelmoor-injury-loc-1",
+      "accountId": "acct-gavelmoor-injury",
+      "index": 1,
+      "name": "Gavelmoor Personal Injury",
+      "shortName": "Main",
+      "label": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "locationLine": "Phoenix, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "4559 Ironleaf Way",
+        "street2": "Suite 332",
+        "city": "Phoenix",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85044",
+        "country": "US"
+      },
+      "phone": "(602) 555-0100",
+      "email": "hello@gavelmoorinjury.example.com",
+      "website": "https://gavelmoorinjury.example.com",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-08-28T16:20:00Z",
+      "coordinates": {
+        "lat": 33.42008,
+        "lng": -112.01461
+      },
+      "categories": {
+        "primary": "Personal injury attorney",
+        "secondary": [
+          "Accident lawyer"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 8,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/gavelmoor-personal-injury",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 149,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 2,
+            "3": 1,
+            "4": 8,
+            "5": 137
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/gavelmoor-personal-injury",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 9
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/gavelmoor-personal-injury",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 23,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 2,
+            "5": 19
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 184,
+        "averageRating": 4.8,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-gavelmoor-injury-ct-1",
+      "number": 42,
+      "accountId": "acct-gavelmoor-injury",
+      "name": "Xavier Stroud",
+      "firstName": "Xavier",
+      "lastName": "Stroud",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "locationIds": [
+        "acct-gavelmoor-injury-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Corporate"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-gavelmoor-injury-001",
+      "email": "xavier.stroud@example.com",
+      "phone": "(602) 555-0101",
+      "locationCount": 1,
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "createdOn": "2026-09-14T15:05:00Z",
+      "lastActivity": "2026-10-14T20:45:00Z"
+    },
+    {
+      "id": "acct-gavelmoor-injury-ct-2",
+      "number": 2,
+      "accountId": "acct-gavelmoor-injury",
+      "name": "Yara Carrow",
+      "firstName": "Yara",
+      "lastName": "Carrow",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "locationIds": [
+        "acct-gavelmoor-injury-loc-1"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-gavelmoor-injury-002",
+      "email": "yara.carrow@example.com",
+      "phone": "(480) 555-0102",
+      "locationCount": 1,
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "createdOn": "2026-08-31T14:50:00Z",
+      "lastActivity": "2026-09-08T19:25:00Z"
+    },
+    {
+      "id": "acct-gavelmoor-injury-ct-3",
+      "number": 3,
+      "accountId": "acct-gavelmoor-injury",
+      "name": "Zeke Jessup",
+      "firstName": "Zeke",
+      "lastName": "Jessup",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "locationIds": [
+        "acct-gavelmoor-injury-loc-1"
+      ],
+      "segments": [
+        "Consultation inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-gavelmoor-injury-003",
+      "phone": "(602) 555-0103",
+      "locationCount": 1,
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "createdOn": "2026-08-17T17:40:00Z",
+      "lastActivity": "2026-09-09T18:05:00Z"
+    },
+    {
+      "id": "acct-gavelmoor-injury-ct-4",
+      "number": 4,
+      "accountId": "acct-gavelmoor-injury",
+      "name": "Anouk Quintero",
+      "firstName": "Anouk",
+      "lastName": "Quintero",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "locationIds": [
+        "acct-gavelmoor-injury-loc-1"
+      ],
+      "segments": [
+        "Referral"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-gavelmoor-injury-004",
+      "email": "anouk.quintero@example.com",
+      "phone": "(480) 555-0104",
+      "locationCount": 1,
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "createdOn": "2026-08-03T16:50:00Z",
+      "lastActivity": "2026-09-10T17:40:00Z"
+    },
+    {
+      "id": "acct-gavelmoor-injury-ct-5",
+      "number": 5,
+      "accountId": "acct-gavelmoor-injury",
+      "name": "Booker Yancey",
+      "firstName": "Booker",
+      "lastName": "Yancey",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "locationIds": [
+        "acct-gavelmoor-injury-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-gavelmoor-injury-005",
+      "email": "booker.yancey@example.com",
+      "phone": "(602) 555-0105",
+      "locationCount": 1,
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "createdOn": "2026-07-20T19:40:00Z",
+      "lastActivity": "2026-09-11T16:00:00Z"
+    },
+    {
+      "id": "acct-gavelmoor-injury-ct-6",
+      "number": 6,
+      "accountId": "acct-gavelmoor-injury",
+      "name": "Celine Fitzwilliam",
+      "firstName": "Celine",
+      "lastName": "Fitzwilliam",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "locationIds": [
+        "acct-gavelmoor-injury-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-gavelmoor-injury-006",
+      "email": "celine.fitzwilliam@example.com",
+      "locationCount": 1,
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "createdOn": "2026-07-06T18:00:00Z",
+      "lastActivity": "2026-09-12T15:10:00Z"
+    },
+    {
+      "id": "acct-gavelmoor-injury-ct-7",
+      "number": 7,
+      "accountId": "acct-gavelmoor-injury",
+      "name": "Dashiell Moreau",
+      "firstName": "Dashiell",
+      "lastName": "Moreau",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "locationIds": [
+        "acct-gavelmoor-injury-loc-1"
+      ],
+      "segments": [
+        "Corporate",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-gavelmoor-injury-007",
+      "email": "dashiell.moreau@example.com",
+      "phone": "(602) 555-0106",
+      "locationCount": 1,
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "createdOn": "2026-10-18T21:30:00Z",
+      "lastActivity": "2026-10-18T23:30:00Z"
+    },
+    {
+      "id": "acct-gavelmoor-injury-ct-8",
+      "number": 8,
+      "accountId": "acct-gavelmoor-injury",
+      "name": "Elise Uchenna",
+      "firstName": "Elise",
+      "lastName": "Uchenna",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-gavelmoor-injury-loc-1",
+      "locationIds": [
+        "acct-gavelmoor-injury-loc-1"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-gavelmoor-injury-008",
+      "email": "elise.uchenna@example.com",
+      "phone": "(480) 555-0107",
+      "locationCount": 1,
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "createdOn": "2026-06-29T20:00:00Z",
+      "lastActivity": "2026-08-24T21:20:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-gavelmoor-injury-rev-1",
+      "number": 1,
+      "accountId": "acct-gavelmoor-injury",
+      "locationId": "acct-gavelmoor-injury-loc-1",
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Fenwick Cortland",
+      "date": "2026-07-01T19:30:00Z",
+      "text": "I came to Gavelmoor Personal Injury stressed and confused about a motorcycle injury claim. Josh took the time to explain my options in plain language, answered every email within a day, and got it resolved sooner than I thought possible.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": true,
+      "employeesMentioned": [
+        "Josh"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-gavelmoor-injury-rev-2",
+      "number": 2,
+      "accountId": "acct-gavelmoor-injury",
+      "locationId": "acct-gavelmoor-injury-loc-1",
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Gemma Kincaid",
+      "date": "2026-10-10T18:10:00Z",
+      "text": "The fixed-fee quote for a slip-and-fall case was honored to the dollar. Carmen was thorough, though the first consult at Gavelmoor Personal Injury started 20 minutes late.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Carmen"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Gemma. We're glad we could help and have shared your note with the team.\n\nGavelmoor Personal Injury",
+        "author": "Gavelmoor Personal Injury",
+        "date": "2026-10-13T18:05:00Z"
+      }
+    },
+    {
+      "id": "acct-gavelmoor-injury-rev-3",
+      "number": 3,
+      "accountId": "acct-gavelmoor-injury",
+      "locationId": "acct-gavelmoor-injury-loc-1",
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Hugo Stroud",
+      "date": "2026-09-26T21:35:00Z",
+      "text": "My consult about a car accident claim was free of jargon and pressure. Josh told me what I could handle myself and what really needed an attorney.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Josh"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-gavelmoor-injury-rev-4",
+      "number": 4,
+      "accountId": "acct-gavelmoor-injury",
+      "locationId": "acct-gavelmoor-injury-loc-1",
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Ines Carrow",
+      "date": "2026-09-12T20:20:00Z",
+      "text": "Responsive and practical. Gavelmoor Personal Injury gave me a flat fee for a car accident claim and stuck to it.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-gavelmoor-injury-rev-5",
+      "number": 5,
+      "accountId": "acct-gavelmoor-injury",
+      "locationId": "acct-gavelmoor-injury-loc-1",
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Jonah Jessup",
+      "date": "2026-08-29T15:45:00Z",
+      "text": "Carmen handled a car accident claim for us with real care. Every step and cost was explained in plain English, and nothing from Gavelmoor Personal Injury came as a surprise.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Carmen"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Jonah. We're glad we could help and have shared your note with the team.\n\nGavelmoor Personal Injury",
+        "author": "Gavelmoor Personal Injury",
+        "date": "2026-08-31T05:45:00Z"
+      }
+    },
+    {
+      "id": "acct-gavelmoor-injury-rev-6",
+      "number": 6,
+      "accountId": "acct-gavelmoor-injury",
+      "locationId": "acct-gavelmoor-injury-loc-1",
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Kaia Quintero",
+      "date": "2026-08-15T14:30:00Z",
+      "text": "Strong work on a slip-and-fall case. Responses from Gavelmoor Personal Injury usually came within a day, though a couple of emails took longer during a busy stretch. Would hire them again.",
+      "photoCount": 4,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-gavelmoor-injury-rev-7",
+      "number": 7,
+      "accountId": "acct-gavelmoor-injury",
+      "locationId": "acct-gavelmoor-injury-loc-1",
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Lionel Yancey",
+      "date": "2026-08-01T17:55:00Z",
+      "text": "It took four days to get a return call about a motorcycle injury claim. Once Dale Gavelmoor was on it the advice was good, but intake at Gavelmoor Personal Injury felt slow for a time-sensitive matter.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dale Gavelmoor"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Lionel, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Gavelmoor Personal Injury. A manager will reach out this week to make it right.\n\nGavelmoor Personal Injury",
+        "author": "Gavelmoor Personal Injury",
+        "date": "2026-08-01T19:05:00Z"
+      }
+    },
+    {
+      "id": "acct-gavelmoor-injury-rev-8",
+      "number": 8,
+      "accountId": "acct-gavelmoor-injury",
+      "locationId": "acct-gavelmoor-injury-loc-1",
+      "location": "Gavelmoor Personal Injury (Phoenix, AZ)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Mila Fitzwilliam",
+      "date": "2026-07-18T16:30:00Z",
+      "text": "I was anxious going into a dog bite claim. Carmen laid out a realistic timeline, flagged the risks up front, and checked in at every milestone.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Carmen"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

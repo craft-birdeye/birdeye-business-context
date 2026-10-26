@@ -1,0 +1,1846 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/accounts-index.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "defaultAccountId": "acct-evercoast",
+  "order": [
+    "acct-evercoast",
+    "acct-brisquen-dental",
+    "acct-tovaline-ortho",
+    "acct-saltwick-dental",
+    "acct-thimbleleaf-dental",
+    "acct-puddlewick-kids",
+    "acct-brindlemoss-dental",
+    "acct-dentavane-channel",
+    "acct-hearthquell-home",
+    "acct-pipewren-plumbing",
+    "acct-quarrytide-electric",
+    "acct-thatchwhim-outdoor",
+    "acct-coilhaven-hvac",
+    "acct-patchwhit-handyman",
+    "acct-hollowbeck-pest",
+    "acct-franquill-channel",
+    "acct-varrowmere-law",
+    "acct-firthgale-counsel",
+    "acct-plainsby-litigation",
+    "acct-pellwrin-tax",
+    "acct-wickhallow-law",
+    "acct-valdrift-immigration",
+    "acct-gavelmoor-injury",
+    "acct-counselvane-channel",
+    "acct-northquell",
+    "acct-skelvane-media",
+    "acct-lumbrisk-reputation",
+    "acct-inkfallow-creative",
+    "acct-tallomere-partners",
+    "acct-hopskein-digital",
+    "acct-kindlewry-studio",
+    "acct-tramvelle-field",
+    "acct-torqvale-auto",
+    "acct-crestovar-motors",
+    "acct-treadmarsh-tire",
+    "acct-amperlund-ev",
+    "acct-cornerwick-garage",
+    "acct-buffwren-detail",
+    "acct-panelbrook-collision",
+    "acct-lotquill-channel"
+  ],
+  "segments": [
+    {
+      "id": "SMB",
+      "label": "SMB"
+    },
+    {
+      "id": "ENT",
+      "label": "Enterprise"
+    },
+    {
+      "id": "CH-SLV",
+      "label": "Channel"
+    }
+  ],
+  "industries": [
+    {
+      "id": "dental-healthcare",
+      "label": "Dental and healthcare"
+    },
+    {
+      "id": "home-services",
+      "label": "Home services and contractors"
+    },
+    {
+      "id": "legal",
+      "label": "Legal and professional services"
+    },
+    {
+      "id": "advertising-agency",
+      "label": "Advertising and agency"
+    },
+    {
+      "id": "automotive",
+      "label": "Automotive"
+    }
+  ],
+  "accounts": {
+    "acct-evercoast": {
+      "id": "acct-evercoast",
+      "name": "Evercoast Dental Partners",
+      "brandName": "Evercoast Dental",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "purchasedLocations": 45,
+      "hqLabel": "San Diego, CA",
+      "quickScenario": true,
+      "branding": {
+        "brandName": "Evercoast Dental",
+        "tagline": "Neighborhood dentistry from the Pacific to the Rockies",
+        "logo": {
+          "kind": "monogram",
+          "initials": "ED",
+          "path": "v1/logos/acct-evercoast.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-evercoast.svg"
+        },
+        "colors": {
+          "primary": "#0F6E8C",
+          "secondary": "#E8F4F7",
+          "accent": "#F2A541",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 45,
+        "contacts": 10,
+        "reviews": 14
+      },
+      "listingSummary": {
+        "locations": 45,
+        "openLocations": 39,
+        "listings": 117,
+        "claimedListings": 86,
+        "verifiedListings": 85,
+        "totalReviews": 31721,
+        "averageRating": 4.8,
+        "photoCount": 1396
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-evercoast.json"
+    },
+    "acct-brisquen-dental": {
+      "id": "acct-brisquen-dental",
+      "name": "Brisquen Dental Partners",
+      "brandName": "Brisquen Dental",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "purchasedLocations": 5,
+      "hqLabel": "Scottsdale, AZ",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Brisquen Dental",
+        "tagline": "Dentistry for the East Valley",
+        "logo": {
+          "kind": "monogram",
+          "initials": "BD",
+          "path": "v1/logos/acct-brisquen-dental.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-brisquen-dental.svg"
+        },
+        "colors": {
+          "primary": "#B5452B",
+          "secondary": "#FBEDE7",
+          "accent": "#2F5D62",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 5,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 14,
+        "claimedListings": 8,
+        "verifiedListings": 8,
+        "totalReviews": 7090,
+        "averageRating": 4.6,
+        "photoCount": 61
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-brisquen-dental.json"
+    },
+    "acct-tovaline-ortho": {
+      "id": "acct-tovaline-ortho",
+      "name": "Tovaline Orthodontics Group",
+      "brandName": "Tovaline Ortho",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "purchasedLocations": 8,
+      "hqLabel": "Naperville, IL",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Tovaline Ortho",
+        "tagline": "Straight smiles, suburban schedules",
+        "logo": {
+          "kind": "monogram",
+          "initials": "TO",
+          "path": "v1/logos/acct-tovaline-ortho.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-tovaline-ortho.svg"
+        },
+        "colors": {
+          "primary": "#1F4E9C",
+          "secondary": "#EAF1FB",
+          "accent": "#3FB9A7",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 8,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 8,
+        "listings": 24,
+        "claimedListings": 17,
+        "verifiedListings": 17,
+        "totalReviews": 4040,
+        "averageRating": 4.8,
+        "photoCount": 383
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tovaline-ortho.json"
+    },
+    "acct-saltwick-dental": {
+      "id": "acct-saltwick-dental",
+      "name": "Saltwick Dental Collective",
+      "brandName": "Saltwick Dental",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "purchasedLocations": 6,
+      "hqLabel": "San Francisco, CA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Saltwick Dental",
+        "tagline": "Bay Area dentistry that runs on time",
+        "logo": {
+          "kind": "monogram",
+          "initials": "SD",
+          "path": "v1/logos/acct-saltwick-dental.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-saltwick-dental.svg"
+        },
+        "colors": {
+          "primary": "#2E6F95",
+          "secondary": "#EEF5F9",
+          "accent": "#F28F79",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 6,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 5,
+        "listings": 17,
+        "claimedListings": 12,
+        "verifiedListings": 12,
+        "totalReviews": 3539,
+        "averageRating": 4.9,
+        "photoCount": 327
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-saltwick-dental.json"
+    },
+    "acct-thimbleleaf-dental": {
+      "id": "acct-thimbleleaf-dental",
+      "name": "Thimbleleaf Family Dental",
+      "brandName": "Thimbleleaf Family Dental",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "purchasedLocations": 1,
+      "hqLabel": "Austin, TX",
+      "quickScenario": true,
+      "branding": {
+        "brandName": "Thimbleleaf Family Dental",
+        "tagline": "Family dentistry on South Lamar",
+        "logo": {
+          "kind": "monogram",
+          "initials": "TF",
+          "path": "v1/logos/acct-thimbleleaf-dental.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-thimbleleaf-dental.svg"
+        },
+        "colors": {
+          "primary": "#2F6B4F",
+          "secondary": "#EFF6F1",
+          "accent": "#C98B3B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 10,
+        "reviews": 10
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 1161,
+        "averageRating": 4.7,
+        "photoCount": 44
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-thimbleleaf-dental.json"
+    },
+    "acct-puddlewick-kids": {
+      "id": "acct-puddlewick-kids",
+      "name": "Puddlewick Kids Dentistry",
+      "brandName": "Puddlewick Kids Dentistry",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "purchasedLocations": 1,
+      "hqLabel": "Portland, OR",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Puddlewick Kids Dentistry",
+        "tagline": "Happy visits for little teeth",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PK",
+          "path": "v1/logos/acct-puddlewick-kids.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-puddlewick-kids.svg"
+        },
+        "colors": {
+          "primary": "#D9622B",
+          "secondary": "#FFF3E8",
+          "accent": "#4A9D5B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 594,
+        "averageRating": 4.9,
+        "photoCount": 36
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-puddlewick-kids.json"
+    },
+    "acct-brindlemoss-dental": {
+      "id": "acct-brindlemoss-dental",
+      "name": "Brindlemoss Dental Studio",
+      "brandName": "Brindlemoss Dental Studio",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "purchasedLocations": 1,
+      "hqLabel": "Nashville, TN",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Brindlemoss Dental Studio",
+        "tagline": "Restorative and cosmetic dentistry in Nashville",
+        "logo": {
+          "kind": "monogram",
+          "initials": "BD",
+          "path": "v1/logos/acct-brindlemoss-dental.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-brindlemoss-dental.svg"
+        },
+        "colors": {
+          "primary": "#3B3A5C",
+          "secondary": "#F3F2F8",
+          "accent": "#C9A227",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 479,
+        "averageRating": 4.8,
+        "photoCount": 63
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-brindlemoss-dental.json"
+    },
+    "acct-dentavane-channel": {
+      "id": "acct-dentavane-channel",
+      "name": "Dentavane Dental Marketing",
+      "brandName": "Dentavane",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "dental-healthcare",
+      "industryLabel": "Dental and healthcare",
+      "purchasedLocations": 4,
+      "hqLabel": "Atlanta, GA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Dentavane",
+        "tagline": "Reputation programs for independent dental groups",
+        "logo": {
+          "kind": "monogram",
+          "initials": "D",
+          "path": "v1/logos/acct-dentavane-channel.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-dentavane-channel.svg"
+        },
+        "colors": {
+          "primary": "#6B3FA0",
+          "secondary": "#F4EEFA",
+          "accent": "#F2B134",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 4,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 10,
+        "claimedListings": 7,
+        "verifiedListings": 5,
+        "totalReviews": 115,
+        "averageRating": 4.9,
+        "photoCount": 26
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-dentavane-channel.json"
+    },
+    "acct-hearthquell-home": {
+      "id": "acct-hearthquell-home",
+      "name": "Hearthquell Heating, Plumbing & Electrical",
+      "brandName": "Hearthquell",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "purchasedLocations": 15,
+      "hqLabel": "Denver, CO",
+      "quickScenario": true,
+      "branding": {
+        "brandName": "Hearthquell",
+        "tagline": "Heating, cooling, plumbing, and electrical for the Front Range",
+        "logo": {
+          "kind": "monogram",
+          "initials": "H",
+          "path": "v1/logos/acct-hearthquell-home.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hearthquell-home.svg"
+        },
+        "colors": {
+          "primary": "#C8102E",
+          "secondary": "#FDECEE",
+          "accent": "#1D3557",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 15,
+        "contacts": 10,
+        "reviews": 12
+      },
+      "listingSummary": {
+        "locations": 15,
+        "openLocations": 14,
+        "listings": 40,
+        "claimedListings": 27,
+        "verifiedListings": 23,
+        "totalReviews": 4283,
+        "averageRating": 4.8,
+        "photoCount": 384
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hearthquell-home.json"
+    },
+    "acct-pipewren-plumbing": {
+      "id": "acct-pipewren-plumbing",
+      "name": "Pipewren Plumbing & Drain",
+      "brandName": "Pipewren Plumbing",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "purchasedLocations": 10,
+      "hqLabel": "Phoenix, AZ",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Pipewren Plumbing",
+        "tagline": "24/7 plumbing across the Valley",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PP",
+          "path": "v1/logos/acct-pipewren-plumbing.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-pipewren-plumbing.svg"
+        },
+        "colors": {
+          "primary": "#0077B6",
+          "secondary": "#E6F4FB",
+          "accent": "#F4A261",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 10,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 29,
+        "claimedListings": 21,
+        "verifiedListings": 19,
+        "totalReviews": 3456,
+        "averageRating": 4.8,
+        "photoCount": 304
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-pipewren-plumbing.json"
+    },
+    "acct-quarrytide-electric": {
+      "id": "acct-quarrytide-electric",
+      "name": "Quarrytide Electric",
+      "brandName": "Quarrytide Electric",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "purchasedLocations": 6,
+      "hqLabel": "San Diego, CA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Quarrytide Electric",
+        "tagline": "Licensed electricians across San Diego County",
+        "logo": {
+          "kind": "monogram",
+          "initials": "QE",
+          "path": "v1/logos/acct-quarrytide-electric.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-quarrytide-electric.svg"
+        },
+        "colors": {
+          "primary": "#F2C14E",
+          "secondary": "#FFF9E8",
+          "accent": "#264653",
+          "onPrimary": "#111111"
+        }
+      },
+      "counts": {
+        "locations": 6,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 275,
+        "averageRating": 4.8,
+        "photoCount": 425
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-quarrytide-electric.json"
+    },
+    "acct-thatchwhim-outdoor": {
+      "id": "acct-thatchwhim-outdoor",
+      "name": "Thatchwhim Outdoor Services",
+      "brandName": "Thatchwhim",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "purchasedLocations": 5,
+      "hqLabel": "Charlotte, NC",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Thatchwhim",
+        "tagline": "Lawn and outdoor care for Charlotte suburbs",
+        "logo": {
+          "kind": "monogram",
+          "initials": "T",
+          "path": "v1/logos/acct-thatchwhim-outdoor.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-thatchwhim-outdoor.svg"
+        },
+        "colors": {
+          "primary": "#3A7D44",
+          "secondary": "#EEF7EF",
+          "accent": "#9DC08B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 5,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 10,
+        "verifiedListings": 10,
+        "totalReviews": 413,
+        "averageRating": 4.9,
+        "photoCount": 169
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-thatchwhim-outdoor.json"
+    },
+    "acct-coilhaven-hvac": {
+      "id": "acct-coilhaven-hvac",
+      "name": "Coilhaven Heating & Cooling",
+      "brandName": "Coilhaven Heating & Cooling",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "purchasedLocations": 1,
+      "hqLabel": "Boulder, CO",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Coilhaven Heating & Cooling",
+        "tagline": "Owner-operated HVAC in Boulder",
+        "logo": {
+          "kind": "monogram",
+          "initials": "CH",
+          "path": "v1/logos/acct-coilhaven-hvac.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-coilhaven-hvac.svg"
+        },
+        "colors": {
+          "primary": "#D35400",
+          "secondary": "#FDF0E7",
+          "accent": "#2C3E50",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 72,
+        "averageRating": 4.8,
+        "photoCount": 1
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-coilhaven-hvac.json"
+    },
+    "acct-patchwhit-handyman": {
+      "id": "acct-patchwhit-handyman",
+      "name": "Patchwhit Handyman Co",
+      "brandName": "Patchwhit Handyman",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "purchasedLocations": 1,
+      "hqLabel": "Columbus, OH",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Patchwhit Handyman",
+        "tagline": "Punch lists, patches, and small fixes in Columbus",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PH",
+          "path": "v1/logos/acct-patchwhit-handyman.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-patchwhit-handyman.svg"
+        },
+        "colors": {
+          "primary": "#7A4E2D",
+          "secondary": "#F7F0EA",
+          "accent": "#5B8C5A",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 29,
+        "averageRating": 4.7,
+        "photoCount": 4
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-patchwhit-handyman.json"
+    },
+    "acct-hollowbeck-pest": {
+      "id": "acct-hollowbeck-pest",
+      "name": "Hollowbeck Pest Control",
+      "brandName": "Hollowbeck Pest Control",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "purchasedLocations": 1,
+      "hqLabel": "Asheville, NC",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Hollowbeck Pest Control",
+        "tagline": "Family-safe pest control in the mountains",
+        "logo": {
+          "kind": "monogram",
+          "initials": "HP",
+          "path": "v1/logos/acct-hollowbeck-pest.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hollowbeck-pest.svg"
+        },
+        "colors": {
+          "primary": "#2B4C7E",
+          "secondary": "#EDF2F9",
+          "accent": "#7FB069",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 115,
+        "averageRating": 4.4,
+        "photoCount": 38
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hollowbeck-pest.json"
+    },
+    "acct-franquill-channel": {
+      "id": "acct-franquill-channel",
+      "name": "Franquill Franchise Network",
+      "brandName": "Franquill Network",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "home-services",
+      "industryLabel": "Home services and contractors",
+      "purchasedLocations": 5,
+      "hqLabel": "Dallas, TX",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Franquill Network",
+        "tagline": "Listings and reviews for home-services franchisees",
+        "logo": {
+          "kind": "monogram",
+          "initials": "FN",
+          "path": "v1/logos/acct-franquill-channel.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-franquill-channel.svg"
+        },
+        "colors": {
+          "primary": "#E76F51",
+          "secondary": "#FDF0EC",
+          "accent": "#2A9D8F",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 5,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 95,
+        "averageRating": 4.8,
+        "photoCount": 47
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-franquill-channel.json"
+    },
+    "acct-varrowmere-law": {
+      "id": "acct-varrowmere-law",
+      "name": "Varrowmere & Associates Law Firm",
+      "brandName": "Varrowmere Law",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "purchasedLocations": 5,
+      "hqLabel": "Dallas, TX",
+      "quickScenario": true,
+      "branding": {
+        "brandName": "Varrowmere Law",
+        "tagline": "Business and employment counsel for North Texas",
+        "logo": {
+          "kind": "monogram",
+          "initials": "VL",
+          "path": "v1/logos/acct-varrowmere-law.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-varrowmere-law.svg"
+        },
+        "colors": {
+          "primary": "#1B2A41",
+          "secondary": "#EEF0F4",
+          "accent": "#B08D57",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 5,
+        "contacts": 10,
+        "reviews": 10
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 14,
+        "claimedListings": 13,
+        "verifiedListings": 12,
+        "totalReviews": 342,
+        "averageRating": 4.9,
+        "photoCount": 29
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-varrowmere-law.json"
+    },
+    "acct-firthgale-counsel": {
+      "id": "acct-firthgale-counsel",
+      "name": "Firthgale Counsel LLP",
+      "brandName": "Firthgale Counsel",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "purchasedLocations": 7,
+      "hqLabel": "Seattle, WA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Firthgale Counsel",
+        "tagline": "Corporate, IP, and employment counsel in the Northwest",
+        "logo": {
+          "kind": "monogram",
+          "initials": "FC",
+          "path": "v1/logos/acct-firthgale-counsel.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-firthgale-counsel.svg"
+        },
+        "colors": {
+          "primary": "#21445B",
+          "secondary": "#ECF2F6",
+          "accent": "#6BA292",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 7,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 7,
+        "openLocations": 7,
+        "listings": 18,
+        "claimedListings": 15,
+        "verifiedListings": 15,
+        "totalReviews": 1495,
+        "averageRating": 4.7,
+        "photoCount": 128
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-firthgale-counsel.json"
+    },
+    "acct-plainsby-litigation": {
+      "id": "acct-plainsby-litigation",
+      "name": "Plainsby Litigation Group",
+      "brandName": "Plainsby Litigation",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "purchasedLocations": 8,
+      "hqLabel": "Chicago, IL",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Plainsby Litigation",
+        "tagline": "Commercial litigators across the Midwest",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PL",
+          "path": "v1/logos/acct-plainsby-litigation.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-plainsby-litigation.svg"
+        },
+        "colors": {
+          "primary": "#5C2A2A",
+          "secondary": "#F7EEEE",
+          "accent": "#D4A373",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 8,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 7,
+        "listings": 21,
+        "claimedListings": 16,
+        "verifiedListings": 16,
+        "totalReviews": 605,
+        "averageRating": 4.8,
+        "photoCount": 107
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-plainsby-litigation.json"
+    },
+    "acct-pellwrin-tax": {
+      "id": "acct-pellwrin-tax",
+      "name": "Pellwrin Tax & Estates",
+      "brandName": "Pellwrin Tax",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "purchasedLocations": 4,
+      "hqLabel": "Washington, DC",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Pellwrin Tax",
+        "tagline": "Tax and estate planning in the capital region",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PT",
+          "path": "v1/logos/acct-pellwrin-tax.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-pellwrin-tax.svg"
+        },
+        "colors": {
+          "primary": "#2D3E50",
+          "secondary": "#EEF1F4",
+          "accent": "#8E6C3A",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 4,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 12,
+        "claimedListings": 11,
+        "verifiedListings": 10,
+        "totalReviews": 677,
+        "averageRating": 4.8,
+        "photoCount": 61
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-pellwrin-tax.json"
+    },
+    "acct-wickhallow-law": {
+      "id": "acct-wickhallow-law",
+      "name": "Wickhallow Law Office",
+      "brandName": "Wickhallow Law",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "purchasedLocations": 1,
+      "hqLabel": "Seattle, WA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Wickhallow Law",
+        "tagline": "Family and estate law in downtown Seattle",
+        "logo": {
+          "kind": "monogram",
+          "initials": "WL",
+          "path": "v1/logos/acct-wickhallow-law.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-wickhallow-law.svg"
+        },
+        "colors": {
+          "primary": "#30577A",
+          "secondary": "#EDF3F8",
+          "accent": "#E0A458",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 21,
+        "averageRating": 4.8,
+        "photoCount": 8
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-wickhallow-law.json"
+    },
+    "acct-valdrift-immigration": {
+      "id": "acct-valdrift-immigration",
+      "name": "Valdrift Immigration Law",
+      "brandName": "Valdrift Immigration Law",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "purchasedLocations": 1,
+      "hqLabel": "San Jose, CA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Valdrift Immigration Law",
+        "tagline": "Immigration counsel for Bay Area families and employers",
+        "logo": {
+          "kind": "monogram",
+          "initials": "VI",
+          "path": "v1/logos/acct-valdrift-immigration.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-valdrift-immigration.svg"
+        },
+        "colors": {
+          "primary": "#8C3B2E",
+          "secondary": "#F9EEEC",
+          "accent": "#4E7D5B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 1,
+        "totalReviews": 38,
+        "averageRating": 4.7,
+        "photoCount": 2
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-valdrift-immigration.json"
+    },
+    "acct-gavelmoor-injury": {
+      "id": "acct-gavelmoor-injury",
+      "name": "Gavelmoor Personal Injury",
+      "brandName": "Gavelmoor Personal Injury",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "purchasedLocations": 1,
+      "hqLabel": "Phoenix, AZ",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Gavelmoor Personal Injury",
+        "tagline": "Injury lawyers who pick up the phone",
+        "logo": {
+          "kind": "monogram",
+          "initials": "GP",
+          "path": "v1/logos/acct-gavelmoor-injury.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-gavelmoor-injury.svg"
+        },
+        "colors": {
+          "primary": "#3E4A3D",
+          "secondary": "#F0F2EF",
+          "accent": "#C1440E",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 184,
+        "averageRating": 4.8,
+        "photoCount": 8
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-gavelmoor-injury.json"
+    },
+    "acct-counselvane-channel": {
+      "id": "acct-counselvane-channel",
+      "name": "Counselvane Referral Network",
+      "brandName": "Counselvane",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "legal",
+      "industryLabel": "Legal and professional services",
+      "purchasedLocations": 4,
+      "hqLabel": "Boston, MA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Counselvane",
+        "tagline": "Referral and reputation network for consumer law firms",
+        "logo": {
+          "kind": "monogram",
+          "initials": "C",
+          "path": "v1/logos/acct-counselvane-channel.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-counselvane-channel.svg"
+        },
+        "colors": {
+          "primary": "#003B5C",
+          "secondary": "#E8F0F5",
+          "accent": "#F6AE2D",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 4,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 12,
+        "claimedListings": 8,
+        "verifiedListings": 8,
+        "totalReviews": 304,
+        "averageRating": 4.9,
+        "photoCount": 181
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-counselvane-channel.json"
+    },
+    "acct-northquell": {
+      "id": "acct-northquell",
+      "name": "Northquell Digital Partners",
+      "brandName": "Northquell",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "purchasedLocations": 10,
+      "hqLabel": "Charlotte, NC",
+      "quickScenario": true,
+      "branding": {
+        "brandName": "Northquell",
+        "tagline": "Reputation and local search for multi-location brands",
+        "logo": {
+          "kind": "monogram",
+          "initials": "N",
+          "path": "v1/logos/acct-northquell.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-northquell.svg"
+        },
+        "colors": {
+          "primary": "#14213D",
+          "secondary": "#E9EEF6",
+          "accent": "#FCA311",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 10,
+        "contacts": 10,
+        "reviews": 12
+      },
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 29,
+        "claimedListings": 25,
+        "verifiedListings": 25,
+        "totalReviews": 222,
+        "averageRating": 4.7,
+        "photoCount": 73
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-northquell.json"
+    },
+    "acct-skelvane-media": {
+      "id": "acct-skelvane-media",
+      "name": "Skelvane Media",
+      "brandName": "Skelvane",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "purchasedLocations": 5,
+      "hqLabel": "Austin, TX",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Skelvane",
+        "tagline": "Performance and brand for multi-location Texas businesses",
+        "logo": {
+          "kind": "monogram",
+          "initials": "S",
+          "path": "v1/logos/acct-skelvane-media.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-skelvane-media.svg"
+        },
+        "colors": {
+          "primary": "#5A189A",
+          "secondary": "#F3ECFA",
+          "accent": "#FF6D00",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 5,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 12,
+        "verifiedListings": 12,
+        "totalReviews": 212,
+        "averageRating": 4.8,
+        "photoCount": 107
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-skelvane-media.json"
+    },
+    "acct-lumbrisk-reputation": {
+      "id": "acct-lumbrisk-reputation",
+      "name": "Lumbrisk Reputation Co",
+      "brandName": "Lumbrisk",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "purchasedLocations": 6,
+      "hqLabel": "Boston, MA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Lumbrisk",
+        "tagline": "Review response and listings hygiene for the Northeast",
+        "logo": {
+          "kind": "monogram",
+          "initials": "L",
+          "path": "v1/logos/acct-lumbrisk-reputation.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-lumbrisk-reputation.svg"
+        },
+        "colors": {
+          "primary": "#0B3954",
+          "secondary": "#E7F0F5",
+          "accent": "#FF5A5F",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 6,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 6,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 9,
+        "totalReviews": 73,
+        "averageRating": 4.8,
+        "photoCount": 28
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-lumbrisk-reputation.json"
+    },
+    "acct-inkfallow-creative": {
+      "id": "acct-inkfallow-creative",
+      "name": "Inkfallow Creative",
+      "brandName": "Inkfallow",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "purchasedLocations": 4,
+      "hqLabel": "Portland, OR",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Inkfallow",
+        "tagline": "Creative for local businesses",
+        "logo": {
+          "kind": "monogram",
+          "initials": "I",
+          "path": "v1/logos/acct-inkfallow-creative.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-inkfallow-creative.svg"
+        },
+        "colors": {
+          "primary": "#E63946",
+          "secondary": "#FDECEE",
+          "accent": "#457B9D",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 4,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 11,
+        "claimedListings": 10,
+        "verifiedListings": 9,
+        "totalReviews": 122,
+        "averageRating": 4.9,
+        "photoCount": 23
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-inkfallow-creative.json"
+    },
+    "acct-tallomere-partners": {
+      "id": "acct-tallomere-partners",
+      "name": "Tallomere Partners",
+      "brandName": "Tallomere",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "purchasedLocations": 8,
+      "hqLabel": "Chicago, IL",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Tallomere",
+        "tagline": "Measurement-led local marketing",
+        "logo": {
+          "kind": "monogram",
+          "initials": "T",
+          "path": "v1/logos/acct-tallomere-partners.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-tallomere-partners.svg"
+        },
+        "colors": {
+          "primary": "#264653",
+          "secondary": "#EAF1F3",
+          "accent": "#E9C46A",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 8,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 7,
+        "listings": 24,
+        "claimedListings": 18,
+        "verifiedListings": 16,
+        "totalReviews": 172,
+        "averageRating": 4.9,
+        "photoCount": 110
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tallomere-partners.json"
+    },
+    "acct-hopskein-digital": {
+      "id": "acct-hopskein-digital",
+      "name": "Hopskein Digital",
+      "brandName": "Hopskein Digital",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "purchasedLocations": 1,
+      "hqLabel": "Nashville, TN",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Hopskein Digital",
+        "tagline": "Digital marketing for Nashville small businesses",
+        "logo": {
+          "kind": "monogram",
+          "initials": "HD",
+          "path": "v1/logos/acct-hopskein-digital.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hopskein-digital.svg"
+        },
+        "colors": {
+          "primary": "#118AB2",
+          "secondary": "#E7F5FA",
+          "accent": "#EF476F",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 2,
+        "totalReviews": 18,
+        "averageRating": 4.4,
+        "photoCount": 13
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hopskein-digital.json"
+    },
+    "acct-kindlewry-studio": {
+      "id": "acct-kindlewry-studio",
+      "name": "Kindlewry Studio Marketing",
+      "brandName": "Kindlewry Studio",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "purchasedLocations": 1,
+      "hqLabel": "Denver, CO",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Kindlewry Studio",
+        "tagline": "Brand and local marketing studio in Denver",
+        "logo": {
+          "kind": "monogram",
+          "initials": "KS",
+          "path": "v1/logos/acct-kindlewry-studio.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-kindlewry-studio.svg"
+        },
+        "colors": {
+          "primary": "#2B2D42",
+          "secondary": "#EDEDF2",
+          "accent": "#EF8354",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 147,
+        "averageRating": 4.7,
+        "photoCount": 15
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-kindlewry-studio.json"
+    },
+    "acct-tramvelle-field": {
+      "id": "acct-tramvelle-field",
+      "name": "Tramvelle Field Marketing",
+      "brandName": "Tramvelle Field",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "advertising-agency",
+      "industryLabel": "Advertising and agency",
+      "purchasedLocations": 5,
+      "hqLabel": "Miami, FL",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Tramvelle Field",
+        "tagline": "Field marketing across the Southeast",
+        "logo": {
+          "kind": "monogram",
+          "initials": "TF",
+          "path": "v1/logos/acct-tramvelle-field.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-tramvelle-field.svg"
+        },
+        "colors": {
+          "primary": "#06D6A0",
+          "secondary": "#E8FBF5",
+          "accent": "#073B4C",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 5,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 9,
+        "totalReviews": 332,
+        "averageRating": 4.9,
+        "photoCount": 72
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tramvelle-field.json"
+    },
+    "acct-torqvale-auto": {
+      "id": "acct-torqvale-auto",
+      "name": "Torqvale Auto Care",
+      "brandName": "Torqvale",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "purchasedLocations": 8,
+      "hqLabel": "Denver, CO",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Torqvale",
+        "tagline": "Auto care for Denver fleets and drivers",
+        "logo": {
+          "kind": "monogram",
+          "initials": "T",
+          "path": "v1/logos/acct-torqvale-auto.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-torqvale-auto.svg"
+        },
+        "colors": {
+          "primary": "#005F73",
+          "secondary": "#E6F2F4",
+          "accent": "#EE9B00",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 8,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 8,
+        "listings": 22,
+        "claimedListings": 17,
+        "verifiedListings": 16,
+        "totalReviews": 1220,
+        "averageRating": 4.6,
+        "photoCount": 248
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-torqvale-auto.json"
+    },
+    "acct-crestovar-motors": {
+      "id": "acct-crestovar-motors",
+      "name": "Crestovar Motors Service Centers",
+      "brandName": "Crestovar Motors",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "purchasedLocations": 10,
+      "hqLabel": "Salt Lake City, UT",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Crestovar Motors",
+        "tagline": "Dealer service across the Wasatch Front",
+        "logo": {
+          "kind": "monogram",
+          "initials": "CM",
+          "path": "v1/logos/acct-crestovar-motors.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-crestovar-motors.svg"
+        },
+        "colors": {
+          "primary": "#0A2463",
+          "secondary": "#E8ECF6",
+          "accent": "#D8315B",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 10,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 26,
+        "claimedListings": 23,
+        "verifiedListings": 22,
+        "totalReviews": 7644,
+        "averageRating": 4.5,
+        "photoCount": 352
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-crestovar-motors.json"
+    },
+    "acct-treadmarsh-tire": {
+      "id": "acct-treadmarsh-tire",
+      "name": "Treadmarsh Tire & Auto",
+      "brandName": "Treadmarsh Tire",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "purchasedLocations": 7,
+      "hqLabel": "Houston, TX",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Treadmarsh Tire",
+        "tagline": "Tires and quick service around Houston",
+        "logo": {
+          "kind": "monogram",
+          "initials": "TT",
+          "path": "v1/logos/acct-treadmarsh-tire.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-treadmarsh-tire.svg"
+        },
+        "colors": {
+          "primary": "#023E8A",
+          "secondary": "#E6EEF8",
+          "accent": "#FFB703",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 7,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 7,
+        "openLocations": 6,
+        "listings": 19,
+        "claimedListings": 16,
+        "verifiedListings": 15,
+        "totalReviews": 2811,
+        "averageRating": 4.6,
+        "photoCount": 243
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-treadmarsh-tire.json"
+    },
+    "acct-amperlund-ev": {
+      "id": "acct-amperlund-ev",
+      "name": "Amperlund EV Service Labs",
+      "brandName": "Amperlund EV",
+      "segment": "ENT",
+      "segmentLabel": "Enterprise",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "purchasedLocations": 5,
+      "hqLabel": "San Jose, CA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Amperlund EV",
+        "tagline": "Independent EV service in California",
+        "logo": {
+          "kind": "monogram",
+          "initials": "AE",
+          "path": "v1/logos/acct-amperlund-ev.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-amperlund-ev.svg"
+        },
+        "colors": {
+          "primary": "#00A6A6",
+          "secondary": "#E6F7F7",
+          "accent": "#1B1B3A",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 5,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 8,
+        "verifiedListings": 7,
+        "totalReviews": 1117,
+        "averageRating": 4.7,
+        "photoCount": 483
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-amperlund-ev.json"
+    },
+    "acct-cornerwick-garage": {
+      "id": "acct-cornerwick-garage",
+      "name": "Cornerwick Garage Auto Repair",
+      "brandName": "Cornerwick Garage",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "purchasedLocations": 1,
+      "hqLabel": "Pittsburgh, PA",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Cornerwick Garage",
+        "tagline": "Honest repairs in Pittsburgh",
+        "logo": {
+          "kind": "monogram",
+          "initials": "CG",
+          "path": "v1/logos/acct-cornerwick-garage.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-cornerwick-garage.svg"
+        },
+        "colors": {
+          "primary": "#9B2226",
+          "secondary": "#F8ECEC",
+          "accent": "#E9D8A6",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 1,
+        "verifiedListings": 1,
+        "totalReviews": 256,
+        "averageRating": 4.6,
+        "photoCount": 11
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-cornerwick-garage.json"
+    },
+    "acct-buffwren-detail": {
+      "id": "acct-buffwren-detail",
+      "name": "Buffwren Detail Studio",
+      "brandName": "Buffwren Detail Studio",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "purchasedLocations": 1,
+      "hqLabel": "Austin, TX",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Buffwren Detail Studio",
+        "tagline": "Studio and mobile detailing in Austin",
+        "logo": {
+          "kind": "monogram",
+          "initials": "BD",
+          "path": "v1/logos/acct-buffwren-detail.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-buffwren-detail.svg"
+        },
+        "colors": {
+          "primary": "#111111",
+          "secondary": "#F2F2F2",
+          "accent": "#C0A062",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 121,
+        "averageRating": 4.7,
+        "photoCount": 2
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-buffwren-detail.json"
+    },
+    "acct-panelbrook-collision": {
+      "id": "acct-panelbrook-collision",
+      "name": "Panelbrook Collision Center",
+      "brandName": "Panelbrook Collision",
+      "segment": "SMB",
+      "segmentLabel": "SMB",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "purchasedLocations": 1,
+      "hqLabel": "Milwaukee, WI",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Panelbrook Collision",
+        "tagline": "Family-owned collision repair in Milwaukee",
+        "logo": {
+          "kind": "monogram",
+          "initials": "PC",
+          "path": "v1/logos/acct-panelbrook-collision.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-panelbrook-collision.svg"
+        },
+        "colors": {
+          "primary": "#1D4E89",
+          "secondary": "#E8EFF7",
+          "accent": "#F79256",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 1,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 63,
+        "averageRating": 4.7,
+        "photoCount": 10
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-panelbrook-collision.json"
+    },
+    "acct-lotquill-channel": {
+      "id": "acct-lotquill-channel",
+      "name": "Lotquill Dealer Marketing",
+      "brandName": "Lotquill",
+      "segment": "CH-SLV",
+      "segmentLabel": "Channel",
+      "industryId": "automotive",
+      "industryLabel": "Automotive",
+      "purchasedLocations": 5,
+      "hqLabel": "Detroit, MI",
+      "quickScenario": false,
+      "branding": {
+        "brandName": "Lotquill",
+        "tagline": "Review and listings programs for dealer groups",
+        "logo": {
+          "kind": "monogram",
+          "initials": "L",
+          "path": "v1/logos/acct-lotquill-channel.svg",
+          "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-lotquill-channel.svg"
+        },
+        "colors": {
+          "primary": "#3A0CA3",
+          "secondary": "#EEE9F9",
+          "accent": "#4CC9F0",
+          "onPrimary": "#FFFFFF"
+        }
+      },
+      "counts": {
+        "locations": 5,
+        "contacts": 8,
+        "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 266,
+        "averageRating": 4.8,
+        "photoCount": 43
+      },
+      "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-lotquill-channel.json"
+    }
+  }
+}

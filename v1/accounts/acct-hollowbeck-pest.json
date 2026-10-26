@@ -1,0 +1,698 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-hollowbeck-pest",
+    "name": "Hollowbeck Pest Control",
+    "brandName": "Hollowbeck Pest Control",
+    "parentGroup": "Hollowbeck Pest",
+    "segment": "SMB",
+    "segmentLabel": "SMB",
+    "industryId": "home-services",
+    "industryLabel": "Home services and contractors",
+    "tier": "Single location",
+    "crm": "FieldRoutes",
+    "purchasedLocations": 1,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Asheville",
+      "state": "NC",
+      "stateName": "North Carolina",
+      "country": "United States"
+    },
+    "businessBlurb": "Residential pest and termite service covering Asheville and nearby towns.",
+    "profile": {
+      "description": "Residential pest and termite service covering Asheville and nearby towns. Family-safe pest control in the mountains.",
+      "categories": [
+        "Pest control service"
+      ],
+      "website": "https://hollowbeckpest.example.com",
+      "email": "hello@hollowbeckpest.example.com",
+      "phone": "(828) 555-0100",
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "address": {
+        "street1": "3291 Willowmere Row",
+        "street2": "Suite 344",
+        "city": "Asheville",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28803",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Hollowbeck Pest Control",
+      "tagline": "Family-safe pest control in the mountains",
+      "logo": {
+        "kind": "monogram",
+        "initials": "HP",
+        "path": "v1/logos/acct-hollowbeck-pest.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-hollowbeck-pest.svg"
+      },
+      "colors": {
+        "primary": "#2B4C7E",
+        "secondary": "#EDF2F9",
+        "accent": "#7FB069",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Calm and knowledgeable; pet- and family-safety forward.",
+      "formality": "neutral",
+      "replySignoff": "Hollowbeck Pest Control"
+    },
+    "staff": [
+      "Wade",
+      "Amber"
+    ],
+    "services": [
+      "a termite inspection",
+      "quarterly pest service",
+      "a rodent exclusion job",
+      "a wasp nest removal"
+    ],
+    "llmContext": "Hollowbeck Pest Control · SMB · Home services and contractors · HQ Asheville, North Carolina, United States · 1 purchased location · CRM FieldRoutes · Residential pest and termite service covering Asheville and nearby towns.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 2,
+      "totalReviews": 115,
+      "averageRating": 4.4,
+      "photoCount": 38
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-hollowbeck-pest-loc-1",
+      "accountId": "acct-hollowbeck-pest",
+      "index": 1,
+      "name": "Hollowbeck Pest Control",
+      "shortName": "Main",
+      "label": "Hollowbeck Pest Control (Asheville, NC)",
+      "locationLine": "Asheville, NC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "3291 Willowmere Row",
+        "street2": "Suite 344",
+        "city": "Asheville",
+        "state": "NC",
+        "stateName": "North Carolina",
+        "zip": "28803",
+        "country": "US"
+      },
+      "phone": "(828) 555-0100",
+      "email": "hello@hollowbeckpest.example.com",
+      "website": "https://hollowbeckpest.example.com",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "days": "Sat",
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "days": "Sun",
+          "open": "emergency",
+          "close": "emergency"
+        }
+      ],
+      "owner": "Elena Vargas",
+      "createdBy": "Elena Vargas",
+      "createdOn": "2026-10-17T19:20:00Z",
+      "coordinates": {
+        "lat": 35.57141,
+        "lng": -82.57453
+      },
+      "categories": {
+        "primary": "Pest control service",
+        "secondary": [
+          "Wildlife removal service",
+          "Termite control service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 38,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/hollowbeck-pest-control",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 92,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 3,
+            "3": 3,
+            "4": 9,
+            "5": 69
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/hollowbeck-pest-control",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 10
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/hollowbeck-pest-control",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 115,
+        "averageRating": 4.4,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-hollowbeck-pest-ct-1",
+      "number": 42,
+      "accountId": "acct-hollowbeck-pest",
+      "name": "Quinn Zielinski",
+      "firstName": "Quinn",
+      "lastName": "Zielinski",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "locationIds": [
+        "acct-hollowbeck-pest-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-hollowbeck-pest-001",
+      "email": "quinn.zielinski@example.com",
+      "phone": "(828) 555-0101",
+      "locationCount": 1,
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "createdOn": "2026-07-08T18:55:00Z",
+      "lastActivity": "2026-07-12T15:35:00Z"
+    },
+    {
+      "id": "acct-hollowbeck-pest-ct-2",
+      "number": 2,
+      "accountId": "acct-hollowbeck-pest",
+      "name": "Rosalie Granger",
+      "firstName": "Rosalie",
+      "lastName": "Granger",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "locationIds": [
+        "acct-hollowbeck-pest-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-hollowbeck-pest-002",
+      "email": "rosalie.granger@example.com",
+      "phone": "(828) 555-0102",
+      "locationCount": 1,
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "createdOn": "2026-10-20T19:15:00Z",
+      "lastActivity": "2026-10-20T21:15:00Z"
+    },
+    {
+      "id": "acct-hollowbeck-pest-ct-3",
+      "number": 3,
+      "accountId": "acct-hollowbeck-pest",
+      "name": "Silas Osgood",
+      "firstName": "Silas",
+      "lastName": "Osgood",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "locationIds": [
+        "acct-hollowbeck-pest-loc-1"
+      ],
+      "segments": [
+        "Emergency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-hollowbeck-pest-003",
+      "phone": "(828) 555-0103",
+      "locationCount": 1,
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "createdOn": "2026-10-06T16:05:00Z",
+      "lastActivity": "2026-10-14T17:25:00Z"
+    },
+    {
+      "id": "acct-hollowbeck-pest-ct-4",
+      "number": 4,
+      "accountId": "acct-hollowbeck-pest",
+      "name": "Talia Yardley",
+      "firstName": "Talia",
+      "lastName": "Yardley",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "locationIds": [
+        "acct-hollowbeck-pest-loc-1"
+      ],
+      "segments": [
+        "Seasonal"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-hollowbeck-pest-004",
+      "email": "talia.yardley@example.com",
+      "phone": "(828) 555-0104",
+      "locationCount": 1,
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "createdOn": "2026-09-22T17:55:00Z",
+      "lastActivity": "2026-09-27T18:10:00Z"
+    },
+    {
+      "id": "acct-hollowbeck-pest-ct-5",
+      "number": 5,
+      "accountId": "acct-hollowbeck-pest",
+      "name": "Ulric Galbraith",
+      "firstName": "Ulric",
+      "lastName": "Galbraith",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "locationIds": [
+        "acct-hollowbeck-pest-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-hollowbeck-pest-005",
+      "email": "ulric.galbraith@example.com",
+      "phone": "(828) 555-0105",
+      "locationCount": 1,
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "createdOn": "2026-09-08T14:45:00Z",
+      "lastActivity": "2026-09-27T19:30:00Z"
+    },
+    {
+      "id": "acct-hollowbeck-pest-ct-6",
+      "number": 6,
+      "accountId": "acct-hollowbeck-pest",
+      "name": "Vera Northcott",
+      "firstName": "Vera",
+      "lastName": "Northcott",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "locationIds": [
+        "acct-hollowbeck-pest-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-hollowbeck-pest-006",
+      "email": "vera.northcott@example.com",
+      "locationCount": 1,
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "createdOn": "2026-08-25T15:20:00Z",
+      "lastActivity": "2026-08-30T20:30:00Z"
+    },
+    {
+      "id": "acct-hollowbeck-pest-ct-7",
+      "number": 7,
+      "accountId": "acct-hollowbeck-pest",
+      "name": "Warren Underhill",
+      "firstName": "Warren",
+      "lastName": "Underhill",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "locationIds": [
+        "acct-hollowbeck-pest-loc-1"
+      ],
+      "segments": [
+        "High value",
+        "Property manager"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-hollowbeck-pest-007",
+      "email": "warren.underhill@example.com",
+      "phone": "(828) 555-0106",
+      "locationCount": 1,
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "createdOn": "2026-08-11T20:25:00Z",
+      "lastActivity": "2026-09-14T21:30:00Z"
+    },
+    {
+      "id": "acct-hollowbeck-pest-ct-8",
+      "number": 8,
+      "accountId": "acct-hollowbeck-pest",
+      "name": "Ximena Castaneda",
+      "firstName": "Ximena",
+      "lastName": "Castaneda",
+      "contactType": "Customer",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-hollowbeck-pest-loc-1",
+      "locationIds": [
+        "acct-hollowbeck-pest-loc-1"
+      ],
+      "segments": [
+        "Maintenance plan"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-hollowbeck-pest-008",
+      "email": "ximena.castaneda@example.com",
+      "phone": "(828) 555-0107",
+      "locationCount": 1,
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "createdOn": "2026-08-18T21:55:00Z",
+      "lastActivity": "2026-08-18T23:55:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-hollowbeck-pest-rev-1",
+      "number": 1,
+      "accountId": "acct-hollowbeck-pest",
+      "locationId": "acct-hollowbeck-pest-loc-1",
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "site": "yelp",
+      "rating": 2,
+      "reviewer": "Yusuf Jaramillo",
+      "date": "2026-08-10T20:25:00Z",
+      "text": "The technician from Hollowbeck Pest Control showed up two hours late without a call. The work itself was done properly, but I lost half a workday waiting.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Yusuf, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Hollowbeck Pest Control. A manager will reach out this week to make it right.\n\nHollowbeck Pest Control",
+        "author": "Hollowbeck Pest Control",
+        "date": "2026-08-11T17:00:00Z"
+      }
+    },
+    {
+      "id": "acct-hollowbeck-pest-rev-2",
+      "number": 2,
+      "accountId": "acct-hollowbeck-pest",
+      "locationId": "acct-hollowbeck-pest-loc-1",
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Zara Rasmussen",
+      "date": "2026-07-27T17:00:00Z",
+      "text": "Second time using Hollowbeck Pest Control. Amber remembered our setup from last spring and finished quarterly pest service faster than quoted. The invoice matched the estimate exactly.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Amber"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Zara. We're glad we could help and have shared your note with the team.\n\nHollowbeck Pest Control",
+        "author": "Hollowbeck Pest Control",
+        "date": "2026-08-02T14:00:00Z"
+      }
+    },
+    {
+      "id": "acct-hollowbeck-pest-rev-3",
+      "number": 3,
+      "accountId": "acct-hollowbeck-pest",
+      "locationId": "acct-hollowbeck-pest-loc-1",
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Abel Zielinski",
+      "date": "2026-07-13T14:35:00Z",
+      "text": "Hollowbeck Pest Control sent Amber out the next morning for quarterly pest service. Fair quote, tidy work, and the shoe covers stayed on the whole time.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Amber"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hollowbeck-pest-rev-4",
+      "number": 4,
+      "accountId": "acct-hollowbeck-pest",
+      "locationId": "acct-hollowbeck-pest-loc-1",
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Bianca Granger",
+      "date": "2026-06-29T19:35:00Z",
+      "text": "Amber took the time to show me what was wrong before recommending anything, and said plainly that quarterly pest service wasn't needed yet. That honesty earned Hollowbeck Pest Control a customer for life.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Amber"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Bianca! We'll pass this along to the whole Hollowbeck Pest Control team. See you next time.\n\nHollowbeck Pest Control",
+        "author": "Hollowbeck Pest Control",
+        "date": "2026-06-29T20:45:00Z"
+      }
+    },
+    {
+      "id": "acct-hollowbeck-pest-rev-5",
+      "number": 5,
+      "accountId": "acct-hollowbeck-pest",
+      "locationId": "acct-hollowbeck-pest-loc-1",
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Cyrus Osgood",
+      "date": "2026-10-08T16:10:00Z",
+      "text": "Honest crew. We called about quarterly pest service, and Amber found the real problem in ten minutes without upselling us on anything we didn't need. The invoice matched the estimate to the dollar, which is rare.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Amber"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hollowbeck-pest-rev-6",
+      "number": 6,
+      "accountId": "acct-hollowbeck-pest",
+      "locationId": "acct-hollowbeck-pest-loc-1",
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Delia Yardley",
+      "date": "2026-09-24T21:45:00Z",
+      "text": "Property manager here. Hollowbeck Pest Control handled quarterly pest service across two of our buildings and sent photos and invoices the same day. Tenant notices could be a bit more proactive.",
+      "photoCount": 2,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-hollowbeck-pest-rev-7",
+      "number": 7,
+      "accountId": "acct-hollowbeck-pest",
+      "locationId": "acct-hollowbeck-pest-loc-1",
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Emmett Galbraith",
+      "date": "2026-09-10T18:20:00Z",
+      "text": "Called Hollowbeck Pest Control on a Saturday morning about a termite inspection. They had Wade out by early afternoon and the job was done right. Weekend pricing was fair and clearly explained.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Wade"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Emmett! We'll pass this along to the whole Hollowbeck Pest Control team. See you next time.\n\nHollowbeck Pest Control",
+        "author": "Hollowbeck Pest Control",
+        "date": "2026-09-11T20:55:00Z"
+      }
+    },
+    {
+      "id": "acct-hollowbeck-pest-rev-8",
+      "number": 8,
+      "accountId": "acct-hollowbeck-pest",
+      "locationId": "acct-hollowbeck-pest-loc-1",
+      "location": "Hollowbeck Pest Control (Asheville, NC)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Flora Northcott",
+      "date": "2026-08-27T15:25:00Z",
+      "text": "Amber explained two options for a wasp nest removal and recommended the cheaper one. Done in an afternoon.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Amber"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}

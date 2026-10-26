@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://craft-birdeye.github.io/birdeye-business-context/schemas/contacts.schema.json",
+  "title": "contacts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schemaVersion",
+    "generatedAt",
+    "contacts"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^1\\.\\d+\\.\\d+$"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "contacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "number",
+          "accountId",
+          "name",
+          "firstName",
+          "lastName",
+          "contactType",
+          "isLead",
+          "score",
+          "scoreLevel",
+          "hasPhone",
+          "hasEmail",
+          "hasWhatsapp",
+          "primaryLocationId",
+          "locationIds",
+          "locationCount",
+          "location",
+          "segments",
+          "experienceTags",
+          "externalId",
+          "createdOn",
+          "lastActivity"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+-ct-[0-9]+$"
+          },
+          "number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "accountId": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "firstName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lastName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "contactType": {
+            "enum": [
+              "Patient",
+              "Customer",
+              "Client",
+              "Client contact",
+              "Lead"
+            ]
+          },
+          "isLead": {
+            "type": "boolean"
+          },
+          "score": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "scoreLevel": {
+            "enum": [
+              "green",
+              "yellow",
+              "red"
+            ]
+          },
+          "hasPhone": {
+            "type": "boolean"
+          },
+          "hasEmail": {
+            "type": "boolean"
+          },
+          "hasWhatsapp": {
+            "type": "boolean"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "pattern": "^[a-z0-9._%+-]+@([a-z0-9-]+\\.)*example\\.com$"
+          },
+          "phone": {
+            "type": "string",
+            "pattern": "^\\(\\d{3}\\) 555-01\\d{2}$"
+          },
+          "primaryLocationId": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+-loc-[0-9]+$"
+          },
+          "locationIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^acct-[a-z0-9-]+-loc-[0-9]+$"
+            }
+          },
+          "locationCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "location": {
+            "type": "string",
+            "minLength": 1
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "experienceTags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "externalId": {
+            "type": "string",
+            "pattern": "^ext-[a-z0-9-]+-\\d{3}$"
+          },
+          "createdOn": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          },
+          "lastActivity": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          }
+        }
+      }
+    }
+  }
+}

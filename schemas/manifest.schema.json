@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://craft-birdeye.github.io/birdeye-business-context/schemas/manifest.schema.json",
+  "title": "manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schemaVersion",
+    "generatedAt",
+    "dateWindow",
+    "baseUrl",
+    "files",
+    "counts"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "baseUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "dateWindow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "oldest",
+        "newest",
+        "maxDaysAgo"
+      ],
+      "properties": {
+        "oldest": {
+          "type": "string",
+          "format": "date-time",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+        },
+        "newest": {
+          "type": "string",
+          "format": "date-time",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+        },
+        "maxDaysAgo": {
+          "type": "integer"
+        }
+      }
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "distributions": {
+      "description": "Which source/distributions.json drew the 1.1.0 fields, and the specialHours date window. Added in 1.1.0.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "seed",
+        "specialHoursWindow"
+      ],
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "seed": {
+          "type": "string"
+        },
+        "specialHoursWindow": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "from",
+            "to"
+          ],
+          "properties": {
+            "from": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "to": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

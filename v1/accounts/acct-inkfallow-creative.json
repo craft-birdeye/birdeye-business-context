@@ -1,0 +1,1093 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-inkfallow-creative",
+    "name": "Inkfallow Creative",
+    "brandName": "Inkfallow",
+    "parentGroup": "Inkfallow",
+    "segment": "CH-SLV",
+    "segmentLabel": "Channel",
+    "industryId": "advertising-agency",
+    "industryLabel": "Advertising and agency",
+    "tier": "Creative + social",
+    "crm": "HubSpot",
+    "purchasedLocations": 4,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Portland",
+      "state": "OR",
+      "stateName": "Oregon",
+      "country": "United States"
+    },
+    "businessBlurb": "Creative shop that produces social calendars and review-request creative for regional brands.",
+    "profile": {
+      "description": "Creative shop that produces social calendars and review-request creative for regional brands. Creative for local businesses.",
+      "categories": [
+        "Marketing agency"
+      ],
+      "website": "https://inkfallowcreative.example.com",
+      "email": "hello@inkfallowcreative.example.com",
+      "phone": "(503) 555-0104",
+      "primaryLocationId": "acct-inkfallow-creative-loc-1",
+      "address": {
+        "street1": "819 Ironleaf Avenue",
+        "street2": "Suite 316",
+        "city": "Portland",
+        "state": "OR",
+        "stateName": "Oregon",
+        "zip": "97205",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Inkfallow",
+      "tagline": "Creative for local businesses",
+      "logo": {
+        "kind": "monogram",
+        "initials": "I",
+        "path": "v1/logos/acct-inkfallow-creative.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-inkfallow-creative.svg"
+      },
+      "colors": {
+        "primary": "#E63946",
+        "secondary": "#FDECEE",
+        "accent": "#457B9D",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Quirky, warm, and design-forward.",
+      "formality": "casual",
+      "replySignoff": "The Inkfallow crew"
+    },
+    "staff": [
+      "Juniper Hale",
+      "Oscar Lindgren",
+      "Tess Moreau"
+    ],
+    "services": [
+      "a website redesign",
+      "social content for our shops",
+      "a review widget install",
+      "photo shoots for our locations"
+    ],
+    "llmContext": "Inkfallow Creative · Channel · Advertising and agency · HQ Portland, Oregon, United States · 4 purchased locations · CRM HubSpot · Creative shop that produces social calendars and review-request creative for regional brands.",
+    "listingSummary": {
+      "locations": 4,
+      "openLocations": 4,
+      "listings": 11,
+      "claimedListings": 10,
+      "verifiedListings": 9,
+      "totalReviews": 122,
+      "averageRating": 4.9,
+      "photoCount": 23
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-inkfallow-creative-loc-1",
+      "accountId": "acct-inkfallow-creative",
+      "index": 1,
+      "name": "Inkfallow - Portland HQ",
+      "shortName": "Portland HQ",
+      "label": "Inkfallow - Portland HQ (Portland, OR)",
+      "locationLine": "Portland, OR",
+      "type": "Virtual location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "819 Ironleaf Avenue",
+        "street2": "Suite 316",
+        "city": "Portland",
+        "state": "OR",
+        "stateName": "Oregon",
+        "zip": "97205",
+        "country": "US"
+      },
+      "phone": "(503) 555-0100",
+      "email": "portland-hq@inkfallowcreative.example.com",
+      "website": "https://inkfallowcreative.example.com/locations/portland-hq",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-08-11T17:15:00Z",
+      "coordinates": {
+        "lat": 45.46219,
+        "lng": -122.78842
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 11,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/inkfallow-portland-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 62,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 58
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/inkfallow-portland-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 18,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 16
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 80,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 2
+      }
+    },
+    {
+      "id": "acct-inkfallow-creative-loc-2",
+      "accountId": "acct-inkfallow-creative",
+      "index": 2,
+      "name": "Inkfallow - Seattle desk",
+      "shortName": "Seattle desk",
+      "label": "Inkfallow - Seattle desk (Seattle, WA)",
+      "locationLine": "Seattle, WA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1938 Falconridge Boulevard",
+        "street2": "Suite 363",
+        "city": "Seattle",
+        "state": "WA",
+        "stateName": "Washington",
+        "zip": "98125",
+        "country": "US"
+      },
+      "phone": "(206) 555-0101",
+      "email": "seattle-desk@inkfallowcreative.example.com",
+      "website": "https://inkfallowcreative.example.com/locations/seattle-desk",
+      "timezone": "America/Los_Angeles",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Andre Whitaker",
+      "createdBy": "Andre Whitaker",
+      "createdOn": "2026-07-28T20:40:00Z",
+      "coordinates": {
+        "lat": 47.57281,
+        "lng": -122.20811
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency",
+          "Internet marketing service",
+          "Website designer"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 3,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/inkfallow-seattle-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/inkfallow-seattle-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": null,
+          "reviewCount": 0,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/inkfallow-seattle-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": null,
+          "reviewCount": 0,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 3,
+        "averageRating": 4,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-inkfallow-creative-loc-3",
+      "accountId": "acct-inkfallow-creative",
+      "index": 3,
+      "name": "Inkfallow - Boise desk",
+      "shortName": "Boise desk",
+      "label": "Inkfallow - Boise desk (Boise, ID)",
+      "locationLine": "Boise, ID",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3057 Goldfinch Court",
+        "street2": "Suite 202",
+        "city": "Boise",
+        "state": "ID",
+        "stateName": "Idaho",
+        "zip": "83706",
+        "country": "US"
+      },
+      "phone": "(208) 555-0102",
+      "email": "boise-desk@inkfallowcreative.example.com",
+      "website": "https://inkfallowcreative.example.com/locations/boise-desk",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Mei Lintrove",
+      "createdBy": "Mei Lintrove",
+      "createdOn": "2026-07-14T15:10:00Z",
+      "coordinates": {
+        "lat": 43.66335,
+        "lng": -116.27331
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/inkfallow-boise-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 26,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 24
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/inkfallow-boise-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/inkfallow-boise-desk",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 29,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-inkfallow-creative-loc-4",
+      "accountId": "acct-inkfallow-creative",
+      "index": 4,
+      "name": "Inkfallow - Salt Lake desk",
+      "shortName": "Salt Lake desk",
+      "label": "Inkfallow - Salt Lake desk (Salt Lake City, UT)",
+      "locationLine": "Salt Lake City, UT",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "4176 Dovetail Terrace",
+        "street2": "Suite 249",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "stateName": "Utah",
+        "zip": "84101",
+        "country": "US"
+      },
+      "phone": "(385) 555-0103",
+      "email": "salt-lake-desk@inkfallowcreative.example.com",
+      "website": "https://inkfallowcreative.example.com/locations/salt-lake-desk",
+      "timezone": "America/Denver",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Lauren Pittman",
+      "createdBy": "Lauren Pittman",
+      "createdOn": "2026-06-30T18:35:00Z",
+      "coordinates": {
+        "lat": 40.74117,
+        "lng": -111.7588
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Internet marketing service",
+          "Advertising agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 8,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/inkfallow-salt-lake-desk",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 8,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/inkfallow-salt-lake-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": null,
+          "reviewCount": 0,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/inkfallow-salt-lake-desk",
+          "claimed": true,
+          "verified": true,
+          "rating": 4,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 10,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-inkfallow-creative-ct-1",
+      "number": 42,
+      "accountId": "acct-inkfallow-creative",
+      "name": "Gideon Bergstrom",
+      "firstName": "Gideon",
+      "lastName": "Bergstrom",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-inkfallow-creative-loc-1",
+      "locationIds": [
+        "acct-inkfallow-creative-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Multi-location"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-inkfallow-creative-001",
+      "email": "gideon.bergstrom@tidewaterdental.example.com",
+      "phone": "(503) 555-0105",
+      "locationCount": 1,
+      "location": "Inkfallow - Portland HQ (Portland, OR)",
+      "createdOn": "2026-10-18T20:55:00Z",
+      "lastActivity": "2026-10-19T21:05:00Z"
+    },
+    {
+      "id": "acct-inkfallow-creative-ct-2",
+      "number": 2,
+      "accountId": "acct-inkfallow-creative",
+      "name": "Helena Iwasaki",
+      "firstName": "Helena",
+      "lastName": "Iwasaki",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-inkfallow-creative-loc-4",
+      "locationIds": [
+        "acct-inkfallow-creative-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-inkfallow-creative-002",
+      "email": "helena.iwasaki@oakhollowgroup.example.com",
+      "phone": "(385) 555-0106",
+      "locationCount": 1,
+      "location": "Inkfallow - Salt Lake desk (Salt Lake City, UT)",
+      "createdOn": "2026-10-04T17:05:00Z",
+      "lastActivity": "2026-10-05T18:40:00Z"
+    },
+    {
+      "id": "acct-inkfallow-creative-ct-3",
+      "number": 3,
+      "accountId": "acct-inkfallow-creative",
+      "name": "Idris Pacheco",
+      "firstName": "Idris",
+      "lastName": "Pacheco",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-inkfallow-creative-loc-3",
+      "locationIds": [
+        "acct-inkfallow-creative-loc-3"
+      ],
+      "segments": [
+        "Agency inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-inkfallow-creative-003",
+      "phone": "(208) 555-0107",
+      "locationCount": 1,
+      "location": "Inkfallow - Boise desk (Boise, ID)",
+      "createdOn": "2026-09-20T14:50:00Z",
+      "lastActivity": "2026-10-17T19:40:00Z"
+    },
+    {
+      "id": "acct-inkfallow-creative-ct-4",
+      "number": 4,
+      "accountId": "acct-inkfallow-creative",
+      "name": "Juno Ybarra",
+      "firstName": "Juno",
+      "lastName": "Ybarra",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-inkfallow-creative-loc-2",
+      "locationIds": [
+        "acct-inkfallow-creative-loc-2",
+        "acct-inkfallow-creative-loc-3"
+      ],
+      "segments": [
+        "Franchise"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-inkfallow-creative-004",
+      "email": "juno.ybarra@harborclinics.example.com",
+      "phone": "(206) 555-0108",
+      "locationCount": 2,
+      "location": "Inkfallow - Seattle desk (Seattle, WA)",
+      "createdOn": "2026-09-06T19:00:00Z",
+      "lastActivity": "2026-10-01T16:45:00Z"
+    },
+    {
+      "id": "acct-inkfallow-creative-ct-5",
+      "number": 5,
+      "accountId": "acct-inkfallow-creative",
+      "name": "Kellan Faulkner",
+      "firstName": "Kellan",
+      "lastName": "Faulkner",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-inkfallow-creative-loc-1",
+      "locationIds": [
+        "acct-inkfallow-creative-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-inkfallow-creative-005",
+      "email": "kellan.faulkner@retailclient.example.com",
+      "phone": "(503) 555-0109",
+      "locationCount": 1,
+      "location": "Inkfallow - Portland HQ (Portland, OR)",
+      "createdOn": "2026-08-23T16:10:00Z",
+      "lastActivity": "2026-10-16T17:45:00Z"
+    },
+    {
+      "id": "acct-inkfallow-creative-ct-6",
+      "number": 6,
+      "accountId": "acct-inkfallow-creative",
+      "name": "Lorena Novak",
+      "firstName": "Lorena",
+      "lastName": "Novak",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-inkfallow-creative-loc-4",
+      "locationIds": [
+        "acct-inkfallow-creative-loc-4"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-inkfallow-creative-006",
+      "email": "lorena.novak@prospect.example.com",
+      "locationCount": 1,
+      "location": "Inkfallow - Salt Lake desk (Salt Lake City, UT)",
+      "createdOn": "2026-08-09T21:15:00Z",
+      "lastActivity": "2026-08-19T14:20:00Z"
+    },
+    {
+      "id": "acct-inkfallow-creative-ct-7",
+      "number": 7,
+      "accountId": "acct-inkfallow-creative",
+      "name": "Magnus Winslow",
+      "firstName": "Magnus",
+      "lastName": "Winslow",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-inkfallow-creative-loc-3",
+      "locationIds": [
+        "acct-inkfallow-creative-loc-3",
+        "acct-inkfallow-creative-loc-4",
+        "acct-inkfallow-creative-loc-1"
+      ],
+      "segments": [
+        "Multi-location",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-inkfallow-creative-007",
+      "email": "magnus.winslow@ridgelinehomes.example.com",
+      "phone": "(208) 555-0110",
+      "locationCount": 3,
+      "location": "Inkfallow - Boise desk (Boise, ID)",
+      "createdOn": "2026-07-26T18:10:00Z",
+      "lastActivity": "2026-08-20T15:40:00Z"
+    },
+    {
+      "id": "acct-inkfallow-creative-ct-8",
+      "number": 8,
+      "accountId": "acct-inkfallow-creative",
+      "name": "Nadia Fairchild",
+      "firstName": "Nadia",
+      "lastName": "Fairchild",
+      "contactType": "Client contact",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-inkfallow-creative-loc-2",
+      "locationIds": [
+        "acct-inkfallow-creative-loc-2",
+        "acct-inkfallow-creative-loc-3"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-inkfallow-creative-008",
+      "email": "nadia.fairchild@keystonelegal.example.com",
+      "phone": "(206) 555-0111",
+      "locationCount": 2,
+      "location": "Inkfallow - Seattle desk (Seattle, WA)",
+      "createdOn": "2026-08-02T15:40:00Z",
+      "lastActivity": "2026-10-19T20:50:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-inkfallow-creative-rev-1",
+      "number": 1,
+      "accountId": "acct-inkfallow-creative",
+      "locationId": "acct-inkfallow-creative-loc-1",
+      "location": "Inkfallow - Portland HQ (Portland, OR)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Orion Merriweather",
+      "date": "2026-09-29T18:15:00Z",
+      "text": "Solid partner for a website redesign. Reporting is clear and Juniper Hale is responsive. Onboarding with Inkfallow took a couple of weeks longer than planned.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Juniper Hale"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Orion! We'll pass this along to the whole Inkfallow team. See you next time.\n\nThe Inkfallow crew",
+        "author": "The Inkfallow crew",
+        "date": "2026-10-02T11:00:00Z"
+      }
+    },
+    {
+      "id": "acct-inkfallow-creative-rev-2",
+      "number": 2,
+      "accountId": "acct-inkfallow-creative",
+      "locationId": "acct-inkfallow-creative-loc-2",
+      "location": "Inkfallow - Seattle desk (Seattle, WA)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Paloma Thackeray",
+      "date": "2026-09-15T19:35:00Z",
+      "text": "Our kickoff with Inkfallow for social content for our shops was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Paloma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Inkfallow. A manager will reach out this week to make it right.\n\nThe Inkfallow crew",
+        "author": "The Inkfallow crew",
+        "date": "2026-09-16T11:50:00Z"
+      }
+    },
+    {
+      "id": "acct-inkfallow-creative-rev-3",
+      "number": 3,
+      "accountId": "acct-inkfallow-creative",
+      "locationId": "acct-inkfallow-creative-loc-3",
+      "location": "Inkfallow - Boise desk (Boise, ID)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Reuben Bergstrom",
+      "date": "2026-09-01T16:10:00Z",
+      "text": "We run more than 20 client locations and Inkfallow is the first partner that made a review widget install feel manageable. Tess Moreau knows our markets by name.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Tess Moreau"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Reuben! We love hearing this and will share it with the crew.\n\nThe Inkfallow crew",
+        "author": "The Inkfallow crew",
+        "date": "2026-09-02T14:50:00Z"
+      }
+    },
+    {
+      "id": "acct-inkfallow-creative-rev-4",
+      "number": 4,
+      "accountId": "acct-inkfallow-creative",
+      "locationId": "acct-inkfallow-creative-loc-4",
+      "location": "Inkfallow - Salt Lake desk (Salt Lake City, UT)",
+      "site": "yelp",
+      "rating": 3,
+      "reviewer": "Sabine Iwasaki",
+      "date": "2026-08-18T17:00:00Z",
+      "text": "Good strategy on photo shoots for our locations, but the monthly invoice from Inkfallow has vague line items. Our finance team needs clearer activity summaries.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Sabine, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Inkfallow. A manager will reach out this week to make it right.\n\nThe Inkfallow crew",
+        "author": "The Inkfallow crew",
+        "date": "2026-08-22T02:05:00Z"
+      }
+    },
+    {
+      "id": "acct-inkfallow-creative-rev-5",
+      "number": 5,
+      "accountId": "acct-inkfallow-creative",
+      "locationId": "acct-inkfallow-creative-loc-1",
+      "location": "Inkfallow - Portland HQ (Portland, OR)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Tobias Pacheco",
+      "date": "2026-08-04T14:35:00Z",
+      "text": "When one of our client locations got hit with a wave of negative reviews, Oscar Lindgren had draft responses ready the same afternoon. Calm, specific, and on-brand.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Oscar Lindgren"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-inkfallow-creative-rev-6",
+      "number": 6,
+      "accountId": "acct-inkfallow-creative",
+      "locationId": "acct-inkfallow-creative-loc-2",
+      "location": "Inkfallow - Seattle desk (Seattle, WA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Uma Ybarra",
+      "date": "2026-07-21T15:50:00Z",
+      "text": "Oscar Lindgren answered every question about photo shoots for our locations the same day. Easy partner to work with.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Oscar Lindgren"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-inkfallow-creative-rev-7",
+      "number": 7,
+      "accountId": "acct-inkfallow-creative",
+      "locationId": "acct-inkfallow-creative-loc-3",
+      "location": "Inkfallow - Boise desk (Boise, ID)",
+      "site": "google",
+      "rating": 4,
+      "reviewer": "Vaughn Faulkner",
+      "date": "2026-07-07T20:25:00Z",
+      "text": "Juniper Hale ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Juniper Hale"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Vaughn! We'll pass this along to the whole Inkfallow team. See you next time.\n\nThe Inkfallow crew",
+        "author": "The Inkfallow crew",
+        "date": "2026-07-07T22:15:00Z"
+      }
+    },
+    {
+      "id": "acct-inkfallow-creative-rev-8",
+      "number": 8,
+      "accountId": "acct-inkfallow-creative",
+      "locationId": "acct-inkfallow-creative-loc-4",
+      "location": "Inkfallow - Salt Lake desk (Salt Lake City, UT)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Willa Novak",
+      "date": "2026-10-16T21:10:00Z",
+      "text": "Inkfallow cleaned up duplicate listings across our client locations and fixed hours that had been wrong for a year. Calls to the wrong number dropped noticeably.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "post"
+    }
+  ]
+}

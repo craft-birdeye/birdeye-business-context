@@ -1,0 +1,1098 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "title": "account-bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schemaVersion",
+    "generatedAt",
+    "account",
+    "locations",
+    "contacts",
+    "reviews"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "account": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "brandName",
+        "parentGroup",
+        "segment",
+        "segmentLabel",
+        "industryId",
+        "industryLabel",
+        "tier",
+        "crm",
+        "purchasedLocations",
+        "isDefault",
+        "quickScenario",
+        "hq",
+        "businessBlurb",
+        "profile",
+        "branding",
+        "tone",
+        "staff",
+        "services",
+        "llmContext"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^acct-[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brandName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "parentGroup": {
+          "type": "string",
+          "minLength": 1
+        },
+        "segment": {
+          "enum": [
+            "SMB",
+            "ENT",
+            "CH-SLV"
+          ]
+        },
+        "segmentLabel": {
+          "enum": [
+            "SMB",
+            "Enterprise",
+            "Channel"
+          ]
+        },
+        "industryId": {
+          "enum": [
+            "dental-healthcare",
+            "home-services",
+            "automotive",
+            "legal",
+            "advertising-agency"
+          ]
+        },
+        "industryLabel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tier": {
+          "type": "string",
+          "minLength": 1
+        },
+        "crm": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purchasedLocations": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "isDefault": {
+          "type": "boolean"
+        },
+        "quickScenario": {
+          "type": "boolean"
+        },
+        "hq": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "city",
+            "state",
+            "stateName",
+            "country"
+          ],
+          "properties": {
+            "city": {
+              "type": "string",
+              "minLength": 1
+            },
+            "state": {
+              "type": "string",
+              "pattern": "^[A-Z]{2}$"
+            },
+            "stateName": {
+              "type": "string",
+              "minLength": 1
+            },
+            "country": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "businessBlurb": {
+          "type": "string",
+          "minLength": 1
+        },
+        "profile": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "description",
+            "categories",
+            "website",
+            "email",
+            "phone",
+            "primaryLocationId",
+            "address"
+          ],
+          "properties": {
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "categories": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "website": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://([a-z0-9-]+\\.)*example\\.com(/[a-z0-9/._-]*)?$"
+            },
+            "email": {
+              "type": "string",
+              "format": "email",
+              "pattern": "^[a-z0-9._%+-]+@([a-z0-9-]+\\.)*example\\.com$"
+            },
+            "phone": {
+              "type": "string",
+              "pattern": "^\\(\\d{3}\\) 555-01\\d{2}$"
+            },
+            "primaryLocationId": {
+              "type": "string",
+              "pattern": "^acct-[a-z0-9-]+-loc-[0-9]+$"
+            },
+            "address": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "street1",
+                "street2",
+                "city",
+                "state",
+                "stateName",
+                "zip",
+                "country"
+              ],
+              "properties": {
+                "street1": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "street2": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "state": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{2}$"
+                },
+                "stateName": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "zip": {
+                  "type": "string",
+                  "pattern": "^\\d{5}$"
+                },
+                "country": {
+                  "const": "US"
+                }
+              }
+            }
+          }
+        },
+        "branding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "brandName",
+            "tagline",
+            "logo",
+            "colors"
+          ],
+          "properties": {
+            "brandName": {
+              "type": "string",
+              "minLength": 1
+            },
+            "tagline": {
+              "type": "string",
+              "minLength": 1
+            },
+            "logo": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "initials",
+                "path",
+                "url"
+              ],
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "monogram"
+                  ]
+                },
+                "initials": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{1,3}$"
+                },
+                "path": {
+                  "type": "string",
+                  "pattern": "^v1/logos/acct-[a-z0-9-]+\\.svg$"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            },
+            "colors": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "primary",
+                "secondary",
+                "accent",
+                "onPrimary"
+              ],
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "pattern": "^#[0-9A-Fa-f]{6}$"
+                },
+                "secondary": {
+                  "type": "string",
+                  "pattern": "^#[0-9A-Fa-f]{6}$"
+                },
+                "accent": {
+                  "type": "string",
+                  "pattern": "^#[0-9A-Fa-f]{6}$"
+                },
+                "onPrimary": {
+                  "type": "string",
+                  "pattern": "^#[0-9A-Fa-f]{6}$"
+                }
+              }
+            }
+          }
+        },
+        "tone": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "voice",
+            "formality",
+            "replySignoff"
+          ],
+          "properties": {
+            "voice": {
+              "type": "string",
+              "minLength": 1
+            },
+            "formality": {
+              "enum": [
+                "casual",
+                "neutral",
+                "formal"
+              ]
+            },
+            "replySignoff": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "staff": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "services": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "llmContext": {
+          "type": "string",
+          "minLength": 1
+        },
+        "listingSummary": {
+          "description": "Rollup of the account's location listings. Added in 1.1.0.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "locations",
+            "openLocations",
+            "listings",
+            "claimedListings",
+            "verifiedListings",
+            "totalReviews",
+            "averageRating",
+            "photoCount"
+          ],
+          "properties": {
+            "locations": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "openLocations": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "listings": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "claimedListings": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "verifiedListings": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "totalReviews": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "photoCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "averageRating": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        }
+      }
+    },
+    "locations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "accountId",
+          "index",
+          "name",
+          "shortName",
+          "label",
+          "locationLine",
+          "type",
+          "status",
+          "isHeadquarters",
+          "address",
+          "phone",
+          "email",
+          "website",
+          "timezone",
+          "hours",
+          "owner",
+          "createdBy",
+          "createdOn"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+-loc-[0-9]+$"
+          },
+          "accountId": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+$"
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "shortName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locationLine": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "Physical location",
+              "Virtual location"
+            ]
+          },
+          "status": {
+            "enum": [
+              "Active",
+              "Demo",
+              "Needs setup",
+              "Inactive"
+            ]
+          },
+          "isHeadquarters": {
+            "type": "boolean"
+          },
+          "address": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "street1",
+              "street2",
+              "city",
+              "state",
+              "stateName",
+              "zip",
+              "country"
+            ],
+            "properties": {
+              "street1": {
+                "type": "string",
+                "minLength": 1
+              },
+              "street2": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string",
+                "minLength": 1
+              },
+              "state": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "stateName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "zip": {
+                "type": "string",
+                "pattern": "^\\d{5}$"
+              },
+              "country": {
+                "const": "US"
+              }
+            }
+          },
+          "phone": {
+            "type": "string",
+            "pattern": "^\\(\\d{3}\\) 555-01\\d{2}$"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "pattern": "^[a-z0-9._%+-]+@([a-z0-9-]+\\.)*example\\.com$"
+          },
+          "website": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://([a-z0-9-]+\\.)*example\\.com(/[a-z0-9/._-]*)?$"
+          },
+          "timezone": {
+            "type": "string",
+            "pattern": "^[A-Za-z]+/[A-Za-z_/]+$"
+          },
+          "hours": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "days",
+                "open",
+                "close"
+              ],
+              "properties": {
+                "days": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "open": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "close": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "createdBy": {
+            "type": "string",
+            "minLength": 1
+          },
+          "createdOn": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          },
+          "coordinates": {
+            "description": "Invented point, jittered 0.3-12 km from the city center (OpenStreetMap). Not the street address. Added in 1.1.0.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "lat",
+              "lng"
+            ],
+            "properties": {
+              "lat": {
+                "type": "number",
+                "minimum": -90,
+                "maximum": 90
+              },
+              "lng": {
+                "type": "number",
+                "minimum": -180,
+                "maximum": 180
+              }
+            }
+          },
+          "categories": {
+            "description": "Added in 1.1.0.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "primary",
+              "secondary"
+            ],
+            "properties": {
+              "primary": {
+                "type": "string",
+                "minLength": 1
+              },
+              "secondary": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "businessStatus": {
+            "description": "Stable code. Added in 1.1.0.",
+            "type": "string",
+            "enum": [
+              "open",
+              "temporarilyClosed",
+              "permanentlyClosed"
+            ]
+          },
+          "businessStatusLabel": {
+            "description": "Display label for businessStatus (source/distributions.json display.businessStatus). Added in 1.1.0.",
+            "type": "string",
+            "minLength": 1
+          },
+          "specialHours": {
+            "description": "Holiday hours from 30 days before to 90 days after generatedAt (dates can be in the future). Added in 1.1.0.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "date",
+                "name",
+                "closed"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "closed": {
+                  "type": "boolean"
+                },
+                "open": {
+                  "type": "string",
+                  "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"
+                },
+                "close": {
+                  "type": "string",
+                  "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"
+                }
+              }
+            }
+          },
+          "attributes": {
+            "description": "Added in 1.1.0.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "group",
+                "label"
+              ],
+              "properties": {
+                "group": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "photoCount": {
+            "description": "Photos on the listing. Added in 1.1.0.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "listings": {
+            "description": "One entry per review site where the location is listed. Added in 1.1.0.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "site",
+                "url",
+                "claimed",
+                "verified",
+                "rating",
+                "reviewCount",
+                "ratingDistribution",
+                "sampledReviews"
+              ],
+              "properties": {
+                "site": {
+                  "type": "string",
+                  "enum": [
+                    "google",
+                    "facebook",
+                    "yelp"
+                  ]
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https://[a-z0-9-]+\\.example\\.com/"
+                },
+                "claimed": {
+                  "type": "boolean"
+                },
+                "verified": {
+                  "type": "boolean"
+                },
+                "rating": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "reviewCount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "ratingDistribution": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "properties": {
+                    "1": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "2": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "3": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "4": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "5": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  }
+                },
+                "sampledReviews": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          },
+          "reviewSummary": {
+            "description": "Rollup of listings. Added in 1.1.0.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "totalReviews",
+              "averageRating",
+              "sampledReviews",
+              "listedSites"
+            ],
+            "properties": {
+              "totalReviews": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "averageRating": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 1,
+                "maximum": 5
+              },
+              "sampledReviews": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "listedSites": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "contacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "number",
+          "accountId",
+          "name",
+          "firstName",
+          "lastName",
+          "contactType",
+          "isLead",
+          "score",
+          "scoreLevel",
+          "hasPhone",
+          "hasEmail",
+          "hasWhatsapp",
+          "primaryLocationId",
+          "locationIds",
+          "locationCount",
+          "location",
+          "segments",
+          "experienceTags",
+          "externalId",
+          "createdOn",
+          "lastActivity"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+-ct-[0-9]+$"
+          },
+          "number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "accountId": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "firstName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lastName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "contactType": {
+            "enum": [
+              "Patient",
+              "Customer",
+              "Client",
+              "Client contact",
+              "Lead"
+            ]
+          },
+          "isLead": {
+            "type": "boolean"
+          },
+          "score": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "scoreLevel": {
+            "enum": [
+              "green",
+              "yellow",
+              "red"
+            ]
+          },
+          "hasPhone": {
+            "type": "boolean"
+          },
+          "hasEmail": {
+            "type": "boolean"
+          },
+          "hasWhatsapp": {
+            "type": "boolean"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "pattern": "^[a-z0-9._%+-]+@([a-z0-9-]+\\.)*example\\.com$"
+          },
+          "phone": {
+            "type": "string",
+            "pattern": "^\\(\\d{3}\\) 555-01\\d{2}$"
+          },
+          "primaryLocationId": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+-loc-[0-9]+$"
+          },
+          "locationIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^acct-[a-z0-9-]+-loc-[0-9]+$"
+            }
+          },
+          "locationCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "location": {
+            "type": "string",
+            "minLength": 1
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "experienceTags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "externalId": {
+            "type": "string",
+            "pattern": "^ext-[a-z0-9-]+-\\d{3}$"
+          },
+          "createdOn": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          },
+          "lastActivity": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          }
+        }
+      }
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "number",
+          "accountId",
+          "locationId",
+          "location",
+          "site",
+          "rating",
+          "reviewer",
+          "date",
+          "text",
+          "photoCount",
+          "featured",
+          "archived",
+          "employeesMentioned",
+          "employees",
+          "replyStatus"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+-rev-[0-9]+$"
+          },
+          "number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "accountId": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+$"
+          },
+          "locationId": {
+            "type": "string",
+            "pattern": "^acct-[a-z0-9-]+-loc-[0-9]+$"
+          },
+          "location": {
+            "type": "string",
+            "minLength": 1
+          },
+          "site": {
+            "enum": [
+              "google",
+              "yelp",
+              "facebook",
+              "tripadvisor"
+            ]
+          },
+          "rating": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "reviewer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 40
+          },
+          "photoCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "featured": {
+            "type": "boolean"
+          },
+          "archived": {
+            "type": "boolean"
+          },
+          "employeesMentioned": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "employees": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "replyStatus": {
+            "enum": [
+              "post",
+              "edit"
+            ]
+          },
+          "reply": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text",
+              "author",
+              "date"
+            ],
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "author": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "format": "date-time",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

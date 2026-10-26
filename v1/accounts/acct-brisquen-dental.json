@@ -1,0 +1,1356 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-brisquen-dental",
+    "name": "Brisquen Dental Partners",
+    "brandName": "Brisquen Dental",
+    "parentGroup": "Brisquen Dental",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "dental-healthcare",
+    "industryLabel": "Dental and healthcare",
+    "tier": "Regional dental group",
+    "crm": "Open Dental",
+    "purchasedLocations": 5,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Scottsdale",
+      "state": "AZ",
+      "stateName": "Arizona",
+      "country": "United States"
+    },
+    "businessBlurb": "Five-location dental group across the East Valley of Phoenix.",
+    "profile": {
+      "description": "Five-location dental group across the East Valley of Phoenix. Dentistry for the East Valley.",
+      "categories": [
+        "Dentist"
+      ],
+      "website": "https://brisquendental.example.com",
+      "email": "hello@brisquendental.example.com",
+      "phone": "(480) 555-0105",
+      "primaryLocationId": "acct-brisquen-dental-loc-1",
+      "address": {
+        "street1": "4088 Marigold Way",
+        "street2": "Suite 117",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85254",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Brisquen Dental",
+      "tagline": "Dentistry for the East Valley",
+      "logo": {
+        "kind": "monogram",
+        "initials": "BD",
+        "path": "v1/logos/acct-brisquen-dental.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-brisquen-dental.svg"
+      },
+      "colors": {
+        "primary": "#B5452B",
+        "secondary": "#FBEDE7",
+        "accent": "#2F5D62",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Friendly and energetic with a desert-town familiarity.",
+      "formality": "casual",
+      "replySignoff": "Team Brisquen Dental"
+    },
+    "staff": [
+      "Dr. Leah Moreno",
+      "Tasha",
+      "Dr. Ben Achterberg",
+      "Jalen"
+    ],
+    "services": [
+      "a cleaning",
+      "a same-day crown",
+      "a whitening consult",
+      "a filling"
+    ],
+    "llmContext": "Brisquen Dental Partners · Enterprise · Dental and healthcare · HQ Scottsdale, Arizona, United States · 5 purchased locations · CRM Open Dental · Five-location dental group across the East Valley of Phoenix.",
+    "listingSummary": {
+      "locations": 5,
+      "openLocations": 5,
+      "listings": 14,
+      "claimedListings": 8,
+      "verifiedListings": 8,
+      "totalReviews": 7090,
+      "averageRating": 4.6,
+      "photoCount": 61
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-brisquen-dental-loc-1",
+      "accountId": "acct-brisquen-dental",
+      "index": 1,
+      "name": "Brisquen Dental - Scottsdale",
+      "shortName": "Scottsdale",
+      "label": "Brisquen Dental - Scottsdale (Scottsdale, AZ)",
+      "locationLine": "Scottsdale, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "4088 Marigold Way",
+        "street2": "Suite 117",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85254",
+        "country": "US"
+      },
+      "phone": "(480) 555-0100",
+      "email": "scottsdale@brisquendental.example.com",
+      "website": "https://brisquendental.example.com/locations/scottsdale",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-09-13T16:30:00Z",
+      "coordinates": {
+        "lat": 33.40754,
+        "lng": -111.85069
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 15,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/brisquen-dental-scottsdale",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 2115,
+          "ratingDistribution": {
+            "1": 167,
+            "2": 60,
+            "3": 77,
+            "4": 226,
+            "5": 1585
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/brisquen-dental-scottsdale",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 351,
+          "ratingDistribution": {
+            "1": 44,
+            "2": 14,
+            "3": 15,
+            "4": 40,
+            "5": 238
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 2466,
+        "averageRating": 4.4,
+        "sampledReviews": 2,
+        "listedSites": 2
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-loc-2",
+      "accountId": "acct-brisquen-dental",
+      "index": 2,
+      "name": "Brisquen Dental - Tempe",
+      "shortName": "Tempe",
+      "label": "Brisquen Dental - Tempe (Tempe, AZ)",
+      "locationLine": "Tempe, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "7445 Quillfeather Row",
+        "street2": "Suite 298",
+        "city": "Tempe",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85283",
+        "country": "US"
+      },
+      "phone": "(480) 555-0101",
+      "email": "tempe@brisquendental.example.com",
+      "website": "https://brisquendental.example.com/locations/tempe",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-30T21:05:00Z",
+      "coordinates": {
+        "lat": 33.47575,
+        "lng": -112.01514
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 5,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/brisquen-dental-tempe",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 581,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 4,
+            "4": 30,
+            "5": 545
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/brisquen-dental-tempe",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 49,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 5,
+            "5": 40
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/brisquen-dental-tempe",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 52,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 2,
+            "3": 2,
+            "4": 6,
+            "5": 36
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 682,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-loc-3",
+      "accountId": "acct-brisquen-dental",
+      "index": 3,
+      "name": "Brisquen Dental - Chandler",
+      "shortName": "Chandler",
+      "label": "Brisquen Dental - Chandler (Chandler, AZ)",
+      "locationLine": "Chandler, AZ",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "6326 Quarrystone Trail",
+        "street2": "",
+        "city": "Chandler",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85224",
+        "country": "US"
+      },
+      "phone": "(480) 555-0102",
+      "email": "chandler@brisquendental.example.com",
+      "website": "https://brisquendental.example.com/locations/chandler",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-08-16T18:40:00Z",
+      "coordinates": {
+        "lat": 33.25442,
+        "lng": -111.94198
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Emergency dental service",
+          "Teeth whitening service",
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 17,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/brisquen-dental-chandler",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 1337,
+          "ratingDistribution": {
+            "1": 39,
+            "2": 18,
+            "3": 31,
+            "4": 121,
+            "5": 1128
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/brisquen-dental-chandler",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 199,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 4,
+            "4": 14,
+            "5": 178
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/brisquen-dental-chandler",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 173,
+          "ratingDistribution": {
+            "1": 19,
+            "2": 6,
+            "3": 7,
+            "4": 19,
+            "5": 122
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1709,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-loc-4",
+      "accountId": "acct-brisquen-dental",
+      "index": 4,
+      "name": "Brisquen Dental - Mesa",
+      "shortName": "Mesa",
+      "label": "Brisquen Dental - Mesa (Mesa, AZ)",
+      "locationLine": "Mesa, AZ",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "783 Oriole Avenue",
+        "street2": "Suite 208",
+        "city": "Mesa",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85205",
+        "country": "US"
+      },
+      "phone": "(480) 555-0103",
+      "email": "mesa@brisquendental.example.com",
+      "website": "https://brisquendental.example.com/locations/mesa",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-08-02T15:15:00Z",
+      "coordinates": {
+        "lat": 33.36355,
+        "lng": -111.79218
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/brisquen-dental-mesa",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 285,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 14,
+            "5": 269
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/brisquen-dental-mesa",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 63,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 5,
+            "5": 54
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/brisquen-dental-mesa",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 45,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 1,
+            "3": 2,
+            "4": 5,
+            "5": 33
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 393,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-loc-5",
+      "accountId": "acct-brisquen-dental",
+      "index": 5,
+      "name": "Brisquen Dental - Gilbert",
+      "shortName": "Gilbert",
+      "label": "Brisquen Dental - Gilbert (Gilbert, AZ)",
+      "locationLine": "Gilbert, AZ",
+      "type": "Physical location",
+      "status": "Needs setup",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8564 Juniper Hollow Trail",
+        "street2": "",
+        "city": "Gilbert",
+        "state": "AZ",
+        "stateName": "Arizona",
+        "zip": "85234",
+        "country": "US"
+      },
+      "phone": "(480) 555-0104",
+      "email": "gilbert@brisquendental.example.com",
+      "website": "https://brisquendental.example.com/locations/gilbert",
+      "timezone": "America/Phoenix",
+      "hours": [
+        {
+          "days": "Mon-Thu",
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": "Fri",
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "owner": "Rebecca Langston",
+      "createdBy": "Rebecca Langston",
+      "createdOn": "2026-07-19T20:45:00Z",
+      "coordinates": {
+        "lat": 33.31845,
+        "lng": -111.83597
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 22,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/brisquen-dental-gilbert",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 1529,
+          "ratingDistribution": {
+            "1": 107,
+            "2": 39,
+            "3": 53,
+            "4": 161,
+            "5": 1169
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/brisquen-dental-gilbert",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 137,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 8,
+            "5": 127
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/brisquen-dental-gilbert",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.4,
+          "reviewCount": 174,
+          "ratingDistribution": {
+            "1": 16,
+            "2": 5,
+            "3": 7,
+            "4": 19,
+            "5": 127
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1840,
+        "averageRating": 4.5,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-brisquen-dental-ct-1",
+      "number": 42,
+      "accountId": "acct-brisquen-dental",
+      "name": "Adele Abernethy",
+      "firstName": "Adele",
+      "lastName": "Abernethy",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-brisquen-dental-loc-1",
+      "locationIds": [
+        "acct-brisquen-dental-loc-1"
+      ],
+      "segments": [
+        "Hygiene recall",
+        "High value"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-brisquen-dental-001",
+      "email": "adele.abernethy@example.com",
+      "phone": "(480) 555-0106",
+      "locationCount": 1,
+      "location": "Brisquen Dental - Scottsdale (Scottsdale, AZ)",
+      "createdOn": "2026-08-11T15:55:00Z",
+      "lastActivity": "2026-10-01T20:55:00Z"
+    },
+    {
+      "id": "acct-brisquen-dental-ct-2",
+      "number": 2,
+      "accountId": "acct-brisquen-dental",
+      "name": "Bennett Hargrove",
+      "firstName": "Bennett",
+      "lastName": "Hargrove",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brisquen-dental-loc-4",
+      "locationIds": [
+        "acct-brisquen-dental-loc-4"
+      ],
+      "segments": [
+        "Hygiene recall"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-brisquen-dental-002",
+      "email": "bennett.hargrove@example.com",
+      "phone": "(480) 555-0107",
+      "locationCount": 1,
+      "location": "Brisquen Dental - Mesa (Mesa, AZ)",
+      "createdOn": "2026-07-28T14:20:00Z",
+      "lastActivity": "2026-10-02T19:55:00Z"
+    },
+    {
+      "id": "acct-brisquen-dental-ct-3",
+      "number": 3,
+      "accountId": "acct-brisquen-dental",
+      "name": "Carmen Oyelaran",
+      "firstName": "Carmen",
+      "lastName": "Oyelaran",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-brisquen-dental-loc-2",
+      "locationIds": [
+        "acct-brisquen-dental-loc-2"
+      ],
+      "segments": [
+        "Family plan"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-brisquen-dental-003",
+      "phone": "(480) 555-0108",
+      "locationCount": 1,
+      "location": "Brisquen Dental - Tempe (Tempe, AZ)",
+      "createdOn": "2026-07-14T17:50:00Z",
+      "lastActivity": "2026-10-03T18:35:00Z"
+    },
+    {
+      "id": "acct-brisquen-dental-ct-4",
+      "number": 4,
+      "accountId": "acct-brisquen-dental",
+      "name": "Dorian Valdivia",
+      "firstName": "Dorian",
+      "lastName": "Valdivia",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brisquen-dental-loc-5",
+      "locationIds": [
+        "acct-brisquen-dental-loc-5"
+      ],
+      "segments": [
+        "Newsletter"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-brisquen-dental-004",
+      "email": "dorian.valdivia@example.com",
+      "phone": "(480) 555-0109",
+      "locationCount": 1,
+      "location": "Brisquen Dental - Gilbert (Gilbert, AZ)",
+      "createdOn": "2026-06-30T16:40:00Z",
+      "lastActivity": "2026-10-04T17:50:00Z"
+    },
+    {
+      "id": "acct-brisquen-dental-ct-5",
+      "number": 5,
+      "accountId": "acct-brisquen-dental",
+      "name": "Esme Delgado",
+      "firstName": "Esme",
+      "lastName": "Delgado",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brisquen-dental-loc-3",
+      "locationIds": [
+        "acct-brisquen-dental-loc-3"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-brisquen-dental-005",
+      "email": "esme.delgado@example.com",
+      "phone": "(480) 555-0110",
+      "locationCount": 1,
+      "location": "Brisquen Dental - Chandler (Chandler, AZ)",
+      "createdOn": "2026-10-12T19:10:00Z",
+      "lastActivity": "2026-10-13T16:30:00Z"
+    },
+    {
+      "id": "acct-brisquen-dental-ct-6",
+      "number": 6,
+      "accountId": "acct-brisquen-dental",
+      "name": "Fabian Kowalczyk",
+      "firstName": "Fabian",
+      "lastName": "Kowalczyk",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brisquen-dental-loc-1",
+      "locationIds": [
+        "acct-brisquen-dental-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-brisquen-dental-006",
+      "email": "fabian.kowalczyk@example.com",
+      "locationCount": 1,
+      "location": "Brisquen Dental - Scottsdale (Scottsdale, AZ)",
+      "createdOn": "2026-09-28T18:30:00Z",
+      "lastActivity": "2026-10-03T15:40:00Z"
+    },
+    {
+      "id": "acct-brisquen-dental-ct-7",
+      "number": 7,
+      "accountId": "acct-brisquen-dental",
+      "name": "Greta Szabo",
+      "firstName": "Greta",
+      "lastName": "Szabo",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-brisquen-dental-loc-4",
+      "locationIds": [
+        "acct-brisquen-dental-loc-4"
+      ],
+      "segments": [
+        "High value",
+        "New patient inquiry"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-brisquen-dental-007",
+      "email": "greta.szabo@example.com",
+      "phone": "(480) 555-0111",
+      "locationCount": 1,
+      "location": "Brisquen Dental - Mesa (Mesa, AZ)",
+      "createdOn": "2026-09-14T21:00:00Z",
+      "lastActivity": "2026-09-30T14:10:00Z"
+    },
+    {
+      "id": "acct-brisquen-dental-ct-8",
+      "number": 8,
+      "accountId": "acct-brisquen-dental",
+      "name": "Hollis Ashby",
+      "firstName": "Hollis",
+      "lastName": "Ashby",
+      "contactType": "Patient",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-brisquen-dental-loc-2",
+      "locationIds": [
+        "acct-brisquen-dental-loc-2"
+      ],
+      "segments": [
+        "Hygiene recall"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-brisquen-dental-008",
+      "email": "hollis.ashby@example.com",
+      "phone": "(480) 555-0112",
+      "locationCount": 1,
+      "location": "Brisquen Dental - Tempe (Tempe, AZ)",
+      "createdOn": "2026-09-21T20:10:00Z",
+      "lastActivity": "2026-10-19T21:30:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-brisquen-dental-rev-1",
+      "number": 1,
+      "accountId": "acct-brisquen-dental",
+      "locationId": "acct-brisquen-dental-loc-1",
+      "location": "Brisquen Dental - Scottsdale (Scottsdale, AZ)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Ivy Holloway",
+      "date": "2026-10-14T19:20:00Z",
+      "text": "Waited almost half an hour past my appointment at the Scottsdale location with no explanation. Dr. Leah Moreno was kind once I got back there, but the front desk should warn people when the schedule slips.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Leah Moreno"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Ivy, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Brisquen Dental. A manager will reach out this week to make it right.\n\nTeam Brisquen Dental",
+        "author": "Team Brisquen Dental",
+        "date": "2026-10-14T21:45:00Z"
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-rev-2",
+      "number": 2,
+      "accountId": "acct-brisquen-dental",
+      "locationId": "acct-brisquen-dental-loc-2",
+      "location": "Brisquen Dental - Tempe (Tempe, AZ)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Jasper Prescott",
+      "date": "2026-09-30T18:00:00Z",
+      "text": "Booked a same-day crown online on a Sunday night and had a confirmation text within minutes. Tasha remembered details from my last visit, which says a lot about the team at Brisquen Dental.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Tasha"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-brisquen-dental-rev-3",
+      "number": 3,
+      "accountId": "acct-brisquen-dental",
+      "locationId": "acct-brisquen-dental-loc-3",
+      "location": "Brisquen Dental - Chandler (Chandler, AZ)",
+      "site": "facebook",
+      "rating": 3,
+      "reviewer": "Kira Abernethy",
+      "date": "2026-09-16T21:25:00Z",
+      "text": "The care at the Chandler location was fine, but weeks later I got a bill for a cleaning that I thought insurance covered. Please check coverage before the visit, not after.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Kira, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Brisquen Dental. A manager will reach out this week to make it right.\n\nTeam Brisquen Dental",
+        "author": "Team Brisquen Dental",
+        "date": "2026-09-16T22:55:00Z"
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-rev-4",
+      "number": 4,
+      "accountId": "acct-brisquen-dental",
+      "locationId": "acct-brisquen-dental-loc-4",
+      "location": "Brisquen Dental - Mesa (Mesa, AZ)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Leon Hargrove",
+      "date": "2026-09-02T20:10:00Z",
+      "text": "Brought my teenager in for a filling. Jalen talked to her directly instead of over her head, and she actually wants to go back to Brisquen Dental. That's a first.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jalen"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Leon! We'll pass this along to the whole Brisquen Dental team. See you next time.\n\nTeam Brisquen Dental",
+        "author": "Team Brisquen Dental",
+        "date": "2026-09-02T21:25:00Z"
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-rev-5",
+      "number": 5,
+      "accountId": "acct-brisquen-dental",
+      "locationId": "acct-brisquen-dental-loc-5",
+      "location": "Brisquen Dental - Gilbert (Gilbert, AZ)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Marisa Oyelaran",
+      "date": "2026-08-19T15:35:00Z",
+      "text": "Our whole family goes to Brisquen Dental now. Jalen is patient with the kids and honest with the adults.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jalen"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    },
+    {
+      "id": "acct-brisquen-dental-rev-6",
+      "number": 6,
+      "accountId": "acct-brisquen-dental",
+      "locationId": "acct-brisquen-dental-loc-1",
+      "location": "Brisquen Dental - Scottsdale (Scottsdale, AZ)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Nico Valdivia",
+      "date": "2026-08-05T14:20:00Z",
+      "text": "Tasha handled a same-day crown with a light touch and gave clear instructions afterward. Parking near Brisquen Dental is limited at midday, but the care is worth it.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Tasha"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Nico! Happy we could help, and we'll pass this along to the team.\n\nTeam Brisquen Dental",
+        "author": "Team Brisquen Dental",
+        "date": "2026-08-05T21:05:00Z"
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-rev-7",
+      "number": 7,
+      "accountId": "acct-brisquen-dental",
+      "locationId": "acct-brisquen-dental-loc-2",
+      "location": "Brisquen Dental - Tempe (Tempe, AZ)",
+      "site": "facebook",
+      "rating": 5,
+      "reviewer": "Odette Delgado",
+      "date": "2026-07-22T17:45:00Z",
+      "text": "Asked for a second opinion after another office pushed hard for a cleaning. Dr. Ben Achterberg said I didn't need it yet and showed me why on the scan. An honest dentist is hard to find, and Brisquen Dental has one.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Dr. Ben Achterberg"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Odette! We'll pass this along to the whole Brisquen Dental team. See you next time.\n\nTeam Brisquen Dental",
+        "author": "Team Brisquen Dental",
+        "date": "2026-07-22T23:10:00Z"
+      }
+    },
+    {
+      "id": "acct-brisquen-dental-rev-8",
+      "number": 8,
+      "accountId": "acct-brisquen-dental",
+      "locationId": "acct-brisquen-dental-loc-3",
+      "location": "Brisquen Dental - Chandler (Chandler, AZ)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Pierce Kowalczyk",
+      "date": "2026-07-08T16:00:00Z",
+      "text": "Came in for a filling at the Chandler location. Jalen explained each step before starting and checked in halfway through. We finished on time and my next visit was booked before I left.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Jalen"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Pierce! Happy we could help, and we'll pass this along to the team.\n\nTeam Brisquen Dental",
+        "author": "Team Brisquen Dental",
+        "date": "2026-07-09T01:50:00Z"
+      }
+    }
+  ]
+}

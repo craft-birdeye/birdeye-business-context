@@ -1,0 +1,256 @@
+{
+  "$comment": "Invented review and reply templates. scripts/generate.mjs uses them only when it re-rates a review in a non-scenario account to match source/distributions.json. Slots: {brand} brand name, {place} 'the <shortName> location' for multi-location accounts or the brand name for single-location ones, {staff} one named staff member, {service} one of the account's services, {first} the reviewer's first name, {signoff} the account's reply sign-off. Never put real businesses, people, or places here.",
+  "reviews": {
+    "dental-healthcare": [
+      {
+        "stars": 5,
+        "text": "Easy visit for {service}. {staff} was gentle and quick, and I was back at work before lunch."
+      },
+      {
+        "stars": 5,
+        "text": "{staff} made {service} painless. Clear pricing up front from {brand}, no surprises at checkout."
+      },
+      {
+        "stars": 5,
+        "text": "I put off {service} for years because I was nervous. {staff} at {place} walked me through every step, kept checking that I was comfortable, and the whole thing took less time than I expected. I already booked my next visit."
+      },
+      {
+        "stars": 5,
+        "text": "Front desk at {place} squeezed me in the same week for {service}. {staff} explained what my insurance would cover before we started."
+      },
+      {
+        "stars": 5,
+        "text": "Our whole family goes to {brand} now. {staff} is patient with the kids and honest with the adults."
+      },
+      {
+        "stars": 5,
+        "text": "Moved to the area and needed a new dentist fast. {brand} had me in for {service} within days, the office was spotless, and {staff} sent a follow-up text the next morning to check how I was feeling."
+      },
+      {
+        "stars": 5,
+        "text": "Quick, friendly, and on time for {service}. Done right the first visit."
+      },
+      {
+        "stars": 4,
+        "text": "Good care from {staff} on {service}. The wait at {place} ran about fifteen minutes long."
+      },
+      {
+        "stars": 4,
+        "text": "{brand} did a careful job on {service} and the billing was straightforward. Parking is tight, so plan a few extra minutes, but I'd come back without hesitation."
+      },
+      {
+        "stars": 4,
+        "text": "Friendly team and solid work. Online booking at {place} was a little clunky."
+      }
+    ],
+    "home-services": [
+      {
+        "stars": 5,
+        "text": "{brand} sent {staff} out the next morning for {service}. Fair quote, tidy work, and the shoe covers stayed on the whole time."
+      },
+      {
+        "stars": 5,
+        "text": "{staff} explained two options for {service} and recommended the cheaper one. Done in an afternoon."
+      },
+      {
+        "stars": 5,
+        "text": "We had a tight timeline before guests arrived, and {brand} still fit {service} in that week. {staff} texted twenty minutes out, walked us through the work at the end, and left the place cleaner than it was."
+      },
+      {
+        "stars": 5,
+        "text": "Called {brand} about {service} and got a real person right away. Showed up in the window they promised."
+      },
+      {
+        "stars": 5,
+        "text": "Third job with {brand} and they're consistent every time. {staff} knows our house by now."
+      },
+      {
+        "stars": 5,
+        "text": "Great experience with {service}. On time, fair, and friendly."
+      },
+      {
+        "stars": 5,
+        "text": "Honest crew. We called about {service}, and {staff} found the real problem in ten minutes without upselling us on anything we didn't need. The invoice matched the estimate to the dollar, which is rare."
+      },
+      {
+        "stars": 4,
+        "text": "Good work on {service}. Scheduling took a few days longer than I hoped, but {staff} was great once here."
+      },
+      {
+        "stars": 4,
+        "text": "{brand} handled {service} well and cleaned up after. The price was a bit higher than one other quote, but they could start sooner and the warranty is better, so it was worth it to us."
+      },
+      {
+        "stars": 4,
+        "text": "Solid job by {staff}. Wish the arrival window had been shorter."
+      }
+    ],
+    "legal": [
+      {
+        "stars": 5,
+        "text": "{staff} handled {service} for me with patience and clear explanations. I always knew what came next."
+      },
+      {
+        "stars": 5,
+        "text": "Responsive and practical. {brand} gave me a flat fee for {service} and stuck to it."
+      },
+      {
+        "stars": 5,
+        "text": "I came to {brand} stressed and confused about {service}. {staff} took the time to explain my options in plain language, answered every email within a day, and got it resolved sooner than I thought possible."
+      },
+      {
+        "stars": 5,
+        "text": "Second time working with {staff} at {place}. Same careful, steady approach on {service}."
+      },
+      {
+        "stars": 5,
+        "text": "Clear advice, fair billing, quick replies. Would hire {brand} again."
+      },
+      {
+        "stars": 5,
+        "text": "{staff} prepared me well for every step of {service}. The paperwork was organized and nothing was missed."
+      },
+      {
+        "stars": 5,
+        "text": "I interviewed three firms before choosing {brand} for {service}. They were the only ones who gave me a realistic picture instead of a sales pitch, and {staff} kept me updated at every milestone without my having to chase anyone."
+      },
+      {
+        "stars": 4,
+        "text": "Good outcome on {service}. A couple of calls took a day or two to return, but {staff} was thorough."
+      },
+      {
+        "stars": 4,
+        "text": "{brand} did careful work on {service}. The initial consult at {place} started late, though the rest of the process ran on schedule and the advice was sound."
+      },
+      {
+        "stars": 4,
+        "text": "Knowledgeable team. Billing statements could be easier to read."
+      }
+    ],
+    "agency": [
+      {
+        "stars": 5,
+        "text": "{brand} handled {service} for us and the results were obvious within a month. {staff} keeps the updates short and useful."
+      },
+      {
+        "stars": 5,
+        "text": "Clear reporting, quick turnaround, and no jargon. {staff} has been a great point of contact for {service}."
+      },
+      {
+        "stars": 5,
+        "text": "We switched to {brand} after a frustrating year with another partner. {staff} audited where we stood, set realistic goals for {service}, and delivered on every one of them. Our team finally knows what is working and why."
+      },
+      {
+        "stars": 5,
+        "text": "{staff} answered every question about {service} the same day. Easy partner to work with."
+      },
+      {
+        "stars": 5,
+        "text": "Great partner for {service}. Responsive and organized."
+      },
+      {
+        "stars": 5,
+        "text": "{brand} took {service} off our plate completely. Monthly check-ins with {staff} are the most useful meeting on our calendar."
+      },
+      {
+        "stars": 5,
+        "text": "Onboarding with {brand} was smooth and fast. {staff} learned our locations by name in the first week, flagged two quick wins for {service}, and the dashboard they set up is something our regional managers actually open."
+      },
+      {
+        "stars": 4,
+        "text": "Good results on {service}. Kickoff took a little longer than planned, but {staff} kept things moving after that."
+      },
+      {
+        "stars": 4,
+        "text": "{brand} is reliable and the reporting is clear. A few requests on {service} took longer than we'd like during busy weeks, but the quality was always there."
+      },
+      {
+        "stars": 4,
+        "text": "Solid partner. Pricing for add-ons could be clearer."
+      }
+    ],
+    "automotive": [
+      {
+        "stars": 5,
+        "text": "{staff} had {service} done by the time promised and texted photos before doing anything extra."
+      },
+      {
+        "stars": 5,
+        "text": "Fair price on {service} and a clean waiting area. {brand} is my shop now."
+      },
+      {
+        "stars": 5,
+        "text": "Dropped the car at {place} for {service} on my way to work. {staff} called with a clear quote mid-morning, explained what could wait until next time, and it was ready before five. No pressure, no surprises."
+      },
+      {
+        "stars": 5,
+        "text": "Quick and honest. {staff} checked one extra thing for free and didn't charge me for it."
+      },
+      {
+        "stars": 5,
+        "text": "Booked {service} online and was in and out in under an hour. Great service."
+      },
+      {
+        "stars": 5,
+        "text": "Been to a lot of shops and {brand} is the first one where I trust the quote. {staff} showed me the worn part, explained the options for {service}, and the final bill came in under the estimate."
+      },
+      {
+        "stars": 5,
+        "text": "{brand} got my car in the same day for {service}. Friendly team."
+      },
+      {
+        "stars": 4,
+        "text": "Good work on {service}. It ran about an hour longer than quoted, but {staff} kept me posted."
+      },
+      {
+        "stars": 4,
+        "text": "{brand} did a solid job on {service} at a fair price. The waiting area at {place} was crowded on a Saturday morning, so I'd book a weekday next time."
+      },
+      {
+        "stars": 4,
+        "text": "Reliable shop. Phone hold times can be long."
+      }
+    ]
+  },
+  "replies": {
+    "positive": {
+      "casual": [
+        "Thanks so much, {first}! Happy we could help, and we'll pass this along to the team.",
+        "{first}, this made our day. Thanks for trusting us, and see you next time!",
+        "Thank you, {first}! We love hearing this and will share it with the crew."
+      ],
+      "neutral": [
+        "Thank you for the kind words, {first}. We're glad everything went smoothly and look forward to seeing you again.",
+        "We appreciate you taking the time to share this, {first}. It means a lot to our team.",
+        "Thanks, {first}. We're glad we could help and have shared your note with the team."
+      ],
+      "formal": [
+        "Thank you for your review, {first}. We appreciate your trust and are pleased the matter was handled to your satisfaction.",
+        "We are grateful for your feedback, {first}, and glad our team could assist you.",
+        "Thank you, {first}. It was a privilege to work with you, and we appreciate you sharing your experience."
+      ]
+    },
+    "constructive": {
+      "casual": [
+        "Thanks for the honest feedback, {first}. We're working on that and hope to make your next visit even better."
+      ],
+      "neutral": [
+        "Thank you for the feedback, {first}. We've shared your note with the team so we can improve."
+      ],
+      "formal": [
+        "Thank you for your candid feedback, {first}. We have shared it with our team and will use it to improve."
+      ]
+    },
+    "negative": {
+      "casual": [
+        "{first}, we're sorry this wasn't the experience you deserved. Please reach out so we can make it right."
+      ],
+      "neutral": [
+        "We're sorry to hear this, {first}. Please contact our office directly so we can look into it and make things right."
+      ],
+      "formal": [
+        "We regret that your experience fell short, {first}. Please contact our office directly so we may address your concerns."
+      ]
+    }
+  }
+}

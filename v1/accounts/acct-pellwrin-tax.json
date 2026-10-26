@@ -1,0 +1,1147 @@
+{
+  "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "account": {
+    "id": "acct-pellwrin-tax",
+    "name": "Pellwrin Tax & Estates",
+    "brandName": "Pellwrin Tax",
+    "parentGroup": "Pellwrin Tax Law",
+    "segment": "ENT",
+    "segmentLabel": "Enterprise",
+    "industryId": "legal",
+    "industryLabel": "Legal and professional services",
+    "tier": "Specialty firm",
+    "crm": "Clio",
+    "purchasedLocations": 4,
+    "isDefault": false,
+    "quickScenario": false,
+    "hq": {
+      "city": "Washington",
+      "state": "DC",
+      "stateName": "District of Columbia",
+      "country": "United States"
+    },
+    "businessBlurb": "Tax and estate planning firm for professionals and closely held businesses in the capital region.",
+    "profile": {
+      "description": "Tax and estate planning firm for professionals and closely held businesses in the capital region. Tax and estate planning in the capital region.",
+      "categories": [
+        "Tax attorney",
+        "Estate planning attorney"
+      ],
+      "website": "https://pellwrintax.example.com",
+      "email": "hello@pellwrintax.example.com",
+      "phone": "(202) 555-0104",
+      "primaryLocationId": "acct-pellwrin-tax-loc-1",
+      "address": {
+        "street1": "5245 Quillfeather Loop",
+        "street2": "Suite 434",
+        "city": "Washington",
+        "state": "DC",
+        "stateName": "District of Columbia",
+        "zip": "20001",
+        "country": "US"
+      }
+    },
+    "branding": {
+      "brandName": "Pellwrin Tax",
+      "tagline": "Tax and estate planning in the capital region",
+      "logo": {
+        "kind": "monogram",
+        "initials": "PT",
+        "path": "v1/logos/acct-pellwrin-tax.svg",
+        "url": "https://craft-birdeye.github.io/birdeye-business-context/v1/logos/acct-pellwrin-tax.svg"
+      },
+      "colors": {
+        "primary": "#2D3E50",
+        "secondary": "#EEF1F4",
+        "accent": "#8E6C3A",
+        "onPrimary": "#FFFFFF"
+      }
+    },
+    "tone": {
+      "voice": "Precise, patient, and reassuring about complex family and tax matters.",
+      "formality": "formal",
+      "replySignoff": "Pellwrin Tax & Estates"
+    },
+    "staff": [
+      "Eleanor Vanstrell",
+      "Marcus Webbersley",
+      "Ruth Adeyemi"
+    ],
+    "services": [
+      "an estate plan",
+      "a trust update",
+      "an IRS notice response",
+      "a business succession plan"
+    ],
+    "llmContext": "Pellwrin Tax & Estates · Enterprise · Legal and professional services · HQ Washington, District of Columbia, United States · 4 purchased locations · CRM Clio · Tax and estate planning firm for professionals and closely held businesses in the capital region.",
+    "listingSummary": {
+      "locations": 4,
+      "openLocations": 4,
+      "listings": 12,
+      "claimedListings": 11,
+      "verifiedListings": 10,
+      "totalReviews": 677,
+      "averageRating": 4.8,
+      "photoCount": 61
+    }
+  },
+  "locations": [
+    {
+      "id": "acct-pellwrin-tax-loc-1",
+      "accountId": "acct-pellwrin-tax",
+      "index": 1,
+      "name": "Pellwrin Tax - DC Office",
+      "shortName": "DC Office",
+      "label": "Pellwrin Tax - DC Office (Washington, DC)",
+      "locationLine": "Washington, DC",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": true,
+      "address": {
+        "street1": "5245 Quillfeather Loop",
+        "street2": "Suite 434",
+        "city": "Washington",
+        "state": "DC",
+        "stateName": "District of Columbia",
+        "zip": "20001",
+        "country": "US"
+      },
+      "phone": "(202) 555-0100",
+      "email": "dc-office@pellwrintax.example.com",
+      "website": "https://pellwrintax.example.com/locations/dc-office",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Morgan Hale",
+      "createdBy": "Morgan Hale",
+      "createdOn": "2026-08-27T15:20:00Z",
+      "coordinates": {
+        "lat": 38.9795,
+        "lng": -77.02937
+      },
+      "categories": {
+        "primary": "Tax attorney",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Free consultation"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 47,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pellwrin-tax-dc-office",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 219,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 2,
+            "3": 2,
+            "4": 16,
+            "5": 196
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pellwrin-tax-dc-office",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 25,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 22
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pellwrin-tax-dc-office",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 66,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 2,
+            "3": 2,
+            "4": 6,
+            "5": 51
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 310,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-loc-2",
+      "accountId": "acct-pellwrin-tax",
+      "index": 2,
+      "name": "Pellwrin Tax - Arlington",
+      "shortName": "Arlington",
+      "label": "Pellwrin Tax - Arlington (Arlington, VA)",
+      "locationLine": "Arlington, VA",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "1888 Marigold Parkway",
+        "street2": "",
+        "city": "Arlington",
+        "state": "VA",
+        "stateName": "Virginia",
+        "zip": "22201",
+        "country": "US"
+      },
+      "phone": "(571) 555-0101",
+      "email": "arlington@pellwrintax.example.com",
+      "website": "https://pellwrintax.example.com/locations/arlington",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Priya Nair",
+      "createdBy": "Priya Nair",
+      "createdOn": "2026-08-13T14:00:00Z",
+      "coordinates": {
+        "lat": 38.95283,
+        "lng": -77.14486
+      },
+      "categories": {
+        "primary": "Tax attorney",
+        "secondary": [
+          "Estate planning attorney",
+          "Tax consultant"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 9,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pellwrin-tax-arlington",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 55,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 50
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pellwrin-tax-arlington",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pellwrin-tax-arlington",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 73,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-loc-3",
+      "accountId": "acct-pellwrin-tax",
+      "index": 3,
+      "name": "Pellwrin Tax - Bethesda",
+      "shortName": "Bethesda",
+      "label": "Pellwrin Tax - Bethesda (Bethesda, MD)",
+      "locationLine": "Bethesda, MD",
+      "type": "Physical location",
+      "status": "Active",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "3007 Saddlebrook Drive",
+        "street2": "Suite 340",
+        "city": "Bethesda",
+        "state": "MD",
+        "stateName": "Maryland",
+        "zip": "20815",
+        "country": "US"
+      },
+      "phone": "(301) 555-0102",
+      "email": "bethesda@pellwrintax.example.com",
+      "website": "https://pellwrintax.example.com/locations/bethesda",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Jordan Blake",
+      "createdBy": "Jordan Blake",
+      "createdOn": "2026-07-30T17:25:00Z",
+      "coordinates": {
+        "lat": 38.9478,
+        "lng": -77.18891
+      },
+      "categories": {
+        "primary": "Tax attorney",
+        "secondary": [
+          "Tax consultant"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pellwrin-tax-bethesda",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 36,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 3,
+            "5": 31
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pellwrin-tax-bethesda",
+          "claimed": true,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 1,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pellwrin-tax-bethesda",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 39,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-loc-4",
+      "accountId": "acct-pellwrin-tax",
+      "index": 4,
+      "name": "Pellwrin Tax - Tysons",
+      "shortName": "Tysons",
+      "label": "Pellwrin Tax - Tysons (Tysons, VA)",
+      "locationLine": "Tysons, VA",
+      "type": "Physical location",
+      "status": "Demo",
+      "isHeadquarters": false,
+      "address": {
+        "street1": "8602 Bramblewood Trail",
+        "street2": "Suite 183",
+        "city": "Tysons",
+        "state": "VA",
+        "stateName": "Virginia",
+        "zip": "22102",
+        "country": "US"
+      },
+      "phone": "(571) 555-0103",
+      "email": "tysons@pellwrintax.example.com",
+      "website": "https://pellwrintax.example.com/locations/tysons",
+      "timezone": "America/New_York",
+      "hours": [
+        {
+          "days": "Mon-Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
+      ],
+      "owner": "Dana Whitfield",
+      "createdBy": "Dana Whitfield",
+      "createdOn": "2026-07-16T16:35:00Z",
+      "coordinates": {
+        "lat": 38.97482,
+        "lng": -77.17748
+      },
+      "categories": {
+        "primary": "Tax attorney",
+        "secondary": [
+          "Estate planning attorney",
+          "Tax consultant"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 3,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/pellwrin-tax-tysons",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 197,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 10,
+            "5": 185
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/pellwrin-tax-tysons",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 15,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 14
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/pellwrin-tax-tysons",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 43,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 1,
+            "3": 1,
+            "4": 5,
+            "5": 32
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 255,
+        "averageRating": 4.8,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "acct-pellwrin-tax-ct-1",
+      "number": 42,
+      "accountId": "acct-pellwrin-tax",
+      "name": "Adele Jessup",
+      "firstName": "Adele",
+      "lastName": "Jessup",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 8,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-pellwrin-tax-loc-1",
+      "locationIds": [
+        "acct-pellwrin-tax-loc-1"
+      ],
+      "segments": [
+        "Retainer",
+        "Corporate"
+      ],
+      "experienceTags": [
+        "Promoter",
+        "Verified"
+      ],
+      "externalId": "ext-pellwrin-tax-001",
+      "email": "adele.jessup@example.com",
+      "phone": "(202) 555-0105",
+      "locationCount": 1,
+      "location": "Pellwrin Tax - DC Office (Washington, DC)",
+      "createdOn": "2026-07-08T14:00:00Z",
+      "lastActivity": "2026-07-12T19:50:00Z"
+    },
+    {
+      "id": "acct-pellwrin-tax-ct-2",
+      "number": 2,
+      "accountId": "acct-pellwrin-tax",
+      "name": "Bennett Quintero",
+      "firstName": "Bennett",
+      "lastName": "Quintero",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 5,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pellwrin-tax-loc-4",
+      "locationIds": [
+        "acct-pellwrin-tax-loc-4"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "Engaged"
+      ],
+      "externalId": "ext-pellwrin-tax-002",
+      "email": "bennett.quintero@example.com",
+      "phone": "(571) 555-0106",
+      "locationCount": 1,
+      "location": "Pellwrin Tax - Tysons (Tysons, VA)",
+      "createdOn": "2026-10-20T15:55:00Z",
+      "lastActivity": "2026-10-20T20:45:00Z"
+    },
+    {
+      "id": "acct-pellwrin-tax-ct-3",
+      "number": 3,
+      "accountId": "acct-pellwrin-tax",
+      "name": "Carmen Yancey",
+      "firstName": "Carmen",
+      "lastName": "Yancey",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 3,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": false,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-pellwrin-tax-loc-3",
+      "locationIds": [
+        "acct-pellwrin-tax-loc-3"
+      ],
+      "segments": [
+        "Consultation inquiry"
+      ],
+      "experienceTags": [
+        "SMS only"
+      ],
+      "externalId": "ext-pellwrin-tax-003",
+      "phone": "(301) 555-0107",
+      "locationCount": 1,
+      "location": "Pellwrin Tax - Bethesda (Bethesda, MD)",
+      "createdOn": "2026-10-06T20:05:00Z",
+      "lastActivity": "2026-10-14T21:15:00Z"
+    },
+    {
+      "id": "acct-pellwrin-tax-ct-4",
+      "number": 4,
+      "accountId": "acct-pellwrin-tax",
+      "name": "Dorian Fitzwilliam",
+      "firstName": "Dorian",
+      "lastName": "Fitzwilliam",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 7,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pellwrin-tax-loc-2",
+      "locationIds": [
+        "acct-pellwrin-tax-loc-2",
+        "acct-pellwrin-tax-loc-3"
+      ],
+      "segments": [
+        "Referral"
+      ],
+      "experienceTags": [
+        "Loyal"
+      ],
+      "externalId": "ext-pellwrin-tax-004",
+      "email": "dorian.fitzwilliam@example.com",
+      "phone": "(571) 555-0108",
+      "locationCount": 2,
+      "location": "Pellwrin Tax - Arlington (Arlington, VA)",
+      "createdOn": "2026-09-22T21:45:00Z",
+      "lastActivity": "2026-09-27T14:10:00Z"
+    },
+    {
+      "id": "acct-pellwrin-tax-ct-5",
+      "number": 5,
+      "accountId": "acct-pellwrin-tax",
+      "name": "Esme Moreau",
+      "firstName": "Esme",
+      "lastName": "Moreau",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 2,
+      "scoreLevel": "red",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pellwrin-tax-loc-1",
+      "locationIds": [
+        "acct-pellwrin-tax-loc-1"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Billing concern"
+      ],
+      "externalId": "ext-pellwrin-tax-005",
+      "email": "esme.moreau@example.com",
+      "phone": "(202) 555-0109",
+      "locationCount": 1,
+      "location": "Pellwrin Tax - DC Office (Washington, DC)",
+      "createdOn": "2026-09-08T18:00:00Z",
+      "lastActivity": "2026-09-27T15:10:00Z"
+    },
+    {
+      "id": "acct-pellwrin-tax-ct-6",
+      "number": 6,
+      "accountId": "acct-pellwrin-tax",
+      "name": "Fabian Uchenna",
+      "firstName": "Fabian",
+      "lastName": "Uchenna",
+      "contactType": "Lead",
+      "isLead": true,
+      "score": 1,
+      "scoreLevel": "yellow",
+      "hasPhone": false,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pellwrin-tax-loc-4",
+      "locationIds": [
+        "acct-pellwrin-tax-loc-4"
+      ],
+      "segments": [],
+      "experienceTags": [
+        "Cold"
+      ],
+      "externalId": "ext-pellwrin-tax-006",
+      "email": "fabian.uchenna@example.com",
+      "locationCount": 1,
+      "location": "Pellwrin Tax - Tysons (Tysons, VA)",
+      "createdOn": "2026-08-25T19:30:00Z",
+      "lastActivity": "2026-08-30T16:35:00Z"
+    },
+    {
+      "id": "acct-pellwrin-tax-ct-7",
+      "number": 7,
+      "accountId": "acct-pellwrin-tax",
+      "name": "Greta Cortland",
+      "firstName": "Greta",
+      "lastName": "Cortland",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 9,
+      "scoreLevel": "green",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": true,
+      "primaryLocationId": "acct-pellwrin-tax-loc-3",
+      "locationIds": [
+        "acct-pellwrin-tax-loc-3",
+        "acct-pellwrin-tax-loc-4",
+        "acct-pellwrin-tax-loc-1"
+      ],
+      "segments": [
+        "Corporate",
+        "High value"
+      ],
+      "experienceTags": [
+        "Referrer",
+        "High NPS"
+      ],
+      "externalId": "ext-pellwrin-tax-007",
+      "email": "greta.cortland@example.com",
+      "phone": "(301) 555-0110",
+      "locationCount": 3,
+      "location": "Pellwrin Tax - Bethesda (Bethesda, MD)",
+      "createdOn": "2026-08-11T16:40:00Z",
+      "lastActivity": "2026-09-14T17:15:00Z"
+    },
+    {
+      "id": "acct-pellwrin-tax-ct-8",
+      "number": 8,
+      "accountId": "acct-pellwrin-tax",
+      "name": "Hollis Kincaid",
+      "firstName": "Hollis",
+      "lastName": "Kincaid",
+      "contactType": "Client",
+      "isLead": false,
+      "score": 4,
+      "scoreLevel": "yellow",
+      "hasPhone": true,
+      "hasEmail": true,
+      "hasWhatsapp": false,
+      "primaryLocationId": "acct-pellwrin-tax-loc-2",
+      "locationIds": [
+        "acct-pellwrin-tax-loc-2",
+        "acct-pellwrin-tax-loc-3"
+      ],
+      "segments": [
+        "Retainer"
+      ],
+      "experienceTags": [
+        "At risk"
+      ],
+      "externalId": "ext-pellwrin-tax-008",
+      "email": "hollis.kincaid@example.com",
+      "phone": "(571) 555-0111",
+      "locationCount": 2,
+      "location": "Pellwrin Tax - Arlington (Arlington, VA)",
+      "createdOn": "2026-08-18T17:25:00Z",
+      "lastActivity": "2026-08-18T18:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "acct-pellwrin-tax-rev-1",
+      "number": 1,
+      "accountId": "acct-pellwrin-tax",
+      "locationId": "acct-pellwrin-tax-loc-1",
+      "location": "Pellwrin Tax - DC Office (Washington, DC)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Ivy Stroud",
+      "date": "2026-07-16T16:55:00Z",
+      "text": "The fixed-fee quote for an estate plan was honored to the dollar. Eleanor Vanstrell was thorough, though the first consult at the DC Office location started 20 minutes late.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Eleanor Vanstrell"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Ivy. We are glad the team at Pellwrin Tax could help, and we appreciate you taking the time to share your experience.\n\nPellwrin Tax & Estates",
+        "author": "Pellwrin Tax & Estates",
+        "date": "2026-07-19T16:30:00Z"
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-rev-2",
+      "number": 2,
+      "accountId": "acct-pellwrin-tax",
+      "locationId": "acct-pellwrin-tax-loc-2",
+      "location": "Pellwrin Tax - Arlington (Arlington, VA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Jasper Carrow",
+      "date": "2026-07-02T21:25:00Z",
+      "text": "My consult about a business succession plan was free of jargon and pressure. Marcus Webbersley told me what I could handle myself and what really needed an attorney.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Marcus Webbersley"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Jasper. It was a privilege to work with you, and we appreciate you sharing your experience.\n\nPellwrin Tax & Estates",
+        "author": "Pellwrin Tax & Estates",
+        "date": "2026-07-04T12:25:00Z"
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-rev-3",
+      "number": 3,
+      "accountId": "acct-pellwrin-tax",
+      "locationId": "acct-pellwrin-tax-loc-3",
+      "location": "Pellwrin Tax - Bethesda (Bethesda, MD)",
+      "site": "google",
+      "rating": 2,
+      "reviewer": "Kira Jessup",
+      "date": "2026-10-11T18:00:00Z",
+      "text": "Good attorney, frustrating front office. Pellwrin Tax sent the paperwork for an IRS notice response to the wrong email twice.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Kira, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Pellwrin Tax. A member of our leadership team will contact you directly to discuss it.\n\nPellwrin Tax & Estates",
+        "author": "Pellwrin Tax & Estates",
+        "date": "2026-10-13T12:50:00Z"
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-rev-4",
+      "number": 4,
+      "accountId": "acct-pellwrin-tax",
+      "locationId": "acct-pellwrin-tax-loc-4",
+      "location": "Pellwrin Tax - Tysons (Tysons, VA)",
+      "site": "yelp",
+      "rating": 5,
+      "reviewer": "Leon Quintero",
+      "date": "2026-09-27T15:35:00Z",
+      "text": "Eleanor Vanstrell handled a business succession plan for us with real care. Every step and cost was explained in plain English, and nothing from Pellwrin Tax came as a surprise.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Eleanor Vanstrell"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Leon. We are glad the team at Pellwrin Tax could help, and we appreciate you taking the time to share your experience.\n\nPellwrin Tax & Estates",
+        "author": "Pellwrin Tax & Estates",
+        "date": "2026-09-29T04:10:00Z"
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-rev-5",
+      "number": 5,
+      "accountId": "acct-pellwrin-tax",
+      "locationId": "acct-pellwrin-tax-loc-1",
+      "location": "Pellwrin Tax - DC Office (Washington, DC)",
+      "site": "facebook",
+      "rating": 4,
+      "reviewer": "Marisa Yancey",
+      "date": "2026-09-13T20:10:00Z",
+      "text": "Strong work on an estate plan. Responses from Pellwrin Tax usually came within a day, though a couple of emails took longer during a busy stretch. Would hire them again.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you, Marisa. It was a privilege to work with you, and we appreciate you sharing your experience.\n\nPellwrin Tax & Estates",
+        "author": "Pellwrin Tax & Estates",
+        "date": "2026-09-17T05:55:00Z"
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-rev-6",
+      "number": 6,
+      "accountId": "acct-pellwrin-tax",
+      "locationId": "acct-pellwrin-tax-loc-2",
+      "location": "Pellwrin Tax - Arlington (Arlington, VA)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Nico Fitzwilliam",
+      "date": "2026-08-30T17:45:00Z",
+      "text": "Clear advice, fair billing, quick replies. Would hire Pellwrin Tax again.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [],
+      "employees": 0,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We are grateful for your feedback, Nico, and glad our team could assist you.\n\nPellwrin Tax & Estates",
+        "author": "Pellwrin Tax & Estates",
+        "date": "2026-08-31T14:30:00Z"
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-rev-7",
+      "number": 7,
+      "accountId": "acct-pellwrin-tax",
+      "locationId": "acct-pellwrin-tax-loc-3",
+      "location": "Pellwrin Tax - Bethesda (Bethesda, MD)",
+      "site": "google",
+      "rating": 5,
+      "reviewer": "Odette Moreau",
+      "date": "2026-08-16T14:20:00Z",
+      "text": "I was anxious going into an IRS notice response. Eleanor Vanstrell laid out a realistic timeline, flagged the risks up front, and checked in at every milestone.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Eleanor Vanstrell"
+      ],
+      "employees": 1,
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for your kind words, Odette. We are glad the team at Pellwrin Tax could help, and we appreciate you taking the time to share your experience.\n\nPellwrin Tax & Estates",
+        "author": "Pellwrin Tax & Estates",
+        "date": "2026-08-17T20:25:00Z"
+      }
+    },
+    {
+      "id": "acct-pellwrin-tax-rev-8",
+      "number": 8,
+      "accountId": "acct-pellwrin-tax",
+      "locationId": "acct-pellwrin-tax-loc-4",
+      "location": "Pellwrin Tax - Tysons (Tysons, VA)",
+      "site": "yelp",
+      "rating": 4,
+      "reviewer": "Pierce Uchenna",
+      "date": "2026-08-02T19:45:00Z",
+      "text": "Good outcome on a trust update. A couple of calls took a day or two to return, but Eleanor Vanstrell was thorough.",
+      "photoCount": 0,
+      "featured": false,
+      "archived": false,
+      "employeesMentioned": [
+        "Eleanor Vanstrell"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
+    }
+  ]
+}
