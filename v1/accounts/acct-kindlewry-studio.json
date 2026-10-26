@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-kindlewry-studio",
@@ -73,7 +73,17 @@
       "review-request templates",
       "a photo library"
     ],
-    "llmContext": "Kindlewry Studio Marketing · SMB · Advertising and agency · HQ Denver, Colorado, United States · 1 purchased location · CRM Pipedrive · Two-person studio running GBP and review invites for Denver home-services clients."
+    "llmContext": "Kindlewry Studio Marketing · SMB · Advertising and agency · HQ Denver, Colorado, United States · 1 purchased location · CRM Pipedrive · Two-person studio running GBP and review invites for Denver home-services clients.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 2,
+      "verifiedListings": 2,
+      "totalReviews": 147,
+      "averageRating": 4.7,
+      "photoCount": 15
+    }
   },
   "locations": [
     {
@@ -109,7 +119,119 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-07-25T18:45:00Z"
+      "createdOn": "2026-07-25T18:45:00Z",
+      "coordinates": {
+        "lat": 39.67781,
+        "lng": -105.05441
+      },
+      "categories": {
+        "primary": "Marketing agency",
+        "secondary": [
+          "Social media agency"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        }
+      ],
+      "photoCount": 15,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/kindlewry-studio-marketing",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 112,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 3,
+            "3": 3,
+            "4": 13,
+            "5": 90
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/kindlewry-studio-marketing",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 16,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 14
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/kindlewry-studio-marketing",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 19,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 14
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 147,
+        "averageRating": 4.7,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -380,7 +502,7 @@
       "reviewer": "Ivy Blackwood",
       "date": "2026-09-14T21:25:00Z",
       "text": "Kindlewry Studio took over a brand identity for our team and the difference showed within a month. Ines Okoro sends a short weekly update with exactly what changed and what to do next.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
@@ -391,7 +513,7 @@
       "reply": {
         "text": "Thanks so much, Ivy! We'll pass this along to the whole Kindlewry Studio team. See you next time.\n\nKindlewry Studio Marketing",
         "author": "Kindlewry Studio Marketing",
-        "date": "2026-09-15T15:25:00Z"
+        "date": "2026-09-15T19:55:00Z"
       }
     },
     {
@@ -412,7 +534,12 @@
         "Max Fairbanks"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Jasper. It means a lot to our team.\n\nKindlewry Studio Marketing",
+        "author": "Kindlewry Studio Marketing",
+        "date": "2026-09-02T12:00:00Z"
+      }
     },
     {
       "id": "acct-kindlewry-studio-rev-3",
@@ -425,7 +552,7 @@
       "reviewer": "Kira Pembrook",
       "date": "2026-08-17T19:20:00Z",
       "text": "Our kickoff with Kindlewry Studio for review-request templates was rescheduled twice and nobody explained why. The work has been fine since, but first impressions matter.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -434,7 +561,7 @@
       "reply": {
         "text": "Kira, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Kindlewry Studio. A manager will reach out this week to make it right.\n\nKindlewry Studio Marketing",
         "author": "Kindlewry Studio Marketing",
-        "date": "2026-08-18T21:15:00Z"
+        "date": "2026-08-20T08:25:00Z"
       }
     },
     {
@@ -448,7 +575,7 @@
       "reviewer": "Leon Wexford",
       "date": "2026-08-03T14:20:00Z",
       "text": "We run more than 20 client locations and Kindlewry Studio is the first partner that made a photo library feel manageable. Max Fairbanks knows our markets by name.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -459,7 +586,7 @@
       "reply": {
         "text": "Thanks so much, Leon! We'll pass this along to the whole Kindlewry Studio team. See you next time.\n\nKindlewry Studio Marketing",
         "author": "Kindlewry Studio Marketing",
-        "date": "2026-08-05T16:35:00Z"
+        "date": "2026-08-05T12:15:00Z"
       }
     },
     {
@@ -469,21 +596,16 @@
       "locationId": "acct-kindlewry-studio-loc-1",
       "location": "Kindlewry Studio Marketing (Denver, CO)",
       "site": "yelp",
-      "rating": 3,
+      "rating": 4,
       "reviewer": "Marisa Esposito",
       "date": "2026-07-20T17:45:00Z",
-      "text": "Good strategy on a brand identity, but the monthly invoice from Kindlewry Studio has vague line items. Our finance team needs clearer activity summaries.",
-      "photoCount": 3,
+      "text": "Kindlewry Studio is reliable and the reporting is clear. A few requests on a local landing page took longer than we'd like during busy weeks, but the quality was always there.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Marisa, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Kindlewry Studio. A manager will reach out this week to make it right.\n\nKindlewry Studio Marketing",
-        "author": "Kindlewry Studio Marketing",
-        "date": "2026-07-21T19:55:00Z"
-      }
+      "replyStatus": "post"
     },
     {
       "id": "acct-kindlewry-studio-rev-6",
@@ -512,21 +634,18 @@
       "locationId": "acct-kindlewry-studio-loc-1",
       "location": "Kindlewry Studio Marketing (Denver, CO)",
       "site": "google",
-      "rating": 1,
+      "rating": 4,
       "reviewer": "Odette Tavares",
       "date": "2026-10-15T15:35:00Z",
-      "text": "Our account lead at Kindlewry Studio left and we went a month without anyone owning review-request templates. They've since assigned someone new, but the gap hurt.",
-      "photoCount": 1,
+      "text": "Good results on a photo library. Kickoff took a little longer than planned, but Ines Okoro kept things moving after that.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Odette, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Kindlewry Studio. A manager will reach out this week to make it right.\n\nKindlewry Studio Marketing",
-        "author": "Kindlewry Studio Marketing",
-        "date": "2026-10-16T17:25:00Z"
-      }
+      "employeesMentioned": [
+        "Ines Okoro"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-kindlewry-studio-rev-8",
@@ -539,14 +658,19 @@
       "reviewer": "Pierce Brannigan",
       "date": "2026-10-01T18:30:00Z",
       "text": "Max Fairbanks ran a practical session for our front-line staff on asking for reviews. Results showed up within two weeks. The slides could have been shared sooner.",
-      "photoCount": 2,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Max Fairbanks"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for the kind words, Pierce. We're glad everything went smoothly and look forward to seeing you again.\n\nKindlewry Studio Marketing",
+        "author": "Kindlewry Studio Marketing",
+        "date": "2026-10-01T21:45:00Z"
+      }
     }
   ]
 }

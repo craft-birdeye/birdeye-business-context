@@ -31,7 +31,8 @@ Residential and light-commercial electrical contractor across San Diego County. 
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 15 across 6 locations, 11 claimed, 11 verified; 275 public reviews, average 4.8★; 425 photos
 - Bundle: [`v1/accounts/acct-quarrytide-electric.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-quarrytide-electric.json)
 
 ## Locations
@@ -44,6 +45,19 @@ Residential and light-commercial electrical contractor across San Diego County. 
 | 4 | Quarrytide Electric - Escondido | 8690 Velvet Ash Parkway, Escondido, CA 92025 | (442) 555-0103 | Demo |
 | 5 | Quarrytide Electric - Oceanside | 909 Wrenfield Commons, Oceanside, CA 92056 | (760) 555-0104 | Needs setup |
 | 6 | Quarrytide Electric - El Cajon | 6452 Yarrow Court, Suite 325, El Cajon, CA 92020 | (619) 555-0105 | Inactive |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Electrician, Electric vehicle charging station contractor, Generator shop | google: 5 · 101 · verified; facebook: 4.9 · 8 · verified; yelp: 4.3 · 20 · verified | 32.68086, -117.14296 |
+| 2 | Open | Electrician, Electric vehicle charging station contractor | google: 4.9 · 41 · verified; facebook: 4.8 · 6 · verified; yelp: 4.8 · 5 · unclaimed | 32.54199, -117.08014 |
+| 3 | Open | Electrician, Lighting contractor | google: 4.4 · 14 · verified; facebook: 5 · 2 · verified | 33.18726, -117.2377 |
+| 4 | Open | Electrician, Electric vehicle charging station contractor, Lighting contractor | google: 4.6 · 19 · verified; facebook: 5 · 2 · verified | 33.05348, -117.00975 |
+| 5 | Open | Electrician, Generator shop | google: 4.8 · 26 · unclaimed; facebook: 5 · 2 · unclaimed; yelp: 4.8 · 5 · unclaimed | 33.23278, -117.3025 |
+| 6 | Temporarily closed | Electrician, Lighting contractor | google: 5 · 22 · verified; facebook: 5 · 2 · verified | 32.72747, -116.96604 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

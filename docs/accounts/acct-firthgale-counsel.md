@@ -31,7 +31,8 @@ Pacific Northwest firm focused on corporate, IP, and employment matters. Corpora
 ## Data at a glance
 
 - Contacts: 8 (Client, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.4★, 5 with replies
+- Listings (invented, schema 1.1.0): 18 across 7 locations, 15 claimed, 15 verified; 1495 public reviews, average 4.7★; 128 photos
 - Bundle: [`v1/accounts/acct-firthgale-counsel.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-firthgale-counsel.json)
 
 ## Locations
@@ -45,6 +46,20 @@ Pacific Northwest firm focused on corporate, IP, and employment matters. Corpora
 | 5 | Firthgale Counsel - Vancouver WA | 5075 Clover Bend Avenue, Vancouver, WA 98661 | (360) 555-0104 | Needs setup |
 | 6 | Firthgale Counsel - Spokane | 6194 Driftwood Terrace, Spokane, WA 99208 | (509) 555-0105 | Inactive |
 | 7 | Firthgale Counsel - Eugene | 7313 Zephyr Court, Eugene, OR 97404 | (541) 555-0106 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Law firm, Real estate attorney | google: 4.8 · 71 · verified; facebook: 5 · 4 · verified; yelp: 4.2 · 6 · verified | 47.60637, -122.35109 |
+| 2 | Open | Law firm, Business attorney, Employment attorney | google: 4.5 · 184 · verified; facebook: 5 · 22 · verified; yelp: 4.2 · 19 · verified | 47.58407, -122.1811 |
+| 3 | Open | Law firm, Employment attorney | google: 5 · 77 · verified; facebook: 5 · 6 · verified; yelp: 4.3 · 11 · verified | 47.31345, -122.4791 |
+| 4 | Open | Law firm, Employment attorney, Real estate attorney, Litigation attorney | google: 4.7 · 454 · verified; facebook: 4.8 · 31 · unclaimed | 45.46738, -122.54675 |
+| 5 | Open | Law firm | google: 4.8 · 240 · unclaimed; facebook: 4.7 · 26 · unclaimed | 45.69106, -122.56825 |
+| 6 | Open | Law firm, Employment attorney | google: 5 · 72 · verified; yelp: 5 · 4 · verified | 47.68697, -117.4454 |
+| 7 | Open | Law firm, Litigation attorney, Employment attorney | google: 4.8 · 216 · verified; facebook: 4.9 · 21 · verified; yelp: 4.5 · 31 · verified | 43.9831, -123.09988 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

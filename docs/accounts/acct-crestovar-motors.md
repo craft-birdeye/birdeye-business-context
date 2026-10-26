@@ -31,7 +31,8 @@ Dealer service centers across the Wasatch Front with shared review monitoring. D
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.4★, 5 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 26 across 10 locations, 23 claimed, 22 verified; 7644 public reviews, average 4.5★; 352 photos
 - Bundle: [`v1/accounts/acct-crestovar-motors.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-crestovar-motors.json)
 
 ## Locations
@@ -48,6 +49,23 @@ Dealer service centers across the Wasatch Front with shared review monitoring. D
 | 8 | Crestovar Motors - Logan | 5285 Quillfeather Drive, Suite 418, Logan, UT 84321 | (435) 555-0107 | Active |
 | 9 | Crestovar Motors - Layton | 4166 Quarrystone Parkway, Suite 371, Layton, UT 84041 | (385) 555-0108 | Active |
 | 10 | Crestovar Motors - Orem | 8638 Hazelwood Boulevard, Orem, UT 84057 | (385) 555-0109 | Demo |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Car dealer service center, Oil change service | google: 4.6 · 268 · verified; facebook: 4.8 · 25 · verified; yelp: 4.1 · 44 · verified | 40.69618, -111.82587 |
+| 2 | Open | Car dealer service center | google: 4.5 · 106 · verified; facebook: 4.3 · 30 · verified; yelp: 3.8 · 12 · verified | 40.56005, -111.80586 |
+| 3 | Open | Car dealer service center, Auto parts store | google: 4.5 · 571 · verified; facebook: 4.9 · 108 · verified | 40.68367, -111.99244 |
+| 4 | Open | Car dealer service center | google: 4.7 · 205 · verified; yelp: 4.2 · 20 · verified | 41.3197, -112.03378 |
+| 5 | Open | Car dealer service center, Oil change service, Auto parts store | google: 4.3 · 3129 · verified; facebook: 4.9 · 343 · unclaimed; yelp: 4.4 · 690 · verified | 40.18456, -111.75409 |
+| 6 | Open | Car dealer service center, Oil change service, Auto parts store | google: 4.4 · 173 · verified; facebook: 5 · 24 · verified; yelp: 4.1 · 13 · unclaimed | 40.67007, -111.61246 |
+| 7 | Open | Car dealer service center, Auto repair shop | google: 5 · 227 · verified; facebook: 4.4 · 9 · verified; yelp: 4.5 · 82 · unclaimed | 37.13809, -113.49197 |
+| 8 | Open | Car dealer service center, Auto repair shop | google: 4.4 · 61 · verified; facebook: 4.8 · 21 · verified | 41.69995, -111.9721 |
+| 9 | Open | Car dealer service center, Oil change service | google: 4.8 · 1236 · claimed; facebook: 4.9 · 207 · verified | 41.10386, -112.02108 |
+| 10 | Open | Car dealer service center, Auto parts store, Auto repair shop | google: 4.7 · 31 · verified; facebook: 4.8 · 6 · verified; yelp: 5 · 3 · verified | 40.25947, -111.59359 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

@@ -31,7 +31,8 @@ Owner-operated HVAC shop serving Boulder homes and small offices. Owner-operated
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.8★, 3 with replies
+- Reviews: 8, average 4.1★, 5 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 2 claimed, 2 verified; 72 public reviews, average 4.8★; 1 photos
 - Bundle: [`v1/accounts/acct-coilhaven-hvac.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-coilhaven-hvac.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Owner-operated HVAC shop serving Boulder homes and small offices. Owner-operated
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Coilhaven Heating & Cooling | 7159 Ironleaf Way, Suite 204, Boulder, CO 80301 | (303) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | HVAC contractor, Plumber, Electrician | google: 4.9 · 59 · verified; facebook: 4.6 · 9 · unclaimed; yelp: 5 · 4 · verified | 40.0938, -105.29357 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

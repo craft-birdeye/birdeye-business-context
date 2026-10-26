@@ -32,6 +32,7 @@ Commercial and employment law firm serving mid-market clients in the Dallas–Fo
 
 - Contacts: 10 (Client, Lead)
 - Reviews: 10, average 3.9★, 3 with replies
+- Listings (invented, schema 1.1.0): 14 across 5 locations, 13 claimed, 12 verified; 342 public reviews, average 4.9★; 29 photos
 - Bundle: [`v1/accounts/acct-varrowmere-law.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-varrowmere-law.json)
 
 ## Locations
@@ -43,6 +44,18 @@ Commercial and employment law firm serving mid-market clients in the Dallas–Fo
 | 3 | Varrowmere Law - Fort Worth Office | 2987 Saddlebrook Avenue, Suite 428, Fort Worth, TX 76107 | (817) 555-0102 | Active |
 | 4 | Varrowmere Law - Irving Office | 8582 Bramblewood Commons, Irving, TX 75039 | (972) 555-0103 | Demo |
 | 5 | Varrowmere Law - Frisco Office | 801 Meadowlark Parkway, Frisco, TX 75033 | (469) 555-0104 | Needs setup |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Law firm, Business attorney | google: 5 · 56 · verified; facebook: 4.8 · 4 · verified | 32.76137, -96.86981 |
+| 2 | Open | Law firm | google: 4.6 · 12 · verified; facebook: 5 · 2 · verified; yelp: 5 · 1 · verified | 33.03216, -96.76182 |
+| 3 | Open | Law firm, Real estate attorney | google: 5 · 45 · verified; facebook: 5 · 3 · verified; yelp: 4 · 2 · claimed | 32.66979, -97.31157 |
+| 4 | Open | Law firm | google: 5 · 156 · verified; facebook: 5 · 21 · verified; yelp: 4.1 · 13 · verified | 32.90699, -97.0172 |
+| 5 | Open | Law firm, Employment attorney | google: 4.8 · 23 · verified; facebook: 5 · 2 · unclaimed; yelp: 4.5 · 2 · verified | 33.1899, -96.89613 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

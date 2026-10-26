@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-saltwick-dental",
@@ -75,7 +75,17 @@
       "a veneer consult",
       "a hygiene recall"
     ],
-    "llmContext": "Saltwick Dental Collective · Enterprise · Dental and healthcare · HQ San Francisco, California, United States · 6 purchased locations · CRM Dentrix · Bay Area general dentistry group with strong new-patient and hygiene recall programs."
+    "llmContext": "Saltwick Dental Collective · Enterprise · Dental and healthcare · HQ San Francisco, California, United States · 6 purchased locations · CRM Dentrix · Bay Area general dentistry group with strong new-patient and hygiene recall programs.",
+    "listingSummary": {
+      "locations": 6,
+      "openLocations": 5,
+      "listings": 17,
+      "claimedListings": 12,
+      "verifiedListings": 12,
+      "totalReviews": 3539,
+      "averageRating": 4.9,
+      "photoCount": 327
+    }
   },
   "locations": [
     {
@@ -116,7 +126,133 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-08T21:30:00Z"
+      "createdOn": "2026-07-08T21:30:00Z",
+      "coordinates": {
+        "lat": 37.82165,
+        "lng": -122.37812
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 24,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/saltwick-dental-san-francisco",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 270,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 3,
+            "3": 6,
+            "4": 23,
+            "5": 232
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/saltwick-dental-san-francisco",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 26,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 25
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/saltwick-dental-san-francisco",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 33,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 24
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 329,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-saltwick-dental-loc-2",
@@ -156,7 +292,131 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-20T16:00:00Z"
+      "createdOn": "2026-10-20T16:00:00Z",
+      "coordinates": {
+        "lat": 37.80634,
+        "lng": -122.30885
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/saltwick-dental-oakland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 65,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 60
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/saltwick-dental-oakland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 22,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 20
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/saltwick-dental-oakland",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 93,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-saltwick-dental-loc-3",
@@ -196,7 +456,118 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-10-06T19:25:00Z"
+      "createdOn": "2026-10-06T19:25:00Z",
+      "coordinates": {
+        "lat": 37.84444,
+        "lng": -122.25407
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider",
+          "Emergency dental service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 235,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/saltwick-dental-berkeley",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 1604,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 4,
+            "3": 13,
+            "4": 91,
+            "5": 1491
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/saltwick-dental-berkeley",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 202,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 8,
+            "5": 193
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1806,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-saltwick-dental-loc-4",
@@ -236,7 +607,134 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-09-22T14:25:00Z"
+      "createdOn": "2026-09-22T14:25:00Z",
+      "coordinates": {
+        "lat": 37.52538,
+        "lng": -122.23701
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist",
+          "Emergency dental service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/saltwick-dental-san-mateo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 330,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 4,
+            "4": 22,
+            "5": 301
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/saltwick-dental-san-mateo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 10
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/saltwick-dental-san-mateo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 23
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 373,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-saltwick-dental-loc-5",
@@ -276,7 +774,129 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-08T17:50:00Z"
+      "createdOn": "2026-09-08T17:50:00Z",
+      "coordinates": {
+        "lat": 37.48786,
+        "lng": -122.09939
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 38,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/saltwick-dental-palo-alto",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 738,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 3,
+            "4": 28,
+            "5": 706
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/saltwick-dental-palo-alto",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 51,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 46
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/saltwick-dental-palo-alto",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 23
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 821,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-saltwick-dental-loc-6",
@@ -316,7 +936,131 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-25T20:15:00Z"
+      "createdOn": "2026-08-25T20:15:00Z",
+      "coordinates": {
+        "lat": 37.23742,
+        "lng": -121.85487
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Emergency dental service",
+          "Dental implants provider",
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 22,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/saltwick-dental-san-jose",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 72,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 7,
+            "5": 59
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/saltwick-dental-san-jose",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 18,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/saltwick-dental-san-jose",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 27,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 23
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 117,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -591,7 +1335,7 @@
       "reviewer": "Orion Abernethy",
       "date": "2026-10-04T14:50:00Z",
       "text": "Asked for a second opinion after another office pushed hard for a veneer consult. Dr. Naomi Feld said I didn't need it yet and showed me why on the scan. An honest dentist is hard to find, and Saltwick Dental has one.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
@@ -602,7 +1346,7 @@
       "reply": {
         "text": "Thanks so much, Orion! We'll pass this along to the whole Saltwick Dental team. See you next time.\n\nSaltwick Dental Collective",
         "author": "Saltwick Dental Collective",
-        "date": "2026-10-05T16:25:00Z"
+        "date": "2026-10-05T04:55:00Z"
       }
     },
     {
@@ -616,7 +1360,7 @@
       "reviewer": "Paloma Hargrove",
       "date": "2026-09-20T15:05:00Z",
       "text": "Came in for a deep cleaning at the Oakland location. Rico explained each step before starting and checked in halfway through. We finished on time and my next visit was booked before I left.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -643,7 +1387,12 @@
         "Dr. Arjun Patil"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thank you for the kind words, Reuben. We're glad everything went smoothly and look forward to seeing you again.\n\nSaltwick Dental Collective",
+        "author": "Saltwick Dental Collective",
+        "date": "2026-09-07T01:45:00Z"
+      }
     },
     {
       "id": "acct-saltwick-dental-rev-4",
@@ -656,7 +1405,7 @@
       "reviewer": "Sabine Valdivia",
       "date": "2026-08-23T21:55:00Z",
       "text": "Good experience with a hygiene recall at the San Mateo location. The team was organized and the final bill matched the estimate. The waiting room was crowded around 4 p.m., so book early if you can.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -665,7 +1414,7 @@
       "reply": {
         "text": "Thanks so much, Sabine! We'll pass this along to the whole Saltwick Dental team. See you next time.\n\nSaltwick Dental Collective",
         "author": "Saltwick Dental Collective",
-        "date": "2026-08-25T15:35:00Z"
+        "date": "2026-08-24T09:15:00Z"
       }
     },
     {
@@ -679,7 +1428,7 @@
       "reviewer": "Tobias Delgado",
       "date": "2026-08-09T18:30:00Z",
       "text": "Waited almost half an hour past my appointment at the Palo Alto location with no explanation. Dr. Naomi Feld was kind once I got back there, but the front desk should warn people when the schedule slips.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -690,7 +1439,7 @@
       "reply": {
         "text": "Tobias, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Saltwick Dental. A manager will reach out this week to make it right.\n\nSaltwick Dental Collective",
         "author": "Saltwick Dental Collective",
-        "date": "2026-08-10T20:05:00Z"
+        "date": "2026-08-15T05:15:00Z"
       }
     },
     {
@@ -704,14 +1453,19 @@
       "reviewer": "Uma Kowalczyk",
       "date": "2026-07-26T19:50:00Z",
       "text": "Booked a deep cleaning online on a Sunday night and had a confirmation text within minutes. Rico remembered details from my last visit, which says a lot about the team at Saltwick Dental.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Rico"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Uma. We're glad we could help and have shared your note with the team.\n\nSaltwick Dental Collective",
+        "author": "Saltwick Dental Collective",
+        "date": "2026-07-29T05:20:00Z"
+      }
     },
     {
       "id": "acct-saltwick-dental-rev-7",
@@ -733,7 +1487,7 @@
       "reply": {
         "text": "Vaughn, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Saltwick Dental. A manager will reach out this week to make it right.\n\nSaltwick Dental Collective",
         "author": "Saltwick Dental Collective",
-        "date": "2026-07-13T18:10:00Z"
+        "date": "2026-07-12T19:50:00Z"
       }
     },
     {
@@ -747,14 +1501,19 @@
       "reviewer": "Willa Ashby",
       "date": "2026-06-28T17:40:00Z",
       "text": "Brought my teenager in for a hygiene recall. Wen talked to her directly instead of over her head, and she actually wants to go back to Saltwick Dental. That's a first.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Wen"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Willa. It means a lot to our team.\n\nSaltwick Dental Collective",
+        "author": "Saltwick Dental Collective",
+        "date": "2026-07-01T00:40:00Z"
+      }
     }
   ]
 }

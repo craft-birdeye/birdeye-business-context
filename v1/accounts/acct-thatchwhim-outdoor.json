@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-thatchwhim-outdoor",
@@ -75,7 +75,17 @@
       "weekly mowing",
       "leaf cleanup"
     ],
-    "llmContext": "Thatchwhim Outdoor Services · Enterprise · Home services and contractors · HQ Charlotte, North Carolina, United States · 5 purchased locations · CRM Jobber · Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs."
+    "llmContext": "Thatchwhim Outdoor Services · Enterprise · Home services and contractors · HQ Charlotte, North Carolina, United States · 5 purchased locations · CRM Jobber · Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs.",
+    "listingSummary": {
+      "locations": 5,
+      "openLocations": 5,
+      "listings": 13,
+      "claimedListings": 10,
+      "verifiedListings": 10,
+      "totalReviews": 413,
+      "averageRating": 4.9,
+      "photoCount": 169
+    }
   },
   "locations": [
     {
@@ -121,7 +131,127 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-27T16:10:00Z"
+      "createdOn": "2026-08-27T16:10:00Z",
+      "coordinates": {
+        "lat": 35.2345,
+        "lng": -80.85782
+      },
+      "categories": {
+        "primary": "Lawn care service",
+        "secondary": [
+          "Irrigation equipment supplier"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        }
+      ],
+      "photoCount": 3,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/thatchwhim-charlotte-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 40,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 4,
+            "5": 34
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/thatchwhim-charlotte-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 6
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/thatchwhim-charlotte-hq",
+          "claimed": true,
+          "verified": true,
+          "rating": 4,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 50,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-thatchwhim-outdoor-loc-2",
@@ -166,7 +296,112 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-13T21:40:00Z"
+      "createdOn": "2026-08-13T21:40:00Z",
+      "coordinates": {
+        "lat": 35.37308,
+        "lng": -80.69699
+      },
+      "categories": {
+        "primary": "Lawn care service",
+        "secondary": [
+          "Tree service",
+          "Irrigation equipment supplier"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 44,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/thatchwhim-concord",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 10
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/thatchwhim-concord",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 3,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 15,
+        "averageRating": 4.7,
+        "sampledReviews": 2,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-thatchwhim-outdoor-loc-3",
@@ -211,7 +446,128 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-07-30T18:15:00Z"
+      "createdOn": "2026-07-30T18:15:00Z",
+      "coordinates": {
+        "lat": 35.27504,
+        "lng": -81.0837
+      },
+      "categories": {
+        "primary": "Lawn care service",
+        "secondary": [
+          "Landscaper",
+          "Tree service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/thatchwhim-gastonia",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 147,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 8,
+            "5": 138
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/thatchwhim-gastonia",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 14
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/thatchwhim-gastonia",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 18,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 13
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 179,
+        "averageRating": 4.9,
+        "sampledReviews": 2,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-thatchwhim-outdoor-loc-4",
@@ -256,7 +612,131 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-07-16T15:50:00Z"
+      "createdOn": "2026-07-16T15:50:00Z",
+      "coordinates": {
+        "lat": 34.98792,
+        "lng": -81.11574
+      },
+      "categories": {
+        "primary": "Lawn care service",
+        "secondary": [
+          "Irrigation equipment supplier"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 111,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/thatchwhim-rock-hill",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 105,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 101
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/thatchwhim-rock-hill",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 7,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 6
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/thatchwhim-rock-hill",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 122,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-thatchwhim-outdoor-loc-5",
@@ -301,7 +781,121 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-07-02T20:25:00Z"
+      "createdOn": "2026-07-02T20:25:00Z",
+      "coordinates": {
+        "lat": 35.40363,
+        "lng": -80.74778
+      },
+      "categories": {
+        "primary": "Lawn care service",
+        "secondary": [
+          "Tree service",
+          "Landscaper",
+          "Irrigation equipment supplier"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": false,
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Onsite services"
+        },
+        {
+          "group": "Service options",
+          "label": "Online estimates"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "Checks"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 5,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/thatchwhim-huntersville",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 41,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 37
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/thatchwhim-huntersville",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 47,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     }
   ],
   "contacts": [
@@ -583,7 +1177,7 @@
       "reply": {
         "text": "Thanks so much, Fenwick! We'll pass this along to the whole Thatchwhim team. See you next time.\n\nYour Thatchwhim route team",
         "author": "Your Thatchwhim route team",
-        "date": "2026-08-26T21:00:00Z"
+        "date": "2026-08-31T19:20:00Z"
       }
     },
     {
@@ -593,21 +1187,16 @@
       "locationId": "acct-thatchwhim-outdoor-loc-2",
       "location": "Thatchwhim - Concord (Concord, NC)",
       "site": "google",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Gemma Dempsey",
       "date": "2026-08-11T18:50:00Z",
-      "text": "Thatchwhim quoted one price on the phone for an irrigation repair and a much higher one once the crew was here. I declined and got a second opinion. Not the experience I expected.",
-      "photoCount": 3,
+      "text": "Called Thatchwhim about leaf cleanup and got a real person right away. Showed up in the window they promised.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Gemma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Thatchwhim. A manager will reach out this week to make it right.\n\nYour Thatchwhim route team",
-        "author": "Your Thatchwhim route team",
-        "date": "2026-08-13T20:10:00Z"
-      }
+      "replyStatus": "post"
     },
     {
       "id": "acct-thatchwhim-outdoor-rev-3",
@@ -620,14 +1209,19 @@
       "reviewer": "Hugo Landry",
       "date": "2026-07-28T21:15:00Z",
       "text": "Eli took the time to show me what was wrong before recommending anything, and said plainly that fall aeration and overseeding wasn't needed yet. That honesty earned Thatchwhim a customer for life.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Eli"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Hugo! Happy we could help, and we'll pass this along to the team.\n\nYour Thatchwhim route team",
+        "author": "Your Thatchwhim route team",
+        "date": "2026-07-29T00:50:00Z"
+      }
     },
     {
       "id": "acct-thatchwhim-outdoor-rev-4",
@@ -636,21 +1230,18 @@
       "locationId": "acct-thatchwhim-outdoor-loc-4",
       "location": "Thatchwhim - Rock Hill (Rock Hill, SC)",
       "site": "yelp",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Ines Tolliver",
       "date": "2026-07-14T20:55:00Z",
-      "text": "Work quality on leaf cleanup was good, but scheduling with Thatchwhim took three phone calls and the confirmation email had the wrong date. The office side needs tightening.",
-      "photoCount": 1,
+      "text": "Marco explained two options for an irrigation repair and recommended the cheaper one. Done in an afternoon.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Ines, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Thatchwhim. A manager will reach out this week to make it right.\n\nYour Thatchwhim route team",
-        "author": "Your Thatchwhim route team",
-        "date": "2026-07-16T14:35:00Z"
-      }
+      "employeesMentioned": [
+        "Marco"
+      ],
+      "employees": 1,
+      "replyStatus": "post"
     },
     {
       "id": "acct-thatchwhim-outdoor-rev-5",
@@ -681,14 +1272,19 @@
       "reviewer": "Kaia Kingsley",
       "date": "2026-10-09T14:05:00Z",
       "text": "Called Thatchwhim on a Saturday morning about leaf cleanup. They had Shonda out by early afternoon and the job was done right. Weekend pricing was fair and clearly explained.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Shonda"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks so much, Kaia! Happy we could help, and we'll pass this along to the team.\n\nYour Thatchwhim route team",
+        "author": "Your Thatchwhim route team",
+        "date": "2026-10-10T21:45:00Z"
+      }
     },
     {
       "id": "acct-thatchwhim-outdoor-rev-7",
@@ -701,7 +1297,7 @@
       "reviewer": "Lionel Rourke",
       "date": "2026-09-25T17:30:00Z",
       "text": "Eli was friendly, but the crew left debris in the driveway after weekly mowing and I had to call Thatchwhim to get it picked up.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -712,7 +1308,7 @@
       "reply": {
         "text": "Lionel, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Thatchwhim. A manager will reach out this week to make it right.\n\nYour Thatchwhim route team",
         "author": "Your Thatchwhim route team",
-        "date": "2026-09-26T19:00:00Z"
+        "date": "2026-09-25T18:30:00Z"
       }
     },
     {
@@ -733,7 +1329,12 @@
         "Marco"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Mila, this made our day. Thanks for trusting us, and see you next time!\n\nYour Thatchwhim route team",
+        "author": "Your Thatchwhim route team",
+        "date": "2026-09-12T04:35:00Z"
+      }
     }
   ]
 }

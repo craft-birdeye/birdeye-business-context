@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-evercoast",
@@ -74,7 +74,17 @@
       "a crown",
       "a night guard"
     ],
-    "llmContext": "Evercoast Dental Partners · Enterprise · Dental and healthcare · HQ San Diego, California, United States · 45 purchased locations · CRM Dentrix Enterprise · Multi-state dental support organization operating Evercoast Dental practices across the western United States."
+    "llmContext": "Evercoast Dental Partners · Enterprise · Dental and healthcare · HQ San Diego, California, United States · 45 purchased locations · CRM Dentrix Enterprise · Multi-state dental support organization operating Evercoast Dental practices across the western United States.",
+    "listingSummary": {
+      "locations": 45,
+      "openLocations": 39,
+      "listings": 117,
+      "claimedListings": 86,
+      "verifiedListings": 85,
+      "totalReviews": 31721,
+      "averageRating": 4.8,
+      "photoCount": 1396
+    }
   },
   "locations": [
     {
@@ -115,7 +125,135 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-22T14:25:00Z"
+      "createdOn": "2026-08-22T14:25:00Z",
+      "coordinates": {
+        "lat": 32.75331,
+        "lng": -117.07862
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 59,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-san-diego",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 319,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 17,
+            "5": 298
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-san-diego",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 191,
+          "ratingDistribution": {
+            "1": 7,
+            "2": 3,
+            "3": 5,
+            "4": 18,
+            "5": 158
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-san-diego",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 10
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 522,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-2",
@@ -155,7 +293,115 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-08T15:45:00Z"
+      "createdOn": "2026-08-08T15:45:00Z",
+      "coordinates": {
+        "lat": 33.19396,
+        "lng": -117.07111
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-escondido",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 167,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 6,
+            "5": 160
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-escondido",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 28,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 24
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 195,
+        "averageRating": 4.9,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-3",
@@ -195,7 +441,135 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-07-25T20:15:00Z"
+      "createdOn": "2026-07-25T20:15:00Z",
+      "coordinates": {
+        "lat": 33.09725,
+        "lng": -117.37087
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Emergency dental service",
+          "Cosmetic dentist",
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 15,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-oceanside",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 987,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 4,
+            "4": 37,
+            "5": 944
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-oceanside",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 90,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 6,
+            "5": 81
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-oceanside",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 98,
+          "ratingDistribution": {
+            "1": 10,
+            "2": 3,
+            "3": 4,
+            "4": 11,
+            "5": 70
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1175,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-4",
@@ -235,7 +609,117 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-07-11T21:35:00Z"
+      "createdOn": "2026-07-11T21:35:00Z",
+      "coordinates": {
+        "lat": 32.86643,
+        "lng": -117.05573
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-el-cajon",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 1472,
+          "ratingDistribution": {
+            "1": 49,
+            "2": 23,
+            "3": 36,
+            "4": 137,
+            "5": 1227
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-el-cajon",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 101,
+          "ratingDistribution": {
+            "1": 11,
+            "2": 3,
+            "3": 4,
+            "4": 11,
+            "5": 72
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1573,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-5",
@@ -275,7 +759,134 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-06-27T18:10:00Z"
+      "createdOn": "2026-06-27T18:10:00Z",
+      "coordinates": {
+        "lat": 37.28536,
+        "lng": -121.84554
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist",
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 56,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-san-jose",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 511,
+          "ratingDistribution": {
+            "1": 9,
+            "2": 5,
+            "3": 10,
+            "4": 42,
+            "5": 445
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-san-jose",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 36,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 35
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-san-jose",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 84,
+          "ratingDistribution": {
+            "1": 9,
+            "2": 3,
+            "3": 4,
+            "4": 10,
+            "5": 58
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 631,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-6",
@@ -315,7 +926,95 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-10-09T19:25:00Z"
+      "createdOn": "2026-10-09T19:25:00Z",
+      "coordinates": {
+        "lat": 37.63134,
+        "lng": -122.04718
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "permanentlyClosed",
+      "businessStatusLabel": "Permanently closed",
+      "specialHours": [],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 53,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-fremont",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 325,
+          "ratingDistribution": {
+            "1": 12,
+            "2": 5,
+            "3": 8,
+            "4": 31,
+            "5": 269
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-fremont",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 22,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 17
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-fremont",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 1,
+            "3": 2,
+            "4": 4,
+            "5": 21
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 379,
+        "averageRating": 4.6,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-7",
@@ -355,7 +1054,111 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-09-25T16:00:00Z"
+      "createdOn": "2026-09-25T16:00:00Z",
+      "coordinates": {
+        "lat": 37.74303,
+        "lng": -122.25084
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-oakland",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 244,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 3,
+            "3": 5,
+            "4": 21,
+            "5": 209
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-oakland",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 13,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 257,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-8",
@@ -395,7 +1198,129 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-10-02T17:25:00Z"
+      "createdOn": "2026-10-02T17:25:00Z",
+      "coordinates": {
+        "lat": 37.85902,
+        "lng": -122.40458
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Emergency dental service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 7,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-berkeley",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 1014,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 5,
+            "4": 38,
+            "5": 969
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-berkeley",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 95,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 6,
+            "5": 86
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-berkeley",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 195,
+          "ratingDistribution": {
+            "1": 21,
+            "2": 7,
+            "3": 8,
+            "4": 21,
+            "5": 138
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1304,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-9",
@@ -435,7 +1360,137 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-09-18T14:00:00Z"
+      "createdOn": "2026-09-18T14:00:00Z",
+      "coordinates": {
+        "lat": 37.60718,
+        "lng": -122.25215
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-san-mateo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 114,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 6,
+            "5": 107
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-san-mateo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 22,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 20
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-san-mateo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 10,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 146,
+        "averageRating": 4.9,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-10",
@@ -475,7 +1530,133 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-04T14:15:00Z"
+      "createdOn": "2026-09-04T14:15:00Z",
+      "coordinates": {
+        "lat": 37.51204,
+        "lng": -122.05547
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Teeth whitening service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 1,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-palo-alto",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 1994,
+          "ratingDistribution": {
+            "1": 17,
+            "2": 11,
+            "3": 27,
+            "4": 141,
+            "5": 1798
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-palo-alto",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 313,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 12,
+            "5": 300
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-palo-alto",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 162,
+          "ratingDistribution": {
+            "1": 9,
+            "2": 4,
+            "3": 5,
+            "4": 17,
+            "5": 127
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 2469,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-11",
@@ -515,7 +1696,117 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-21T17:40:00Z"
+      "createdOn": "2026-08-21T17:40:00Z",
+      "coordinates": {
+        "lat": 38.63179,
+        "lng": -121.57627
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Teeth whitening service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 10,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-sacramento",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 198,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 14,
+            "5": 179
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-sacramento",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 21,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 15
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 219,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-12",
@@ -555,7 +1846,99 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-07T20:05:00Z"
+      "createdOn": "2026-08-07T20:05:00Z",
+      "coordinates": {
+        "lat": 37.76791,
+        "lng": -122.53078
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Emergency dental service"
+        ]
+      },
+      "businessStatus": "permanentlyClosed",
+      "businessStatusLabel": "Permanently closed",
+      "specialHours": [],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 6,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-san-francisco",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 265,
+          "ratingDistribution": {
+            "1": 13,
+            "2": 5,
+            "3": 8,
+            "4": 27,
+            "5": 212
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-san-francisco",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 34,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 33
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-san-francisco",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.3,
+          "reviewCount": 27,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 19
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 326,
+        "averageRating": 4.6,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-13",
@@ -595,7 +1978,133 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-07-24T15:35:00Z"
+      "createdOn": "2026-07-24T15:35:00Z",
+      "coordinates": {
+        "lat": 47.68458,
+        "lng": -122.30123
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Teeth whitening service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 10,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-bellevue",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 86,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 7,
+            "5": 74
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-bellevue",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 8,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 7
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-bellevue",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 19,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 13
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 113,
+        "averageRating": 4.7,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-14",
@@ -635,7 +2144,129 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-07-10T18:00:00Z"
+      "createdOn": "2026-07-10T18:00:00Z",
+      "coordinates": {
+        "lat": 47.18532,
+        "lng": -122.40155
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 13,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-tacoma",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 178,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 7,
+            "5": 170
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-tacoma",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 22,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 19
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-tacoma",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 25,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 19
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 225,
+        "averageRating": 4.9,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-15",
@@ -675,7 +2306,101 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-07-17T21:25:00Z"
+      "createdOn": "2026-07-17T21:25:00Z",
+      "coordinates": {
+        "lat": 45.55992,
+        "lng": -122.64267
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 23,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-vancouver",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 2397,
+          "ratingDistribution": {
+            "1": 106,
+            "2": 44,
+            "3": 68,
+            "4": 235,
+            "5": 1944
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 2397,
+        "averageRating": 4.6,
+        "sampledReviews": 0,
+        "listedSites": 1
+      }
     },
     {
       "id": "acct-evercoast-loc-16",
@@ -715,7 +2440,127 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-03T16:50:00Z"
+      "createdOn": "2026-07-03T16:50:00Z",
+      "coordinates": {
+        "lat": 33.5174,
+        "lng": -111.91265
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 233,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-tempe",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 87,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 83
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-tempe",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 28,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 26
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-tempe",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 11,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 126,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-17",
@@ -755,7 +2600,101 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-15T19:15:00Z"
+      "createdOn": "2026-10-15T19:15:00Z",
+      "coordinates": {
+        "lat": 33.29648,
+        "lng": -111.76971
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 33,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-chandler",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 958,
+          "ratingDistribution": {
+            "1": 50,
+            "2": 20,
+            "3": 29,
+            "4": 96,
+            "5": 763
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 958,
+        "averageRating": 4.6,
+        "sampledReviews": 0,
+        "listedSites": 1
+      }
     },
     {
       "id": "acct-evercoast-loc-18",
@@ -795,7 +2734,117 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-10-01T14:50:00Z"
+      "createdOn": "2026-10-01T14:50:00Z",
+      "coordinates": {
+        "lat": 33.47377,
+        "lng": -111.91102
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Teeth whitening service"
+        ]
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 15,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-mesa",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 1701,
+          "ratingDistribution": {
+            "1": 32,
+            "2": 17,
+            "3": 32,
+            "4": 141,
+            "5": 1479
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-mesa",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 281,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 2,
+            "4": 15,
+            "5": 263
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1982,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-19",
@@ -835,7 +2884,125 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-09-17T17:15:00Z"
+      "createdOn": "2026-09-17T17:15:00Z",
+      "coordinates": {
+        "lat": 33.397,
+        "lng": -111.67941
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 62,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-gilbert",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 96,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 92
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-gilbert",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 5
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-gilbert",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 24,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 17
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 125,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-20",
@@ -875,7 +3042,115 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-03T17:55:00Z"
+      "createdOn": "2026-09-03T17:55:00Z",
+      "coordinates": {
+        "lat": 33.57235,
+        "lng": -112.23589
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 28,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-glendale",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 78,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 75
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-glendale",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 5
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 83,
+        "averageRating": 5,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-21",
@@ -915,7 +3190,127 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-08-20T14:30:00Z"
+      "createdOn": "2026-08-20T14:30:00Z",
+      "coordinates": {
+        "lat": 33.55069,
+        "lng": -112.17754
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Emergency dental service",
+          "Teeth whitening service",
+          "Cosmetic dentist"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 229,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-peoria",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 1442,
+          "ratingDistribution": {
+            "1": 36,
+            "2": 17,
+            "3": 32,
+            "4": 127,
+            "5": 1230
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-peoria",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 95,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 91
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-peoria",
+          "claimed": true,
+          "verified": true,
+          "rating": 4,
+          "reviewCount": 85,
+          "ratingDistribution": {
+            "1": 13,
+            "2": 4,
+            "3": 4,
+            "4": 9,
+            "5": 55
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1622,
+        "averageRating": 4.7,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-22",
@@ -955,7 +3350,121 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-27T15:45:00Z"
+      "createdOn": "2026-08-27T15:45:00Z",
+      "coordinates": {
+        "lat": 33.604,
+        "lng": -112.26215
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 17,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-surprise",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 190,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 12,
+            "5": 176
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-surprise",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.4,
+          "reviewCount": 19,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 14
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 209,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-23",
@@ -995,7 +3504,131 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-08-13T20:20:00Z"
+      "createdOn": "2026-08-13T20:20:00Z",
+      "coordinates": {
+        "lat": 33.29992,
+        "lng": -111.59122
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-queen-creek",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 909,
+          "ratingDistribution": {
+            "1": 41,
+            "2": 17,
+            "3": 26,
+            "4": 90,
+            "5": 735
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-queen-creek",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 116,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 8,
+            "5": 105
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-queen-creek",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.4,
+          "reviewCount": 37,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 28
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1062,
+        "averageRating": 4.6,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-24",
@@ -1035,7 +3668,131 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-07-30T21:35:00Z"
+      "createdOn": "2026-07-30T21:35:00Z",
+      "coordinates": {
+        "lat": 40.65797,
+        "lng": -111.86048
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 25,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-salt-lake-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 421,
+          "ratingDistribution": {
+            "1": 7,
+            "2": 4,
+            "3": 8,
+            "4": 35,
+            "5": 367
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-salt-lake-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 65,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 6,
+            "5": 54
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-salt-lake-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.9,
+          "reviewCount": 36,
+          "ratingDistribution": {
+            "1": 6,
+            "2": 2,
+            "3": 2,
+            "4": 4,
+            "5": 22
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 522,
+        "averageRating": 4.7,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-25",
@@ -1075,7 +3832,137 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-07-16T18:10:00Z"
+      "createdOn": "2026-07-16T18:10:00Z",
+      "coordinates": {
+        "lat": 40.54526,
+        "lng": -111.80246
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-sandy",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 116,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 10,
+            "5": 101
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-sandy",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 31
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-sandy",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 17,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 12
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 165,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-26",
@@ -1115,7 +4002,134 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-02T19:30:00Z"
+      "createdOn": "2026-07-02T19:30:00Z",
+      "coordinates": {
+        "lat": 40.71626,
+        "lng": -111.86317
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist",
+          "Emergency dental service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 24,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-west-valley-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 529,
+          "ratingDistribution": {
+            "1": 27,
+            "2": 11,
+            "3": 16,
+            "4": 53,
+            "5": 422
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-west-valley-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 53,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 51
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-west-valley-city",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 42,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 1,
+            "3": 2,
+            "4": 5,
+            "5": 29
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 624,
+        "averageRating": 4.6,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-27",
@@ -1155,7 +4169,125 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-10-14T16:05:00Z"
+      "createdOn": "2026-10-14T16:05:00Z",
+      "coordinates": {
+        "lat": 41.17809,
+        "lng": -111.88625
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-ogden",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 1677,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 6,
+            "4": 64,
+            "5": 1605
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-ogden",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 135,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 2,
+            "3": 3,
+            "4": 12,
+            "5": 115
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-ogden",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.6,
+          "reviewCount": 227,
+          "ratingDistribution": {
+            "1": 10,
+            "2": 4,
+            "3": 6,
+            "4": 22,
+            "5": 185
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 2039,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-28",
@@ -1195,7 +4327,133 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-09-30T17:20:00Z"
+      "createdOn": "2026-09-30T17:20:00Z",
+      "coordinates": {
+        "lat": 40.23438,
+        "lng": -111.70824
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 30,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-provo",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 269,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 10,
+            "5": 258
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-provo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 49,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 44
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-provo",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 21,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 18
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 339,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-29",
@@ -1235,7 +4493,129 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-10-07T14:55:00Z"
+      "createdOn": "2026-10-07T14:55:00Z",
+      "coordinates": {
+        "lat": 40.66965,
+        "lng": -111.56706
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 10,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-park-city",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 267,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 10,
+            "5": 256
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-park-city",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 56,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 5,
+            "5": 49
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-park-city",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 16,
+          "ratingDistribution": {
+            "1": 2,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 11
+          },
+          "sampledReviews": 1
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 339,
+        "averageRating": 4.9,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-30",
@@ -1275,7 +4655,95 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-23T16:40:00Z"
+      "createdOn": "2026-09-23T16:40:00Z",
+      "coordinates": {
+        "lat": 37.0165,
+        "lng": -113.55959
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 11,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-st-george",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 214,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 8,
+            "5": 205
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 214,
+        "averageRating": 5,
+        "sampledReviews": 0,
+        "listedSites": 1
+      }
     },
     {
       "id": "acct-evercoast-loc-31",
@@ -1315,7 +4783,134 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-09-09T19:05:00Z"
+      "createdOn": "2026-09-09T19:05:00Z",
+      "coordinates": {
+        "lat": 41.75741,
+        "lng": -111.95755
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Emergency dental service",
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 34,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-logan",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 534,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 2,
+            "4": 21,
+            "5": 510
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-logan",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.9,
+          "reviewCount": 102,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 7,
+            "5": 93
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-logan",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 104,
+          "ratingDistribution": {
+            "1": 12,
+            "2": 4,
+            "3": 4,
+            "4": 11,
+            "5": 73
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 740,
+        "averageRating": 4.8,
+        "sampledReviews": 1,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-32",
@@ -1355,7 +4950,134 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-26T18:50:00Z"
+      "createdOn": "2026-08-26T18:50:00Z",
+      "coordinates": {
+        "lat": 41.15139,
+        "lng": -112.02731
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist",
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        }
+      ],
+      "photoCount": 7,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-layton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 339,
+          "ratingDistribution": {
+            "1": 14,
+            "2": 6,
+            "3": 9,
+            "4": 33,
+            "5": 277
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-layton",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 70,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 67
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-layton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 59,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 2,
+            "3": 2,
+            "4": 6,
+            "5": 44
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 468,
+        "averageRating": 4.6,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-33",
@@ -1395,7 +5117,137 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-08-12T21:15:00Z"
+      "createdOn": "2026-08-12T21:15:00Z",
+      "coordinates": {
+        "lat": 40.27468,
+        "lng": -111.5688
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 4,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-orem",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 1506,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 6,
+            "4": 57,
+            "5": 1441
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-orem",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 411,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 16,
+            "5": 393
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-orem",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 352,
+          "ratingDistribution": {
+            "1": 38,
+            "2": 12,
+            "3": 15,
+            "4": 39,
+            "5": 248
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 2269,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-34",
@@ -1435,7 +5287,109 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-07-29T20:55:00Z"
+      "createdOn": "2026-07-29T20:55:00Z",
+      "coordinates": {
+        "lat": 39.74696,
+        "lng": -105.0662
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Teeth whitening service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 33,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-denver",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 967,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 3,
+            "4": 37,
+            "5": 925
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-denver",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 195,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 7,
+            "5": 187
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 1162,
+        "averageRating": 4.9,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-35",
@@ -1475,7 +5429,119 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-07-15T15:25:00Z"
+      "createdOn": "2026-07-15T15:25:00Z",
+      "coordinates": {
+        "lat": 39.50837,
+        "lng": -104.82167
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 7,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-centennial",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 263,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 10,
+            "5": 252
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-centennial",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 15,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-centennial",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.2,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 22
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 310,
+        "averageRating": 4.9,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-36",
@@ -1515,7 +5581,117 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-07-22T14:05:00Z"
+      "createdOn": "2026-07-22T14:05:00Z",
+      "coordinates": {
+        "lat": 39.64425,
+        "lng": -104.82406
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Teeth whitening service"
+        ]
+      },
+      "businessStatus": "temporarilyClosed",
+      "businessStatusLabel": "Temporarily closed",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-aurora",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 49,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 5,
+            "5": 39
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-aurora",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 5,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 5
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 54,
+        "averageRating": 4.6,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-37",
@@ -1555,7 +5731,138 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-07-08T17:30:00Z"
+      "createdOn": "2026-07-08T17:30:00Z",
+      "coordinates": {
+        "lat": 39.7641,
+        "lng": -105.16339
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental clinic",
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-lakewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 334,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 5,
+            "4": 25,
+            "5": 298
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-lakewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 41,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 37
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-lakewood",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 10
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 389,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-38",
@@ -1595,7 +5902,133 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-10-20T16:15:00Z"
+      "createdOn": "2026-10-20T16:15:00Z",
+      "coordinates": {
+        "lat": 40.09182,
+        "lng": -105.22757
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Cosmetic dentist"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 15,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-boulder",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 183,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 4,
+            "4": 15,
+            "5": 158
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-boulder",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 12,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-boulder",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 35,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 25
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 230,
+        "averageRating": 4.7,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-39",
@@ -1635,7 +6068,134 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-10-06T19:40:00Z"
+      "createdOn": "2026-10-06T19:40:00Z",
+      "coordinates": {
+        "lat": 39.62086,
+        "lng": -104.96511
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Teeth whitening service",
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 12,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-highlands-ranch",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 57,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 55
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-highlands-ranch",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 6,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 5
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-highlands-ranch",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 4,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 67,
+        "averageRating": 4.9,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-40",
@@ -1675,7 +6235,131 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-09-22T19:20:00Z"
+      "createdOn": "2026-09-22T19:20:00Z",
+      "coordinates": {
+        "lat": 39.79517,
+        "lng": -105.1276
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 19,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-arvada",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.7,
+          "reviewCount": 255,
+          "ratingDistribution": {
+            "1": 8,
+            "2": 4,
+            "3": 6,
+            "4": 23,
+            "5": 214
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-arvada",
+          "claimed": false,
+          "verified": false,
+          "rating": 5,
+          "reviewCount": 32,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 31
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-arvada",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 38,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 4,
+            "5": 29
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 325,
+        "averageRating": 4.7,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-41",
@@ -1715,7 +6399,130 @@
       ],
       "owner": "Morgan Hale",
       "createdBy": "Morgan Hale",
-      "createdOn": "2026-09-08T16:55:00Z"
+      "createdOn": "2026-09-08T16:55:00Z",
+      "coordinates": {
+        "lat": 39.91357,
+        "lng": -105.061
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider",
+          "Teeth whitening service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-westminster",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 1710,
+          "ratingDistribution": {
+            "1": 49,
+            "2": 23,
+            "3": 40,
+            "4": 155,
+            "5": 1443
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-westminster",
+          "claimed": false,
+          "verified": false,
+          "rating": 4.8,
+          "reviewCount": 228,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 2,
+            "3": 5,
+            "4": 20,
+            "5": 196
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-westminster",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.2,
+          "reviewCount": 189,
+          "ratingDistribution": {
+            "1": 24,
+            "2": 7,
+            "3": 8,
+            "4": 21,
+            "5": 129
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 2127,
+        "averageRating": 4.7,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-42",
@@ -1755,7 +6562,118 @@
       ],
       "owner": "Priya Nair",
       "createdBy": "Priya Nair",
-      "createdOn": "2026-08-25T21:25:00Z"
+      "createdOn": "2026-08-25T21:25:00Z",
+      "coordinates": {
+        "lat": 39.55809,
+        "lng": -104.95598
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Teeth whitening service",
+          "Dental implants provider"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 7,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-littleton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 415,
+          "ratingDistribution": {
+            "1": 17,
+            "2": 7,
+            "3": 12,
+            "4": 40,
+            "5": 339
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-littleton",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 38,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 35
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 453,
+        "averageRating": 4.7,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-43",
@@ -1795,7 +6713,131 @@
       ],
       "owner": "Jordan Blake",
       "createdBy": "Jordan Blake",
-      "createdOn": "2026-09-01T18:00:00Z"
+      "createdOn": "2026-09-01T18:00:00Z",
+      "coordinates": {
+        "lat": 40.0242,
+        "lng": -105.01511
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        }
+      ],
+      "photoCount": 62,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-broomfield",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 262,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 2,
+            "4": 13,
+            "5": 246
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-broomfield",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 26,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 22
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-broomfield",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 31,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 23
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 319,
+        "averageRating": 4.8,
+        "sampledReviews": 0,
+        "listedSites": 3
+      }
     },
     {
       "id": "acct-evercoast-loc-44",
@@ -1835,7 +6877,115 @@
       ],
       "owner": "Dana Whitfield",
       "createdBy": "Dana Whitfield",
-      "createdOn": "2026-08-18T15:35:00Z"
+      "createdOn": "2026-08-18T15:35:00Z",
+      "coordinates": {
+        "lat": 39.34241,
+        "lng": -104.87692
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": []
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 75,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-castle-rock",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.6,
+          "reviewCount": 233,
+          "ratingDistribution": {
+            "1": 9,
+            "2": 4,
+            "3": 6,
+            "4": 23,
+            "5": 191
+          },
+          "sampledReviews": 0
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/evercoast-dental-castle-rock",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.8,
+          "reviewCount": 64,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 6,
+            "5": 55
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 297,
+        "averageRating": 4.7,
+        "sampledReviews": 0,
+        "listedSites": 2
+      }
     },
     {
       "id": "acct-evercoast-loc-45",
@@ -1875,7 +7025,118 @@
       ],
       "owner": "Rebecca Langston",
       "createdBy": "Rebecca Langston",
-      "createdOn": "2026-08-04T20:10:00Z"
+      "createdOn": "2026-08-04T20:10:00Z",
+      "coordinates": {
+        "lat": 39.47291,
+        "lng": -104.71508
+      },
+      "categories": {
+        "primary": "Dentist",
+        "secondary": [
+          "Dental implants provider",
+          "Emergency dental service"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 95,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/evercoast-dental-parker",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 155,
+          "ratingDistribution": {
+            "1": 4,
+            "2": 2,
+            "3": 3,
+            "4": 14,
+            "5": 132
+          },
+          "sampledReviews": 1
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/evercoast-dental-parker",
+          "claimed": true,
+          "verified": false,
+          "rating": 4.5,
+          "reviewCount": 16,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 12
+          },
+          "sampledReviews": 0
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 171,
+        "averageRating": 4.7,
+        "sampledReviews": 1,
+        "listedSites": 2
+      }
     }
   ],
   "contacts": [

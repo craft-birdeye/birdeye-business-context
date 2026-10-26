@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/accounts-index.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "defaultAccountId": "acct-evercoast",
   "order": [
@@ -114,6 +114,16 @@
         "contacts": 10,
         "reviews": 14
       },
+      "listingSummary": {
+        "locations": 45,
+        "openLocations": 39,
+        "listings": 117,
+        "claimedListings": 86,
+        "verifiedListings": 85,
+        "totalReviews": 31721,
+        "averageRating": 4.8,
+        "photoCount": 1396
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-evercoast.json"
     },
     "acct-brisquen-dental": {
@@ -147,6 +157,16 @@
         "locations": 5,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 14,
+        "claimedListings": 8,
+        "verifiedListings": 8,
+        "totalReviews": 7090,
+        "averageRating": 4.6,
+        "photoCount": 61
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-brisquen-dental.json"
     },
@@ -182,6 +202,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 8,
+        "listings": 24,
+        "claimedListings": 17,
+        "verifiedListings": 17,
+        "totalReviews": 4040,
+        "averageRating": 4.8,
+        "photoCount": 383
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tovaline-ortho.json"
     },
     "acct-saltwick-dental": {
@@ -215,6 +245,16 @@
         "locations": 6,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 5,
+        "listings": 17,
+        "claimedListings": 12,
+        "verifiedListings": 12,
+        "totalReviews": 3539,
+        "averageRating": 4.9,
+        "photoCount": 327
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-saltwick-dental.json"
     },
@@ -250,6 +290,16 @@
         "contacts": 10,
         "reviews": 10
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 1161,
+        "averageRating": 4.7,
+        "photoCount": 44
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-thimbleleaf-dental.json"
     },
     "acct-puddlewick-kids": {
@@ -283,6 +333,16 @@
         "locations": 1,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 594,
+        "averageRating": 4.9,
+        "photoCount": 36
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-puddlewick-kids.json"
     },
@@ -318,6 +378,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 479,
+        "averageRating": 4.8,
+        "photoCount": 63
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-brindlemoss-dental.json"
     },
     "acct-dentavane-channel": {
@@ -351,6 +421,16 @@
         "locations": 4,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 10,
+        "claimedListings": 7,
+        "verifiedListings": 5,
+        "totalReviews": 115,
+        "averageRating": 4.9,
+        "photoCount": 26
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-dentavane-channel.json"
     },
@@ -386,6 +466,16 @@
         "contacts": 10,
         "reviews": 12
       },
+      "listingSummary": {
+        "locations": 15,
+        "openLocations": 14,
+        "listings": 40,
+        "claimedListings": 27,
+        "verifiedListings": 23,
+        "totalReviews": 4283,
+        "averageRating": 4.8,
+        "photoCount": 384
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hearthquell-home.json"
     },
     "acct-pipewren-plumbing": {
@@ -419,6 +509,16 @@
         "locations": 10,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 29,
+        "claimedListings": 21,
+        "verifiedListings": 19,
+        "totalReviews": 3456,
+        "averageRating": 4.8,
+        "photoCount": 304
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-pipewren-plumbing.json"
     },
@@ -454,6 +554,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 275,
+        "averageRating": 4.8,
+        "photoCount": 425
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-quarrytide-electric.json"
     },
     "acct-thatchwhim-outdoor": {
@@ -487,6 +597,16 @@
         "locations": 5,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 10,
+        "verifiedListings": 10,
+        "totalReviews": 413,
+        "averageRating": 4.9,
+        "photoCount": 169
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-thatchwhim-outdoor.json"
     },
@@ -522,6 +642,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 72,
+        "averageRating": 4.8,
+        "photoCount": 1
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-coilhaven-hvac.json"
     },
     "acct-patchwhit-handyman": {
@@ -555,6 +685,16 @@
         "locations": 1,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 29,
+        "averageRating": 4.7,
+        "photoCount": 4
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-patchwhit-handyman.json"
     },
@@ -590,6 +730,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 115,
+        "averageRating": 4.4,
+        "photoCount": 38
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hollowbeck-pest.json"
     },
     "acct-franquill-channel": {
@@ -623,6 +773,16 @@
         "locations": 5,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 95,
+        "averageRating": 4.8,
+        "photoCount": 47
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-franquill-channel.json"
     },
@@ -658,6 +818,16 @@
         "contacts": 10,
         "reviews": 10
       },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 14,
+        "claimedListings": 13,
+        "verifiedListings": 12,
+        "totalReviews": 342,
+        "averageRating": 4.9,
+        "photoCount": 29
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-varrowmere-law.json"
     },
     "acct-firthgale-counsel": {
@@ -691,6 +861,16 @@
         "locations": 7,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 7,
+        "openLocations": 7,
+        "listings": 18,
+        "claimedListings": 15,
+        "verifiedListings": 15,
+        "totalReviews": 1495,
+        "averageRating": 4.7,
+        "photoCount": 128
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-firthgale-counsel.json"
     },
@@ -726,6 +906,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 7,
+        "listings": 21,
+        "claimedListings": 16,
+        "verifiedListings": 16,
+        "totalReviews": 605,
+        "averageRating": 4.8,
+        "photoCount": 107
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-plainsby-litigation.json"
     },
     "acct-pellwrin-tax": {
@@ -759,6 +949,16 @@
         "locations": 4,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 12,
+        "claimedListings": 11,
+        "verifiedListings": 10,
+        "totalReviews": 677,
+        "averageRating": 4.8,
+        "photoCount": 61
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-pellwrin-tax.json"
     },
@@ -794,6 +994,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 21,
+        "averageRating": 4.8,
+        "photoCount": 8
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-wickhallow-law.json"
     },
     "acct-valdrift-immigration": {
@@ -827,6 +1037,16 @@
         "locations": 1,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 1,
+        "totalReviews": 38,
+        "averageRating": 4.7,
+        "photoCount": 2
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-valdrift-immigration.json"
     },
@@ -862,6 +1082,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 184,
+        "averageRating": 4.8,
+        "photoCount": 8
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-gavelmoor-injury.json"
     },
     "acct-counselvane-channel": {
@@ -895,6 +1125,16 @@
         "locations": 4,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 12,
+        "claimedListings": 8,
+        "verifiedListings": 8,
+        "totalReviews": 304,
+        "averageRating": 4.9,
+        "photoCount": 181
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-counselvane-channel.json"
     },
@@ -930,6 +1170,16 @@
         "contacts": 10,
         "reviews": 12
       },
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 29,
+        "claimedListings": 25,
+        "verifiedListings": 25,
+        "totalReviews": 222,
+        "averageRating": 4.7,
+        "photoCount": 73
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-northquell.json"
     },
     "acct-skelvane-media": {
@@ -963,6 +1213,16 @@
         "locations": 5,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 12,
+        "verifiedListings": 12,
+        "totalReviews": 212,
+        "averageRating": 4.8,
+        "photoCount": 107
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-skelvane-media.json"
     },
@@ -998,6 +1258,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 6,
+        "openLocations": 6,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 9,
+        "totalReviews": 73,
+        "averageRating": 4.8,
+        "photoCount": 28
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-lumbrisk-reputation.json"
     },
     "acct-inkfallow-creative": {
@@ -1031,6 +1301,16 @@
         "locations": 4,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 4,
+        "openLocations": 4,
+        "listings": 11,
+        "claimedListings": 10,
+        "verifiedListings": 9,
+        "totalReviews": 122,
+        "averageRating": 4.9,
+        "photoCount": 23
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-inkfallow-creative.json"
     },
@@ -1066,6 +1346,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 7,
+        "listings": 24,
+        "claimedListings": 18,
+        "verifiedListings": 16,
+        "totalReviews": 172,
+        "averageRating": 4.9,
+        "photoCount": 110
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tallomere-partners.json"
     },
     "acct-hopskein-digital": {
@@ -1099,6 +1389,16 @@
         "locations": 1,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 2,
+        "totalReviews": 18,
+        "averageRating": 4.4,
+        "photoCount": 13
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hopskein-digital.json"
     },
@@ -1134,6 +1434,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 147,
+        "averageRating": 4.7,
+        "photoCount": 15
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-kindlewry-studio.json"
     },
     "acct-tramvelle-field": {
@@ -1167,6 +1477,16 @@
         "locations": 5,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 15,
+        "claimedListings": 11,
+        "verifiedListings": 9,
+        "totalReviews": 332,
+        "averageRating": 4.9,
+        "photoCount": 72
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tramvelle-field.json"
     },
@@ -1202,6 +1522,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 8,
+        "openLocations": 8,
+        "listings": 22,
+        "claimedListings": 17,
+        "verifiedListings": 16,
+        "totalReviews": 1220,
+        "averageRating": 4.6,
+        "photoCount": 248
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-torqvale-auto.json"
     },
     "acct-crestovar-motors": {
@@ -1235,6 +1565,16 @@
         "locations": 10,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 10,
+        "openLocations": 10,
+        "listings": 26,
+        "claimedListings": 23,
+        "verifiedListings": 22,
+        "totalReviews": 7644,
+        "averageRating": 4.5,
+        "photoCount": 352
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-crestovar-motors.json"
     },
@@ -1270,6 +1610,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 7,
+        "openLocations": 6,
+        "listings": 19,
+        "claimedListings": 16,
+        "verifiedListings": 15,
+        "totalReviews": 2811,
+        "averageRating": 4.6,
+        "photoCount": 243
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-treadmarsh-tire.json"
     },
     "acct-amperlund-ev": {
@@ -1303,6 +1653,16 @@
         "locations": 5,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 8,
+        "verifiedListings": 7,
+        "totalReviews": 1117,
+        "averageRating": 4.7,
+        "photoCount": 483
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-amperlund-ev.json"
     },
@@ -1338,6 +1698,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 1,
+        "verifiedListings": 1,
+        "totalReviews": 256,
+        "averageRating": 4.6,
+        "photoCount": 11
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-cornerwick-garage.json"
     },
     "acct-buffwren-detail": {
@@ -1371,6 +1741,16 @@
         "locations": 1,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 3,
+        "verifiedListings": 3,
+        "totalReviews": 121,
+        "averageRating": 4.7,
+        "photoCount": 2
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-buffwren-detail.json"
     },
@@ -1406,6 +1786,16 @@
         "contacts": 8,
         "reviews": 8
       },
+      "listingSummary": {
+        "locations": 1,
+        "openLocations": 1,
+        "listings": 3,
+        "claimedListings": 2,
+        "verifiedListings": 2,
+        "totalReviews": 63,
+        "averageRating": 4.7,
+        "photoCount": 10
+      },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-panelbrook-collision.json"
     },
     "acct-lotquill-channel": {
@@ -1439,6 +1829,16 @@
         "locations": 5,
         "contacts": 8,
         "reviews": 8
+      },
+      "listingSummary": {
+        "locations": 5,
+        "openLocations": 5,
+        "listings": 13,
+        "claimedListings": 11,
+        "verifiedListings": 11,
+        "totalReviews": 266,
+        "averageRating": 4.8,
+        "photoCount": 43
       },
       "bundleUrl": "https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-lotquill-channel.json"
     }

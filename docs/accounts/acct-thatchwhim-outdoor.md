@@ -31,7 +31,8 @@ Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs. Lawn and
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.8★, 4 with replies
+- Reviews: 8, average 4.5★, 5 with replies
+- Listings (invented, schema 1.1.0): 13 across 5 locations, 10 claimed, 10 verified; 413 public reviews, average 4.9★; 169 photos
 - Bundle: [`v1/accounts/acct-thatchwhim-outdoor.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-thatchwhim-outdoor.json)
 
 ## Locations
@@ -43,6 +44,18 @@ Lawn, irrigation, and outdoor maintenance routes for Charlotte suburbs. Lawn and
 | 3 | Thatchwhim - Gastonia | 619 Ironleaf Commons, Suite 132, Gastonia, NC 28054 | (704) 555-0102 | Active |
 | 4 | Thatchwhim - Rock Hill | 6214 Brightwater Way, Suite 375, Rock Hill, SC 29730 | (839) 555-0103 | Demo |
 | 5 | Thatchwhim - Huntersville | 7333 Cobble Creek Row, Suite 422, Huntersville, NC 28078 | (704) 555-0104 | Needs setup |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Lawn care service, Irrigation equipment supplier | google: 4.8 · 40 · verified; facebook: 5 · 6 · verified; yelp: 4 · 4 · verified | 35.2345, -80.85782 |
+| 2 | Open | Lawn care service, Tree service, Irrigation equipment supplier | google: 4.7 · 12 · verified; yelp: 4.7 · 3 · unclaimed | 35.37308, -80.69699 |
+| 3 | Open | Lawn care service, Landscaper, Tree service | google: 4.9 · 147 · verified; facebook: 5 · 14 · verified; yelp: 4.3 · 18 · verified | 35.27504, -81.0837 |
+| 4 | Open | Lawn care service, Irrigation equipment supplier | google: 5 · 105 · verified; facebook: 4.9 · 7 · verified; yelp: 4.3 · 10 · unclaimed | 34.98792, -81.11574 |
+| 5 | Open | Lawn care service, Tree service, Landscaper, Irrigation equipment supplier | google: 4.9 · 41 · verified; facebook: 4.8 · 6 · unclaimed | 35.40363, -80.74778 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

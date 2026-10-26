@@ -31,7 +31,8 @@ Midwest channel partner known for location-level reputation dashboards. Measurem
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.1★, 4 with replies
+- Listings (invented, schema 1.1.0): 24 across 8 locations, 18 claimed, 16 verified; 172 public reviews, average 4.9★; 110 photos
 - Bundle: [`v1/accounts/acct-tallomere-partners.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-tallomere-partners.json)
 
 ## Locations
@@ -46,6 +47,21 @@ Midwest channel partner known for location-level reputation dashboards. Measurem
 | 6 | Tallomere - Minneapolis desk | 3859 Glenhaven Lane, Minneapolis, MN 55402 | (612) 555-0105 | Inactive |
 | 7 | Tallomere - St Louis desk | 2740 Lantern Hill Drive, Suite 305, St. Louis, MO 63101 | (314) 555-0106 | Active |
 | 8 | Tallomere - Kansas City desk | 1673 Zephyr Boulevard, Suite 282, Kansas City, MO 64106 | (816) 555-0107 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency, Advertising agency | google: 4.6 · 14 · verified; facebook: 5 · 2 · unclaimed; yelp: 5 · 1 · verified | 41.95547, -87.62613 |
+| 2 | Open | Marketing agency | google: 4.9 · 7 · verified; facebook: 5 · 1 · verified; yelp: 5 · 1 · verified | 42.29089, -82.95713 |
+| 3 | Open | Marketing agency, Internet marketing service | google: 4.9 · 12 · verified; facebook: 4.8 · 5 · verified; yelp: 5 · 1 · verified | 39.79019, -86.21511 |
+| 4 | Open | Marketing agency, Advertising agency, Internet marketing service | google: 5 · 20 · verified; facebook: 4.5 · 2 · verified; yelp: 4.7 · 3 · unclaimed | 39.99129, -82.92605 |
+| 5 | Open | Marketing agency | google: 5 · 32 · verified; facebook: 5 · 6 · verified; yelp: 4.3 · 7 · unclaimed | 43.11204, -87.91627 |
+| 6 | Temporarily closed | Marketing agency, Advertising agency | google: 4.6 · 11 · unclaimed; facebook: 5 · 1 · unclaimed; yelp: 5 · 1 · unclaimed | 44.89065, -93.17965 |
+| 7 | Open | Marketing agency, Advertising agency | google: 4.9 · 25 · verified; facebook: 5 · 3 · verified; yelp: 4.8 · 4 · claimed | 38.6579, -90.22448 |
+| 8 | Open | Marketing agency, Advertising agency, Social media agency | google: 4.9 · 11 · verified; facebook: 4 · 1 · claimed; yelp: 5 · 1 · verified | 39.07838, -94.53126 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

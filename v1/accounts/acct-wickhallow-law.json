@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-wickhallow-law",
@@ -73,7 +73,17 @@
       "a probate filing",
       "a prenup"
     ],
-    "llmContext": "Wickhallow Law Office · SMB · Legal and professional services · HQ Seattle, Washington, United States · 1 purchased location · CRM Clio · Solo family and estate law practice in downtown Seattle."
+    "llmContext": "Wickhallow Law Office · SMB · Legal and professional services · HQ Seattle, Washington, United States · 1 purchased location · CRM Clio · Solo family and estate law practice in downtown Seattle.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 3,
+      "verifiedListings": 3,
+      "totalReviews": 21,
+      "averageRating": 4.8,
+      "photoCount": 8
+    }
   },
   "locations": [
     {
@@ -109,7 +119,127 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-09-14T16:50:00Z"
+      "createdOn": "2026-09-14T16:50:00Z",
+      "coordinates": {
+        "lat": 47.68377,
+        "lng": -122.32309
+      },
+      "categories": {
+        "primary": "Family law attorney",
+        "secondary": [
+          "Estate planning attorney"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Service options",
+          "label": "Free consultation"
+        },
+        {
+          "group": "Offerings",
+          "label": "Language assistance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        }
+      ],
+      "photoCount": 8,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/wickhallow-law-office",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 17,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 16
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/wickhallow-law-office",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 1
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/wickhallow-law-office",
+          "claimed": true,
+          "verified": true,
+          "rating": 3.5,
+          "reviewCount": 2,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 21,
+        "averageRating": 4.8,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -380,7 +510,7 @@
       "reviewer": "Yusuf Moreau",
       "date": "2026-07-11T19:45:00Z",
       "text": "Nora Whitcomb handled a custody modification for us with real care. Every step and cost was explained in plain English, and nothing from Wickhallow Law came as a surprise.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": true,
       "archived": false,
       "employeesMentioned": [
@@ -391,7 +521,7 @@
       "reply": {
         "text": "Thanks so much, Yusuf! We'll pass this along to the whole Wickhallow Law team. See you next time.\n\nNora Whitcomb, Wickhallow Law Office",
         "author": "Nora Whitcomb, Wickhallow Law Office",
-        "date": "2026-07-12T21:40:00Z"
+        "date": "2026-07-15T13:55:00Z"
       }
     },
     {
@@ -405,7 +535,7 @@
       "reviewer": "Zara Uchenna",
       "date": "2026-06-27T18:30:00Z",
       "text": "Strong work on a will and power of attorney. Responses from Wickhallow Law usually came within a day, though a couple of emails took longer during a busy stretch. Would hire them again.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -434,7 +564,7 @@
       "reply": {
         "text": "Abel, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Wickhallow Law. A manager will reach out this week to make it right.\n\nNora Whitcomb, Wickhallow Law Office",
         "author": "Nora Whitcomb, Wickhallow Law Office",
-        "date": "2026-10-07T15:30:00Z"
+        "date": "2026-10-10T08:40:00Z"
       }
     },
     {
@@ -448,7 +578,7 @@
       "reviewer": "Bianca Kincaid",
       "date": "2026-09-22T20:35:00Z",
       "text": "I was anxious going into a prenup. Iris laid out a realistic timeline, flagged the risks up front, and checked in at every milestone.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -459,7 +589,7 @@
       "reply": {
         "text": "Thanks so much, Bianca! We'll pass this along to the whole Wickhallow Law team. See you next time.\n\nNora Whitcomb, Wickhallow Law Office",
         "author": "Nora Whitcomb, Wickhallow Law Office",
-        "date": "2026-09-24T14:15:00Z"
+        "date": "2026-09-27T18:30:00Z"
       }
     },
     {
@@ -469,20 +599,22 @@
       "locationId": "acct-wickhallow-law-loc-1",
       "location": "Wickhallow Law Office (Seattle, WA)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Cyrus Stroud",
       "date": "2026-09-08T15:05:00Z",
-      "text": "Competent work on a custody modification, but the invoices from Wickhallow Law were vague and I had to ask for an itemized breakdown. Clearer billing would earn a better rating.",
-      "photoCount": 2,
+      "text": "I came to Wickhallow Law stressed and confused about a custody modification. Iris took the time to explain my options in plain language, answered every email within a day, and got it resolved sooner than I thought possible.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Iris"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Cyrus, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Wickhallow Law. A manager will reach out this week to make it right.\n\nNora Whitcomb, Wickhallow Law Office",
+        "text": "Thank you for the kind words, Cyrus. We're glad everything went smoothly and look forward to seeing you again.\n\nNora Whitcomb, Wickhallow Law Office",
         "author": "Nora Whitcomb, Wickhallow Law Office",
-        "date": "2026-09-09T17:55:00Z"
+        "date": "2026-09-09T15:20:00Z"
       }
     },
     {
@@ -496,7 +628,7 @@
       "reviewer": "Delia Carrow",
       "date": "2026-08-25T14:45:00Z",
       "text": "Referred a friend to Wickhallow Law after my own a will and power of attorney went smoothly. Iris and Nora Whitcomb worked as a team and never made us repeat ourselves.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -512,20 +644,22 @@
       "locationId": "acct-wickhallow-law-loc-1",
       "location": "Wickhallow Law Office (Seattle, WA)",
       "site": "yelp",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Emmett Jessup",
       "date": "2026-08-11T17:10:00Z",
-      "text": "My file at Wickhallow Law changed hands twice during a probate filing and nobody told me. It eventually got done, but I spent too much time chasing status updates.",
+      "text": "Iris prepared me well for every step of a prenup. The paperwork was organized and nothing was missed.",
       "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Iris"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Emmett, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Wickhallow Law. A manager will reach out this week to make it right.\n\nNora Whitcomb, Wickhallow Law Office",
+        "text": "Thanks, Emmett. We're glad we could help and have shared your note with the team.\n\nNora Whitcomb, Wickhallow Law Office",
         "author": "Nora Whitcomb, Wickhallow Law Office",
-        "date": "2026-08-12T19:00:00Z"
+        "date": "2026-08-11T20:35:00Z"
       }
     },
     {
@@ -539,14 +673,19 @@
       "reviewer": "Flora Quintero",
       "date": "2026-07-28T16:55:00Z",
       "text": "The fixed-fee quote for a prenup was honored to the dollar. Iris was thorough, though the first consult at Wickhallow Law started 20 minutes late.",
-      "photoCount": 3,
+      "photoCount": 1,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
         "Iris"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "Thanks, Flora. We're glad we could help and have shared your note with the team.\n\nNora Whitcomb, Wickhallow Law Office",
+        "author": "Nora Whitcomb, Wickhallow Law Office",
+        "date": "2026-07-29T04:10:00Z"
+      }
     }
   ]
 }

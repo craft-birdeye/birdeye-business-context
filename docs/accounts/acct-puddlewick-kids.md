@@ -31,7 +31,8 @@ Pediatric-only practice serving Portland families with sedation and special-need
 ## Data at a glance
 
 - Contacts: 8 (Patient, Lead)
-- Reviews: 8, average 4.0★, 4 with replies
+- Reviews: 8, average 4.3★, 6 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 2 claimed, 2 verified; 594 public reviews, average 4.9★; 36 photos
 - Bundle: [`v1/accounts/acct-puddlewick-kids.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-puddlewick-kids.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Pediatric-only practice serving Portland families with sedation and special-need
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Puddlewick Kids Dentistry | 5755 Elderberry Row, Portland, OR 97209 | (503) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Pediatric dentist | google: 4.9 · 486 · verified; facebook: 4.8 · 56 · verified; yelp: 4.7 · 52 · unclaimed | 45.52927, -122.56361 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

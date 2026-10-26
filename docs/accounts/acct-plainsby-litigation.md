@@ -31,7 +31,8 @@ Multi-city litigation group for commercial disputes across the Midwest. Commerci
 ## Data at a glance
 
 - Contacts: 8 (Client, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.3★, 7 with replies
+- Listings (invented, schema 1.1.0): 21 across 8 locations, 16 claimed, 16 verified; 605 public reviews, average 4.8★; 107 photos
 - Bundle: [`v1/accounts/acct-plainsby-litigation.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-plainsby-litigation.json)
 
 ## Locations
@@ -46,6 +47,21 @@ Multi-city litigation group for commercial disputes across the Midwest. Commerci
 | 6 | Plainsby Litigation - Kansas City | 319 Glenhaven Terrace, Suite 312, Kansas City, MO 64106 | (816) 555-0105 | Inactive |
 | 7 | Plainsby Litigation - Des Moines | 8100 Lantern Hill Avenue, Suite 417, Des Moines, IA 50309 | (515) 555-0106 | Active |
 | 8 | Plainsby Litigation - Madison | 7033 Zephyr Drive, Suite 394, Madison, WI 53704 | (608) 555-0107 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Law firm, Litigation attorney | google: 4.9 · 22 · verified; facebook: 5 · 2 · verified; yelp: 5 · 1 · unclaimed | 41.88594, -87.49505 |
+| 2 | Open | Law firm, Employment attorney | google: 5 · 9 · verified; facebook: 5 · 1 · verified; yelp: 5 · 1 · unclaimed | 42.97165, -87.96818 |
+| 3 | Open | Law firm, Business attorney | google: 4.9 · 96 · verified; facebook: 5 · 4 · verified; yelp: 4.2 · 5 · verified | 44.91202, -93.17844 |
+| 4 | Open | Law firm, Employment attorney | google: 4.8 · 11 · verified; yelp: 5 · 1 · unclaimed | 39.72908, -86.10232 |
+| 5 | Open | Law firm, Business attorney | google: 4.8 · 175 · verified; facebook: 5 · 12 · verified; yelp: 4.3 · 26 · unclaimed | 38.61754, -90.18469 |
+| 6 | Temporarily closed | Law firm, Business attorney | google: 4.8 · 44 · verified; facebook: 4.3 · 6 · verified; yelp: 5 · 2 · verified | 39.04118, -94.68234 |
+| 7 | Open | Law firm, Employment attorney, Real estate attorney, Litigation attorney | google: 4.6 · 113 · verified; facebook: 5 · 19 · unclaimed | 41.51541, -93.68855 |
+| 8 | Open | Law firm, Business attorney, Real estate attorney | google: 4.6 · 43 · verified; facebook: 5 · 12 · verified | 43.12468, -89.45616 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

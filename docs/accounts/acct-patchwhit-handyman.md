@@ -31,7 +31,8 @@ Neighborhood handyman and punch-list crew for Columbus homeowners. Punch lists, 
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.4★, 5 with replies
+- Reviews: 8, average 4.5★, 4 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 3 claimed, 3 verified; 29 public reviews, average 4.7★; 4 photos
 - Bundle: [`v1/accounts/acct-patchwhit-handyman.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-patchwhit-handyman.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Neighborhood handyman and punch-list crew for Columbus homeowners. Punch lists, 
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Patchwhit Handyman Co | 8512 Bluestem Court, Suite 441, Columbus, OH 43215 | (380) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Handyman, Carpenter | google: 4.6 · 24 · verified; facebook: 4.7 · 3 · verified; yelp: 5 · 2 · verified | 39.9724, -83.10127 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

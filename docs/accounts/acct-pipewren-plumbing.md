@@ -31,7 +31,8 @@ Phoenix-metro plumbing and drain group with 24/7 emergency dispatch. 24/7 plumbi
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.5★, 6 with replies
+- Reviews: 8, average 4.3★, 7 with replies
+- Listings (invented, schema 1.1.0): 29 across 10 locations, 21 claimed, 19 verified; 3456 public reviews, average 4.8★; 304 photos
 - Bundle: [`v1/accounts/acct-pipewren-plumbing.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-pipewren-plumbing.json)
 
 ## Locations
@@ -48,6 +49,23 @@ Phoenix-metro plumbing and drain group with 24/7 emergency dispatch. 24/7 plumbi
 | 8 | Pipewren Plumbing - Peoria | 7981 Meadowlark Drive, Peoria, AZ 85382 | (623) 555-0107 | Active |
 | 9 | Pipewren Plumbing - Surprise | 6862 Bramblewood Lane, Surprise, AZ 85374 | (623) 555-0108 | Active |
 | 10 | Pipewren Plumbing - Queen Creek | 1398 Falconridge Trail, Suite 267, Queen Creek, AZ 85142 | (480) 555-0109 | Demo |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Plumber, Drainage service | google: 4.2 · 64 · verified; facebook: 4.7 · 15 · verified; yelp: 4.4 · 9 · verified | 33.38339, -112.03244 |
+| 2 | Open | Plumber | google: 4.9 · 498 · verified; facebook: 4.9 · 80 · claimed; yelp: 4.3 · 98 · verified | 33.39586, -111.80272 |
+| 3 | Open | Plumber, Drainage service, Water heater installation service, Water softening equipment supplier | google: 5 · 511 · verified; facebook: 4.6 · 92 · verified; yelp: 4.4 · 79 · verified | 33.52695, -111.8172 |
+| 4 | Open | Plumber, Drainage service, Emergency plumber | google: 4.9 · 74 · verified; facebook: 4.9 · 7 · unclaimed; yelp: 4 · 5 · unclaimed | 33.3369, -111.77726 |
+| 5 | Open | Plumber, Emergency plumber, Water softening equipment supplier | google: 4.8 · 66 · unclaimed; facebook: 5 · 1 · unclaimed; yelp: 4.5 · 11 · unclaimed | 33.21609, -111.8131 |
+| 6 | Open | Plumber, Drainage service, Water heater installation service | google: 4.9 · 366 · unclaimed; facebook: 4.8 · 43 · verified; yelp: 4.4 · 62 · verified | 33.45869, -112.18653 |
+| 7 | Open | Plumber, Water heater installation service, Emergency plumber, Drainage service | google: 5 · 614 · verified; facebook: 4.8 · 64 · unclaimed; yelp: 4.3 · 112 · verified | 33.39079, -111.81956 |
+| 8 | Open | Plumber | google: 4.9 · 215 · verified; facebook: 4.6 · 56 · verified; yelp: 4.4 · 32 · verified | 33.55858, -112.35826 |
+| 9 | Open | Plumber, Water heater installation service, Emergency plumber | google: 4.7 · 33 · claimed; facebook: 5 · 8 · verified; yelp: 5 · 2 · verified | 33.67726, -112.35881 |
+| 10 | Open | Plumber, Water softening equipment supplier, Drainage service | google: 5 · 207 · unclaimed; facebook: 5 · 32 · verified | 33.26591, -111.52393 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

@@ -31,7 +31,8 @@ Solo family and estate law practice in downtown Seattle. Family and estate law i
 ## Data at a glance
 
 - Contacts: 8 (Client, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 3 claimed, 3 verified; 21 public reviews, average 4.8★; 8 photos
 - Bundle: [`v1/accounts/acct-wickhallow-law.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-wickhallow-law.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Solo family and estate law practice in downtown Seattle. Family and estate law i
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Wickhallow Law Office | 3131 Amberwood Boulevard, Suite 188, Seattle, WA 98101 | (206) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Family law attorney, Estate planning attorney | google: 4.9 · 17 · verified; facebook: 4.5 · 2 · verified; yelp: 3.5 · 2 · verified | 47.68377, -122.32309 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

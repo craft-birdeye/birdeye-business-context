@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-buffwren-detail",
@@ -73,7 +73,17 @@
       "an interior detail",
       "paint protection film"
     ],
-    "llmContext": "Buffwren Detail Studio · SMB · Automotive · HQ Austin, Texas, United States · 1 purchased location · CRM Jobber · Mobile and studio detailing for Austin enthusiasts and fleet managers."
+    "llmContext": "Buffwren Detail Studio · SMB · Automotive · HQ Austin, Texas, United States · 1 purchased location · CRM Jobber · Mobile and studio detailing for Austin enthusiasts and fleet managers.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 3,
+      "verifiedListings": 3,
+      "totalReviews": 121,
+      "averageRating": 4.7,
+      "photoCount": 2
+    }
   },
   "locations": [
     {
@@ -114,7 +124,130 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-08-11T15:55:00Z"
+      "createdOn": "2026-08-11T15:55:00Z",
+      "coordinates": {
+        "lat": 30.32121,
+        "lng": -97.76246
+      },
+      "categories": {
+        "primary": "Car detailing service",
+        "secondary": [
+          "Window tinting service",
+          "Car wash"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "13:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "07:30",
+          "close": "15:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Service options",
+          "label": "Online appointments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Waiting area"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        }
+      ],
+      "photoCount": 2,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/buffwren-detail-studio",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.7,
+          "reviewCount": 92,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 11,
+            "5": 75
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/buffwren-detail-studio",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.9,
+          "reviewCount": 14,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 13
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/buffwren-detail-studio",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 15,
+          "ratingDistribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 10
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 121,
+        "averageRating": 4.7,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -385,7 +518,7 @@
       "reviewer": "Orion Sandoval",
       "date": "2026-08-10T16:30:00Z",
       "text": "My ceramic coating was done right and priced fairly. The waiting area at Buffwren Detail Studio was busy and the Wi-Fi kept dropping, but Jace kept me updated.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -396,7 +529,7 @@
       "reply": {
         "text": "Thanks so much, Orion! We'll pass this along to the whole Buffwren Detail Studio team. See you next time.\n\nBuffwren Detail Studio",
         "author": "Buffwren Detail Studio",
-        "date": "2026-08-11T18:15:00Z"
+        "date": "2026-08-10T19:10:00Z"
       }
     },
     {
@@ -410,7 +543,7 @@
       "reviewer": "Paloma Achebe",
       "date": "2026-07-27T21:00:00Z",
       "text": "Dropped off for a paint correction at 8 a.m. and didn't hear anything until I called at 4. The work from Buffwren Detail Studio was fine, but proactive updates would make a big difference.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
@@ -419,7 +552,7 @@
       "reply": {
         "text": "Paloma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Buffwren Detail Studio. A manager will reach out this week to make it right.\n\nBuffwren Detail Studio",
         "author": "Buffwren Detail Studio",
-        "date": "2026-07-29T15:20:00Z"
+        "date": "2026-07-29T15:45:00Z"
       }
     },
     {
@@ -440,7 +573,12 @@
         "Jace"
       ],
       "employees": 1,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We appreciate you taking the time to share this, Reuben. It means a lot to our team.\n\nBuffwren Detail Studio",
+        "author": "Buffwren Detail Studio",
+        "date": "2026-07-14T11:50:00Z"
+      }
     },
     {
       "id": "acct-buffwren-detail-rev-4",
@@ -449,21 +587,16 @@
       "locationId": "acct-buffwren-detail-loc-1",
       "location": "Buffwren Detail Studio (Austin, TX)",
       "site": "google",
-      "rating": 1,
+      "rating": 5,
       "reviewer": "Sabine Okonjo",
       "date": "2026-06-29T15:10:00Z",
-      "text": "Picked up my car from Buffwren Detail Studio after paint protection film and there was a new rattle that wasn't there before. Had to bring it back twice. They fixed it eventually, but it cost me two days.",
-      "photoCount": 3,
+      "text": "Buffwren Detail Studio got my car in the same day for a paint correction. Friendly team.",
+      "photoCount": 2,
       "featured": false,
       "archived": true,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "edit",
-      "reply": {
-        "text": "Sabine, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Buffwren Detail Studio. A manager will reach out this week to make it right.\n\nBuffwren Detail Studio",
-        "author": "Buffwren Detail Studio",
-        "date": "2026-07-01T17:20:00Z"
-      }
+      "replyStatus": "post"
     },
     {
       "id": "acct-buffwren-detail-rev-5",
@@ -476,7 +609,7 @@
       "reviewer": "Tobias Whitmore",
       "date": "2026-10-08T20:45:00Z",
       "text": "Third visit to Buffwren Detail Studio and it's consistently good. My ceramic coating was finished early, and Jace reset my tire pressure light without being asked.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -492,20 +625,22 @@
       "locationId": "acct-buffwren-detail-loc-1",
       "location": "Buffwren Detail Studio (Austin, TX)",
       "site": "yelp",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Uma Everly",
       "date": "2026-09-24T17:20:00Z",
-      "text": "Good work on a paint correction, but the final bill from Buffwren Detail Studio was higher than the estimate because of shop fees nobody mentioned up front.",
-      "photoCount": 1,
+      "text": "Jace had paint protection film done by the time promised and texted photos before doing anything extra.",
+      "photoCount": 0,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Jace"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Uma, thank you for telling us, and we're sorry. This isn't the experience we want anyone to have with Buffwren Detail Studio. A manager will reach out this week to make it right.\n\nBuffwren Detail Studio",
+        "text": "We appreciate you taking the time to share this, Uma. It means a lot to our team.\n\nBuffwren Detail Studio",
         "author": "Buffwren Detail Studio",
-        "date": "2026-09-26T19:50:00Z"
+        "date": "2026-09-26T06:35:00Z"
       }
     },
     {
@@ -530,7 +665,7 @@
       "reply": {
         "text": "Thanks so much, Vaughn! We'll pass this along to the whole Buffwren Detail Studio team. See you next time.\n\nBuffwren Detail Studio",
         "author": "Buffwren Detail Studio",
-        "date": "2026-09-11T16:50:00Z"
+        "date": "2026-09-21T20:40:00Z"
       }
     },
     {
@@ -544,7 +679,7 @@
       "reviewer": "Willa Vance-Ortiz",
       "date": "2026-08-27T19:20:00Z",
       "text": "Fleet manager here. Buffwren Detail Studio keeps our vans on the road with one invoice a month and almost no downtime. Lia is our go-to contact.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [

@@ -1,6 +1,6 @@
 {
   "$schema": "https://craft-birdeye.github.io/birdeye-business-context/schemas/account-bundle.schema.json",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-10-21T00:00:00Z",
   "account": {
     "id": "acct-brindlemoss-dental",
@@ -75,7 +75,17 @@
       "a whitening session",
       "an implant crown"
     ],
-    "llmContext": "Brindlemoss Dental Studio · SMB · Dental and healthcare · HQ Nashville, Tennessee, United States · 1 purchased location · CRM Curve Dental · Boutique restorative and cosmetic studio in Nashville with a strong Google review habit."
+    "llmContext": "Brindlemoss Dental Studio · SMB · Dental and healthcare · HQ Nashville, Tennessee, United States · 1 purchased location · CRM Curve Dental · Boutique restorative and cosmetic studio in Nashville with a strong Google review habit.",
+    "listingSummary": {
+      "locations": 1,
+      "openLocations": 1,
+      "listings": 3,
+      "claimedListings": 3,
+      "verifiedListings": 3,
+      "totalReviews": 479,
+      "averageRating": 4.8,
+      "photoCount": 63
+    }
   },
   "locations": [
     {
@@ -116,7 +126,133 @@
       ],
       "owner": "Elena Vargas",
       "createdBy": "Elena Vargas",
-      "createdOn": "2026-09-30T21:45:00Z"
+      "createdOn": "2026-09-30T21:45:00Z",
+      "coordinates": {
+        "lat": 36.12046,
+        "lng": -86.84875
+      },
+      "categories": {
+        "primary": "Cosmetic dentist",
+        "secondary": [
+          "Dental clinic"
+        ]
+      },
+      "businessStatus": "open",
+      "businessStatusLabel": "Open",
+      "specialHours": [
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "closed": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "closed": false,
+          "open": "08:00",
+          "close": "12:00"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "closed": true
+        }
+      ],
+      "attributes": [
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible entrance"
+        },
+        {
+          "group": "Accessibility",
+          "label": "Wheelchair accessible parking lot"
+        },
+        {
+          "group": "Planning",
+          "label": "Appointment required"
+        },
+        {
+          "group": "Payments",
+          "label": "Credit cards"
+        },
+        {
+          "group": "Payments",
+          "label": "NFC mobile payments"
+        },
+        {
+          "group": "Amenities",
+          "label": "Restroom"
+        }
+      ],
+      "photoCount": 63,
+      "listings": [
+        {
+          "site": "google",
+          "url": "https://google.example.com/biz/brindlemoss-dental-studio",
+          "claimed": true,
+          "verified": true,
+          "rating": 5,
+          "reviewCount": 394,
+          "ratingDistribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 15,
+            "5": 377
+          },
+          "sampledReviews": 4
+        },
+        {
+          "site": "facebook",
+          "url": "https://facebook.example.com/biz/brindlemoss-dental-studio",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.4,
+          "reviewCount": 39,
+          "ratingDistribution": {
+            "1": 3,
+            "2": 2,
+            "3": 1,
+            "4": 4,
+            "5": 29
+          },
+          "sampledReviews": 2
+        },
+        {
+          "site": "yelp",
+          "url": "https://yelp.example.com/biz/brindlemoss-dental-studio",
+          "claimed": true,
+          "verified": true,
+          "rating": 4.3,
+          "reviewCount": 46,
+          "ratingDistribution": {
+            "1": 5,
+            "2": 1,
+            "3": 2,
+            "4": 7,
+            "5": 31
+          },
+          "sampledReviews": 2
+        }
+      ],
+      "reviewSummary": {
+        "totalReviews": 479,
+        "averageRating": 4.8,
+        "sampledReviews": 8,
+        "listedSites": 3
+      }
     }
   ],
   "contacts": [
@@ -387,7 +523,7 @@
       "reviewer": "Yvette Oyelaran",
       "date": "2026-09-19T14:25:00Z",
       "text": "Dr. Celeste Haywood handled a veneer consult with a light touch and gave clear instructions afterward. Parking near Brindlemoss Dental Studio is limited at midday, but the care is worth it.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -398,7 +534,7 @@
       "reply": {
         "text": "Thank you for your kind words, Yvette. We are glad the team at Brindlemoss Dental Studio could help, and we appreciate you taking the time to share your experience.\n\nBrindlemoss Dental Studio",
         "author": "Brindlemoss Dental Studio",
-        "date": "2026-09-20T16:00:00Z"
+        "date": "2026-09-20T09:10:00Z"
       }
     },
     {
@@ -432,7 +568,7 @@
       "reviewer": "Arlo Delgado",
       "date": "2026-08-22T20:15:00Z",
       "text": "Came in for a whitening session at Brindlemoss Dental Studio. Dr. Paul Vargasse explained each step before starting and checked in halfway through. We finished on time and my next visit was booked before I left.",
-      "photoCount": 1,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -452,7 +588,7 @@
       "reviewer": "Bryony Kowalczyk",
       "date": "2026-08-08T21:30:00Z",
       "text": "Dr. Celeste Haywood has a way of making appointments feel unhurried. My an implant crown ran longer than planned and nobody rushed me out of the chair. That's why I keep coming back to Brindlemoss Dental Studio.",
-      "photoCount": 2,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -463,7 +599,7 @@
       "reply": {
         "text": "Thank you for your kind words, Bryony. We are glad the team at Brindlemoss Dental Studio could help, and we appreciate you taking the time to share your experience.\n\nBrindlemoss Dental Studio",
         "author": "Brindlemoss Dental Studio",
-        "date": "2026-08-10T15:10:00Z"
+        "date": "2026-08-14T00:00:00Z"
       }
     },
     {
@@ -477,12 +613,17 @@
       "reviewer": "Cassius Szabo",
       "date": "2026-07-25T18:05:00Z",
       "text": "Good experience with a veneer consult at Brindlemoss Dental Studio. The team was organized and the final bill matched the estimate. The waiting room was crowded around 4 p.m., so book early if you can.",
-      "photoCount": 3,
+      "photoCount": 0,
       "featured": false,
       "archived": false,
       "employeesMentioned": [],
       "employees": 0,
-      "replyStatus": "post"
+      "replyStatus": "edit",
+      "reply": {
+        "text": "We are grateful for your feedback, Cassius, and glad our team could assist you.\n\nBrindlemoss Dental Studio",
+        "author": "Brindlemoss Dental Studio",
+        "date": "2026-08-08T06:15:00Z"
+      }
     },
     {
       "id": "acct-brindlemoss-dental-rev-6",
@@ -506,7 +647,7 @@
       "reply": {
         "text": "Dahlia, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Brindlemoss Dental Studio. A member of our leadership team will contact you directly to discuss it.\n\nBrindlemoss Dental Studio",
         "author": "Brindlemoss Dental Studio",
-        "date": "2026-07-13T21:40:00Z"
+        "date": "2026-07-12T11:45:00Z"
       }
     },
     {
@@ -520,7 +661,7 @@
       "reviewer": "Elio Holloway",
       "date": "2026-06-27T16:00:00Z",
       "text": "Booked a whitening session online on a Sunday night and had a confirmation text within minutes. Dr. Celeste Haywood remembered details from my last visit, which says a lot about the team at Brindlemoss Dental Studio.",
-      "photoCount": 1,
+      "photoCount": 3,
       "featured": false,
       "archived": false,
       "employeesMentioned": [
@@ -531,7 +672,7 @@
       "reply": {
         "text": "Thank you for your kind words, Elio. We are glad the team at Brindlemoss Dental Studio could help, and we appreciate you taking the time to share your experience.\n\nBrindlemoss Dental Studio",
         "author": "Brindlemoss Dental Studio",
-        "date": "2026-06-28T18:05:00Z"
+        "date": "2026-06-30T04:35:00Z"
       }
     },
     {
@@ -541,20 +682,22 @@
       "locationId": "acct-brindlemoss-dental-loc-1",
       "location": "Brindlemoss Dental Studio (Nashville, TN)",
       "site": "google",
-      "rating": 3,
+      "rating": 5,
       "reviewer": "Fern Prescott",
       "date": "2026-10-06T17:15:00Z",
-      "text": "The care at Brindlemoss Dental Studio was fine, but weeks later I got a bill for a cosmetic bonding visit that I thought insurance covered. Please check coverage before the visit, not after.",
+      "text": "I put off a whitening session for years because I was nervous. Imani at Brindlemoss Dental Studio walked me through every step, kept checking that I was comfortable, and the whole thing took less time than I expected. I already booked my next visit.",
       "photoCount": 2,
       "featured": false,
       "archived": false,
-      "employeesMentioned": [],
-      "employees": 0,
+      "employeesMentioned": [
+        "Imani"
+      ],
+      "employees": 1,
       "replyStatus": "edit",
       "reply": {
-        "text": "Fern, thank you for the candid feedback. This falls short of the standard we hold ourselves to at Brindlemoss Dental Studio. A member of our leadership team will contact you directly to discuss it.\n\nBrindlemoss Dental Studio",
+        "text": "Thank you for your review, Fern. We appreciate your trust and are pleased the matter was handled to your satisfaction.\n\nBrindlemoss Dental Studio",
         "author": "Brindlemoss Dental Studio",
-        "date": "2026-10-08T19:25:00Z"
+        "date": "2026-10-07T00:10:00Z"
       }
     }
   ]

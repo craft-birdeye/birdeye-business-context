@@ -31,7 +31,8 @@ Family-owned collision center with insurer DRP relationships in Milwaukee. Famil
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.6★, 5 with replies
+- Reviews: 8, average 4.3★, 6 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 2 claimed, 2 verified; 63 public reviews, average 4.7★; 10 photos
 - Bundle: [`v1/accounts/acct-panelbrook-collision.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-panelbrook-collision.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Family-owned collision center with insurer DRP relationships in Milwaukee. Famil
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Panelbrook Collision Center | 7847 Foxglove Drive, Suite 472, Milwaukee, WI 53204 | (414) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Auto body shop, Auto glass shop | google: 4.7 · 51 · verified; facebook: 5 · 6 · verified; yelp: 4.2 · 6 · unclaimed | 42.99698, -87.81772 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

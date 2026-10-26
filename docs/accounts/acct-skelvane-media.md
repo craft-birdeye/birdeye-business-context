@@ -31,7 +31,8 @@ Performance and brand agency running local SEO and review programs for multi-loc
 ## Data at a glance
 
 - Contacts: 8 (Client contact, Lead)
-- Reviews: 8, average 3.5★, 6 with replies
+- Reviews: 8, average 4.4★, 6 with replies
+- Listings (invented, schema 1.1.0): 15 across 5 locations, 12 claimed, 12 verified; 212 public reviews, average 4.8★; 107 photos
 - Bundle: [`v1/accounts/acct-skelvane-media.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-skelvane-media.json)
 
 ## Locations
@@ -43,6 +44,18 @@ Performance and brand agency running local SEO and review programs for multi-loc
 | 3 | Skelvane - Houston studio | 5706 Quarrystone Way, Houston, TX 77007 | (281) 555-0102 | Active |
 | 4 | Skelvane - San Antonio desk | 163 Oriole Row, Suite 312, San Antonio, TX 78209 | (210) 555-0103 | Demo |
 | 5 | Skelvane - Denver desk | 7944 Juniper Hollow Trail, Denver, CO 80202 | (720) 555-0104 | Needs setup |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Marketing agency, Website designer | google: 4.9 · 8 · verified; facebook: 5 · 1 · verified; yelp: 5 · 1 · unclaimed | 30.28032, -97.64397 |
+| 2 | Open | Marketing agency, Website designer | google: 4.9 · 18 · verified; facebook: 4.7 · 3 · verified; yelp: 5 · 1 · unclaimed | 32.71453, -96.70715 |
+| 3 | Open | Marketing agency, Social media agency | google: 4.9 · 31 · verified; facebook: 4.5 · 2 · verified; yelp: 4.8 · 4 · verified | 29.74001, -95.48715 |
+| 4 | Open | Marketing agency | google: 4.6 · 66 · verified; facebook: 5 · 10 · verified; yelp: 4.9 · 7 · verified | 29.49305, -98.52382 |
+| 5 | Open | Marketing agency, Advertising agency | google: 4.8 · 51 · verified; facebook: 5 · 5 · verified; yelp: 4.8 · 4 · unclaimed | 39.68668, -104.90574 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

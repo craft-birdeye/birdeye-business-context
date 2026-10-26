@@ -31,7 +31,8 @@ EV-focused service labs along California’s I-5 and Bay corridors. Independent 
 ## Data at a glance
 
 - Contacts: 8 (Customer, Lead)
-- Reviews: 8, average 3.8★, 6 with replies
+- Reviews: 8, average 4.3★, 7 with replies
+- Listings (invented, schema 1.1.0): 13 across 5 locations, 8 claimed, 7 verified; 1117 public reviews, average 4.7★; 483 photos
 - Bundle: [`v1/accounts/acct-amperlund-ev.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-amperlund-ev.json)
 
 ## Locations
@@ -43,6 +44,18 @@ EV-focused service labs along California’s I-5 and Bay corridors. Independent 
 | 3 | Amperlund EV - Oakland | 1847 Saddlebrook Drive, Oakland, CA 94610 | (510) 555-0102 | Active |
 | 4 | Amperlund EV - Sacramento | 7442 Bramblewood Boulevard, Suite 175, Sacramento, CA 95814 | (916) 555-0103 | Demo |
 | 5 | Amperlund EV - Fresno | 8561 Meadowlark Avenue, Suite 222, Fresno, CA 93720 | (559) 555-0104 | Needs setup |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Auto repair shop, Oil change service | google: 4.7 · 88 · verified; facebook: 4.9 · 29 · verified; yelp: 4.3 · 7 · unclaimed | 37.38051, -121.83379 |
+| 2 | Open | Auto repair shop, Car inspection station, Oil change service | google: 4.6 · 271 · verified; facebook: 4.6 · 32 · verified | 37.46699, -121.96564 |
+| 3 | Open | Auto repair shop, Auto air conditioning service | google: 4.9 · 308 · verified; facebook: 4.8 · 20 · verified; yelp: 4.3 · 34 · verified | 37.82827, -122.20117 |
+| 4 | Open | Auto repair shop, Brake shop, Oil change service | google: 4.5 · 147 · unclaimed; facebook: 5 · 17 · unclaimed; yelp: 3.8 · 29 · unclaimed | 38.57719, -121.62659 |
+| 5 | Open | Auto repair shop, Auto air conditioning service | google: 4.7 · 122 · unclaimed; facebook: 4.7 · 13 · claimed | 36.67265, -119.87457 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

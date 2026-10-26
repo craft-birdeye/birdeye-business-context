@@ -14,10 +14,12 @@ or a system prompt. Data: https://craft-birdeye.github.io/birdeye-business-conte
 2. **Do not hard-code mock lists.** Contacts, reviews, business info, and branding come from the feed
    or are invented to match that account.
 3. **Location counts are exact.** Business-info rows and the Purchased KPI equal `purchasedLocations`.
-   Contacts and reviews reference only that account's location ids.
+   Contacts and reviews reference only that account's location ids. Listing totals (`listings[].reviewCount`)
+   are larger than the review sample; don't count `reviews[]` to show a listing's total.
 4. **Branding comes from the account.** Use `account.branding` for logo, brand name, and colors, and
    `account.tone` for copy and review replies. Don't swap the top-bar title for a location name.
-5. **Dates are relative.** Use the feed's ISO dates as-is and format them for display. Never write a
+5. **Dates are relative.** Use the feed's ISO dates as-is and format them for display (holiday
+   `specialHours` dates can be in the future). Never write a
    fixed calendar date into mock data; the feed refreshes weekly to stay inside the last 3-4 months.
 6. **Invented only.** Use `@example.com` emails, `(xxx) 555-01xx` phones, and invented businesses and people.
    Never paste real customer names, account IDs, addresses, or analytics rows.

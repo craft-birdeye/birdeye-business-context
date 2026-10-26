@@ -32,6 +32,7 @@ Regional HVAC, plumbing, and electrical dispatch group serving Denver metro home
 
 - Contacts: 10 (Customer, Lead)
 - Reviews: 12, average 3.8★, 4 with replies
+- Listings (invented, schema 1.1.0): 40 across 15 locations, 27 claimed, 23 verified; 4283 public reviews, average 4.8★; 384 photos
 - Bundle: [`v1/accounts/acct-hearthquell-home.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-hearthquell-home.json)
 
 ## Locations
@@ -53,6 +54,28 @@ Regional HVAC, plumbing, and electrical dispatch group serving Denver metro home
 | 13 | Hearthquell - Englewood | 6393 Zephyr Lane, Suite 474, Englewood, CO 80113 | (303) 555-0112 | Active |
 | 14 | Hearthquell - Broomfield | 7512 Bluestem Drive, Suite 489, Broomfield, CO 80020 | (720) 555-0113 | Active |
 | 15 | Hearthquell - Castle Rock | 8631 Willowmere Lane, Suite 384, Castle Rock, CO 80108 | (303) 555-0114 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | HVAC contractor | google: 4.8 · 69 · verified; facebook: 4.9 · 20 · verified | 39.73297, -104.87465 |
+| 2 | Open | HVAC contractor | google: 4.9 · 45 · verified; yelp: 4.8 · 5 · verified | 39.65027, -104.8453 |
+| 3 | Open | HVAC contractor, Furnace repair service | google: 4.8 · 441 · verified; facebook: 4.9 · 44 · unclaimed; yelp: 4.2 · 50 · verified | 39.71777, -104.95033 |
+| 4 | Open | HVAC contractor, Plumber | google: 4.5 · 26 · unclaimed; facebook: 5 · 2 · verified; yelp: 5 · 1 · unclaimed | 39.63375, -105.12732 |
+| 5 | Open | HVAC contractor | google: 4.9 · 1276 · unclaimed; facebook: 4.9 · 77 · verified; yelp: 4.2 · 69 · verified | 39.91811, -105.28007 |
+| 6 | Temporarily closed | HVAC contractor, Furnace repair service, Plumber | google: 4.9 · 824 · unclaimed; facebook: 5 · 108 · claimed; yelp: 3.9 · 95 · verified | 39.64053, -104.95655 |
+| 7 | Open | HVAC contractor, Furnace repair service | google: 4.8 · 108 · verified; facebook: 4.9 · 15 · unclaimed; yelp: 4.2 · 9 · unclaimed | 39.91007, -104.98517 |
+| 8 | Open | HVAC contractor, Air conditioning repair service | google: 5 · 60 · verified; facebook: 5 · 6 · verified; yelp: 4 · 4 · verified | 39.69936, -105.09722 |
+| 9 | Open | HVAC contractor, Furnace repair service, Electrician, Plumber | google: 4.7 · 47 · verified; facebook: 4.9 · 8 · claimed | 39.52368, -104.79948 |
+| 10 | Open | HVAC contractor, Electrician, Furnace repair service | google: 4.8 · 245 · verified; facebook: 4.8 · 57 · claimed; yelp: 4.4 · 70 · verified | 39.912, -104.98011 |
+| 11 | Open | HVAC contractor | google: 4.8 · 84 · verified; facebook: 4.9 · 11 · unclaimed; yelp: 4 · 5 · unclaimed | 39.56387, -104.93873 |
+| 12 | Open | HVAC contractor | google: 4.9 · 49 · verified; facebook: 5 · 3 · unclaimed; yelp: 4.9 · 7 · unclaimed | 39.80313, -105.02305 |
+| 13 | Open | HVAC contractor, Furnace repair service, Air conditioning repair service, Plumber | google: 4.7 · 176 · verified; facebook: 5 · 12 · verified; yelp: 4.3 · 20 · unclaimed | 39.55724, -104.9255 |
+| 14 | Open | HVAC contractor, Plumber | google: 4.9 · 27 · verified; facebook: 5 · 3 · verified | 39.84985, -105.06195 |
+| 15 | Open | HVAC contractor, Furnace repair service, Electrician, Plumber | google: 4.5 · 93 · claimed; yelp: 4.4 · 12 · unclaimed | 39.39482, -104.7577 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 

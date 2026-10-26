@@ -8,6 +8,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { CITIES, STATES, zipMatchesState } from "./lib/geo.mjs";
 import { denylistHit, SKIP_KEYS, KNOWN_CRM_PRODUCTS } from "./lib/denylist.mjs";
+import { CENTERS } from "./lib/centers.mjs";
+import { haversineKm, histogramRating, round1, profileKeyFor, holidaysForYear, slugify } from "./lib/enrich.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const arg = (n) => { const i = process.argv.indexOf(n); return i > -1 ? process.argv[i + 1] : undefined; };
@@ -354,6 +356,89 @@ console.log(`birdeye-business-context validation · reference date ${refDateStr}
   }
   for (const c of contacts) if (c.phone) { const l = locations.find((x) => x.id === c.primaryLocationId); const geo = l && CITIES[l.locationLine]; if (geo && !geo.areaCodes.includes(c.phone.slice(1, 4))) errs.push(`${c.id}: area code ${c.phone.slice(1, 4)} not local to ${l.locationLine}`); }
   check("Addresses complete; city/state/ZIP/timezone/area code consistent", errs);
+}
+
+// 9. Listing-level fields (schema 1.1.0): coordinates, categories, status, special hours, attributes, listings, rollups
+{
+  const errs = [];
+  const D = readJson("source/distributions.json"), C = D.common, V = D.display;
+  const byLocSite = new Map();
+  for (const r of reviews) { const k = `${r.locationId}|${r.site}`; if (!byLocSite.has(k)) byLocSite.set(k, []); byLocSite.get(k).push(r); }
+  // special hours may be future-dated: their own window, 30 days before to 90 days after the reference date
+  const ref = Date.parse(`${refDateStr}T00:00:00Z`);
+  const shFrom = new Date(ref - C.holidays.windowDaysBefore * DAY).toISOString().slice(0, 10), shTo = new Date(ref + C.holidays.windowDaysAfter * DAY).toISOString().slice(0, 10);
+  const holidayDates = {}; for (const y of [0, 1, 2].map((k) => Number(refDateStr.slice(0, 4)) - 1 + k)) for (const [n, d] of Object.entries(holidaysForYear(y))) (holidayDates[n] ??= new Set()).add(d);
+  const sum = (h) => Object.values(h).reduce((x, y) => x + y, 0);
+  const starSum = (h) => Object.entries(h).reduce((x, [k, n]) => x + Number(k) * n, 0);
+  for (const l of locations) {
+    const a = accounts.find((x) => x.id === l.accountId); if (!a) continue;
+    const p = D.profiles[profileKeyFor(D, a)];
+    const at = l.id;
+    // coordinates within validateWithinKm of the city center
+    const c = CENTERS[l.locationLine];
+    if (!c) errs.push(`${at}: no city center for ${l.locationLine} in scripts/lib/centers.mjs`);
+    else if (!l.coordinates) errs.push(`${at}: missing coordinates`);
+    else { const km = haversineKm(c[0], c[1], l.coordinates.lat, l.coordinates.lng); if (km > C.coordinates.validateWithinKm) errs.push(`${at}: coordinates ${km.toFixed(1)} km from ${l.locationLine} center (max ${C.coordinates.validateWithinKm})`); }
+    // categories
+    if (l.categories?.primary !== a.profile.categories[0]) errs.push(`${at}: primary category "${l.categories?.primary}" != account primary "${a.profile.categories[0]}"`);
+    const sec = l.categories?.secondary ?? [];
+    if (new Set(sec).size !== sec.length || sec.includes(l.categories?.primary)) errs.push(`${at}: secondary categories repeat or include the primary`);
+    for (const x of sec) if (!(p.secondaryCategories[l.categories.primary] ?? []).includes(x)) errs.push(`${at}: secondary category "${x}" not in the profile vocabulary`);
+    // status: only Inactive, non-HQ locations may be closed; label matches the display map
+    if (!(l.businessStatus in V.businessStatus)) errs.push(`${at}: unknown businessStatus ${l.businessStatus}`);
+    else if (l.businessStatusLabel !== V.businessStatus[l.businessStatus]) errs.push(`${at}: businessStatusLabel "${l.businessStatusLabel}" != "${V.businessStatus[l.businessStatus]}"`);
+    if (l.businessStatus !== "open" && (l.status !== "Inactive" || l.isHeadquarters)) errs.push(`${at}: ${l.businessStatus} but status ${l.status}${l.isHeadquarters ? " (headquarters)" : ""}`);
+    // regular hours follow one of the profile's patterns
+    if (!p.hoursPatterns.some((h) => JSON.stringify(h) === JSON.stringify(l.hours))) errs.push(`${at}: hours do not match any hoursPatterns of profile ${profileKeyFor(D, a)}`);
+    // special hours: real holiday dates, inside their window, sane times
+    const seen = new Set();
+    for (const h of l.specialHours ?? []) {
+      if (h.date < shFrom || h.date > shTo) errs.push(`${at}: specialHours ${h.date} outside ${shFrom}..${shTo}`);
+      if (!holidayDates[h.name]?.has(h.date)) errs.push(`${at}: specialHours "${h.name}" is not on ${h.date}`);
+      if (seen.has(h.date)) errs.push(`${at}: duplicate specialHours date ${h.date}`); seen.add(h.date);
+      if (!h.closed && !(h.open && h.close && h.open < h.close)) errs.push(`${at}: specialHours ${h.date} needs open < close`);
+      if (h.closed && (h.open || h.close)) errs.push(`${at}: specialHours ${h.date} is closed but has times`);
+    }
+    if (l.businessStatus === "permanentlyClosed" && (l.specialHours ?? []).length) errs.push(`${at}: permanently closed location has specialHours`);
+    // attributes from the profile vocabulary, none from excluded groups
+    for (const x of l.attributes ?? []) {
+      if (!p.attributes.some((y) => y.group === x.group && y.label === x.label)) errs.push(`${at}: attribute ${x.group}/${x.label} not in the profile vocabulary`);
+      if ((V.attributeGroupsExcluded ?? []).includes(x.group)) errs.push(`${at}: attribute group "${x.group}" is excluded`);
+    }
+    if (!Number.isInteger(l.photoCount) || l.photoCount < C.listingPhotos.min || l.photoCount > C.listingPhotos.max) errs.push(`${at}: photoCount ${l.photoCount} outside ${C.listingPhotos.min}..${C.listingPhotos.max}`);
+    // listings: plausible against the sampled reviews
+    const sites = new Set();
+    for (const s of l.listings ?? []) {
+      const w = `${at} ${s.site}`;
+      if (sites.has(s.site)) errs.push(`${w}: duplicate site`); sites.add(s.site);
+      if (!V.sites.some((x) => x.id === s.site)) errs.push(`${w}: site not in display.sites`);
+      if (s.url !== V.listingUrlTemplate.replace("{site}", s.site).replace("{slug}", slugify(l.name))) errs.push(`${w}: url ${s.url} does not follow listingUrlTemplate`);
+      if (s.verified && !s.claimed) errs.push(`${w}: verified but not claimed`);
+      const mine = byLocSite.get(`${l.id}|${s.site}`) ?? [];
+      if (s.sampledReviews !== mine.length) errs.push(`${w}: sampledReviews ${s.sampledReviews} != ${mine.length} reviews in v1/reviews.json`);
+      if (s.reviewCount < mine.length) errs.push(`${w}: reviewCount ${s.reviewCount} < ${mine.length} sampled reviews`);
+      if (sum(s.ratingDistribution) !== s.reviewCount) errs.push(`${w}: ratingDistribution sums to ${sum(s.ratingDistribution)}, reviewCount ${s.reviewCount}`);
+      for (const st of [1, 2, 3, 4, 5]) { const k = mine.filter((r) => r.rating === st).length; if (s.ratingDistribution[st] < k) errs.push(`${w}: ${s.ratingDistribution[st]} ${st}-star in ratingDistribution but ${k} sampled`); }
+      if (s.rating !== histogramRating(s.ratingDistribution)) errs.push(`${w}: rating ${s.rating} != ${histogramRating(s.ratingDistribution)} from ratingDistribution`);
+      // a listing of 20+ reviews should sit near the generator's floor or above; tiny listings can be anything
+      if (s.reviewCount >= 20 && s.rating < C.listingRatingSd.min - 0.3) errs.push(`${w}: rating ${s.rating} on ${s.reviewCount} reviews is below ${round1(C.listingRatingSd.min - 0.3)}`);
+    }
+    for (const r of reviews.filter((x) => x.locationId === l.id)) if (!sites.has(r.site)) errs.push(`${at}: review ${r.id} on ${r.site}, but the location has no ${r.site} listing`);
+    const ls = l.listings ?? [], tot = ls.reduce((x, s) => x + s.reviewCount, 0);
+    const rs = l.reviewSummary ?? {};
+    const exp = { totalReviews: tot, averageRating: tot ? round1(ls.reduce((x, s) => x + starSum(s.ratingDistribution), 0) / tot) : null, sampledReviews: reviews.filter((x) => x.locationId === l.id).length, listedSites: ls.length };
+    for (const [k, v] of Object.entries(exp)) if (rs[k] !== v) errs.push(`${at}: reviewSummary.${k} ${rs[k]} != ${v}`);
+  }
+  // account and index rollups
+  for (const a of accounts) {
+    const locs = locations.filter((l) => l.accountId === a.id), ls = locs.flatMap((l) => l.listings ?? []), tot = ls.reduce((x, s) => x + s.reviewCount, 0);
+    const exp = { locations: locs.length, openLocations: locs.filter((l) => l.businessStatus === "open").length, listings: ls.length, claimedListings: ls.filter((s) => s.claimed).length, verifiedListings: ls.filter((s) => s.verified).length, totalReviews: tot, averageRating: tot ? round1(ls.reduce((x, s) => x + starSum(s.ratingDistribution), 0) / tot) : null, photoCount: locs.reduce((x, l) => x + l.photoCount, 0) };
+    for (const [k, v] of Object.entries(exp)) if (a.listingSummary?.[k] !== v) errs.push(`${a.id}: listingSummary.${k} ${a.listingSummary?.[k]} != ${v}`);
+    if (JSON.stringify(index.accounts[a.id]?.listingSummary) !== JSON.stringify(a.listingSummary)) errs.push(`${a.id}: accounts-index listingSummary differs from accounts.json`);
+  }
+  if (manifest.counts.listings !== locations.reduce((x, l) => x + (l.listings ?? []).length, 0)) errs.push(`v1/index.json counts.listings mismatch`);
+  if (manifest.distributions && (manifest.distributions.specialHoursWindow.from !== shFrom || manifest.distributions.specialHoursWindow.to !== shTo)) errs.push(`v1/index.json specialHoursWindow != ${shFrom}..${shTo}`);
+  check(`Listings and location details (1.1.0): coordinates within ${C.coordinates.validateWithinKm} km, ratings/counts consistent with sampled reviews, special hours ${shFrom}..${shTo}`, errs);
 }
 
 // ---------- summary ----------

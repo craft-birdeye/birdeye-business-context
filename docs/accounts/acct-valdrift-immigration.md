@@ -31,7 +31,8 @@ Immigration boutique serving Bay Area employers and families. Immigration counse
 ## Data at a glance
 
 - Contacts: 8 (Client, Lead)
-- Reviews: 8, average 3.8★, 4 with replies
+- Reviews: 8, average 4.1★, 7 with replies
+- Listings (invented, schema 1.1.0): 3 across 1 location, 2 claimed, 1 verified; 38 public reviews, average 4.7★; 2 photos
 - Bundle: [`v1/accounts/acct-valdrift-immigration.json`](https://craft-birdeye.github.io/birdeye-business-context/v1/accounts/acct-valdrift-immigration.json)
 
 ## Locations
@@ -39,6 +40,14 @@ Immigration boutique serving Bay Area employers and families. Immigration counse
 | # | Name | Address | Phone | Status |
 |---|---|---|---|---|
 | 1 | Valdrift Immigration Law | 2127 Foxglove Loop, Suite 336, San Jose, CA 95112 | (408) 555-0100 | Active |
+
+## Listings
+
+| # | Business status | Categories | Listings (site: rating · reviews · claimed) | Coordinates |
+|---|---|---|---|---|
+| 1 | Open | Immigration attorney, Legal services | google: 4.8 · 29 · claimed; facebook: 5 · 4 · unclaimed; yelp: 3.8 · 5 · verified | 37.41821, -121.87475 |
+
+Special hours are in the bundle (`specialHours`). They are dated, so they are not repeated here.
 
 ## Prompt snippet
 
