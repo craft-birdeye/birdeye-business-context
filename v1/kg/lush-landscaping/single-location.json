@@ -1,0 +1,152 @@
+{
+  "$schema": "../schemas/single-location.schema.json",
+  "businessName": "Lush Landscaping",
+  "domain": "lushlandscaping.com",
+  "locations": [
+    {
+      "id": "loc-main-st",
+      "basics": {
+        "name": "Lush Landscaping — Main St",
+        "locationCode": "LL-MAIN",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Landscape designer",
+            "Lawn care service"
+          ]
+        },
+        "description": "Crews at the Main St yard build backyard landscaping, vegetable garden design, above ground pool installation, and outdoor living spaces. A visit starts with how to start a garden, then the beds, the pool, and the places to sit.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "418 Bramble Court",
+          "street2": "",
+          "city": "McMinnville",
+          "state": "OR",
+          "stateName": "Oregon",
+          "postalCode": "97128",
+          "country": "US"
+        },
+        "phone": "(503) 555-0142",
+        "website": "https://lushlandscaping.com/locations/main-st"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "08:00",
+            "close": "13:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": false,
+            "open": "08:00",
+            "close": "12:00"
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.mainst"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.mainst"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "OR-LCB-5550142"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "30"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "backyard landscaping"
+        }
+      ]
+    }
+  ]
+}

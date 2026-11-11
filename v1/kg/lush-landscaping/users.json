@@ -1,0 +1,72 @@
+{
+  "$schema": "../schemas/users.schema.json",
+  "businessName": "Lush Landscaping",
+  "domain": "lushlandscaping.com",
+  "users": [
+    {
+      "id": "usr-helena-quorrel",
+      "name": "Helena Quorrel",
+      "email": "helena.quorrel@lushlandscaping.example",
+      "role": "Account Owner"
+    },
+    {
+      "id": "usr-marcus-delvine",
+      "name": "Marcus Delvine",
+      "email": "marcus.delvine@lushlandscaping.example",
+      "role": "Admin"
+    },
+    {
+      "id": "usr-petra-solwen",
+      "name": "Petra Solwen",
+      "email": "petra.solwen@lushlandscaping.example",
+      "role": "Regional Manager",
+      "regionIds": [
+        "grp-willamette"
+      ]
+    },
+    {
+      "id": "usr-nico-hestwell",
+      "name": "Nico Hestwell",
+      "email": "nico.hestwell@lushlandscaping.example",
+      "role": "Regional Manager",
+      "regionIds": [
+        "grp-inland"
+      ]
+    },
+    {
+      "id": "usr-saskia-holmend",
+      "name": "Saskia Holmend",
+      "email": "saskia.holmend@lushlandscaping.example",
+      "role": "Regional Manager",
+      "regionIds": [
+        "grp-piedmont"
+      ]
+    },
+    {
+      "id": "usr-brett-culloway",
+      "name": "Brett Culloway",
+      "email": "brett.culloway@lushlandscaping.example",
+      "role": "Location Manager",
+      "locationIds": [
+        "loc-main-st",
+        "loc-main-design"
+      ]
+    },
+    {
+      "id": "usr-lina-vesperly",
+      "name": "Lina Vesperly",
+      "email": "lina.vesperly@lushlandscaping.example",
+      "role": "Location Manager",
+      "locationIds": [
+        "loc-asheville",
+        "loc-gastonia"
+      ]
+    },
+    {
+      "id": "usr-cedric-mirell",
+      "name": "Cedric Mirell",
+      "email": "cedric.mirell@lushlandscaping.example",
+      "role": "Viewer"
+    }
+  ]
+}

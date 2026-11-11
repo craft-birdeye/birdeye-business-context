@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/craft-birdeye/birdeye-business-context/kg-plan-b/v1/kg/schemas/suggestions.schema.json",
+  "title": "suggestions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "businessName",
+    "domain",
+    "suggestions"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "businessName": {
+      "type": "string",
+      "const": "Lush Landscaping"
+    },
+    "domain": {
+      "type": "string",
+      "const": "lushlandscaping.com"
+    },
+    "suggestions": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "locationId",
+          "field",
+          "currentValue",
+          "suggestedValue",
+          "status",
+          "submittedBy",
+          "submittedAt"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^sug-[a-z0-9-]+$"
+          },
+          "locationId": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^loc-[a-z0-9-]+$"
+          },
+          "field": {
+            "type": "string",
+            "minLength": 1
+          },
+          "currentValue": {
+            "type": "string",
+            "minLength": 1
+          },
+          "suggestedValue": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "approved",
+              "rejected"
+            ]
+          },
+          "submittedBy": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^usr-[a-z0-9-]+$"
+          },
+          "submittedAt": {
+            "type": "string",
+            "minLength": 1,
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          },
+          "reviewedBy": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^usr-[a-z0-9-]+$"
+          },
+          "reviewedAt": {
+            "type": "string",
+            "minLength": 1,
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

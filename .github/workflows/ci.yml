@@ -21,6 +21,8 @@ jobs:
         run: node scripts/generate.mjs
       - name: Validate
         run: node scripts/validate.mjs
+      - name: Validate Knowledge Graph
+        run: node scripts/validate-kg.mjs
       - name: Briefs and schemas are up to date with source
         run: |
           if ! git diff --exit-code -- docs/accounts schemas; then

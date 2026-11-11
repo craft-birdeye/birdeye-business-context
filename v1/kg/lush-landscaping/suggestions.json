@@ -1,0 +1,115 @@
+{
+  "$schema": "../schemas/suggestions.schema.json",
+  "businessName": "Lush Landscaping",
+  "domain": "lushlandscaping.com",
+  "suggestions": [
+    {
+      "id": "sug-keizer-phone",
+      "locationId": "loc-keizer",
+      "field": "contact.phone",
+      "status": "pending",
+      "submittedBy": "usr-petra-solwen",
+      "submittedAt": "2026-11-02T15:10:00Z",
+      "currentValue": "(503) 555-0148",
+      "suggestedValue": "(503) 555-0149"
+    },
+    {
+      "id": "sug-asheville-description",
+      "locationId": "loc-asheville",
+      "field": "basics.description",
+      "status": "pending",
+      "submittedBy": "usr-lina-vesperly",
+      "submittedAt": "2026-11-08T14:05:00Z",
+      "currentValue": "Asheville crews prune, plant, and rebuild backyard landscaping on sloped lots, including outdoor living spaces and vegetable garden design.",
+      "suggestedValue": "Asheville crews prune, plant, and rebuild backyard landscaping on sloped lots, and they now lead with how to start a garden plus vegetable garden design."
+    },
+    {
+      "id": "sug-main-saturday",
+      "locationId": "loc-main-st",
+      "field": "hours.regular.saturday",
+      "status": "pending",
+      "submittedBy": "usr-brett-culloway",
+      "submittedAt": "2026-10-28T18:40:00Z",
+      "currentValue": "08:00-13:00",
+      "suggestedValue": "08:00-15:00"
+    },
+    {
+      "id": "sug-stgeorge-categories",
+      "locationId": "loc-st-george",
+      "field": "basics.categories.additional",
+      "status": "approved",
+      "submittedBy": "usr-nico-hestwell",
+      "submittedAt": "2026-08-12T16:20:00Z",
+      "currentValue": "Lawn care service",
+      "suggestedValue": "Lawn care service, Swimming pool contractor",
+      "reviewedBy": "usr-helena-quorrel",
+      "reviewedAt": "2026-08-19T17:45:00Z",
+      "reason": "Above ground pool installation is offered from this yard, so Swimming pool contractor belongs on the profile."
+    },
+    {
+      "id": "sug-gastonia-instagram",
+      "locationId": "loc-gastonia",
+      "field": "social.instagram",
+      "status": "approved",
+      "submittedBy": "usr-lina-vesperly",
+      "submittedAt": "2026-09-03T13:15:00Z",
+      "currentValue": "https://www.instagram.com/lushlandscaping",
+      "suggestedValue": "https://www.instagram.com/lushlandscaping.gastonia",
+      "reviewedBy": "usr-marcus-delvine",
+      "reviewedAt": "2026-09-10T15:30:00Z",
+      "reason": "Use the Gastonia handle so the yard's posts stay distinct from the brand account."
+    },
+    {
+      "id": "sug-logan-license",
+      "locationId": "loc-logan",
+      "field": "customFields.contractorLicense",
+      "status": "approved",
+      "submittedBy": "usr-nico-hestwell",
+      "submittedAt": "2026-07-20T16:00:00Z",
+      "currentValue": "UT-LC-5550100",
+      "suggestedValue": "UT-LC-5550162",
+      "reviewedBy": "usr-helena-quorrel",
+      "reviewedAt": "2026-07-28T18:20:00Z",
+      "reason": "The posted license was a placeholder. The Logan yard's license is UT-LC-5550162."
+    },
+    {
+      "id": "sug-redmond-street",
+      "locationId": "loc-redmond",
+      "field": "contact.address.street1",
+      "status": "rejected",
+      "submittedBy": "usr-nico-hestwell",
+      "submittedAt": "2026-08-04T19:05:00Z",
+      "currentValue": "86 Calder Lane",
+      "suggestedValue": "100 Main Street",
+      "reviewedBy": "usr-marcus-delvine",
+      "reviewedAt": "2026-08-11T14:40:00Z",
+      "reason": "100 Main Street is not this yard. The Redmond address stays 86 Calder Lane."
+    },
+    {
+      "id": "sug-keizer-website",
+      "locationId": "loc-keizer",
+      "field": "contact.website",
+      "status": "rejected",
+      "submittedBy": "usr-petra-solwen",
+      "submittedAt": "2026-09-15T17:25:00Z",
+      "currentValue": "https://lushlandscaping.com/locations/keizer",
+      "suggestedValue": "https://example.com",
+      "reviewedBy": "usr-helena-quorrel",
+      "reviewedAt": "2026-09-22T16:10:00Z",
+      "reason": "The website has to stay on lushlandscaping.com."
+    },
+    {
+      "id": "sug-design-phone",
+      "locationId": "loc-main-design",
+      "field": "contact.phone",
+      "status": "rejected",
+      "submittedBy": "usr-brett-culloway",
+      "submittedAt": "2026-10-01T15:50:00Z",
+      "currentValue": "(503) 555-0143",
+      "suggestedValue": "(503) 555-0199",
+      "reviewedBy": "usr-marcus-delvine",
+      "reviewedAt": "2026-10-06T19:15:00Z",
+      "reason": "The design studio keeps its own direct line, (503) 555-0143."
+    }
+  ]
+}

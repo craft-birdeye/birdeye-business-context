@@ -1,0 +1,46 @@
+{
+  "$schema": "../schemas/groups.schema.json",
+  "businessName": "Lush Landscaping",
+  "domain": "lushlandscaping.com",
+  "groups": [
+    {
+      "id": "grp-willamette",
+      "name": "Willamette",
+      "kind": "region",
+      "locationIds": [
+        "loc-main-st",
+        "loc-main-design",
+        "loc-keizer"
+      ]
+    },
+    {
+      "id": "grp-inland",
+      "name": "Inland",
+      "kind": "region",
+      "locationIds": [
+        "loc-redmond",
+        "loc-logan",
+        "loc-st-george"
+      ]
+    },
+    {
+      "id": "grp-piedmont",
+      "name": "Piedmont",
+      "kind": "region",
+      "locationIds": [
+        "loc-asheville",
+        "loc-gastonia"
+      ]
+    },
+    {
+      "id": "grp-lush",
+      "name": "Lush Landscaping",
+      "kind": "brand",
+      "regionIds": [
+        "grp-willamette",
+        "grp-inland",
+        "grp-piedmont"
+      ]
+    }
+  ]
+}
