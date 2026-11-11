@@ -1,0 +1,182 @@
+{
+  "$schema": "../schemas/people.schema.json",
+  "businessName": "Lush Landscaping",
+  "domain": "lushlandscaping.com",
+  "people": [
+    {
+      "id": "ppl-nessa-quillhaven",
+      "name": "Nessa Quillhaven",
+      "title": "Crew Lead",
+      "specialties": [
+        "backyard landscaping",
+        "lawn maintenance"
+      ],
+      "locationIds": [
+        "loc-main-st",
+        "loc-keizer"
+      ]
+    },
+    {
+      "id": "ppl-corin-dovewell",
+      "name": "Corin Dovewell",
+      "title": "Crew Lead",
+      "specialties": [
+        "backyard landscaping",
+        "lawn maintenance"
+      ],
+      "locationIds": [
+        "loc-gastonia"
+      ]
+    },
+    {
+      "id": "ppl-tamsin-brookmere",
+      "name": "Tamsin Brookmere",
+      "title": "Irrigation Specialist",
+      "specialties": [
+        "irrigation",
+        "vegetable garden design"
+      ],
+      "locationIds": [
+        "loc-main-st",
+        "loc-redmond",
+        "loc-logan"
+      ]
+    },
+    {
+      "id": "ppl-leif-calderwell",
+      "name": "Leif Calderwell",
+      "title": "Hardscape Designer",
+      "specialties": [
+        "outdoor living spaces",
+        "hardscape"
+      ],
+      "locationIds": [
+        "loc-main-st",
+        "loc-main-design"
+      ]
+    },
+    {
+      "id": "ppl-priya-mossglen",
+      "name": "Priya Mossglen",
+      "title": "Arborist",
+      "specialties": [
+        "tree care",
+        "backyard landscaping"
+      ],
+      "locationIds": [
+        "loc-asheville",
+        "loc-gastonia"
+      ]
+    },
+    {
+      "id": "ppl-jonah-reedhollow",
+      "name": "Jonah Reedhollow",
+      "title": "Landscape Designer",
+      "specialties": [
+        "backyard landscaping",
+        "outdoor living spaces"
+      ],
+      "locationIds": [
+        "loc-main-design"
+      ]
+    },
+    {
+      "id": "ppl-harlow-duneberry",
+      "name": "Harlow Duneberry",
+      "title": "Pool Installation Lead",
+      "specialties": [
+        "above ground pool installation",
+        "above ground pool"
+      ],
+      "locationIds": [
+        "loc-st-george"
+      ]
+    },
+    {
+      "id": "ppl-ellis-thornwick",
+      "name": "Ellis Thornwick",
+      "title": "Vegetable Garden Specialist",
+      "specialties": [
+        "vegetable garden design",
+        "how to start a garden",
+        "vegetable garden"
+      ],
+      "locationIds": [
+        "loc-keizer"
+      ]
+    },
+    {
+      "id": "ppl-maren-pellmont",
+      "name": "Maren Pellmont",
+      "title": "Crew Lead",
+      "specialties": [
+        "backyard landscaping",
+        "lawn maintenance"
+      ],
+      "locationIds": [
+        "loc-asheville"
+      ]
+    },
+    {
+      "id": "ppl-torin-keelbrook",
+      "name": "Torin Keelbrook",
+      "title": "Outdoor Living Designer",
+      "specialties": [
+        "outdoor living spaces",
+        "backyard landscaping"
+      ],
+      "locationIds": [
+        "loc-redmond",
+        "loc-st-george"
+      ]
+    },
+    {
+      "id": "ppl-soren-halvick",
+      "name": "Soren Halvick",
+      "title": "Maintenance Supervisor",
+      "specialties": [
+        "lawn maintenance",
+        "backyard landscaping"
+      ],
+      "locationIds": [
+        "loc-logan"
+      ]
+    },
+    {
+      "id": "ppl-willa-brambleigh",
+      "name": "Willa Brambleigh",
+      "title": "Planting Specialist",
+      "specialties": [
+        "vegetable garden design",
+        "backyard landscaping"
+      ],
+      "locationIds": [
+        "loc-keizer"
+      ]
+    },
+    {
+      "id": "ppl-callum-vetchford",
+      "name": "Callum Vetchford",
+      "title": "Hardscape Installer",
+      "specialties": [
+        "hardscape",
+        "outdoor living spaces"
+      ],
+      "locationIds": [
+        "loc-main-st"
+      ]
+    },
+    {
+      "id": "ppl-odette-fenmere",
+      "name": "Odette Fenmere",
+      "title": "Design Studio Lead",
+      "specialties": [
+        "backyard landscaping",
+        "outdoor living spaces"
+      ],
+      "locationIds": [
+        "loc-main-design"
+      ]
+    }
+  ]
+}

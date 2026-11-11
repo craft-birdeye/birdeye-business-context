@@ -6,6 +6,7 @@
 //   node scripts/generate.mjs --date 2026-10-21
 //   BASE_URL=https://example.github.io/x node scripts/generate.mjs
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { CENTERS } from "./lib/centers.mjs";
@@ -118,6 +119,14 @@ const branding = { $schema: schemaUrl("branding"), schemaVersion: SCHEMA_VERSION
 
 // ---- write v1 ----
 const V1 = path.join(ROOT, "v1");
+// v1/kg is hand-authored Knowledge Graph data, not produced from source/.
+// The rewrite below deletes v1/, so keep kg and put it back.
+const kgDir = path.join(V1, "kg");
+let kgBackup = null;
+if (fs.existsSync(kgDir)) {
+  kgBackup = fs.mkdtempSync(path.join(os.tmpdir(), "birdeye-kg-"));
+  fs.cpSync(kgDir, path.join(kgBackup, "kg"), { recursive: true });
+}
 fs.rmSync(V1, { recursive: true, force: true });
 fs.mkdirSync(path.join(V1, "accounts"), { recursive: true });
 fs.mkdirSync(path.join(V1, "logos"), { recursive: true });
@@ -147,6 +156,11 @@ write("v1/index.json", {
   counts: { accounts: accounts.length, locations: locations.length, contacts: contacts.length, reviews: reviews.length, listings: locations.reduce((x, l) => x + l.listings.length, 0) },
   distributions: { version: D.version, seed: D.seed, specialHoursWindow: specialHoursWindowFor() },
 });
+if (kgBackup) {
+  fs.cpSync(path.join(kgBackup, "kg"), path.join(V1, "kg"), { recursive: true });
+  fs.rmSync(kgBackup, { recursive: true, force: true });
+  console.log("preserved v1/kg");
+}
 
 // ---- per-account briefs (no dates, so they only change when source changes) ----
 fs.mkdirSync(path.join(ROOT, "docs", "accounts"), { recursive: true });

@@ -1,0 +1,1151 @@
+{
+  "$schema": "../schemas/locations.schema.json",
+  "businessName": "Lush Landscaping",
+  "domain": "lushlandscaping.com",
+  "locations": [
+    {
+      "id": "loc-main-st",
+      "basics": {
+        "name": "Lush Landscaping — Main St",
+        "locationCode": "LL-MAIN",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Landscape designer",
+            "Lawn care service"
+          ]
+        },
+        "description": "Crews at the Main St yard build backyard landscaping, vegetable garden design, above ground pool installation, and outdoor living spaces. A visit starts with how to start a garden, then the beds, the pool, and the places to sit.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "418 Bramble Court",
+          "street2": "",
+          "city": "McMinnville",
+          "state": "OR",
+          "stateName": "Oregon",
+          "postalCode": "97128",
+          "country": "US"
+        },
+        "phone": "(503) 555-0142",
+        "website": "https://lushlandscaping.com/locations/main-st"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "08:00",
+            "close": "13:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": false,
+            "open": "08:00",
+            "close": "12:00"
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.mainst"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.mainst"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "OR-LCB-5550142"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "30"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "backyard landscaping"
+        }
+      ]
+    },
+    {
+      "id": "loc-main-design",
+      "basics": {
+        "name": "Lush Landscaping — Main St Design Studio",
+        "locationCode": "LL-MAIN-DS",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Landscape designer"
+          ]
+        },
+        "description": "The design studio sits inside the Main St yard. Designers draw backyard landscaping and outdoor living spaces, including vegetable garden design and above ground pool installation, and hand the plan to the crew on the other side of the yard.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "418 Bramble Court",
+          "street2": "Design Studio",
+          "city": "McMinnville",
+          "state": "OR",
+          "stateName": "Oregon",
+          "postalCode": "97128",
+          "country": "US"
+        },
+        "phone": "(503) 555-0143",
+        "website": "https://lushlandscaping.com/locations/main-st-design"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "09:00",
+            "close": "17:00"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "09:00",
+            "close": "17:00"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "09:00",
+            "close": "17:00"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "09:00",
+            "close": "17:00"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "09:00",
+            "close": "17:00"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "09:00",
+            "close": "13:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": false,
+            "open": "09:00",
+            "close": "12:00"
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.maindesign"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.maindesign"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "OR-LCB-5550143"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "30"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "outdoor living spaces"
+        }
+      ]
+    },
+    {
+      "id": "loc-keizer",
+      "basics": {
+        "name": "Lush Landscaping — Keizer",
+        "locationCode": "LL-KEIZER",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Lawn care service"
+          ]
+        },
+        "description": "The Keizer crew keeps lawns and builds backyard landscaping, with vegetable garden design for new beds and a walkthrough of how to start a garden before the first planting.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "220 Quill Lane",
+          "street2": "",
+          "city": "Keizer",
+          "state": "OR",
+          "stateName": "Oregon",
+          "postalCode": "97303",
+          "country": "US"
+        },
+        "phone": "(503) 555-0148",
+        "website": "https://lushlandscaping.com/locations/keizer"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:00"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:00"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:00"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:00"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:00"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "08:00",
+            "close": "13:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": true
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.keizer"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.keizer"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "OR-LCB-5550148"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "20"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "how to start a garden"
+        }
+      ]
+    },
+    {
+      "id": "loc-redmond",
+      "basics": {
+        "name": "Lush Landscaping — Redmond",
+        "locationCode": "LL-REDMOND",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Lawn care service"
+          ]
+        },
+        "description": "Redmond crews install irrigation and backyard landscaping for dry summers, including vegetable garden design and outdoor living spaces that can take an afternoon wind.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "86 Calder Lane",
+          "street2": "",
+          "city": "Redmond",
+          "state": "OR",
+          "stateName": "Oregon",
+          "postalCode": "97756",
+          "country": "US"
+        },
+        "phone": "(541) 555-0151",
+        "website": "https://lushlandscaping.com/locations/redmond"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "08:00",
+            "close": "12:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": true
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.redmond"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.redmond"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "OR-LCB-5550151"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "25"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "vegetable garden design"
+        }
+      ]
+    },
+    {
+      "id": "loc-logan",
+      "basics": {
+        "name": "Lush Landscaping — Logan",
+        "locationCode": "LL-LOGAN",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Lawn care service"
+          ]
+        },
+        "description": "The Logan yard builds backyard landscaping and outdoor living spaces, and plans vegetable garden design for a short season, including how to start a garden in a cold spring.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "1405 Brookmere Drive",
+          "street2": "",
+          "city": "Logan",
+          "state": "UT",
+          "stateName": "Utah",
+          "postalCode": "84321",
+          "country": "US"
+        },
+        "phone": "(435) 555-0162",
+        "website": "https://lushlandscaping.com/locations/logan"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:30"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:30"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:30"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:30"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:30"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "08:00",
+            "close": "13:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": true
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.logan"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.logan"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "UT-LC-5550162"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "25"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "vegetable garden"
+        }
+      ]
+    },
+    {
+      "id": "loc-st-george",
+      "basics": {
+        "name": "Lush Landscaping — St. George",
+        "locationCode": "LL-STGEO",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Lawn care service",
+            "Swimming pool contractor"
+          ]
+        },
+        "description": "St. George crews handle above ground pool installation and the backyard landscaping and outdoor living spaces around the pool, plus vegetable garden design for hot, bright yards.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "733 Halvick Way",
+          "street2": "",
+          "city": "St. George",
+          "state": "UT",
+          "stateName": "Utah",
+          "postalCode": "84770",
+          "country": "US"
+        },
+        "phone": "(435) 555-0174",
+        "website": "https://lushlandscaping.com/locations/st-george"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "07:00",
+            "close": "17:00"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "07:00",
+            "close": "12:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": true
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.stgeorge"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.stgeorge"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "UT-LC-5550174"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "35"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "above ground pool installation"
+        }
+      ]
+    },
+    {
+      "id": "loc-asheville",
+      "basics": {
+        "name": "Lush Landscaping — Asheville",
+        "locationCode": "LL-ASHE",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Tree service",
+            "Landscape designer"
+          ]
+        },
+        "description": "Asheville crews prune, plant, and rebuild backyard landscaping on sloped lots, including outdoor living spaces and vegetable garden design.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "19 Pellmont Street",
+          "street2": "",
+          "city": "Asheville",
+          "state": "NC",
+          "stateName": "North Carolina",
+          "postalCode": "28801",
+          "country": "US"
+        },
+        "phone": "(828) 555-0180",
+        "website": "https://lushlandscaping.com/locations/asheville"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "08:00",
+            "close": "13:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": true
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.asheville"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.asheville"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "NC-LC-5550180"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "25"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "backyard landscaping"
+        }
+      ]
+    },
+    {
+      "id": "loc-gastonia",
+      "basics": {
+        "name": "Lush Landscaping — Gastonia",
+        "locationCode": "LL-GASTON",
+        "categories": {
+          "primary": "Landscaper",
+          "additional": [
+            "Lawn care service",
+            "Tree service"
+          ]
+        },
+        "description": "The Gastonia crew keeps lawns and builds backyard landscaping, with vegetable garden design for new beds and outdoor living spaces for small yards.",
+        "services": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces"
+        ],
+        "keywords": [
+          "backyard landscaping",
+          "vegetable garden design",
+          "above ground pool installation",
+          "outdoor living spaces",
+          "how to start a garden",
+          "above ground pool",
+          "vegetable garden"
+        ]
+      },
+      "contact": {
+        "address": {
+          "street1": "512 Vetchford Avenue",
+          "street2": "",
+          "city": "Gastonia",
+          "state": "NC",
+          "stateName": "North Carolina",
+          "postalCode": "28052",
+          "country": "US"
+        },
+        "phone": "(704) 555-0188",
+        "website": "https://lushlandscaping.com/locations/gastonia"
+      },
+      "hours": {
+        "regular": [
+          {
+            "day": "monday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "tuesday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "wednesday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "thursday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "friday",
+            "closed": false,
+            "open": "07:30",
+            "close": "17:30"
+          },
+          {
+            "day": "saturday",
+            "closed": false,
+            "open": "08:00",
+            "close": "13:00"
+          },
+          {
+            "day": "sunday",
+            "closed": true
+          }
+        ],
+        "special": [
+          {
+            "date": "2026-09-07",
+            "name": "Labor Day",
+            "closed": true
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "closed": true
+          },
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "closed": true
+          }
+        ]
+      },
+      "social": [
+        {
+          "network": "facebook",
+          "url": "https://www.facebook.com/lushlandscaping.gastonia"
+        },
+        {
+          "network": "instagram",
+          "url": "https://www.instagram.com/lushlandscaping.gastonia"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/company/lushlandscaping"
+        },
+        {
+          "network": "youtube",
+          "url": "https://www.youtube.com/@lushlandscaping"
+        },
+        {
+          "network": "x",
+          "url": "https://x.com/lushlandscaping"
+        }
+      ],
+      "customFields": [
+        {
+          "key": "contractorLicense",
+          "label": "Contractor license",
+          "value": "NC-LC-5550188"
+        },
+        {
+          "key": "serviceRadiusMiles",
+          "label": "Service radius (miles)",
+          "value": "20"
+        },
+        {
+          "key": "primaryKeyword",
+          "label": "Primary keyword",
+          "value": "above ground pool"
+        }
+      ]
+    }
+  ]
+}

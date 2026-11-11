@@ -30,6 +30,8 @@ jobs:
         run: node scripts/generate.mjs
       - name: Validate (and require data generated today)
         run: node scripts/validate.mjs --max-age-days 1
+      - name: Validate Knowledge Graph
+        run: node scripts/validate-kg.mjs
       - name: Assemble site
         run: |
           mkdir -p _site

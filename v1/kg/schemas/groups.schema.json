@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/craft-birdeye/birdeye-business-context/kg-plan-b/v1/kg/schemas/groups.schema.json",
+  "title": "groups",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "businessName",
+    "domain",
+    "groups"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "businessName": {
+      "type": "string",
+      "const": "Lush Landscaping"
+    },
+    "domain": {
+      "type": "string",
+      "const": "lushlandscaping.com"
+    },
+    "groups": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "kind"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^grp-[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "region",
+              "brand"
+            ]
+          },
+          "locationIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^loc-[a-z0-9-]+$"
+            }
+          },
+          "regionIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^grp-[a-z0-9-]+$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

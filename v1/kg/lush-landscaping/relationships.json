@@ -1,0 +1,263 @@
+{
+  "$schema": "../schemas/relationships.schema.json",
+  "businessName": "Lush Landscaping",
+  "domain": "lushlandscaping.com",
+  "relationships": [
+    {
+      "id": "rel-works-at-ppl-nessa-quillhaven-loc-main-st",
+      "type": "works-at",
+      "from": "ppl-nessa-quillhaven",
+      "to": "loc-main-st",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-nessa-quillhaven-loc-keizer",
+      "type": "works-at",
+      "from": "ppl-nessa-quillhaven",
+      "to": "loc-keizer",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-corin-dovewell-loc-gastonia",
+      "type": "works-at",
+      "from": "ppl-corin-dovewell",
+      "to": "loc-gastonia",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-tamsin-brookmere-loc-main-st",
+      "type": "works-at",
+      "from": "ppl-tamsin-brookmere",
+      "to": "loc-main-st",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-tamsin-brookmere-loc-redmond",
+      "type": "works-at",
+      "from": "ppl-tamsin-brookmere",
+      "to": "loc-redmond",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-tamsin-brookmere-loc-logan",
+      "type": "works-at",
+      "from": "ppl-tamsin-brookmere",
+      "to": "loc-logan",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-leif-calderwell-loc-main-st",
+      "type": "works-at",
+      "from": "ppl-leif-calderwell",
+      "to": "loc-main-st",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-leif-calderwell-loc-main-design",
+      "type": "works-at",
+      "from": "ppl-leif-calderwell",
+      "to": "loc-main-design",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-priya-mossglen-loc-asheville",
+      "type": "works-at",
+      "from": "ppl-priya-mossglen",
+      "to": "loc-asheville",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-priya-mossglen-loc-gastonia",
+      "type": "works-at",
+      "from": "ppl-priya-mossglen",
+      "to": "loc-gastonia",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-jonah-reedhollow-loc-main-design",
+      "type": "works-at",
+      "from": "ppl-jonah-reedhollow",
+      "to": "loc-main-design",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-harlow-duneberry-loc-st-george",
+      "type": "works-at",
+      "from": "ppl-harlow-duneberry",
+      "to": "loc-st-george",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-ellis-thornwick-loc-keizer",
+      "type": "works-at",
+      "from": "ppl-ellis-thornwick",
+      "to": "loc-keizer",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-maren-pellmont-loc-asheville",
+      "type": "works-at",
+      "from": "ppl-maren-pellmont",
+      "to": "loc-asheville",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-torin-keelbrook-loc-redmond",
+      "type": "works-at",
+      "from": "ppl-torin-keelbrook",
+      "to": "loc-redmond",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-torin-keelbrook-loc-st-george",
+      "type": "works-at",
+      "from": "ppl-torin-keelbrook",
+      "to": "loc-st-george",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-soren-halvick-loc-logan",
+      "type": "works-at",
+      "from": "ppl-soren-halvick",
+      "to": "loc-logan",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-willa-brambleigh-loc-keizer",
+      "type": "works-at",
+      "from": "ppl-willa-brambleigh",
+      "to": "loc-keizer",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-callum-vetchford-loc-main-st",
+      "type": "works-at",
+      "from": "ppl-callum-vetchford",
+      "to": "loc-main-st",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-works-at-ppl-odette-fenmere-loc-main-design",
+      "type": "works-at",
+      "from": "ppl-odette-fenmere",
+      "to": "loc-main-design",
+      "forwardLabel": "works at",
+      "reverseLabel": "employs"
+    },
+    {
+      "id": "rel-belongs-to-loc-main-st-grp-willamette",
+      "type": "belongs-to",
+      "from": "loc-main-st",
+      "to": "grp-willamette",
+      "forwardLabel": "belongs to",
+      "reverseLabel": "contains"
+    },
+    {
+      "id": "rel-belongs-to-loc-main-design-grp-willamette",
+      "type": "belongs-to",
+      "from": "loc-main-design",
+      "to": "grp-willamette",
+      "forwardLabel": "belongs to",
+      "reverseLabel": "contains"
+    },
+    {
+      "id": "rel-belongs-to-loc-keizer-grp-willamette",
+      "type": "belongs-to",
+      "from": "loc-keizer",
+      "to": "grp-willamette",
+      "forwardLabel": "belongs to",
+      "reverseLabel": "contains"
+    },
+    {
+      "id": "rel-belongs-to-loc-redmond-grp-inland",
+      "type": "belongs-to",
+      "from": "loc-redmond",
+      "to": "grp-inland",
+      "forwardLabel": "belongs to",
+      "reverseLabel": "contains"
+    },
+    {
+      "id": "rel-belongs-to-loc-logan-grp-inland",
+      "type": "belongs-to",
+      "from": "loc-logan",
+      "to": "grp-inland",
+      "forwardLabel": "belongs to",
+      "reverseLabel": "contains"
+    },
+    {
+      "id": "rel-belongs-to-loc-st-george-grp-inland",
+      "type": "belongs-to",
+      "from": "loc-st-george",
+      "to": "grp-inland",
+      "forwardLabel": "belongs to",
+      "reverseLabel": "contains"
+    },
+    {
+      "id": "rel-belongs-to-loc-asheville-grp-piedmont",
+      "type": "belongs-to",
+      "from": "loc-asheville",
+      "to": "grp-piedmont",
+      "forwardLabel": "belongs to",
+      "reverseLabel": "contains"
+    },
+    {
+      "id": "rel-belongs-to-loc-gastonia-grp-piedmont",
+      "type": "belongs-to",
+      "from": "loc-gastonia",
+      "to": "grp-piedmont",
+      "forwardLabel": "belongs to",
+      "reverseLabel": "contains"
+    },
+    {
+      "id": "rel-part-of-grp-willamette-grp-lush",
+      "type": "part-of",
+      "from": "grp-willamette",
+      "to": "grp-lush",
+      "forwardLabel": "part of",
+      "reverseLabel": "includes"
+    },
+    {
+      "id": "rel-part-of-grp-inland-grp-lush",
+      "type": "part-of",
+      "from": "grp-inland",
+      "to": "grp-lush",
+      "forwardLabel": "part of",
+      "reverseLabel": "includes"
+    },
+    {
+      "id": "rel-part-of-grp-piedmont-grp-lush",
+      "type": "part-of",
+      "from": "grp-piedmont",
+      "to": "grp-lush",
+      "forwardLabel": "part of",
+      "reverseLabel": "includes"
+    },
+    {
+      "id": "rel-department-of-loc-main-design-loc-main-st",
+      "type": "department-of",
+      "from": "loc-main-design",
+      "to": "loc-main-st",
+      "forwardLabel": "department of",
+      "reverseLabel": "has department"
+    }
+  ]
+}

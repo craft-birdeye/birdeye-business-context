@@ -1,0 +1,325 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/craft-birdeye/birdeye-business-context/kg-plan-b/v1/kg/schemas/single-location.schema.json",
+  "title": "single-location",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "businessName",
+    "domain",
+    "locations"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "businessName": {
+      "type": "string",
+      "const": "Lush Landscaping"
+    },
+    "domain": {
+      "type": "string",
+      "const": "lushlandscaping.com"
+    },
+    "locations": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "basics",
+          "contact",
+          "hours",
+          "social",
+          "customFields"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^loc-[a-z0-9-]+$",
+            "const": "loc-main-st"
+          },
+          "basics": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "locationCode",
+              "categories",
+              "description",
+              "services",
+              "keywords"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "locationCode": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^LL-[A-Z0-9-]+$"
+              },
+              "categories": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "primary",
+                  "additional"
+                ],
+                "properties": {
+                  "primary": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "additional": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "services": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "contact": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "address",
+              "phone",
+              "website"
+            ],
+            "properties": {
+              "address": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "street1",
+                  "street2",
+                  "city",
+                  "state",
+                  "stateName",
+                  "postalCode",
+                  "country"
+                ],
+                "properties": {
+                  "street1": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "street2": {
+                    "type": "string"
+                  },
+                  "city": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "state": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[A-Z]{2}$"
+                  },
+                  "stateName": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "postalCode": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9]{5}$"
+                  },
+                  "country": {
+                    "type": "string",
+                    "const": "US"
+                  }
+                }
+              },
+              "phone": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^\\([0-9]{3}\\) 555-01[0-9]{2}$"
+              },
+              "website": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^https://lushlandscaping\\.com(/[a-z0-9-]+)*$"
+              }
+            }
+          },
+          "hours": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "regular",
+              "special"
+            ],
+            "properties": {
+              "regular": {
+                "type": "array",
+                "minItems": 7,
+                "maxItems": 7,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "day",
+                    "closed"
+                  ],
+                  "properties": {
+                    "day": {
+                      "type": "string",
+                      "enum": [
+                        "monday",
+                        "tuesday",
+                        "wednesday",
+                        "thursday",
+                        "friday",
+                        "saturday",
+                        "sunday"
+                      ]
+                    },
+                    "closed": {
+                      "type": "boolean"
+                    },
+                    "open": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "close": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    }
+                  }
+                }
+              },
+              "special": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "date",
+                    "name",
+                    "closed"
+                  ],
+                  "properties": {
+                    "date": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "closed": {
+                      "type": "boolean"
+                    },
+                    "open": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "close": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "social": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "network",
+                "url"
+              ],
+              "properties": {
+                "network": {
+                  "type": "string",
+                  "enum": [
+                    "facebook",
+                    "instagram",
+                    "linkedin",
+                    "youtube",
+                    "x"
+                  ]
+                },
+                "url": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "^https://[a-z0-9.-]+/(company/|@)?lushlandscaping([.][a-z0-9]+)?$"
+                }
+              }
+            }
+          },
+          "customFields": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "key",
+                "label",
+                "value"
+              ],
+              "properties": {
+                "key": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "^[A-Za-z][A-Za-z0-9]*$"
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
